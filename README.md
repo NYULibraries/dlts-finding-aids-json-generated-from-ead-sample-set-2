@@ -1,2 +1,2 @@
-* Go types: [c856064113ffbd3352e5afbd304453e64b449c68](https://github.com/NYULibraries/dlts-finding-aids-ead-go-packages/commit/c856064113ffbd3352e5afbd304453e64b449c68)/
-* EAD source files: [v3](https://github.com/NYULibraries/dlts-finding-aids-ead-sample-set-2/releases/tag/v3) ([ccaf64e328a49fad395c97bf99bee4339b42a51b](https://github.com/NYULibraries/dlts-finding-aids-ead-sample-set-2/commit/ccaf64e328a49fad395c97bf99bee4339b42a51b))
+* Go types: [c856064113ffbd3352e5afbd304453e64b449c68](https://github.com/NYULibraries/dlts-finding-aids-ead-go-packages/commit/c856064113ffbd3352e5afbd304453e64b449c68)
+* EAD source files: [v3.1](https://github.com/NYULibraries/dlts-finding-aids-ead-sample-set-2/tag/v3.1) ([299cf26d0305379e437ee627d17285673ed985d8](https://github.com/NYULibraries/dlts-finding-aids-ead-sample-set-2/commit/299cf26d0305379e437ee627d17285673ed985d8))
