@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_cff149ae7b6f791b749015c529d9eec7",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_0e840e9faaff3fbef4bb1dd9730af03f",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Donated by Eve Shaftel in 2000. The accession number associated with this gift is 2000.004."
@@ -34,11 +30,9 @@
         "arrangement": [
             {
                 "id": "aspace_5c9d67784e400f8d2d7bfa97319f3b81",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "The collection has not been arranged by an archivist. Materials are in the order in which they were received from the donor."
@@ -49,11 +43,9 @@
         "bioghist": [
             {
                 "id": "aspace_7439cd62c5de2092e24ea64691420d15",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Oscar Shaftel (1912-2000) was a faculty member at Queens College who was fired in 1953 after he refused to answer the New York City Board of Higher Education's questions about Communist affiliations in academia."
@@ -61,149 +53,158 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "United States. Federal Bureau of Investigation"
-                    },
-                    {
-                        "value": "New York (N.Y.). Board of Higher Education"
-                    },
-                    {
-                        "value": "United States. Congress. Senate. Committee on the Judiciary. Subcommittee to Investigate the Administration of the Internal Security Act and Other Internal Security Laws"
+        "controlaccess": {
+            "corpname": [
+                {
+                    "rules": "aacr",
+                    "source": "naf",
+                    "value": "United States. Federal Bureau of Investigation"
+                },
+                {
+                    "source": "naf",
+                    "value": "New York (N.Y.). Board of Higher Education"
+                },
+                {
+                    "source": "naf",
+                    "value": "United States. Congress. Senate. Committee on the Judiciary. Subcommittee to Investigate the Administration of the Internal Security Act and Other Internal Security Laws"
+                }
+            ],
+            "persname": [
+                {
+                    "role": "Donor",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Shaftel, Eve"
+                },
+                {
+                    "source": "local",
+                    "value": "Shaftel, Oscar, 1912-2000"
+                },
+                {
+                    "source": "naf",
+                    "value": "Shlakman, Vera, 1909-2017"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Communists |z New York (State) |z New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "College teachers |z New York (State) |z New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Academic freedom |z New York (State) |z New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Jewish communists -- New York (State) -- New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Higher education and state |z New York (State) |z New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Academic freedom |z United States."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 2 manuscript boxes",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Oscar Shaftel (1912-2000) was a faculty member at Queens College who was fired in 1953 after he refused to answer the New York City Board of Higher Education's questions about Communist affiliations in academia. This collection contains clippings, correspondence, printed ephemera, legal documents and testimonies.",
+                    "id": "aspace_76e00e915a47d959805903000a98e1d8"
+                }
+            ],
+            "container": [
+                {
+                    "barcode": "31142062883544",
+                    "label": "Mixed Materials",
+                    "altrender": "Manuscript box - Legal - Half",
+                    "id": "aspace_5b72d4394be3e3d0fe02656b6088ead9",
+                    "type": "box",
+                    "value": "1"
+                },
+                {
+                    "barcode": "31142062883551",
+                    "label": "Mixed Materials",
+                    "altrender": "Manuscript box - Legal - Half",
+                    "id": "aspace_4b00b0eea493cc5b27d656f95c3a08d6",
+                    "type": "box",
+                    "value": "2"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "persname": [
-                    {
+                }
+            ],
+            "origination": [
+                {
+                    "label": "source",
+                    "persname": {
                         "role": "Donor",
+                        "rules": "dacs",
+                        "source": "local",
                         "value": "Shaftel, Eve"
-                    },
-                    {
+                    }
+                },
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
                         "value": "Shaftel, Oscar, 1912-2000"
-                    },
-                    {
-                        "value": "Shlakman, Vera, 1909-2017"
                     }
-                ],
-                "subject": [
-                    "Communists |z New York (State) |z New York.",
-                    "College teachers |z New York (State) |z New York.",
-                    "Academic freedom |z New York (State) |z New York.",
-                    "Jewish communists -- New York (State) -- New York.",
-                    "Higher education and state |z New York (State) |z New York.",
-                    "Academic freedom |z United States."
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1940/1999",
+                    "type": "inclusive",
+                    "value": "1940s-1990s"
+                }
+            ],
+            "unitid": "TAM.263",
+            "unittitle": {
+                "value": "Oscar Shaftel Papers"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.5 Linear Feet"
-                            },
-                            {
-                                "value": "in 2 manuscript boxes"
-                            }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "Oscar Shaftel (1912-2000) was a faculty member at Queens College who was fired in 1953 after he refused to answer the New York City Board of Higher Education's questions about Communist affiliations in academia. This collection contains clippings, correspondence, printed ephemera, legal documents and testimonies.",
-                        "id": "aspace_76e00e915a47d959805903000a98e1d8"
-                    }
-                ],
-                "container": [
-                    {
-                        "barcode": "31142062883544",
-                        "label": "Mixed Materials",
-                        "altrender": "Manuscript box - Legal - Half",
-                        "id": "aspace_5b72d4394be3e3d0fe02656b6088ead9",
-                        "type": "box",
-                        "value": "1"
-                    },
-                    {
-                        "barcode": "31142062883551",
-                        "label": "Mixed Materials",
-                        "altrender": "Manuscript box - Legal - Half",
-                        "id": "aspace_4b00b0eea493cc5b27d656f95c3a08d6",
-                        "type": "box",
-                        "value": "2"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "role": "Donor",
-                                "value": "Shaftel, Eve"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Shaftel, Oscar, 1912-2000"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1940/1999",
-                        "type": "inclusive",
-                        "value": "1940s-1990s"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.263"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Oscar Shaftel Papers"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {}
-        ],
+        },
+        "dsc": {},
         "prefercite": [
             {
                 "id": "aspace_9c4956ea82b8a1fc1d97fb2eaea81815",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; Oscar Shaftel Papers; TAM 263; box number; folder number; Tamiment Library/Robert F. Wagner Labor Archives, New York University."
@@ -214,11 +215,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_b8a5f26ad436a1c6e70050fd51a4002a",
-                "head": [
-                    {
-                        "value": "Related Archival Materials"
-                    }
-                ],
+                "head": {
+                    "value": "Related Archival Materials"
+                },
                 "p": [
                     {
                         "value": "Investigation Files of the Rapp-Coudert Committee (TAM 533)"
@@ -244,11 +243,9 @@
         "scopecontent": [
             {
                 "id": "aspace_53277cf5893188c236279ca0114c6ddd",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "This collection contains clippings, correspondence, printed ephemera, legal documents and testimonies. Also included are broadsides, pamphlets and flyers, and the testimony of Shaftel and Vera Shlakman before the United States Senate Internal Security Subcommittee. This collection also includes Shaftel's FBI file, which is closed to researchers until 2017."
@@ -259,11 +256,9 @@
         "userestrict": [
             {
                 "id": "aspace_991af21da3c4ffd17073f5d9128966e3",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (and related rights to publicity and privacy) to materials in this collection created by Oscar Shaftel was not transferred to New York University. Permission to use materials must be secured from the copyright holder. Tamiment Library and Robert F. Wagner Labor Archive  has no information about copyright ownership for Oscar Shaftel's FBI files in Box 2 and is not authorized to grant permission to publish or reproduce materials from it."
@@ -272,91 +267,77 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "tam_263"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "tam_263"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e12/04/2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Tamiment staff"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Oscar Shaftel Papers \u003cspan class=\"ead-num\"\u003eTAM.263\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:50:50 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in English"
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e12/04/2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "12/04/2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Tamiment staff",
+                "titleproper": [
+                    {
+                        "value": "Oscar Shaftel Papers \u003cspan class=\"ead-num\"\u003eTAM.263\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.263"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:50:50 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

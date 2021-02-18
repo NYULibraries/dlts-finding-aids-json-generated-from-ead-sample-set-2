@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_c851d3e4fb40fa574497df1467cc3cb8",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_de68b8e9f7899dc93ddb1505529b70a0",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Brandeis University, January 2001."
@@ -34,9 +30,23 @@
         "arrangement": [
             {
                 "id": "aspace_58b94485fad2cd7d850fa56a496bcb84",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I. Correspondence"
+                            },
+                            {
+                                "value": "II. Subject Files"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -52,11 +62,9 @@
         "bioghist": [
             {
                 "id": "aspace_10b17885355cbfce540a4d60372721c6",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Anne Taft (Muldavin), a graduate of Brooklyn Jewish Hospital School of Nursing, served as a nurse with the First American Medical Bureau Unit during the Spanish Civil War. Taft sailed to Spain on January 16, 1937 under the direction of Dr. Edward Barsky and Head Nurse Fredericka Martin. In February 1937, Taft helped set up the first American hospital in Romeral, turning an abandoned schoolhouse into a medical ward. Taft and her unit had the hospital prepared in time to receive wounded from the Jarma offensive. Taft then served throughout Spain, helping to set up operating rooms in Villa Paz, Tervel, the Aragon Front, Belchite, Gandesa, and Cuevas Lebradas. She returned to the United States in September 1938. Upon her return, Taft served as a spokesperson for a fundraising drive in New York to send an American relief ship with food, clothing, and supplies to Spain. She married Dr. Leon F. Muldavin of New York City, and they remained in the city throughout their lives. Anne Taft Muldavin died in 1990 in New York City."
@@ -64,52 +72,80 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Medical Bureau to Aid Spanish Democracy"
-                    },
-                    {
-                        "value": "North American Committee to Aid Spanish Democracy"
-                    },
-                    {
-                        "value": "Medical Bureau and North American Committee to Aid Spanish Democracy"
-                    }
-                ],
-                "genreform": [
-                    "Correspondence.",
-                    "Personal papers.",
-                    "Articles."
-                ],
-                "geogname": [
-                    "Spain -- History -- Civil War, 1936-1939 -- Women.",
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American",
-                    "Spain |x History |y Civil War, 1936-1939 |x Concentration camps.",
-                    "Spain -- History -- Civil War, 1936-1939 -- Hospitals.",
-                    "Spain -- Civil War, 1936-1939 -- Periodicals."
-                ],
-                "persname": [
-                    {
-                        "value": "Taft, Anne, 1912-1990"
-                    },
-                    {
-                        "value": "Kraus, David, 1906-"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Medical Bureau to Aid Spanish Democracy"
+                },
+                {
+                    "source": "naf",
+                    "value": "North American Committee to Aid Spanish Democracy"
+                },
+                {
+                    "source": "naf",
+                    "value": "Medical Bureau and North American Committee to Aid Spanish Democracy"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Personal papers."
+                },
+                {
+                    "source": "aat",
+                    "value": "Articles."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Women."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain |x History |y Civil War, 1936-1939 |x Concentration camps."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Hospitals."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- Civil War, 1936-1939 -- Periodicals."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Taft, Anne, 1912-1990"
+                },
+                {
+                    "source": "local",
+                    "value": "Kraus, David, 1906-"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_9c553727b404a75aeb001205f70a3897",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Anne Taft (Muldavin) Papers were donated to Abraham Lincoln Brigade Archives in 1972. This collection came to New York University in January 2001 as part of the original acquisition of ALBA collections, formerly housed at Brandeis University."
@@ -117,705 +153,616 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Anne Taft (later Muldavin, 1912-1990) served with the American Medical Bureau to Aid Spanish Democracy in the Spanish Civil War from January 1937 to September 1938. Her unit was the first to leave for Spain. This collection consists largely of correspondence from Taft's stay in Spain as well as correspondence just after her return to the United States. Most notably, there are letters in which Taft describes her experiences as a nurse in Spain to her family. Also included are letters that Taft received from two Spanish nurses as they were held at the Argelles Concentration Camp. Other materials include news clippings, notes that Taft exchanged with Nurse Fredericka Martin, and Taft's U.S. passport.",
+                    "id": "aspace_7334bbaff084cb23bf125a199922b48f"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English.",
+                    "id": "aspace_5fe4f43031013ca6e1ad38810b0f1c0f"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Taft, Anne, 1912-1990"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Anne Taft (later Muldavin, 1912-1990) served with the American Medical Bureau to Aid Spanish Democracy in the Spanish Civil War from January 1937 to September 1938. Her unit was the first to leave for Spain. This collection consists largely of correspondence from Taft's stay in Spain as well as correspondence just after her return to the United States. Most notably, there are letters in which Taft describes her experiences as a nurse in Spain to her family. Also included are letters that Taft received from two Spanish nurses as they were held at the Argelles Concentration Camp. Other materials include news clippings, notes that Taft exchanged with Nurse Fredericka Martin, and Taft's U.S. passport.",
-                        "id": "aspace_7334bbaff084cb23bf125a199922b48f"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_5fe4f43031013ca6e1ad38810b0f1c0f",
-                        "value": "Materials are in English."
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Taft, Anne, 1912-1990"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1936/1980",
-                        "type": "inclusive",
-                        "value": "1936-1980"
-                    },
-                    {
-                        "normal": "1937/1940",
-                        "type": "bulk",
-                        "value": "1937-1940"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.077"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Anne Taft Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1936/1980",
+                    "type": "inclusive",
+                    "value": "1936-1980"
+                },
+                {
+                    "normal": "1937/1940",
+                    "type": "bulk",
+                    "value": "1937-1940"
+                }
+            ],
+            "unitid": "ALBA.077",
+            "unittitle": {
+                "value": "Anne Taft Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref15",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref15",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755809",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a6805a2127bfecac3419ea8fbc03c7bd",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1a801bb6d1f1e047fa2ef2b040afb219",
-                                                "parent": "aspace_a6805a2127bfecac3419ea8fbc03c7bd",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 12, 1971"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Brisker, Luba to Taft, Anne"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062755809",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a6805a2127bfecac3419ea8fbc03c7bd",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755809",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_dc16d40825c30afa209297c9d10405cd",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9392298219701f9591420b4c69e7b2b0",
-                                                "parent": "aspace_dc16d40825c30afa209297c9d10405cd",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1936/1980",
-                                                "type": "inclusive",
-                                                "value": "undated , Feb 15, 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Dumont, Dr. Rene to Taft, Anne"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755809",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_03df2163eca394e8f0a1e6d8e6efbf1e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_ebd59a41eaec7037e3eb1896e29f8a86",
-                                                "parent": "aspace_03df2163eca394e8f0a1e6d8e6efbf1e",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1939/1939",
-                                                "type": "inclusive",
-                                                "value": "1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Echeveria, Andrea to Taft, Anne"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755809",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_cc32b6dd2065f09162f8f807774cebe3",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_26e656b3ad7e556b9a1220e67778571a",
-                                                "parent": "aspace_cc32b6dd2065f09162f8f807774cebe3",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1936/1980",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Goldstein, Jack to Taft, Anne"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755809",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_8602bbf919805a7a81608f675e02e76f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e464f5d8a1d16fa26815e993bf9d2ca8",
-                                                "parent": "aspace_8602bbf919805a7a81608f675e02e76f",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1941/1941",
-                                                "type": "inclusive",
-                                                "value": "Apr 1, 1940 , 1941 , Mar. 11, 1971"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kraus, David to Taft, Anne"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755809",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_926497acde73511ba91af377b9ff9979",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_3b75b67aaa0c565ff9aa4160eb3a8d96",
-                                                "parent": "aspace_926497acde73511ba91af377b9ff9979",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1939/1973",
-                                                "type": "inclusive",
-                                                "value": "1939 , 1973"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Pennyweather, May MacFarlane"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755809",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_5f6a359fbefa8c9aabeca370d5a6c457",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_dc4ff4cc5ad056ad9e0b64ad8fcea2b0",
-                                                "parent": "aspace_5f6a359fbefa8c9aabeca370d5a6c457",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Nov 10, 1940"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Pintos, Rosita to Taft, Anne"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755809",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_72b047e459dec33888555719575b24db",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c0984aa413ed5b3103f09feaeab54914",
-                                                "parent": "aspace_72b047e459dec33888555719575b24db",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 16, 1937-Jul 16, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Taft, Anne: Correspondence (General)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755809",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_d11187908b77a9740e4b45c0e9133a93",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_de55126e5c87f2bbc51f1a6f74a496e3",
-                                                "parent": "aspace_d11187908b77a9740e4b45c0e9133a93",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 9, 1941"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Taft, Anne to Pintos, Rosita"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755809",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_70a01eae4ceb5653947edd8ef04e6939",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_47796e132b38ecb111de6bab751d15b6",
-                                                "parent": "aspace_70a01eae4ceb5653947edd8ef04e6939",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Taft, Anne to Taft, Ethel"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_1a801bb6d1f1e047fa2ef2b040afb219",
+                                        "parent": "aspace_a6805a2127bfecac3419ea8fbc03c7bd",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: Correspondence"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref26",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755809",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_316282d024015da3d32905c6d25ab795",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_82190349381450da402039371775c2be",
-                                                "parent": "aspace_316282d024015da3d32905c6d25ab795",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1938",
-                                                "type": "inclusive",
-                                                "value": "1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clippings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755809",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_531dc3479b3237de01aeb156c249307e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0c50ae5bf0d3531d8f323ce2db06c05e",
-                                                "parent": "aspace_531dc3479b3237de01aeb156c249307e",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1975/1980",
-                                                "type": "inclusive",
-                                                "value": "1975-1980"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clippings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755809",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_2275fb8f2e8862f6d8eb71ab625c2c0f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4f44654f50c160a08d6e1c0d0ac1302b",
-                                                "parent": "aspace_2275fb8f2e8862f6d8eb71ab625c2c0f",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Oct 4, 1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Newsletter: Milicia Popular Vol. 1, No. 61"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755809",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_dd00221f4bd2cf6421712bf9c325ddee",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_69c7b89948552d43086c5c3a8d4c349a",
-                                                "parent": "aspace_dd00221f4bd2cf6421712bf9c325ddee",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1936/1980",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notes: Taft, Anne to Martin, Fredericka"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755809",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_7e5fa990a90af21509e2f67e794c5be0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b8cc0932d7a01d485a94352f9c4376e2",
-                                                "parent": "aspace_7e5fa990a90af21509e2f67e794c5be0",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1938",
-                                                "type": "inclusive",
-                                                "value": "1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Passport: United States"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755809",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_681601e94d88ae3813df8d4ceee32579",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d5aa24630736af09cfef20c1da6dbd43",
-                                                "parent": "aspace_681601e94d88ae3813df8d4ceee32579",
-                                                "type": "folder",
-                                                "value": "16"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "May 6, 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Power of Attorney"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "value": "Apr 12, 1971"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series II: Subject Files"
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "Brisker, Luba to Taft, Anne"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755809",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_dc16d40825c30afa209297c9d10405cd",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9392298219701f9591420b4c69e7b2b0",
+                                        "parent": "aspace_dc16d40825c30afa209297c9d10405cd",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1936/1980",
+                                        "type": "inclusive",
+                                        "value": "undated , Feb 15, 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Dumont, Dr. Rene to Taft, Anne"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755809",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_03df2163eca394e8f0a1e6d8e6efbf1e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_ebd59a41eaec7037e3eb1896e29f8a86",
+                                        "parent": "aspace_03df2163eca394e8f0a1e6d8e6efbf1e",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1939/1939",
+                                        "type": "inclusive",
+                                        "value": "1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Echeveria, Andrea to Taft, Anne"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755809",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_cc32b6dd2065f09162f8f807774cebe3",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_26e656b3ad7e556b9a1220e67778571a",
+                                        "parent": "aspace_cc32b6dd2065f09162f8f807774cebe3",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1936/1980",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Goldstein, Jack to Taft, Anne"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755809",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_8602bbf919805a7a81608f675e02e76f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e464f5d8a1d16fa26815e993bf9d2ca8",
+                                        "parent": "aspace_8602bbf919805a7a81608f675e02e76f",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1941/1941",
+                                        "type": "inclusive",
+                                        "value": "Apr 1, 1940 , 1941 , Mar. 11, 1971"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kraus, David to Taft, Anne"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755809",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_926497acde73511ba91af377b9ff9979",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_3b75b67aaa0c565ff9aa4160eb3a8d96",
+                                        "parent": "aspace_926497acde73511ba91af377b9ff9979",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1939/1973",
+                                        "type": "inclusive",
+                                        "value": "1939 , 1973"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Pennyweather, May MacFarlane"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755809",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_5f6a359fbefa8c9aabeca370d5a6c457",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_dc4ff4cc5ad056ad9e0b64ad8fcea2b0",
+                                        "parent": "aspace_5f6a359fbefa8c9aabeca370d5a6c457",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Nov 10, 1940"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Pintos, Rosita to Taft, Anne"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755809",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_72b047e459dec33888555719575b24db",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c0984aa413ed5b3103f09feaeab54914",
+                                        "parent": "aspace_72b047e459dec33888555719575b24db",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Feb 16, 1937-Jul 16, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Taft, Anne: Correspondence (General)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755809",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_d11187908b77a9740e4b45c0e9133a93",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_de55126e5c87f2bbc51f1a6f74a496e3",
+                                        "parent": "aspace_d11187908b77a9740e4b45c0e9133a93",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 9, 1941"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Taft, Anne to Pintos, Rosita"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755809",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_70a01eae4ceb5653947edd8ef04e6939",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_47796e132b38ecb111de6bab751d15b6",
+                                        "parent": "aspace_70a01eae4ceb5653947edd8ef04e6939",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Taft, Anne to Taft, Ethel"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Correspondence"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref26",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755809",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_316282d024015da3d32905c6d25ab795",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_82190349381450da402039371775c2be",
+                                        "parent": "aspace_316282d024015da3d32905c6d25ab795",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1938",
+                                        "type": "inclusive",
+                                        "value": "1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Clippings"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755809",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_531dc3479b3237de01aeb156c249307e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0c50ae5bf0d3531d8f323ce2db06c05e",
+                                        "parent": "aspace_531dc3479b3237de01aeb156c249307e",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1975/1980",
+                                        "type": "inclusive",
+                                        "value": "1975-1980"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Clippings"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755809",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_2275fb8f2e8862f6d8eb71ab625c2c0f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4f44654f50c160a08d6e1c0d0ac1302b",
+                                        "parent": "aspace_2275fb8f2e8862f6d8eb71ab625c2c0f",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Oct 4, 1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Newsletter: Milicia Popular Vol. 1, No. 61"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755809",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_dd00221f4bd2cf6421712bf9c325ddee",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_69c7b89948552d43086c5c3a8d4c349a",
+                                        "parent": "aspace_dd00221f4bd2cf6421712bf9c325ddee",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1936/1980",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notes: Taft, Anne to Martin, Fredericka"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755809",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_7e5fa990a90af21509e2f67e794c5be0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b8cc0932d7a01d485a94352f9c4376e2",
+                                        "parent": "aspace_7e5fa990a90af21509e2f67e794c5be0",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1938",
+                                        "type": "inclusive",
+                                        "value": "1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Passport: United States"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755809",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_681601e94d88ae3813df8d4ceee32579",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d5aa24630736af09cfef20c1da6dbd43",
+                                        "parent": "aspace_681601e94d88ae3813df8d4ceee32579",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "May 6, 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Power of Attorney"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series II: Subject Files"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_290e66f7693fc301c9ecf27258c4e806",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -826,11 +773,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_43a601a400d64528fd05fa6557cdefd8",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "ALBA collections at the Tamiment Library."
@@ -853,11 +798,9 @@
         "scopecontent": [
             {
                 "id": "aspace_45681e9b75251736a9b34a4853a021e9",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "Series I, Correspondence (1937-1971) consists mostly of letters from Taft's service in the Spanish Civil War as well as letters from just after her return to the United States. The series includes letters, postcards, and telegrams that Taft sent to her family while she was in Spain. She closely describes her entrance into Spain and her duties once she was there. Upon her return to the United States, Taft continued to communicate with individuals in Spain. Notable are letters to Taft from two Spanish nurses who were held in the Argelles Concentration Camp. This series also includes correspondence from David Kraus, a Polish medical volunteer who was held in the Vernet Concentration Camp. Other correspondence includes letters from the Belgian doctor Rene Dumont and letters from a member of the Spanish Relief Committee in Sydney, Australia."
@@ -871,11 +814,9 @@
         "userestrict": [
             {
                 "id": "aspace_b37fcc4a698574e0371bb37cede4c7f2",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Abraham Lincoln Brigade Archives (ALBA), were transferred to New York University in November 2000 by the ALBA Board of Governors. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -884,93 +825,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_077"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_077"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from a paper finding aid."
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from a paper finding aid.\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Jessie Wilkerson"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Anne Taft Papers \u003cspan class=\"ead-num\"\u003eALBA.077\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Jessie Wilkerson",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Anne Taft Papers \u003cspan class=\"ead-num\"\u003eALBA.077\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.077"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:34:45 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:34:45 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

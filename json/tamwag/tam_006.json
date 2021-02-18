@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_5b8a42504b68cd8fd5e36b411e58de80",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_48dd4386920cef744b160a2a17398b92",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Transfer from the Rand School Archives, 1963. The accession number associated with this collection is 1963.016"
@@ -34,9 +30,20 @@
         "arrangement": [
             {
                 "id": "aspace_a2a784245b27ddd6f6af29b87db7d9f1",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I, Max Zaritsky Papers"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -52,11 +59,9 @@
         "bioghist": [
             {
                 "id": "aspace_b80d1879e33b93ccdc1b1a65ce58d122",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Max Zaritsky (1885-1959) was born Petrikov, Russia, emigrated to the U.S., where in 1907 he joined the Cloth Hat, Cap, and Millinery Workers' International Union (CHCMW), later becoming its president, and then subsequently, president, until his retirement in 1950, of the United Hatters, Cap, and Millinery Workers International Union (AFL), formed by the 1934 merger of the CHCMW and the United Hatters of North America. Zaritsky was an advocate of labor-management cooperation to promote the hat industry, a founder of the American Labor Party in 1936, and was active in labor Zionist circles, heading both the American Jewish Trade Union Committee for Palestine and the National Committee for a Leon Blum Colony in Palestine."
@@ -65,67 +70,114 @@
                         "value": "Sources:"
                     },
                     {
-                        "value": "\u003cspan class=\"ead-list\"\u003e\u003cspan class=\"ead-item\"\u003eMax Zaritsky at Fifty. The Story of an Aggressive Labor Leadership (1935).\u003c/span\u003e\u003cspan class=\"ead-item\"\u003eBiographical Dictionary of American Labor (1984).\u003c/span\u003e\u003cspan class=\"ead-item\"\u003eLabor Unions (1977). Includes historical sketches of the various hat industry unions, pp. 139-144.\u003c/span\u003e\u003c/span\u003e "
+                        "value": "\u003cspan class=\"ead-list\"\u003e\u003cspan class=\"ead-item\"\u003eMax Zaritsky at Fifty. The Story of an Aggressive Labor Leadership (1935).\u003c/span\u003e\u003cspan class=\"ead-item\"\u003eBiographical Dictionary of American Labor (1984).\u003c/span\u003e\u003cspan class=\"ead-item\"\u003eLabor Unions (1977). Includes historical sketches of the various hat industry unions, pp. 139-144.\u003c/span\u003e\u003c/span\u003e ",
+                        "list": [
+                            {
+                                "item": [
+                                    {
+                                        "value": "Max Zaritsky at Fifty. The Story of an Aggressive Labor Leadership (1935)."
+                                    },
+                                    {
+                                        "value": "Biographical Dictionary of American Labor (1984)."
+                                    },
+                                    {
+                                        "value": "Labor Unions (1977). Includes historical sketches of the various hat industry unions, pp. 139-144."
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Cloth Hat, Cap, and Millinery Workers' International Union"
-                    },
-                    {
-                        "value": "American Jewish Trade Union Committee for Palestine"
-                    },
-                    {
-                        "value": "National Committee for a Leon Blum Colony in Palestine"
-                    },
-                    {
-                        "value": "United Hatters, Cap, and Millinery Workers International Union"
-                    },
-                    {
-                        "value": "Congress of Industrial Organizations (U.S.)"
-                    },
-                    {
-                        "role": "Donor",
-                        "value": "Rand School of Social Science"
-                    }
-                ],
-                "genreform": [
-                    "Correspondence.",
-                    "Speeches.",
-                    "Minutes (administrative records)",
-                    "Manuscripts for publication.",
-                    "Clippings (information artifacts)"
-                ],
-                "geogname": [
-                    "Palestine."
-                ],
-                "persname": [
-                    {
-                        "value": "Zaritsky, Max, 1885-1959"
-                    },
-                    {
-                        "value": "Blum, Léon, 1872-1950"
-                    }
-                ],
-                "subject": [
-                    "Labor Zionism |z United States.",
-                    "Industrial technicians |x Labor unions |z United States.",
-                    "Hat trade |x Labor unions |z United States."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Cloth Hat, Cap, and Millinery Workers' International Union"
+                },
+                {
+                    "source": "local",
+                    "value": "American Jewish Trade Union Committee for Palestine"
+                },
+                {
+                    "source": "local",
+                    "value": "National Committee for a Leon Blum Colony in Palestine"
+                },
+                {
+                    "source": "naf",
+                    "value": "United Hatters, Cap, and Millinery Workers International Union"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "Congress of Industrial Organizations (U.S.)"
+                },
+                {
+                    "role": "Donor",
+                    "source": "naf",
+                    "value": "Rand School of Social Science"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Speeches."
+                },
+                {
+                    "source": "aat",
+                    "value": "Minutes (administrative records)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Manuscripts for publication."
+                },
+                {
+                    "source": "aat",
+                    "value": "Clippings (information artifacts)"
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Palestine."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Zaritsky, Max, 1885-1959"
+                },
+                {
+                    "source": "naf",
+                    "value": "Blum, Léon, 1872-1950"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Labor Zionism |z United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Industrial technicians |x Labor unions |z United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Hat trade |x Labor unions |z United States."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_b6403dcc294327b1f962e4960cda79ac",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "Collection was part of the Rand School Archives, which were transferred to the Tamiment Library in 1963 by members of the People's Education Camp Society, Inc. The accession number associated with this collection is 1963.016."
@@ -133,1487 +185,1313 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "1.5 Linear Feet"
-                            },
-                            {
-                                "value": "(3 boxes)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(3 boxes)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Max Zaritsky (1885-1959) was an officer, and sometime president, of two hat industry unions, the Cloth Hat, Cap, and Millinery Workers' International Union, and its successor, the United Hatters, Cap, and Millinery Workers International Union. The papers include correspondence with labor and industry leaders, clippings, manuscripts, minutes, typescripts of radio addresses and speeches, and memorabilia and printed material covering hat industry union affairs, political and Zionist activities of the labor movement, and the conflict between the American Federation of Labor and the newly formed Congress of Industrial Organizations.",
+                    "id": "aspace_1b323c41722330135f6adac272705c35"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Max Zaritsky (1885-1959) was an officer, and sometime president, of two hat industry unions, the Cloth Hat, Cap, and Millinery Workers' International Union, and its successor, the United Hatters, Cap, and Millinery Workers International Union. The papers include correspondence with labor and industry leaders, clippings, manuscripts, minutes, typescripts of radio addresses and speeches, and memorabilia and printed material covering hat industry union affairs, political and Zionist activities of the labor movement, and the conflict between the American Federation of Labor and the newly formed Congress of Industrial Organizations.",
-                        "id": "aspace_1b323c41722330135f6adac272705c35"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Zaritsky, Max, 1885-1959"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
+                },
+                {
+                    "label": "source",
+                    "corpname": {
+                        "role": "Donor",
+                        "source": "naf",
+                        "value": "Rand School of Social Science"
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Zaritsky, Max, 1885-1959"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "corpname": [
-                            {
-                                "role": "Donor",
-                                "value": "Rand School of Social Science"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1912/1959",
-                        "type": "inclusive",
-                        "value": "1912-1959"
-                    },
-                    {
-                        "normal": "1934/1948",
-                        "type": "bulk",
-                        "value": "1934-1948"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.006"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Max Zaritsky Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1912/1959",
+                    "type": "inclusive",
+                    "value": "1912-1959"
+                },
+                {
+                    "normal": "1934/1948",
+                    "type": "bulk",
+                    "value": "1934-1948"
+                }
+            ],
+            "unitid": "TAM.006",
+            "unittitle": {
+                "value": "Max Zaritsky Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref15",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref15",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773570",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_1d5a0ac5c3707765277668bec32f11bb",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d1720d3db7d4c6d52a9009c147453038",
-                                                "parent": "aspace_1d5a0ac5c3707765277668bec32f11bb",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1936/1938",
-                                                "type": "inclusive",
-                                                "value": "1936 , 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "AFL and the CIO: Statements, Speeches"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062773570",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_1d5a0ac5c3707765277668bec32f11bb",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773570",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_95f4f76771e0cbce793bab72c30c50bc",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_ca2a325e1d09b0874f99b6c542e60ec8",
-                                                "parent": "aspace_95f4f76771e0cbce793bab72c30c50bc",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1944/1944",
-                                                "type": "inclusive",
-                                                "value": "1944"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "American Jewish Trade Union Committee for Palestine"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773570",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_fb78a1d85abf6c76fc913468952e2d46",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_eec98767e0bdb58daa2f05b8d1637f60",
-                                                "parent": "aspace_fb78a1d85abf6c76fc913468952e2d46",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1945/1945",
-                                                "type": "inclusive",
-                                                "value": "1945"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "American Jewish Trade Union Committee for Palestine"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773570",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_96b7955ef5ff68fed2b8a92796377656",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_de278e282da89de7ddd0749c56f04168",
-                                                "parent": "aspace_96b7955ef5ff68fed2b8a92796377656",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1946/1949",
-                                                "type": "inclusive",
-                                                "value": "1946-1949"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "American Jewish Trade Union Committee for Palestine"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773570",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_d5001937491ab83d2da13a933beafbeb",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9eca5fc3d24c64c136114b6bd2b71d28",
-                                                "parent": "aspace_d5001937491ab83d2da13a933beafbeb",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1957/1957",
-                                                "type": "inclusive",
-                                                "value": "1957"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "American Trade Union Council National Committee for Labor Israel"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773570",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_343f16faed6ade4463bc26fe3295131e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_246286df32dc2548bd6887b99f440578",
-                                                "parent": "aspace_343f16faed6ade4463bc26fe3295131e",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1943/1944",
-                                                "type": "inclusive",
-                                                "value": "1943-1944"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "American Zionist Emergency Council"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773570",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_920fcc8c037ffc6408b24f4b3313fb31",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_234d88e1605d0850a622298706e0e01d",
-                                                "parent": "aspace_920fcc8c037ffc6408b24f4b3313fb31",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1912/1959",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Biographies"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773570",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_61fa836eab1744c93b5114f15af04e34",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6f6740763b53cd7521f7059ee4b55d07",
-                                                "parent": "aspace_61fa836eab1744c93b5114f15af04e34",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1930s-1950s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clippings: By and About Max Zaritsky"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773570",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e21333b6dfe2ef467dc619e8bd899ad8",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e8c75a6e71ad9d7f4b3a681997d57542",
-                                                "parent": "aspace_e21333b6dfe2ef467dc619e8bd899ad8",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773570",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_2f8f3d6f571be6ca532d038fa7b87dfc",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e9e2e8b7b84e24d3553b4b75bebc5fc8",
-                                                "parent": "aspace_2f8f3d6f571be6ca532d038fa7b87dfc",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1940/1945",
-                                                "type": "inclusive",
-                                                "value": "1940-1945"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773570",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_8643c97b9fba8ff749d89aef3b08b972",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a2878437b9d4f99361991719b9f067e3",
-                                                "parent": "aspace_8643c97b9fba8ff749d89aef3b08b972",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1946/1949",
-                                                "type": "inclusive",
-                                                "value": "1946-1949"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773570",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_1584bcaab81458910738642fd52edd18",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_60bd62ee1b4a9e67e4cc04b16312002f",
-                                                "parent": "aspace_1584bcaab81458910738642fd52edd18",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1950/1959",
-                                                "type": "inclusive",
-                                                "value": "1950-1959"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773588",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_3b2d881ea1870053b5f3da3548970cfb",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_6558721958c3ac4af461500a83c31f76",
-                                                "parent": "aspace_3b2d881ea1870053b5f3da3548970cfb",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1935/1935",
-                                                "type": "inclusive",
-                                                "value": "1935"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Fiftieth Birthday Dinner"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773588",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_10e62e522e26ef8c3ec97121900fb0a1",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_81910c0c0d5f170d8f333854156b00f8",
-                                                "parent": "aspace_10e62e522e26ef8c3ec97121900fb0a1",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1912/1918",
-                                                "type": "inclusive",
-                                                "value": "1912-1918"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Hatters Unionism"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773588",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_779a7ad1fdda9c06459316f0b3938461",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_f4585a99df5866455c735eff86067101",
-                                                "parent": "aspace_779a7ad1fdda9c06459316f0b3938461",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1920s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Hatters Unionism"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773588",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_97c3e13ce0561cb4802ce6462662690c",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_35281d8837888fb27a374412a8c24f96",
-                                                "parent": "aspace_97c3e13ce0561cb4802ce6462662690c",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Hatters Unionism"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773588",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_f7f8d44b58cd7fd0550686a31a877080",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_655ccaf4f60df1a86dabff90fb9c49c8",
-                                                "parent": "aspace_f7f8d44b58cd7fd0550686a31a877080",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1940s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Hatters Unionism"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773588",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_3a53ae762168799d7d51406f1aaae6d3",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_069d2f26c84d0d3c7008f32e3c302785",
-                                                "parent": "aspace_3a53ae762168799d7d51406f1aaae6d3",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1932/1951",
-                                                "type": "inclusive",
-                                                "value": "1932-1951"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Jewish Affairs: Letters, Misc."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773588",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_bac9ce223a2f2a9d525e091437012cf5",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_de154ad7f7d55ea3d7c514ad81fc3b75",
-                                                "parent": "aspace_bac9ce223a2f2a9d525e091437012cf5",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1947",
-                                                "type": "inclusive",
-                                                "value": "1938-1947"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Labor Economics: Speeches and Related Material"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref35",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773588",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_6d170a387656592e39e837d19056fba9",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_8d7b0f07d1cbe3663c89cf0791a3f0cf",
-                                                "parent": "aspace_6d170a387656592e39e837d19056fba9",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1936/1946",
-                                                "type": "inclusive",
-                                                "value": "1936-1946"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Labor Law: Addresses and General Views"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref36",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773588",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e7904438db7668a6fc88a060948b6ebc",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_91a660ca8bc3add45661a700ba2b6d88",
-                                                "parent": "aspace_e7904438db7668a6fc88a060948b6ebc",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1938",
-                                                "type": "inclusive",
-                                                "value": "1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "National Committee for a Leon Blum Colony in Palestine"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref37",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773588",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_0a995666da84958118674db115a44114",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_cde3c3e20a93a314d155dc4df99d0168",
-                                                "parent": "aspace_0a995666da84958118674db115a44114",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1939/1940",
-                                                "type": "inclusive",
-                                                "value": "1939-1940"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "National Committee for a Leon Blum Colony in Palestine"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref38",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773588",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e76488eeaf7a7247b3dbb53ca4042819",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_9ecc2cdbcd23235823033ae4e5de66bd",
-                                                "parent": "aspace_e76488eeaf7a7247b3dbb53ca4042819",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1934/1936",
-                                                "type": "inclusive",
-                                                "value": "1934-1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "National Recovery Administration: Speeches About"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref39",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773596",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_19ae6e83e53ca78c9dbdbf1b757dcf40",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_526088e6ad7d1e033acec7320155d2f7",
-                                                "parent": "aspace_19ae6e83e53ca78c9dbdbf1b757dcf40",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1935/1948",
-                                                "type": "inclusive",
-                                                "value": "1935-1948"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Palestine: Clippings, Articles, Resolutions"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref40",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773596",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_508bdd95e32d8d11d4b828865d39a893",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_5c8aa273f2f0c3b96b69114c95c06674",
-                                                "parent": "aspace_508bdd95e32d8d11d4b828865d39a893",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1948",
-                                                "type": "inclusive",
-                                                "value": "1938-1948"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Palestine: Speeches on"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref41",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773596",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_13f3438836dbb02715cc27d9cc07b293",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_93bd1420561819325213ebd9106722a6",
-                                                "parent": "aspace_13f3438836dbb02715cc27d9cc07b293",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Palestine: Trip to"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref42",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773596",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_ca6b4cf7588a1f1faa92351239f2dbef",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_9d25d755028027f42e04031c4db139be",
-                                                "parent": "aspace_ca6b4cf7588a1f1faa92351239f2dbef",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1935/1950",
-                                                "type": "inclusive",
-                                                "value": "1935-1950"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Political Activities and Endorsements"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref43",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773596",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_f8db6acb5f376e52543fd1b917f205f7",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_bf50a2b1659e94aae50ccd212ae71885",
-                                                "parent": "aspace_f8db6acb5f376e52543fd1b917f205f7",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1936/1936",
-                                                "type": "inclusive",
-                                                "value": "1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Presidential Elector (Roosevelt)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref44",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773596",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_14af22b154586cbe0035e4762495928c",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_93650933cf894f6e96379874e50a8558",
-                                                "parent": "aspace_14af22b154586cbe0035e4762495928c",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1935/1950",
-                                                "type": "inclusive",
-                                                "value": "1935-1950"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Radio Addresses"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref45",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773596",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_f31734c53118c22360491a502f5ed668",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_7fa3bfe88badda16509de65ab1bb4c7b",
-                                                "parent": "aspace_f31734c53118c22360491a502f5ed668",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1950/1950",
-                                                "type": "inclusive",
-                                                "value": "1950"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Retirement / Convention of Hatters Union"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref46",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773596",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_540e1b95c0923207b1791c56b8c7faff",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_f2fdb3b995caae6e8482a43de8dc7509",
-                                                "parent": "aspace_540e1b95c0923207b1791c56b8c7faff",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1942/1943",
-                                                "type": "inclusive",
-                                                "value": "1942-1943"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Saturday Evening Post Article: \"Can Labor Prosper Under Free Enterprise?\" [Jan 30, 1943]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref47",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773596",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_c2f75d5449da7ff69d52313a36701f30",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_9b6d52adf193bf5080c133861d473eb3",
-                                                "parent": "aspace_c2f75d5449da7ff69d52313a36701f30",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1938",
-                                                "type": "inclusive",
-                                                "value": "1930-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Speeches Given at Conventions of Other Labor Unions"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref48",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773596",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_35ddd39b7e26701cb27dca5b6297282e",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_68d82bd4108f2b31e6aad3c1061e5f59",
-                                                "parent": "aspace_35ddd39b7e26701cb27dca5b6297282e",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1931/1943",
-                                                "type": "inclusive",
-                                                "value": "1931-1943"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "To the Industry (Addresses)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref49",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773596",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_4409611924e2df46a41d366428a2f5ff",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_15a8d1ebc1b624e05b1ca6a2caa0547c",
-                                                "parent": "aspace_4409611924e2df46a41d366428a2f5ff",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1945/1952",
-                                                "type": "inclusive",
-                                                "value": "1945-1952"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "U.S. Government Citations and Honors"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref50",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773596",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_a8e51ff86b9a5c969e8e52d89f032b72",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_827a8ea817ea746897d27981dd984e13",
-                                                "parent": "aspace_a8e51ff86b9a5c969e8e52d89f032b72",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1940/1940",
-                                                "type": "inclusive",
-                                                "value": "1940"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "William Green Dinner"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref51",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773596",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_a1473fdce89f78dd0eab6e437380735f",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_56b271878a405054c959395c2f2d7f19",
-                                                "parent": "aspace_a1473fdce89f78dd0eab6e437380735f",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1951/1951",
-                                                "type": "inclusive",
-                                                "value": "1951"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "William Green Dinner (American Trade Union Council for Histadrut)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref52",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773596",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_4e0abb87e040171a494a29daf922fe86",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_e1a1731b425cc07c396692dfc60c0f52",
-                                                "parent": "aspace_4e0abb87e040171a494a29daf922fe86",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1918/1918",
-                                                "type": "inclusive",
-                                                "value": "1918"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "World War I: Liberty Loan Committee, Other Fundraising"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref53",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062773596",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_8f6718ee47be577ae86f6259d86b232a",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_1e7f1fd37c3f4c1ede648aeb475d24c2",
-                                                "parent": "aspace_8f6718ee47be577ae86f6259d86b232a",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1942/1946",
-                                                "type": "inclusive",
-                                                "value": "1942-1946"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "World War II: Addresses"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_d1720d3db7d4c6d52a9009c147453038",
+                                        "parent": "aspace_1d5a0ac5c3707765277668bec32f11bb",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series 1: Max Zaritsky Papers"
+                                        "normal": "1936/1938",
+                                        "type": "inclusive",
+                                        "value": "1936 , 1938"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "AFL and the CIO: Statements, Speeches"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773570",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_95f4f76771e0cbce793bab72c30c50bc",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_ca2a325e1d09b0874f99b6c542e60ec8",
+                                        "parent": "aspace_95f4f76771e0cbce793bab72c30c50bc",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1944/1944",
+                                        "type": "inclusive",
+                                        "value": "1944"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "American Jewish Trade Union Committee for Palestine"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773570",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_fb78a1d85abf6c76fc913468952e2d46",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_eec98767e0bdb58daa2f05b8d1637f60",
+                                        "parent": "aspace_fb78a1d85abf6c76fc913468952e2d46",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1945/1945",
+                                        "type": "inclusive",
+                                        "value": "1945"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "American Jewish Trade Union Committee for Palestine"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773570",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_96b7955ef5ff68fed2b8a92796377656",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_de278e282da89de7ddd0749c56f04168",
+                                        "parent": "aspace_96b7955ef5ff68fed2b8a92796377656",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1946/1949",
+                                        "type": "inclusive",
+                                        "value": "1946-1949"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "American Jewish Trade Union Committee for Palestine"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773570",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_d5001937491ab83d2da13a933beafbeb",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9eca5fc3d24c64c136114b6bd2b71d28",
+                                        "parent": "aspace_d5001937491ab83d2da13a933beafbeb",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1957/1957",
+                                        "type": "inclusive",
+                                        "value": "1957"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "American Trade Union Council National Committee for Labor Israel"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773570",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_343f16faed6ade4463bc26fe3295131e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_246286df32dc2548bd6887b99f440578",
+                                        "parent": "aspace_343f16faed6ade4463bc26fe3295131e",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1943/1944",
+                                        "type": "inclusive",
+                                        "value": "1943-1944"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "American Zionist Emergency Council"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773570",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_920fcc8c037ffc6408b24f4b3313fb31",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_234d88e1605d0850a622298706e0e01d",
+                                        "parent": "aspace_920fcc8c037ffc6408b24f4b3313fb31",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1912/1959",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Biographies"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773570",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_61fa836eab1744c93b5114f15af04e34",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6f6740763b53cd7521f7059ee4b55d07",
+                                        "parent": "aspace_61fa836eab1744c93b5114f15af04e34",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1930s-1950s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Clippings: By and About Max Zaritsky"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773570",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e21333b6dfe2ef467dc619e8bd899ad8",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e8c75a6e71ad9d7f4b3a681997d57542",
+                                        "parent": "aspace_e21333b6dfe2ef467dc619e8bd899ad8",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773570",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_2f8f3d6f571be6ca532d038fa7b87dfc",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e9e2e8b7b84e24d3553b4b75bebc5fc8",
+                                        "parent": "aspace_2f8f3d6f571be6ca532d038fa7b87dfc",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1940/1945",
+                                        "type": "inclusive",
+                                        "value": "1940-1945"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773570",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_8643c97b9fba8ff749d89aef3b08b972",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a2878437b9d4f99361991719b9f067e3",
+                                        "parent": "aspace_8643c97b9fba8ff749d89aef3b08b972",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1946/1949",
+                                        "type": "inclusive",
+                                        "value": "1946-1949"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773570",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_1584bcaab81458910738642fd52edd18",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_60bd62ee1b4a9e67e4cc04b16312002f",
+                                        "parent": "aspace_1584bcaab81458910738642fd52edd18",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1950/1959",
+                                        "type": "inclusive",
+                                        "value": "1950-1959"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773588",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_3b2d881ea1870053b5f3da3548970cfb",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_6558721958c3ac4af461500a83c31f76",
+                                        "parent": "aspace_3b2d881ea1870053b5f3da3548970cfb",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1935/1935",
+                                        "type": "inclusive",
+                                        "value": "1935"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Fiftieth Birthday Dinner"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773588",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_10e62e522e26ef8c3ec97121900fb0a1",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_81910c0c0d5f170d8f333854156b00f8",
+                                        "parent": "aspace_10e62e522e26ef8c3ec97121900fb0a1",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1912/1918",
+                                        "type": "inclusive",
+                                        "value": "1912-1918"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Hatters Unionism"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773588",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_779a7ad1fdda9c06459316f0b3938461",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_f4585a99df5866455c735eff86067101",
+                                        "parent": "aspace_779a7ad1fdda9c06459316f0b3938461",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1920s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Hatters Unionism"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773588",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_97c3e13ce0561cb4802ce6462662690c",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_35281d8837888fb27a374412a8c24f96",
+                                        "parent": "aspace_97c3e13ce0561cb4802ce6462662690c",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Hatters Unionism"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773588",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_f7f8d44b58cd7fd0550686a31a877080",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_655ccaf4f60df1a86dabff90fb9c49c8",
+                                        "parent": "aspace_f7f8d44b58cd7fd0550686a31a877080",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1940s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Hatters Unionism"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773588",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_3a53ae762168799d7d51406f1aaae6d3",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_069d2f26c84d0d3c7008f32e3c302785",
+                                        "parent": "aspace_3a53ae762168799d7d51406f1aaae6d3",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1932/1951",
+                                        "type": "inclusive",
+                                        "value": "1932-1951"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Jewish Affairs: Letters, Misc."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773588",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_bac9ce223a2f2a9d525e091437012cf5",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_de154ad7f7d55ea3d7c514ad81fc3b75",
+                                        "parent": "aspace_bac9ce223a2f2a9d525e091437012cf5",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1947",
+                                        "type": "inclusive",
+                                        "value": "1938-1947"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Labor Economics: Speeches and Related Material"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref35",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773588",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_6d170a387656592e39e837d19056fba9",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_8d7b0f07d1cbe3663c89cf0791a3f0cf",
+                                        "parent": "aspace_6d170a387656592e39e837d19056fba9",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1936/1946",
+                                        "type": "inclusive",
+                                        "value": "1936-1946"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Labor Law: Addresses and General Views"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref36",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773588",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e7904438db7668a6fc88a060948b6ebc",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_91a660ca8bc3add45661a700ba2b6d88",
+                                        "parent": "aspace_e7904438db7668a6fc88a060948b6ebc",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1938",
+                                        "type": "inclusive",
+                                        "value": "1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "National Committee for a Leon Blum Colony in Palestine"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref37",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773588",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_0a995666da84958118674db115a44114",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_cde3c3e20a93a314d155dc4df99d0168",
+                                        "parent": "aspace_0a995666da84958118674db115a44114",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1939/1940",
+                                        "type": "inclusive",
+                                        "value": "1939-1940"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "National Committee for a Leon Blum Colony in Palestine"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref38",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773588",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e76488eeaf7a7247b3dbb53ca4042819",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_9ecc2cdbcd23235823033ae4e5de66bd",
+                                        "parent": "aspace_e76488eeaf7a7247b3dbb53ca4042819",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1934/1936",
+                                        "type": "inclusive",
+                                        "value": "1934-1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "National Recovery Administration: Speeches About"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref39",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773596",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_19ae6e83e53ca78c9dbdbf1b757dcf40",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_526088e6ad7d1e033acec7320155d2f7",
+                                        "parent": "aspace_19ae6e83e53ca78c9dbdbf1b757dcf40",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1935/1948",
+                                        "type": "inclusive",
+                                        "value": "1935-1948"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Palestine: Clippings, Articles, Resolutions"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref40",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773596",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_508bdd95e32d8d11d4b828865d39a893",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_5c8aa273f2f0c3b96b69114c95c06674",
+                                        "parent": "aspace_508bdd95e32d8d11d4b828865d39a893",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1948",
+                                        "type": "inclusive",
+                                        "value": "1938-1948"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Palestine: Speeches on"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref41",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773596",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_13f3438836dbb02715cc27d9cc07b293",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_93bd1420561819325213ebd9106722a6",
+                                        "parent": "aspace_13f3438836dbb02715cc27d9cc07b293",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Palestine: Trip to"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref42",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773596",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_ca6b4cf7588a1f1faa92351239f2dbef",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_9d25d755028027f42e04031c4db139be",
+                                        "parent": "aspace_ca6b4cf7588a1f1faa92351239f2dbef",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1935/1950",
+                                        "type": "inclusive",
+                                        "value": "1935-1950"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Political Activities and Endorsements"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref43",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773596",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_f8db6acb5f376e52543fd1b917f205f7",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_bf50a2b1659e94aae50ccd212ae71885",
+                                        "parent": "aspace_f8db6acb5f376e52543fd1b917f205f7",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1936/1936",
+                                        "type": "inclusive",
+                                        "value": "1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Presidential Elector (Roosevelt)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref44",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773596",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_14af22b154586cbe0035e4762495928c",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_93650933cf894f6e96379874e50a8558",
+                                        "parent": "aspace_14af22b154586cbe0035e4762495928c",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1935/1950",
+                                        "type": "inclusive",
+                                        "value": "1935-1950"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Radio Addresses"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref45",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773596",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_f31734c53118c22360491a502f5ed668",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_7fa3bfe88badda16509de65ab1bb4c7b",
+                                        "parent": "aspace_f31734c53118c22360491a502f5ed668",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1950/1950",
+                                        "type": "inclusive",
+                                        "value": "1950"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Retirement / Convention of Hatters Union"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref46",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773596",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_540e1b95c0923207b1791c56b8c7faff",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_f2fdb3b995caae6e8482a43de8dc7509",
+                                        "parent": "aspace_540e1b95c0923207b1791c56b8c7faff",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1942/1943",
+                                        "type": "inclusive",
+                                        "value": "1942-1943"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Saturday Evening Post Article: \"Can Labor Prosper Under Free Enterprise?\" [Jan 30, 1943]"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref47",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773596",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_c2f75d5449da7ff69d52313a36701f30",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_9b6d52adf193bf5080c133861d473eb3",
+                                        "parent": "aspace_c2f75d5449da7ff69d52313a36701f30",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1938",
+                                        "type": "inclusive",
+                                        "value": "1930-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Speeches Given at Conventions of Other Labor Unions"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref48",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773596",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_35ddd39b7e26701cb27dca5b6297282e",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_68d82bd4108f2b31e6aad3c1061e5f59",
+                                        "parent": "aspace_35ddd39b7e26701cb27dca5b6297282e",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1931/1943",
+                                        "type": "inclusive",
+                                        "value": "1931-1943"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "To the Industry (Addresses)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref49",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773596",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_4409611924e2df46a41d366428a2f5ff",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_15a8d1ebc1b624e05b1ca6a2caa0547c",
+                                        "parent": "aspace_4409611924e2df46a41d366428a2f5ff",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1945/1952",
+                                        "type": "inclusive",
+                                        "value": "1945-1952"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "U.S. Government Citations and Honors"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref50",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773596",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_a8e51ff86b9a5c969e8e52d89f032b72",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_827a8ea817ea746897d27981dd984e13",
+                                        "parent": "aspace_a8e51ff86b9a5c969e8e52d89f032b72",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1940/1940",
+                                        "type": "inclusive",
+                                        "value": "1940"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "William Green Dinner"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref51",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773596",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_a1473fdce89f78dd0eab6e437380735f",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_56b271878a405054c959395c2f2d7f19",
+                                        "parent": "aspace_a1473fdce89f78dd0eab6e437380735f",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1951/1951",
+                                        "type": "inclusive",
+                                        "value": "1951"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "William Green Dinner (American Trade Union Council for Histadrut)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref52",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773596",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_4e0abb87e040171a494a29daf922fe86",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_e1a1731b425cc07c396692dfc60c0f52",
+                                        "parent": "aspace_4e0abb87e040171a494a29daf922fe86",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1918/1918",
+                                        "type": "inclusive",
+                                        "value": "1918"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "World War I: Liberty Loan Committee, Other Fundraising"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref53",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062773596",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_8f6718ee47be577ae86f6259d86b232a",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_1e7f1fd37c3f4c1ede648aeb475d24c2",
+                                        "parent": "aspace_8f6718ee47be577ae86f6259d86b232a",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1942/1946",
+                                        "type": "inclusive",
+                                        "value": "1942-1946"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "World War II: Addresses"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series 1: Max Zaritsky Papers"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_95f039988db4c57eeeeb2daf6a27f70e",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -1624,11 +1502,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_9dd4fc43128cb9488a669549c1aa0692",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "United Hatters, Cap and Millinery Workers International Union Records (Tamiment 54)"
@@ -1639,11 +1515,9 @@
         "scopecontent": [
             {
                 "id": "aspace_2cea1d05346e95a85c7a0ffb94aa6077",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The papers include correspondence with labor and industry leaders, clippings, manuscripts, minutes, typescripts of radio addresses and speeches, memorabilia and printed material covering hat industry union affairs, political and Zionist activities of the labor movement, and the conflict between the American Federation of Labor and the newly formed Congress of Industrial Organizations."
@@ -1654,11 +1528,9 @@
         "separatedmaterial": [
             {
                 "id": "aspace_a17dc0a8cd72d07aef8a497f29daa455",
-                "head": [
-                    {
-                        "value": "Separated Material"
-                    }
-                ],
+                "head": {
+                    "value": "Separated Material"
+                },
                 "p": [
                     {
                         "value": "Several photographs have been separated to the Tamiment Library General Photographs Collection (Photographs 1)"
@@ -1669,11 +1541,9 @@
         "userestrict": [
             {
                 "id": "aspace_120f45c0b37a94636d59299b39a6a1fb",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Tamiment Library has no information about copyright ownership for this collection and is not authorized to grant permission to publish or reproduce materials from it. Materials in this collection, which were created in 1912 to 1959, are expected to enter the public domain in 2080."
@@ -1682,94 +1552,90 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_006",
-                    "value": "tam_006"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_006",
+            "value": "tam_006"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from zaritsky.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from zaritsky.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Tamiment staff"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Max Zaritsky Papers \u003cspan class=\"ead-num\"\u003eTAM.006\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Tamiment staff",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Max Zaritsky Papers \u003cspan class=\"ead-num\"\u003eTAM.006\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.006"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:45:03 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:45:03 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

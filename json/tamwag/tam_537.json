@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_a1ab665a6234882d0b4ad1eeecf7d2e6",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_79c7068c97200e4bf90894feed50b093",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Materials found in collection; provenance is unknown. The accession number associated with this collection is 2010.040."
@@ -34,11 +30,9 @@
         "bioghist": [
             {
                 "id": "aspace_c1fcb06e47132241b1e9c5e4678b4f56",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Robert Gorham Davis (1908-1998), was a literary critic and a professor of English at Columbia University. He became a member of the Communist Party, but after the Hitler-Stalin pact of 1939, he grew disillusioned with Communism. In 1953, Mr. Davis testified before the House Committee on Un-American Activities, giving the names of some of his fellow Communists, after they had already been named in a secret session of the committee. Davis also served as chairman, and on the executive board of the American Committee for Cultural Freedom (ACCF) from 1953-1954, which was affiliated with the Congress for Cultural Freedom, an international organization. The ACCF was composed of prominent anti-communist artists and intellectuals, annd activities and programs on behalf of cultural freedom were generally informed by the staunch anti-communist orientation associated with the height of the Cold War period. At the height of its activities, scores of artists and intellectuals across a surprisingly broad political spectrum were involved with the Committee either as invited members, as participants in its numerous campaigns and programs, or as correspondents. The ACCF was subsequently learned to have accepted funds from the U.S. Central Intelligence Agency."
@@ -46,135 +40,130 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "American Committee for Cultural Freedom"
-                    },
-                    {
-                        "value": "Congress for Cultural Freedom"
-                    }
-                ],
-                "persname": [
-                    {
-                        "role": "Correspondent",
-                        "value": "Stein, Sol -- Correspondence"
-                    },
-                    {
-                        "role": "Correspondent",
-                        "value": "Thomas, Norman, 1884-1968 -- Correspondence"
-                    },
-                    {
+        "controlaccess": {
+            "corpname": [
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "American Committee for Cultural Freedom"
+                },
+                {
+                    "source": "naf",
+                    "value": "Congress for Cultural Freedom"
+                }
+            ],
+            "persname": [
+                {
+                    "role": "Correspondent",
+                    "source": "naf",
+                    "value": "Stein, Sol -- Correspondence"
+                },
+                {
+                    "role": "Correspondent",
+                    "source": "naf",
+                    "value": "Thomas, Norman, 1884-1968 -- Correspondence"
+                },
+                {
+                    "source": "naf",
+                    "value": "Davis, Robert Gorham"
+                },
+                {
+                    "role": "Correspondent",
+                    "source": "naf",
+                    "value": "Schlesinger, Arthur M., Jr. (Arthur Meier), 1917-2007 -- Correspondence"
+                },
+                {
+                    "role": "Former owner",
+                    "source": "naf",
+                    "value": "Davis, Robert Gorham"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Anti-communist movements -- United States -- 20th century"
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Robert Gorham Davis (1908-1998), was a literary critic and a professor of English at Columbia University. Davis served as chairman, and on the executive board of the American Committee for Cultural Freedom (ACCF) from 1953-1954, which was affiliated with the Congress for Cultural Freedom, an international organization. The collection contains correspondence of Davis, and third party correspondence for the year 1954, mostly incoming, and mostly concerned with the American Committee for Cultural Freedom, as well as some ACCF executive board minutes, memoranda and other internal documents.",
+                    "id": "aspace_ea59ff67887ccf47c18f514cac68c642"
+                }
+            ],
+            "container": [
+                {
+                    "barcode": "31142062883676",
+                    "label": "Mixed Materials",
+                    "altrender": "Manuscript box - Legal - Half",
+                    "id": "aspace_ffee3cae1e09e84d2db4c782f9b55f35",
+                    "type": "box",
+                    "value": "1"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English",
+                    "id": "aspace_7b4a67a97c2bf7ca0d38d9629443b20c"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
                         "value": "Davis, Robert Gorham"
-                    },
-                    {
-                        "role": "Correspondent",
-                        "value": "Schlesinger, Arthur M., Jr. (Arthur Meier), 1917-2007 -- Correspondence"
-                    },
-                    {
-                        "role": "Former owner",
+                    }
+                },
+                {
+                    "label": "source",
+                    "persname": {
+                        "source": "naf",
                         "value": "Davis, Robert Gorham"
                     }
-                ],
-                "subject": [
-                    "Anti-communist movements -- United States -- 20th century"
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1954/1954",
+                    "type": "inclusive",
+                    "value": "1954"
+                }
+            ],
+            "unitid": "TAM.537",
+            "unittitle": {
+                "value": "Robert Gorham Davis Correspondence on the American Committee for Cultural Freedom"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "Robert Gorham Davis (1908-1998), was a literary critic and a professor of English at Columbia University. Davis served as chairman, and on the executive board of the American Committee for Cultural Freedom (ACCF) from 1953-1954, which was affiliated with the Congress for Cultural Freedom, an international organization. The collection contains correspondence of Davis, and third party correspondence for the year 1954, mostly incoming, and mostly concerned with the American Committee for Cultural Freedom, as well as some ACCF executive board minutes, memoranda and other internal documents.",
-                        "id": "aspace_ea59ff67887ccf47c18f514cac68c642"
-                    }
-                ],
-                "container": [
-                    {
-                        "barcode": "31142062883676",
-                        "label": "Mixed Materials",
-                        "altrender": "Manuscript box - Legal - Half",
-                        "id": "aspace_ffee3cae1e09e84d2db4c782f9b55f35",
-                        "type": "box",
-                        "value": "1"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_7b4a67a97c2bf7ca0d38d9629443b20c",
-                        "value": "Materials are in English"
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Davis, Robert Gorham"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "value": "Davis, Robert Gorham"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1954/1954",
-                        "type": "inclusive",
-                        "value": "1954"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.537"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Robert Gorham Davis Correspondence on the American Committee for Cultural Freedom"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {}
-        ],
+        },
+        "dsc": {},
         "prefercite": [
             {
                 "id": "aspace_526245b14c7a0936d42e16324b30be90",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; Robert Gorham Davis Correspondence on the American Committee for Cultural Freedom; TAM 537; box number; folder number; Tamiment Library/Robert F. Wagner Labor Archives, New York University."
@@ -185,11 +174,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_dd84b1ce5eac70bcd853674fee4775ef",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "American Committee for Cultural Freedom Records (TAM 023)"
@@ -200,11 +187,9 @@
         "scopecontent": [
             {
                 "id": "aspace_bed53e9e93ffbdce1ba401f121794e2e",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The collection contains correspondence of Davis, and third party correspondence for the year 1954, mostly incoming, and mostly concerned with the American Committee for Cultural Freedom, as well as some ACCF executive board minutes, memoranda and other internal documents. The most frequent correspondent is Sol Stein, then chair of the ACCF, and the third party letters include one letter each from Norman Thomas and Arthur Schlesinger Jr."
@@ -215,11 +200,9 @@
         "userestrict": [
             {
                 "id": "aspace_07a1565e967d4297abf32ff3423da0d6",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Tamiment Library and Robert F. Wagner Labor Archive has no information about copyright ownership for this collection and is not authorized to grant permission to publish or reproduce materials from it. Materials in this collection, which were created in 1954, are expected to enter the public domain in 2074."
@@ -228,92 +211,78 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_537/",
-                    "value": "tam_537"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_537/",
+            "value": "tam_537"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2010\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Tamiment staff"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Robert Gorham Davis Correspondence on the American Committee for Cultural Freedom \u003cspan class=\"ead-num\"\u003eTAM.537\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:53:37 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in English"
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2010\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2010"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Tamiment staff",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Robert Gorham Davis Correspondence on the American Committee for Cultural Freedom \u003cspan class=\"ead-num\"\u003eTAM.537\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.537"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:53:37 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

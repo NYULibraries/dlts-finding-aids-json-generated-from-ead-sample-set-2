@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_77129a99c034cbbf8d15e43ea0b515d9",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Open for research without restrictions."
@@ -19,11 +17,9 @@
         "arrangement": [
             {
                 "id": "aspace_4d591feee308d917ba1514eb0875afdc",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "The collection is arranged at the folder level by subject."
@@ -34,11 +30,9 @@
         "bioghist": [
             {
                 "id": "aspace_ca89100cb1c2a6b45148112af3b290d1",
-                "head": [
-                    {
-                        "value": "Biographical/Historical note"
-                    }
-                ],
+                "head": {
+                    "value": "Biographical/Historical note"
+                },
                 "p": [
                     {
                         "value": "Samuel F.B. Morse was born in Charlestown, Mass., April 27, 1791.  He began his association with the University of the City of New York (now New York University) at age 41. By this time he had an established reputation as an artist. Morse founded the National Academy of Design and presided over it since its inception in 1826. He lectured widely on art from 1826 to 1829. Morse left for Europe in 1829 and returned to New York in October, 1832. Within days he was appointed Chair of Sculpture and Painting at the University."
@@ -49,809 +43,753 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "New York University. Department of Fine Arts. Sculpture and Painting"
-                    },
-                    {
-                        "value": "New York University. School of Design"
-                    },
-                    {
-                        "value": "Morse Society"
-                    },
-                    {
-                        "value": "National Academy of Design (U.S.)"
-                    },
-                    {
-                        "value": "University of the City of New York"
-                    },
-                    {
-                        "value": "New York University -- Faculty -- 19th century"
+        "controlaccess": {
+            "corpname": [
+                {
+                    "rules": "aacr",
+                    "source": "local",
+                    "value": "New York University. Department of Fine Arts. Sculpture and Painting"
+                },
+                {
+                    "rules": "aacr",
+                    "source": "local",
+                    "value": "New York University. School of Design"
+                },
+                {
+                    "source": "naf",
+                    "value": "Morse Society"
+                },
+                {
+                    "source": "naf",
+                    "value": "National Academy of Design (U.S.)"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "University of the City of New York"
+                },
+                {
+                    "source": "naf",
+                    "value": "New York University -- Faculty -- 19th century"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "photoprints."
+                },
+                {
+                    "source": "aat",
+                    "value": "Clippings (information artifacts)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Memorabilia."
+                },
+                {
+                    "source": "aat",
+                    "value": "Biographies."
+                }
+            ],
+            "persname": [
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Jones, Theodore Francis, 1885-1968"
+                },
+                {
+                    "source": "naf",
+                    "value": "Morse, Herbert C."
+                },
+                {
+                    "source": "naf",
+                    "value": "Morse, Edward L."
+                },
+                {
+                    "source": "naf",
+                    "value": "Nally, Edward Julian, 1859-1953"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Photography"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Education -- Study and teaching -- United States"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Art -- Study and teaching."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Inventions"
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        }
+                    ]
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "genreform": [
-                    "photoprints.",
-                    "Clippings (information artifacts)",
-                    "Memorabilia.",
-                    "Biographies."
-                ],
-                "persname": [
-                    {
-                        "value": "Jones, Theodore Francis, 1885-1968"
-                    },
-                    {
-                        "value": "Morse, Herbert C."
-                    },
-                    {
-                        "value": "Morse, Edward L."
-                    },
-                    {
-                        "value": "Nally, Edward Julian, 1859-1953"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Morse, Samuel Finley Breese, 1791-1872"
                     }
-                ],
-                "subject": [
-                    "Photography",
-                    "Education -- Study and teaching -- United States",
-                    "Art -- Study and teaching.",
-                    "Inventions"
-                ]
+                },
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "naf",
+                        "value": "Still, Bayrd"
+                    }
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "New York University Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1838/1984",
+                    "type": "inclusive",
+                    "value": "1838-1984, undated"
+                }
+            ],
+            "unitid": "MC.10",
+            "unittitle": {
+                "value": "Samuel F.B. Morse Papers"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref2",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "0.5 Linear Feet"
-                            }
-                        ]
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_64cad1f918465610083cf36b9aaf19cb",
+                                "type": "box",
+                                "value": "1"
+                            },
                             {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
+                                "id": "aspace_2dfbcaf1b59707af8affd11ab6c936fe",
+                                "parent": "aspace_64cad1f918465610083cf36b9aaf19cb",
+                                "type": "folder",
+                                "value": "1"
                             }
                         ],
-                        "value": "\n      \n.    "
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1972/1983",
+                                "type": "inclusive",
+                                "value": "1972-1983"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Inventories of Morse letters and paintings at NYU"
+                        }
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
+                },
+                {
+                    "id": "aspace_ref13",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "Morse, Samuel Finley Breese, 1791-1872"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Creator",
-                        "persname": [
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_9340273e92f5521136569b1e4b95d9ee",
+                                "type": "box",
+                                "value": "1"
+                            },
                             {
-                                "value": "Still, Bayrd"
+                                "id": "aspace_7fdf3cf5776406b5876644bccb81e3eb",
+                                "parent": "aspace_9340273e92f5521136569b1e4b95d9ee",
+                                "type": "folder",
+                                "value": "2"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1901/1972",
+                                "type": "inclusive",
+                                "value": "1901-1972"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Biographical summaries and notes"
+                        }
                     }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
+                },
+                {
+                    "id": "aspace_ref14",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "New York University Archives"
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_c107df07ead8cbd5d68a9284f4b310c3",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_0659356ebf8c51eff0cd601013056224",
+                                "parent": "aspace_c107df07ead8cbd5d68a9284f4b310c3",
+                                "type": "folder",
+                                "value": "3"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1932/1984",
+                                "type": "inclusive",
+                                "value": "1932-1984"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Morse as artist"
+                        }
                     }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1838/1984",
-                        "type": "inclusive",
-                        "value": "1838-1984, undated"
+                },
+                {
+                    "id": "aspace_ref15",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_f28b51f7aee054631623c8f2366f46e1",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_f05a501d53e3bf26fe9e33658149db80",
+                                "parent": "aspace_f28b51f7aee054631623c8f2366f46e1",
+                                "type": "folder",
+                                "value": "4"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1838/1984",
+                                "type": "inclusive",
+                                "value": "1838-1984"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Morse's association with the University of the City of New York (now New York University)"
+                        }
                     }
-                ],
-                "unitid": [
-                    {
-                        "value": "MC.10"
+                },
+                {
+                    "id": "aspace_ref16",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_85393628a755ce46cd32ebee83d1020f",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_82c8c01111450e08df1df974b70dfaf8",
+                                "parent": "aspace_85393628a755ce46cd32ebee83d1020f",
+                                "type": "folder",
+                                "value": "5"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1838/1965",
+                                "type": "inclusive",
+                                "value": "1838-1965"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Invention of the telegraph and exhibitions thereof"
+                        }
                     }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Samuel F.B. Morse Papers"
+                },
+                {
+                    "id": "aspace_ref17",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_7c68c54d1f5ab14bf087685529adc548",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_cae94765996e7be59dde82b85d750122",
+                                "parent": "aspace_7c68c54d1f5ab14bf087685529adc548",
+                                "type": "folder",
+                                "value": "6"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1840/1980",
+                                "type": "inclusive",
+                                "value": "1840-1980"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Morse's experiments with photography"
+                        }
                     }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref2",
-                        "level": "file",
-                        "did": [
+                },
+                {
+                    "id": "aspace_ref18",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_64cad1f918465610083cf36b9aaf19cb",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_2dfbcaf1b59707af8affd11ab6c936fe",
-                                        "parent": "aspace_64cad1f918465610083cf36b9aaf19cb",
-                                        "type": "folder",
-                                        "value": "1"
-                                    }
-                                ],
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1972/1983",
-                                        "type": "inclusive",
-                                        "value": "1972-1983"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Inventories of Morse letters and paintings at NYU"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref13",
-                        "level": "file",
-                        "did": [
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_89f6e62e2a1f6f52476a32d49261b8d8",
+                                "type": "box",
+                                "value": "1"
+                            },
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_9340273e92f5521136569b1e4b95d9ee",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_7fdf3cf5776406b5876644bccb81e3eb",
-                                        "parent": "aspace_9340273e92f5521136569b1e4b95d9ee",
-                                        "type": "folder",
-                                        "value": "2"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1901/1972",
-                                        "type": "inclusive",
-                                        "value": "1901-1972"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Biographical summaries and notes"
-                                    }
-                                ]
+                                "id": "aspace_634f9aa9f9244644171fe42607acd4f0",
+                                "parent": "aspace_89f6e62e2a1f6f52476a32d49261b8d8",
+                                "type": "folder",
+                                "value": "7"
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref14",
-                        "level": "file",
-                        "did": [
+                        ],
+                        "unitdate": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_c107df07ead8cbd5d68a9284f4b310c3",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_0659356ebf8c51eff0cd601013056224",
-                                        "parent": "aspace_c107df07ead8cbd5d68a9284f4b310c3",
-                                        "type": "folder",
-                                        "value": "3"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1932/1984",
-                                        "type": "inclusive",
-                                        "value": "1932-1984"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Morse as artist"
-                                    }
-                                ]
+                                "normal": "1872/1872",
+                                "type": "inclusive",
+                                "value": "1872"
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref15",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_f28b51f7aee054631623c8f2366f46e1",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_f05a501d53e3bf26fe9e33658149db80",
-                                        "parent": "aspace_f28b51f7aee054631623c8f2366f46e1",
-                                        "type": "folder",
-                                        "value": "4"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1838/1984",
-                                        "type": "inclusive",
-                                        "value": "1838-1984"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Morse's association with the University of the City of New York (now New York University)"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref16",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_85393628a755ce46cd32ebee83d1020f",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_82c8c01111450e08df1df974b70dfaf8",
-                                        "parent": "aspace_85393628a755ce46cd32ebee83d1020f",
-                                        "type": "folder",
-                                        "value": "5"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1838/1965",
-                                        "type": "inclusive",
-                                        "value": "1838-1965"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Invention of the telegraph and exhibitions thereof"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref17",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_7c68c54d1f5ab14bf087685529adc548",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_cae94765996e7be59dde82b85d750122",
-                                        "parent": "aspace_7c68c54d1f5ab14bf087685529adc548",
-                                        "type": "folder",
-                                        "value": "6"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1840/1980",
-                                        "type": "inclusive",
-                                        "value": "1840-1980"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Morse's experiments with photography"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref18",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_89f6e62e2a1f6f52476a32d49261b8d8",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_634f9aa9f9244644171fe42607acd4f0",
-                                        "parent": "aspace_89f6e62e2a1f6f52476a32d49261b8d8",
-                                        "type": "folder",
-                                        "value": "7"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1872/1872",
-                                        "type": "inclusive",
-                                        "value": "1872"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Will and report of funeral--\u003cspan class=\"ead-emph ead-emph-italic\"\u003eNew York Times\u003c/span\u003e clipping"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref19",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_ba54ca3d298aac0541b4e139e9f61041",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_c504bb7a0c26deaa25948256c651cb41",
-                                        "parent": "aspace_ba54ca3d298aac0541b4e139e9f61041",
-                                        "type": "folder",
-                                        "value": "8"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1903/1903",
-                                        "type": "inclusive",
-                                        "value": "1903"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Morse family: letter, Edward L. Morse to Miss [?] Solomons"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref20",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_dc097e914457fe716aa4c3636a213f26",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_ceb872762fa4851f3d3b9e5fedae8446",
-                                        "parent": "aspace_dc097e914457fe716aa4c3636a213f26",
-                                        "type": "folder",
-                                        "value": "9"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1932/1983",
-                                        "type": "inclusive",
-                                        "value": "1932-1935, 1983"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Morse Chair of Fine Arts at NYU: miseellaneous notes and Council minutes (excerpts)"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref21",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_e1981000b6a3378606bc6b661aa6078d",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_2ea2e26fe8411bebdbb70585820ff9d6",
-                                        "parent": "aspace_e1981000b6a3378606bc6b661aa6078d",
-                                        "type": "folder",
-                                        "value": "10"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1932/1983",
-                                        "type": "inclusive",
-                                        "value": "1932-1935, 1983"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Morse Plaque or \"tablet\" on Main Building at NYU"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref22",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_3dd63a5db0f1e85269ce9f06f182b770",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_b15f5daac1c7161e8873ace9c96b9709",
-                                        "parent": "aspace_3dd63a5db0f1e85269ce9f06f182b770",
-                                        "type": "folder",
-                                        "value": "11"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1936/1936",
-                                        "type": "inclusive",
-                                        "value": "1936"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Proposal of Morse celebration"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref23",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_cf8624d1bd38655a99de35b44aaa111b",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_f9e41f54d53b2d96800ee1234b73e194",
-                                        "parent": "aspace_cf8624d1bd38655a99de35b44aaa111b",
-                                        "type": "folder",
-                                        "value": "12"
-                                    }
-                                ],
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1941/1941",
-                                        "type": "inclusive",
-                                        "value": "1941"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "E.J. Nally collection of Morse memorabilia"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref24",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_2f125049b3c0a09aba5ac611e0ef6229",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_4058cbd0c553c33a0fcee82b261705f8",
-                                        "parent": "aspace_2f125049b3c0a09aba5ac611e0ef6229",
-                                        "type": "folder",
-                                        "value": "13"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1944/1944",
-                                        "type": "inclusive",
-                                        "value": "1944"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Centennial celebration of 1844 demonstration of telegraph, May 14, 1944"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref25",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_f11669fda122c019f9a619e673ccb625",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_9a5eb1e3214977332300ae854b60a3e8",
-                                        "parent": "aspace_f11669fda122c019f9a619e673ccb625",
-                                        "type": "folder",
-                                        "value": "14"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1929/1946",
-                                        "type": "inclusive",
-                                        "value": "1929-1946"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Correspondence of Theodore F. Jones (historian of NYU) re Morse"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref26",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_bf5d1e096dc7b783783b7cc07a2b21ba",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_238d69820d0ff8733a9963fac479924e",
-                                        "parent": "aspace_bf5d1e096dc7b783783b7cc07a2b21ba",
-                                        "type": "folder",
-                                        "value": "15"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1838/1984",
-                                        "type": "inclusive",
-                                        "value": "undated"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Samuel F.B. Morse Medal"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref27",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_f40a35f620506d1df6272a9ff2ac4d13",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_3a41a3e1f7d14ebeb06c5635bef0cb3b",
-                                        "parent": "aspace_f40a35f620506d1df6272a9ff2ac4d13",
-                                        "type": "folder",
-                                        "value": "16"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1942/1982",
-                                        "type": "inclusive",
-                                        "value": "1942-1982"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Morse Telegraph Club, Inc."
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref28",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_9a422bbb8e34d4b0ece07d2da91252ae",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_92b5660eb6877d495c6a03e10c21457e",
-                                        "parent": "aspace_9a422bbb8e34d4b0ece07d2da91252ae",
-                                        "type": "folder",
-                                        "value": "17"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1982/1982",
-                                        "type": "inclusive",
-                                        "value": "1982"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Locust Grove: Young-Morse historic site"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref29",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063000676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_96f07e646310ad02be3cce1cb34a63d9",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_947dda576c495853da077eeaf879b945",
-                                        "parent": "aspace_96f07e646310ad02be3cce1cb34a63d9",
-                                        "type": "folder",
-                                        "value": "18"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1983/1983",
-                                        "type": "inclusive",
-                                        "value": "1983"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Morse Society: correspondence with Herbert C Morse II"
-                                    }
-                                ]
-                            }
-                        ]
+                        ],
+                        "unittitle": {
+                            "value": "Will and report of funeral--\u003cspan class=\"ead-emph ead-emph-italic\"\u003eNew York Times\u003c/span\u003e clipping"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref19",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_ba54ca3d298aac0541b4e139e9f61041",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_c504bb7a0c26deaa25948256c651cb41",
+                                "parent": "aspace_ba54ca3d298aac0541b4e139e9f61041",
+                                "type": "folder",
+                                "value": "8"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1903/1903",
+                                "type": "inclusive",
+                                "value": "1903"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Morse family: letter, Edward L. Morse to Miss [?] Solomons"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref20",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_dc097e914457fe716aa4c3636a213f26",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_ceb872762fa4851f3d3b9e5fedae8446",
+                                "parent": "aspace_dc097e914457fe716aa4c3636a213f26",
+                                "type": "folder",
+                                "value": "9"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1932/1983",
+                                "type": "inclusive",
+                                "value": "1932-1935, 1983"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Morse Chair of Fine Arts at NYU: miseellaneous notes and Council minutes (excerpts)"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref21",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_e1981000b6a3378606bc6b661aa6078d",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_2ea2e26fe8411bebdbb70585820ff9d6",
+                                "parent": "aspace_e1981000b6a3378606bc6b661aa6078d",
+                                "type": "folder",
+                                "value": "10"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1932/1983",
+                                "type": "inclusive",
+                                "value": "1932-1935, 1983"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Morse Plaque or \"tablet\" on Main Building at NYU"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref22",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_3dd63a5db0f1e85269ce9f06f182b770",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_b15f5daac1c7161e8873ace9c96b9709",
+                                "parent": "aspace_3dd63a5db0f1e85269ce9f06f182b770",
+                                "type": "folder",
+                                "value": "11"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1936/1936",
+                                "type": "inclusive",
+                                "value": "1936"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Proposal of Morse celebration"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref23",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_cf8624d1bd38655a99de35b44aaa111b",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_f9e41f54d53b2d96800ee1234b73e194",
+                                "parent": "aspace_cf8624d1bd38655a99de35b44aaa111b",
+                                "type": "folder",
+                                "value": "12"
+                            }
+                        ],
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1941/1941",
+                                "type": "inclusive",
+                                "value": "1941"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "E.J. Nally collection of Morse memorabilia"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref24",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_2f125049b3c0a09aba5ac611e0ef6229",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_4058cbd0c553c33a0fcee82b261705f8",
+                                "parent": "aspace_2f125049b3c0a09aba5ac611e0ef6229",
+                                "type": "folder",
+                                "value": "13"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1944/1944",
+                                "type": "inclusive",
+                                "value": "1944"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Centennial celebration of 1844 demonstration of telegraph, May 14, 1944"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref25",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_f11669fda122c019f9a619e673ccb625",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_9a5eb1e3214977332300ae854b60a3e8",
+                                "parent": "aspace_f11669fda122c019f9a619e673ccb625",
+                                "type": "folder",
+                                "value": "14"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1929/1946",
+                                "type": "inclusive",
+                                "value": "1929-1946"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Correspondence of Theodore F. Jones (historian of NYU) re Morse"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref26",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_bf5d1e096dc7b783783b7cc07a2b21ba",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_238d69820d0ff8733a9963fac479924e",
+                                "parent": "aspace_bf5d1e096dc7b783783b7cc07a2b21ba",
+                                "type": "folder",
+                                "value": "15"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1838/1984",
+                                "type": "inclusive",
+                                "value": "undated"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Samuel F.B. Morse Medal"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref27",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_f40a35f620506d1df6272a9ff2ac4d13",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_3a41a3e1f7d14ebeb06c5635bef0cb3b",
+                                "parent": "aspace_f40a35f620506d1df6272a9ff2ac4d13",
+                                "type": "folder",
+                                "value": "16"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1942/1982",
+                                "type": "inclusive",
+                                "value": "1942-1982"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Morse Telegraph Club, Inc."
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref28",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_9a422bbb8e34d4b0ece07d2da91252ae",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_92b5660eb6877d495c6a03e10c21457e",
+                                "parent": "aspace_9a422bbb8e34d4b0ece07d2da91252ae",
+                                "type": "folder",
+                                "value": "17"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1982/1982",
+                                "type": "inclusive",
+                                "value": "1982"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Locust Grove: Young-Morse historic site"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref29",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063000676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_96f07e646310ad02be3cce1cb34a63d9",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_947dda576c495853da077eeaf879b945",
+                                "parent": "aspace_96f07e646310ad02be3cce1cb34a63d9",
+                                "type": "folder",
+                                "value": "18"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1983/1983",
+                                "type": "inclusive",
+                                "value": "1983"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Morse Society: correspondence with Herbert C Morse II"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_c61c2026195cb42814ba4e12125bc487",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: Identification of item, date (if known), Samuel F.B. Morse Papers; MC 10, box number, folder number, New York University Archives, New York University Libraries."
@@ -862,11 +800,9 @@
         "scopecontent": [
             {
                 "id": "aspace_f6ce1a517820948a56d14019635ceed9",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "The Samuel F.B. Morse Collection contains inventories of letters from and about Morse; biographical summaries; papers relating to his career as an artist; his association with the University of the City of New York (now New York University); the invention of the telegraph and exhibitions thereof; and his experiments with photography. The collection also includes information on his will and his funeral; the Morse Plaque, which was placed on Main Building at NYU; the centennial celebration of his invention of the telegraph in 1944; the Morse Medal; and information concerning the Morse Telegraph Club, Inc."
@@ -883,11 +819,9 @@
         "separatedmaterial": [
             {
                 "id": "aspace_9d304376a0094f5828cacc68e78176d3",
-                "head": [
-                    {
-                        "value": "Separated Materials"
-                    }
-                ],
+                "head": {
+                    "value": "Separated Materials"
+                },
                 "p": [
                     {
                         "value": "NYU's Fales Library contains 24 letters written by Morse between 1822 and 1870 (see Folder 1 of Morse Collection for inventory)."
@@ -896,49 +830,38 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NyNyUA",
-                    "url": "http://dlib.nyu.edu/findingaids/html/archives/morse.html",
-                    "value": "mc_10"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
-                        {
-                            "publisher": "New York University Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Bayrd Still and Tom Frusciano.  Electronic version prepared by Jackie Rider."
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to Samuel F.B. Morse Papers \u003cspan class=\"ead-num\"\u003eMC.10\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 14:29:07 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ]
-                }
-            ]
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NyNyUA",
+            "url": "http://dlib.nyu.edu/findingaids/html/archives/morse.html",
+            "value": "mc_10"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "publisher": "New York University Archives"
+            },
+            "titlestmt": {
+                "author": "Bayrd Still and Tom Frusciano.  Electronic version prepared by Jackie Rider.",
+                "titleproper": [
+                    {
+                        "value": "Guide to Samuel F.B. Morse Papers \u003cspan class=\"ead-num\"\u003eMC.10\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MC.10"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 14:29:07 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            }
         }
-    ]
+    }
 }

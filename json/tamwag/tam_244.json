@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_bd2f13d4cfaa8b52e7f7b05c3066dc69",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_7521c27bfe984ea81fdfe5626919b1c2",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Provenance unknown. The accession number associated with this gift is 1950.219."
@@ -34,11 +30,9 @@
         "bioghist": [
             {
                 "id": "aspace_94b197c87eb63d73fe390721310d3e5e",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "The Revolutionary Workers Headquarters (RWH) was a U.S. Marxist-Leninist-Maoist organization that formed out of a split from the Revolutionary Communist Party in 1977. Two years after the death of Mao Zedong, the majority of the Revolutionary Communist Party, led by Bob Avakian, felt that the Chinese government had adopted revisionist policies, while the minority, which supported the then current regime of the Community Party of China (CCP), established the RWH. Subsequently, RWH merged with the Bay Area Communist Union, the League of Revolutionary Struggle, and other organizations to from the Committee to Unite Marxist-Leninists. The RWH was active in the labor movement, struggles of oppressed nationalities, the women's movement, the student movement, and the struggle for divestiture from companies doing business in apartheid South Africa. It was directly involved with founding of the Progressive Student Network."
@@ -46,143 +40,159 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Committee to Unite Marist-Leninists (U.S.)"
-                    },
-                    {
-                        "value": "Bay Area Communist Union (Calif.)"
-                    },
-                    {
-                        "value": "Revolutionary Communist Party, USA"
-                    },
-                    {
-                        "value": "Zhongguo gong chan dang"
-                    },
-                    {
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "local",
+                    "value": "Committee to Unite Marist-Leninists (U.S.)"
+                },
+                {
+                    "source": "naf",
+                    "value": "Bay Area Communist Union (Calif.)"
+                },
+                {
+                    "source": "naf",
+                    "value": "Revolutionary Communist Party, USA"
+                },
+                {
+                    "source": "naf",
+                    "value": "Zhongguo gong chan dang"
+                },
+                {
+                    "source": "naf",
+                    "value": "Revolutionary Workers Headquarters of the RCP"
+                }
+            ],
+            "persname": [
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "Mao, Zedong, 1893-1976"
+                },
+                {
+                    "role": "Former owner",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Bernstien, B."
+                },
+                {
+                    "source": "naf",
+                    "value": "Avakian, Bob"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Communism -- California."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Communism -- United States."
+                },
+                {
+                    "source": "local",
+                    "value": "Maoism |z California."
+                },
+                {
+                    "source": "local",
+                    "value": "Maoist parties |z United States."
+                },
+                {
+                    "source": "local",
+                    "value": "Maoism -- United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Communist parties |z United States."
+                },
+                {
+                    "source": "local",
+                    "value": "Maoism."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in two manuscript boxes.",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "container": [
+                {
+                    "barcode": "31142062733657",
+                    "label": "Mixed Materials",
+                    "altrender": "Manuscript box - Legal",
+                    "id": "aspace_0020e7a9b99952a25dcf9eb4d88b328e",
+                    "type": "box",
+                    "value": "1"
+                },
+                {
+                    "barcode": "31142062733665",
+                    "label": "Mixed Materials",
+                    "altrender": "Manuscript box - Legal",
+                    "id": "aspace_3f52351bd15786cb898b9937957ec3b4",
+                    "type": "box",
+                    "value": "2"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English.",
+                    "id": "aspace_8ed17bf21284dcd79a447b5bee7ded6e"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "corpname": {
+                        "source": "naf",
                         "value": "Revolutionary Workers Headquarters of the RCP"
                     }
-                ],
-                "persname": [
-                    {
-                        "value": "Mao, Zedong, 1893-1976"
-                    },
-                    {
-                        "role": "Former owner",
+                },
+                {
+                    "label": "source",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
                         "value": "Bernstien, B."
-                    },
-                    {
-                        "value": "Avakian, Bob"
                     }
-                ],
-                "subject": [
-                    "Communism -- California.",
-                    "Communism -- United States.",
-                    "Maoism |z California.",
-                    "Maoist parties |z United States.",
-                    "Maoism -- United States.",
-                    "Communist parties |z United States.",
-                    "Maoism."
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1976/1980",
+                    "type": "inclusive",
+                    "value": "1976-1980"
+                }
+            ],
+            "unitid": "TAM.244",
+            "unittitle": {
+                "value": "Revolutionary Workers Headquarters Records"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "1 Linear Feet"
-                            },
-                            {
-                                "value": "in two manuscript boxes."
-                            }
-                        ]
-                    }
-                ],
-                "container": [
-                    {
-                        "barcode": "31142062733657",
-                        "label": "Mixed Materials",
-                        "altrender": "Manuscript box - Legal",
-                        "id": "aspace_0020e7a9b99952a25dcf9eb4d88b328e",
-                        "type": "box",
-                        "value": "1"
-                    },
-                    {
-                        "barcode": "31142062733665",
-                        "label": "Mixed Materials",
-                        "altrender": "Manuscript box - Legal",
-                        "id": "aspace_3f52351bd15786cb898b9937957ec3b4",
-                        "type": "box",
-                        "value": "2"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_8ed17bf21284dcd79a447b5bee7ded6e",
-                        "value": "Materials are in English."
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "corpname": [
-                            {
-                                "value": "Revolutionary Workers Headquarters of the RCP"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "value": "Bernstien, B."
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1976/1980",
-                        "type": "inclusive",
-                        "value": "1976-1980"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.244"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Revolutionary Workers Headquarters Records"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {}
-        ],
+        },
+        "dsc": {},
         "prefercite": [
             {
                 "id": "aspace_d9722705234a73ee21eed79a16335e51",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; Revolutionary Workers Headquarters Records; TAM 244; box number; folder number; Tamiment Library/Robert F. Wagner Labor Archives, New York University."
@@ -193,11 +203,9 @@
         "processinfo": [
             {
                 "id": "aspace_10755c0c875c852f453ec943a465592d",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "Loose materials in box one were put into folders, the original order was retained."
@@ -208,11 +216,9 @@
         "scopecontent": [
             {
                 "id": "aspace_6769f2edbd2eea0350398b29457f2b18",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "The collection contains meeting reports, circulars, bulletins, leaflets and position papers of national, local, and district units."
@@ -223,11 +229,9 @@
         "userestrict": [
             {
                 "id": "aspace_d78767be5cc2a16284bd3401dbe3d56f",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (and related rights to publicity and privacy) to materials in this collection created by the Revolutionary Workers Headquarters was not transferred to New York University. Permission to use materials must be secured from the copyright holder."
@@ -236,83 +240,75 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "tam_244"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "tam_244"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e12/14/2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Tamiment staff"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Revolutionary Workers Headquarters Records \u003cspan class=\"ead-num\"\u003eTAM.244\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:50:31 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e12/14/2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "12/14/2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Tamiment staff",
+                "titleproper": [
+                    {
+                        "value": "Revolutionary Workers Headquarters Records \u003cspan class=\"ead-num\"\u003eTAM.244\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.244"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:50:31 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            }
         }
-    ]
+    }
 }

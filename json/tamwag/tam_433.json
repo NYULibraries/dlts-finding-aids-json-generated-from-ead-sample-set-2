@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_a98c085a524cdda00953cf2e2230dcb6",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_da7634a05ca34e6b37e5dc2d78b972c3",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Donated by Jon Bloom in 2008. The accession number associated with this gift is 2008.018."
@@ -34,11 +30,9 @@
         "bioghist": [
             {
                 "id": "aspace_687e8e261bae863f620a2215793a6f9c",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Bernhard J. Stern (1894-1956) was a social scientist and political radical who came under persecution from Congressional investigative committees during the McCarthy period. The materials in the collection were assembled by Samuel W. Bloom, a sociology professor who wrote an article on Stern, \"The Intellectual in a Time of Crisis,\" for Volume 26 of the \u003cspan class=\"ead-emph ead-emph-italic\"\u003eJournal of the History of the Behavioral Sciences\u003c/span\u003e."
@@ -46,122 +40,121 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "genreform": [
-                    "Federal government records.",
-                    "Correspondence."
-                ],
-                "persname": [
-                    {
+        "controlaccess": {
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Federal government records."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                }
+            ],
+            "persname": [
+                {
+                    "role": "Donor",
+                    "source": "naf",
+                    "value": "Bloom, Jonathan"
+                },
+                {
+                    "source": "naf",
+                    "value": "Stern, Bernhard Joseph, 1894-1956"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Communists -- United States -- Biography."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Sociologists |z United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Anti-communist movements -- United States."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "container": [
+                {
+                    "barcode": "31142062722718",
+                    "label": "Mixed Materials",
+                    "altrender": "Record carton",
+                    "id": "aspace_cbb1263d3c3113fdf658a55202235cce",
+                    "type": "box",
+                    "value": "1"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
+                    }
+                }
+            ],
+            "origination": [
+                {
+                    "label": "source",
+                    "persname": {
                         "role": "Donor",
+                        "source": "naf",
                         "value": "Bloom, Jonathan"
-                    },
-                    {
-                        "value": "Stern, Bernhard Joseph, 1894-1956"
                     }
-                ],
-                "subject": [
-                    "Communists -- United States -- Biography.",
-                    "Sociologists |z United States.",
-                    "Anti-communist movements -- United States."
-                ]
+                },
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Bloom, Samuel William, 1921-2006"
+                    }
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1910/1956",
+                    "type": "inclusive",
+                    "value": "circa 1910s-1950s"
+                }
+            ],
+            "unitid": "TAM.433",
+            "unittitle": {
+                "value": "Samuel Bloom Collection on Bernhard J. Stern"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "1 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
-                    }
-                ],
-                "container": [
-                    {
-                        "barcode": "31142062722718",
-                        "label": "Mixed Materials",
-                        "altrender": "Record carton",
-                        "id": "aspace_cbb1263d3c3113fdf658a55202235cce",
-                        "type": "box",
-                        "value": "1"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "role": "Donor",
-                                "value": "Bloom, Jonathan"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Bloom, Samuel William, 1921-2006"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1910/1956",
-                        "type": "inclusive",
-                        "value": "circa 1910s-1950s"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.433"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Samuel Bloom Collection on Bernhard J. Stern"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {}
-        ],
+        },
+        "dsc": {},
         "relatedmaterial": [
             {
                 "id": "aspace_2d1b47a5dcc2d84a2052c47a753789f8",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "Charlotte Todes Stern Papers (Tamiment 70)"
@@ -172,11 +165,9 @@
         "scopecontent": [
             {
                 "id": "aspace_d11511031d5e9e7745f9b089282a031a",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "The documents pertain to Bloom's writing of the article and contains drafts of the article, correspondence related to it, and much of the documentation and research used in its writing."
@@ -187,11 +178,9 @@
         "userestrict": [
             {
                 "id": "aspace_b0241479a464cb95a4db181992adba48",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (and related rights to publicity and privacy) to materials in this collection created by Samuel Bloom was not transferred to New York University. Permission to use materials must be secured from the copyright holder."
@@ -200,83 +189,75 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "tam_433"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "tam_433"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e11/19/2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Tamiment staff"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Samuel Bloom Collection on Bernhard J. Stern \u003cspan class=\"ead-num\"\u003eTAM.433\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:52:38 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e11/19/2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "11/19/2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Tamiment staff",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Samuel Bloom Collection on Bernhard J. Stern \u003cspan class=\"ead-num\"\u003eTAM.433\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.433"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:52:38 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            }
         }
-    ]
+    }
 }

@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_28f3009aaef74e154b1c0b2ce51038cb",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_0130961e236285c4c4d8f222a59285b2",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Materials found in collection; provenance is unknown. The accession number associated with this gift is NPA.2000.037."
@@ -34,11 +30,9 @@
         "appraisal": [
             {
                 "id": "aspace_e6ec83347715f8247e1cf038f094c57a",
-                "head": [
-                    {
-                        "value": "Appraisal"
-                    }
-                ],
+                "head": {
+                    "value": "Appraisal"
+                },
                 "p": [
                     {
                         "value": "No materials were separated from this collection."
@@ -49,11 +43,9 @@
         "arrangement": [
             {
                 "id": "aspace_8436048f4a407498c54d8b518139078c",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "The order in which these materials were sent to the Tamiment Library has been maintained."
@@ -64,11 +56,9 @@
         "bioghist": [
             {
                 "id": "aspace_ff69131c4d8ed35a423081a489a6a20d",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "The artist Edwin Eugene Herron was born in Chinook, Montana, in 1907, and died in Fort Bragg, California, in 1984. He was an artist for the journal \u003cspan class=\"ead-emph ead-emph-underline\"\u003eIntercontinental Press\u003c/span\u003e which was published in New York from 1963 to 1986 on behalf of the United Secretariat of the Fourth International."
@@ -76,30 +66,39 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "persname": [
-                    {
-                        "role": "Donor",
-                        "value": "Lovell, Frank"
-                    }
-                ],
-                "subject": [
-                    "Cartoonists -- United States",
-                    "Caricatures and cartoons -- United States.",
-                    "Artists |x Political activity |z United States.",
-                    "Graphic artists |z United States."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "persname": [
+                {
+                    "role": "Donor",
+                    "source": "naf",
+                    "value": "Lovell, Frank"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Cartoonists -- United States"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Caricatures and cartoons -- United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Artists |x Political activity |z United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Graphic artists |z United States."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_402d2dd96983c5fb3e250220dabefdc0",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "The collection was received on 10/28/94 from Frank Lovell. He received the collection from Ada Farrell, the widow of Bill Farrell, who had a bookstore in Berkeley, CA ."
@@ -107,314 +106,276 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 1 flat box",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Edwin Eugene Herron (1907-1984) was an artist for \u003cspan class=\"ead-emph ead-emph-underline\"\u003eIntercontinental Press\u003c/span\u003e, a journal published in New York from 1963 to 1986 on behalf of the United Secretariat of the Fourth International. This collection consists of 206 drawings by Herron and an issue of \u003cspan class=\"ead-emph ead-emph-underline\"\u003eIntercontinental Press\u003c/span\u003e from August 1, 1977. Many of the drawings relate to politics of the 1970s and contain caricatures of prominent domestic and foreign leaders.",
+                    "id": "aspace_2af8148196941fcdc0d4c52571b96eda"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English",
+                    "id": "aspace_894a4fb596f49b4c288f7055919be9f9"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "source",
+                    "persname": {
+                        "role": "Donor",
+                        "source": "naf",
+                        "value": "Lovell, Frank"
+                    }
+                },
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "role": "Artist",
+                        "source": "naf",
+                        "value": "Herron, Edwin Eugene, 1907-1984"
+                    }
+                }
+            ],
+            "physloc": [
+                {
+                    "id": "aspace_7baf50324b8b9a10699e2472f81f6138",
+                    "value": "Materials are located at the Tamiment Library."
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1970/1979",
+                    "type": "inclusive",
+                    "value": "1970-1979"
+                }
+            ],
+            "unitid": "TAM.670",
+            "unittitle": {
+                "value": "Edwin Eugene Herron Papers"
+            }
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref1",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "0.5 Linear Feet"
+                                "barcode": "31142062758209",
+                                "label": "Mixed Materials",
+                                "altrender": "OS Flat Box 12",
+                                "id": "aspace_678e4939faae597050c733f90995415c",
+                                "type": "box",
+                                "value": "1"
                             },
                             {
-                                "value": "in 1 flat box"
+                                "id": "aspace_08229f61af5b257a8a6b285a35ae59e0",
+                                "parent": "aspace_678e4939faae597050c733f90995415c",
+                                "type": "folder",
+                                "value": "1"
                             }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "Edwin Eugene Herron (1907-1984) was an artist for \u003cspan class=\"ead-emph ead-emph-underline\"\u003eIntercontinental Press\u003c/span\u003e, a journal published in New York from 1963 to 1986 on behalf of the United Secretariat of the Fourth International. This collection consists of 206 drawings by Herron and an issue of \u003cspan class=\"ead-emph ead-emph-underline\"\u003eIntercontinental Press\u003c/span\u003e from August 1, 1977. Many of the drawings relate to politics of the 1970s and contain caricatures of prominent domestic and foreign leaders.",
-                        "id": "aspace_2af8148196941fcdc0d4c52571b96eda"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_894a4fb596f49b4c288f7055919be9f9",
-                        "value": "Materials are in English"
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "source",
-                        "persname": [
+                        ],
+                        "unitdate": [
                             {
-                                "role": "Donor",
-                                "value": "Lovell, Frank"
+                                "normal": "1979/1979",
+                                "type": "inclusive",
+                                "value": "1979, undated"
                             }
-                        ]
-                    },
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "role": "Artist",
-                                "value": "Herron, Edwin Eugene, 1907-1984"
-                            }
-                        ]
+                        ],
+                        "unittitle": {
+                            "value": "Our Times Volume I [Album]"
+                        }
                     }
-                ],
-                "physloc": [
-                    {
-                        "id": "aspace_7baf50324b8b9a10699e2472f81f6138",
-                        "value": "Materials are located at the Tamiment Library."
+                },
+                {
+                    "id": "aspace_ref2",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062758209",
+                                "label": "Mixed Materials",
+                                "altrender": "OS Flat Box 12",
+                                "id": "aspace_3f683ecdf507a4249b088052fbda3a67",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_36d520fb515d6435544d61c06e9b1605",
+                                "parent": "aspace_3f683ecdf507a4249b088052fbda3a67",
+                                "type": "folder",
+                                "value": "2"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1979/1979",
+                                "type": "inclusive",
+                                "value": "1979, undated"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Our Times Volume II [Album]"
+                        }
                     }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
+                },
+                {
+                    "id": "aspace_ref3",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                                "barcode": "31142062758209",
+                                "label": "Mixed Materials",
+                                "altrender": "OS Flat Box 12",
+                                "id": "aspace_0c0cfcbf105b105ae2273f1aacf653ec",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_23bf52ac254a7fdd02fb301653fb4328",
+                                "parent": "aspace_0c0cfcbf105b105ae2273f1aacf653ec",
+                                "type": "folder",
+                                "value": "3"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1981/1981",
+                                "type": "inclusive",
+                                "value": "1981, undated"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Our Times (continued) [Album]"
+                        }
                     }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1970/1979",
-                        "type": "inclusive",
-                        "value": "1970-1979"
+                },
+                {
+                    "id": "aspace_ref4",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062758209",
+                                "label": "Mixed Materials",
+                                "altrender": "OS Flat Box 12",
+                                "id": "aspace_1f38928f53852966d67e3cf205f0eefd",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_a30ced14903380f483443b014155008d",
+                                "parent": "aspace_1f38928f53852966d67e3cf205f0eefd",
+                                "type": "folder",
+                                "value": "4"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1980/1980",
+                                "type": "inclusive",
+                                "value": "1980"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "News Briefs [Album]"
+                        }
                     }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.670"
+                },
+                {
+                    "id": "aspace_ref5",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062758209",
+                                "label": "Mixed Materials",
+                                "altrender": "OS Flat Box 12",
+                                "id": "aspace_07fe647b0443447fd37be58e21186802",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_43c192babe2ae3b1e6a7feeb26a2c394",
+                                "parent": "aspace_07fe647b0443447fd37be58e21186802",
+                                "type": "folder",
+                                "value": "5"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1977/1977",
+                                "type": "inclusive",
+                                "value": "Aug 1, 1977"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "\u003cspan class=\"ead-emph ead-emph-underline\"\u003eIntercontinental Press\u003c/span\u003e"
+                        }
                     }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Edwin Eugene Herron Papers"
+                },
+                {
+                    "id": "aspace_ref6",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062758209",
+                                "label": "Mixed Materials",
+                                "altrender": "OS Flat Box 12",
+                                "id": "aspace_3fa93b6b04a4de43d03a805e7992dfdd",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_7beff875de58e3f334999fcceb9c7595",
+                                "parent": "aspace_3fa93b6b04a4de43d03a805e7992dfdd",
+                                "type": "folder",
+                                "value": "6"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "undated"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": " Miscellaneous Drawings"
+                        }
                     }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref1",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062758209",
-                                        "label": "Mixed Materials",
-                                        "altrender": "OS Flat Box 12",
-                                        "id": "aspace_678e4939faae597050c733f90995415c",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_08229f61af5b257a8a6b285a35ae59e0",
-                                        "parent": "aspace_678e4939faae597050c733f90995415c",
-                                        "type": "folder",
-                                        "value": "1"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1979/1979",
-                                        "type": "inclusive",
-                                        "value": "1979, undated"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Our Times Volume I [Album]"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref2",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062758209",
-                                        "label": "Mixed Materials",
-                                        "altrender": "OS Flat Box 12",
-                                        "id": "aspace_3f683ecdf507a4249b088052fbda3a67",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_36d520fb515d6435544d61c06e9b1605",
-                                        "parent": "aspace_3f683ecdf507a4249b088052fbda3a67",
-                                        "type": "folder",
-                                        "value": "2"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1979/1979",
-                                        "type": "inclusive",
-                                        "value": "1979, undated"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Our Times Volume II [Album]"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref3",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062758209",
-                                        "label": "Mixed Materials",
-                                        "altrender": "OS Flat Box 12",
-                                        "id": "aspace_0c0cfcbf105b105ae2273f1aacf653ec",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_23bf52ac254a7fdd02fb301653fb4328",
-                                        "parent": "aspace_0c0cfcbf105b105ae2273f1aacf653ec",
-                                        "type": "folder",
-                                        "value": "3"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1981/1981",
-                                        "type": "inclusive",
-                                        "value": "1981, undated"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Our Times (continued) [Album]"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref4",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062758209",
-                                        "label": "Mixed Materials",
-                                        "altrender": "OS Flat Box 12",
-                                        "id": "aspace_1f38928f53852966d67e3cf205f0eefd",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_a30ced14903380f483443b014155008d",
-                                        "parent": "aspace_1f38928f53852966d67e3cf205f0eefd",
-                                        "type": "folder",
-                                        "value": "4"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1980/1980",
-                                        "type": "inclusive",
-                                        "value": "1980"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "News Briefs [Album]"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref5",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062758209",
-                                        "label": "Mixed Materials",
-                                        "altrender": "OS Flat Box 12",
-                                        "id": "aspace_07fe647b0443447fd37be58e21186802",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_43c192babe2ae3b1e6a7feeb26a2c394",
-                                        "parent": "aspace_07fe647b0443447fd37be58e21186802",
-                                        "type": "folder",
-                                        "value": "5"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1977/1977",
-                                        "type": "inclusive",
-                                        "value": "Aug 1, 1977"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "\u003cspan class=\"ead-emph ead-emph-underline\"\u003eIntercontinental Press\u003c/span\u003e"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref6",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062758209",
-                                        "label": "Mixed Materials",
-                                        "altrender": "OS Flat Box 12",
-                                        "id": "aspace_3fa93b6b04a4de43d03a805e7992dfdd",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_7beff875de58e3f334999fcceb9c7595",
-                                        "parent": "aspace_3fa93b6b04a4de43d03a805e7992dfdd",
-                                        "type": "folder",
-                                        "value": "6"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "undated"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": " Miscellaneous Drawings"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_2726612d9ee88faf9d77cb012b82a45b",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; Edwin Eugene Herron Papers; TAM 670; box number; folder number; Tamiment Library/Robert F. Wagner Labor Archives, New York University."
@@ -425,11 +386,9 @@
         "processinfo": [
             {
                 "id": "aspace_60df4ca3698417bb4c7141cdfede72cf",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "At the time of accessioning, materials were moved into archival housing and an accession record was created. In 2015, a collection number was assigned to the material and a folder level finding aid was created."
@@ -440,11 +399,9 @@
         "scopecontent": [
             {
                 "id": "aspace_367937323510e7ecadf75149cd3e49aa",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "This collection consists of 206 drawings by Ed Herron and an issue of \u003cspan class=\"ead-emph ead-emph-underline\"\u003eIntercontinental Press\u003c/span\u003e from August 1, 1977. The drawings are mostly small items taken from four albums titled Our Times, Our Times Volume II, Our Times continued, and News Briefs. Most of the drawings are related to the politics of the 1970s-early 1980s including enviromentalism, nuclear war, civil rights, President Nixon, President Reagan and several other world leaders. There is also a folder of miscellaneous undated drawings (mostly of dogs) by Ed Herron. While Ed Herron was an artist for \u003cspan class=\"ead-emph ead-emph-underline\"\u003eIntercontinental Press\u003c/span\u003e, it is not clear whether or not these drawings were published in the journal."
@@ -455,11 +412,9 @@
         "userestrict": [
             {
                 "id": "aspace_074f30b2d6d4555c6ae732d0f22abeb9",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Tamiment Library and Robert F. Wagner Labor Archive has no information about copyright ownership for this collection and is not authorized to grant permission to publish or reproduce materials from it. Materials in this collection, which were created in 1970-1979, are expected to enter the public domain in 2099."
@@ -468,92 +423,78 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": " http://dlib.nyu.edu/findingaids/html/tamwag/tam_670",
-                    "value": "tam_670"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": " http://dlib.nyu.edu/findingaids/html/tamwag/tam_670",
+            "value": "tam_670"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e5/18/2015\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Giana Ricci"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Edwin Eugene Herron Papers \u003cspan class=\"ead-num\"\u003eTAM.670\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:55:14 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "English"
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e5/18/2015\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "5/18/2015"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Giana Ricci",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Edwin Eugene Herron Papers \u003cspan class=\"ead-num\"\u003eTAM.670\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.670"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:55:14 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

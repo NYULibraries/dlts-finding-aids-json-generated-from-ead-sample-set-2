@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_0f426d48449008282bb1d41cd81cc51b",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,20 @@
         "arrangement": [
             {
                 "id": "aspace_bdd4740ea3e5835ad2528716557c87d2",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I: Photographs."
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -40,11 +49,9 @@
         "bioghist": [
             {
                 "id": "aspace_a3bcc246ab9816882f62309d808e8139",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Albert (\"Abe\") Harris (1907-c.1973?) was born in Chicago, Illinois and educated at the University of Manitoba, the University of Chicago, and the New School for Social Research. From 1924-1934 he worked as a social worker and as a researcher at New York University. During the Spanish Civil War he was a volunteer with the 4th Artillery Group of the Abraham Lincoln Brigade. He was also associated with the American Medical Bureau to Aid Spanish Democracy (AMB) and a representative of the Junior Section of the International Workers Order, charged with the task of assessing the situation of orphaned and destitute children in Spain, and making recommendations as to aid. The International Workers Order (IWO) was a Communist-affiliated insurance and fraternal order founded in 1930. Harris saw action at Fuentes de Ebro, Teruel, Cuenca and Levante, and also toured hospitals and civilian areas, observing conditions and presumably reporting back to the U.S. organizations to which he was connected."
@@ -55,43 +62,60 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
-                    }
-                ],
-                "genreform": [
-                    "Black-and-white photographs."
-                ],
-                "geogname": [
-                    "Spain -- History -- Civil War, 1936-1939 -- Women.",
-                    "Spain -- History -- Civil War, 1936-1939 -- Pictorial works",
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American",
-                    "Spain -- History -- Civil War, 1936-1939 -- Children"
-                ],
-                "persname": [
-                    {
-                        "value": "Harris, Albert Lyonel, 1907-"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Black-and-white photographs."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Women."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Pictorial works"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Children"
+                }
+            ],
+            "persname": [
+                {
+                    "source": "local",
+                    "value": "Harris, Albert Lyonel, 1907-"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_9e017568d36c3c5df71fed8a191de993",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Albert Harris Photograph Collection was donated to the Abraham Lincoln Brigade Archives by Harris's widow in 1974. This collection came to New York University in January 2001 as part of the original acquisition of Abraham Lincoln Brigade Archives collections, formerly housed at Brandeis University. The images in the Harris Photograph Collection were separated from the Harris manuscript material at the time of processing."
@@ -99,1559 +123,1378 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Albert Lyonel \"Abe\" Harris (1907-c.1973?) was a volunteer with the 4th Artillery Group of the Abraham Lincoln Brigade. He was also associated with the American Medical Bureau to Aid Spanish Democracy (AMB) and a representative of the Junior Section of the International Workers Order during the Spanish Civil War, making recommendations on problems of child welfare in war-torn Spain. Harris saw action at Fuentes de Ebro, Teruel, Cuenca and Levante. The images in this collection were acquired by Harris in the course of his service as an artilleryman and social worker/observer in Spain. The collection contains combat and non-combat photographs of artillery, bombed/shelled cities, injured soldiers, military vehicles (aircraft and armored personnel carriers), Spanish Civilians (men, women and children), and snapshots of Spanish cities and towns.",
+                    "id": "aspace_45b23af85180d6ae8f7929832280bbee"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Albert Lyonel \"Abe\" Harris (1907-c.1973?) was a volunteer with the 4th Artillery Group of the Abraham Lincoln Brigade. He was also associated with the American Medical Bureau to Aid Spanish Democracy (AMB) and a representative of the Junior Section of the International Workers Order during the Spanish Civil War, making recommendations on problems of child welfare in war-torn Spain. Harris saw action at Fuentes de Ebro, Teruel, Cuenca and Levante. The images in this collection were acquired by Harris in the course of his service as an artilleryman and social worker/observer in Spain. The collection contains combat and non-combat photographs of artillery, bombed/shelled cities, injured soldiers, military vehicles (aircraft and armored personnel carriers), Spanish Civilians (men, women and children), and snapshots of Spanish cities and towns.",
-                        "id": "aspace_45b23af85180d6ae8f7929832280bbee"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
+                        "value": "Harris, Albert Lyonel, 1907-"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Harris, Albert Lyonel, 1907-"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937/1957",
-                        "type": "inclusive",
-                        "value": "1937-1957"
-                    },
-                    {
-                        "normal": "1937/1938",
-                        "type": "bulk",
-                        "value": "1937-1938"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.PHOTO.049"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Albert Lyonel Harris Photographs"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937/1957",
+                    "type": "inclusive",
+                    "value": "1937-1957"
+                },
+                {
+                    "normal": "1937/1938",
+                    "type": "bulk",
+                    "value": "1937-1938"
+                }
+            ],
+            "unitid": "ALBA.PHOTO.049",
+            "unittitle": {
+                "value": "Albert Lyonel Harris Photographs"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref13",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref14",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref13",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref14",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_6e61d212d59e97ff7b63d05d8e2d968b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a3cbd997c7ec94056b41f0a81cb70975",
-                                                "parent": "aspace_6e61d212d59e97ff7b63d05d8e2d968b",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Art: Sculpture"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref15",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_6e61d212d59e97ff7b63d05d8e2d968b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_009ae3d69b66623ce397da40ecacb2ed",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c59b23cf0571924c725986415a415bab",
-                                                "parent": "aspace_009ae3d69b66623ce397da40ecacb2ed",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Artillery"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_1d01d11cbc6b44092a58c0eb85ea1552",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_3bfcd6736781e5644fa9dce598f652a8",
-                                                "parent": "aspace_1d01d11cbc6b44092a58c0eb85ea1552",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "At the Front: Combat"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_1879f4bbf47ad398f4cf703a0f799034",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a9a328ce7ed5182603d3d7116a759a06",
-                                                "parent": "aspace_1879f4bbf47ad398f4cf703a0f799034",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "At the Front: Non-Combat, General"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_68f46764042bbdc43059515f88aa4927",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d20def8268d7652808f57c0321c12faa",
-                                                "parent": "aspace_68f46764042bbdc43059515f88aa4927",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "At the Front: Non-Combat, Bicycle Troops"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_554977acfa0e3879319f5291a439c2bb",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5341af192b1a7aa61c5e4255b40b31ee",
-                                                "parent": "aspace_554977acfa0e3879319f5291a439c2bb",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "At the Front: Non-Combat, Marching"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_1d2eeb0b2ce2790693a2221c0bc853e5",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6e55e8ac1fd0fd81bbc279a186d07dc3",
-                                                "parent": "aspace_1d2eeb0b2ce2790693a2221c0bc853e5",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "At the Front: Non-Combat, Officer Addressing Troops"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_d645361eb6007d6b2f7a485f0e5757c7",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_54d54b9feff14bd2f5ae277d80aac49c",
-                                                "parent": "aspace_d645361eb6007d6b2f7a485f0e5757c7",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "At the Front: Non-Combat, On the Train"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_0bf27b0c1957b5a7245fedaba9ef5b2c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_39dab87a278706ae2d604a60eb3f9022",
-                                                "parent": "aspace_0bf27b0c1957b5a7245fedaba9ef5b2c",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "At the Front: Non-Combat, Troops At Attention"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_28a4f884d964f9c5297bf08f38c4535c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_79cedf67f816c6cba1910a365a9ea1d8",
-                                                "parent": "aspace_28a4f884d964f9c5297bf08f38c4535c",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Behind the Lines: Daily Life of the Soldiers"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_590841414964f7de66b1d251fbbfc073",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a65293cfd3dceb33495c8731bfde99e2",
-                                                "parent": "aspace_590841414964f7de66b1d251fbbfc073",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Behind the Lines: Rest and Relaxation"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_c2f7b1b4b128d575aa9a7d7bd29de8f5",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_fbc3895f525ed1e8ca6d539057e357f5",
-                                                "parent": "aspace_c2f7b1b4b128d575aa9a7d7bd29de8f5",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Bombed/Shelled Buildings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_1a80b418892a0344042d78ae9be1a167",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d15cdc4390ac94f3ba11a3ea12e02e9e",
-                                                "parent": "aspace_1a80b418892a0344042d78ae9be1a167",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Demonstrations/Rallies: In Spain"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_13817e9002a9c43dc9b466732e003bbc",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a641bb31211b756667c80244c2fac855",
-                                                "parent": "aspace_13817e9002a9c43dc9b466732e003bbc",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Fortifications"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_161f8a83f0af722479b2e147d451487c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_876f8779d24fc615226117deceabc78b",
-                                                "parent": "aspace_161f8a83f0af722479b2e147d451487c",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Garland, Walter and [?]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_555e4770ee0d881bde11151c36f1aed7",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_66148fd29274f0fc96485ce3e0728062",
-                                                "parent": "aspace_555e4770ee0d881bde11151c36f1aed7",
-                                                "type": "folder",
-                                                "value": "16"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Goyen, Emil and Jackson, [?]: Brunete"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_07b29b4f45b198c71b9dbba832915f72",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_655b9e41b0c2656444a7a6285a3f0a5c",
-                                                "parent": "aspace_07b29b4f45b198c71b9dbba832915f72",
-                                                "type": "folder",
-                                                "value": "17"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Groups: Unidentified"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_74175e1fee8d02929a9fe4f2675edc22",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e15957851c53bfa96f4e81698d414abd",
-                                                "parent": "aspace_74175e1fee8d02929a9fe4f2675edc22",
-                                                "type": "folder",
-                                                "value": "18"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Harris, Albert"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_77c6c14c14d1903aed0ee80ef674794b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_22cbf9ac0522a6cf459ff626a879a28b",
-                                                "parent": "aspace_77c6c14c14d1903aed0ee80ef674794b",
-                                                "type": "folder",
-                                                "value": "19"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Harris, Albert: Harris Family at Home in New York"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_34da6a07770058e9cdff0516eaa01a2e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8947fa366b030483bb8b918b594b7fc5",
-                                                "parent": "aspace_34da6a07770058e9cdff0516eaa01a2e",
-                                                "type": "folder",
-                                                "value": "20"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1957/1957",
-                                                "type": "inclusive",
-                                                "value": "1957"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Harris, Albert: International Brigade Anniversary [in U.S.?]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_9e096422874b810b7d4642a4fff5f701",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0b5ae7a0757924dcdd3b780a10a67662",
-                                                "parent": "aspace_9e096422874b810b7d4642a4fff5f701",
-                                                "type": "folder",
-                                                "value": "21"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Individual Portraits: Unidentified [Includes Fred Lutz?]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref35",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_14689538c4d2a2a7c0f1051528fca00b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_da5186add75da65ba9fc4c7899e609d5",
-                                                "parent": "aspace_14689538c4d2a2a7c0f1051528fca00b",
-                                                "type": "folder",
-                                                "value": "22"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Injured Soldiers"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref36",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_7c1262d48bf2a1943a8be3cb3ca8cdac",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_262fe5b63bf63c5f4ea114a737792c59",
-                                                "parent": "aspace_7c1262d48bf2a1943a8be3cb3ca8cdac",
-                                                "type": "folder",
-                                                "value": "23"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1957/1957",
-                                                "type": "inclusive",
-                                                "value": "1957"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "International Brigade Anniversary: Dining Hall with Anti-Fascist Posters [in U.S.?]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref37",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_87ff12c5354199fce882a0311a02b197",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_127e416f71438f6f75f5678a2cc6ab5c",
-                                                "parent": "aspace_87ff12c5354199fce882a0311a02b197",
-                                                "type": "folder",
-                                                "value": "24"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Military Vehicles: Aircraft"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref38",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_2cbda0db8dd1bf9f164c6c321cff685c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b7bb819a4dcc3b3652ceef94caa29e98",
-                                                "parent": "aspace_2cbda0db8dd1bf9f164c6c321cff685c",
-                                                "type": "folder",
-                                                "value": "25"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Military Vehicles: Armored Personnel Carrier and Crew"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref39",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_71a98f13f091e9c173c9d1a896ab03a9",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a10425a137d27fa2020dd7aa3e910bfd",
-                                                "parent": "aspace_71a98f13f091e9c173c9d1a896ab03a9",
-                                                "type": "folder",
-                                                "value": "26"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Polish Volunteers"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref40",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_12f09df610fd66740873654f8671fd1a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6ea9e1cc4b26207cec9b91d7d2178a42",
-                                                "parent": "aspace_12f09df610fd66740873654f8671fd1a",
-                                                "type": "folder",
-                                                "value": "27"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Propaganda: Posters"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref41",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_91b8ea0768c4031bc684126812426440",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_453b9075fa482b4e8ab6e2b363613c5e",
-                                                "parent": "aspace_91b8ea0768c4031bc684126812426440",
-                                                "type": "folder",
-                                                "value": "28"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Shipboard: United States, New York City ( \u003cspan class=\"ead-emph ead-emph-italic\"\u003eSS Normandie\u003c/span\u003e)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref42",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_6be74df0f101ef1d4055d469b71dd060",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5d2c03bccb6c71e96b94d83ebe17e5ba",
-                                                "parent": "aspace_6be74df0f101ef1d4055d469b71dd060",
-                                                "type": "folder",
-                                                "value": "29"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Cities"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref43",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_f643b85c2e12ba1aadb5edb888979db2",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d96550213ad7ba715a7643f6d24e815f",
-                                                "parent": "aspace_f643b85c2e12ba1aadb5edb888979db2",
-                                                "type": "folder",
-                                                "value": "30"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Civilians: General"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref44",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767598",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_41bcee109975d29db6632747d5cb2055",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a04b42791cb59ded8ecfb29ab34746c0",
-                                                "parent": "aspace_41bcee109975d29db6632747d5cb2055",
-                                                "type": "folder",
-                                                "value": "31"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Civilians: Children"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref45",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767606",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_3cc31115a14e69eeacdf6fa629404382",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_b5721b46b12ed65e3928a79ee870f7cc",
-                                                "parent": "aspace_3cc31115a14e69eeacdf6fa629404382",
-                                                "type": "folder",
-                                                "value": "32"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Civilians: Men"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref46",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767606",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_531b1a5c9588d2086a3ae5b29b3876f9",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_ebf5bd5fdbb3b99d24d9284199c49a58",
-                                                "parent": "aspace_531b1a5c9588d2086a3ae5b29b3876f9",
-                                                "type": "folder",
-                                                "value": "33"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Civilians: Women"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref47",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767606",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_e13938727779a93089b79a69b6e9c2fb",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_ced8c4a8ca5a8b9215fb97bc1007bbcd",
-                                                "parent": "aspace_e13938727779a93089b79a69b6e9c2fb",
-                                                "type": "folder",
-                                                "value": "34"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Countryside"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref48",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767606",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_1d7e0c99a5bc4c91cc9a60a519f48563",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_1870368512ba25b76d80423e3184c06a",
-                                                "parent": "aspace_1d7e0c99a5bc4c91cc9a60a519f48563",
-                                                "type": "folder",
-                                                "value": "35"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Countryside: Beach Scenes"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref49",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767606",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_1a00843a13bf52892f6c64f565b479df",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_69c9e91c7f485a6e7c4ec335b598b276",
-                                                "parent": "aspace_1a00843a13bf52892f6c64f565b479df",
-                                                "type": "folder",
-                                                "value": "36"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Militiawomen: Maria [?], Angelina [?], Teresa [?], Murcia"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref50",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767606",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_70437ad05ddd7ad03fafb483647bdd6d",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_6d31b2b9c4d74d5373d56d12abeac3d2",
-                                                "parent": "aspace_70437ad05ddd7ad03fafb483647bdd6d",
-                                                "type": "folder",
-                                                "value": "37"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Sailors"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref51",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767606",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_b80eb6d10c6c503e44f358e039ca5f19",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_3894aebce56b7f04b114caf0a0666a3f",
-                                                "parent": "aspace_b80eb6d10c6c503e44f358e039ca5f19",
-                                                "type": "folder",
-                                                "value": "38"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Villages"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref52",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767606",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_d9c15eb4c14e9093abfcf29248341904",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_c16c26c5b5d2fc6e6ac38b69c0a52799",
-                                                "parent": "aspace_d9c15eb4c14e9093abfcf29248341904",
-                                                "type": "folder",
-                                                "value": "39"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Villages: Animals"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref53",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767606",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_74740b9324828cdf3ff05102ca3f5655",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_fa98e6e2cf5a668eb09d26a7692c8d42",
-                                                "parent": "aspace_74740b9324828cdf3ff05102ca3f5655",
-                                                "type": "folder",
-                                                "value": "40"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Workers: Laundrywomen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_a3cbd997c7ec94056b41f0a81cb70975",
+                                        "parent": "aspace_6e61d212d59e97ff7b63d05d8e2d968b",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: Photographs"
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Art: Sculpture"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref15",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_009ae3d69b66623ce397da40ecacb2ed",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c59b23cf0571924c725986415a415bab",
+                                        "parent": "aspace_009ae3d69b66623ce397da40ecacb2ed",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Artillery"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_1d01d11cbc6b44092a58c0eb85ea1552",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_3bfcd6736781e5644fa9dce598f652a8",
+                                        "parent": "aspace_1d01d11cbc6b44092a58c0eb85ea1552",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "At the Front: Combat"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_1879f4bbf47ad398f4cf703a0f799034",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a9a328ce7ed5182603d3d7116a759a06",
+                                        "parent": "aspace_1879f4bbf47ad398f4cf703a0f799034",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "At the Front: Non-Combat, General"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_68f46764042bbdc43059515f88aa4927",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d20def8268d7652808f57c0321c12faa",
+                                        "parent": "aspace_68f46764042bbdc43059515f88aa4927",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "At the Front: Non-Combat, Bicycle Troops"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_554977acfa0e3879319f5291a439c2bb",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5341af192b1a7aa61c5e4255b40b31ee",
+                                        "parent": "aspace_554977acfa0e3879319f5291a439c2bb",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "At the Front: Non-Combat, Marching"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_1d2eeb0b2ce2790693a2221c0bc853e5",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6e55e8ac1fd0fd81bbc279a186d07dc3",
+                                        "parent": "aspace_1d2eeb0b2ce2790693a2221c0bc853e5",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "At the Front: Non-Combat, Officer Addressing Troops"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_d645361eb6007d6b2f7a485f0e5757c7",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_54d54b9feff14bd2f5ae277d80aac49c",
+                                        "parent": "aspace_d645361eb6007d6b2f7a485f0e5757c7",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "At the Front: Non-Combat, On the Train"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_0bf27b0c1957b5a7245fedaba9ef5b2c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_39dab87a278706ae2d604a60eb3f9022",
+                                        "parent": "aspace_0bf27b0c1957b5a7245fedaba9ef5b2c",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "At the Front: Non-Combat, Troops At Attention"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_28a4f884d964f9c5297bf08f38c4535c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_79cedf67f816c6cba1910a365a9ea1d8",
+                                        "parent": "aspace_28a4f884d964f9c5297bf08f38c4535c",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Behind the Lines: Daily Life of the Soldiers"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_590841414964f7de66b1d251fbbfc073",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a65293cfd3dceb33495c8731bfde99e2",
+                                        "parent": "aspace_590841414964f7de66b1d251fbbfc073",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Behind the Lines: Rest and Relaxation"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_c2f7b1b4b128d575aa9a7d7bd29de8f5",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_fbc3895f525ed1e8ca6d539057e357f5",
+                                        "parent": "aspace_c2f7b1b4b128d575aa9a7d7bd29de8f5",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Bombed/Shelled Buildings"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_1a80b418892a0344042d78ae9be1a167",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d15cdc4390ac94f3ba11a3ea12e02e9e",
+                                        "parent": "aspace_1a80b418892a0344042d78ae9be1a167",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Demonstrations/Rallies: In Spain"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_13817e9002a9c43dc9b466732e003bbc",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a641bb31211b756667c80244c2fac855",
+                                        "parent": "aspace_13817e9002a9c43dc9b466732e003bbc",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Fortifications"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_161f8a83f0af722479b2e147d451487c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_876f8779d24fc615226117deceabc78b",
+                                        "parent": "aspace_161f8a83f0af722479b2e147d451487c",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Garland, Walter and [?]"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_555e4770ee0d881bde11151c36f1aed7",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_66148fd29274f0fc96485ce3e0728062",
+                                        "parent": "aspace_555e4770ee0d881bde11151c36f1aed7",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Goyen, Emil and Jackson, [?]: Brunete"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_07b29b4f45b198c71b9dbba832915f72",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_655b9e41b0c2656444a7a6285a3f0a5c",
+                                        "parent": "aspace_07b29b4f45b198c71b9dbba832915f72",
+                                        "type": "folder",
+                                        "value": "17"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Groups: Unidentified"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_74175e1fee8d02929a9fe4f2675edc22",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e15957851c53bfa96f4e81698d414abd",
+                                        "parent": "aspace_74175e1fee8d02929a9fe4f2675edc22",
+                                        "type": "folder",
+                                        "value": "18"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Harris, Albert"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_77c6c14c14d1903aed0ee80ef674794b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_22cbf9ac0522a6cf459ff626a879a28b",
+                                        "parent": "aspace_77c6c14c14d1903aed0ee80ef674794b",
+                                        "type": "folder",
+                                        "value": "19"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Harris, Albert: Harris Family at Home in New York"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_34da6a07770058e9cdff0516eaa01a2e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8947fa366b030483bb8b918b594b7fc5",
+                                        "parent": "aspace_34da6a07770058e9cdff0516eaa01a2e",
+                                        "type": "folder",
+                                        "value": "20"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1957/1957",
+                                        "type": "inclusive",
+                                        "value": "1957"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Harris, Albert: International Brigade Anniversary [in U.S.?]"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_9e096422874b810b7d4642a4fff5f701",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0b5ae7a0757924dcdd3b780a10a67662",
+                                        "parent": "aspace_9e096422874b810b7d4642a4fff5f701",
+                                        "type": "folder",
+                                        "value": "21"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Individual Portraits: Unidentified [Includes Fred Lutz?]"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref35",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_14689538c4d2a2a7c0f1051528fca00b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_da5186add75da65ba9fc4c7899e609d5",
+                                        "parent": "aspace_14689538c4d2a2a7c0f1051528fca00b",
+                                        "type": "folder",
+                                        "value": "22"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Injured Soldiers"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref36",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_7c1262d48bf2a1943a8be3cb3ca8cdac",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_262fe5b63bf63c5f4ea114a737792c59",
+                                        "parent": "aspace_7c1262d48bf2a1943a8be3cb3ca8cdac",
+                                        "type": "folder",
+                                        "value": "23"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1957/1957",
+                                        "type": "inclusive",
+                                        "value": "1957"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "International Brigade Anniversary: Dining Hall with Anti-Fascist Posters [in U.S.?]"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref37",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_87ff12c5354199fce882a0311a02b197",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_127e416f71438f6f75f5678a2cc6ab5c",
+                                        "parent": "aspace_87ff12c5354199fce882a0311a02b197",
+                                        "type": "folder",
+                                        "value": "24"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Military Vehicles: Aircraft"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref38",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_2cbda0db8dd1bf9f164c6c321cff685c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b7bb819a4dcc3b3652ceef94caa29e98",
+                                        "parent": "aspace_2cbda0db8dd1bf9f164c6c321cff685c",
+                                        "type": "folder",
+                                        "value": "25"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Military Vehicles: Armored Personnel Carrier and Crew"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref39",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_71a98f13f091e9c173c9d1a896ab03a9",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a10425a137d27fa2020dd7aa3e910bfd",
+                                        "parent": "aspace_71a98f13f091e9c173c9d1a896ab03a9",
+                                        "type": "folder",
+                                        "value": "26"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Polish Volunteers"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref40",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_12f09df610fd66740873654f8671fd1a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6ea9e1cc4b26207cec9b91d7d2178a42",
+                                        "parent": "aspace_12f09df610fd66740873654f8671fd1a",
+                                        "type": "folder",
+                                        "value": "27"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Propaganda: Posters"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref41",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_91b8ea0768c4031bc684126812426440",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_453b9075fa482b4e8ab6e2b363613c5e",
+                                        "parent": "aspace_91b8ea0768c4031bc684126812426440",
+                                        "type": "folder",
+                                        "value": "28"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Shipboard: United States, New York City ( \u003cspan class=\"ead-emph ead-emph-italic\"\u003eSS Normandie\u003c/span\u003e)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref42",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_6be74df0f101ef1d4055d469b71dd060",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5d2c03bccb6c71e96b94d83ebe17e5ba",
+                                        "parent": "aspace_6be74df0f101ef1d4055d469b71dd060",
+                                        "type": "folder",
+                                        "value": "29"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Cities"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref43",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_f643b85c2e12ba1aadb5edb888979db2",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d96550213ad7ba715a7643f6d24e815f",
+                                        "parent": "aspace_f643b85c2e12ba1aadb5edb888979db2",
+                                        "type": "folder",
+                                        "value": "30"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Civilians: General"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref44",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767598",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_41bcee109975d29db6632747d5cb2055",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a04b42791cb59ded8ecfb29ab34746c0",
+                                        "parent": "aspace_41bcee109975d29db6632747d5cb2055",
+                                        "type": "folder",
+                                        "value": "31"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Civilians: Children"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref45",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767606",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_3cc31115a14e69eeacdf6fa629404382",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_b5721b46b12ed65e3928a79ee870f7cc",
+                                        "parent": "aspace_3cc31115a14e69eeacdf6fa629404382",
+                                        "type": "folder",
+                                        "value": "32"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Civilians: Men"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref46",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767606",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_531b1a5c9588d2086a3ae5b29b3876f9",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_ebf5bd5fdbb3b99d24d9284199c49a58",
+                                        "parent": "aspace_531b1a5c9588d2086a3ae5b29b3876f9",
+                                        "type": "folder",
+                                        "value": "33"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Civilians: Women"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref47",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767606",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_e13938727779a93089b79a69b6e9c2fb",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_ced8c4a8ca5a8b9215fb97bc1007bbcd",
+                                        "parent": "aspace_e13938727779a93089b79a69b6e9c2fb",
+                                        "type": "folder",
+                                        "value": "34"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Countryside"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref48",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767606",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_1d7e0c99a5bc4c91cc9a60a519f48563",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_1870368512ba25b76d80423e3184c06a",
+                                        "parent": "aspace_1d7e0c99a5bc4c91cc9a60a519f48563",
+                                        "type": "folder",
+                                        "value": "35"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Countryside: Beach Scenes"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref49",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767606",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_1a00843a13bf52892f6c64f565b479df",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_69c9e91c7f485a6e7c4ec335b598b276",
+                                        "parent": "aspace_1a00843a13bf52892f6c64f565b479df",
+                                        "type": "folder",
+                                        "value": "36"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Militiawomen: Maria [?], Angelina [?], Teresa [?], Murcia"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref50",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767606",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_70437ad05ddd7ad03fafb483647bdd6d",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_6d31b2b9c4d74d5373d56d12abeac3d2",
+                                        "parent": "aspace_70437ad05ddd7ad03fafb483647bdd6d",
+                                        "type": "folder",
+                                        "value": "37"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Sailors"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref51",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767606",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_b80eb6d10c6c503e44f358e039ca5f19",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_3894aebce56b7f04b114caf0a0666a3f",
+                                        "parent": "aspace_b80eb6d10c6c503e44f358e039ca5f19",
+                                        "type": "folder",
+                                        "value": "38"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Villages"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref52",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767606",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_d9c15eb4c14e9093abfcf29248341904",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_c16c26c5b5d2fc6e6ac38b69c0a52799",
+                                        "parent": "aspace_d9c15eb4c14e9093abfcf29248341904",
+                                        "type": "folder",
+                                        "value": "39"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Villages: Animals"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref53",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767606",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_74740b9324828cdf3ff05102ca3f5655",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_fa98e6e2cf5a668eb09d26a7692c8d42",
+                                        "parent": "aspace_74740b9324828cdf3ff05102ca3f5655",
+                                        "type": "folder",
+                                        "value": "40"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Workers: Laundrywomen"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Photographs"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_e973499d0e7261739c83e91a281a2d27",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -1662,11 +1505,9 @@
         "scopecontent": [
             {
                 "id": "aspace_4538d118a92a580aa56e359872efdb41",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "Series I: Photographs. The collection contains combat and non-combat photographs of artillery, bombed/shelled cities, injured soldiers, military vehicles (aircraft and armored personnel carriers), snapshots of the daily life of Spanish civilians (men, women and children) and Spanish cities and towns. There is one image of Polish volunteers attributed to Film Polski, Warsaw and one image of the International Brigade Anniversary attributed to Syd Harris. Apart from these two images, there is no indication of the origin of the photographs in the collection. Over 80% of the images are quite small (1 1/8 x 5/8 to 1 1/8 x 1 1/8 inches). Except where indicated, all the photographs were taken in Spain."
@@ -1677,11 +1518,9 @@
         "userestrict": [
             {
                 "id": "aspace_9260598d1d349f15dbc6cd071e45e22f",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Abraham Lincoln Brigade Archives (ALBA), were transferred to New York University in November 2000 by the ALBA Board of Governors. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -1690,93 +1529,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_photo_049"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_photo_049"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from ALBA PHOTO #49 Harris Photo Collection.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from ALBA PHOTO #49 Harris Photo Collection.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Evan Daniel, 2004"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Albert Lyonel Harris Photograph Collection \u003cspan class=\"ead-num\"\u003eALBA.PHOTO.049\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Evan Daniel, 2004",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Albert Lyonel Harris Photograph Collection \u003cspan class=\"ead-num\"\u003eALBA.PHOTO.049\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.PHOTO.049"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:36:51 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:36:51 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_bb0782d4b037ed030b492210c475cc1e",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,23 @@
         "arrangement": [
             {
                 "id": "aspace_4e900587acb0f80ad49e7e34343022c7",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I, Correspondence, 1926–1982."
+                            },
+                            {
+                                "value": "II, Subject Files, 1912–1986."
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,11 +49,9 @@
         "bioghist": [
             {
                 "id": "aspace_0609537d7e8291bff38243cacd11d426",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Mito Kruth was born December 24, 1899 in Finland to Mathilda and Frank Kruth. When Mito was 12, his family moved from Finland to the United States and settled in Brooklyn. Much of the correspondence in this collection consists of letters exchanged between the Mito Kruth and his wife, Helen, who were often separated by their travels. The date of their marriage is uncertain, but by 1937-38 she was using the name Helen Kruth."
@@ -58,49 +68,84 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    }
-                ],
-                "genreform": [
-                    "Articles.",
-                    "Personal papers.",
-                    "Correspondence."
-                ],
-                "geogname": [
-                    "Superior (Wis.).",
-                    "Ironwood (Mich.)",
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American",
-                    "Spain -- History -- Civil War, 1936-1939 -- Hospitals.",
-                    "Barcelona (Spain)",
-                    "Madrid (Spain)"
-                ],
-                "persname": [
-                    {
-                        "value": "Leiviska, Helen Kruth, 1907-1989"
-                    },
-                    {
-                        "value": "Kruth, Mito, 1899-"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939.",
-                    "Finnish American newspapers.",
-                    "Finnish Americans."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Articles."
+                },
+                {
+                    "source": "aat",
+                    "value": "Personal papers."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Superior (Wis.)."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Ironwood (Mich.)"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Hospitals."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Barcelona (Spain)"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Madrid (Spain)"
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Leiviska, Helen Kruth, 1907-1989"
+                },
+                {
+                    "source": "local",
+                    "value": "Kruth, Mito, 1899-"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Finnish American newspapers."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Finnish Americans."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_c5766dc41061b16a4811c6f651b8eb39",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Mito Kruth collection was donated to the Abraham Lincoln Brigade Archives by Madeline Baron of Minneapolis, Minnesota, in early 2006, and then transferred to the Tamiment Library, NYU."
@@ -108,1317 +153,1158 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.75 Linear Feet"
-                            },
-                            {
-                                "value": "(2 boxes)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.75 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(2 boxes)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Mito Kruth was a Finnish-American who fought as a volunteer in the Spanish Civil War, first in the Washington Battalion and later in the Abraham, Lincoln Brigade. This collection contains letters he wrote during his time in Spain, as well as correspondence from the mid-1930s when he worked in Michigan as an organizer for the Communist Party. Kruth's letters reflect his dedication to the Communist Party, as well as his identity as a Finnish-American. Mito and his wife Helen (later Helen Leiviska) traveled extensively, both in Europe and in the United States, and their correspondence documents their travels. The collection also includes Mito Kruth's passport, his father's naturalization papers from 1912, and various documents from Finnish-American organizations. Throughout many periods of his life, Mito went by the first name Neils.",
+                    "id": "aspace_011315b738357574ad117a99a7da33de"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Mito Kruth was a Finnish-American who fought as a volunteer in the Spanish Civil War, first in the Washington Battalion and later in the Abraham, Lincoln Brigade. This collection contains letters he wrote during his time in Spain, as well as correspondence from the mid-1930s when he worked in Michigan as an organizer for the Communist Party. Kruth's letters reflect his dedication to the Communist Party, as well as his identity as a Finnish-American. Mito and his wife Helen (later Helen Leiviska) traveled extensively, both in Europe and in the United States, and their correspondence documents their travels. The collection also includes Mito Kruth's passport, his father's naturalization papers from 1912, and various documents from Finnish-American organizations. Throughout many periods of his life, Mito went by the first name Neils.",
-                        "id": "aspace_011315b738357574ad117a99a7da33de"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
+                        "value": "Kruth, Mito, 1899-"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Kruth, Mito, 1899-"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1912/1986",
-                        "type": "inclusive",
-                        "value": "1912-1986"
-                    },
-                    {
-                        "normal": "1926/1950",
-                        "type": "bulk",
-                        "value": "1926-1950"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.240"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Mito Kruth Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1912/1986",
+                    "type": "inclusive",
+                    "value": "1912-1986"
+                },
+                {
+                    "normal": "1926/1950",
+                    "type": "bulk",
+                    "value": "1926-1950"
+                }
+            ],
+            "unitid": "ALBA.240",
+            "unittitle": {
+                "value": "Mito Kruth Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref15",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref15",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_0f7de0637f791b3937ffef20d6ef3a90",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_33ba185677b9964424723f42f9ea7b7b",
-                                                "parent": "aspace_0f7de0637f791b3937ffef20d6ef3a90",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1938",
-                                                "type": "inclusive",
-                                                "value": "1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Arvola, Ranse Edward to Helen Kruth"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_0f7de0637f791b3937ffef20d6ef3a90",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_342a45eb325226ad6cbba770b3dc97d4",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_f28914bc0931c8a8b57a746652d8fe04",
-                                                "parent": "aspace_342a45eb325226ad6cbba770b3dc97d4",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1974/1974",
-                                                "type": "inclusive",
-                                                "value": "1974"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Helen to George Leiviska (Second Husband)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_8ca200898ca334fa7b2d2ab5f9fa0c64",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e0d3db4e0321c5ba2dd5d7f0e8eb7aac",
-                                                "parent": "aspace_8ca200898ca334fa7b2d2ab5f9fa0c64",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Mar 1948-Apr 1948"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Helen to Mito Kruth"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_51732e742aeb52f535856600e24dd2fb",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2b6050bd34250acd3f7881fa5aa83a09",
-                                                "parent": "aspace_51732e742aeb52f535856600e24dd2fb",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "May 1948-Jun 1948"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Helen to Mito Kruth"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_55e103259177db16c142663f36268084",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6980fc26467156cd7fc9776257f6a8a7",
-                                                "parent": "aspace_55e103259177db16c142663f36268084",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1948-Aug 1948"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Helen to Mito Kruth"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a37ff87012f641cceffbcb469338b966",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_507db425d2cbeadf316cc84cccf5288f",
-                                                "parent": "aspace_a37ff87012f641cceffbcb469338b966",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Sep 1948-Dec 1948"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Helen to Mito Kruth"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_dc31d99d19f6e08a2e90c01f8082243c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e8d214a6fe1ed261034705375cfe40cd",
-                                                "parent": "aspace_dc31d99d19f6e08a2e90c01f8082243c",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1926/1926",
-                                                "type": "inclusive",
-                                                "value": "1926"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Mito to Helen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_f2d2d869e334abf79fff26f104157721",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_f639dbb137a02920e5786dbc55249e08",
-                                                "parent": "aspace_f2d2d869e334abf79fff26f104157721",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1935/1935",
-                                                "type": "inclusive",
-                                                "value": "Apr 1905"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Mito to Helen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_7c345ef667bb13e9dc8b63f773680489",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d8a85109eb56e70899608ec934a7ac96",
-                                                "parent": "aspace_7c345ef667bb13e9dc8b63f773680489",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 1937-May 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Mito to Helen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_e533cf3c2302e21126f9a0dc58743993",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_80e66739f3be745b84ae31c333d8633f",
-                                                "parent": "aspace_e533cf3c2302e21126f9a0dc58743993",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 1937-Jul 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Mito to Helen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_67a407481a73f9427ea1f3e1ef4dca78",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4d2bda4e1b384ec3a376e392b4a6414a",
-                                                "parent": "aspace_67a407481a73f9427ea1f3e1ef4dca78",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 1937-Sep 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Mito to Helen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_b8c74d32273a3ac9bece6a5bf8c7ce36",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_36ee3f5b49ba92ea9fa6c1d7ae2a5fb3",
-                                                "parent": "aspace_b8c74d32273a3ac9bece6a5bf8c7ce36",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Oct 1937-Dec 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Mito to Helen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a889fdbb97c973c75595622015c73b81",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2f66ca60b96a5ce405d5bd777d7ea46a",
-                                                "parent": "aspace_a889fdbb97c973c75595622015c73b81",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1938",
-                                                "type": "inclusive",
-                                                "value": "1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Mito to Helen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_73fd1bea229a9b1167f9083c68393b81",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5128abafff53d6bab24d1c582b8a47b5",
-                                                "parent": "aspace_73fd1bea229a9b1167f9083c68393b81",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1940/1940",
-                                                "type": "inclusive",
-                                                "value": "1940"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Mito to Helen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_f1566a518c85054dafb1f53821ee26ec",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e32b01e47a9713eca4ae55fa83d359d4",
-                                                "parent": "aspace_f1566a518c85054dafb1f53821ee26ec",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1941/1941",
-                                                "type": "inclusive",
-                                                "value": "1941"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Mito to Helen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_0fc62f0d23cfed3392d00511c3f171a0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_57c04325657c202e7ca0b206f5368728",
-                                                "parent": "aspace_0fc62f0d23cfed3392d00511c3f171a0",
-                                                "type": "folder",
-                                                "value": "16"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1945/1945",
-                                                "type": "inclusive",
-                                                "value": "1945"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Mito to Helen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_dd2f0818eb6dec19885f4c16ecf99f51",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9a28d20c9d0903d7e844656840cb793a",
-                                                "parent": "aspace_dd2f0818eb6dec19885f4c16ecf99f51",
-                                                "type": "folder",
-                                                "value": "17"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1946/1946",
-                                                "type": "inclusive",
-                                                "value": "1946"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Mito to Helen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a86d3d86243620fe9eac094190bd154e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0343b0cb665575d716b36fdde10635b3",
-                                                "parent": "aspace_a86d3d86243620fe9eac094190bd154e",
-                                                "type": "folder",
-                                                "value": "18"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1948/1948",
-                                                "type": "inclusive",
-                                                "value": "1948"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Mito to Helen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_f71f41d7c1562d54becff7104ffa11f0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2862d8796b545b4e9fab87a96ab406f8",
-                                                "parent": "aspace_f71f41d7c1562d54becff7104ffa11f0",
-                                                "type": "folder",
-                                                "value": "19"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1961/1964",
-                                                "type": "inclusive",
-                                                "value": "1961-1964"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Mito to Helen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref35",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_05c2ba9a5ad430e27eb741d39a315090",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6ac774ea74f74f6d8e12336d6ef35fd6",
-                                                "parent": "aspace_05c2ba9a5ad430e27eb741d39a315090",
-                                                "type": "folder",
-                                                "value": "20"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1912/1986",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kruth, Mito to Helen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref36",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_c372182edd887e3bbd3eb112d6b27087",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_cd01525b69ec2929fbc5603b4f991219",
-                                                "parent": "aspace_c372182edd887e3bbd3eb112d6b27087",
-                                                "type": "folder",
-                                                "value": "21"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1942/1943",
-                                                "type": "inclusive",
-                                                "value": "1942-1943"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Maki, Martin D. to Helen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref37",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_5c46e0878f5aa3b304a690c62d16185e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_970ba1a85e2eda699d9e1fe28095e168",
-                                                "parent": "aspace_5c46e0878f5aa3b304a690c62d16185e",
-                                                "type": "folder",
-                                                "value": "22"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1912/1986",
-                                                "type": "inclusive",
-                                                "value": "undated , 1938-1982"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Various Correspondents to Helen Kruth Leiviska and Mito Kruth"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref38",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763134",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_8a04938eae3589ee1b34136cead6dc94",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9f850264d47b7797de8ec11480ee4fea",
-                                                "parent": "aspace_8a04938eae3589ee1b34136cead6dc94",
-                                                "type": "folder",
-                                                "value": "23"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1912/1986",
-                                                "type": "inclusive",
-                                                "value": "undated , 1946-1986"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Postcards"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_33ba185677b9964424723f42f9ea7b7b",
+                                        "parent": "aspace_0f7de0637f791b3937ffef20d6ef3a90",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: Correspondence,1926-1982"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref39",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref40",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763142",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_2c1646d8518ab618c9ba8c8773ff4e52",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_60e3f3217569cfd4d0ac15f0ffa62a93",
-                                                "parent": "aspace_2c1646d8518ab618c9ba8c8773ff4e52",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1912/1912",
-                                                "type": "inclusive",
-                                                "value": "1912"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Certificate of Naturalization - Frank Valentin Kruth"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref41",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763142",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_3b997c538984e48bdf5d8f8246a034c3",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_f72aa6428b54d088efdd360e532799ec",
-                                                "parent": "aspace_3b997c538984e48bdf5d8f8246a034c3",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "May 6, 1960"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Farm Policy at the Democratic Advance Platform Committee Hearing"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref42",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763142",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_702f9a44448b413be9de7ca981544e3d",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_7466e8adfae122324786097414e82521",
-                                                "parent": "aspace_702f9a44448b413be9de7ca981544e3d",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1945/1945",
-                                                "type": "inclusive",
-                                                "value": "1945"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Finnish-American Mutual Aid Society"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref43",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763142",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_a296d12be1ade6ae4545777026f4fb8e",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_d6398d81edbb4bec08afe4b568acafa8",
-                                                "parent": "aspace_a296d12be1ade6ae4545777026f4fb8e",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1939/1939",
-                                                "type": "inclusive",
-                                                "value": "1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Finnish Relief Fund"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref44",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763142",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_4a6aa3b660c737f93fcc54cf2710e89e",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_39ab1170d5f807ba3d2a842dc7daae77",
-                                                "parent": "aspace_4a6aa3b660c737f93fcc54cf2710e89e",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1912/1986",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Finnish Writings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref45",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763142",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_5f255eb2fc67394417bd97dd1731e510",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_51e1cf2799e6eb40d41de1836b83fa8e",
-                                                "parent": "aspace_5f255eb2fc67394417bd97dd1731e510",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1943/1943",
-                                                "type": "inclusive",
-                                                "value": "1943"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "National Committee of Finnish-American Trade Unionists"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref46",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763142",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_977b102bfb0bdb66230ac8c3d125afdf",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_705a1d01545337da108b45796359c279",
-                                                "parent": "aspace_977b102bfb0bdb66230ac8c3d125afdf",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1961/1961",
-                                                "type": "inclusive",
-                                                "value": "1961"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Passport"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref47",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763142",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_68b5ee01b01f66ddcc3e461396da9f64",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_582ab40f0fe654e4d190edf86ffe587f",
-                                                "parent": "aspace_68b5ee01b01f66ddcc3e461396da9f64",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1949/1950",
-                                                "type": "inclusive",
-                                                "value": "1949-1950"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Personal Documents"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref48",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763142",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_b7d720abc4495749d1f354af06456b81",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_a7dad70eef08761fae459abfe78a88b0",
-                                                "parent": "aspace_b7d720abc4495749d1f354af06456b81",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1928/1928",
-                                                "type": "inclusive",
-                                                "value": "1928"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Toveritar: Organ of the Finnish Working Women in America"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref49",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062763142",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_5e2432ee28e9d4bed0463396fb019f3e",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_5d1c7628e42cc6b4effc07f7309f6c01",
-                                                "parent": "aspace_5e2432ee28e9d4bed0463396fb019f3e",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1912/1986",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Travels: Maps, Postcards, etc."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "normal": "1937/1938",
+                                        "type": "inclusive",
+                                        "value": "1937-1938"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series II: Subject Files, 1912-1986"
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "Arvola, Ranse Edward to Helen Kruth"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_342a45eb325226ad6cbba770b3dc97d4",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_f28914bc0931c8a8b57a746652d8fe04",
+                                        "parent": "aspace_342a45eb325226ad6cbba770b3dc97d4",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1974/1974",
+                                        "type": "inclusive",
+                                        "value": "1974"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Helen to George Leiviska (Second Husband)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_8ca200898ca334fa7b2d2ab5f9fa0c64",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e0d3db4e0321c5ba2dd5d7f0e8eb7aac",
+                                        "parent": "aspace_8ca200898ca334fa7b2d2ab5f9fa0c64",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Mar 1948-Apr 1948"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Helen to Mito Kruth"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_51732e742aeb52f535856600e24dd2fb",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2b6050bd34250acd3f7881fa5aa83a09",
+                                        "parent": "aspace_51732e742aeb52f535856600e24dd2fb",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "May 1948-Jun 1948"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Helen to Mito Kruth"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_55e103259177db16c142663f36268084",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6980fc26467156cd7fc9776257f6a8a7",
+                                        "parent": "aspace_55e103259177db16c142663f36268084",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1948-Aug 1948"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Helen to Mito Kruth"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a37ff87012f641cceffbcb469338b966",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_507db425d2cbeadf316cc84cccf5288f",
+                                        "parent": "aspace_a37ff87012f641cceffbcb469338b966",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Sep 1948-Dec 1948"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Helen to Mito Kruth"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_dc31d99d19f6e08a2e90c01f8082243c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e8d214a6fe1ed261034705375cfe40cd",
+                                        "parent": "aspace_dc31d99d19f6e08a2e90c01f8082243c",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1926/1926",
+                                        "type": "inclusive",
+                                        "value": "1926"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Mito to Helen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_f2d2d869e334abf79fff26f104157721",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_f639dbb137a02920e5786dbc55249e08",
+                                        "parent": "aspace_f2d2d869e334abf79fff26f104157721",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1935/1935",
+                                        "type": "inclusive",
+                                        "value": "Apr 1905"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Mito to Helen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_7c345ef667bb13e9dc8b63f773680489",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d8a85109eb56e70899608ec934a7ac96",
+                                        "parent": "aspace_7c345ef667bb13e9dc8b63f773680489",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Apr 1937-May 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Mito to Helen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_e533cf3c2302e21126f9a0dc58743993",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_80e66739f3be745b84ae31c333d8633f",
+                                        "parent": "aspace_e533cf3c2302e21126f9a0dc58743993",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 1937-Jul 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Mito to Helen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_67a407481a73f9427ea1f3e1ef4dca78",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4d2bda4e1b384ec3a376e392b4a6414a",
+                                        "parent": "aspace_67a407481a73f9427ea1f3e1ef4dca78",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Aug 1937-Sep 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Mito to Helen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_b8c74d32273a3ac9bece6a5bf8c7ce36",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_36ee3f5b49ba92ea9fa6c1d7ae2a5fb3",
+                                        "parent": "aspace_b8c74d32273a3ac9bece6a5bf8c7ce36",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Oct 1937-Dec 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Mito to Helen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a889fdbb97c973c75595622015c73b81",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2f66ca60b96a5ce405d5bd777d7ea46a",
+                                        "parent": "aspace_a889fdbb97c973c75595622015c73b81",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1938",
+                                        "type": "inclusive",
+                                        "value": "1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Mito to Helen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_73fd1bea229a9b1167f9083c68393b81",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5128abafff53d6bab24d1c582b8a47b5",
+                                        "parent": "aspace_73fd1bea229a9b1167f9083c68393b81",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1940/1940",
+                                        "type": "inclusive",
+                                        "value": "1940"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Mito to Helen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_f1566a518c85054dafb1f53821ee26ec",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e32b01e47a9713eca4ae55fa83d359d4",
+                                        "parent": "aspace_f1566a518c85054dafb1f53821ee26ec",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1941/1941",
+                                        "type": "inclusive",
+                                        "value": "1941"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Mito to Helen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_0fc62f0d23cfed3392d00511c3f171a0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_57c04325657c202e7ca0b206f5368728",
+                                        "parent": "aspace_0fc62f0d23cfed3392d00511c3f171a0",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1945/1945",
+                                        "type": "inclusive",
+                                        "value": "1945"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Mito to Helen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_dd2f0818eb6dec19885f4c16ecf99f51",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9a28d20c9d0903d7e844656840cb793a",
+                                        "parent": "aspace_dd2f0818eb6dec19885f4c16ecf99f51",
+                                        "type": "folder",
+                                        "value": "17"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1946/1946",
+                                        "type": "inclusive",
+                                        "value": "1946"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Mito to Helen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a86d3d86243620fe9eac094190bd154e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0343b0cb665575d716b36fdde10635b3",
+                                        "parent": "aspace_a86d3d86243620fe9eac094190bd154e",
+                                        "type": "folder",
+                                        "value": "18"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1948/1948",
+                                        "type": "inclusive",
+                                        "value": "1948"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Mito to Helen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_f71f41d7c1562d54becff7104ffa11f0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2862d8796b545b4e9fab87a96ab406f8",
+                                        "parent": "aspace_f71f41d7c1562d54becff7104ffa11f0",
+                                        "type": "folder",
+                                        "value": "19"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1961/1964",
+                                        "type": "inclusive",
+                                        "value": "1961-1964"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Mito to Helen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref35",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_05c2ba9a5ad430e27eb741d39a315090",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6ac774ea74f74f6d8e12336d6ef35fd6",
+                                        "parent": "aspace_05c2ba9a5ad430e27eb741d39a315090",
+                                        "type": "folder",
+                                        "value": "20"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1912/1986",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kruth, Mito to Helen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref36",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_c372182edd887e3bbd3eb112d6b27087",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_cd01525b69ec2929fbc5603b4f991219",
+                                        "parent": "aspace_c372182edd887e3bbd3eb112d6b27087",
+                                        "type": "folder",
+                                        "value": "21"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1942/1943",
+                                        "type": "inclusive",
+                                        "value": "1942-1943"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Maki, Martin D. to Helen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref37",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_5c46e0878f5aa3b304a690c62d16185e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_970ba1a85e2eda699d9e1fe28095e168",
+                                        "parent": "aspace_5c46e0878f5aa3b304a690c62d16185e",
+                                        "type": "folder",
+                                        "value": "22"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1912/1986",
+                                        "type": "inclusive",
+                                        "value": "undated , 1938-1982"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Various Correspondents to Helen Kruth Leiviska and Mito Kruth"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref38",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763134",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_8a04938eae3589ee1b34136cead6dc94",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9f850264d47b7797de8ec11480ee4fea",
+                                        "parent": "aspace_8a04938eae3589ee1b34136cead6dc94",
+                                        "type": "folder",
+                                        "value": "23"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1912/1986",
+                                        "type": "inclusive",
+                                        "value": "undated , 1946-1986"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Postcards"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Correspondence,1926-1982"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref39",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref40",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763142",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_2c1646d8518ab618c9ba8c8773ff4e52",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_60e3f3217569cfd4d0ac15f0ffa62a93",
+                                        "parent": "aspace_2c1646d8518ab618c9ba8c8773ff4e52",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1912/1912",
+                                        "type": "inclusive",
+                                        "value": "1912"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Certificate of Naturalization - Frank Valentin Kruth"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref41",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763142",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_3b997c538984e48bdf5d8f8246a034c3",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_f72aa6428b54d088efdd360e532799ec",
+                                        "parent": "aspace_3b997c538984e48bdf5d8f8246a034c3",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "May 6, 1960"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Farm Policy at the Democratic Advance Platform Committee Hearing"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref42",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763142",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_702f9a44448b413be9de7ca981544e3d",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_7466e8adfae122324786097414e82521",
+                                        "parent": "aspace_702f9a44448b413be9de7ca981544e3d",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1945/1945",
+                                        "type": "inclusive",
+                                        "value": "1945"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Finnish-American Mutual Aid Society"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref43",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763142",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_a296d12be1ade6ae4545777026f4fb8e",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_d6398d81edbb4bec08afe4b568acafa8",
+                                        "parent": "aspace_a296d12be1ade6ae4545777026f4fb8e",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1939/1939",
+                                        "type": "inclusive",
+                                        "value": "1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Finnish Relief Fund"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref44",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763142",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_4a6aa3b660c737f93fcc54cf2710e89e",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_39ab1170d5f807ba3d2a842dc7daae77",
+                                        "parent": "aspace_4a6aa3b660c737f93fcc54cf2710e89e",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1912/1986",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Finnish Writings"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref45",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763142",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_5f255eb2fc67394417bd97dd1731e510",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_51e1cf2799e6eb40d41de1836b83fa8e",
+                                        "parent": "aspace_5f255eb2fc67394417bd97dd1731e510",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1943/1943",
+                                        "type": "inclusive",
+                                        "value": "1943"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "National Committee of Finnish-American Trade Unionists"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref46",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763142",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_977b102bfb0bdb66230ac8c3d125afdf",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_705a1d01545337da108b45796359c279",
+                                        "parent": "aspace_977b102bfb0bdb66230ac8c3d125afdf",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1961/1961",
+                                        "type": "inclusive",
+                                        "value": "1961"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Passport"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref47",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763142",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_68b5ee01b01f66ddcc3e461396da9f64",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_582ab40f0fe654e4d190edf86ffe587f",
+                                        "parent": "aspace_68b5ee01b01f66ddcc3e461396da9f64",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1949/1950",
+                                        "type": "inclusive",
+                                        "value": "1949-1950"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Personal Documents"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref48",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763142",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_b7d720abc4495749d1f354af06456b81",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_a7dad70eef08761fae459abfe78a88b0",
+                                        "parent": "aspace_b7d720abc4495749d1f354af06456b81",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1928/1928",
+                                        "type": "inclusive",
+                                        "value": "1928"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Toveritar: Organ of the Finnish Working Women in America"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref49",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062763142",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_5e2432ee28e9d4bed0463396fb019f3e",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_5d1c7628e42cc6b4effc07f7309f6c01",
+                                        "parent": "aspace_5e2432ee28e9d4bed0463396fb019f3e",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1912/1986",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Travels: Maps, Postcards, etc."
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series II: Subject Files, 1912-1986"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_455705e2eae63df6efbfcdea705035e6",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -1429,11 +1315,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_82ca6f74c9a7e304e59087b4c250a71b",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "ALBA collections at the Tamiment Library."
@@ -1444,11 +1328,9 @@
         "scopecontent": [
             {
                 "id": "aspace_55233c0122c37b989878930f2e7bdbd0",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "\u003cspan class=\"ead-emph ead-emph-bold\"\u003eSeries I: Correspondence\u003c/span\u003econtains letters written by Mito to Helen over the course of 38 years, including the period of his service in the Spanish Civil War. With the exception of his letters from Spain, all of his letters are signed \"Neils\" and that seems to have been his preferred name while living in America. His other correspondence details his experience organizing for the Communist Party in Wisconsin, Michigan, Upstate New York and Washington, DC. There is correspondence from Helen to Mito written during a trip she took to Europe in 1948. Also included in this collection are letters to Helen written by a variety of correspondents."
@@ -1462,11 +1344,9 @@
         "separatedmaterial": [
             {
                 "id": "aspace_7ca9cbff6b227773566a7947cea0a65b",
-                "head": [
-                    {
-                        "value": "Separated Material"
-                    }
-                ],
+                "head": {
+                    "value": "Separated Material"
+                },
                 "p": [
                     {
                         "value": "Photographs from the Kruth Papers have been transferred to the non-print section of the ALBA collection in the Tamiment Library in ALBA Photo #36."
@@ -1477,11 +1357,9 @@
         "userestrict": [
             {
                 "id": "aspace_43f827051fa4f835a6ea5218a3b876a3",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "The Tamiment Library \u0026 Robert F. Wagner Labor Archives has no information about copyright ownership for this collection and is not authorized to grant permission to publish or reproduce materials from it. Copyrights held by original creators of individual items in the collection are expected to pass into the public domain 120 years after their creation. For more information, please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -1490,93 +1368,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_240"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_240"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from kruth.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from kruth.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Susan Tofte"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Mito Kruth Papers \u003cspan class=\"ead-num\"\u003eALBA.240\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Susan Tofte",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Mito Kruth Papers \u003cspan class=\"ead-num\"\u003eALBA.240\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.240"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:35:51 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:35:51 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

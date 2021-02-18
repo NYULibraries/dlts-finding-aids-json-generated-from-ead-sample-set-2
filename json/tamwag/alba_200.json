@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_bf98eee83e26cfc1b27ee2bd33e27e83",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,20 @@
         "arrangement": [
             {
                 "id": "aspace_5e8510077c289c538bf5921ed5c859c3",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I, Spanish Civil War Materials"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,11 +46,9 @@
         "bioghist": [
             {
                 "id": "aspace_904ef2781b9bf6679700c102fea7d38d",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "George Chaikin (whose Communist Party name was George Auvan) was born in 1908 and raised in New York City. While at Princeton University, he was active in a movement to integrate movie theaters in Trenton and Princeton, New Jersey. He graduated from Princeton University in 1931. A mechanical engineer, Chaikin worked for the Works Progress Administration and taught at the Harlem Workers School. Active in politics, Chaikin was National Financial Secretary of the Young Communist League. He participated in numerous strikes and demonstrations, and spent ten days in the Tombs prison in New York City, accused of attacking a policeman during a march."
@@ -58,45 +65,60 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    },
-                    {
-                        "value": "Veterans of the Abraham Lincoln Brigade"
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV -- biography."
-                    }
-                ],
-                "genreform": [
-                    "Artifacts (object genre)",
-                    "Printed ephemera.",
-                    "Correspondence."
-                ],
-                "geogname": [
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
-                ],
-                "persname": [
-                    {
-                        "value": "Chaikin, George, 1908-1992"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                },
+                {
+                    "source": "naf",
+                    "value": "Veterans of the Abraham Lincoln Brigade"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV -- biography."
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Artifacts (object genre)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Printed ephemera."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                }
+            ],
+            "persname": [
+                {
+                    "source": "local",
+                    "value": "Chaikin, George, 1908-1992"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_145f7876962ce6e1dbaa05a163d2419c",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The George Chaikin Papers were donated to the Abraham Lincoln Brigade Archives, perhaps via the Veterans of the Abraham Lincoln Brigade, by George Chaikin. This collection came to New York University in January 2001 as part of the original acquisition of ALBA collections, formerly housed at Brandeis University."
@@ -104,400 +126,347 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "George Chaikin (1908-1992), from New York City, graduated from Princeton University and worked as a mechanical engineer. He was also a member of the Young Communist League and active in numerous strikes and demonstrations. Chaikin joined the International Brigades as a member of the Abraham Lincoln Brigade in 1937. After a crippling wound to his arm, he organized aid to Spanish orphans. The collection consists of documents relating to Chaikin's work organizing aid to orphans during and following the Spanish Civil War, The collection consists of materials related to Chaikin's participation in the Spanish Civil War, including letters to Chaikin from Spain, artifacts, ephemera, official documents, and propaganda.",
+                    "id": "aspace_91711ee6817a02856b65512376e8a8f6"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "George Chaikin (1908-1992), from New York City, graduated from Princeton University and worked as a mechanical engineer. He was also a member of the Young Communist League and active in numerous strikes and demonstrations. Chaikin joined the International Brigades as a member of the Abraham Lincoln Brigade in 1937. After a crippling wound to his arm, he organized aid to Spanish orphans. The collection consists of documents relating to Chaikin's work organizing aid to orphans during and following the Spanish Civil War, The collection consists of materials related to Chaikin's participation in the Spanish Civil War, including letters to Chaikin from Spain, artifacts, ephemera, official documents, and propaganda.",
-                        "id": "aspace_91711ee6817a02856b65512376e8a8f6"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
+                        "value": "Chaikin, George, 1908-1992"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Chaikin, George, 1908-1992"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937/1940",
-                        "type": "inclusive",
-                        "value": "1937-1940"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.200"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "George Chaikin Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937/1940",
+                    "type": "inclusive",
+                    "value": "1937-1940"
+                }
+            ],
+            "unitid": "ALBA.200",
+            "unittitle": {
+                "value": "George Chaikin Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref15",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref15",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728525",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_2e9ed6d56d018283efedd1076e702dc1",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e277df220dd3a5aa48c1284d2fe40107",
-                                                "parent": "aspace_2e9ed6d56d018283efedd1076e702dc1",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1928/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Artifacts: Military ribbon and patches"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062728525",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_2e9ed6d56d018283efedd1076e702dc1",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728525",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_e8c4f8e94d9ca054a541bef21fbd7ffb",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_af073b28072cb7ee35347968ea2f5836",
-                                                "parent": "aspace_e8c4f8e94d9ca054a541bef21fbd7ffb",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Oct 1938-Apr 1940"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Chaikin, George (incoming, in Spanish)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728525",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_74316573cc554b8751262387b77f4a5d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_75a29f0f49e692fce17c392457ab772d",
-                                                "parent": "aspace_74316573cc554b8751262387b77f4a5d",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1938",
-                                                "type": "inclusive",
-                                                "value": "1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Ephemera: S.S. Harding third class tag; Pioners de Catalunya program; Comunidad Israelita de Barcelona calendar; William Gropper cartoon"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728525",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_3641c89df1d4c7e686446a71bd8842a6",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5d470eb846d4bbbe5d52c59da124cf74",
-                                                "parent": "aspace_3641c89df1d4c7e686446a71bd8842a6",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Mar 1937-Oct 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Official documents"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728525",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_69e2a068282c16b3a280b7ebce9b519f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7577630decc231ad2397c939a5e462b5",
-                                                "parent": "aspace_69e2a068282c16b3a280b7ebce9b519f",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1940",
-                                                "type": "inclusive",
-                                                "value": "undated , Oct 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Oversize: Map of Madrid; Combat Certificate"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728525",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a1905ff08b27c1714a31870fef508d97",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_956a5c0bd0a762bb7e29c79d01198163",
-                                                "parent": "aspace_a1905ff08b27c1714a31870fef508d97",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1928/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Propaganda Material: Misc."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728525",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_e84a4e46c31ba6aebe792b0fba613d15",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_07d10d6877b00571cff5f99e13b4f0bc",
-                                                "parent": "aspace_e84a4e46c31ba6aebe792b0fba613d15",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1940",
-                                                "type": "inclusive",
-                                                "value": "undated , 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish children: Statements about war (handwritten, in Spanish); drawing"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728525",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_1faa10d676ffbeeca59a8319ded3cec2",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_79ce53b4fd0eeb36e22f18e26ab22040",
-                                                "parent": "aspace_1faa10d676ffbeeca59a8319ded3cec2",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1950",
-                                                "type": "inclusive",
-                                                "value": "ca.1940"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans of the Abraham Lincoln Brigade: Street Collection Flyer"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_e277df220dd3a5aa48c1284d2fe40107",
+                                        "parent": "aspace_2e9ed6d56d018283efedd1076e702dc1",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: Spanish Civil War"
+                                        "normal": "1928/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1938"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Artifacts: Military ribbon and patches"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728525",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_e8c4f8e94d9ca054a541bef21fbd7ffb",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_af073b28072cb7ee35347968ea2f5836",
+                                        "parent": "aspace_e8c4f8e94d9ca054a541bef21fbd7ffb",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Oct 1938-Apr 1940"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Chaikin, George (incoming, in Spanish)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728525",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_74316573cc554b8751262387b77f4a5d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_75a29f0f49e692fce17c392457ab772d",
+                                        "parent": "aspace_74316573cc554b8751262387b77f4a5d",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1938",
+                                        "type": "inclusive",
+                                        "value": "1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Ephemera: S.S. Harding third class tag; Pioners de Catalunya program; Comunidad Israelita de Barcelona calendar; William Gropper cartoon"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728525",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_3641c89df1d4c7e686446a71bd8842a6",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5d470eb846d4bbbe5d52c59da124cf74",
+                                        "parent": "aspace_3641c89df1d4c7e686446a71bd8842a6",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Mar 1937-Oct 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Official documents"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728525",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_69e2a068282c16b3a280b7ebce9b519f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7577630decc231ad2397c939a5e462b5",
+                                        "parent": "aspace_69e2a068282c16b3a280b7ebce9b519f",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1940",
+                                        "type": "inclusive",
+                                        "value": "undated , Oct 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Oversize: Map of Madrid; Combat Certificate"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728525",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a1905ff08b27c1714a31870fef508d97",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_956a5c0bd0a762bb7e29c79d01198163",
+                                        "parent": "aspace_a1905ff08b27c1714a31870fef508d97",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1928/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Propaganda Material: Misc."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728525",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_e84a4e46c31ba6aebe792b0fba613d15",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_07d10d6877b00571cff5f99e13b4f0bc",
+                                        "parent": "aspace_e84a4e46c31ba6aebe792b0fba613d15",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1940",
+                                        "type": "inclusive",
+                                        "value": "undated , 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish children: Statements about war (handwritten, in Spanish); drawing"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728525",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_1faa10d676ffbeeca59a8319ded3cec2",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_79ce53b4fd0eeb36e22f18e26ab22040",
+                                        "parent": "aspace_1faa10d676ffbeeca59a8319ded3cec2",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1950",
+                                        "type": "inclusive",
+                                        "value": "ca.1940"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans of the Abraham Lincoln Brigade: Street Collection Flyer"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Spanish Civil War"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_f5e273f8d96945a60ebeb4d547e37466",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -508,11 +477,9 @@
         "processinfo": [
             {
                 "id": "aspace_d63cc4262456d09abbacacbdaf645d24",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "Processing decisions made prior to 2017 have not been recorded."
@@ -523,11 +490,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_65b207a5dba173ddb7c932b20cd70e8d",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "ALBA collections at the Tamiment Library."
@@ -538,11 +503,9 @@
         "scopecontent": [
             {
                 "id": "aspace_3d20c7d6dd13fd4eb748552cc7f37813",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "\u003cspan class=\"ead-emph ead-emph-bold\"\u003eSeries I: Spanish Civil War Materials\u003c/span\u003econsists of documents relating to Chaikin's activity as an organizer of aid to Spanish orphans during and following the Spanish Civil War, including a 1937 drawing by a Spanish child, as well as children's statements on war. Correspondence is comprised of letters written to Chaikin in Spanish from people he had known in Spain. One letter, written to Chaikin after he had returned to the U.S. (and translated into English beneath each line), is from a woman in a concentration camp expressing her hope of soon being evacuated to England. Also included are official military documents and artifacts, graphic and print propaganda, and a Certificate of Combat. Ephemera includes a tag from Chaikin's return trip from Spain on the S.S. Harding; a map of Madrid; a program from a concert given by the Pioners de Catalunya for the International Brigades; a 1937-1938 calendar of the Comunidad Israelita de Barcelona (in Yiddish and Spanish) and a flyer distributed by the Veterans of the Abraham Lincoln Brigade instructing fundraisers on how to conduct street collections. Many of the materials in the collection are in Spanish. Others are in French."
@@ -553,11 +516,9 @@
         "separatedmaterial": [
             {
                 "id": "aspace_15d6ccee29eb0e387a2e75052c5449b5",
-                "head": [
-                    {
-                        "value": "Separated Material"
-                    }
-                ],
+                "head": {
+                    "value": "Separated Material"
+                },
                 "p": [
                     {
                         "value": "Photographs from the George Chaikin Papers have been transferred to the non-print section of the ALBA collection in the Tamiment Library (ALBA Photo #36)."
@@ -568,11 +529,9 @@
         "userestrict": [
             {
                 "id": "aspace_a0eba39cc0cb60093a903027f7417cfa",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Abraham Lincoln Brigade Archives (ALBA), were transferred to New York University in November 2000 by the ALBA Board of Governors. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -581,93 +540,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_200"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_200"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from chaikin.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from chaikin.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Wendy Scheir"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the George Chaikin Papers \u003cspan class=\"ead-num\"\u003eALBA.200\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Wendy Scheir",
+                "titleproper": [
+                    {
+                        "value": "Guide to the George Chaikin Papers \u003cspan class=\"ead-num\"\u003eALBA.200\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.200"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:35:33 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:35:33 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

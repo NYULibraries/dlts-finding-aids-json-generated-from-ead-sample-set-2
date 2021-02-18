@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_7945beb8a6f21738a7e969100d4b09ee",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,23 @@
         "arrangement": [
             {
                 "id": "aspace_b339bdb5e7fd820058dcdd16411a138c",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I. People's Olympics"
+                            },
+                            {
+                                "value": "II. Spanish Civil War Letters"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,11 +49,9 @@
         "bioghist": [
             {
                 "id": "aspace_d49010063e51c369854591c890d8d7f5",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Bernard R. Danchik was born in 1915 and grew up in Brooklyn, New York. As a young man Danchik, a clerk and member of the Bookkeepers, Stenographers and Accountants Union, joined the German Labor Lyceum gymnastics team and became captain of the Williamsburg Gymnastic Group."
@@ -61,94 +71,157 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
-                    },
-                    {
-                        "value": "Olimpiada Popular de Barcelona"
-                    },
-                    {
-                        "value": "Committee for Fair Play in Sports"
-                    },
-                    {
-                        "value": "Workers Olympics"
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    }
-                ],
-                "genreform": [
-                    "Memorabilia.",
-                    "Pennants.",
-                    "Personal papers.",
-                    "Articles.",
-                    "Scrapbooks.",
-                    "Correspondence.",
-                    "Printed ephemera.",
-                    "Black-and-white photographs.",
-                    "Sports clothing.",
-                    "Textiles."
-                ],
-                "geogname": [
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American",
-                    "Spain -- History -- Civil War, 1936-1939 -- Personal narratives.",
-                    "Albacete (Spain)",
-                    "Barcelona (Spain)"
-                ],
-                "persname": [
-                    {
-                        "value": "Burley, Charley, 1917-"
-                    },
-                    {
-                        "value": "Jenkins, Irving"
-                    },
-                    {
-                        "value": "Engel, Harry"
-                    },
-                    {
-                        "value": "Payton, Frank."
-                    },
-                    {
-                        "value": "Krauss, Eddie"
-                    },
-                    {
-                        "value": "Dalton, Lou"
-                    },
-                    {
-                        "value": "Chakin, Alfred"
-                    },
-                    {
-                        "value": "Dickes, Myron"
-                    },
-                    {
-                        "value": "Danchik, Bernard R."
-                    },
-                    {
-                        "value": "Tucker, Dorothy"
-                    },
-                    {
-                        "value": "Raoul, Julian."
-                    },
-                    {
-                        "value": "Weinberg, Jerry"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
+                },
+                {
+                    "source": "local",
+                    "value": "Olimpiada Popular de Barcelona"
+                },
+                {
+                    "source": "local",
+                    "value": "Committee for Fair Play in Sports"
+                },
+                {
+                    "source": "local",
+                    "value": "Workers Olympics"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Memorabilia."
+                },
+                {
+                    "source": "aat",
+                    "value": "Pennants."
+                },
+                {
+                    "source": "aat",
+                    "value": "Personal papers."
+                },
+                {
+                    "source": "aat",
+                    "value": "Articles."
+                },
+                {
+                    "source": "aat",
+                    "value": "Scrapbooks."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Printed ephemera."
+                },
+                {
+                    "source": "aat",
+                    "value": "Black-and-white photographs."
+                },
+                {
+                    "source": "aat",
+                    "value": "Sports clothing."
+                },
+                {
+                    "source": "aat",
+                    "value": "Textiles."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Personal narratives."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Albacete (Spain)"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Barcelona (Spain)"
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Burley, Charley, 1917-"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Jenkins, Irving"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Engel, Harry"
+                },
+                {
+                    "source": "ingest",
+                    "value": "Payton, Frank."
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Krauss, Eddie"
+                },
+                {
+                    "source": "local",
+                    "value": "Dalton, Lou"
+                },
+                {
+                    "source": "local",
+                    "value": "Chakin, Alfred"
+                },
+                {
+                    "source": "local",
+                    "value": "Dickes, Myron"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Danchik, Bernard R."
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Tucker, Dorothy"
+                },
+                {
+                    "source": "ingest",
+                    "value": "Raoul, Julian."
+                },
+                {
+                    "source": "local",
+                    "value": "Weinberg, Jerry"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_9f3fa7d7dc20b4672b78c8258d092db4",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Bernard R. Danchik Collection was donated to the Abraham Lincoln Brigade Archives in October 1983 by Danchik's wife, Lili Danchik LaRocque. This collection came to New York University in January 2001 as part of the original acquisition of ALBA collections, formerly housed at Brandeis University."
@@ -156,763 +229,667 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "1.5 Linear Feet"
-                            },
-                            {
-                                "value": "(3 boxes)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(3 boxes)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Bernard R. Danchik was a New York City clerk and gymnast who traveled to Barcelona, Spain in 1936 with eight other American athletes to participate in the People's Olympics, which were being held in protest against the Berlin Olympics in Nazi Germany. On July 19, the day the People's Olympics were set to begin, fighting broke out on the streets in Barcelona, marking the beginning of the Spanish Civil War. The People's Olympics were canceled, and Danchik returned home with many photographs and souvenirs to commemorate all that he had witnessed.",
+                    "id": "aspace_b0c0f26021fd835b6c2b8cfaebcbc7cb"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English.",
+                    "id": "aspace_61641d99a2fca09bdb75b2d516a60930"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Danchik, Bernard R."
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Bernard R. Danchik was a New York City clerk and gymnast who traveled to Barcelona, Spain in 1936 with eight other American athletes to participate in the People's Olympics, which were being held in protest against the Berlin Olympics in Nazi Germany. On July 19, the day the People's Olympics were set to begin, fighting broke out on the streets in Barcelona, marking the beginning of the Spanish Civil War. The People's Olympics were canceled, and Danchik returned home with many photographs and souvenirs to commemorate all that he had witnessed.",
-                        "id": "aspace_b0c0f26021fd835b6c2b8cfaebcbc7cb"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_61641d99a2fca09bdb75b2d516a60930",
-                        "value": "Materials are in English."
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Danchik, Bernard R."
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1936/1937",
-                        "type": "inclusive",
-                        "value": "1936-1937"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.033"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Bernard R. Danchik Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1936/1937",
+                    "type": "inclusive",
+                    "value": "1936-1937"
+                }
+            ],
+            "unitid": "ALBA.033",
+            "unittitle": {
+                "value": "Bernard R. Danchik Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref14",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref15",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref14",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref15",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755106",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_00d8f5bc61217ce8bed730cb6c3c66ad",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e8a426fde4849090447b70e90ddd4b29",
-                                                "parent": "aspace_00d8f5bc61217ce8bed730cb6c3c66ad",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "American team (photographic negative)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062755106",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_00d8f5bc61217ce8bed730cb6c3c66ad",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755106",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_51b1d31a688367c0663379a4ff648514",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_94716f4e3dac9b5a139a0b3e55f4cea6",
-                                                "parent": "aspace_51b1d31a688367c0663379a4ff648514",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1936/1937",
-                                                "type": "inclusive",
-                                                "value": "undated , Nov 1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Burley, Charles"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755106",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_6b115e0a75e53b67bb77a150a1ebcc48",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_28ced053a20ed9f27ea4694bebf24ca4",
-                                                "parent": "aspace_6b115e0a75e53b67bb77a150a1ebcc48",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "May 1936-Jul 1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Committee on Fair Play in Sports: Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755106",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_3dc14ce5eaaf8b0ba99d978a8d75cade",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_94e717591f871ec800d57d1ddfdc10d7",
-                                                "parent": "aspace_3dc14ce5eaaf8b0ba99d978a8d75cade",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Committee on Fair Play in Sports: Press Release"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755106",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_55e4c381700e5d09aece739fe9423d0c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_abae3d697f8835ef6c0798ad36ada8e5",
-                                                "parent": "aspace_55e4c381700e5d09aece739fe9423d0c",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Danchik, Bernard: Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755106",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_689e341c688b8dd4f484b0174f001880",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_daf65ca3a1d68e5897634247f32dde91",
-                                                "parent": "aspace_689e341c688b8dd4f484b0174f001880",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Mar 1936-Jul 1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Danchik, Bernard: Passport and \"Notice to Bearer of Passports\" (pamphlet)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755106",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_ea39441f20648908f7747816d4dcdd0d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_601843f0bf9bffa2d2b3da294d528587",
-                                                "parent": "aspace_ea39441f20648908f7747816d4dcdd0d",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 2, 1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "LaGuardia, Fiorello: Telegram of Good Wishes to Departing Team"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755106",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_9218adb97a5a79fcc20840ed6cae9760",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_589d1e6d6419a76cc8a8ee8ec6525cd8",
-                                                "parent": "aspace_9218adb97a5a79fcc20840ed6cae9760",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1936/1937",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "List of American Team Names with Descriptions"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755106",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_93dd51e3f1304e1dd6a0a923b22e7653",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_639b94da977b6ea11cde52049413c588",
-                                                "parent": "aspace_93dd51e3f1304e1dd6a0a923b22e7653",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1936/1937",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "List of Team Names, with U.S. Affiliations (pencil)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755106",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_c2ba81248147ae3c32ac56fcd07591af",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4ada1281d9465723adda95f93c4ef290",
-                                                "parent": "aspace_c2ba81248147ae3c32ac56fcd07591af",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1936/1937",
-                                                "type": "inclusive",
-                                                "value": "1936-1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Newspaper Clippings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "c": [
-                                    {
-                                        "id": "aspace_ref26",
-                                        "level": "otherlevel",
-                                        "otherlevel": "unspecified",
-                                        "did": [
-                                            {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142062755106",
-                                                        "label": "Mixed Materials",
-                                                        "altrender": "Manuscript box - Legal - Half",
-                                                        "id": "aspace_c9089f6c0963b8b7aa95a04ed3d0e32b",
-                                                        "type": "box",
-                                                        "value": "1"
-                                                    },
-                                                    {
-                                                        "id": "aspace_b42b74c9f8a19821cdd6e77465cae41f",
-                                                        "parent": "aspace_c9089f6c0963b8b7aa95a04ed3d0e32b",
-                                                        "type": "folder",
-                                                        "value": "12"
-                                                    }
-                                                ],
-                                                "unitdate": [
-                                                    {
-                                                        "value": "Jun 1936"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "Olympic Gymnastics Tryouts: Program and Score Card"
-                                                    }
-                                                ]
-                                            }
-                                        ]
+                                        "id": "aspace_e8a426fde4849090447b70e90ddd4b29",
+                                        "parent": "aspace_00d8f5bc61217ce8bed730cb6c3c66ad",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "did": [
+                                "unitdate": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755106",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_2942652bfad07fc576921c1f1a66489b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8490e5df90f976b7068df85ad76bd0cd",
-                                                "parent": "aspace_2942652bfad07fc576921c1f1a66489b",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Olimpiada Popular de Barcelona: Press Release"
-                                            }
-                                        ]
+                                        "value": "Jul 1936"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755106",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_fc30189431cb86698e495d7284423ec0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_83b274d6f2227486c26715978894f594",
-                                                "parent": "aspace_fc30189431cb86698e495d7284423ec0",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Program of Sporting Events for the Peoples Olympiad"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755106",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_1287e607365e5f7df9b2756d0a22c3ac",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0da1387975ced063578b55f927d6b4ca",
-                                                "parent": "aspace_1287e607365e5f7df9b2756d0a22c3ac",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Thomas, Norman: Telegram to Olimpiada Barcelona"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755106",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_0105aa6136d4708890a0fc414e4462f9",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_34e45eb822be3ffe2d9dbb49d5634916",
-                                                "parent": "aspace_0105aa6136d4708890a0fc414e4462f9",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Zimmerman, Charles/Dressmakers Union, Local 22: Telegram"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "item",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755098",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Flat Box - 12 x 15.25",
-                                                "id": "aspace_af82062601a9af90c21712a481ce9625",
-                                                "type": "box",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1936/1936",
-                                                "type": "inclusive",
-                                                "value": "1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Scrapbook (with photographs and ephemera; condition fragile)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "item",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755114",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Flat OS Box 17",
-                                                "id": "aspace_a106f69e44d74ea3143dff52a2250f15",
-                                                "type": "box",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1936/1936",
-                                                "type": "inclusive",
-                                                "value": "1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Olimpiada Barcelona athletic jacket; pennant; armband; uniform tank; uniform jersey"
-                                            }
-                                        ]
-                                    }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "American team (photographic negative)"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Series I: People's Olympics"
+                                        "barcode": "31142062755106",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_51b1d31a688367c0663379a4ff648514",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_94716f4e3dac9b5a139a0b3e55f4cea6",
+                                        "parent": "aspace_51b1d31a688367c0663379a4ff648514",
+                                        "type": "folder",
+                                        "value": "2"
                                     }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref32",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
+                                ],
+                                "unitdate": [
                                     {
+                                        "normal": "1936/1937",
+                                        "type": "inclusive",
+                                        "value": "undated , Nov 1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Burley, Charles"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755106",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_6b115e0a75e53b67bb77a150a1ebcc48",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_28ced053a20ed9f27ea4694bebf24ca4",
+                                        "parent": "aspace_6b115e0a75e53b67bb77a150a1ebcc48",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "May 1936-Jul 1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Committee on Fair Play in Sports: Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755106",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_3dc14ce5eaaf8b0ba99d978a8d75cade",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_94e717591f871ec800d57d1ddfdc10d7",
+                                        "parent": "aspace_3dc14ce5eaaf8b0ba99d978a8d75cade",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Committee on Fair Play in Sports: Press Release"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755106",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_55e4c381700e5d09aece739fe9423d0c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_abae3d697f8835ef6c0798ad36ada8e5",
+                                        "parent": "aspace_55e4c381700e5d09aece739fe9423d0c",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Danchik, Bernard: Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755106",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_689e341c688b8dd4f484b0174f001880",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_daf65ca3a1d68e5897634247f32dde91",
+                                        "parent": "aspace_689e341c688b8dd4f484b0174f001880",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Mar 1936-Jul 1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Danchik, Bernard: Passport and \"Notice to Bearer of Passports\" (pamphlet)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755106",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_ea39441f20648908f7747816d4dcdd0d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_601843f0bf9bffa2d2b3da294d528587",
+                                        "parent": "aspace_ea39441f20648908f7747816d4dcdd0d",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 2, 1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "LaGuardia, Fiorello: Telegram of Good Wishes to Departing Team"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755106",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_9218adb97a5a79fcc20840ed6cae9760",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_589d1e6d6419a76cc8a8ee8ec6525cd8",
+                                        "parent": "aspace_9218adb97a5a79fcc20840ed6cae9760",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1936/1937",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "List of American Team Names with Descriptions"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755106",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_93dd51e3f1304e1dd6a0a923b22e7653",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_639b94da977b6ea11cde52049413c588",
+                                        "parent": "aspace_93dd51e3f1304e1dd6a0a923b22e7653",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1936/1937",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "List of Team Names, with U.S. Affiliations (pencil)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755106",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_c2ba81248147ae3c32ac56fcd07591af",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4ada1281d9465723adda95f93c4ef290",
+                                        "parent": "aspace_c2ba81248147ae3c32ac56fcd07591af",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1936/1937",
+                                        "type": "inclusive",
+                                        "value": "1936-1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Newspaper Clippings"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "c": [
+                                {
+                                    "id": "aspace_ref26",
+                                    "level": "otherlevel",
+                                    "otherlevel": "unspecified",
+                                    "did": {
                                         "container": [
                                             {
                                                 "barcode": "31142062755106",
                                                 "label": "Mixed Materials",
                                                 "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_c3f68bc4a401b6ea3a068efe88ee884a",
+                                                "id": "aspace_c9089f6c0963b8b7aa95a04ed3d0e32b",
                                                 "type": "box",
                                                 "value": "1"
                                             },
                                             {
-                                                "id": "aspace_bf4e2825c5ec19201add3ceede3645e6",
-                                                "parent": "aspace_c3f68bc4a401b6ea3a068efe88ee884a",
+                                                "id": "aspace_b42b74c9f8a19821cdd6e77465cae41f",
+                                                "parent": "aspace_c9089f6c0963b8b7aa95a04ed3d0e32b",
                                                 "type": "folder",
-                                                "value": "16"
+                                                "value": "12"
                                             }
                                         ],
                                         "unitdate": [
                                             {
-                                                "value": "Jul 1937-Aug 1937"
+                                                "value": "Jun 1936"
                                             }
                                         ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Dalton, Lou"
-                                            }
-                                        ]
+                                        "unittitle": {
+                                            "value": "Olympic Gymnastics Tryouts: Program and Score Card"
+                                        }
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
+                                }
+                            ],
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062755106",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_4ab7975cb022b91caac8a2d9ce3dcab6",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8b3ba50aa484a1e759ec0b0fe543c795",
-                                                "parent": "aspace_4ab7975cb022b91caac8a2d9ce3dcab6",
-                                                "type": "folder",
-                                                "value": "17"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 1937-May 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Weinberg, Jerry"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
+                                        "barcode": "31142062755106",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_2942652bfad07fc576921c1f1a66489b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "value": "Series II: Spanish Civil War Letters"
+                                        "id": "aspace_8490e5df90f976b7068df85ad76bd0cd",
+                                        "parent": "aspace_2942652bfad07fc576921c1f1a66489b",
+                                        "type": "folder",
+                                        "value": "11"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Olimpiada Popular de Barcelona: Press Release"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755106",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_fc30189431cb86698e495d7284423ec0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_83b274d6f2227486c26715978894f594",
+                                        "parent": "aspace_fc30189431cb86698e495d7284423ec0",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Program of Sporting Events for the Peoples Olympiad"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755106",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_1287e607365e5f7df9b2756d0a22c3ac",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0da1387975ced063578b55f927d6b4ca",
+                                        "parent": "aspace_1287e607365e5f7df9b2756d0a22c3ac",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Thomas, Norman: Telegram to Olimpiada Barcelona"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755106",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_0105aa6136d4708890a0fc414e4462f9",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_34e45eb822be3ffe2d9dbb49d5634916",
+                                        "parent": "aspace_0105aa6136d4708890a0fc414e4462f9",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Zimmerman, Charles/Dressmakers Union, Local 22: Telegram"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "item",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755098",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Flat Box - 12 x 15.25",
+                                        "id": "aspace_af82062601a9af90c21712a481ce9625",
+                                        "type": "box",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1936/1936",
+                                        "type": "inclusive",
+                                        "value": "1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Scrapbook (with photographs and ephemera; condition fragile)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "item",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755114",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Flat OS Box 17",
+                                        "id": "aspace_a106f69e44d74ea3143dff52a2250f15",
+                                        "type": "box",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1936/1936",
+                                        "type": "inclusive",
+                                        "value": "1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Olimpiada Barcelona athletic jacket; pennant; armband; uniform tank; uniform jersey"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series I: People's Olympics"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref32",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755106",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_c3f68bc4a401b6ea3a068efe88ee884a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_bf4e2825c5ec19201add3ceede3645e6",
+                                        "parent": "aspace_c3f68bc4a401b6ea3a068efe88ee884a",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1937-Aug 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Dalton, Lou"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062755106",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_4ab7975cb022b91caac8a2d9ce3dcab6",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8b3ba50aa484a1e759ec0b0fe543c795",
+                                        "parent": "aspace_4ab7975cb022b91caac8a2d9ce3dcab6",
+                                        "type": "folder",
+                                        "value": "17"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Apr 1937-May 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Weinberg, Jerry"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series II: Spanish Civil War Letters"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_7f7d61ca4fa73749526c7516cd7bd8e6",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -923,11 +900,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_04fb52b8d813a846608279771e68c38f",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "ALBA collections at the Tamiment Library."
@@ -938,11 +913,9 @@
         "scopecontent": [
             {
                 "id": "aspace_cbc04db94389cecc88289e1b28fbc60a",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "Series I, People's Olympics, includes material produced by the Committee for Fair Play in Sports, a letter from Danchik to his family, a post-Barcelona letter from boxer Charles Burley, congratulatory telegrams from Fiorella LaGuardia and Norman Thomas, and a program from the People's Olympics."
@@ -962,11 +935,9 @@
         "userestrict": [
             {
                 "id": "aspace_283d9253ac6b4e4f0b4a5cf927516661",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Abraham Lincoln Brigade Archives (ALBA), were transferred to New York University in November 2000 by the ALBA Board of Governors. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -975,93 +946,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_033"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_033"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from Danchik"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from Danchik\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Wendy Scheir, September 2004"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Papers of Bernard N. Danchik \u003cspan class=\"ead-num\"\u003eALBA.033\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Wendy Scheir, September 2004",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Papers of Bernard N. Danchik \u003cspan class=\"ead-num\"\u003eALBA.033\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.033"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:34:25 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:34:25 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

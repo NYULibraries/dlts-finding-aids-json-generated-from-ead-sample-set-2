@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_c12f6ee2129633ff9e86d29fce44d55c",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -16,24 +14,26 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "genreform": [
-                    "Political cartoons."
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Political cartoons."
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_55eb910e91e0e300cb9bc2a89f30dc32",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "The material was donated by George Brodsky  to the Abraham Lincoln Brigade Archives at Brandeis University in 1979, and transferred to the Tamiment Library with other ALBA collections in 2001."
@@ -41,324 +41,282 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
+                    }
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Brodsky, George"
+                    }
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1936/1984",
+                    "type": "inclusive",
+                    "value": "ca.1936-1984"
+                }
+            ],
+            "unitid": "ALBA.181",
+            "unittitle": {
+                "value": "George Brodsky: Yiddish Clippings and Serials Collection"
+            }
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref3",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "0.5 Linear Feet"
+                                "barcode": "31142062757177",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_3d98fad1875b394c92c6f23cefe0b9f6",
+                                "type": "box",
+                                "value": "1"
                             },
                             {
-                                "value": "(1 box)"
-                            }
-                        ]
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
+                                "id": "aspace_e04eb7e564b3b80d49d3d67c3d84df6e",
+                                "parent": "aspace_3d98fad1875b394c92c6f23cefe0b9f6",
+                                "type": "folder",
+                                "value": "1"
                             }
                         ],
-                        "value": "\n      \n.    "
+                        "unitdate": [
+                            {
+                                "value": "ca. 1936-1938"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Cartoons: Joseph Foshko in \u003cspan class=\"ead-emph ead-emph-italic\"\u003eDer Tog\u003c/span\u003e (\u003cspan class=\"ead-emph ead-emph-italic\"\u003eThe Day\u003c/span\u003e)"
+                        }
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
+                },
+                {
+                    "id": "aspace_ref4",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "Brodsky, George"
+                                "barcode": "31142062757177",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_5ec0157c28eae0efdccedf73b7eab7d0",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_fab74e554f672951a3f7abcd9556cbe4",
+                                "parent": "aspace_5ec0157c28eae0efdccedf73b7eab7d0",
+                                "type": "folder",
+                                "value": "2"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "ca. 1936-1938"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Cartoons: William Gropper in \u003cspan class=\"ead-emph ead-emph-italic\"\u003eMorgen Freiheit\u003c/span\u003e"
+                        }
                     }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
+                },
+                {
+                    "id": "aspace_ref5",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                                "barcode": "31142062757177",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_30ad9c65c2d4db1d587ef16e783c6595",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_79777784457d9fa145a3f7764c7c8118",
+                                "parent": "aspace_30ad9c65c2d4db1d587ef16e783c6595",
+                                "type": "folder",
+                                "value": "3"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "ca. 1936-1938"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Cartoons: Various"
+                        }
                     }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1936/1984",
-                        "type": "inclusive",
-                        "value": "ca.1936-1984"
+                },
+                {
+                    "id": "aspace_ref6",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062757177",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_df72c080eecd20f04a78ab5b47a69207",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_c652686f9fe21ef067250b05a5cb1218",
+                                "parent": "aspace_df72c080eecd20f04a78ab5b47a69207",
+                                "type": "folder",
+                                "value": "4"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "ca. 1936-1938; 1984"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Clippings (mostly photo images from \u003cspan class=\"ead-emph ead-emph-italic\"\u003eMorgen Freiheit\u003c/span\u003e)"
+                        }
                     }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.181"
+                },
+                {
+                    "id": "aspace_ref7",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062757177",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_6b0678a3b042fb09023a5a0bb4ffe591",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_8a23b35b8d83786cc77e4ce04c445032",
+                                "parent": "aspace_6b0678a3b042fb09023a5a0bb4ffe591",
+                                "type": "folder",
+                                "value": "5"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "ca. 1936-1938"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Clippings (mostly photo images from \u003cspan class=\"ead-emph ead-emph-italic\"\u003eMorgen Freiheit\u003c/span\u003e)"
+                        }
                     }
-                ],
-                "unittitle": [
-                    {
-                        "value": "George Brodsky: Yiddish Clippings and Serials Collection"
+                },
+                {
+                    "id": "aspace_ref8",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062757177",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_56fc60b6f371c0ca260447249c26c020",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_01a307bc68c1973e1659141d77b4e42d",
+                                "parent": "aspace_56fc60b6f371c0ca260447249c26c020",
+                                "type": "folder",
+                                "value": "7"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1966/1976",
+                                "type": "inclusive",
+                                "value": "1966-1976"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "\u003cspan class=\"ead-emph ead-emph-italic\"\u003eFolks-Sztyme\u003c/span\u003e (Warsaw): Issues and Articles"
+                        }
                     }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref3",
-                        "level": "file",
-                        "did": [
+                },
+                {
+                    "id": "aspace_ref9",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142062757177",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_3d98fad1875b394c92c6f23cefe0b9f6",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_e04eb7e564b3b80d49d3d67c3d84df6e",
-                                        "parent": "aspace_3d98fad1875b394c92c6f23cefe0b9f6",
-                                        "type": "folder",
-                                        "value": "1"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "ca. 1936-1938"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Cartoons: Joseph Foshko in \u003cspan class=\"ead-emph ead-emph-italic\"\u003eDer Tog\u003c/span\u003e (\u003cspan class=\"ead-emph ead-emph-italic\"\u003eThe Day\u003c/span\u003e)"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref4",
-                        "level": "file",
-                        "did": [
+                                "barcode": "31142062757177",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal",
+                                "id": "aspace_738d9a65cb2395a3f8f44dba6708d875",
+                                "type": "box",
+                                "value": "1"
+                            },
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142062757177",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_5ec0157c28eae0efdccedf73b7eab7d0",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_fab74e554f672951a3f7abcd9556cbe4",
-                                        "parent": "aspace_5ec0157c28eae0efdccedf73b7eab7d0",
-                                        "type": "folder",
-                                        "value": "2"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "ca. 1936-1938"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Cartoons: William Gropper in \u003cspan class=\"ead-emph ead-emph-italic\"\u003eMorgen Freiheit\u003c/span\u003e"
-                                    }
-                                ]
+                                "id": "aspace_f9d76fa36cb07b206de0549eec7936e1",
+                                "parent": "aspace_738d9a65cb2395a3f8f44dba6708d875",
+                                "type": "folder",
+                                "value": "7"
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref5",
-                        "level": "file",
-                        "did": [
+                        ],
+                        "unitdate": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142062757177",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_30ad9c65c2d4db1d587ef16e783c6595",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_79777784457d9fa145a3f7764c7c8118",
-                                        "parent": "aspace_30ad9c65c2d4db1d587ef16e783c6595",
-                                        "type": "folder",
-                                        "value": "3"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "ca. 1936-1938"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Cartoons: Various"
-                                    }
-                                ]
+                                "value": "undated, 1974"
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref6",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062757177",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_df72c080eecd20f04a78ab5b47a69207",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_c652686f9fe21ef067250b05a5cb1218",
-                                        "parent": "aspace_df72c080eecd20f04a78ab5b47a69207",
-                                        "type": "folder",
-                                        "value": "4"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "ca. 1936-1938; 1984"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Clippings (mostly photo images from \u003cspan class=\"ead-emph ead-emph-italic\"\u003eMorgen Freiheit\u003c/span\u003e)"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref7",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062757177",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_6b0678a3b042fb09023a5a0bb4ffe591",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_8a23b35b8d83786cc77e4ce04c445032",
-                                        "parent": "aspace_6b0678a3b042fb09023a5a0bb4ffe591",
-                                        "type": "folder",
-                                        "value": "5"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "ca. 1936-1938"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Clippings (mostly photo images from \u003cspan class=\"ead-emph ead-emph-italic\"\u003eMorgen Freiheit\u003c/span\u003e)"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref8",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062757177",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_56fc60b6f371c0ca260447249c26c020",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_01a307bc68c1973e1659141d77b4e42d",
-                                        "parent": "aspace_56fc60b6f371c0ca260447249c26c020",
-                                        "type": "folder",
-                                        "value": "7"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1966/1976",
-                                        "type": "inclusive",
-                                        "value": "1966-1976"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "\u003cspan class=\"ead-emph ead-emph-italic\"\u003eFolks-Sztyme\u003c/span\u003e (Warsaw): Issues and Articles"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref9",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062757177",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal",
-                                        "id": "aspace_738d9a65cb2395a3f8f44dba6708d875",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_f9d76fa36cb07b206de0549eec7936e1",
-                                        "parent": "aspace_738d9a65cb2395a3f8f44dba6708d875",
-                                        "type": "folder",
-                                        "value": "7"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "undated, 1974"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Miscellaneous Newspaper and Journal Articles"
-                                    }
-                                ]
-                            }
-                        ]
+                        ],
+                        "unittitle": {
+                            "value": "Miscellaneous Newspaper and Journal Articles"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "scopecontent": [
             {
                 "id": "aspace_5b6791f83cf7737996ae20064f272662",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "The collection consists of clippings and photocopies of clippings pertaining to the Spanish Civil War and especially to Jewish participation in the War. Among them are many cartoons, photos, and other graphics clipped from a variety of Yiddish-language newspapers and journals, most of them published in the United States.  Much of the material dates from the Spanish Civil War era; other items are commemorative or historical in nature. There is a large folder of clippings of cartoons on the Civil War and the fight against fascism by William Gropper (from the \u003cspan class=\"ead-emph ead-emph-italic\"\u003eMorgen Freiheit\u003c/span\u003e), a folder of cartoons by (from \u003cspan class=\"ead-emph ead-emph-italic\"\u003eDer Tog\u003c/span\u003e), and a number of cartoons from other sources. Many of the clippings are pasted on pages from a notebook or scrapbook, apparently compiled ca. 1936-1938. The bulk of the individual clippings are unidentified as to source, and undated, but the pages could be reassembled in chronological order by comparing the clippings to the original newspapers that are the main sources for them.  Also included are several complete issues and articles from \u003cspan class=\"ead-emph ead-emph-italic\"\u003eFolks-Sztyme\u003c/span\u003e (1966-1976), a Yiddish newspaper published in Warsaw."
@@ -369,11 +327,9 @@
         "userestrict": [
             {
                 "id": "aspace_850df8329430c6fd43ef60caca490405",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Because of the assembled nature of this collection, copyright status varies across the collection. Items published after 1922 and before 1978 without copyright notice or renewal are in the public domain. Items published after 1922 and before 1964 with copyright notice, but not renewed after 28 years are in the public domain; if renewed after 28 years, protection extends 95 years after publication.  For more information, please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -382,76 +338,65 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/alba_181/",
-                    "value": "alba_181"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/alba_181/",
+            "value": "alba_181"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "titleproper": [
-                                {
-                                    "value": "Preliminary Inventory to the George Brodsky: Yiddish Clippings and Serials Collection \u003cspan class=\"ead-num\"\u003eALBA.181\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:35:26 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ]
-                }
-            ]
+                },
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "titleproper": [
+                    {
+                        "value": "Preliminary Inventory to the George Brodsky: Yiddish Clippings and Serials Collection \u003cspan class=\"ead-num\"\u003eALBA.181\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.181"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:35:26 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            }
         }
-    ]
+    }
 }

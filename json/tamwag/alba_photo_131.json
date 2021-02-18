@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_43841f42e402a66170f50e0446635c50",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,26 @@
         "arrangement": [
             {
                 "id": "aspace_fb5113c38aa616af2232d1897ced8cdb",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I: Prints"
+                            },
+                            {
+                                "value": "II: Slides"
+                            },
+                            {
+                                "value": "III: Negatives"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,11 +52,9 @@
         "bioghist": [
             {
                 "id": "aspace_8e8a10f221b96d7cbb129461e389e8d4",
-                "head": [
-                    {
-                        "value": "Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Frances Patai (1930- 1998) was an educator, writer, historian and feminist activist. For further biographical information on Frances Patai and to review the scope and contents of her manuscript collection see the Frances Patai Papers, ALBA 131."
@@ -52,67 +65,104 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "North American Committee to Aid Spanish Democracy"
-                    },
-                    {
-                        "value": "Medical Bureau and North American Committee to Aid Spanish Democracy"
-                    },
-                    {
-                        "value": "Medical Bureau to Aid Spanish Democracy"
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    }
-                ],
-                "genreform": [
-                    "Prints (visual works)",
-                    "Slides (photographs)",
-                    "Negatives (photographic)"
-                ],
-                "geogname": [
-                    "Barcelona (Spain)",
-                    "Spain -- History -- Civil War, 1936-1939 -- Personal narratives.",
-                    "Grenollers (Spain)",
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American",
-                    "Spain -- History -- Civil War, 1936-1939 -- Women."
-                ],
-                "persname": [
-                    {
-                        "value": "Vega Mundo, Gilberto -- Photographer"
-                    },
-                    {
-                        "value": "Patai, Frances"
-                    },
-                    {
-                        "value": "Martin, Fredericka I."
-                    },
-                    {
-                        "value": "Kea, Salaria (O'Reilly)"
-                    },
-                    {
-                        "value": "Leight, Clara"
-                    },
-                    {
-                        "value": "Fontaine, Dorothy (Mardfine)"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "North American Committee to Aid Spanish Democracy"
+                },
+                {
+                    "source": "naf",
+                    "value": "Medical Bureau and North American Committee to Aid Spanish Democracy"
+                },
+                {
+                    "source": "naf",
+                    "value": "Medical Bureau to Aid Spanish Democracy"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Prints (visual works)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Slides (photographs)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Negatives (photographic)"
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Barcelona (Spain)"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Personal narratives."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Grenollers (Spain)"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Women."
+                }
+            ],
+            "persname": [
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Vega Mundo, Gilberto -- Photographer"
+                },
+                {
+                    "source": "naf",
+                    "value": "Patai, Frances"
+                },
+                {
+                    "source": "naf",
+                    "value": "Martin, Fredericka I."
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Kea, Salaria (O'Reilly)"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Leight, Clara"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Fontaine, Dorothy (Mardfine)"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_d8235945fa2407b4468dbb075afe7461",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Patai Collection was donated to the Abraham Lincoln Brigade Archives, formerly housed at Brandeis University, by Frances Patai in 1998. The collection came to New York University in January 2001 as part of the original acquisition of ALBA collections."
@@ -123,1623 +173,1438 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.75 Linear Feet"
-                            },
-                            {
-                                "value": "(2 boxes)"
-                            }
-                        ]
-                    },
-                    {
-                        "value": "104 black and white and 40 color photographs sized from 1.75 x 2.25 to 8 x 10 inches; 135 35mm black and white negatives; and 12 35mm black and white slides."
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.75 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(2 boxes)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                },
+                {
+                    "value": "104 black and white and 40 color photographs sized from 1.75 x 2.25 to 8 x 10 inches; 135 35mm black and white negatives; and 12 35mm black and white slides.",
+                    "id": "aspace_9397196ae48912909c568b85d4b6d18d",
+                    "label": "General Physical Description note"
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Frances Patai (1930- 1998) was an educator, writer, historian and feminist activist. The images in this collection were accrued by Patai in the course of conducting research on her unpublished book on women medical personnel who volunteered during the Spanish Civil War. The collection contains group photographs and portraits of members of the Medical Bureau and North American Committee to Aid Spanish Democracy and that organization's mobile hospital. Also included are photographs of Spanish victims of fascist bombings in Catalonia and photographic reproductions of Republican, Socialist, and anarcho-syndicalist propaganda posters.",
+                    "id": "aspace_eb5c33e5d7103b13d54a2168272b784b"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Frances Patai (1930- 1998) was an educator, writer, historian and feminist activist. The images in this collection were accrued by Patai in the course of conducting research on her unpublished book on women medical personnel who volunteered during the Spanish Civil War. The collection contains group photographs and portraits of members of the Medical Bureau and North American Committee to Aid Spanish Democracy and that organization's mobile hospital. Also included are photographs of Spanish victims of fascist bombings in Catalonia and photographic reproductions of Republican, Socialist, and anarcho-syndicalist propaganda posters.",
-                        "id": "aspace_eb5c33e5d7103b13d54a2168272b784b"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Patai, Frances"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Patai, Frances"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937/1996",
-                        "type": "inclusive",
-                        "value": "1937-1996"
-                    },
-                    {
-                        "normal": "1937/1938",
-                        "type": "bulk",
-                        "value": "1937-1938"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.PHOTO.131"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Frances Patai Photographs"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937/1996",
+                    "type": "inclusive",
+                    "value": "1937-1996"
+                },
+                {
+                    "normal": "1937/1938",
+                    "type": "bulk",
+                    "value": "1937-1938"
+                }
+            ],
+            "unitid": "ALBA.PHOTO.131",
+            "unittitle": {
+                "value": "Frances Patai Photographs"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref13",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref14",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref13",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref14",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_250143ff9b8b1b4161eb9b203fb761f3",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_40f770ff3450d01a9859d41c4cad42a8",
-                                                "parent": "aspace_250143ff9b8b1b4161eb9b203fb761f3",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1938",
-                                                "type": "inclusive",
-                                                "value": "1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "American Medical Bureau (AMB): Group Photographs (in Spain)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref15",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_250143ff9b8b1b4161eb9b203fb761f3",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_6f6e7709e7181e0fe2f1ae044215bbf6",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9016a05e131e1e299faa13d6a97424fb",
-                                                "parent": "aspace_6f6e7709e7181e0fe2f1ae044215bbf6",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1938",
-                                                "type": "inclusive",
-                                                "value": "1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "AMB: Group Photographs (outside Spain)"
-                                            }
-                                        ]
+                                        "id": "aspace_40f770ff3450d01a9859d41c4cad42a8",
+                                        "parent": "aspace_250143ff9b8b1b4161eb9b203fb761f3",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                ],
+                                "unitdate": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_91501eaab055c58447514208b469514d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_abb9f71ccd1d1328bccac3768b0c1728",
-                                                "parent": "aspace_91501eaab055c58447514208b469514d",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1996",
-                                                "type": "inclusive",
-                                                "value": "undated , 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "AMB: Nurses"
-                                            }
-                                        ]
+                                        "normal": "1937/1938",
+                                        "type": "inclusive",
+                                        "value": "1937-1938"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_6cec8a454b433da196ff6ac986c3662d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e7c47d786283b21af603088481512c49",
-                                                "parent": "aspace_6cec8a454b433da196ff6ac986c3662d",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Barsky, Edward Dr."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_05ce54ab76a3665f839f0b5c23841a3f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_827e489273af6ed11f50d341e9c3a506",
-                                                "parent": "aspace_05ce54ab76a3665f839f0b5c23841a3f",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1987/1991",
-                                                "type": "inclusive",
-                                                "value": "1987-1991"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Bell, Hilda (Roberts): Demonstrations (U.S.)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_6d6d2dae0d7500ab8263bd123969d60b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b63b813cc1ed1dfefae997019e4e18b5",
-                                                "parent": "aspace_6d6d2dae0d7500ab8263bd123969d60b",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1938",
-                                                "type": "inclusive",
-                                                "value": "1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Bombed Buildings: Grenollers, Catalonia"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_73005469f763d022afe64dd4312211b3",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6667fe626a2daa9fabf415a9113eafc5",
-                                                "parent": "aspace_73005469f763d022afe64dd4312211b3",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1938",
-                                                "type": "inclusive",
-                                                "value": "1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Casualties: Barcelona, Catalonia"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_0ae25247b79b05e2df43d0a02a3a024a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_29ea0acd99cffedff127a0e71e625330",
-                                                "parent": "aspace_0ae25247b79b05e2df43d0a02a3a024a",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1993/1993",
-                                                "type": "inclusive",
-                                                "value": "1993"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Dolores Ibárruri Foundation"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_a9997d9d3190ffbe4f42a8d3b6b9e929",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_65f817d440246321a3e07206e3fe6ee5",
-                                                "parent": "aspace_a9997d9d3190ffbe4f42a8d3b6b9e929",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1996",
-                                                "type": "inclusive",
-                                                "value": "undated , 1930s , 1947"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Fontaine, Dorothy (Mardfine)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_ba65f1871bcf1ec1357a2b6b2a5b41b5",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_76c8162d31f90316426c683d026145aa",
-                                                "parent": "aspace_ba65f1871bcf1ec1357a2b6b2a5b41b5",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Food Distributions: Spain"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_b6853280c111e6c95284932d53f060a9",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c0cd6ad49acb3ec284c40c18253077f1",
-                                                "parent": "aspace_b6853280c111e6c95284932d53f060a9",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Greenspan, Celia (Seborer)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e44454bea0557bbb316909fa420cffea",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_dd87c4dde5b764c2e608ccf62afeec67",
-                                                "parent": "aspace_e44454bea0557bbb316909fa420cffea",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Herskowitz, Hannah (\"Honey\")"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_a9629757ff3b8e68759e63c9daf93085",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_bcdddd8fdaacaf5af78b44d7843020d4",
-                                                "parent": "aspace_a9629757ff3b8e68759e63c9daf93085",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1996/1996",
-                                                "type": "inclusive",
-                                                "value": "1996"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Homenaje: Non-U.S. Nurses and Medical Personnel"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_8654abed5b75c0788d68e9d0dde6ec37",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_80768e9ad33a1f36e0a71c47b0d60f86",
-                                                "parent": "aspace_8654abed5b75c0788d68e9d0dde6ec37",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1996/1996",
-                                                "type": "inclusive",
-                                                "value": "1996"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Homenaje: \"Q\" Volunteers"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_5ed3e1a2e01c60a002710f740daa18aa",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6fb77e1073f9bb31e56fedd23dceacae",
-                                                "parent": "aspace_5ed3e1a2e01c60a002710f740daa18aa",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1996",
-                                                "type": "inclusive",
-                                                "value": "undated , 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kee, Salaria (a.k.a. Salaria Kea, later O'Reilly)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_0e5660e8929519699782e6b4e405548c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4315563b24ee4d4e67cc8e2f65c2b5d7",
-                                                "parent": "aspace_0e5660e8929519699782e6b4e405548c",
-                                                "type": "folder",
-                                                "value": "16"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1934/1937",
-                                                "type": "inclusive",
-                                                "value": "1934 , 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Leight, Clara"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_c1265a80d6f900e91f6cf3615e726d8a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1c7369fe20afac06aa7758ee22ac84f5",
-                                                "parent": "aspace_c1265a80d6f900e91f6cf3615e726d8a",
-                                                "type": "folder",
-                                                "value": "17"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1990/1990",
-                                                "type": "inclusive",
-                                                "value": "1990"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Malbin, Dorothy: Earth Day Demonstration (Berkeley, California)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_12a439a4f88e99ab6cf00d0b60fa4b4c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e539ce0ff67fac8e00cbbf70b1cc199b",
-                                                "parent": "aspace_12a439a4f88e99ab6cf00d0b60fa4b4c",
-                                                "type": "folder",
-                                                "value": "18"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1977/1989",
-                                                "type": "inclusive",
-                                                "value": "1977 , 1989"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Martin, Fredericka"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_bc70c3904572ba366b1535d0963b0b74",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c7a6c028376aa11e8ff0ff0ea3301b69",
-                                                "parent": "aspace_bc70c3904572ba366b1535d0963b0b74",
-                                                "type": "folder",
-                                                "value": "19"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1988/1989",
-                                                "type": "inclusive",
-                                                "value": "1988-1989"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Martin, Fredericka: Photographs with Frances Patai"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_af0c521ae18ec6fd46b478460598300f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_49196d449f58f2a60db16340197a4148",
-                                                "parent": "aspace_af0c521ae18ec6fd46b478460598300f",
-                                                "type": "folder",
-                                                "value": "20"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Medical Aid for Spain: Ambulance \"From the Negro People of America to the People of Republican Spain\""
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_5db03354f6bf0bf1d5c309ae66713f3c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_bd54679d24ab7ab96fec12e87225b55f",
-                                                "parent": "aspace_5db03354f6bf0bf1d5c309ae66713f3c",
-                                                "type": "folder",
-                                                "value": "21"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Medical Personnel: Working/On the Job"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref35",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_2f80227e47b464754ce34c1a2aed3b0d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6d2b2853f4f1da27f1c52e500077701f",
-                                                "parent": "aspace_2f80227e47b464754ce34c1a2aed3b0d",
-                                                "type": "folder",
-                                                "value": "22"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Militia Women"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref36",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_35c53d4918c9a413020cef9761dfc2f7",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d368714cbdd3fb511ea70120363eca5e",
-                                                "parent": "aspace_35c53d4918c9a413020cef9761dfc2f7",
-                                                "type": "folder",
-                                                "value": "23"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Mobile Hospital"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref37",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_a9c3b4659346aa89af514e78ac4d1144",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b8b17991a81be681321fec6aa3c6cfe6",
-                                                "parent": "aspace_a9c3b4659346aa89af514e78ac4d1144",
-                                                "type": "folder",
-                                                "value": "24"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Patients/Wounded Soldiers"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref38",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_09cb322a79252e16313019ec9ec796e9",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_3573a90216575cc86ddd07166dfe68e9",
-                                                "parent": "aspace_09cb322a79252e16313019ec9ec796e9",
-                                                "type": "folder",
-                                                "value": "25"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Rackley, Mildred (Simon)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref39",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_9fd78def3ff3ae751c694deb24d66050",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8d8bc62ac41eef3176b224cba64fb086",
-                                                "parent": "aspace_9fd78def3ff3ae751c694deb24d66050",
-                                                "type": "folder",
-                                                "value": "26"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Siceramen, Honey"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref40",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_75b33cd1c396ec5c86da93f5891677c3",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9e4cee3f38692f8d49ebc8d62078366c",
-                                                "parent": "aspace_75b33cd1c396ec5c86da93f5891677c3",
-                                                "type": "folder",
-                                                "value": "27"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Children"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref41",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_ae04d7a1708bee67efc2d0dc7c0094d9",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a6db9efe436d6c07548098381a118457",
-                                                "parent": "aspace_ae04d7a1708bee67efc2d0dc7c0094d9",
-                                                "type": "folder",
-                                                "value": "28"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1996",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Civil War Posters: Photographic Reproductions"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref42",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_455023c6d5b5b374d5b7b1ac4c16d1f0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c67cca86edacd177c501ed581e1f3475",
-                                                "parent": "aspace_455023c6d5b5b374d5b7b1ac4c16d1f0",
-                                                "type": "folder",
-                                                "value": "29"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Workers"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref43",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_805469e0ffe9ea65d3392c07b182823d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_f748adf13ecd306cc1127b9fea5ae6f7",
-                                                "parent": "aspace_805469e0ffe9ea65d3392c07b182823d",
-                                                "type": "folder",
-                                                "value": "30"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1947",
-                                                "type": "inclusive",
-                                                "value": "ca.1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Temple, Leonora"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref44",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767895",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_61a8be1b4f8b2640deb015e75d8a1aab",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4b84feed6bc103d82a9648dbc146f36c",
-                                                "parent": "aspace_61a8be1b4f8b2640deb015e75d8a1aab",
-                                                "type": "folder",
-                                                "value": "31"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Vanzant, Frances Dr."
-                                            }
-                                        ]
-                                    }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "American Medical Bureau (AMB): Group Photographs (in Spain)"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
+                        },
+                        {
+                            "id": "aspace_ref15",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Series I: Prints"
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_6f6e7709e7181e0fe2f1ae044215bbf6",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9016a05e131e1e299faa13d6a97424fb",
+                                        "parent": "aspace_6f6e7709e7181e0fe2f1ae044215bbf6",
+                                        "type": "folder",
+                                        "value": "2"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1938",
+                                        "type": "inclusive",
+                                        "value": "1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "AMB: Group Photographs (outside Spain)"
+                                }
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref45",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref46",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767903",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_8d8818f2f96632607cfa4f19e2c79778",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_75eb8c1cf824f85031f00a8ba37dfe79",
-                                                "parent": "aspace_8d8818f2f96632607cfa4f19e2c79778",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Matched Slides"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref47",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_91501eaab055c58447514208b469514d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767903",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_9c06d592585aee133fb0fa24efde9757",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_802c85abb08894b61968fdc8ead1fa69",
-                                                "parent": "aspace_9c06d592585aee133fb0fa24efde9757",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Unmatched Slides"
-                                            }
-                                        ]
+                                        "id": "aspace_abb9f71ccd1d1328bccac3768b0c1728",
+                                        "parent": "aspace_91501eaab055c58447514208b469514d",
+                                        "type": "folder",
+                                        "value": "3"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1996",
+                                        "type": "inclusive",
+                                        "value": "undated , 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "AMB: Nurses"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Series II: Slides"
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_6cec8a454b433da196ff6ac986c3662d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e7c47d786283b21af603088481512c49",
+                                        "parent": "aspace_6cec8a454b433da196ff6ac986c3662d",
+                                        "type": "folder",
+                                        "value": "4"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Barsky, Edward Dr."
+                                }
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref48",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref49",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767903",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_837caa5740fba8c5d4e02aa94d469e86",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_7d677d978283f906dc8076a9c9656fa0",
-                                                "parent": "aspace_837caa5740fba8c5d4e02aa94d469e86",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "AMB: Group Shots of Medical Personnel in Spain"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref50",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_05ce54ab76a3665f839f0b5c23841a3f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767903",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_669cfbbaba05fb8e4233c43c36b65f72",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_500b9adbe138eb1f9b618f89a54862f5",
-                                                "parent": "aspace_669cfbbaba05fb8e4233c43c36b65f72",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1996/1996",
-                                                "type": "inclusive",
-                                                "value": "1996"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Homeanaje"
-                                            }
-                                        ]
+                                        "id": "aspace_827e489273af6ed11f50d341e9c3a506",
+                                        "parent": "aspace_05ce54ab76a3665f839f0b5c23841a3f",
+                                        "type": "folder",
+                                        "value": "5"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref51",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                ],
+                                "unitdate": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767903",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_39e41e7f1d1c924fa3117ad6d6ccad85",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_7123895013ba0cc3efc4e66a021b8c24",
-                                                "parent": "aspace_39e41e7f1d1c924fa3117ad6d6ccad85",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kee, Salaria (a.k.a. Salaria Kea, later O'Reilly)"
-                                            }
-                                        ]
+                                        "normal": "1987/1991",
+                                        "type": "inclusive",
+                                        "value": "1987-1991"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref52",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767903",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_dee79627414618c0a8892e76a0d9ed0e",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_8a48b231916eb80b8ec618aa80a093c1",
-                                                "parent": "aspace_dee79627414618c0a8892e76a0d9ed0e",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1988/1989",
-                                                "type": "inclusive",
-                                                "value": "1988-1989"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Martin, Fredericka: With Frances Patai"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref53",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767903",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_9902e6b3341d2bb44917370904086dfd",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_b175d798cda3e526f23ea7597292b3b2",
-                                                "parent": "aspace_9902e6b3341d2bb44917370904086dfd",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Medical Personnel: Loading/Unloading Ambulance"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref54",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767903",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_9354d5a3ffffb325d699d91ef0ec9ccf",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_d4ea7ff5770a46e9fd1e5c4180b3f1f1",
-                                                "parent": "aspace_9354d5a3ffffb325d699d91ef0ec9ccf",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1989/1989",
-                                                "type": "inclusive",
-                                                "value": "1989"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Patai, Frances: Cuernavaca, Mexico"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref55",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767903",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_74fad7e9451aeca0ec0763b2c25c1908",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_25675314db8bf52d8896dcdfb58f0d34",
-                                                "parent": "aspace_74fad7e9451aeca0ec0763b2c25c1908",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930s"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Vega Mundo, Gilberto: Mixed Negatives"
-                                            }
-                                        ]
-                                    }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Bell, Hilda (Roberts): Demonstrations (U.S.)"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Series III: Negatives"
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_6d6d2dae0d7500ab8263bd123969d60b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b63b813cc1ed1dfefae997019e4e18b5",
+                                        "parent": "aspace_6d6d2dae0d7500ab8263bd123969d60b",
+                                        "type": "folder",
+                                        "value": "6"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1938",
+                                        "type": "inclusive",
+                                        "value": "1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Bombed Buildings: Grenollers, Catalonia"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_73005469f763d022afe64dd4312211b3",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6667fe626a2daa9fabf415a9113eafc5",
+                                        "parent": "aspace_73005469f763d022afe64dd4312211b3",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1938",
+                                        "type": "inclusive",
+                                        "value": "1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Casualties: Barcelona, Catalonia"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_0ae25247b79b05e2df43d0a02a3a024a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_29ea0acd99cffedff127a0e71e625330",
+                                        "parent": "aspace_0ae25247b79b05e2df43d0a02a3a024a",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1993/1993",
+                                        "type": "inclusive",
+                                        "value": "1993"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Dolores Ibárruri Foundation"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_a9997d9d3190ffbe4f42a8d3b6b9e929",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_65f817d440246321a3e07206e3fe6ee5",
+                                        "parent": "aspace_a9997d9d3190ffbe4f42a8d3b6b9e929",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1996",
+                                        "type": "inclusive",
+                                        "value": "undated , 1930s , 1947"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Fontaine, Dorothy (Mardfine)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_ba65f1871bcf1ec1357a2b6b2a5b41b5",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_76c8162d31f90316426c683d026145aa",
+                                        "parent": "aspace_ba65f1871bcf1ec1357a2b6b2a5b41b5",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Food Distributions: Spain"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_b6853280c111e6c95284932d53f060a9",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c0cd6ad49acb3ec284c40c18253077f1",
+                                        "parent": "aspace_b6853280c111e6c95284932d53f060a9",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Greenspan, Celia (Seborer)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e44454bea0557bbb316909fa420cffea",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_dd87c4dde5b764c2e608ccf62afeec67",
+                                        "parent": "aspace_e44454bea0557bbb316909fa420cffea",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Herskowitz, Hannah (\"Honey\")"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_a9629757ff3b8e68759e63c9daf93085",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_bcdddd8fdaacaf5af78b44d7843020d4",
+                                        "parent": "aspace_a9629757ff3b8e68759e63c9daf93085",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1996/1996",
+                                        "type": "inclusive",
+                                        "value": "1996"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Homenaje: Non-U.S. Nurses and Medical Personnel"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_8654abed5b75c0788d68e9d0dde6ec37",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_80768e9ad33a1f36e0a71c47b0d60f86",
+                                        "parent": "aspace_8654abed5b75c0788d68e9d0dde6ec37",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1996/1996",
+                                        "type": "inclusive",
+                                        "value": "1996"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Homenaje: \"Q\" Volunteers"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_5ed3e1a2e01c60a002710f740daa18aa",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6fb77e1073f9bb31e56fedd23dceacae",
+                                        "parent": "aspace_5ed3e1a2e01c60a002710f740daa18aa",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1996",
+                                        "type": "inclusive",
+                                        "value": "undated , 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kee, Salaria (a.k.a. Salaria Kea, later O'Reilly)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_0e5660e8929519699782e6b4e405548c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4315563b24ee4d4e67cc8e2f65c2b5d7",
+                                        "parent": "aspace_0e5660e8929519699782e6b4e405548c",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1934/1937",
+                                        "type": "inclusive",
+                                        "value": "1934 , 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Leight, Clara"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_c1265a80d6f900e91f6cf3615e726d8a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_1c7369fe20afac06aa7758ee22ac84f5",
+                                        "parent": "aspace_c1265a80d6f900e91f6cf3615e726d8a",
+                                        "type": "folder",
+                                        "value": "17"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1990/1990",
+                                        "type": "inclusive",
+                                        "value": "1990"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Malbin, Dorothy: Earth Day Demonstration (Berkeley, California)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_12a439a4f88e99ab6cf00d0b60fa4b4c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e539ce0ff67fac8e00cbbf70b1cc199b",
+                                        "parent": "aspace_12a439a4f88e99ab6cf00d0b60fa4b4c",
+                                        "type": "folder",
+                                        "value": "18"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1977/1989",
+                                        "type": "inclusive",
+                                        "value": "1977 , 1989"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Martin, Fredericka"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_bc70c3904572ba366b1535d0963b0b74",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c7a6c028376aa11e8ff0ff0ea3301b69",
+                                        "parent": "aspace_bc70c3904572ba366b1535d0963b0b74",
+                                        "type": "folder",
+                                        "value": "19"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1988/1989",
+                                        "type": "inclusive",
+                                        "value": "1988-1989"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Martin, Fredericka: Photographs with Frances Patai"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_af0c521ae18ec6fd46b478460598300f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_49196d449f58f2a60db16340197a4148",
+                                        "parent": "aspace_af0c521ae18ec6fd46b478460598300f",
+                                        "type": "folder",
+                                        "value": "20"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Medical Aid for Spain: Ambulance \"From the Negro People of America to the People of Republican Spain\""
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_5db03354f6bf0bf1d5c309ae66713f3c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_bd54679d24ab7ab96fec12e87225b55f",
+                                        "parent": "aspace_5db03354f6bf0bf1d5c309ae66713f3c",
+                                        "type": "folder",
+                                        "value": "21"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Medical Personnel: Working/On the Job"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref35",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_2f80227e47b464754ce34c1a2aed3b0d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6d2b2853f4f1da27f1c52e500077701f",
+                                        "parent": "aspace_2f80227e47b464754ce34c1a2aed3b0d",
+                                        "type": "folder",
+                                        "value": "22"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Militia Women"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref36",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_35c53d4918c9a413020cef9761dfc2f7",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d368714cbdd3fb511ea70120363eca5e",
+                                        "parent": "aspace_35c53d4918c9a413020cef9761dfc2f7",
+                                        "type": "folder",
+                                        "value": "23"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Mobile Hospital"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref37",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_a9c3b4659346aa89af514e78ac4d1144",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b8b17991a81be681321fec6aa3c6cfe6",
+                                        "parent": "aspace_a9c3b4659346aa89af514e78ac4d1144",
+                                        "type": "folder",
+                                        "value": "24"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Patients/Wounded Soldiers"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref38",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_09cb322a79252e16313019ec9ec796e9",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_3573a90216575cc86ddd07166dfe68e9",
+                                        "parent": "aspace_09cb322a79252e16313019ec9ec796e9",
+                                        "type": "folder",
+                                        "value": "25"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Rackley, Mildred (Simon)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref39",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_9fd78def3ff3ae751c694deb24d66050",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8d8bc62ac41eef3176b224cba64fb086",
+                                        "parent": "aspace_9fd78def3ff3ae751c694deb24d66050",
+                                        "type": "folder",
+                                        "value": "26"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Siceramen, Honey"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref40",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_75b33cd1c396ec5c86da93f5891677c3",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9e4cee3f38692f8d49ebc8d62078366c",
+                                        "parent": "aspace_75b33cd1c396ec5c86da93f5891677c3",
+                                        "type": "folder",
+                                        "value": "27"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Children"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref41",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_ae04d7a1708bee67efc2d0dc7c0094d9",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a6db9efe436d6c07548098381a118457",
+                                        "parent": "aspace_ae04d7a1708bee67efc2d0dc7c0094d9",
+                                        "type": "folder",
+                                        "value": "28"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1996",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Civil War Posters: Photographic Reproductions"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref42",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_455023c6d5b5b374d5b7b1ac4c16d1f0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c67cca86edacd177c501ed581e1f3475",
+                                        "parent": "aspace_455023c6d5b5b374d5b7b1ac4c16d1f0",
+                                        "type": "folder",
+                                        "value": "29"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Workers"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref43",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_805469e0ffe9ea65d3392c07b182823d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_f748adf13ecd306cc1127b9fea5ae6f7",
+                                        "parent": "aspace_805469e0ffe9ea65d3392c07b182823d",
+                                        "type": "folder",
+                                        "value": "30"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1947",
+                                        "type": "inclusive",
+                                        "value": "ca.1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Temple, Leonora"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref44",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767895",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_61a8be1b4f8b2640deb015e75d8a1aab",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4b84feed6bc103d82a9648dbc146f36c",
+                                        "parent": "aspace_61a8be1b4f8b2640deb015e75d8a1aab",
+                                        "type": "folder",
+                                        "value": "31"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Vanzant, Frances Dr."
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series I: Prints"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref45",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref46",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767903",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_8d8818f2f96632607cfa4f19e2c79778",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_75eb8c1cf824f85031f00a8ba37dfe79",
+                                        "parent": "aspace_8d8818f2f96632607cfa4f19e2c79778",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Matched Slides"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref47",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767903",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_9c06d592585aee133fb0fa24efde9757",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_802c85abb08894b61968fdc8ead1fa69",
+                                        "parent": "aspace_9c06d592585aee133fb0fa24efde9757",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Unmatched Slides"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series II: Slides"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref48",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref49",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767903",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_837caa5740fba8c5d4e02aa94d469e86",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_7d677d978283f906dc8076a9c9656fa0",
+                                        "parent": "aspace_837caa5740fba8c5d4e02aa94d469e86",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "AMB: Group Shots of Medical Personnel in Spain"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref50",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767903",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_669cfbbaba05fb8e4233c43c36b65f72",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_500b9adbe138eb1f9b618f89a54862f5",
+                                        "parent": "aspace_669cfbbaba05fb8e4233c43c36b65f72",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1996/1996",
+                                        "type": "inclusive",
+                                        "value": "1996"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Homeanaje"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref51",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767903",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_39e41e7f1d1c924fa3117ad6d6ccad85",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_7123895013ba0cc3efc4e66a021b8c24",
+                                        "parent": "aspace_39e41e7f1d1c924fa3117ad6d6ccad85",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kee, Salaria (a.k.a. Salaria Kea, later O'Reilly)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref52",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767903",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_dee79627414618c0a8892e76a0d9ed0e",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_8a48b231916eb80b8ec618aa80a093c1",
+                                        "parent": "aspace_dee79627414618c0a8892e76a0d9ed0e",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1988/1989",
+                                        "type": "inclusive",
+                                        "value": "1988-1989"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Martin, Fredericka: With Frances Patai"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref53",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767903",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_9902e6b3341d2bb44917370904086dfd",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_b175d798cda3e526f23ea7597292b3b2",
+                                        "parent": "aspace_9902e6b3341d2bb44917370904086dfd",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Medical Personnel: Loading/Unloading Ambulance"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref54",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767903",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_9354d5a3ffffb325d699d91ef0ec9ccf",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_d4ea7ff5770a46e9fd1e5c4180b3f1f1",
+                                        "parent": "aspace_9354d5a3ffffb325d699d91ef0ec9ccf",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1989/1989",
+                                        "type": "inclusive",
+                                        "value": "1989"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Patai, Frances: Cuernavaca, Mexico"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref55",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767903",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_74fad7e9451aeca0ec0763b2c25c1908",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_25675314db8bf52d8896dcdfb58f0d34",
+                                        "parent": "aspace_74fad7e9451aeca0ec0763b2c25c1908",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930s"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Vega Mundo, Gilberto: Mixed Negatives"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series III: Negatives"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_733ce279df969f2309916002fd5c0a5c",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -1750,11 +1615,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_516e64a0b14a47e5adb44f99c4852ab3",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "The Frances Patai Papers, ALBA 131"
@@ -1765,11 +1628,9 @@
         "scopecontent": [
             {
                 "id": "aspace_02c37232ed40c7279e18926f69d6a27e",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The Frances Patai Photograph Collection includes 104 black and white and 40 color photographs sized from 1.75 x 2.25 to 8 x 10 inches; 135 35mm black and white negatives; and 12 35mm black and white slides. The slides and negatives are stored separately from the prints, in Box 2."
@@ -1801,11 +1662,9 @@
         "userestrict": [
             {
                 "id": "aspace_56d987488c0f552d6e615b0b7f3adc3e",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Abraham Lincoln Brigade Archives (ALBA), were transferred to New York University in November 2000 by the ALBA Board of Governors. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -1814,93 +1673,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_photo_131"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_photo_131"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "Patai Photo Collection - redraft.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003ePatai Photo Collection - redraft.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Evan Daniel, 2003"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Frances Patai Photograph Collection \u003cspan class=\"ead-num\"\u003eALBA.PHOTO.131\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Evan Daniel, 2003",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Frances Patai Photograph Collection \u003cspan class=\"ead-num\"\u003eALBA.PHOTO.131\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.PHOTO.131"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:36:57 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:36:57 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

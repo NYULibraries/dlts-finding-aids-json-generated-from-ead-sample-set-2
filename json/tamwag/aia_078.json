@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_6f4eb1e306658f7999049d17b7d68c74",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Open for research without restrictions."
@@ -19,11 +17,9 @@
         "appraisal": [
             {
                 "id": "aspace_fed7496988573141de594501297d14e5",
-                "head": [
-                    {
-                        "value": "Appraisal"
-                    }
-                ],
+                "head": {
+                    "value": "Appraisal"
+                },
                 "p": [
                     {
                         "value": "Extensive duplicates and some widely available publications present in the donation were discarded."
@@ -34,11 +30,9 @@
         "arrangement": [
             {
                 "id": "aspace_831ad0f9feaccf0ddf218a3c15dc8841",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "Files are arranged alphabetically."
@@ -49,11 +43,9 @@
         "bioghist": [
             {
                 "id": "aspace_e2c64892117b666a049d20b983de6246",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "The Tara Association was founded in Milltown, New Jersey 1971 by Pat Flynn, Maura Geraghty, Peggy Cuddy-Bojitas, and Phyllis Powell. The organization has grown from an original group of 25 to over 200 members. The Tara Association is dedicated to the preservation of Irish heritage, including the arts, poetry, literature, drama, folklore, and the Irish language. The name is based on the Hill of Tara, the ritual site of ancient high kings in Ireland. In June 2014, the Tara Association ceased activities."
@@ -61,24 +53,32 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "subject": [
-                    "Irish language |z United States",
-                    "Irish Americans -- Societies, etc.",
-                    "Irish Americans -- Music.",
-                    "Irish Americans -- Ethnic identity."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Irish language |z United States"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Irish Americans -- Societies, etc."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Irish Americans -- Music."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Irish Americans -- Ethnic identity."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_0375ca8b6d2a450c2ab48d27ed9bf68e",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "This collection was donated by Phyllis Powell on behalf of the Tara Association through Miriam Nyhan at NYU's Glucksman Ireland House in November 2014. The materials were transferred from Ireland House to the Archives of Irish America in May of 2015. The accession number associated with this gift is 2015.026."
@@ -86,786 +86,694 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 1 record carton",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The Tara Association was founded in Milltown, New Jersey 1971 by Pat Flynn, Maura Geraghty, Peggy Cuddy-Bojitas, and Phyllis Powell. The Tara Association is dedicated to the preservation of Irish heritage, including the arts, poetry, literature, drama, folklore, and the Irish language. In June 2014, the Tara Association ceased activities. This collection contains flyers, meeting minutes, membership logs, and research material produced or collected by the Tara Association documenting its activities and objectives to preserve Irish heritage and arts.",
+                    "id": "aspace_939e703bc1987239634e811e7e18088c"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English and Irish.",
+                    "id": "aspace_cc628d45c7260493058e3539e9cb4d3d"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "corpname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Tara Association"
+                    }
+                }
+            ],
+            "physloc": [
+                {
+                    "id": "aspace_111854ac17e9e8e67c8e4a039f5ccf39",
+                    "value": "Materials stored offsite and advance notice is required for use. Please contact tamiment.wagner@nyu.edu at least two business days prior to research visit."
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1971/2014",
+                    "type": "inclusive",
+                    "value": "1971-2014"
+                }
+            ],
+            "unitid": "AIA.078",
+            "unittitle": {
+                "value": "Tara Association (New Jersey) Records"
+            }
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref14",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "1 Linear Feet"
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_3adb923265a26fbfa1ce304eab936276",
+                                "type": "box",
+                                "value": "1"
                             },
                             {
-                                "value": "in 1 record carton"
+                                "id": "aspace_1b35bb51d46acc8f7755d4b75671c802",
+                                "parent": "aspace_3adb923265a26fbfa1ce304eab936276",
+                                "type": "folder",
+                                "value": "1"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1972/2014",
+                                "type": "inclusive",
+                                "value": "1972-2014"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Artwork for Flyers and Publications"
+                        }
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "The Tara Association was founded in Milltown, New Jersey 1971 by Pat Flynn, Maura Geraghty, Peggy Cuddy-Bojitas, and Phyllis Powell. The Tara Association is dedicated to the preservation of Irish heritage, including the arts, poetry, literature, drama, folklore, and the Irish language. In June 2014, the Tara Association ceased activities. This collection contains flyers, meeting minutes, membership logs, and research material produced or collected by the Tara Association documenting its activities and objectives to preserve Irish heritage and arts.",
-                        "id": "aspace_939e703bc1987239634e811e7e18088c"
+                },
+                {
+                    "id": "aspace_ref15",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_6dd612dafa6664b43d1361c3a5cdfef2",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_f655e0e4905f98d41df470646691db87",
+                                "parent": "aspace_6dd612dafa6664b43d1361c3a5cdfef2",
+                                "type": "folder",
+                                "value": "2"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1972/2014",
+                                "type": "inclusive",
+                                "value": "1972-2014"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Certificates of Appreciation"
+                        }
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_cc628d45c7260493058e3539e9cb4d3d",
-                        "value": "Materials are in English and Irish."
+                },
+                {
+                    "id": "aspace_ref16",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_6e73de511126c11baca6492b19aa182d",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_dc317790782b70541dac3613993c75b0",
+                                "parent": "aspace_6e73de511126c11baca6492b19aa182d",
+                                "type": "folder",
+                                "value": "3"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1995/1995",
+                                "type": "inclusive",
+                                "value": "1995"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Comhaltas Ceoltoiri Eireann"
+                        }
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "corpname": [
+                },
+                {
+                    "id": "aspace_ref17",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "Tara Association"
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_23ded9185a1ffa1a54bc8c9204c2588b",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_0ab85dbef981b7496f4c45e2e833975f",
+                                "parent": "aspace_23ded9185a1ffa1a54bc8c9204c2588b",
+                                "type": "folder",
+                                "value": "4"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1983/1983",
+                                "type": "inclusive",
+                                "value": "1983"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Constitution and Founding Documents"
+                        }
                     }
-                ],
-                "physloc": [
-                    {
-                        "id": "aspace_111854ac17e9e8e67c8e4a039f5ccf39",
-                        "value": "Materials stored offsite and advance notice is required for use. Please contact tamiment.wagner@nyu.edu at least two business days prior to research visit."
+                },
+                {
+                    "id": "aspace_ref18",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_2c8039a19f8f822fc32f45bf45049cdf",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_647b9337d744563420bcacbab2ecf256",
+                                "parent": "aspace_2c8039a19f8f822fc32f45bf45049cdf",
+                                "type": "folder",
+                                "value": "5"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1990/1991",
+                                "type": "inclusive",
+                                "value": "1990-1991"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Correspondence"
+                        }
                     }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
+                },
+                {
+                    "id": "aspace_ref19",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_739f29caf1fd13c21acadda67a606147",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_02e6560acbc2beb2e229b059e15dc515",
+                                "parent": "aspace_739f29caf1fd13c21acadda67a606147",
+                                "type": "folder",
+                                "value": "6"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1971/2014",
+                                "type": "inclusive",
+                                "value": "1971-2014"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Dance"
+                        }
                     }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1971/2014",
-                        "type": "inclusive",
-                        "value": "1971-2014"
+                },
+                {
+                    "id": "aspace_ref20",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_6533009f78f155bc225c9c19417fdf03",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_0f0f28048c08f205a6d94c353690a1a5",
+                                "parent": "aspace_6533009f78f155bc225c9c19417fdf03",
+                                "type": "folder",
+                                "value": "7"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1981/1993",
+                                "type": "inclusive",
+                                "value": "1981-1993"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Dinner Dance Programs"
+                        }
                     }
-                ],
-                "unitid": [
-                    {
-                        "value": "AIA.078"
+                },
+                {
+                    "id": "aspace_ref21",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_5ba111ec212b3c1edc13f05548fada86",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_a7e9ca7229cccd58e6d8e02c5262f51c",
+                                "parent": "aspace_5ba111ec212b3c1edc13f05548fada86",
+                                "type": "folder",
+                                "value": "8"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1977/2014",
+                                "type": "inclusive",
+                                "value": "1977-2014"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Events for Area or Affiliated Organizations"
+                        }
                     }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Tara Association (New Jersey) Records"
+                },
+                {
+                    "id": "aspace_ref22",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_6c9b97140879a90227a9e943ea5f0238",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_8c66afc4ca82d59fed00ebbd5ac90ffa",
+                                "parent": "aspace_6c9b97140879a90227a9e943ea5f0238",
+                                "type": "folder",
+                                "value": "9"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1990/2011",
+                                "type": "inclusive",
+                                "value": "1990-2011"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Financial Records"
+                        }
                     }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref14",
-                        "level": "file",
-                        "did": [
+                },
+                {
+                    "id": "aspace_ref23",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_3adb923265a26fbfa1ce304eab936276",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_1b35bb51d46acc8f7755d4b75671c802",
-                                        "parent": "aspace_3adb923265a26fbfa1ce304eab936276",
-                                        "type": "folder",
-                                        "value": "1"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1972/2014",
-                                        "type": "inclusive",
-                                        "value": "1972-2014"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Artwork for Flyers and Publications"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref15",
-                        "level": "file",
-                        "did": [
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_6155aeae86d91d042a061fd4982f8818",
+                                "type": "box",
+                                "value": "1"
+                            },
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_6dd612dafa6664b43d1361c3a5cdfef2",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_f655e0e4905f98d41df470646691db87",
-                                        "parent": "aspace_6dd612dafa6664b43d1361c3a5cdfef2",
-                                        "type": "folder",
-                                        "value": "2"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1972/2014",
-                                        "type": "inclusive",
-                                        "value": "1972-2014"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Certificates of Appreciation"
-                                    }
-                                ]
+                                "id": "aspace_e3c8f38a0c697ca6fd87550f1e6bbd04",
+                                "parent": "aspace_6155aeae86d91d042a061fd4982f8818",
+                                "type": "folder",
+                                "value": "10"
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref16",
-                        "level": "file",
-                        "did": [
+                        ],
+                        "unitdate": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_6e73de511126c11baca6492b19aa182d",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_dc317790782b70541dac3613993c75b0",
-                                        "parent": "aspace_6e73de511126c11baca6492b19aa182d",
-                                        "type": "folder",
-                                        "value": "3"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1995/1995",
-                                        "type": "inclusive",
-                                        "value": "1995"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Comhaltas Ceoltoiri Eireann"
-                                    }
-                                ]
+                                "value": "undated"
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref17",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_23ded9185a1ffa1a54bc8c9204c2588b",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_0ab85dbef981b7496f4c45e2e833975f",
-                                        "parent": "aspace_23ded9185a1ffa1a54bc8c9204c2588b",
-                                        "type": "folder",
-                                        "value": "4"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1983/1983",
-                                        "type": "inclusive",
-                                        "value": "1983"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Constitution and Founding Documents"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref18",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_2c8039a19f8f822fc32f45bf45049cdf",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_647b9337d744563420bcacbab2ecf256",
-                                        "parent": "aspace_2c8039a19f8f822fc32f45bf45049cdf",
-                                        "type": "folder",
-                                        "value": "5"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1990/1991",
-                                        "type": "inclusive",
-                                        "value": "1990-1991"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Correspondence"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref19",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_739f29caf1fd13c21acadda67a606147",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_02e6560acbc2beb2e229b059e15dc515",
-                                        "parent": "aspace_739f29caf1fd13c21acadda67a606147",
-                                        "type": "folder",
-                                        "value": "6"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1971/2014",
-                                        "type": "inclusive",
-                                        "value": "1971-2014"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Dance"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref20",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_6533009f78f155bc225c9c19417fdf03",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_0f0f28048c08f205a6d94c353690a1a5",
-                                        "parent": "aspace_6533009f78f155bc225c9c19417fdf03",
-                                        "type": "folder",
-                                        "value": "7"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1981/1993",
-                                        "type": "inclusive",
-                                        "value": "1981-1993"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Dinner Dance Programs"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref21",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_5ba111ec212b3c1edc13f05548fada86",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_a7e9ca7229cccd58e6d8e02c5262f51c",
-                                        "parent": "aspace_5ba111ec212b3c1edc13f05548fada86",
-                                        "type": "folder",
-                                        "value": "8"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1977/2014",
-                                        "type": "inclusive",
-                                        "value": "1977-2014"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Events for Area or Affiliated Organizations"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref22",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_6c9b97140879a90227a9e943ea5f0238",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_8c66afc4ca82d59fed00ebbd5ac90ffa",
-                                        "parent": "aspace_6c9b97140879a90227a9e943ea5f0238",
-                                        "type": "folder",
-                                        "value": "9"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1990/2011",
-                                        "type": "inclusive",
-                                        "value": "1990-2011"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Financial Records"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref23",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_6155aeae86d91d042a061fd4982f8818",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_e3c8f38a0c697ca6fd87550f1e6bbd04",
-                                        "parent": "aspace_6155aeae86d91d042a061fd4982f8818",
-                                        "type": "folder",
-                                        "value": "10"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "undated"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Genealogical Research"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref24",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_9590f501f45ddebb282e6241bd470682",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_b5fee11975e506bb277e87a330fda40f",
-                                        "parent": "aspace_9590f501f45ddebb282e6241bd470682",
-                                        "type": "folder",
-                                        "value": "11"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1984/1995",
-                                        "type": "inclusive",
-                                        "value": "1984-1995"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Irish Language Mass"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref25",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_560ee39bd2b5b132068a55c7370a1f47",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_1c49e0aac84978c5a162c3230160cc10",
-                                        "parent": "aspace_560ee39bd2b5b132068a55c7370a1f47",
-                                        "type": "folder",
-                                        "value": "12"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1972/1978",
-                                        "type": "inclusive",
-                                        "value": "1972-1978"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Meeting Minutes"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref26",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_74a4915971754c4d8d6668554610734b",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_5f8309d44701654b3de7e3a07b20ce5f",
-                                        "parent": "aspace_74a4915971754c4d8d6668554610734b",
-                                        "type": "folder",
-                                        "value": "13"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1994/2014",
-                                        "type": "inclusive",
-                                        "value": "1994-2014"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Meeting Minutes"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref27",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_15e6b065371848812801f11637d51f89",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_bc41a260119ac5cd96454fa8d3deb6c4",
-                                        "parent": "aspace_15e6b065371848812801f11637d51f89",
-                                        "type": "folder",
-                                        "value": "14"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1972/2014",
-                                        "type": "inclusive",
-                                        "value": "1972-2014"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Membership Applications"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref28",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_9db5ad4525d77ac8dc491c598eaaba0a",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_f994c713c562dc1fb2f053d670542978",
-                                        "parent": "aspace_9db5ad4525d77ac8dc491c598eaaba0a",
-                                        "type": "folder",
-                                        "value": "15"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1971/2014",
-                                        "type": "inclusive",
-                                        "value": "1971-2014"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Membership Log"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref29",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_8709f0172471a14e6a1f94767991ccaf",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_f27a46cde17faa4636f7a07eca377df3",
-                                        "parent": "aspace_8709f0172471a14e6a1f94767991ccaf",
-                                        "type": "folder",
-                                        "value": "16-19"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1974/2014",
-                                        "type": "inclusive",
-                                        "value": "1974-2014"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Newsletters"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref30",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_5e1e01ddde175034f49ec672bf805647",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_cf6e6a77b8e8b80265574a112bbe2065",
-                                        "parent": "aspace_5e1e01ddde175034f49ec672bf805647",
-                                        "type": "folder",
-                                        "value": "20"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1971/2014",
-                                        "type": "inclusive",
-                                        "value": "1971-2014"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Photographs"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref31",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_020014398cb44c7e7f407de7dfcb5569",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_724e3722b69032d52c721ad26c35e773",
-                                        "parent": "aspace_020014398cb44c7e7f407de7dfcb5569",
-                                        "type": "folder",
-                                        "value": "21"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1996/1996",
-                                        "type": "inclusive",
-                                        "value": "1996"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Phyllis Powell Farewell"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref32",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_7de306667e70f6aa706fcb76f2d1bce5",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_cf0f0106f60e3a3b7d19e3d6c0fea713",
-                                        "parent": "aspace_7de306667e70f6aa706fcb76f2d1bce5",
-                                        "type": "folder",
-                                        "value": "22"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "undated"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Recipes"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref33",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611788",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_6d86864396769139e63599b317f3ee65",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_56452c9693c4645120d89fb855fd4c6c",
-                                        "parent": "aspace_6d86864396769139e63599b317f3ee65",
-                                        "type": "folder",
-                                        "value": "23"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1971/2014",
-                                        "type": "inclusive",
-                                        "value": "1971-2014"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Songs and Poetry"
-                                    }
-                                ]
-                            }
-                        ]
+                        ],
+                        "unittitle": {
+                            "value": "Genealogical Research"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref24",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_9590f501f45ddebb282e6241bd470682",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_b5fee11975e506bb277e87a330fda40f",
+                                "parent": "aspace_9590f501f45ddebb282e6241bd470682",
+                                "type": "folder",
+                                "value": "11"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1984/1995",
+                                "type": "inclusive",
+                                "value": "1984-1995"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Irish Language Mass"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref25",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_560ee39bd2b5b132068a55c7370a1f47",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_1c49e0aac84978c5a162c3230160cc10",
+                                "parent": "aspace_560ee39bd2b5b132068a55c7370a1f47",
+                                "type": "folder",
+                                "value": "12"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1972/1978",
+                                "type": "inclusive",
+                                "value": "1972-1978"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Meeting Minutes"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref26",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_74a4915971754c4d8d6668554610734b",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_5f8309d44701654b3de7e3a07b20ce5f",
+                                "parent": "aspace_74a4915971754c4d8d6668554610734b",
+                                "type": "folder",
+                                "value": "13"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1994/2014",
+                                "type": "inclusive",
+                                "value": "1994-2014"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Meeting Minutes"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref27",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_15e6b065371848812801f11637d51f89",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_bc41a260119ac5cd96454fa8d3deb6c4",
+                                "parent": "aspace_15e6b065371848812801f11637d51f89",
+                                "type": "folder",
+                                "value": "14"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1972/2014",
+                                "type": "inclusive",
+                                "value": "1972-2014"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Membership Applications"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref28",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_9db5ad4525d77ac8dc491c598eaaba0a",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_f994c713c562dc1fb2f053d670542978",
+                                "parent": "aspace_9db5ad4525d77ac8dc491c598eaaba0a",
+                                "type": "folder",
+                                "value": "15"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1971/2014",
+                                "type": "inclusive",
+                                "value": "1971-2014"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Membership Log"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref29",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_8709f0172471a14e6a1f94767991ccaf",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_f27a46cde17faa4636f7a07eca377df3",
+                                "parent": "aspace_8709f0172471a14e6a1f94767991ccaf",
+                                "type": "folder",
+                                "value": "16-19"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1974/2014",
+                                "type": "inclusive",
+                                "value": "1974-2014"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Newsletters"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref30",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_5e1e01ddde175034f49ec672bf805647",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_cf6e6a77b8e8b80265574a112bbe2065",
+                                "parent": "aspace_5e1e01ddde175034f49ec672bf805647",
+                                "type": "folder",
+                                "value": "20"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1971/2014",
+                                "type": "inclusive",
+                                "value": "1971-2014"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Photographs"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref31",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_020014398cb44c7e7f407de7dfcb5569",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_724e3722b69032d52c721ad26c35e773",
+                                "parent": "aspace_020014398cb44c7e7f407de7dfcb5569",
+                                "type": "folder",
+                                "value": "21"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1996/1996",
+                                "type": "inclusive",
+                                "value": "1996"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Phyllis Powell Farewell"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref32",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_7de306667e70f6aa706fcb76f2d1bce5",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_cf0f0106f60e3a3b7d19e3d6c0fea713",
+                                "parent": "aspace_7de306667e70f6aa706fcb76f2d1bce5",
+                                "type": "folder",
+                                "value": "22"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "undated"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Recipes"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref33",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611788",
+                                "label": "Mixed Materials",
+                                "id": "aspace_6d86864396769139e63599b317f3ee65",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_56452c9693c4645120d89fb855fd4c6c",
+                                "parent": "aspace_6d86864396769139e63599b317f3ee65",
+                                "type": "folder",
+                                "value": "23"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1971/2014",
+                                "type": "inclusive",
+                                "value": "1971-2014"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Songs and Poetry"
+                        }
+                    }
+                }
+            ]
+        },
         "processinfo": [
             {
                 "id": "aspace_d8c5fceaa3254fdccd93b14ad4b17058",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "Materials were received unarranged and undescribed in a bankers boxes, with some materials loose and others in  manila folders. Some folders contained descriptive information. The collection was rehoused in acid-free folders and boxes, described, and arranged by an archivist due the absence of any original order. Groupings of like materials (i.e. flyers, newspapers) were kept together when they were present."
@@ -876,11 +784,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_9ed8b6b1d03c826acb3018a23913172e",
-                "head": [
-                    {
-                        "value": "Related Archival Materials"
-                    }
-                ],
+                "head": {
+                    "value": "Related Archival Materials"
+                },
                 "p": [
                     {
                         "value": "Gaelic Society Records (AIA 025)"
@@ -891,11 +797,9 @@
         "scopecontent": [
             {
                 "id": "aspace_095a5e2b8b734dc6bc536cf3067c63b3",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "This collection contains flyers, meeting minutes, membership logs, and research material produced or collected by the Tara Association documenting its activities and objectives to preserve Irish heritage and arts."
@@ -906,11 +810,9 @@
         "userestrict": [
             {
                 "id": "aspace_4e9c8f37385d5928cbbdec7f0c6e9850",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Tara Association, the creator of this collection, were transferred to New York University in 2014. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library."
@@ -919,92 +821,78 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/aia_078",
-                    "value": "aia_078"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/aia_078",
+            "value": "aia_078"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e5/7/2015\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Rachel Searcy"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Tara Association (New Jersey) Records \u003cspan class=\"ead-num\"\u003eAIA.078\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:34:04 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Finding aid is in English"
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e5/7/2015\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "5/7/2015"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Rachel Searcy",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Tara Association (New Jersey) Records \u003cspan class=\"ead-num\"\u003eAIA.078\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "AIA.078"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:34:04 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

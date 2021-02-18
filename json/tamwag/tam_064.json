@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_6c3230b143cc9de956a0e9e857b63f3d",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_61027e1d6d307f0e0262bbabbfa9a49c",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Transferred from the Rand School Archives, 1962. The accession number associated with this collection is 1962.012."
@@ -34,9 +30,20 @@
         "arrangement": [
             {
                 "id": "aspace_258a171484d4818fc434cfe49fceb8de",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "Inventory"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -52,11 +59,9 @@
         "bioghist": [
             {
                 "id": "aspace_55803c492ac4ab1029a09294db2a5f7a",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "The Progressive Librarians Council (1939-1944) was a professional association that followed the political leadership of the Communist Party."
@@ -64,561 +69,525 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "American Library Association"
-                    },
-                    {
-                        "value": "British Columbia Library Association"
-                    },
-                    {
-                        "value": "P.L.C. bulletin."
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "American Library Association"
+                },
+                {
+                    "source": "local",
+                    "value": "British Columbia Library Association"
+                },
+                {
+                    "source": "ingest",
+                    "value": "P.L.C. bulletin."
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain |x History |y Civil War, 1936-1939 |x Refugees |z Mexico."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Castagna, Edwin, 1909-"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Norton, Theodore E."
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Schuman, Bertha"
+                },
+                {
+                    "source": "naf",
+                    "value": "Serís, Homero, 1879-1969"
+                },
+                {
+                    "source": "local",
+                    "value": "Viceris, Juan"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Library science |Z United States |X Societies, etc."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Progressivism (United States politics)."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Libraries and communism -- United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Libraries |z Spain."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The Progressive Librarians Council (1939-1944) was a Communist-led professional association. The collection contains correspondence and a few other items.",
+                    "id": "aspace_41862a0182bcf5358134378a714ec595"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "genreform": [
-                    "Correspondence."
-                ],
-                "geogname": [
-                    "Spain |x History |y Civil War, 1936-1939 |x Refugees |z Mexico."
-                ],
-                "persname": [
-                    {
-                        "value": "Castagna, Edwin, 1909-"
-                    },
-                    {
-                        "value": "Norton, Theodore E."
-                    },
-                    {
-                        "value": "Schuman, Bertha"
-                    },
-                    {
-                        "value": "Serís, Homero, 1879-1969"
-                    },
-                    {
-                        "value": "Viceris, Juan"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "corpname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Progressive Librarians Council"
                     }
-                ],
-                "subject": [
-                    "Library science |Z United States |X Societies, etc.",
-                    "Progressivism (United States politics).",
-                    "Libraries and communism -- United States.",
-                    "Libraries |z Spain."
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1930/1944",
+                    "type": "inclusive",
+                    "value": "1930-1944"
+                },
+                {
+                    "normal": "1939/1944",
+                    "type": "bulk",
+                    "value": "1939-1944"
+                }
+            ],
+            "unitid": "TAM.064",
+            "unittitle": {
+                "value": "Progressive Librarians Council Correspondence"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.5 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref13",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref14",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062729234",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_47e4a5a191002dc9ff9c85e6ebb932ce",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c33ee993cdbe97f208c5896b9c61347c",
+                                        "parent": "aspace_47e4a5a191002dc9ff9c85e6ebb932ce",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1944",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "British Columbia Library Association"
+                                }
                             }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "The Progressive Librarians Council (1939-1944) was a Communist-led professional association. The collection contains correspondence and a few other items.",
-                        "id": "aspace_41862a0182bcf5358134378a714ec595"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
+                        },
+                        {
+                            "id": "aspace_ref15",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062729234",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_ff546ed9dc0a4197508efac986a11033",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7359a64d8c400c65ca8f2bce29e8e87d",
+                                        "parent": "aspace_ff546ed9dc0a4197508efac986a11033",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1941/1941",
+                                        "type": "inclusive",
+                                        "value": "1941 , undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Constitutions"
+                                }
                             }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "corpname": [
-                            {
-                                "value": "Progressive Librarians Council"
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062729234",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_670b4ab26b4f92dafe9b0881807da8f0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b039cc2b62804d77776a04c5c6789c64",
+                                        "parent": "aspace_670b4ab26b4f92dafe9b0881807da8f0",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1939",
+                                        "type": "inclusive",
+                                        "value": "1930 , 1938-1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence (Pre-History \u0026 Founding)"
+                                }
                             }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062729234",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_6f9f786c0b95290084e7ba931484f7de",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_21d857a84d1b7f719ccaa0358b0009ea",
+                                        "parent": "aspace_6f9f786c0b95290084e7ba931484f7de",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1940/1940",
+                                        "type": "inclusive",
+                                        "value": "1940"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence"
+                                }
                             }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1930/1944",
-                        "type": "inclusive",
-                        "value": "1930-1944"
-                    },
-                    {
-                        "normal": "1939/1944",
-                        "type": "bulk",
-                        "value": "1939-1944"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.064"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Progressive Librarians Council Correspondence"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref13",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref14",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729234",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_47e4a5a191002dc9ff9c85e6ebb932ce",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c33ee993cdbe97f208c5896b9c61347c",
-                                                "parent": "aspace_47e4a5a191002dc9ff9c85e6ebb932ce",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1944",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "British Columbia Library Association"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref15",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                        "barcode": "31142062729234",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_81204b812b99843b4b28c3db65740384",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729234",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_ff546ed9dc0a4197508efac986a11033",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7359a64d8c400c65ca8f2bce29e8e87d",
-                                                "parent": "aspace_ff546ed9dc0a4197508efac986a11033",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1941/1941",
-                                                "type": "inclusive",
-                                                "value": "1941 , undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Constitutions"
-                                            }
-                                        ]
+                                        "id": "aspace_048ccb912678f59608c41c6cd16bbb8a",
+                                        "parent": "aspace_81204b812b99843b4b28c3db65740384",
+                                        "type": "folder",
+                                        "value": "5"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                ],
+                                "unitdate": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729234",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_670b4ab26b4f92dafe9b0881807da8f0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b039cc2b62804d77776a04c5c6789c64",
-                                                "parent": "aspace_670b4ab26b4f92dafe9b0881807da8f0",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1939",
-                                                "type": "inclusive",
-                                                "value": "1930 , 1938-1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence (Pre-History \u0026 Founding)"
-                                            }
-                                        ]
+                                        "normal": "1941/1941",
+                                        "type": "inclusive",
+                                        "value": "1941"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729234",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_6f9f786c0b95290084e7ba931484f7de",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_21d857a84d1b7f719ccaa0358b0009ea",
-                                                "parent": "aspace_6f9f786c0b95290084e7ba931484f7de",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1940/1940",
-                                                "type": "inclusive",
-                                                "value": "1940"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729234",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_81204b812b99843b4b28c3db65740384",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_048ccb912678f59608c41c6cd16bbb8a",
-                                                "parent": "aspace_81204b812b99843b4b28c3db65740384",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1941/1941",
-                                                "type": "inclusive",
-                                                "value": "1941"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729234",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_f3141542e21d608fce0563bfe565e034",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c44441e58bbb4eefba8ae13f481b4f65",
-                                                "parent": "aspace_f3141542e21d608fce0563bfe565e034",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1944",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence (Aid to Spanish Refugee Librarians Homero Seris \u0026 Juan Viceris)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729234",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_9252913095916f2a1f92163d72ea76ba",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7a653742db8e682fe56959700aef9c3d",
-                                                "parent": "aspace_9252913095916f2a1f92163d72ea76ba",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1942/1942",
-                                                "type": "inclusive",
-                                                "value": "Jan 1942-Jun 1942"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729234",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_cc74b619e24a5c49aee85ba83d6f35e7",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_478c4dd06a234bb97b7174487daaaf97",
-                                                "parent": "aspace_cc74b619e24a5c49aee85ba83d6f35e7",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1942/1942",
-                                                "type": "inclusive",
-                                                "value": "Jul 1942-Dec 1942"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729234",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_6592cbcc21de26be30ecd8446d8bbec5",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8b6b93d9a26de48836cc4fdb8c2e9b9b",
-                                                "parent": "aspace_6592cbcc21de26be30ecd8446d8bbec5",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1943/1943",
-                                                "type": "inclusive",
-                                                "value": "1943"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729234",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_3faed4249cf762cf33f6a9dab5ff3f66",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0a0e3d9bf04149bf9d6820ca9c28b206",
-                                                "parent": "aspace_3faed4249cf762cf33f6a9dab5ff3f66",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1944/1944",
-                                                "type": "inclusive",
-                                                "value": "1944"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729234",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_029adf8fd2ee78e4420019527c245b71",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8f803a3b472e771e27e819f1d364b636",
-                                                "parent": "aspace_029adf8fd2ee78e4420019527c245b71",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1930/1952",
-                                                "type": "inclusive",
-                                                "value": "ca.1940-1942"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Norton, Theodore E. : Speeches \u0026 Statements"
-                                            }
-                                        ]
-                                    }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Inventory"
+                                        "barcode": "31142062729234",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_f3141542e21d608fce0563bfe565e034",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c44441e58bbb4eefba8ae13f481b4f65",
+                                        "parent": "aspace_f3141542e21d608fce0563bfe565e034",
+                                        "type": "folder",
+                                        "value": "6"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1944",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence (Aid to Spanish Refugee Librarians Homero Seris \u0026 Juan Viceris)"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062729234",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_9252913095916f2a1f92163d72ea76ba",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7a653742db8e682fe56959700aef9c3d",
+                                        "parent": "aspace_9252913095916f2a1f92163d72ea76ba",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1942/1942",
+                                        "type": "inclusive",
+                                        "value": "Jan 1942-Jun 1942"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062729234",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_cc74b619e24a5c49aee85ba83d6f35e7",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_478c4dd06a234bb97b7174487daaaf97",
+                                        "parent": "aspace_cc74b619e24a5c49aee85ba83d6f35e7",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1942/1942",
+                                        "type": "inclusive",
+                                        "value": "Jul 1942-Dec 1942"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062729234",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_6592cbcc21de26be30ecd8446d8bbec5",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8b6b93d9a26de48836cc4fdb8c2e9b9b",
+                                        "parent": "aspace_6592cbcc21de26be30ecd8446d8bbec5",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1943/1943",
+                                        "type": "inclusive",
+                                        "value": "1943"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062729234",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_3faed4249cf762cf33f6a9dab5ff3f66",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0a0e3d9bf04149bf9d6820ca9c28b206",
+                                        "parent": "aspace_3faed4249cf762cf33f6a9dab5ff3f66",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1944/1944",
+                                        "type": "inclusive",
+                                        "value": "1944"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062729234",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_029adf8fd2ee78e4420019527c245b71",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8f803a3b472e771e27e819f1d364b636",
+                                        "parent": "aspace_029adf8fd2ee78e4420019527c245b71",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1930/1952",
+                                        "type": "inclusive",
+                                        "value": "ca.1940-1942"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Norton, Theodore E. : Speeches \u0026 Statements"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Inventory"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_0b19731df3963675ecea9f743c149a7d",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -629,11 +598,9 @@
         "scopecontent": [
             {
                 "id": "aspace_2eb2f2c41a3942bcbb03ea2e4bfff021",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The correspondence, much of it routine, is almost entirely with librarians (PLC members and others), and relates to the publication of the P.L.C. Bulletin, and to the promotion of open, efficient libraries, as well as progressive legislation, civil rights and links with organized labor. A few letters contain discussion of issues relating to the American Library Association. Principal correspondents are Theodore E. Norton (chairman), Edwin Castagna (vice-chairman) and Bertha Schulman (secretary-treasurer). There is also correspondence with Homero Seris and Juan Viceris, two Spanish librarians living in exile in Mexico, who received financial assistance from the PLC. The collection also contains constitutions, speeches and statements by Norton, and a few items relating to the British Columbia Library Association."
@@ -644,11 +611,9 @@
         "userestrict": [
             {
                 "id": "aspace_ad1c4089775b48ab9bd701726fa1c7e7",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Tamiment Library has no information about copyright ownership for this collection and is not authorized to grant permission to publish or reproduce materials from it. Materials in this collection, which were created in 1930-1944, are expected to enter the public domain in 2065."
@@ -657,94 +622,90 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_064",
-                    "value": "tam_064"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_064",
+            "value": "tam_064"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from Progressive Librarians template.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from Progressive Librarians template.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Tamiment staff"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Progressive Librarians Council Correspondence \u003cspan class=\"ead-num\"\u003eTAM.064\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Tamiment staff",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Progressive Librarians Council Correspondence \u003cspan class=\"ead-num\"\u003eTAM.064\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.064"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:46:12 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:46:12 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_3fd52fca34e1addd81ecaee245d84db3",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Open for research without restrictions."
@@ -19,11 +17,9 @@
         "arrangement": [
             {
                 "id": "aspace_d4d42cd25bc7f3909464c5d8457c2a40",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "Collection is organized into one series, arranged alphabetically."
@@ -34,11 +30,9 @@
         "bioghist": [
             {
                 "id": "aspace_25b755fc1534c10b1d43f0f26430ee79",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "The Gaelic Society of New York was one of the earliest American organizations established to promote Irish as a spoken language.  It was founded in 1875, following the establishment of the Philo-Celtic Society of Boston (1873) and the Brooklyn Philo-Celtic Society (1874).  The fist preliminary meeting for the Society was held on December 12, 1894 to consider the feasibility of organizing a group to promote further understanding of the language, history, antiquities, literature, music, and art of Ireland.  The Society established its headquarters at 47 West 42nd Street and continued to operate in Manhattan, from offices at the City University of New York's John Jay College, into the 1970s.  Thereafter, its library moved to Mineola, New York, using space provided by the Irish American Society of Nassau, Suffolk and Queens."
@@ -52,28 +46,42 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "genreform": [
-                    "Minute books.",
-                    "Correspondence.",
-                    "Minutes (administrative records)",
-                    "Poetry."
-                ],
-                "subject": [
-                    "Irish Americans -- Societies, etc.",
-                    "Irish language |z United States"
-                ]
-            }
-        ],
+        "controlaccess": {
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Minute books."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Minutes (administrative records)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Poetry."
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Irish Americans -- Societies, etc."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Irish language |z United States"
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_c89ca7237e19dfc159b7b501a017f2b8",
-                "head": [
-                    {
-                        "value": "Custodial History Note"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History Note"
+                },
                 "p": [
                     {
                         "value": "In 1999 Irish language teacher, author, and enthusiast Barra O Donnabháin (John \"Barry\" Donovan, 1942-2003) acquired this collection of papers and insured their survival by donating them to the Archives of Irish America. O Donnabháin donated additional materials in 2001.  O Donnabháin was a native of Leap, County Cork who emigrated to the United States in 1963.  The accession number associated with this collection is 1997.040."
@@ -81,517 +89,456 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 1 record carton and 1 manuscript box",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The Gaelic Society of New York Collection consists of minute books, correspondence, legal documents, and a volume of poetry in Irish.  The Society, founded in 1875, was one of the earliest American organizations established to promote Irish as a spoken language.",
+                    "id": "aspace_d7674850fe5e67b536e9c65c92693ebf"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English and Irish.",
+                    "id": "aspace_7d05dbacc8f166f575d4d533de99a789"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "corpname": {
+                        "source": "local",
+                        "value": "Archives of Irish America"
+                    }
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1894/1977",
+                    "type": "inclusive",
+                    "value": "1894-1977"
+                },
+                {
+                    "normal": "1894/1951",
+                    "type": "bulk",
+                    "value": "1894-1951"
+                }
+            ],
+            "unitid": "AIA.025",
+            "unittitle": {
+                "value": "Gaelic Society of New York Collection"
+            }
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref13",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "1.25 Linear Feet"
+                                "barcode": "31142054611945",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal - Half",
+                                "id": "aspace_7c42dfc54af3d04dba42be49cd973767",
+                                "type": "box",
+                                "value": "1"
                             },
                             {
-                                "value": "in 1 record carton and 1 manuscript box"
+                                "id": "aspace_aaa848ff243bc6dfc2cf2704b2035f63",
+                                "parent": "aspace_7c42dfc54af3d04dba42be49cd973767",
+                                "type": "folder",
+                                "value": "1"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1937/1938",
+                                "type": "inclusive",
+                                "value": "1937-1938"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Annual Concert"
+                        }
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "The Gaelic Society of New York Collection consists of minute books, correspondence, legal documents, and a volume of poetry in Irish.  The Society, founded in 1875, was one of the earliest American organizations established to promote Irish as a spoken language.",
-                        "id": "aspace_d7674850fe5e67b536e9c65c92693ebf"
+                },
+                {
+                    "id": "aspace_ref12",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611945",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal - Half",
+                                "id": "aspace_e85ae4a3468cb185703ebe7954a1b6d8",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_6076108304a16cc4637cc8c8b7e2b617",
+                                "parent": "aspace_e85ae4a3468cb185703ebe7954a1b6d8",
+                                "type": "folder",
+                                "value": "2"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1951/1975",
+                                "type": "inclusive",
+                                "value": "1951, 1975"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Correspondence"
+                        }
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_7d05dbacc8f166f575d4d533de99a789",
-                        "value": "Materials are in English and Irish."
+                },
+                {
+                    "id": "aspace_ref25",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611945",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal - Half",
+                                "id": "aspace_61c615a86ea45a9a3ab4310902322115",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_8b57fa5826747698a7f366e682cf0078",
+                                "parent": "aspace_61c615a86ea45a9a3ab4310902322115",
+                                "type": "folder",
+                                "value": "9"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1939-1951"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Cumann na Gaeilge (NY)"
+                        }
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "corpname": [
+                },
+                {
+                    "id": "aspace_ref14",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "Archives of Irish America"
+                                "barcode": "31142054611945",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal - Half",
+                                "id": "aspace_827bafe5a16ef603d32da3aaece4f0ce",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_bdf34d8f00d9a88353f3766cb5693169",
+                                "parent": "aspace_827bafe5a16ef603d32da3aaece4f0ce",
+                                "type": "folder",
+                                "value": "3"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1950/1951",
+                                "type": "inclusive",
+                                "value": "1950-1951"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Financial Papers"
+                        }
                     }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
+                },
+                {
+                    "id": "aspace_ref15",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                                "barcode": "31142054611945",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal - Half",
+                                "id": "aspace_d67e0a22ad74978f4e331a926b0a2853",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_4065e67c1c606a6256aa457339b9fcc7",
+                                "parent": "aspace_d67e0a22ad74978f4e331a926b0a2853",
+                                "type": "folder",
+                                "value": "4"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1936/1936",
+                                "type": "inclusive",
+                                "value": "1936"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Legal Papers (lease)"
+                        }
                     }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1894/1977",
-                        "type": "inclusive",
-                        "value": "1894-1977"
-                    },
-                    {
-                        "normal": "1894/1951",
-                        "type": "bulk",
-                        "value": "1894-1951"
+                },
+                {
+                    "id": "aspace_ref16",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054612091",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_236560298e47b61de620711fa06d9d3c",
+                                "type": "box",
+                                "value": "2"
+                            },
+                            {
+                                "id": "aspace_f2a31cdfebc33cf8e173e041b12c8f8c",
+                                "parent": "aspace_236560298e47b61de620711fa06d9d3c",
+                                "type": "folder",
+                                "value": "1"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1894/1899",
+                                "type": "inclusive",
+                                "value": "1894-1899"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Minutes (ledger book)"
+                        }
                     }
-                ],
-                "unitid": [
-                    {
-                        "value": "AIA.025"
+                },
+                {
+                    "id": "aspace_ref17",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054612091",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_bfd7dacd68062274d2856df112cd8689",
+                                "type": "box",
+                                "value": "2"
+                            },
+                            {
+                                "id": "aspace_877d9a805a6390289d0cbf5ee21bff09",
+                                "parent": "aspace_bfd7dacd68062274d2856df112cd8689",
+                                "type": "folder",
+                                "value": "2"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1909/1918",
+                                "type": "inclusive",
+                                "value": "1909-1918"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Minutes (ledger book)"
+                        }
                     }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Gaelic Society of New York Collection"
+                },
+                {
+                    "id": "aspace_ref18",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054612091",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_21da8d3b9c6dd36978fbefffbffb4dd7",
+                                "type": "box",
+                                "value": "2"
+                            },
+                            {
+                                "id": "aspace_35361aec5985b6837f855a0830de562b",
+                                "parent": "aspace_21da8d3b9c6dd36978fbefffbffb4dd7",
+                                "type": "folder",
+                                "value": "3"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1918/1932",
+                                "type": "inclusive",
+                                "value": "1918-1932"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Minutes (ledger book)"
+                        }
                     }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref13",
-                        "level": "file",
-                        "did": [
+                },
+                {
+                    "id": "aspace_ref19",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611945",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal - Half",
-                                        "id": "aspace_7c42dfc54af3d04dba42be49cd973767",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_aaa848ff243bc6dfc2cf2704b2035f63",
-                                        "parent": "aspace_7c42dfc54af3d04dba42be49cd973767",
-                                        "type": "folder",
-                                        "value": "1"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1937/1938",
-                                        "type": "inclusive",
-                                        "value": "1937-1938"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Annual Concert"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref12",
-                        "level": "file",
-                        "did": [
+                                "barcode": "31142054611945",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal - Half",
+                                "id": "aspace_301602dc8779928ac4e400d1ba9d47f9",
+                                "type": "box",
+                                "value": "1"
+                            },
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611945",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal - Half",
-                                        "id": "aspace_e85ae4a3468cb185703ebe7954a1b6d8",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_6076108304a16cc4637cc8c8b7e2b617",
-                                        "parent": "aspace_e85ae4a3468cb185703ebe7954a1b6d8",
-                                        "type": "folder",
-                                        "value": "2"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1951/1975",
-                                        "type": "inclusive",
-                                        "value": "1951, 1975"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Correspondence"
-                                    }
-                                ]
+                                "id": "aspace_24935ef5c6181daacf1a114b1d9a37e9",
+                                "parent": "aspace_301602dc8779928ac4e400d1ba9d47f9",
+                                "type": "folder",
+                                "value": "5"
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref25",
-                        "level": "file",
-                        "did": [
+                        ],
+                        "unitdate": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611945",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal - Half",
-                                        "id": "aspace_61c615a86ea45a9a3ab4310902322115",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_8b57fa5826747698a7f366e682cf0078",
-                                        "parent": "aspace_61c615a86ea45a9a3ab4310902322115",
-                                        "type": "folder",
-                                        "value": "9"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1939-1951"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Cumann na Gaeilge (NY)"
-                                    }
-                                ]
+                                "normal": "1971/1972",
+                                "type": "inclusive",
+                                "value": "1971-1972"
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref14",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611945",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal - Half",
-                                        "id": "aspace_827bafe5a16ef603d32da3aaece4f0ce",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_bdf34d8f00d9a88353f3766cb5693169",
-                                        "parent": "aspace_827bafe5a16ef603d32da3aaece4f0ce",
-                                        "type": "folder",
-                                        "value": "3"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1950/1951",
-                                        "type": "inclusive",
-                                        "value": "1950-1951"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Financial Papers"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref15",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611945",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal - Half",
-                                        "id": "aspace_d67e0a22ad74978f4e331a926b0a2853",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_4065e67c1c606a6256aa457339b9fcc7",
-                                        "parent": "aspace_d67e0a22ad74978f4e331a926b0a2853",
-                                        "type": "folder",
-                                        "value": "4"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1936/1936",
-                                        "type": "inclusive",
-                                        "value": "1936"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Legal Papers (lease)"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref16",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054612091",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_236560298e47b61de620711fa06d9d3c",
-                                        "type": "box",
-                                        "value": "2"
-                                    },
-                                    {
-                                        "id": "aspace_f2a31cdfebc33cf8e173e041b12c8f8c",
-                                        "parent": "aspace_236560298e47b61de620711fa06d9d3c",
-                                        "type": "folder",
-                                        "value": "1"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1894/1899",
-                                        "type": "inclusive",
-                                        "value": "1894-1899"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Minutes (ledger book)"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref17",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054612091",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_bfd7dacd68062274d2856df112cd8689",
-                                        "type": "box",
-                                        "value": "2"
-                                    },
-                                    {
-                                        "id": "aspace_877d9a805a6390289d0cbf5ee21bff09",
-                                        "parent": "aspace_bfd7dacd68062274d2856df112cd8689",
-                                        "type": "folder",
-                                        "value": "2"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1909/1918",
-                                        "type": "inclusive",
-                                        "value": "1909-1918"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Minutes (ledger book)"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref18",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054612091",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_21da8d3b9c6dd36978fbefffbffb4dd7",
-                                        "type": "box",
-                                        "value": "2"
-                                    },
-                                    {
-                                        "id": "aspace_35361aec5985b6837f855a0830de562b",
-                                        "parent": "aspace_21da8d3b9c6dd36978fbefffbffb4dd7",
-                                        "type": "folder",
-                                        "value": "3"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1918/1932",
-                                        "type": "inclusive",
-                                        "value": "1918-1932"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Minutes (ledger book)"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref19",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611945",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal - Half",
-                                        "id": "aspace_301602dc8779928ac4e400d1ba9d47f9",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_24935ef5c6181daacf1a114b1d9a37e9",
-                                        "parent": "aspace_301602dc8779928ac4e400d1ba9d47f9",
-                                        "type": "folder",
-                                        "value": "5"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1971/1972",
-                                        "type": "inclusive",
-                                        "value": "1971-1972"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Minutes"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref20",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611945",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal - Half",
-                                        "id": "aspace_568f446d2637b3cdad9878a6e71d0f61",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_8b69dd967c01ff862b48f3f21347aa9d",
-                                        "parent": "aspace_568f446d2637b3cdad9878a6e71d0f61",
-                                        "type": "folder",
-                                        "value": "6"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1973/1974",
-                                        "type": "inclusive",
-                                        "value": "1973-1974"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Minutes"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref21",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611945",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal - Half",
-                                        "id": "aspace_4fa21fa470be9938ca3079d87592f79e",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_b4545f5a4e9b68788c565187be0238c8",
-                                        "parent": "aspace_4fa21fa470be9938ca3079d87592f79e",
-                                        "type": "folder",
-                                        "value": "7"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1975/1977",
-                                        "type": "inclusive",
-                                        "value": "1975-1977"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Minutes"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref22",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054611945",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal - Half",
-                                        "id": "aspace_d6bbe70814a609d6228211db7564b1c3",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_cb7359c19783428b6b56e2257bee9fc2",
-                                        "parent": "aspace_d6bbe70814a609d6228211db7564b1c3",
-                                        "type": "folder",
-                                        "value": "8"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "undated"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Poetry (in Irish)"
-                                    }
-                                ]
-                            }
-                        ]
+                        ],
+                        "unittitle": {
+                            "value": "Minutes"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref20",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611945",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal - Half",
+                                "id": "aspace_568f446d2637b3cdad9878a6e71d0f61",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_8b69dd967c01ff862b48f3f21347aa9d",
+                                "parent": "aspace_568f446d2637b3cdad9878a6e71d0f61",
+                                "type": "folder",
+                                "value": "6"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1973/1974",
+                                "type": "inclusive",
+                                "value": "1973-1974"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Minutes"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref21",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611945",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal - Half",
+                                "id": "aspace_4fa21fa470be9938ca3079d87592f79e",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_b4545f5a4e9b68788c565187be0238c8",
+                                "parent": "aspace_4fa21fa470be9938ca3079d87592f79e",
+                                "type": "folder",
+                                "value": "7"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1975/1977",
+                                "type": "inclusive",
+                                "value": "1975-1977"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Minutes"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref22",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054611945",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal - Half",
+                                "id": "aspace_d6bbe70814a609d6228211db7564b1c3",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_cb7359c19783428b6b56e2257bee9fc2",
+                                "parent": "aspace_d6bbe70814a609d6228211db7564b1c3",
+                                "type": "folder",
+                                "value": "8"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "undated"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Poetry (in Irish)"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_df9286bef8ec5e9020ba862f1726bfe3",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eArchives of Irish America, Tamiment Library \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -602,11 +549,9 @@
         "scopecontent": [
             {
                 "id": "aspace_acdb4813db32772d1c277c36b2c02a8a",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "The Gaelic Society of New York Records consists of meeting minutes, legal documents, correspondence, event programs, and financial records.  The materials document the Society's efforts to promote Irish as a spoken language and support the dissemination of knowledge about Irish art, music, history, literature, and industries.  The majority of the collection dates from a period of renewed organizational activity in response to the Gaelic Revival of the late 19th century.  Of note is receipt number one for the 1919 Bond Drive promoted in the United States by Éamon De Valera (1882-1975) to support the Provisional Irish Government.  The Gaelic Society of New York contributed $1,000, raised by $0.25 admission fees to regular ceili dances.  The Society preserved the receipt by pasting it into a minute book."
@@ -617,11 +562,9 @@
         "userestrict": [
             {
                 "id": "aspace_468ffe8e8373f152560fa77a4760f4a2",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "The Tamiment Library does not have information about who owns copyright to this collection. Materials in this collection are expected to enter the public domain beginning in 2014, depending on date of creation. The Tamiment Library is not authorized to grant permission to publish or reproduce materials from this collection."
@@ -630,95 +573,82 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/aia_025",
-                    "value": "aia_025"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/aia_025",
+            "value": "aia_025"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e9/10/2010\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Marion Casey and Rebecca Altermatt"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Gaelic Society of New York Records"
-                                },
-                                {
-                                    "value": "Guide to the Gaelic Society of New York Collection \u003cspan class=\"ead-num\"\u003eAIA.025\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:32:53 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in English."
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e9/10/2010\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "9/10/2010"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Marion Casey and Rebecca Altermatt",
+                "titleproper": [
+                    {
+                        "value": "Gaelic Society of New York Records",
+                        "type": "filing"
+                    },
+                    {
+                        "value": "Guide to the Gaelic Society of New York Collection \u003cspan class=\"ead-num\"\u003eAIA.025\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "AIA.025"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:32:53 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

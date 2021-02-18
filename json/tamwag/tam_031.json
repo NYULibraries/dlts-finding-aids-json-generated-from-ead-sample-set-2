@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_cc13e86ec2b6054662c402c0cc0c6f76",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_3930b3f363f3c6e1a2427c7b66b7d29e",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Materials found in repository; provenance is unknown. The accession number associated with this collection is 1950.146."
@@ -34,11 +30,9 @@
         "bioghist": [
             {
                 "id": "aspace_cbbff3210e9cdef670d84b3dc5bb766b",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Theresa Branstetter Taft was an American socialist."
@@ -46,115 +40,109 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "persname": [
-                    {
-                        "value": "O'Hare, Kate Richards, 1877-1948 -- |v Pictorial works"
-                    },
-                    {
-                        "role": "Correspondent",
-                        "value": "Jones, Mother, 1837-1930 -- |v Correspondence"
-                    },
-                    {
-                        "role": "Correspondent",
-                        "value": "Branstetter, Otto -- |v Correspondence"
-                    },
-                    {
-                        "value": "Thomas, Norman, 1884-1968"
+        "controlaccess": {
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "O'Hare, Kate Richards, 1877-1948 -- |v Pictorial works"
+                },
+                {
+                    "role": "Correspondent",
+                    "source": "naf",
+                    "value": "Jones, Mother, 1837-1930 -- |v Correspondence"
+                },
+                {
+                    "role": "Correspondent",
+                    "source": "naf",
+                    "value": "Branstetter, Otto -- |v Correspondence"
+                },
+                {
+                    "source": "naf",
+                    "value": "Thomas, Norman, 1884-1968"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Socialists -- United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Women socialists -- United States."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 boxes)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "container": [
+                {
+                    "barcode": "31142062773786",
+                    "label": "Mixed Materials",
+                    "altrender": "Manuscript box - Legal - Half",
+                    "id": "aspace_f80544220457ef3c63ff30029164ba5f",
+                    "type": "box",
+                    "value": "1"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "subject": [
-                    "Socialists -- United States.",
-                    "Women socialists -- United States."
-                ]
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Taft, Theresa Branstetter"
+                    }
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1911/1934",
+                    "type": "inclusive",
+                    "value": "1911-1934"
+                }
+            ],
+            "unitid": "TAM.031",
+            "unittitle": {
+                "value": "Theresa Branstetter Taft Papers"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 boxes)"
-                            }
-                        ]
-                    }
-                ],
-                "container": [
-                    {
-                        "barcode": "31142062773786",
-                        "label": "Mixed Materials",
-                        "altrender": "Manuscript box - Legal - Half",
-                        "id": "aspace_f80544220457ef3c63ff30029164ba5f",
-                        "type": "box",
-                        "value": "1"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Taft, Theresa Branstetter"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1911/1934",
-                        "type": "inclusive",
-                        "value": "1911-1934"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.031"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Theresa Branstetter Taft Papers"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {}
-        ],
+        },
+        "dsc": {},
         "prefercite": [
             {
                 "id": "aspace_7040f10021dfd13bca62d6568663c47b",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; Theresa Branstetter Taft Papers; TAM 031; box number; folder number; Tamiment Library/Robert F. Wagner Labor Archives, New York University."
@@ -165,11 +153,9 @@
         "scopecontent": [
             {
                 "id": "aspace_bce380fc73572a6a32474da40e6967f9",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "A small collection featuring 2 TLS by Mother Jones to Otto Branstetter, father of Theresa (1920), photos of various socialists, including Kate Richards O'Hare, and clippings and releases from 1932 Presidential campaign of Norman Thomas."
@@ -180,11 +166,9 @@
         "userestrict": [
             {
                 "id": "aspace_66e0a20924f82c1e743f100a649016f9",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Materials in this collection, which were created in 1911 to 1934, are in the public domain. Permission to publish or reproduce is not required."
@@ -193,92 +177,78 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_031/",
-                    "value": "tam_031"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_031/",
+            "value": "tam_031"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e10/26/2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Tamiment staff, 2009"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Theresa Branstetter Taft Papers \u003cspan class=\"ead-num\"\u003eTAM.031\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:45:32 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in English"
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e10/26/2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "10/26/2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Tamiment staff, 2009",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Theresa Branstetter Taft Papers \u003cspan class=\"ead-num\"\u003eTAM.031\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.031"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:45:32 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

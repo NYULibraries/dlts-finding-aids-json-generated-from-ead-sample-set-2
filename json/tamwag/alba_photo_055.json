@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_f6b81c7bc41fa2f88daf292a3c8bf966",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,20 @@
         "arrangement": [
             {
                 "id": "aspace_161a1396b88552695acd71d4db570282",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "Series I, Photographs"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -40,11 +49,9 @@
         "bioghist": [
             {
                 "id": "aspace_a16b939a636989610cbcdfb858431542",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Toby Jensky was a nurse during the Spanish Civil War. She sailed for Spain on April 14, 1937, with Dr. Edward Barsky's Fourth Medical Unit. Jensky and Barsky had been colleagues at Beth Israel Hospital in New York City. She met future husband Pat Gurney while tending his wounds. After serving in Spain, Jensky nursed at Beth Israel in New York City until her retirement. She assisted Fredericka Martin in gathering primary sources documenting the history of the American Medical Bureau of the North American Committee to Aid Spanish Democracy in Spain (AMB). She died on April 25, 1995 in Sandisfield, Massachusetts. For further biographical information on Toby Jensky see the Guide to the Toby Jensky and Philip Schachter Papers, ALBA #55"
@@ -52,65 +59,94 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "North American Committee to Aid Spanish Democracy"
-                    },
-                    {
-                        "value": "Medical Bureau to Aid Spanish Democracy"
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    }
-                ],
-                "genreform": [
-                    "Black-and-white photographs."
-                ],
-                "geogname": [
-                    "Spain -- History -- Civil War, 1936-1939 -- Children",
-                    "Spain -- History -- Civil War, 1936-1939 -- Personal narratives.",
-                    "Spain -- History -- Civil War, 1936-1939 -- Women.",
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American",
-                    "Spain -- History -- Civil War, 1936-1939 -- Pictorial works"
-                ],
-                "persname": [
-                    {
-                        "value": "Taft, Anne, 1912-1990"
-                    },
-                    {
-                        "value": "Gurney, Jason"
-                    },
-                    {
-                        "value": "Jensky, Toby, 1911-1995"
-                    },
-                    {
-                        "value": "Goldblatt, Sana"
-                    },
-                    {
-                        "value": "Martin, Fredericka I."
-                    },
-                    {
-                        "value": "Perez, Odio D."
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "North American Committee to Aid Spanish Democracy"
+                },
+                {
+                    "source": "naf",
+                    "value": "Medical Bureau to Aid Spanish Democracy"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Black-and-white photographs."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Children"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Personal narratives."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Women."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Pictorial works"
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Taft, Anne, 1912-1990"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Gurney, Jason"
+                },
+                {
+                    "source": "local",
+                    "value": "Jensky, Toby, 1911-1995"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Goldblatt, Sana"
+                },
+                {
+                    "source": "naf",
+                    "value": "Martin, Fredericka I."
+                },
+                {
+                    "source": "ingest",
+                    "value": "Perez, Odio D."
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_cbdbb7a22fa6a4b4a225721173303064",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Toby Jensky Photograph Collection was donated to the Abraham Lincoln Brigade Archives by Max Schachter in 1996. This collection came to New York University in January 2001 as part of the original acquisition of Abraham Lincoln Brigade Archives collections, formerly housed at Brandeis University. The images in the Jensky Photograph Collection were separated from the Toby Jensky and Philip Schachter manuscript material at the time of processing."
@@ -118,800 +154,703 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1  box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1  box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Toby Jensky (1911-1995) was a nurse with the American Medical Bureau of the North American Committee to Aid Spanish Democracy in Spain (AMB) during the Spanish Civil War. The images in this collection were collected by Jensky in the course of her work as a nurse in Spain. The collection includes photographs of AMB medical personnel at work and leisure, including Jensky, Sara Goldblatt, Fredericka Martin, and Anne Taft. There are also images of Dr. Odio D. Perez and Jensky's future husband, Jason Patrick (Pat) Gurney, soldiers at the front relaxing and engaged in non-combat activities, Spanish children, campesinos, civilians, medical personnel and women washing clothes.",
+                    "id": "aspace_add1c9b1695fb0de8cf24c83f807fbb9"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Toby Jensky (1911-1995) was a nurse with the American Medical Bureau of the North American Committee to Aid Spanish Democracy in Spain (AMB) during the Spanish Civil War. The images in this collection were collected by Jensky in the course of her work as a nurse in Spain. The collection includes photographs of AMB medical personnel at work and leisure, including Jensky, Sara Goldblatt, Fredericka Martin, and Anne Taft. There are also images of Dr. Odio D. Perez and Jensky's future husband, Jason Patrick (Pat) Gurney, soldiers at the front relaxing and engaged in non-combat activities, Spanish children, campesinos, civilians, medical personnel and women washing clothes.",
-                        "id": "aspace_add1c9b1695fb0de8cf24c83f807fbb9"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
+                        "value": "Jensky, Toby, 1911-1995"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Jensky, Toby, 1911-1995"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937/1938",
-                        "type": "inclusive",
-                        "value": "circa 1937-1938"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.PHOTO.055"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Toby Jensky Photographs"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937/1938",
+                    "type": "inclusive",
+                    "value": "circa 1937-1938"
+                }
+            ],
+            "unitid": "ALBA.PHOTO.055",
+            "unittitle": {
+                "value": "Toby Jensky Photographs"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref15",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref15",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_cee072dab0e3e19c58f2662865178a42",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_94203d88623c72a1791a2f69b4fe4689",
-                                                "parent": "aspace_cee072dab0e3e19c58f2662865178a42",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "circa 1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "American Medical Bureau: Nurses"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_cee072dab0e3e19c58f2662865178a42",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_895207a5130aa067c076e7e3ce5a3fc0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a7281beb1f34a0038c972f2f65269326",
-                                                "parent": "aspace_895207a5130aa067c076e7e3ce5a3fc0",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "circa 1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "At the Front: Non-Combat"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_99156f902a9bc55e3cb1f1126448504b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_417d54288cdefa02f77398d222e758e1",
-                                                "parent": "aspace_99156f902a9bc55e3cb1f1126448504b",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "circa 1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Barsky, Edward K."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_4d31f1ac1cddfd0a5e2d8330b2c24ad0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_aae2bc9c22090ad2713af8c93fcd197b",
-                                                "parent": "aspace_4d31f1ac1cddfd0a5e2d8330b2c24ad0",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "circa 1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Behind the Lines: Daily Life of the Soldiers"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_9eeab78a31546592aa44c2cdcaf64e80",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_688d9e45aa8c4bc64a1495dbc4f7c555",
-                                                "parent": "aspace_9eeab78a31546592aa44c2cdcaf64e80",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "circa 1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Behind the Lines: Rest and Relaxation"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_92bba0770746eef78ea34b3655583f70",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_624b846ebf0b3ed1c14de2fb5f723022",
-                                                "parent": "aspace_92bba0770746eef78ea34b3655583f70",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1938",
-                                                "type": "inclusive",
-                                                "value": "undated , 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Gurney, Jason Patrick"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_d277d671900f20839abb5703ba54aaca",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_63ac11a06ebb32600e414ef8155ab57f",
-                                                "parent": "aspace_d277d671900f20839abb5703ba54aaca",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "circa 1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Injured Soldiers"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_0b9c174db14cbbaca93ddee4d3004a1c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5ee57d18978a956ac79f27c4a796fa6e",
-                                                "parent": "aspace_0b9c174db14cbbaca93ddee4d3004a1c",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1938",
-                                                "type": "inclusive",
-                                                "value": "undated , 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Jensky, Toby: At the Front, Non-Combat (includes Sara Goldblatt and Anne Taft)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_5171f0fcc19c66de33febeafa0d9695e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9b73b0db08ac95c892208ade798c1d1a",
-                                                "parent": "aspace_5171f0fcc19c66de33febeafa0d9695e",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "circa 1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Jensky, Toby: With other Medical Personnel (includes Sara Goldblatt, Anne Taft, and Dr. Odio E. Perez)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_b98db90783a79e11d54a4ea869aff1a5",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_bf45d4a356829d75ef340df31fa4a142",
-                                                "parent": "aspace_b98db90783a79e11d54a4ea869aff1a5",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "circa 1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Jensky, Toby: Rest and Relaxation (includes Sara Goldblatt and Jason Patrick Gurney)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_da0b8d3e495625af2c01dbf86f7772d4",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8e8d1f0b37cd1ea55a7b35a53b81e719",
-                                                "parent": "aspace_da0b8d3e495625af2c01dbf86f7772d4",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1947",
-                                                "type": "inclusive",
-                                                "value": "circa 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Jensky, Toby: Shipboard ( \u003cspan class=\"ead-emph ead-emph-italic\"\u003eS.S. Normandie\u003c/span\u003e)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_255d03583a711c18ebe8117585cd061c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a7b4daf8df254b5a9e1ae063303a5c5f",
-                                                "parent": "aspace_255d03583a711c18ebe8117585cd061c",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "circa 1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Martin, Fredericka"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_28cd12bfc67f55fd79695d8d10dc8a34",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_052aa6d7481d3ecfb9044971e16ae43d",
-                                                "parent": "aspace_28cd12bfc67f55fd79695d8d10dc8a34",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "circa 1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Children"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_032e4c91181d0e797bb83d556d80d451",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b80381adc41d2bff2252c057357eb059",
-                                                "parent": "aspace_032e4c91181d0e797bb83d556d80d451",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "circa 1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Civilians"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_9afbbcdc7600634ac75928ec70b74efc",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9ae68c779bd9a68d2b1c5478690e5792",
-                                                "parent": "aspace_9afbbcdc7600634ac75928ec70b74efc",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "circa 1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Campesinos"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_0e33a095e291bd6a8998222193e39f8d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4bf72b9176af9c29a3d22eae1980eda6",
-                                                "parent": "aspace_0e33a095e291bd6a8998222193e39f8d",
-                                                "type": "folder",
-                                                "value": "16"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "circa 1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Countryside"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_6e1dec44d5bf38cda02dc31ab22d8f5d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a6696137967b6486edfed14699019776",
-                                                "parent": "aspace_6e1dec44d5bf38cda02dc31ab22d8f5d",
-                                                "type": "folder",
-                                                "value": "17"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "circa 1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Medical Personnel"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_ad9890951085633715ea64c9741b278f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_00bfb3dd32762f54429e7066c6ecf9cd",
-                                                "parent": "aspace_ad9890951085633715ea64c9741b278f",
-                                                "type": "folder",
-                                                "value": "18"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "circa 1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Workers: Laundrywomen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767614",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_1b5d81097a7a10baa8ddcd265d5c749c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a593df045f5da9544ceda661bea9f118",
-                                                "parent": "aspace_1b5d81097a7a10baa8ddcd265d5c749c",
-                                                "type": "folder",
-                                                "value": "19"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "circa 1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Volunteers on Ship (negative)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_94203d88623c72a1791a2f69b4fe4689",
+                                        "parent": "aspace_cee072dab0e3e19c58f2662865178a42",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: Photographs"
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "circa 1937-1938"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "American Medical Bureau: Nurses"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_895207a5130aa067c076e7e3ce5a3fc0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a7281beb1f34a0038c972f2f65269326",
+                                        "parent": "aspace_895207a5130aa067c076e7e3ce5a3fc0",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "circa 1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "At the Front: Non-Combat"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_99156f902a9bc55e3cb1f1126448504b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_417d54288cdefa02f77398d222e758e1",
+                                        "parent": "aspace_99156f902a9bc55e3cb1f1126448504b",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "circa 1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Barsky, Edward K."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_4d31f1ac1cddfd0a5e2d8330b2c24ad0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_aae2bc9c22090ad2713af8c93fcd197b",
+                                        "parent": "aspace_4d31f1ac1cddfd0a5e2d8330b2c24ad0",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "circa 1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Behind the Lines: Daily Life of the Soldiers"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_9eeab78a31546592aa44c2cdcaf64e80",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_688d9e45aa8c4bc64a1495dbc4f7c555",
+                                        "parent": "aspace_9eeab78a31546592aa44c2cdcaf64e80",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "circa 1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Behind the Lines: Rest and Relaxation"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_92bba0770746eef78ea34b3655583f70",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_624b846ebf0b3ed1c14de2fb5f723022",
+                                        "parent": "aspace_92bba0770746eef78ea34b3655583f70",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1938",
+                                        "type": "inclusive",
+                                        "value": "undated , 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Gurney, Jason Patrick"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_d277d671900f20839abb5703ba54aaca",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_63ac11a06ebb32600e414ef8155ab57f",
+                                        "parent": "aspace_d277d671900f20839abb5703ba54aaca",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "circa 1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Injured Soldiers"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_0b9c174db14cbbaca93ddee4d3004a1c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5ee57d18978a956ac79f27c4a796fa6e",
+                                        "parent": "aspace_0b9c174db14cbbaca93ddee4d3004a1c",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1938",
+                                        "type": "inclusive",
+                                        "value": "undated , 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Jensky, Toby: At the Front, Non-Combat (includes Sara Goldblatt and Anne Taft)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_5171f0fcc19c66de33febeafa0d9695e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9b73b0db08ac95c892208ade798c1d1a",
+                                        "parent": "aspace_5171f0fcc19c66de33febeafa0d9695e",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "circa 1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Jensky, Toby: With other Medical Personnel (includes Sara Goldblatt, Anne Taft, and Dr. Odio E. Perez)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_b98db90783a79e11d54a4ea869aff1a5",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_bf45d4a356829d75ef340df31fa4a142",
+                                        "parent": "aspace_b98db90783a79e11d54a4ea869aff1a5",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "circa 1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Jensky, Toby: Rest and Relaxation (includes Sara Goldblatt and Jason Patrick Gurney)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_da0b8d3e495625af2c01dbf86f7772d4",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8e8d1f0b37cd1ea55a7b35a53b81e719",
+                                        "parent": "aspace_da0b8d3e495625af2c01dbf86f7772d4",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1947",
+                                        "type": "inclusive",
+                                        "value": "circa 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Jensky, Toby: Shipboard ( \u003cspan class=\"ead-emph ead-emph-italic\"\u003eS.S. Normandie\u003c/span\u003e)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_255d03583a711c18ebe8117585cd061c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a7b4daf8df254b5a9e1ae063303a5c5f",
+                                        "parent": "aspace_255d03583a711c18ebe8117585cd061c",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "circa 1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Martin, Fredericka"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_28cd12bfc67f55fd79695d8d10dc8a34",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_052aa6d7481d3ecfb9044971e16ae43d",
+                                        "parent": "aspace_28cd12bfc67f55fd79695d8d10dc8a34",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "circa 1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Children"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_032e4c91181d0e797bb83d556d80d451",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b80381adc41d2bff2252c057357eb059",
+                                        "parent": "aspace_032e4c91181d0e797bb83d556d80d451",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "circa 1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Civilians"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_9afbbcdc7600634ac75928ec70b74efc",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9ae68c779bd9a68d2b1c5478690e5792",
+                                        "parent": "aspace_9afbbcdc7600634ac75928ec70b74efc",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "circa 1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Campesinos"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_0e33a095e291bd6a8998222193e39f8d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4bf72b9176af9c29a3d22eae1980eda6",
+                                        "parent": "aspace_0e33a095e291bd6a8998222193e39f8d",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "circa 1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Countryside"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_6e1dec44d5bf38cda02dc31ab22d8f5d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a6696137967b6486edfed14699019776",
+                                        "parent": "aspace_6e1dec44d5bf38cda02dc31ab22d8f5d",
+                                        "type": "folder",
+                                        "value": "17"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "circa 1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Medical Personnel"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_ad9890951085633715ea64c9741b278f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_00bfb3dd32762f54429e7066c6ecf9cd",
+                                        "parent": "aspace_ad9890951085633715ea64c9741b278f",
+                                        "type": "folder",
+                                        "value": "18"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "circa 1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Workers: Laundrywomen"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767614",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_1b5d81097a7a10baa8ddcd265d5c749c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a593df045f5da9544ceda661bea9f118",
+                                        "parent": "aspace_1b5d81097a7a10baa8ddcd265d5c749c",
+                                        "type": "folder",
+                                        "value": "19"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "circa 1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Volunteers on Ship (negative)"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Photographs"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_e6e71853e1d34902bb3eabbaf6010361",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -922,11 +861,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_a8d09fb26f4fdcc3eedc08eeef4549f2",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "Toby Jensky and Philip Schachter Manuscript Collection, ALBA 55."
@@ -937,11 +874,9 @@
         "scopecontent": [
             {
                 "id": "aspace_e140ae96afd66c0397b32f1380849e3b",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "Series I: Photographs. The Jensky Photo Collection consists predominantly of photographs related to the AMB's work in Spain during the Civil War. The collection contains photographs of AMB nurses including Jensky, Sara Goldblatt, Fredericka Martin, Anne Taft, and images of Dr. Odio D. Perez. One photograph depicts a group of AMB nurses in front of an ambulance donated by the MacKenzie-Papineau Battalion and the Communist Party of Canada. The collection also contains images of soldiers at the front relaxing and engaged in non-combat activities, Spanish children, campesinos, civilians, medical personnel and women washing clothes. All of the photographs except six were taken in Spain during the Civil War. Three photographs of Jensky were taken onboard the \u003cspan class=\"ead-emph ead-emph-italic\"\u003eS.S. Normandie\u003c/span\u003eon its way to Spain. The two photographs of Jason Patrick Gurney were taken outside of Spain. One is a passport photograph and one is an image of Gurney with an unidentified man. There is also one image of AMB volunteers on a ship."
@@ -952,11 +887,9 @@
         "userestrict": [
             {
                 "id": "aspace_4efd9c0b615c8f6095d551aa146e7e5c",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Abraham Lincoln Brigade Archives (ALBA), were transferred to New York University in November 2000 by the ALBA Board of Governors. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -965,93 +898,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_photo_055"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_photo_055"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from ALBA PHOTO #55 Jensky Photo Collection.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from ALBA PHOTO #55 Jensky Photo Collection.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Evan Daniel"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Toby Jensky Photograph Collection \u003cspan class=\"ead-num\"\u003eALBA.PHOTO.055\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Evan Daniel",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Toby Jensky Photograph Collection \u003cspan class=\"ead-num\"\u003eALBA.PHOTO.055\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.PHOTO.055"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:36:52 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:36:52 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_be1fe44ac1282e2edb7083d4f67e9106",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_b92795b2f90d80b13f051307539e9c92",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Materials found in collection; provenance is unknown. The accession numbers associated with this collection are 1996.004, 2006.061, and 2019.075."
@@ -34,11 +30,9 @@
         "arrangement": [
             {
                 "id": "aspace_0d8e554a09e4e6632d6272341cf64d4b",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "Materials in this collection have not been arranged by an archivist."
@@ -49,11 +43,9 @@
         "bioghist": [
             {
                 "id": "aspace_89b42a3f3c630675d7b168cc86b93488",
-                "head": [
-                    {
-                        "value": "Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Sidney and Clara Solomon were New York anarchists and members of the Vanguard Group in the 1930s, the New Trends Group in the 1940s, and the Atlantic Anarchist Circle in the late 1990s-early 2000s."
@@ -61,159 +53,171 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Vanguard Group"
-                    },
-                    {
-                        "value": "New Trends Group (U.S.)"
-                    }
-                ],
-                "genreform": [
-                    "Correspondence.",
-                    "Minutes (administrative records)"
-                ],
-                "persname": [
-                    {
-                        "value": "Solomon, Clara"
-                    },
-                    {
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Vanguard Group"
+                },
+                {
+                    "source": "local",
+                    "value": "New Trends Group (U.S.)"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Minutes (administrative records)"
+                }
+            ],
+            "persname": [
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Solomon, Clara"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Solomon, Sidney"
+                },
+                {
+                    "role": "Correspondent",
+                    "source": "naf",
+                    "value": "Goldman, Emma, 1869-1940 -- Correspondence"
+                },
+                {
+                    "role": "Correspondent",
+                    "source": "naf",
+                    "value": "Dewey, John, 1859-1952 -- Correspondence"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Jewish anarchists -- New York (State) -- New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Anarchism -- United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Anarchism -- Spain."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1.3 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 2 manuscript boxes and 1 flat box",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Sidney and Clara Solomon were New York anarchists and were members of the Vanguard Group in the 1930s and the New Trends Group in the 1940s.  The Sidney and Clara Solomon Papers document their interest in and work towards anarchist activities, including the Vanguard Group, the New Trends Group, and the Atlantic Anarchist Circle.  Materials in the collection date from the 1920s through 2004.",
+                    "id": "aspace_a52f51d00fca05bcfb9780e3d70770aa"
+                }
+            ],
+            "container": [
+                {
+                    "barcode": "31142062765865",
+                    "label": "Mixed Materials",
+                    "altrender": "Manuscript box - Legal",
+                    "id": "aspace_1188bcb60b7da5c96db9f5ddf45b6656",
+                    "type": "box",
+                    "value": "1"
+                },
+                {
+                    "barcode": "31142063038551",
+                    "label": "Mixed Materials",
+                    "altrender": "Manuscript box - Legal",
+                    "id": "aspace_b01d5cb254f69a3367b50cec876422cb",
+                    "type": "box",
+                    "value": "2"
+                },
+                {
+                    "barcode": "31142063038569",
+                    "label": "Mixed Materials",
+                    "altrender": "OS Flat Box - 15x19x3",
+                    "id": "aspace_75a104ab657d6f4322295863f590b54e",
+                    "type": "box",
+                    "value": "Shared Tamiment 065"
+                },
+                {
+                    "id": "aspace_75a80b78f861fe3de0129fcd490cac14",
+                    "parent": "aspace_75a104ab657d6f4322295863f590b54e",
+                    "type": "folder",
+                    "value": "1"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English.",
+                    "id": "aspace_fc581cd8cd39809aaf7203b5ecfb6d86"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
                         "value": "Solomon, Sidney"
-                    },
-                    {
-                        "role": "Correspondent",
-                        "value": "Goldman, Emma, 1869-1940 -- Correspondence"
-                    },
-                    {
-                        "role": "Correspondent",
-                        "value": "Dewey, John, 1859-1952 -- Correspondence"
                     }
-                ],
-                "subject": [
-                    "Jewish anarchists -- New York (State) -- New York.",
-                    "Anarchism -- United States.",
-                    "Spain -- History -- Civil War, 1936-1939.",
-                    "Anarchism -- Spain."
-                ]
+                },
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Solomon, Clara"
+                    }
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1920/2004",
+                    "type": "inclusive",
+                    "value": "1920-2004"
+                }
+            ],
+            "unitid": "TAM.454",
+            "unittitle": {
+                "value": "Sidney and Clara Solomon Papers"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "1.3 Linear Feet"
-                            },
-                            {
-                                "value": "in 2 manuscript boxes and 1 flat box"
-                            }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "Sidney and Clara Solomon were New York anarchists and were members of the Vanguard Group in the 1930s and the New Trends Group in the 1940s.  The Sidney and Clara Solomon Papers document their interest in and work towards anarchist activities, including the Vanguard Group, the New Trends Group, and the Atlantic Anarchist Circle.  Materials in the collection date from the 1920s through 2004.",
-                        "id": "aspace_a52f51d00fca05bcfb9780e3d70770aa"
-                    }
-                ],
-                "container": [
-                    {
-                        "barcode": "31142062765865",
-                        "label": "Mixed Materials",
-                        "altrender": "Manuscript box - Legal",
-                        "id": "aspace_1188bcb60b7da5c96db9f5ddf45b6656",
-                        "type": "box",
-                        "value": "1"
-                    },
-                    {
-                        "barcode": "31142063038551",
-                        "label": "Mixed Materials",
-                        "altrender": "Manuscript box - Legal",
-                        "id": "aspace_b01d5cb254f69a3367b50cec876422cb",
-                        "type": "box",
-                        "value": "2"
-                    },
-                    {
-                        "barcode": "31142063038569",
-                        "label": "Mixed Materials",
-                        "altrender": "OS Flat Box - 15x19x3",
-                        "id": "aspace_75a104ab657d6f4322295863f590b54e",
-                        "type": "box",
-                        "value": "Shared Tamiment 065"
-                    },
-                    {
-                        "id": "aspace_75a80b78f861fe3de0129fcd490cac14",
-                        "parent": "aspace_75a104ab657d6f4322295863f590b54e",
-                        "type": "folder",
-                        "value": "1"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_fc581cd8cd39809aaf7203b5ecfb6d86",
-                        "value": "Materials are in English."
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Solomon, Sidney"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Solomon, Clara"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1920/2004",
-                        "type": "inclusive",
-                        "value": "1920-2004"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.454"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Sidney and Clara Solomon Papers"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {}
-        ],
+        },
+        "dsc": {},
         "prefercite": [
             {
                 "id": "aspace_adf36b3a752ab373d4329f8df2b8ff6f",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; Sidney and Clara Solomon Papers; TAM 454; box number; folder number; Tamiment Library \u0026 Robert F. Wagner Labor Archives, New York University."
@@ -224,11 +228,9 @@
         "processinfo": [
             {
                 "id": "aspace_1e3f9702d5c7deb5011c34f7e60fa6df",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "Minutes from several 1939 Vanguard Group meetings were separated from this collection during initial processing and were established as a separate collection, the Vanguard Group Minutes (TAM 389). In 2015, this material was reincorporated into the Sidney and Clara Slomon Papers."
@@ -239,11 +241,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_f403f20c682727dfa53665e636990a24",
-                "head": [
-                    {
-                        "value": "Related Materials"
-                    }
-                ],
+                "head": {
+                    "value": "Related Materials"
+                },
                 "p": [
                     {
                         "value": "For more information about the Solomons, see their oral history interview in the New York University Department of History Oral History Class Collection (OH 033)."
@@ -254,11 +254,9 @@
         "scopecontent": [
             {
                 "id": "aspace_ea740c8aec7f15b61873179f6071eef7",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "The Sidney and Clara Solomon Papers consist of materials created and collected by Sidney and Clara Solomon between the 1920s and 2004.  Materials include correspondence, fliers, and articles on anarchism from the 1920s through the 1980s; meeting minutes, documents of incorporation, and correspondence documenting the creation and activities of the Atlantic Anarchist Circle in the late 1990s and early 2000s; and meeting minutes from the Vanguard Group in the 1930s.  The correspondence includes letters from Emma Goldman and John Dewey, letters between the Solomons and others regarding the publication of articles about anarchism in Israel and Spain in the 1970s, and correspondence regarding the creation and activities of the Atlantic Anarchist Circle in the late 1990s."
@@ -269,11 +267,9 @@
         "userestrict": [
             {
                 "id": "aspace_319fde4ea0f23a57c820608e59b2e2ed",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "This collection is protected by copyright and/or related rights. You are free to use materials in the collection in any way that is permitted by the copyright and related rights legislation that applies to your use. For other uses you need to obtain permission from the rights-holder(s)."
@@ -282,108 +278,90 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_454/",
-                    "value": "tam_454"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_454/",
+            "value": "tam_454"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e11/16/2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Tamiment staff"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Sidney and Clara Solomon Papers \u003cspan class=\"ead-num\"\u003eTAM.454\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e11/16/2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "11/16/2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Tamiment staff",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Sidney and Clara Solomon Papers \u003cspan class=\"ead-num\"\u003eTAM.454\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.454"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:52:55 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
+        },
+        "revisiondesc": {
+            "change": [
                 {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:52:55 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Finding aid written in English"
-                        }
-                    ]
-                }
-            ],
-            "revisiondesc": [
-                {
-                    "change": [
-                        {
-                            "date": [
-                                "June 2019"
-                            ],
-                            "item": [
-                                {
-                                    "value": "Edited by Megan O'Shea to reflect accretion to collection and for compliance with DACS and ACM Required Elements for Archival Description"
-                                }
-                            ]
-                        }
-                    ]
+                    "date": {
+                        "value": "June 2019"
+                    },
+                    "item": {
+                        "value": "Edited by Megan O'Shea to reflect accretion to collection and for compliance with DACS and ACM Required Elements for Archival Description"
+                    }
                 }
             ]
         }
-    ]
+    }
 }

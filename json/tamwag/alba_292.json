@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_76234ba4f6ec248523326bd640940984",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -16,27 +14,25 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "persname": [
-                    {
-                        "value": "Cohen, Louis, 1912-1938"
-                    },
-                    {
-                        "role": "Former owner",
-                        "value": "Sprayregen, Ann"
-                    }
-                ]
-            }
-        ],
+        "controlaccess": {
+            "persname": [
+                {
+                    "source": "local",
+                    "value": "Cohen, Louis, 1912-1938"
+                },
+                {
+                    "role": "Former owner",
+                    "source": "local",
+                    "value": "Sprayregen, Ann"
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_4c9305ac22c24089d8fce3680cb8df48",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "Separated from the Veterans of the Abraham Lincoln Brigade Records (ALBA 19)."
@@ -44,119 +40,99 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "value": "English"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
+                        "value": "Cohen, Louis, 1912-1938"
+                    }
+                },
+                {
+                    "label": "source",
+                    "persname": {
+                        "source": "local",
+                        "value": "Sprayregen, Ann"
+                    }
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937/1940",
+                    "type": "inclusive",
+                    "value": "1937-1940"
+                },
+                {
+                    "normal": "1937/1938",
+                    "type": "bulk",
+                    "value": "1937-1938"
+                }
+            ],
+            "unitid": "ALBA.292",
+            "unittitle": {
+                "value": "Louis Cohen Papers"
+            }
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_8802bde91547a0515a2ab05125c4e61d",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "langcode": "eng",
-                                "value": "English"
+                                "barcode": "31142062733061",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal - Half",
+                                "id": "aspace_2a7fa85e5cf3ec1a16484cbdef51f9cb",
+                                "type": "box",
+                                "value": "1"
                             }
                         ],
-                        "value": "\n      \n.    "
+                        "unittitle": {
+                            "value": "Unprocessed Records"
+                        }
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Cohen, Louis, 1912-1938"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "value": "Sprayregen, Ann"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937/1940",
-                        "type": "inclusive",
-                        "value": "1937-1940"
-                    },
-                    {
-                        "normal": "1937/1938",
-                        "type": "bulk",
-                        "value": "1937-1938"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.292"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Louis Cohen Papers"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_8802bde91547a0515a2ab05125c4e61d",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062733061",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal - Half",
-                                        "id": "aspace_2a7fa85e5cf3ec1a16484cbdef51f9cb",
-                                        "type": "box",
-                                        "value": "1"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Unprocessed Records"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "scopecontent": [
             {
                 "id": "aspace_196f94f1a3db1d70de306e1d834e0b32",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "This collection consists mostly of correspondence between Abraham Lincoln Brigade volunteer Louis Cohen and his family during 1937 and the subsequent correspondence between Cohen's family and the U.S. Government, International Red Cross, and other organizations after Louis went missing in 1938."
@@ -167,11 +143,9 @@
         "userestrict": [
             {
                 "id": "aspace_8bff41a5c68813cbb4ed01974c60356f",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection was not transferred to New York University. Permission to use materials must be secured from the copyright holder. For more information, please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -180,75 +154,64 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_292"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_292"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "titleproper": [
-                                {
-                                    "value": "Brief Description of the Louis Cohen Papers \u003cspan class=\"ead-num\"\u003eALBA.292\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:36:15 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ]
-                }
-            ]
+                },
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "titleproper": [
+                    {
+                        "value": "Brief Description of the Louis Cohen Papers \u003cspan class=\"ead-num\"\u003eALBA.292\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.292"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:36:15 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            }
         }
-    ]
+    }
 }

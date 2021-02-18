@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_3bca00c4a6b348d18da2c5dbfdc9e72d",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_cc5b347bf7a1b6e9e28b9161b3d7cb57",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Materials found in collection; provenance is unknown. The accession number associate with this collection is 2005.038."
@@ -34,11 +30,9 @@
         "bioghist": [
             {
                 "id": "aspace_ac84821c72898d1c50f400010a7b2b71",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Seymour Melman (1918-2004), an economist who taught industrial engineering at Columbia, helped galvanize the antiwar movement from the 1950's on with analyses of the social costs of military spending, diverting  resources from health care, public housing and education. He was a leading advocate of nuclear disarmament, and a longtime co-chairman of the Committee for a Sane Nuclear Policy. His later  books, including \u003cspan class=\"ead-emph ead-emph-italic\"\u003eAfter Capitalism: From Managerialism to Workplace Economy\u003c/span\u003e (2001), describe the potential of employee self-management, an idea that interested him for decades. As a young man, he briefly lived on a kibbutz in Israel, and later in his career participated in studies and meetings on the productivity of such collective settlements."
@@ -46,121 +40,112 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "persname": [
-                    {
-                        "role": "Former owner",
+        "controlaccess": {
+            "persname": [
+                {
+                    "role": "Former owner",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Lebenstein, S."
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Kibbutzim."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Collective settlements |z Israel."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "2 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(2 boxes)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "container": [
+                {
+                    "barcode": "31142062748051",
+                    "label": "Mixed Materials",
+                    "altrender": "Record carton",
+                    "id": "aspace_a6d35d49dee585be8e137c3713582447",
+                    "type": "box",
+                    "value": "1"
+                },
+                {
+                    "barcode": "31142062748069",
+                    "label": "Mixed Materials",
+                    "altrender": "Record carton",
+                    "id": "aspace_c9de65b6af0571743ae965d4bc7829b8",
+                    "type": "box",
+                    "value": "2"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
+                    }
+                }
+            ],
+            "origination": [
+                {
+                    "label": "source",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
                         "value": "Lebenstein, S."
                     }
-                ],
-                "subject": [
-                    "Kibbutzim.",
-                    "Collective settlements |z Israel."
-                ]
+                },
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Melman, Seymour"
+                    }
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1930/2002",
+                    "type": "inclusive",
+                    "value": "circa 1930s-2000s"
+                }
+            ],
+            "unitid": "TAM.344",
+            "unittitle": {
+                "value": "Seymour Melman Research Files on Israeli Kibbutzim"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "2 Linear Feet"
-                            },
-                            {
-                                "value": "(2 boxes)"
-                            }
-                        ]
-                    }
-                ],
-                "container": [
-                    {
-                        "barcode": "31142062748051",
-                        "label": "Mixed Materials",
-                        "altrender": "Record carton",
-                        "id": "aspace_a6d35d49dee585be8e137c3713582447",
-                        "type": "box",
-                        "value": "1"
-                    },
-                    {
-                        "barcode": "31142062748069",
-                        "label": "Mixed Materials",
-                        "altrender": "Record carton",
-                        "id": "aspace_c9de65b6af0571743ae965d4bc7829b8",
-                        "type": "box",
-                        "value": "2"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "value": "Lebenstein, S."
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Melman, Seymour"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1930/2002",
-                        "type": "inclusive",
-                        "value": "circa 1930s-2000s"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.344"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Seymour Melman Research Files on Israeli Kibbutzim"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {}
-        ],
+        },
+        "dsc": {},
         "scopecontent": [
             {
                 "id": "aspace_ec7ad723977a35b79de9b12d16901d21",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The collection contains Seymour Melman's research files on Israeli Kibbutzim."
@@ -171,11 +156,9 @@
         "userestrict": [
             {
                 "id": "aspace_49280b0c748281a8c1003b31a3a0a8ab",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Tamiment Library and Robert F. Wagner Labor Archive has no information about copyright ownership for this collection and is not authorized to grant permission to publish or reproduce materials from it. Materials in this collection are expected to enter the public domain in 120 years."
@@ -184,87 +167,77 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_344/",
-                    "value": "tam_344"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_344/",
+            "value": "tam_344"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e5/4/2010\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Tamiment staff"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Seymour Melman Research Files on Israeli Kibbutzim \u003cspan class=\"ead-num\"\u003eTAM.344\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:51:49 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e5/4/2010\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "5/4/2010"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Tamiment staff",
+                "titleproper": [
+                    {
+                        "value": "Seymour Melman Research Files on Israeli Kibbutzim \u003cspan class=\"ead-num\"\u003eTAM.344\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.344"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:51:49 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard"
         }
-    ]
+    }
 }

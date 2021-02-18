@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_3e2d461c1dd069a29f7b1ebeed83293e",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,20 @@
         "arrangement": [
             {
                 "id": "aspace_1f196e3a0dccce40ffd4eff98fb6bfe1",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I, Spanish Refugee Aid and Relief"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,11 +46,9 @@
         "bioghist": [
             {
                 "id": "aspace_09007ce0a6d9a2a791be1db0f597312c",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "James Isaac Loeb (1908-1992) was born in Illinois. After receiving his Ph.D. from Northwestern University in 1938, Loeb moved to New York City with his wife, Ellen. There, Loeb's belief in the Spanish republican cause and his passionate desire to combat totalitarianism led him into political activism, beginning what turned into a career of public service."
@@ -56,83 +63,139 @@
                         "value": "Sources:"
                     },
                     {
-                        "value": "\u003cspan class=\"ead-list\"\u003e\u003cspan class=\"ead-item\"\u003eOral History Interviews with James I. Loeb, Truman Presidential Museum and Library\u003c/span\u003e\u003cspan class=\"ead-item\"\u003eThe Papers of James I. Loeb, Dartmouth College Library\u003c/span\u003e\u003c/span\u003e "
+                        "value": "\u003cspan class=\"ead-list\"\u003e\u003cspan class=\"ead-item\"\u003eOral History Interviews with James I. Loeb, Truman Presidential Museum and Library\u003c/span\u003e\u003cspan class=\"ead-item\"\u003eThe Papers of James I. Loeb, Dartmouth College Library\u003c/span\u003e\u003c/span\u003e ",
+                        "list": [
+                            {
+                                "item": [
+                                    {
+                                        "value": "Oral History Interviews with James I. Loeb, Truman Presidential Museum and Library"
+                                    },
+                                    {
+                                        "value": "The Papers of James I. Loeb, Dartmouth College Library"
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Partido Obrero de Unificación Marxista"
-                    },
-                    {
-                        "value": "North American Committee to Aid Spanish Democracy"
-                    },
-                    {
-                        "value": "Medical Bureau to Aid Spanish Democracy"
-                    },
-                    {
-                        "value": "Medical Bureau and North American Committee to Aid Spanish Democracy"
-                    },
-                    {
-                        "value": "Abraham Lincoln Brigade Archives"
-                    },
-                    {
-                        "value": "Socialist Party (U.S.)"
-                    }
-                ],
-                "genreform": [
-                    "Typescripts",
-                    "Personal papers.",
-                    "Drafts (documents)",
-                    "Correspondence.",
-                    "Articles."
-                ],
-                "geogname": [
-                    "Spain -- History -- Civil War, 1936-1939 -- Foreign public opinion",
-                    "Spain -- History -- Civil War, 1936-1939 -- Sources",
-                    "Spain |x History |y Civil War, 1936-1939 |x Causes."
-                ],
-                "persname": [
-                    {
-                        "value": "Thomas, Norman, 1884-1968"
-                    },
-                    {
-                        "value": "Loeb, James I. (James Isaac), 1908-"
-                    },
-                    {
-                        "value": "Baldwin, Roger Nash, 1884-1981"
-                    },
-                    {
-                        "value": "McDowell, Arthur G."
-                    },
-                    {
-                        "value": "Meiklejohn, Kenneth"
-                    },
-                    {
-                        "value": "Ríos, Fernando de los, 1879-1949"
-                    },
-                    {
-                        "value": "Schneebaum, Nandor"
-                    }
-                ],
-                "subject": [
-                    "Socialism -- United States.",
-                    "Spain -- History -- Civil War, 1936-1939.",
-                    "Communism -- Spain -- History."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Partido Obrero de Unificación Marxista"
+                },
+                {
+                    "source": "naf",
+                    "value": "North American Committee to Aid Spanish Democracy"
+                },
+                {
+                    "source": "naf",
+                    "value": "Medical Bureau to Aid Spanish Democracy"
+                },
+                {
+                    "source": "naf",
+                    "value": "Medical Bureau and North American Committee to Aid Spanish Democracy"
+                },
+                {
+                    "source": "naf",
+                    "value": "Abraham Lincoln Brigade Archives"
+                },
+                {
+                    "source": "naf",
+                    "value": "Socialist Party (U.S.)"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Typescripts"
+                },
+                {
+                    "source": "aat",
+                    "value": "Personal papers."
+                },
+                {
+                    "source": "aat",
+                    "value": "Drafts (documents)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Articles."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Foreign public opinion"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Sources"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain |x History |y Civil War, 1936-1939 |x Causes."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Thomas, Norman, 1884-1968"
+                },
+                {
+                    "source": "naf",
+                    "value": "Loeb, James I. (James Isaac), 1908-"
+                },
+                {
+                    "source": "naf",
+                    "value": "Baldwin, Roger Nash, 1884-1981"
+                },
+                {
+                    "source": "naf",
+                    "value": "McDowell, Arthur G."
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Meiklejohn, Kenneth"
+                },
+                {
+                    "source": "naf",
+                    "value": "Ríos, Fernando de los, 1879-1949"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Schneebaum, Nandor"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Socialism -- United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Communism -- Spain -- History."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_c4c27166d5401af8d286b0ed0cc53086",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "The James I. Loeb Papers were donated to Abraham Lincoln Brigade Archives by James I. Loeb in 1969 and 1970. This collection came to New York University in January 2001 as part of the original acquisition of ALBA collections, formerly housed at Brandeis University."
@@ -140,885 +203,778 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "in 1 manscript box"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 1 manscript box",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "James Isaac Loeb (1908-1992), began his career of public service as a member of the Socialist Party, supporting the antifascist effort in Spain during the Spanish Civil War and leading efforts to aid refugees. The collection consists predominantly of correspondence documenting Loeb's efforts to coordinate international aid for refugees, as well as his analyses of international and inter-party politics.",
+                    "id": "aspace_f5209adbe25ceb954ec6fb6f3e09dd53"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English.",
+                    "id": "aspace_844b853858d9a701701df981b2542828"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Loeb, James I. (James Isaac), 1908-"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "James Isaac Loeb (1908-1992), began his career of public service as a member of the Socialist Party, supporting the antifascist effort in Spain during the Spanish Civil War and leading efforts to aid refugees. The collection consists predominantly of correspondence documenting Loeb's efforts to coordinate international aid for refugees, as well as his analyses of international and inter-party politics.",
-                        "id": "aspace_f5209adbe25ceb954ec6fb6f3e09dd53"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_844b853858d9a701701df981b2542828",
-                        "value": "Materials are in English."
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Loeb, James I. (James Isaac), 1908-"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937/1963",
-                        "type": "inclusive",
-                        "value": "1937-1963"
-                    },
-                    {
-                        "normal": "1939/1939",
-                        "type": "bulk",
-                        "value": "1939"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.158"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "James I. Loeb Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937/1963",
+                    "type": "inclusive",
+                    "value": "1937-1963"
+                },
+                {
+                    "normal": "1939/1939",
+                    "type": "bulk",
+                    "value": "1939"
+                }
+            ],
+            "unitid": "ALBA.158",
+            "unittitle": {
+                "value": "James I. Loeb Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref14",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref15",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref14",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref15",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_bc9f72a2666b94b739a00adaf23aa92b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c5a8cccef7264294608e288e1b7d25f7",
-                                                "parent": "aspace_bc9f72a2666b94b739a00adaf23aa92b",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1953/1973",
-                                                "type": "inclusive",
-                                                "value": "ca.1963"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "The Appeal to Unity: Section of book proposal by Loeb (typescript)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_bc9f72a2666b94b739a00adaf23aa92b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_5111645a050a5470c646e72b6eaa4eb7",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_784264c24f1868b744368428789f51d7",
-                                                "parent": "aspace_5111645a050a5470c646e72b6eaa4eb7",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1963",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Bibliography: Spanish Civil War material"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_f01992284f07b3e31abaae42018ab0a0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_004341a565b20d13045da2f876dd6efb",
-                                                "parent": "aspace_f01992284f07b3e31abaae42018ab0a0",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1939",
-                                                "type": "inclusive",
-                                                "value": "1938-1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clippings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_0723db1ec816d53a74bcb2ead82c13fa",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_10b20c0e78720ae95590fdc00b444f68",
-                                                "parent": "aspace_0723db1ec816d53a74bcb2ead82c13fa",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Argentine Socialist Party"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_c807f2965954505cd6b8359570307822",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7a69d24d25ac52b268eafa98c48a3a3c",
-                                                "parent": "aspace_c807f2965954505cd6b8359570307822",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Baldwin, Roger"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_53d323a4769b533d331f589b689d0590",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_986fb6a73b540789b02e2c884006f4f5",
-                                                "parent": "aspace_53d323a4769b533d331f589b689d0590",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 1939-Mar 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Castro, José"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_11a445cbb85b2a66151bf27131cd5ba1",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9aae2ee37fefecb83820588e08384633",
-                                                "parent": "aspace_11a445cbb85b2a66151bf27131cd5ba1",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1963",
-                                                "type": "inclusive",
-                                                "value": "undated , Feb 1937-Apr 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: General"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_0237d693d11578c5228f711b4c3b071c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_04254f389318989af52a5971a11fd132",
-                                                "parent": "aspace_0237d693d11578c5228f711b4c3b071c",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1963",
-                                                "type": "inclusive",
-                                                "value": "undated , May 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Letters to the Editor"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a6139966276db713633d1bb2775afb7d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e2c65e6f99c6c6a1fc9d3a33e43cc413",
-                                                "parent": "aspace_a6139966276db713633d1bb2775afb7d",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Mar 1939-Apr 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: McDowell, Arthur G."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_0f973f7a39699ce070b174d5d535e49d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_cdd281f0b27462464a30786be664227b",
-                                                "parent": "aspace_0f973f7a39699ce070b174d5d535e49d",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1963",
-                                                "type": "inclusive",
-                                                "value": "undated , Jan 1938, Jan 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Meiklejohn, Kenneth"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_749d6d430228c4a8a511f2e78a6e9e57",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7aecdf3a286911312c54b86fbd4fa243",
-                                                "parent": "aspace_749d6d430228c4a8a511f2e78a6e9e57",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Mar 1939-May 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Plaza, Juan M."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_f16c760f758755526e8f20b16e2de96c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_311de1b7a8116ec67e901cb1b97c0135",
-                                                "parent": "aspace_f16c760f758755526e8f20b16e2de96c",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1963",
-                                                "type": "inclusive",
-                                                "value": "undated , Jan 1937, Apr 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Ríos, Fernando de los"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_ee0bd9392f5fdc4f92ac9754362d4e60",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a2d21047d6c498c013053c7405d226af",
-                                                "parent": "aspace_ee0bd9392f5fdc4f92ac9754362d4e60",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Mar 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Schneebaum, Nandor"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_790ab9542d3eb030d3e89ea36c70e2e5",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_fda3ec6c243d9400cdcd143b9db0d0bb",
-                                                "parent": "aspace_790ab9542d3eb030d3e89ea36c70e2e5",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 1938-Apr 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Spanish Civil War refugees"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_29bc642c85dd9523040ba1ed0f84525a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_f9edb4592ee03f928a62711fa52842e5",
-                                                "parent": "aspace_29bc642c85dd9523040ba1ed0f84525a",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Dec 1937-Apr 1939 , Mar 1952"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Thomas, Norman"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_eecee04a90c937fea446daccf5cd9c60",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b78c9dd009a5b4c0e8fd5932d57ca27d",
-                                                "parent": "aspace_eecee04a90c937fea446daccf5cd9c60",
-                                                "type": "folder",
-                                                "value": "16"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Nov 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "International Labor Solidarity Committee of the Socialist Party: Minutes"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_2d96901a542bd58b1e4a575bd6276253",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6b79bde4fb0701d2d4ec4a2066a9cc35",
-                                                "parent": "aspace_2d96901a542bd58b1e4a575bd6276253",
-                                                "type": "folder",
-                                                "value": "17"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Medical Bureau and North American Committee to Aid Spanish Democracy: Flyers"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_4340017d9c66f1a468bd392d80d63164",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_3e84aa08b7800171b35681f00cd90ed6",
-                                                "parent": "aspace_4340017d9c66f1a468bd392d80d63164",
-                                                "type": "folder",
-                                                "value": "18"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1929/1949",
-                                                "type": "inclusive",
-                                                "value": "ca.1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Medical Bureau and North American Committee to Aid Spanish Democracy: Socialist statement of withdrawal from (typescript)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_35654411f471c89748c8e4a6f558ee98",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_671f6b185e8f5382ea5ab12a96e6d1ee",
-                                                "parent": "aspace_35654411f471c89748c8e4a6f558ee98",
-                                                "type": "folder",
-                                                "value": "19"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1939",
-                                                "type": "inclusive",
-                                                "value": "1937 , 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Newsletters (in Spanish): Boletín Interior; Confederacion Naccional del Trabajo"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_749c4fd736fb7b112cfe0f4e6f7ae0ab",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_861e450bb41aa815463610d730c43464",
-                                                "parent": "aspace_749c4fd736fb7b112cfe0f4e6f7ae0ab",
-                                                "type": "folder",
-                                                "value": "20"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1939/1939",
-                                                "type": "inclusive",
-                                                "value": "1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spain's Tragedy: Socialist Party statement on political situation in Spain"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref35",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_f02607461d93145fc43e1a3254254bd9",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6c2754d144badfbfe81e2f34da9a4b14",
-                                                "parent": "aspace_f02607461d93145fc43e1a3254254bd9",
-                                                "type": "folder",
-                                                "value": "21"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Embassy in France: Authorization for Loeb's travel to Spain"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref36",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757029",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_87d6b50e05d6a72b943b7a2bde5efd8b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_47fc9e6481955f5f548b0c55ed734259",
-                                                "parent": "aspace_87d6b50e05d6a72b943b7a2bde5efd8b",
-                                                "type": "folder",
-                                                "value": "22"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1929/1961",
-                                                "type": "inclusive",
-                                                "value": "ca.1939 , ca.1951"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Civil War refugees: Statements regarding"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_c5a8cccef7264294608e288e1b7d25f7",
+                                        "parent": "aspace_bc9f72a2666b94b739a00adaf23aa92b",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: Spanish Refugee Aid and Relief"
+                                        "normal": "1953/1973",
+                                        "type": "inclusive",
+                                        "value": "ca.1963"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "The Appeal to Unity: Section of book proposal by Loeb (typescript)"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_5111645a050a5470c646e72b6eaa4eb7",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_784264c24f1868b744368428789f51d7",
+                                        "parent": "aspace_5111645a050a5470c646e72b6eaa4eb7",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1963",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Bibliography: Spanish Civil War material"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_f01992284f07b3e31abaae42018ab0a0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_004341a565b20d13045da2f876dd6efb",
+                                        "parent": "aspace_f01992284f07b3e31abaae42018ab0a0",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1939",
+                                        "type": "inclusive",
+                                        "value": "1938-1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Clippings"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_0723db1ec816d53a74bcb2ead82c13fa",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_10b20c0e78720ae95590fdc00b444f68",
+                                        "parent": "aspace_0723db1ec816d53a74bcb2ead82c13fa",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Feb 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Argentine Socialist Party"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_c807f2965954505cd6b8359570307822",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7a69d24d25ac52b268eafa98c48a3a3c",
+                                        "parent": "aspace_c807f2965954505cd6b8359570307822",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Feb 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Baldwin, Roger"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_53d323a4769b533d331f589b689d0590",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_986fb6a73b540789b02e2c884006f4f5",
+                                        "parent": "aspace_53d323a4769b533d331f589b689d0590",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Feb 1939-Mar 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Castro, José"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_11a445cbb85b2a66151bf27131cd5ba1",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9aae2ee37fefecb83820588e08384633",
+                                        "parent": "aspace_11a445cbb85b2a66151bf27131cd5ba1",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1963",
+                                        "type": "inclusive",
+                                        "value": "undated , Feb 1937-Apr 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: General"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_0237d693d11578c5228f711b4c3b071c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_04254f389318989af52a5971a11fd132",
+                                        "parent": "aspace_0237d693d11578c5228f711b4c3b071c",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1963",
+                                        "type": "inclusive",
+                                        "value": "undated , May 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Letters to the Editor"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a6139966276db713633d1bb2775afb7d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e2c65e6f99c6c6a1fc9d3a33e43cc413",
+                                        "parent": "aspace_a6139966276db713633d1bb2775afb7d",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Mar 1939-Apr 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: McDowell, Arthur G."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_0f973f7a39699ce070b174d5d535e49d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_cdd281f0b27462464a30786be664227b",
+                                        "parent": "aspace_0f973f7a39699ce070b174d5d535e49d",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1963",
+                                        "type": "inclusive",
+                                        "value": "undated , Jan 1938, Jan 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Meiklejohn, Kenneth"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_749d6d430228c4a8a511f2e78a6e9e57",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7aecdf3a286911312c54b86fbd4fa243",
+                                        "parent": "aspace_749d6d430228c4a8a511f2e78a6e9e57",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Mar 1939-May 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Plaza, Juan M."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_f16c760f758755526e8f20b16e2de96c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_311de1b7a8116ec67e901cb1b97c0135",
+                                        "parent": "aspace_f16c760f758755526e8f20b16e2de96c",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1963",
+                                        "type": "inclusive",
+                                        "value": "undated , Jan 1937, Apr 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Ríos, Fernando de los"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_ee0bd9392f5fdc4f92ac9754362d4e60",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a2d21047d6c498c013053c7405d226af",
+                                        "parent": "aspace_ee0bd9392f5fdc4f92ac9754362d4e60",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Mar 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Schneebaum, Nandor"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_790ab9542d3eb030d3e89ea36c70e2e5",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_fda3ec6c243d9400cdcd143b9db0d0bb",
+                                        "parent": "aspace_790ab9542d3eb030d3e89ea36c70e2e5",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Feb 1938-Apr 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Spanish Civil War refugees"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_29bc642c85dd9523040ba1ed0f84525a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_f9edb4592ee03f928a62711fa52842e5",
+                                        "parent": "aspace_29bc642c85dd9523040ba1ed0f84525a",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Dec 1937-Apr 1939 , Mar 1952"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Thomas, Norman"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_eecee04a90c937fea446daccf5cd9c60",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b78c9dd009a5b4c0e8fd5932d57ca27d",
+                                        "parent": "aspace_eecee04a90c937fea446daccf5cd9c60",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Nov 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "International Labor Solidarity Committee of the Socialist Party: Minutes"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_2d96901a542bd58b1e4a575bd6276253",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6b79bde4fb0701d2d4ec4a2066a9cc35",
+                                        "parent": "aspace_2d96901a542bd58b1e4a575bd6276253",
+                                        "type": "folder",
+                                        "value": "17"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Apr 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Medical Bureau and North American Committee to Aid Spanish Democracy: Flyers"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_4340017d9c66f1a468bd392d80d63164",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_3e84aa08b7800171b35681f00cd90ed6",
+                                        "parent": "aspace_4340017d9c66f1a468bd392d80d63164",
+                                        "type": "folder",
+                                        "value": "18"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1929/1949",
+                                        "type": "inclusive",
+                                        "value": "ca.1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Medical Bureau and North American Committee to Aid Spanish Democracy: Socialist statement of withdrawal from (typescript)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_35654411f471c89748c8e4a6f558ee98",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_671f6b185e8f5382ea5ab12a96e6d1ee",
+                                        "parent": "aspace_35654411f471c89748c8e4a6f558ee98",
+                                        "type": "folder",
+                                        "value": "19"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1939",
+                                        "type": "inclusive",
+                                        "value": "1937 , 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Newsletters (in Spanish): Boletín Interior; Confederacion Naccional del Trabajo"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_749c4fd736fb7b112cfe0f4e6f7ae0ab",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_861e450bb41aa815463610d730c43464",
+                                        "parent": "aspace_749c4fd736fb7b112cfe0f4e6f7ae0ab",
+                                        "type": "folder",
+                                        "value": "20"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1939/1939",
+                                        "type": "inclusive",
+                                        "value": "1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spain's Tragedy: Socialist Party statement on political situation in Spain"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref35",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_f02607461d93145fc43e1a3254254bd9",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6c2754d144badfbfe81e2f34da9a4b14",
+                                        "parent": "aspace_f02607461d93145fc43e1a3254254bd9",
+                                        "type": "folder",
+                                        "value": "21"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Aug 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Embassy in France: Authorization for Loeb's travel to Spain"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref36",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757029",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_87d6b50e05d6a72b943b7a2bde5efd8b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_47fc9e6481955f5f548b0c55ed734259",
+                                        "parent": "aspace_87d6b50e05d6a72b943b7a2bde5efd8b",
+                                        "type": "folder",
+                                        "value": "22"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1929/1961",
+                                        "type": "inclusive",
+                                        "value": "ca.1939 , ca.1951"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Civil War refugees: Statements regarding"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Spanish Refugee Aid and Relief"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_5ed86578156cf75580e3a97d89ce7266",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; James I. Loeb Papers; ALBA 151; box number; folder number; Tamiment Library/Robert F. Wagner Labor Archives, New York University."
@@ -1029,11 +985,9 @@
         "scopecontent": [
             {
                 "id": "aspace_925bdd0f131cdb24bf8eae10e86d4f49",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The bulk of the collection consists of correspondence documenting Loeb's efforts to coordinate international aid for refugees of the Spanish Civil War, as well as his analyses of international and inter-party politics. Index cards with notes in blue felt tip pen interspersed throughout the collection were probably written by Loeb around 1970 in preparation to donate the materials to the Abraham Lincoln Brigade Archives."
@@ -1050,11 +1004,9 @@
         "userestrict": [
             {
                 "id": "aspace_15d1611c60492e4938a8333e824cc679",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Abraham Lincoln Brigade Archives (ALBA), were transferred to New York University in November 2000 by the ALBA Board of Governors. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -1063,97 +1015,91 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/alba_158",
-                    "value": "alba_158"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/alba_158",
+            "value": "alba_158"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from loeb.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from loeb.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Wendy Scheir"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the James I. Loeb Papers \u003cspan class=\"ead-num\"\u003eALBA.158\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Wendy Scheir",
+                "titleproper": [
+                    {
+                        "value": "Guide to the James I. Loeb Papers \u003cspan class=\"ead-num\"\u003eALBA.158\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.158"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:35:19 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:35:19 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_019ab440b7cf13cac8f45f012a90b78c",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "arrangement": [
             {
                 "id": "aspace_6b491c54809f02e5181ab68752ed3516",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "The files are grouped into four series: Class Histories, Correspondence, Photographs and Bound Materials, and Miscellaneous."
@@ -34,11 +30,9 @@
         "bioghist": [
             {
                 "id": "aspace_f72824c4e16221cb385e603af50c8c49",
-                "head": [
-                    {
-                        "value": "Biography of James John Stevenson"
-                    }
-                ],
+                "head": {
+                    "value": "Biography of James John Stevenson"
+                },
                 "p": [
                     {
                         "value": "James John Stevenson was the son of the Andrew Stevenson of Ballylaw, Ireland, and Ann Mary (Wilson) Stevenson, a native of Bedford, Pennsylvania. The elder Stevenson emigrated to America in 1831, and James Stevenson was born in 1841."
@@ -82,97 +76,146 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "New York University. Faculty of Arts and Science"
-                    },
-                    {
-                        "value": "Alumni Federation of New York University, Inc"
-                    }
-                ],
-                "genreform": [
-                    "Biographies.",
-                    "Autobiographies.",
-                    "Correspondence."
-                ],
-                "geogname": [
-                    "New York (N.Y.)."
-                ],
-                "persname": [
-                    {
-                        "value": "Park, A. J."
-                    },
-                    {
-                        "value": "Williams, Henry Truman"
-                    },
-                    {
-                        "value": "Walsh, James Robertson"
-                    },
-                    {
-                        "value": "Van Riper, Cornelius"
-                    },
-                    {
-                        "value": "Ten Broeck, Arthur Welesley"
-                    },
-                    {
-                        "value": "Stokes, James, Jr."
-                    },
-                    {
-                        "value": "Burnet, James Brown"
-                    },
-                    {
-                        "value": "Cochran, James, Jr."
-                    },
-                    {
-                        "value": "Demarest, J. K. (John Kay), 1843-1892"
-                    },
-                    {
-                        "value": "Dripps, J. F. (Joseph Frederick), 1844-1914"
-                    },
-                    {
-                        "value": "Ludlum, Charles Henry"
-                    },
-                    {
-                        "value": "Baird, William Chester"
-                    },
-                    {
-                        "value": "Barnes, C. R. (Charles Randall), b. 1836"
-                    },
-                    {
-                        "value": "Martin, Daniel S. (Daniel Strobel), 1842"
-                    },
-                    {
-                        "value": "Robinson, George W. (George Washington), 1872-"
-                    },
-                    {
-                        "value": "Stead, Alfred Jenks"
-                    },
-                    {
-                        "value": "Graham, J. (James)"
-                    },
-                    {
-                        "value": "Hendrickson, Skidmore"
-                    },
-                    {
-                        "value": "Holmes, Hamilton Bishop"
-                    }
-                ],
-                "subject": [
-                    "Universities and Colleges -- Alumni and alumnae.",
-                    "Students"
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "New York University. Faculty of Arts and Science"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Alumni Federation of New York University, Inc"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Biographies."
+                },
+                {
+                    "source": "aat",
+                    "value": "Autobiographies."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "New York (N.Y.)."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Park, A. J."
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Williams, Henry Truman"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Walsh, James Robertson"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Van Riper, Cornelius"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Ten Broeck, Arthur Welesley"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Stokes, James, Jr."
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Burnet, James Brown"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Cochran, James, Jr."
+                },
+                {
+                    "source": "naf",
+                    "value": "Demarest, J. K. (John Kay), 1843-1892"
+                },
+                {
+                    "source": "naf",
+                    "value": "Dripps, J. F. (Joseph Frederick), 1844-1914"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Ludlum, Charles Henry"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Baird, William Chester"
+                },
+                {
+                    "source": "naf",
+                    "value": "Barnes, C. R. (Charles Randall), b. 1836"
+                },
+                {
+                    "rules": "aacr",
+                    "source": "naf",
+                    "value": "Martin, Daniel S. (Daniel Strobel), 1842"
+                },
+                {
+                    "source": "naf",
+                    "value": "Robinson, George W. (George Washington), 1872-"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Stead, Alfred Jenks"
+                },
+                {
+                    "source": "naf",
+                    "value": "Graham, J. (James)"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Hendrickson, Skidmore"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Holmes, Hamilton Bishop"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Universities and Colleges -- Alumni and alumnae."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Students"
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_1b5bd0c247e6e67300d35bb0be25afa9",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "This collection was originally part of the NYU Historical Collection at the Gould Memorial Library at the University Heights campus. It was transferred to the Washington Square campus when the University Heights campus closed."
@@ -180,1121 +223,984 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "1.5 Linear Feet"
-                            },
-                            {
-                                "value": "in 3 manuscript boxes"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 3 manuscript boxes",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "James John Stevenson was a geologist, chemist, writer, and professor at New York University (NYU). He also was class historian for NYU's Class of 1863. These papers are Stevenson's collection of materials (correspondence, photographs and biographies) regarding the Class of 1863.",
+                    "id": "aspace_5b1973eccbd4d84419204468e56fb89a"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English.",
+                    "id": "aspace_59aed9dfea4709823380b2fc3fa5e0e0"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Stevenson, John J. (John James), 1841-1924"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "James John Stevenson was a geologist, chemist, writer, and professor at New York University (NYU). He also was class historian for NYU's Class of 1863. These papers are Stevenson's collection of materials (correspondence, photographs and biographies) regarding the Class of 1863.",
-                        "id": "aspace_5b1973eccbd4d84419204468e56fb89a"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_59aed9dfea4709823380b2fc3fa5e0e0",
-                        "value": "Materials are in English."
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Stevenson, John J. (John James), 1841-1924"
-                            }
-                        ]
-                    }
-                ],
-                "physloc": [
-                    {
-                        "id": "aspace_76ee508a83dbf4c68529548afcd99611",
-                        "value": "Materials are stored offsite and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "New York University Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1880/1934",
-                        "type": "inclusive",
-                        "value": "1880-1934"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "MC.18"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "John James Stevenson Papers"
-                    }
-                ]
+                }
+            ],
+            "physloc": [
+                {
+                    "id": "aspace_76ee508a83dbf4c68529548afcd99611",
+                    "value": "Materials are stored offsite and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "New York University Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1880/1934",
+                    "type": "inclusive",
+                    "value": "1880-1934"
+                }
+            ],
+            "unitid": "MC.18",
+            "unittitle": {
+                "value": "John James Stevenson Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref18",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref18",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_4077e6364e38168c479f3c0ae42f4316",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1d1142786f99d5c3a0e285c0cff1b771",
-                                                "parent": "aspace_4077e6364e38168c479f3c0ae42f4316",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1883/1934",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "A History of the Class of 1863"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_4077e6364e38168c479f3c0ae42f4316",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_98964508476f18ef9380509f929e4448",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_92f595038635a01a6fe2e1607816c44e",
-                                                "parent": "aspace_98964508476f18ef9380509f929e4448",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1883/1934",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Biographical Sketches of the Class of 1863"
-                                            }
-                                        ]
+                                        "id": "aspace_1d1142786f99d5c3a0e285c0cff1b771",
+                                        "parent": "aspace_4077e6364e38168c479f3c0ae42f4316",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
+                                ],
+                                "unitdate": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_c0eea78f19934112f5a15d376d58ce3a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_f0be0ebd256aac1d8e3789da390324b6",
-                                                "parent": "aspace_c0eea78f19934112f5a15d376d58ce3a",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1883/1934",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Autobiographical Sketches of the Class of 1863"
-                                            }
-                                        ]
+                                        "normal": "1883/1934",
+                                        "type": "inclusive",
+                                        "value": "undated"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "A History of the Class of 1863"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Series I: Class History"
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_98964508476f18ef9380509f929e4448",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_92f595038635a01a6fe2e1607816c44e",
+                                        "parent": "aspace_98964508476f18ef9380509f929e4448",
+                                        "type": "folder",
+                                        "value": "2"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1883/1934",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Biographical Sketches of the Class of 1863"
+                                }
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref22",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_432e767809a78e09e261de22c1c9c2ba",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_cc89e2b77dfb5c84fcf2fca0164aeb03",
-                                                "parent": "aspace_432e767809a78e09e261de22c1c9c2ba",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1903/1913",
-                                                "type": "inclusive",
-                                                "value": "1903-1913"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Baird Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_c0eea78f19934112f5a15d376d58ce3a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_93099106fe717d790e4fc5b865529a8e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8aa3633b09329683c3173bfd57d251ee",
-                                                "parent": "aspace_93099106fe717d790e4fc5b865529a8e",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1903/1921",
-                                                "type": "inclusive",
-                                                "value": "1903-1921"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Barnes Correspondence"
-                                            }
-                                        ]
+                                        "id": "aspace_f0be0ebd256aac1d8e3789da390324b6",
+                                        "parent": "aspace_c0eea78f19934112f5a15d376d58ce3a",
+                                        "type": "folder",
+                                        "value": "3"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
+                                ],
+                                "unitdate": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_27aff00188eb89e50da248868b196c82",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9a2cee13b031af06274514af28478de1",
-                                                "parent": "aspace_27aff00188eb89e50da248868b196c82",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1883/1908",
-                                                "type": "inclusive",
-                                                "value": "1883-1908"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Burnet Correspondence"
-                                            }
-                                        ]
+                                        "normal": "1883/1934",
+                                        "type": "inclusive",
+                                        "value": "undated"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_aa829096697de51235f6503d6cbdbb08",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6a35b2f6a96e0c865d1d1d05f45fa083",
-                                                "parent": "aspace_aa829096697de51235f6503d6cbdbb08",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1883/1914",
-                                                "type": "inclusive",
-                                                "value": "1883-1914"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Cochran Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_2850b9ce68f5074c318ef09050d52a72",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_46993a19bb6d44a0ae1870d867a23bd3",
-                                                "parent": "aspace_2850b9ce68f5074c318ef09050d52a72",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1883/1913",
-                                                "type": "inclusive",
-                                                "value": "1883-1913"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Demarest Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_6668b1d7811af49f1527c803bc5a987c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_715150d771c8218dea8b1693aa7490df",
-                                                "parent": "aspace_6668b1d7811af49f1527c803bc5a987c",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1901/1914",
-                                                "type": "inclusive",
-                                                "value": "1901-1914"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Dripps Correspondene"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_0370ff429e90d68dfd35c4f731732160",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4eb60589879cf52fb7940114719fc5bc",
-                                                "parent": "aspace_0370ff429e90d68dfd35c4f731732160",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1883/1917",
-                                                "type": "inclusive",
-                                                "value": "1883-1917"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Hendrickson Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_b2e26d3477f2c506758973c71b9b9412",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d2d53466714735cf28489b4aaaf9d2b4",
-                                                "parent": "aspace_b2e26d3477f2c506758973c71b9b9412",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1888/1913",
-                                                "type": "inclusive",
-                                                "value": "1888-1913"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Holmes Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_ee784e1562eace9cc36d261d65102c63",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_fb7666e8eb0dbcdb77c136d760e2408e",
-                                                "parent": "aspace_ee784e1562eace9cc36d261d65102c63",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1903/1923",
-                                                "type": "inclusive",
-                                                "value": "1903-1923"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Ludlum Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_691d9e576504b18212fe4206d1c85322",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_af162b3aa19c714c68040e91ece8651d",
-                                                "parent": "aspace_691d9e576504b18212fe4206d1c85322",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1870/1922",
-                                                "type": "inclusive",
-                                                "value": "1870-1922"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Martin Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_1e56d9ccb1a276a891dab87dc0ab9f5b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7db334abca0a3dd1e33c46d04ed7490f",
-                                                "parent": "aspace_1e56d9ccb1a276a891dab87dc0ab9f5b",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1900/1922",
-                                                "type": "inclusive",
-                                                "value": "1900-1922"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Mason Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_2edcf9123af2b46ff141365a93cc1421",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4fab2e3c90041de5a10d10bc65b0eaeb",
-                                                "parent": "aspace_2edcf9123af2b46ff141365a93cc1421",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1893/1918",
-                                                "type": "inclusive",
-                                                "value": "1893-1918"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Park Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref35",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_8fd82ebed991797f9cb544305a6ed62f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6b6b836af2c740332a7791cb9b72d75b",
-                                                "parent": "aspace_8fd82ebed991797f9cb544305a6ed62f",
-                                                "type": "folder",
-                                                "value": "16"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1900/1913",
-                                                "type": "inclusive",
-                                                "value": "1900-1913"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Robinson Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref36",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_8b1634929adc311f0ff4c42f98ca3d1e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b33fa26e7aa9d8717ec9314620c7ec78",
-                                                "parent": "aspace_8b1634929adc311f0ff4c42f98ca3d1e",
-                                                "type": "folder",
-                                                "value": "17"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1883/1914",
-                                                "type": "inclusive",
-                                                "value": "1883-1914"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Stead Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref37",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_b82606293378e0e9c46a16469294063a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_88aaa8625dfbf29f9209fd9e5e18ee24",
-                                                "parent": "aspace_b82606293378e0e9c46a16469294063a",
-                                                "type": "folder",
-                                                "value": "18"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1888/1918",
-                                                "type": "inclusive",
-                                                "value": "1888-1918"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Stokes Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref38",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066909",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_ccdf93c99c256fd0bb9e147bcc967c27",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_58f933964fb0de25abc8ba18a2892bd9",
-                                                "parent": "aspace_ccdf93c99c256fd0bb9e147bcc967c27",
-                                                "type": "folder",
-                                                "value": "19"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1883/1912",
-                                                "type": "inclusive",
-                                                "value": "1883-1912"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Ted Broeck Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref39",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066917",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_1341de345e104b5d35ca5a8da287b31e",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_acbb2eb5bec2ac4e34c42e4eaf9d93f5",
-                                                "parent": "aspace_1341de345e104b5d35ca5a8da287b31e",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1900/1918",
-                                                "type": "inclusive",
-                                                "value": "1900-1918"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Van Riper Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref40",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066917",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_5e7277db8877264d8ba03c9b20d6e3b3",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_985f9d9107e1c2170a6acc783e77386e",
-                                                "parent": "aspace_5e7277db8877264d8ba03c9b20d6e3b3",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1883/1919",
-                                                "type": "inclusive",
-                                                "value": "1883-1919"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Walsh Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref41",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066917",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_7f84a035490eaab93ad71ccb53d209ee",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_9a9c65b9f782f7270e40911978b4d227",
-                                                "parent": "aspace_7f84a035490eaab93ad71ccb53d209ee",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1900/1915",
-                                                "type": "inclusive",
-                                                "value": "1900-1915"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson-Williams Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Autobiographical Sketches of the Class of 1863"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
-                                    {
-                                        "value": "Series II: Correspondence"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref42",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref43",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066917",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_02879485fe5428d648c49b206512532d",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_c7d785c3c9c0a20e6f5015d240346e61",
-                                                "parent": "aspace_02879485fe5428d648c49b206512532d",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1908/1908",
-                                                "value": "1908"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Photographs"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref44",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066917",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_cd39d33f913445b2d5d4ddb5c073fd42",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_4e498d1a42c8719608748a427ebb9e8a",
-                                                "parent": "aspace_cd39d33f913445b2d5d4ddb5c073fd42",
-                                                "type": "folder",
-                                                "value": "5-6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1883/1934",
-                                                "type": "inclusive",
-                                                "value": "1883-1934"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Bound Materials and Books"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
-                                    {
-                                        "value": "Series III: Photographs and Bound Materials"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref45",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref46",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066917",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_52ece53361e7cedc0661a88b20076157",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_d0b170178d09a1a958fdbbe8f4f1ad84",
-                                                "parent": "aspace_52ece53361e7cedc0661a88b20076157",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1889/1917",
-                                                "type": "inclusive",
-                                                "value": "1889-1917"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stevenson Miscellaneous"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref47",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066917",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_f8d9dc98bcd4b608bccc8d374a091691",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_047e30c2c06cb2498ed6075b486c80d8",
-                                                "parent": "aspace_f8d9dc98bcd4b608bccc8d374a091691",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1915/1924",
-                                                "type": "inclusive",
-                                                "value": "1915-1924"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Ludlum Personal Memorabilia"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_e9e5d7457e301b943c5ea811f1f577a5",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063066925",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_26985e59c11db15e485f39f2b101a88e",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_74dc8383f7e48eed8703da57f467e91c",
-                                                "parent": "aspace_26985e59c11db15e485f39f2b101a88e",
-                                                "type": "folder",
-                                                "value": "1-6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1880/1924",
-                                                "type": "inclusive",
-                                                "value": "1880-1924"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence, clippings, and envelopes"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
-                                    {
-                                        "value": "Series IV: Miscellaneous"
-                                    }
-                                ]
-                            }
-                        ]
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series I: Class History"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref22",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_432e767809a78e09e261de22c1c9c2ba",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_cc89e2b77dfb5c84fcf2fca0164aeb03",
+                                        "parent": "aspace_432e767809a78e09e261de22c1c9c2ba",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1903/1913",
+                                        "type": "inclusive",
+                                        "value": "1903-1913"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Baird Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_93099106fe717d790e4fc5b865529a8e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8aa3633b09329683c3173bfd57d251ee",
+                                        "parent": "aspace_93099106fe717d790e4fc5b865529a8e",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1903/1921",
+                                        "type": "inclusive",
+                                        "value": "1903-1921"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Barnes Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_27aff00188eb89e50da248868b196c82",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9a2cee13b031af06274514af28478de1",
+                                        "parent": "aspace_27aff00188eb89e50da248868b196c82",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1883/1908",
+                                        "type": "inclusive",
+                                        "value": "1883-1908"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Burnet Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_aa829096697de51235f6503d6cbdbb08",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6a35b2f6a96e0c865d1d1d05f45fa083",
+                                        "parent": "aspace_aa829096697de51235f6503d6cbdbb08",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1883/1914",
+                                        "type": "inclusive",
+                                        "value": "1883-1914"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Cochran Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_2850b9ce68f5074c318ef09050d52a72",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_46993a19bb6d44a0ae1870d867a23bd3",
+                                        "parent": "aspace_2850b9ce68f5074c318ef09050d52a72",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1883/1913",
+                                        "type": "inclusive",
+                                        "value": "1883-1913"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Demarest Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_6668b1d7811af49f1527c803bc5a987c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_715150d771c8218dea8b1693aa7490df",
+                                        "parent": "aspace_6668b1d7811af49f1527c803bc5a987c",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1901/1914",
+                                        "type": "inclusive",
+                                        "value": "1901-1914"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Dripps Correspondene"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_0370ff429e90d68dfd35c4f731732160",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4eb60589879cf52fb7940114719fc5bc",
+                                        "parent": "aspace_0370ff429e90d68dfd35c4f731732160",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1883/1917",
+                                        "type": "inclusive",
+                                        "value": "1883-1917"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Hendrickson Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_b2e26d3477f2c506758973c71b9b9412",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d2d53466714735cf28489b4aaaf9d2b4",
+                                        "parent": "aspace_b2e26d3477f2c506758973c71b9b9412",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1888/1913",
+                                        "type": "inclusive",
+                                        "value": "1888-1913"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Holmes Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_ee784e1562eace9cc36d261d65102c63",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_fb7666e8eb0dbcdb77c136d760e2408e",
+                                        "parent": "aspace_ee784e1562eace9cc36d261d65102c63",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1903/1923",
+                                        "type": "inclusive",
+                                        "value": "1903-1923"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Ludlum Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_691d9e576504b18212fe4206d1c85322",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_af162b3aa19c714c68040e91ece8651d",
+                                        "parent": "aspace_691d9e576504b18212fe4206d1c85322",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1870/1922",
+                                        "type": "inclusive",
+                                        "value": "1870-1922"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Martin Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_1e56d9ccb1a276a891dab87dc0ab9f5b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7db334abca0a3dd1e33c46d04ed7490f",
+                                        "parent": "aspace_1e56d9ccb1a276a891dab87dc0ab9f5b",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1900/1922",
+                                        "type": "inclusive",
+                                        "value": "1900-1922"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Mason Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_2edcf9123af2b46ff141365a93cc1421",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4fab2e3c90041de5a10d10bc65b0eaeb",
+                                        "parent": "aspace_2edcf9123af2b46ff141365a93cc1421",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1893/1918",
+                                        "type": "inclusive",
+                                        "value": "1893-1918"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Park Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref35",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_8fd82ebed991797f9cb544305a6ed62f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6b6b836af2c740332a7791cb9b72d75b",
+                                        "parent": "aspace_8fd82ebed991797f9cb544305a6ed62f",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1900/1913",
+                                        "type": "inclusive",
+                                        "value": "1900-1913"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Robinson Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref36",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_8b1634929adc311f0ff4c42f98ca3d1e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b33fa26e7aa9d8717ec9314620c7ec78",
+                                        "parent": "aspace_8b1634929adc311f0ff4c42f98ca3d1e",
+                                        "type": "folder",
+                                        "value": "17"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1883/1914",
+                                        "type": "inclusive",
+                                        "value": "1883-1914"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Stead Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref37",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_b82606293378e0e9c46a16469294063a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_88aaa8625dfbf29f9209fd9e5e18ee24",
+                                        "parent": "aspace_b82606293378e0e9c46a16469294063a",
+                                        "type": "folder",
+                                        "value": "18"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1888/1918",
+                                        "type": "inclusive",
+                                        "value": "1888-1918"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Stokes Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref38",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066909",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_ccdf93c99c256fd0bb9e147bcc967c27",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_58f933964fb0de25abc8ba18a2892bd9",
+                                        "parent": "aspace_ccdf93c99c256fd0bb9e147bcc967c27",
+                                        "type": "folder",
+                                        "value": "19"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1883/1912",
+                                        "type": "inclusive",
+                                        "value": "1883-1912"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Ted Broeck Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref39",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066917",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_1341de345e104b5d35ca5a8da287b31e",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_acbb2eb5bec2ac4e34c42e4eaf9d93f5",
+                                        "parent": "aspace_1341de345e104b5d35ca5a8da287b31e",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1900/1918",
+                                        "type": "inclusive",
+                                        "value": "1900-1918"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Van Riper Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref40",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066917",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_5e7277db8877264d8ba03c9b20d6e3b3",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_985f9d9107e1c2170a6acc783e77386e",
+                                        "parent": "aspace_5e7277db8877264d8ba03c9b20d6e3b3",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1883/1919",
+                                        "type": "inclusive",
+                                        "value": "1883-1919"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Walsh Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref41",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066917",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_7f84a035490eaab93ad71ccb53d209ee",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_9a9c65b9f782f7270e40911978b4d227",
+                                        "parent": "aspace_7f84a035490eaab93ad71ccb53d209ee",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1900/1915",
+                                        "type": "inclusive",
+                                        "value": "1900-1915"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson-Williams Correspondence"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series II: Correspondence"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref42",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref43",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066917",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_02879485fe5428d648c49b206512532d",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_c7d785c3c9c0a20e6f5015d240346e61",
+                                        "parent": "aspace_02879485fe5428d648c49b206512532d",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1908/1908",
+                                        "value": "1908"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Photographs"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref44",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066917",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_cd39d33f913445b2d5d4ddb5c073fd42",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_4e498d1a42c8719608748a427ebb9e8a",
+                                        "parent": "aspace_cd39d33f913445b2d5d4ddb5c073fd42",
+                                        "type": "folder",
+                                        "value": "5-6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1883/1934",
+                                        "type": "inclusive",
+                                        "value": "1883-1934"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Bound Materials and Books"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series III: Photographs and Bound Materials"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref45",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref46",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066917",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_52ece53361e7cedc0661a88b20076157",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_d0b170178d09a1a958fdbbe8f4f1ad84",
+                                        "parent": "aspace_52ece53361e7cedc0661a88b20076157",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1889/1917",
+                                        "type": "inclusive",
+                                        "value": "1889-1917"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stevenson Miscellaneous"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref47",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066917",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_f8d9dc98bcd4b608bccc8d374a091691",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_047e30c2c06cb2498ed6075b486c80d8",
+                                        "parent": "aspace_f8d9dc98bcd4b608bccc8d374a091691",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1915/1924",
+                                        "type": "inclusive",
+                                        "value": "1915-1924"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Ludlum Personal Memorabilia"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_e9e5d7457e301b943c5ea811f1f577a5",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063066925",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_26985e59c11db15e485f39f2b101a88e",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_74dc8383f7e48eed8703da57f467e91c",
+                                        "parent": "aspace_26985e59c11db15e485f39f2b101a88e",
+                                        "type": "folder",
+                                        "value": "1-6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1880/1924",
+                                        "type": "inclusive",
+                                        "value": "1880-1924"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence, clippings, and envelopes"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series IV: Miscellaneous"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_b54ce03545f4ee181f2f9db820e89c85",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date (if known); John James Stevenson Papers; MC 18; box number; folder number; New York University Archives, New York University Libraries."
@@ -1305,11 +1211,9 @@
         "processinfo": [
             {
                 "id": "aspace_7a831608812051108b3d4e649c12a893",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "Processing information before 2019 is unavailable."
@@ -1320,11 +1224,9 @@
         "scopecontent": [
             {
                 "id": "aspace_5aad044ac005cd667f29b1defede2c36",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "The John James Stevenson Papers include biographical sketches of 1863 class members as well as a history of the class. Correspondence between Stevenson and classmates throughout their respective careers represent the majority of this collection. Within this collection are two photographs of the Class of 1863 at a class reunion dated October 29, 1908. Other items include bound materials: a book, pamphlet, published speech and notebook. Also included within the collection is a bibliography of Stevenson's work for the years 1864-1893 and 1911-1914."
@@ -1335,11 +1237,9 @@
         "userestrict": [
             {
                 "id": "aspace_a605259c2308b784bca770209adbe848",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the creator are maintained by New York University. Permission to publish or reproduce materials in this collection must be secured from New York University Archives, (212) 998-2646, university-archives@nyu.edu."
@@ -1348,88 +1248,67 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NyNyUA",
+            "url": "http://dlib.nyu.edu/findingaids/html/archives/mc_18",
+            "value": "mc_18"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from stevenson01ES.xml"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "publisher": "New York University Archives"
+            },
+            "titlestmt": {
+                "author": "New York University Archives staff. Machine-readable finding aid created by Cara Brick.",
+                "titleproper": [
+                    {
+                        "value": "Guide to the John James Stevenson Papers \u003cspan class=\"ead-num\"\u003eMC.18\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MC.18"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 14:30:53 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
+        },
+        "revisiondesc": {
+            "change": [
                 {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NyNyUA",
-                    "url": "http://dlib.nyu.edu/findingaids/html/archives/mc_18",
-                    "value": "mc_18"
-                }
-            ],
-            "filedesc": [
+                    "date": {
+                        "value": "June 2018"
+                    },
+                    "item": {
+                        "value": "Container list revised by John Zarrillo"
+                    }
+                },
                 {
-                    "editionstmt": [
-                        {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from stevenson01ES.xml\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
-                        {
-                            "publisher": "New York University Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "New York University Archives staff. Machine-readable finding aid created by Cara Brick."
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the John James Stevenson Papers \u003cspan class=\"ead-num\"\u003eMC.18\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 14:30:53 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Finding aid written in English"
-                        }
-                    ]
-                }
-            ],
-            "revisiondesc": [
-                {
-                    "change": [
-                        {
-                            "date": [
-                                "June 2018"
-                            ],
-                            "item": [
-                                {
-                                    "value": "Container list revised by John Zarrillo"
-                                }
-                            ]
-                        },
-                        {
-                            "date": [
-                                "June 2019"
-                            ],
-                            "item": [
-                                {
-                                    "value": "Updated by Jacqueline Rider for compliance with DACS and ACM Required Elements for Archival Description."
-                                }
-                            ]
-                        }
-                    ]
+                    "date": {
+                        "value": "June 2019"
+                    },
+                    "item": {
+                        "value": "Updated by Jacqueline Rider for compliance with DACS and ACM Required Elements for Archival Description."
+                    }
                 }
             ]
         }
-    ]
+    }
 }

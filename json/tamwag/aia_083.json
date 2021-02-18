@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_dcb17ab59a3702e01c8c5f475bd804ad",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_9222f3942af6c1edeec27cf692a098e7",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Donated by Marion Casey, July 2018.  The accession number associated with this gift is 2018.099."
@@ -34,11 +30,9 @@
         "arrangement": [
             {
                 "id": "aspace_b3849ba44ec6a52ed39f62d154098b92",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "This collection has not been arranged by an archivist. The materials are arranged in the order in which they were received from the donor."
@@ -49,11 +43,9 @@
         "bioghist": [
             {
                 "id": "aspace_b7556ab91885f66a1c61ba173d964a43",
-                "head": [
-                    {
-                        "value": "Biographical / Historical"
-                    }
-                ],
+                "head": {
+                    "value": "Biographical / Historical"
+                },
                 "p": [
                     {
                         "value": "The FitzSimons family lived in Ireland, mainly in Dublin, with some members emigrating to the United States.  The most famous member of the family was the film actress Maureen O'Hara."
@@ -61,34 +53,41 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "genreform": [
-                    "Letters."
-                ],
-                "persname": [
-                    {
-                        "value": "O'Hara, Maureen, 1920-2015"
-                    },
-                    {
-                        "role": "Former owner",
-                        "value": "Casey, Marion R., 1962-"
-                    }
-                ],
-                "subject": [
-                    "Irish -- Family relationships.",
-                    "World War, 1939-1945 -- Ireland."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Letters."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "O'Hara, Maureen, 1920-2015"
+                },
+                {
+                    "role": "Former owner",
+                    "source": "naf",
+                    "value": "Casey, Marion R., 1962-"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Irish -- Family relationships."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "World War, 1939-1945 -- Ireland."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_14c97e719b44ccb5024ca00d7b7f4a17",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "The FitzSimons Family Letters were purchased at auction in November 2016 at Bonhams Auction House in New York and donated to the Archives of Irish America in July 2018."
@@ -96,134 +95,116 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.2 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 1 half manuscript box",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The FitzSimons family lived in Ireland, mainly in Dublin, with some members immigrating to the United States.  The most famous member of the family was the film actress Maureen O'Hara.  The FitzSimons Family Letters consist of letters sent to and from members of the FitzSimons family in Ireland, the United States, and Rhodesia, between 1941 and 1977.  The majority of the letters are addressed to Maureen O'Hara.",
+                    "id": "aspace_b32d30b582bde7099c2d37465431b193"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials primarily in English, with one letter in Irish.",
+                    "id": "aspace_f4104afbc05f1ca535f20dff6b127c70"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "source",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Casey, Marion R., 1962-"
+                    }
+                },
+                {
+                    "label": "Creator",
+                    "famname": {
+                        "source": "naf",
+                        "value": "Fitzsimmons family"
+                    }
+                }
+            ],
+            "physloc": [
+                {
+                    "id": "aspace_628227f29848021af45a6530b59c49ba",
+                    "value": "Materials are stored offsite and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1941/1977",
+                    "type": "inclusive",
+                    "value": "1941-1977"
+                }
+            ],
+            "unitid": "AIA.083",
+            "unittitle": {
+                "value": "FitzSimons Family Letters"
+            }
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_07acc3a9959ab11626eaa738e86c5c08",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "0.2 Linear Feet"
+                                "barcode": "31142063577749",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal - Half",
+                                "id": "aspace_32f41eda2a66038f0a299455f8aa12ec",
+                                "type": "box",
+                                "value": "1"
                             },
                             {
-                                "value": "in 1 half manuscript box"
+                                "id": "aspace_3dd0d145af8a8c049c202aeda984ad8a",
+                                "parent": "aspace_32f41eda2a66038f0a299455f8aa12ec",
+                                "type": "folder",
+                                "value": "1-6"
                             }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "The FitzSimons family lived in Ireland, mainly in Dublin, with some members immigrating to the United States.  The most famous member of the family was the film actress Maureen O'Hara.  The FitzSimons Family Letters consist of letters sent to and from members of the FitzSimons family in Ireland, the United States, and Rhodesia, between 1941 and 1977.  The majority of the letters are addressed to Maureen O'Hara.",
-                        "id": "aspace_b32d30b582bde7099c2d37465431b193"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_f4104afbc05f1ca535f20dff6b127c70",
-                        "value": "Materials primarily in English, with one letter in Irish."
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "source",
-                        "persname": [
+                        ],
+                        "unitdate": [
                             {
-                                "value": "Casey, Marion R., 1962-"
+                                "normal": "1941/1977",
+                                "type": "inclusive",
+                                "value": "1941-1977"
                             }
-                        ]
-                    },
-                    {
-                        "label": "Creator",
-                        "famname": [
-                            {
-                                "value": "Fitzsimmons family"
-                            }
-                        ]
+                        ],
+                        "unittitle": {
+                            "value": "Letters"
+                        }
                     }
-                ],
-                "physloc": [
-                    {
-                        "id": "aspace_628227f29848021af45a6530b59c49ba",
-                        "value": "Materials are stored offsite and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1941/1977",
-                        "type": "inclusive",
-                        "value": "1941-1977"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "AIA.083"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "FitzSimons Family Letters"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_07acc3a9959ab11626eaa738e86c5c08",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063577749",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal - Half",
-                                        "id": "aspace_32f41eda2a66038f0a299455f8aa12ec",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_3dd0d145af8a8c049c202aeda984ad8a",
-                                        "parent": "aspace_32f41eda2a66038f0a299455f8aa12ec",
-                                        "type": "folder",
-                                        "value": "1-6"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1941/1977",
-                                        "type": "inclusive",
-                                        "value": "1941-1977"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Letters"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_cd47272b4a9d8391263568cc524886f1",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; FitzSimons Family Letters; AIA 083; box number; folder number; Tamiment Library \u0026 Robert F. Wagner Labor Archives, New York University."
@@ -234,11 +215,9 @@
         "processinfo": [
             {
                 "id": "aspace_018a02e7c482bb1470f337ea84d1904e",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "Letters were removed from envelopes and unfolded.  Letters were housed in archival folders and box."
@@ -249,11 +228,9 @@
         "scopecontent": [
             {
                 "id": "aspace_3a859b16472e33d048ace3b064ad6716",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "The FitzSimons Family Letters consist of letters sent to and from members of the FitzSimons family in Ireland, the United States, and Rhodesia, between 1941 and 1977.  The majority of the letters are addressed to the film actress Maureen O'Hara, who was born Maureen FitzSimons.  Other letters in the collection are addressed to O'Hara's first husband, William Price, as well as her mother and three of her siblings.  The majority of the letters are from Bernard FitzSimons, one of O'Hara's uncles, and date between 1941 and 1946.  These letters consist of news of O'Hara's parents and siblings, as well as other relatives and family friends.  FitzSimons also discusses ways in which World War II affected Ireland.  Another large group of letters consists of those sent to O'Hara by her parents, her daughter, and one of her sisters during the summer of 1956, when her daughter Bronwyn was visiting the family in Ireland.  These also consist of family news, detailing family visits and trips over the summer.  There is a small number of letters sent to O'Hara and her mother by family friends, with similar topics to the bulk of the collection."
@@ -264,11 +241,9 @@
         "userestrict": [
             {
                 "id": "aspace_df279795ffd275c852d4e2cdb7b126bc",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Tamiment Library \u0026 Robert F. Wagner Labor Archives has no information about copyright ownership for this collection and is not authorized to grant permission to publish or reproduce materials from it. Materials in this collection, which were created in 1941-1977, are expected to enter the public domain in 2061."
@@ -277,92 +252,78 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/aia_083",
-                    "value": "aia_083"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/aia_083",
+            "value": "aia_083"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003eJuly 2018\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Megan O'Shea"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the FitzSimons Family Letters \u003cspan class=\"ead-num\"\u003eAIA.083\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 16:05:42 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Finding aid written in English"
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003eJuly 2018\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "July 2018"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Megan O'Shea",
+                "titleproper": [
+                    {
+                        "value": "Guide to the FitzSimons Family Letters \u003cspan class=\"ead-num\"\u003eAIA.083\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "AIA.083"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 16:05:42 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

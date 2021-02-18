@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_f0d672f6f3075d0d0e9b386d8a8d6bdc",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,9 +17,23 @@
         "arrangement": [
             {
                 "id": "aspace_b1b4a41c2b7f61c5d1bea587cac326cf",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "Series I: Correspondence and Memoranda"
+                            },
+                            {
+                                "value": "Series II: \"The Camp on Campus\" (Manuscript)"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -34,11 +46,9 @@
         "bioghist": [
             {
                 "id": "aspace_cf7c88e84db1bf1951dc2c0362cea638",
-                "head": [
-                    {
-                        "value": "Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Charles Henry Snow was born in New York City on March 24, 1863. He attended New York University's (NYU) School of Civil Engineering and graduated in 1886. He received an honorary Sc.M. in 1894 and a Sc.D. in 1898 from the Western University of Pennsylvania (now the University of Pittsburgh). He joined NYU's Engineering faculty in 1891, and, in 1897, became Dean of the School of Civil Engineering."
@@ -55,53 +65,83 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "New York University. College of Engineering"
-                    },
-                    {
-                        "value": "New York University. School of Applied Science"
-                    },
-                    {
-                        "value": "United States. War Department. Committee on Education and Special Training"
-                    },
-                    {
-                        "value": "New York University. Student Army Training Corps"
-                    },
-                    {
-                        "value": "New York University -- Students"
-                    }
-                ],
-                "genreform": [
-                    "Manuscripts for publication.",
-                    "Correspondence.",
-                    "Registers (lists).",
-                    "Photographs.",
-                    "Memorandums."
-                ],
-                "persname": [
-                    {
-                        "role": "Former owner",
-                        "value": "Jones, Theodore Francis, 1885-1968"
-                    }
-                ],
-                "subject": [
-                    "World War, 1914-1918",
-                    "Engineering -- Study and teaching",
-                    "Influenza Epidemic -- 1918-1919 -- United States"
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "New York University. College of Engineering"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "New York University. School of Applied Science"
+                },
+                {
+                    "source": "naf",
+                    "value": "United States. War Department. Committee on Education and Special Training"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "New York University. Student Army Training Corps"
+                },
+                {
+                    "source": "naf",
+                    "value": "New York University -- Students"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Manuscripts for publication."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Registers (lists)."
+                },
+                {
+                    "source": "aat",
+                    "value": "Photographs."
+                },
+                {
+                    "source": "aat",
+                    "value": "Memorandums."
+                }
+            ],
+            "persname": [
+                {
+                    "role": "Former owner",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Jones, Theodore Francis, 1885-1968"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "World War, 1914-1918"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Engineering -- Study and teaching"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Influenza Epidemic -- 1918-1919 -- United States"
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_8aa756a6c70e520cd4eb9386234a9e30",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "The papers of Charles H. Snow were a part of a larger College of Engineering historical collection that covered the years 1897-1956. The collection was most likely accumulated at the University Heights Library over a period of approximately twenty years and was transferred to the University Archives when the School of Engineering closed in 1973."
@@ -109,503 +149,377 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "1.5 Linear Feet"
-                            },
-                            {
-                                "value": "in 3 manuscript boxes"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 3 manuscript boxes",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Charles Henry Snow was a dean of New York University's (NYU) School of Civil Engineering. This collection consists of material generated or collected in conjunction with Snow's unpublished manuscript, \"The Camp on Campus: The Great War as Observed From a College Campus,\" which chronicles New York University's involvement with the military during World War I.",
+                    "id": "aspace_79939cda3ce97498ce71de7a41924f3a"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English.",
+                    "id": "aspace_9a13b9ad101077b5093d6b054c7cb261"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "naf",
+                        "value": "Snow, Charles H. (Charles Henry), 1863-1957"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Charles Henry Snow was a dean of New York University's (NYU) School of Civil Engineering. This collection consists of material generated or collected in conjunction with Snow's unpublished manuscript, \"The Camp on Campus: The Great War as Observed From a College Campus,\" which chronicles New York University's involvement with the military during World War I.",
-                        "id": "aspace_79939cda3ce97498ce71de7a41924f3a"
+                },
+                {
+                    "label": "source",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Jones, Theodore Francis, 1885-1968"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_9a13b9ad101077b5093d6b054c7cb261",
-                        "value": "Materials are in English."
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Snow, Charles H. (Charles Henry), 1863-1957"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "value": "Jones, Theodore Francis, 1885-1968"
-                            }
-                        ]
-                    }
-                ],
-                "physloc": [
-                    {
-                        "id": "aspace_dc62fe9fcfcf15205143bd20d173590a",
-                        "value": "Materials are stored offsite and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "New York University Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1917/1943",
-                        "type": "inclusive",
-                        "value": "1917-1943"
-                    },
-                    {
-                        "normal": "1933/1943",
-                        "type": "bulk",
-                        "value": "1933-1943"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "MC.25"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Charles H. Snow Collection on NYU During World War I"
-                    }
-                ]
+                }
+            ],
+            "physloc": [
+                {
+                    "id": "aspace_dc62fe9fcfcf15205143bd20d173590a",
+                    "value": "Materials are stored offsite and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "New York University Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1917/1943",
+                    "type": "inclusive",
+                    "value": "1917-1943"
+                },
+                {
+                    "normal": "1933/1943",
+                    "type": "bulk",
+                    "value": "1933-1943"
+                }
+            ],
+            "unitid": "MC.25",
+            "unittitle": {
+                "value": "Charles H. Snow Collection on NYU During World War I"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref11",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref20",
-                                "level": "subseries",
-                                "c": [
-                                    {
-                                        "id": "aspace_ref12",
-                                        "level": "file",
-                                        "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref11",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref20",
+                            "level": "subseries",
+                            "c": [
+                                {
+                                    "id": "aspace_ref12",
+                                    "level": "file",
+                                    "did": {
+                                        "container": [
                                             {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142063067063",
-                                                        "label": "Mixed Materials",
-                                                        "altrender": "Manuscript box - Legal",
-                                                        "id": "aspace_448c809524da81ce084ba2ce5ab7c142",
-                                                        "type": "box",
-                                                        "value": "1"
-                                                    },
-                                                    {
-                                                        "id": "aspace_c41dff7da346c8a0d919221fdf80fb24",
-                                                        "parent": "aspace_448c809524da81ce084ba2ce5ab7c142",
-                                                        "type": "folder",
-                                                        "value": "1"
-                                                    }
-                                                ],
-                                                "langmaterial": [
-                                                    {
-                                                        "language": [
-                                                            {
-                                                                "langcode": "eng",
-                                                                "value": "English"
-                                                            }
-                                                        ],
-                                                        "value": "."
-                                                    }
-                                                ],
-                                                "unitdate": [
-                                                    {
-                                                        "value": "1932 December"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "Chart: relationship between NATD and SATC"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "aspace_ref13",
-                                        "level": "file",
-                                        "did": [
+                                                "barcode": "31142063067063",
+                                                "label": "Mixed Materials",
+                                                "altrender": "Manuscript box - Legal",
+                                                "id": "aspace_448c809524da81ce084ba2ce5ab7c142",
+                                                "type": "box",
+                                                "value": "1"
+                                            },
                                             {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142063067063",
-                                                        "label": "Mixed Materials",
-                                                        "altrender": "Manuscript box - Legal",
-                                                        "id": "aspace_90c4d2749231a82b358cc973ca24835c",
-                                                        "type": "box",
-                                                        "value": "1"
-                                                    },
-                                                    {
-                                                        "id": "aspace_a1767a2829443d7c2eae0c19e7601150",
-                                                        "parent": "aspace_90c4d2749231a82b358cc973ca24835c",
-                                                        "type": "folder",
-                                                        "value": "2-3"
-                                                    }
-                                                ],
-                                                "langmaterial": [
-                                                    {
-                                                        "language": [
-                                                            {
-                                                                "langcode": "eng",
-                                                                "value": "English"
-                                                            }
-                                                        ],
-                                                        "value": "."
-                                                    }
-                                                ],
-                                                "unitdate": [
-                                                    {
-                                                        "value": "1921-1937"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "General"
-                                                    }
-                                                ]
+                                                "id": "aspace_c41dff7da346c8a0d919221fdf80fb24",
+                                                "parent": "aspace_448c809524da81ce084ba2ce5ab7c142",
+                                                "type": "folder",
+                                                "value": "1"
                                             }
-                                        ]
-                                    },
-                                    {
-                                        "id": "aspace_ref14",
-                                        "level": "file",
-                                        "did": [
-                                            {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142063067063",
-                                                        "label": "Mixed Materials",
-                                                        "altrender": "Manuscript box - Legal",
-                                                        "id": "aspace_bbb5f4ea8d24187169fcfdd4672e01a9",
-                                                        "type": "box",
-                                                        "value": "1"
-                                                    },
-                                                    {
-                                                        "id": "aspace_4e5467f8bc96201991f868559cbbc8e1",
-                                                        "parent": "aspace_bbb5f4ea8d24187169fcfdd4672e01a9",
-                                                        "type": "folder",
-                                                        "value": "4"
-                                                    }
-                                                ],
-                                                "langmaterial": [
-                                                    {
-                                                        "language": [
-                                                            {
-                                                                "langcode": "eng",
-                                                                "value": "English"
-                                                            }
-                                                        ],
-                                                        "value": "."
-                                                    }
-                                                ],
-                                                "unitdate": [
-                                                    {
-                                                        "value": "1929 December"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "Military Training at University Heights"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "aspace_ref15",
-                                        "level": "file",
-                                        "did": [
-                                            {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142063067063",
-                                                        "label": "Mixed Materials",
-                                                        "altrender": "Manuscript box - Legal",
-                                                        "id": "aspace_26425013c28640ff06b2024505dd23eb",
-                                                        "type": "box",
-                                                        "value": "1"
-                                                    },
-                                                    {
-                                                        "id": "aspace_a30917460e6abadf8d29e3682ae2fa8c",
-                                                        "parent": "aspace_26425013c28640ff06b2024505dd23eb",
-                                                        "type": "folder",
-                                                        "value": "5"
-                                                    }
-                                                ],
-                                                "langmaterial": [
-                                                    {
-                                                        "language": [
-                                                            {
-                                                                "langcode": "eng",
-                                                                "value": "English"
-                                                            }
-                                                        ],
-                                                        "value": "."
-                                                    }
-                                                ],
-                                                "unitdate": [
-                                                    {
-                                                        "value": "circa 1917, 1930"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "Nationality List"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "aspace_ref16",
-                                        "level": "file",
-                                        "did": [
-                                            {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142063067063",
-                                                        "label": "Mixed Materials",
-                                                        "altrender": "Manuscript box - Legal",
-                                                        "id": "aspace_7f872d3797cafe2724cebf0f2821f66b",
-                                                        "type": "box",
-                                                        "value": "1"
-                                                    },
-                                                    {
-                                                        "id": "aspace_5a8b01a0f47b835a2e4f9543799e3d1c",
-                                                        "parent": "aspace_7f872d3797cafe2724cebf0f2821f66b",
-                                                        "type": "folder",
-                                                        "value": "6"
-                                                    }
-                                                ],
-                                                "langmaterial": [
-                                                    {
-                                                        "language": [
-                                                            {
-                                                                "langcode": "eng",
-                                                                "value": "English"
-                                                            }
-                                                        ],
-                                                        "value": "."
-                                                    }
-                                                ],
-                                                "unitdate": [
-                                                    {
-                                                        "value": "1926 December"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "University Heights Church and SATC"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "aspace_ref17",
-                                        "level": "file",
-                                        "did": [
-                                            {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142063067063",
-                                                        "label": "Mixed Materials",
-                                                        "altrender": "Manuscript box - Legal",
-                                                        "id": "aspace_087636e058ad5995c13b1204dac2d01a",
-                                                        "type": "box",
-                                                        "value": "1"
-                                                    },
-                                                    {
-                                                        "id": "aspace_3c7a43a7ffcc6d2e338e4366f4c22c48",
-                                                        "parent": "aspace_087636e058ad5995c13b1204dac2d01a",
-                                                        "type": "folder",
-                                                        "value": "7"
-                                                    }
-                                                ],
-                                                "langmaterial": [
-                                                    {
-                                                        "language": [
-                                                            {
-                                                                "langcode": "eng",
-                                                                "value": "English"
-                                                            }
-                                                        ],
-                                                        "value": "."
-                                                    }
-                                                ],
-                                                "unitdate": [
-                                                    {
-                                                        "value": "1925 January"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "War Commissary Experience"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ],
-                                "did": [
-                                    {
+                                        ],
                                         "langmaterial": [
                                             {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
+                                                "value": ".",
+                                                "language": {
+                                                    "langcode": "eng",
+                                                    "value": "English"
+                                                }
                                             }
                                         ],
                                         "unitdate": [
                                             {
-                                                "value": "1917-1937"
+                                                "value": "1932 December"
                                             }
                                         ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Subseries A: Correspondence"
-                                            }
-                                        ]
+                                        "unittitle": {
+                                            "value": "Chart: relationship between NATD and SATC"
+                                        }
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "subseries",
-                                "c": [
-                                    {
-                                        "id": "aspace_ref18",
-                                        "level": "file",
-                                        "did": [
+                                },
+                                {
+                                    "id": "aspace_ref13",
+                                    "level": "file",
+                                    "did": {
+                                        "container": [
                                             {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142063067063",
-                                                        "label": "Mixed Materials",
-                                                        "altrender": "Manuscript box - Legal",
-                                                        "id": "aspace_050e38f6097216a1544e207817411745",
-                                                        "type": "box",
-                                                        "value": "1"
-                                                    },
-                                                    {
-                                                        "id": "aspace_dc00dffa20427814550da03f65608d48",
-                                                        "parent": "aspace_050e38f6097216a1544e207817411745",
-                                                        "type": "folder",
-                                                        "value": "8"
-                                                    }
-                                                ],
-                                                "langmaterial": [
-                                                    {
-                                                        "language": [
-                                                            {
-                                                                "langcode": "eng",
-                                                                "value": "English"
-                                                            }
-                                                        ],
-                                                        "value": "."
-                                                    }
-                                                ],
-                                                "unitdate": [
-                                                    {
-                                                        "value": "1917-1935"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "General"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "aspace_ref19",
-                                        "level": "file",
-                                        "did": [
+                                                "barcode": "31142063067063",
+                                                "label": "Mixed Materials",
+                                                "altrender": "Manuscript box - Legal",
+                                                "id": "aspace_90c4d2749231a82b358cc973ca24835c",
+                                                "type": "box",
+                                                "value": "1"
+                                            },
                                             {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142063067063",
-                                                        "label": "Mixed Materials",
-                                                        "altrender": "Manuscript box - Legal",
-                                                        "id": "aspace_4ad99becd9e1bd1ee496514caf05d419",
-                                                        "type": "box",
-                                                        "value": "1"
-                                                    },
-                                                    {
-                                                        "id": "aspace_a5a56dadf2aabfa59cf042e90741aae2",
-                                                        "parent": "aspace_4ad99becd9e1bd1ee496514caf05d419",
-                                                        "type": "folder",
-                                                        "value": "9"
-                                                    }
-                                                ],
-                                                "langmaterial": [
-                                                    {
-                                                        "language": [
-                                                            {
-                                                                "langcode": "eng",
-                                                                "value": "English"
-                                                            }
-                                                        ],
-                                                        "value": "."
-                                                    }
-                                                ],
-                                                "unitdate": [
-                                                    {
-                                                        "value": "1930 October"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "Report by Dean Snow"
-                                                    }
-                                                ]
+                                                "id": "aspace_a1767a2829443d7c2eae0c19e7601150",
+                                                "parent": "aspace_90c4d2749231a82b358cc973ca24835c",
+                                                "type": "folder",
+                                                "value": "2-3"
                                             }
-                                        ]
-                                    }
-                                ],
-                                "did": [
-                                    {
+                                        ],
                                         "langmaterial": [
                                             {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
+                                                "value": ".",
+                                                "language": {
+                                                    "langcode": "eng",
+                                                    "value": "English"
+                                                }
+                                            }
+                                        ],
+                                        "unitdate": [
+                                            {
+                                                "value": "1921-1937"
+                                            }
+                                        ],
+                                        "unittitle": {
+                                            "value": "General"
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "aspace_ref14",
+                                    "level": "file",
+                                    "did": {
+                                        "container": [
+                                            {
+                                                "barcode": "31142063067063",
+                                                "label": "Mixed Materials",
+                                                "altrender": "Manuscript box - Legal",
+                                                "id": "aspace_bbb5f4ea8d24187169fcfdd4672e01a9",
+                                                "type": "box",
+                                                "value": "1"
+                                            },
+                                            {
+                                                "id": "aspace_4e5467f8bc96201991f868559cbbc8e1",
+                                                "parent": "aspace_bbb5f4ea8d24187169fcfdd4672e01a9",
+                                                "type": "folder",
+                                                "value": "4"
+                                            }
+                                        ],
+                                        "langmaterial": [
+                                            {
+                                                "value": ".",
+                                                "language": {
+                                                    "langcode": "eng",
+                                                    "value": "English"
+                                                }
+                                            }
+                                        ],
+                                        "unitdate": [
+                                            {
+                                                "value": "1929 December"
+                                            }
+                                        ],
+                                        "unittitle": {
+                                            "value": "Military Training at University Heights"
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "aspace_ref15",
+                                    "level": "file",
+                                    "did": {
+                                        "container": [
+                                            {
+                                                "barcode": "31142063067063",
+                                                "label": "Mixed Materials",
+                                                "altrender": "Manuscript box - Legal",
+                                                "id": "aspace_26425013c28640ff06b2024505dd23eb",
+                                                "type": "box",
+                                                "value": "1"
+                                            },
+                                            {
+                                                "id": "aspace_a30917460e6abadf8d29e3682ae2fa8c",
+                                                "parent": "aspace_26425013c28640ff06b2024505dd23eb",
+                                                "type": "folder",
+                                                "value": "5"
+                                            }
+                                        ],
+                                        "langmaterial": [
+                                            {
+                                                "value": ".",
+                                                "language": {
+                                                    "langcode": "eng",
+                                                    "value": "English"
+                                                }
+                                            }
+                                        ],
+                                        "unitdate": [
+                                            {
+                                                "value": "circa 1917, 1930"
+                                            }
+                                        ],
+                                        "unittitle": {
+                                            "value": "Nationality List"
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "aspace_ref16",
+                                    "level": "file",
+                                    "did": {
+                                        "container": [
+                                            {
+                                                "barcode": "31142063067063",
+                                                "label": "Mixed Materials",
+                                                "altrender": "Manuscript box - Legal",
+                                                "id": "aspace_7f872d3797cafe2724cebf0f2821f66b",
+                                                "type": "box",
+                                                "value": "1"
+                                            },
+                                            {
+                                                "id": "aspace_5a8b01a0f47b835a2e4f9543799e3d1c",
+                                                "parent": "aspace_7f872d3797cafe2724cebf0f2821f66b",
+                                                "type": "folder",
+                                                "value": "6"
+                                            }
+                                        ],
+                                        "langmaterial": [
+                                            {
+                                                "value": ".",
+                                                "language": {
+                                                    "langcode": "eng",
+                                                    "value": "English"
+                                                }
+                                            }
+                                        ],
+                                        "unitdate": [
+                                            {
+                                                "value": "1926 December"
+                                            }
+                                        ],
+                                        "unittitle": {
+                                            "value": "University Heights Church and SATC"
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "aspace_ref17",
+                                    "level": "file",
+                                    "did": {
+                                        "container": [
+                                            {
+                                                "barcode": "31142063067063",
+                                                "label": "Mixed Materials",
+                                                "altrender": "Manuscript box - Legal",
+                                                "id": "aspace_087636e058ad5995c13b1204dac2d01a",
+                                                "type": "box",
+                                                "value": "1"
+                                            },
+                                            {
+                                                "id": "aspace_3c7a43a7ffcc6d2e338e4366f4c22c48",
+                                                "parent": "aspace_087636e058ad5995c13b1204dac2d01a",
+                                                "type": "folder",
+                                                "value": "7"
+                                            }
+                                        ],
+                                        "langmaterial": [
+                                            {
+                                                "value": ".",
+                                                "language": {
+                                                    "langcode": "eng",
+                                                    "value": "English"
+                                                }
+                                            }
+                                        ],
+                                        "unitdate": [
+                                            {
+                                                "value": "1925 January"
+                                            }
+                                        ],
+                                        "unittitle": {
+                                            "value": "War Commissary Experience"
+                                        }
+                                    }
+                                }
+                            ],
+                            "did": {
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1917-1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Subseries A: Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "subseries",
+                            "c": [
+                                {
+                                    "id": "aspace_ref18",
+                                    "level": "file",
+                                    "did": {
+                                        "container": [
+                                            {
+                                                "barcode": "31142063067063",
+                                                "label": "Mixed Materials",
+                                                "altrender": "Manuscript box - Legal",
+                                                "id": "aspace_050e38f6097216a1544e207817411745",
+                                                "type": "box",
+                                                "value": "1"
+                                            },
+                                            {
+                                                "id": "aspace_dc00dffa20427814550da03f65608d48",
+                                                "parent": "aspace_050e38f6097216a1544e207817411745",
+                                                "type": "folder",
+                                                "value": "8"
+                                            }
+                                        ],
+                                        "langmaterial": [
+                                            {
+                                                "value": ".",
+                                                "language": {
+                                                    "langcode": "eng",
+                                                    "value": "English"
+                                                }
                                             }
                                         ],
                                         "unitdate": [
@@ -613,35 +527,59 @@
                                                 "value": "1917-1935"
                                             }
                                         ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Subseries B: Memoranda"
-                                            }
-                                        ]
+                                        "unittitle": {
+                                            "value": "General"
+                                        }
                                     }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "physdesc": [
-                                    {
-                                        "extent": [
+                                },
+                                {
+                                    "id": "aspace_ref19",
+                                    "level": "file",
+                                    "did": {
+                                        "container": [
                                             {
-                                                "value": ".5 Linear Feet"
-                                            }
-                                        ]
-                                    }
-                                ],
-                                "langmaterial": [
-                                    {
-                                        "language": [
+                                                "barcode": "31142063067063",
+                                                "label": "Mixed Materials",
+                                                "altrender": "Manuscript box - Legal",
+                                                "id": "aspace_4ad99becd9e1bd1ee496514caf05d419",
+                                                "type": "box",
+                                                "value": "1"
+                                            },
                                             {
-                                                "langcode": "eng",
-                                                "value": "English"
+                                                "id": "aspace_a5a56dadf2aabfa59cf042e90741aae2",
+                                                "parent": "aspace_4ad99becd9e1bd1ee496514caf05d419",
+                                                "type": "folder",
+                                                "value": "9"
                                             }
                                         ],
-                                        "value": "."
+                                        "langmaterial": [
+                                            {
+                                                "value": ".",
+                                                "language": {
+                                                    "langcode": "eng",
+                                                    "value": "English"
+                                                }
+                                            }
+                                        ],
+                                        "unitdate": [
+                                            {
+                                                "value": "1930 October"
+                                            }
+                                        ],
+                                        "unittitle": {
+                                            "value": "Report by Dean Snow"
+                                        }
+                                    }
+                                }
+                            ],
+                            "did": {
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
                                     }
                                 ],
                                 "unitdate": [
@@ -649,1031 +587,921 @@
                                         "value": "1917-1935"
                                     }
                                 ],
-                                "unittitle": [
+                                "unittitle": {
+                                    "value": "Subseries B: Memoranda"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "physdesc": [
+                            {
+                                "altrender": "whole",
+                                "extent": [
                                     {
-                                        "value": "Series I: Correspondence and Memoranda"
+                                        "value": ".5 Linear Feet",
+                                        "altrender": "materialtype spaceoccupied"
                                     }
                                 ]
                             }
                         ],
-                        "scopecontent": [
+                        "langmaterial": [
                             {
-                                "id": "aspace_9867ea27cecd6844ca043a0a0c199ce7",
-                                "head": [
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1917-1935"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Correspondence and Memoranda"
+                        }
+                    },
+                    "scopecontent": [
+                        {
+                            "id": "aspace_9867ea27cecd6844ca043a0a0c199ce7",
+                            "head": {
+                                "value": "Scope and Contents: Series I: Correspondence and Memoranda"
+                            },
+                            "p": [
+                                {
+                                    "value": "Included in Series I is original research material collected by Dr. Snow that contains a considerable amount of contemporary documentation from the World War I era. There are charts depicting the relationship between the National Army Training Detachment and the Student Army Training Corps (SATC) on the New York University Heights campus, a letter describing military training on the campus during the years 1917-1918, a list describing the nationality of some of the NYU staff dating to just before the U.S. entrance into World War I, a letter describing the relationship between the University Heights Church and the SATC, and a letter describing the commissary serving the SATC on the Heights campus. Also included is general correspondence ranging over eighteen years, with letters describing buildings and life on campus during the war years, a copy of a March 1922 letter asking for aid from a professor in Petrograd, comments on the manuscript by Professor Theodore F. Jones, and several letters from Dr. Snow to publishers. Among the memoranda, 1917-1935, are lists of men who left the campus for duty in 1917, notes on the influenza epidemic of 1918-1919, a memorandum on a Memorial Tablet for Alumni, Faculty, and Students who died in service during World War I, and a 1930 report from the Dean of the College of Engineering defending military instruction on campus and criticizing the University for not having yet published a list of students who served in the war."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "aspace_ref23",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Scope and Contents: Series I: Correspondence and Memoranda"
+                                        "barcode": "31142063067063",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_651804504e642ad101b1b1a1a48caae8",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_14d3787a5e38e03cbd0bdebe2d893044",
+                                        "parent": "aspace_651804504e642ad101b1b1a1a48caae8",
+                                        "type": "folder",
+                                        "value": "10-13"
                                     }
                                 ],
-                                "p": [
-                                    {
-                                        "value": "Included in Series I is original research material collected by Dr. Snow that contains a considerable amount of contemporary documentation from the World War I era. There are charts depicting the relationship between the National Army Training Detachment and the Student Army Training Corps (SATC) on the New York University Heights campus, a letter describing military training on the campus during the years 1917-1918, a list describing the nationality of some of the NYU staff dating to just before the U.S. entrance into World War I, a letter describing the relationship between the University Heights Church and the SATC, and a letter describing the commissary serving the SATC on the Heights campus. Also included is general correspondence ranging over eighteen years, with letters describing buildings and life on campus during the war years, a copy of a March 1922 letter asking for aid from a professor in Petrograd, comments on the manuscript by Professor Theodore F. Jones, and several letters from Dr. Snow to publishers. Among the memoranda, 1917-1935, are lists of men who left the campus for duty in 1917, notes on the influenza epidemic of 1918-1919, a memorandum on a Memorial Tablet for Alumni, Faculty, and Students who died in service during World War I, and a 1930 report from the Dean of the College of Engineering defending military instruction on campus and criticizing the University for not having yet published a list of students who served in the war."
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref23",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067063",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_651804504e642ad101b1b1a1a48caae8",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_14d3787a5e38e03cbd0bdebe2d893044",
-                                                "parent": "aspace_651804504e642ad101b1b1a1a48caae8",
-                                                "type": "folder",
-                                                "value": "10-13"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1930"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Manuscript Fragments"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067063",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_c15ec58f9847c4ecdd6c1625cd524e54",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7ac95dacd020756a435df3af0e81e965",
-                                                "parent": "aspace_c15ec58f9847c4ecdd6c1625cd524e54",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1933"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Manuscript Fragments"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067063",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_bc1f7cc03eda089bdd12be2ad2ac1018",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b83f0f76de4903a3be041c1a35611796",
-                                                "parent": "aspace_bc1f7cc03eda089bdd12be2ad2ac1018",
-                                                "type": "folder",
-                                                "value": "15-16"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1934"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Introduction - Chapter 18"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067063",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_c0eb16ea6cb708fd03b362626d10ecaf",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_89dc87120d55eb5c5f87b7164df5498b",
-                                                "parent": "aspace_c0eb16ea6cb708fd03b362626d10ecaf",
-                                                "type": "folder",
-                                                "value": "17-18"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1935"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Introduction - Chapter 5"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067071",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_815d0ca17cb0f44764d72101a8080fa4",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_b64fad647e09c535814436baca93447b",
-                                                "parent": "aspace_815d0ca17cb0f44764d72101a8080fa4",
-                                                "type": "folder",
-                                                "value": "1-2"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1935"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Chapter 6 - Chapter 12"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067071",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_335e0394ef280c9c58c9c3bd112f3994",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_c2c0f0090a77365a9945ba8347aa7791",
-                                                "parent": "aspace_335e0394ef280c9c58c9c3bd112f3994",
-                                                "type": "folder",
-                                                "value": "3-4"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1935"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Chapter 13 - Chapter 17"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067071",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e0374aca6913e72bf78611a927c2354f",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_c991fc9242d4c0e1eabee9f630bceffd",
-                                                "parent": "aspace_e0374aca6913e72bf78611a927c2354f",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Introduction - Chapter 9"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067071",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_08741177d1baa0fff368dc093a66dc5b",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_2b8f35e9d878e1ae84675acfbb7e1f95",
-                                                "parent": "aspace_08741177d1baa0fff368dc093a66dc5b",
-                                                "type": "folder",
-                                                "value": "6-9"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Chapter 10 - Chapter 18"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067071",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_06b1340651ffdf39229a91d754cb01fe",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_91a48cf426c600ec43563bfbb85334b7",
-                                                "parent": "aspace_06b1340651ffdf39229a91d754cb01fe",
-                                                "type": "folder",
-                                                "value": "10-11"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Introduction - Chapter 6"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067071",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_b461f11cb2f88f92701834a7ef25e19d",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_7579291a1d9793a36b69166fa2021fe3",
-                                                "parent": "aspace_b461f11cb2f88f92701834a7ef25e19d",
-                                                "type": "folder",
-                                                "value": "12-13"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Chapter 7 - Chapter 12"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067089",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_fb89a0d9418387b5f5483e40e60a67a4",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_65c8481d653c3163e8ee48f7ca7e3d13",
-                                                "parent": "aspace_fb89a0d9418387b5f5483e40e60a67a4",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Chapter 13 - Chapter 18"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref35",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067089",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_a3a171da76f624e9b0fe1c045e2863bf",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_8eaf990a3fe3086437d32c1ef4f4bd8d",
-                                                "parent": "aspace_a3a171da76f624e9b0fe1c045e2863bf",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Index"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref36",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067089",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_9d21c906993cc4e4ce2db2f92d5af47f",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_ff65dd0142a12b4e2d7258a0ef5c605a",
-                                                "parent": "aspace_9d21c906993cc4e4ce2db2f92d5af47f",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Introduction - Chapter 6"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref37",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067089",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e9a0d7701c6d63cadd61722f39347b9e",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_18842d0e5465f48848ff9aa0ecc2e0d5",
-                                                "parent": "aspace_e9a0d7701c6d63cadd61722f39347b9e",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Chapter 7 - Appendix"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref38",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067089",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_b7fde7d53ceea4ccadb3ada16edabde3",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_c43f0abb71d79ec9f891b79ad6aa4928",
-                                                "parent": "aspace_b7fde7d53ceea4ccadb3ada16edabde3",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1940"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Introduction"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref39",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067089",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_b3a5b0a7d7682626d787910afe436cbd",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_e86df5744cfc4710f76648de64379994",
-                                                "parent": "aspace_b3a5b0a7d7682626d787910afe436cbd",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1943"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Introduction - Chapter 8"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref41",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067089",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_95cb525075115ae6564c336890477d63",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_e4e38b171558446d9869efe7069bcfa0",
-                                                "parent": "aspace_95cb525075115ae6564c336890477d63",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1943"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Chapter 9 - Appendix"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref42",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067089",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_b1fc4b2130c994b2a5096f850191fe38",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_7115e63f30907a406bd1dee1d52a7000",
-                                                "parent": "aspace_b1fc4b2130c994b2a5096f850191fe38",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1917-1918"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Photographs"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref44",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067089",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_39c9771e3f69217ac7c790bbc80c77a9",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_f962ae50b3001e060653d8e28bf4f8c2",
-                                                "parent": "aspace_39c9771e3f69217ac7c790bbc80c77a9",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Bibliography, Suggested"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref45",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067089",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_34692052d7cf7a6875bedcec97a26fa7",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_cca3e6d1f3c4636360591a015016b392",
-                                                "parent": "aspace_34692052d7cf7a6875bedcec97a26fa7",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Index"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref46",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063067089",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_89e18087f1c53e5bda5907691c188333",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_2c1592a13ca53058931a13d3187fa2c1",
-                                                "parent": "aspace_89e18087f1c53e5bda5907691c188333",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Manuscript Fragments"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
                                 "langmaterial": [
                                     {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
                                     }
                                 ],
                                 "unitdate": [
                                     {
-                                        "value": "1930-1943"
+                                        "value": "1930"
                                     }
                                 ],
-                                "unittitle": [
+                                "unittitle": {
+                                    "value": "Manuscript Fragments"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Series II: \"The Camp on Campus\" (Manuscript)"
+                                        "barcode": "31142063067063",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_c15ec58f9847c4ecdd6c1625cd524e54",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7ac95dacd020756a435df3af0e81e965",
+                                        "parent": "aspace_c15ec58f9847c4ecdd6c1625cd524e54",
+                                        "type": "folder",
+                                        "value": "14"
                                     }
-                                ]
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1933"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Manuscript Fragments"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067063",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_bc1f7cc03eda089bdd12be2ad2ac1018",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b83f0f76de4903a3be041c1a35611796",
+                                        "parent": "aspace_bc1f7cc03eda089bdd12be2ad2ac1018",
+                                        "type": "folder",
+                                        "value": "15-16"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1934"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Introduction - Chapter 18"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067063",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_c0eb16ea6cb708fd03b362626d10ecaf",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_89dc87120d55eb5c5f87b7164df5498b",
+                                        "parent": "aspace_c0eb16ea6cb708fd03b362626d10ecaf",
+                                        "type": "folder",
+                                        "value": "17-18"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1935"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Introduction - Chapter 5"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067071",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_815d0ca17cb0f44764d72101a8080fa4",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_b64fad647e09c535814436baca93447b",
+                                        "parent": "aspace_815d0ca17cb0f44764d72101a8080fa4",
+                                        "type": "folder",
+                                        "value": "1-2"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1935"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Chapter 6 - Chapter 12"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067071",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_335e0394ef280c9c58c9c3bd112f3994",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_c2c0f0090a77365a9945ba8347aa7791",
+                                        "parent": "aspace_335e0394ef280c9c58c9c3bd112f3994",
+                                        "type": "folder",
+                                        "value": "3-4"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1935"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Chapter 13 - Chapter 17"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067071",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e0374aca6913e72bf78611a927c2354f",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_c991fc9242d4c0e1eabee9f630bceffd",
+                                        "parent": "aspace_e0374aca6913e72bf78611a927c2354f",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Introduction - Chapter 9"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067071",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_08741177d1baa0fff368dc093a66dc5b",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_2b8f35e9d878e1ae84675acfbb7e1f95",
+                                        "parent": "aspace_08741177d1baa0fff368dc093a66dc5b",
+                                        "type": "folder",
+                                        "value": "6-9"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Chapter 10 - Chapter 18"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067071",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_06b1340651ffdf39229a91d754cb01fe",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_91a48cf426c600ec43563bfbb85334b7",
+                                        "parent": "aspace_06b1340651ffdf39229a91d754cb01fe",
+                                        "type": "folder",
+                                        "value": "10-11"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Introduction - Chapter 6"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067071",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_b461f11cb2f88f92701834a7ef25e19d",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_7579291a1d9793a36b69166fa2021fe3",
+                                        "parent": "aspace_b461f11cb2f88f92701834a7ef25e19d",
+                                        "type": "folder",
+                                        "value": "12-13"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Chapter 7 - Chapter 12"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067089",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_fb89a0d9418387b5f5483e40e60a67a4",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_65c8481d653c3163e8ee48f7ca7e3d13",
+                                        "parent": "aspace_fb89a0d9418387b5f5483e40e60a67a4",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Chapter 13 - Chapter 18"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref35",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067089",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_a3a171da76f624e9b0fe1c045e2863bf",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_8eaf990a3fe3086437d32c1ef4f4bd8d",
+                                        "parent": "aspace_a3a171da76f624e9b0fe1c045e2863bf",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Index"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref36",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067089",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_9d21c906993cc4e4ce2db2f92d5af47f",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_ff65dd0142a12b4e2d7258a0ef5c605a",
+                                        "parent": "aspace_9d21c906993cc4e4ce2db2f92d5af47f",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Introduction - Chapter 6"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref37",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067089",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e9a0d7701c6d63cadd61722f39347b9e",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_18842d0e5465f48848ff9aa0ecc2e0d5",
+                                        "parent": "aspace_e9a0d7701c6d63cadd61722f39347b9e",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Chapter 7 - Appendix"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref38",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067089",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_b7fde7d53ceea4ccadb3ada16edabde3",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_c43f0abb71d79ec9f891b79ad6aa4928",
+                                        "parent": "aspace_b7fde7d53ceea4ccadb3ada16edabde3",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1940"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Introduction"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref39",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067089",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_b3a5b0a7d7682626d787910afe436cbd",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_e86df5744cfc4710f76648de64379994",
+                                        "parent": "aspace_b3a5b0a7d7682626d787910afe436cbd",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1943"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Introduction - Chapter 8"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref41",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067089",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_95cb525075115ae6564c336890477d63",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_e4e38b171558446d9869efe7069bcfa0",
+                                        "parent": "aspace_95cb525075115ae6564c336890477d63",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1943"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Chapter 9 - Appendix"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref42",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067089",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_b1fc4b2130c994b2a5096f850191fe38",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_7115e63f30907a406bd1dee1d52a7000",
+                                        "parent": "aspace_b1fc4b2130c994b2a5096f850191fe38",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1917-1918"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Photographs"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref44",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067089",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_39c9771e3f69217ac7c790bbc80c77a9",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_f962ae50b3001e060653d8e28bf4f8c2",
+                                        "parent": "aspace_39c9771e3f69217ac7c790bbc80c77a9",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Bibliography, Suggested"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref45",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067089",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_34692052d7cf7a6875bedcec97a26fa7",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_cca3e6d1f3c4636360591a015016b392",
+                                        "parent": "aspace_34692052d7cf7a6875bedcec97a26fa7",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Index"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref46",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063067089",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_89e18087f1c53e5bda5907691c188333",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_2c1592a13ca53058931a13d3187fa2c1",
+                                        "parent": "aspace_89e18087f1c53e5bda5907691c188333",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Manuscript Fragments"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
                             }
                         ],
-                        "scopecontent": [
+                        "unitdate": [
                             {
-                                "id": "aspace_104d8a7ee0ede1fcc6276f3f9ac1e5ae",
-                                "head": [
-                                    {
-                                        "value": "Scope and Contents: Series II: \"The Camp on Campus\" (Manuscript)"
-                                    }
-                                ],
-                                "p": [
-                                    {
-                                        "value": "Included in Series II are many different versions of the preface, table of contents, eighteen chapters, appendices, and index; and the manuscript's final draft. The first five chapters of the manuscript explain the historical setting of the United States from the turn of the century until its entrance into the war. Chapters six through seventeen describe the many ways the ensuing World War affected life on campus and chapter eighteen records the period of reconstruction and the resumption of a normal routine on campus. Also included is a note from Dr. Snow dated December 15, 1943, detailing what the object of his manuscript was and why he decided not to publish it."
-                                    }
-                                ]
+                                "value": "1930-1943"
                             }
-                        ]
-                    }
-                ]
-            }
-        ],
+                        ],
+                        "unittitle": {
+                            "value": "Series II: \"The Camp on Campus\" (Manuscript)"
+                        }
+                    },
+                    "scopecontent": [
+                        {
+                            "id": "aspace_104d8a7ee0ede1fcc6276f3f9ac1e5ae",
+                            "head": {
+                                "value": "Scope and Contents: Series II: \"The Camp on Campus\" (Manuscript)"
+                            },
+                            "p": [
+                                {
+                                    "value": "Included in Series II are many different versions of the preface, table of contents, eighteen chapters, appendices, and index; and the manuscript's final draft. The first five chapters of the manuscript explain the historical setting of the United States from the turn of the century until its entrance into the war. Chapters six through seventeen describe the many ways the ensuing World War affected life on campus and chapter eighteen records the period of reconstruction and the resumption of a normal routine on campus. Also included is a note from Dr. Snow dated December 15, 1943, detailing what the object of his manuscript was and why he decided not to publish it."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_9f320311a9f1e591f08f1e575f428a97",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date (if known); Charles H. Snow Papers; MC 25; box number; folder number; New York University Archives."
@@ -1684,11 +1512,9 @@
         "processinfo": [
             {
                 "id": "aspace_1ee247b81d37b961be588e2b323c578b",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "Processing information before 2019 is unavailable."
@@ -1699,23 +1525,41 @@
         "relatedmaterial": [
             {
                 "id": "aspace_a58a09b404172832190713e184fd10c8",
-                "head": [
-                    {
-                        "value": "Related Materials"
-                    }
-                ],
+                "head": {
+                    "value": "Related Materials"
+                },
                 "p": [
                     {
-                        "value": "\u003cspan class=\"ead-extref\"\u003eRecords of the Student Army Training Corps (1916-1921)\u003c/span\u003e RG 43.1"
+                        "value": "\u003cspan class=\"ead-extref\"\u003eRecords of the Student Army Training Corps (1916-1921)\u003c/span\u003e RG 43.1",
+                        "extref": [
+                            {
+                                "href": "http://dlib.nyu.edu/findingaids/html/archives/satc/"
+                            }
+                        ]
                     },
                     {
-                        "value": "\u003cspan class=\"ead-extref\"\u003eAdministrative Papers of University College of Arts and Science, Office of the Dean (1899-1941)\u003c/span\u003e RG 18.0.2"
+                        "value": "\u003cspan class=\"ead-extref\"\u003eAdministrative Papers of University College of Arts and Science, Office of the Dean (1899-1941)\u003c/span\u003e RG 18.0.2",
+                        "extref": [
+                            {
+                                "href": "http://dlib.nyu.edu/findingaids/html/archives/bouton/"
+                            }
+                        ]
                     },
                     {
-                        "value": "\u003cspan class=\"ead-extref\"\u003eMarshall Brown Collection on NYU Faculty and Students in World War I\u003c/span\u003e MC 66"
+                        "value": "\u003cspan class=\"ead-extref\"\u003eMarshall Brown Collection on NYU Faculty and Students in World War I\u003c/span\u003e MC 66",
+                        "extref": [
+                            {
+                                "href": "http://dlib.nyu.edu/findingaids/html/archives/marshallbrown/"
+                            }
+                        ]
                     },
                     {
-                        "value": "\u003cspan class=\"ead-extref\"\u003eClinton Mindil Collection on NYU Alumni in World War I\u003c/span\u003e MC 68"
+                        "value": "\u003cspan class=\"ead-extref\"\u003eClinton Mindil Collection on NYU Alumni in World War I\u003c/span\u003e MC 68",
+                        "extref": [
+                            {
+                                "href": "http://dlib.nyu.edu/findingaids/html/archives/mindil/"
+                            }
+                        ]
                     }
                 ]
             }
@@ -1723,11 +1567,9 @@
         "scopecontent": [
             {
                 "id": "aspace_f9df5cbf3790069052d1e9f5ea59af0a",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "The collection consists of materials collected by Charles H. Snow for his unpublished manuscript, \"The Camp on Campus: The Great War as Observed From a College Campus.\" The majority of the materials are drafts of the manuscript itself, which chronicles New York University's involvement with the military during World War I.  Additional material includes twenty years of correspondence and memoranda which Snow collected while conducting research for the manuscript. Photographs illustrating various historical points made in the manuscript are also included."
@@ -1744,11 +1586,9 @@
         "userestrict": [
             {
                 "id": "aspace_e1b889b86543a1cb711d734b50a5cddf",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the creator are maintained by New York University. Permission to publish or reproduce materials in this collection must be secured from New York University Archives, (212) 998-2646, university-archives@nyu.edu."
@@ -1757,73 +1597,52 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NyNyUA",
+            "url": "http://dlib.nyu.edu/findingaids/html/archives/mc_25/",
+            "value": "mc_25"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "publisher": "New York University Archives"
+            },
+            "titlestmt": {
+                "author": "Steven A. Walker. Electronic version and additional description prepared by Deborah Shapiro.",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Charles H. Snow Collection on NYU During World War I \u003cspan class=\"ead-num\"\u003eMC.25\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MC.25"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 14:31:46 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
+        },
+        "revisiondesc": {
+            "change": [
                 {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NyNyUA",
-                    "url": "http://dlib.nyu.edu/findingaids/html/archives/mc_25/",
-                    "value": "mc_25"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
-                        {
-                            "publisher": "New York University Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Steven A. Walker. Electronic version and additional description prepared by Deborah Shapiro."
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Charles H. Snow Collection on NYU During World War I \u003cspan class=\"ead-num\"\u003eMC.25\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 14:31:46 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Finding aid written in English."
-                        }
-                    ]
-                }
-            ],
-            "revisiondesc": [
-                {
-                    "change": [
-                        {
-                            "date": [
-                                "June 2019"
-                            ],
-                            "item": [
-                                {
-                                    "value": "Updated by Jacqueline Rider for compliance with DACS and ACM Required Elements for Archival Description"
-                                }
-                            ]
-                        }
-                    ]
+                    "date": {
+                        "value": "June 2019"
+                    },
+                    "item": {
+                        "value": "Updated by Jacqueline Rider for compliance with DACS and ACM Required Elements for Archival Description"
+                    }
                 }
             ]
         }
-    ]
+    }
 }

@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_942465d8c87462a10df6b2d66dd8564e",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_a1cf61519340a2774d68f407386e8a5c",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Materials found in repository; provenance is unknown. The accession number associated with this material is 1987.006."
@@ -37,11 +33,9 @@
         "bioghist": [
             {
                 "id": "aspace_8fc7ab5495fa7242cc01f9d342624f57",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "The International Alliance of Theatrical and Stage Employees, Local 52 was founded in the early 1920s, and officially chartered by the International Alliance of Theatrical Stage Employees (IATSE) in 1924."
@@ -49,27 +43,28 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "persname": [
-                    {
-                        "role": "Donor",
-                        "value": "Margolin, Julius"
-                    }
-                ],
-                "subject": [
-                    "Theaters |x Employees |X Labor unions |z United States."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "persname": [
+                {
+                    "role": "Donor",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Margolin, Julius"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Theaters |x Employees |X Labor unions |z United States."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_9c5628f04d2df5e646ab7038577aaaa4",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "The archived website was migrated from the California Digital Library's Web Archiving Service to the Internet Archive's Archive-It Service in November 2015. The link to California Digital Library was removed in October 2017."
@@ -77,151 +72,132 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "1 Linear Feet"
-                            },
-                            {
-                                "value": "(1 boxes)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 boxes)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English",
+                    "id": "aspace_14bf53d9464ba94c8472f7f9955f07c3"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "corpname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "International Alliance of Theatrical Stage Employees and Moving Picture Machine Operators of the United States and Canada. Local 52 (New York, N.Y.)"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_14bf53d9464ba94c8472f7f9955f07c3",
-                        "value": "Materials are in English"
+                },
+                {
+                    "label": "source",
+                    "persname": {
+                        "role": "Donor",
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Margolin, Julius"
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "corpname": [
-                            {
-                                "value": "International Alliance of Theatrical Stage Employees and Moving Picture Machine Operators of the United States and Canada. Local 52 (New York, N.Y.)"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "role": "Donor",
-                                "value": "Margolin, Julius"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1966/1990",
-                        "type": "inclusive",
-                        "value": "1966-1990"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "WAG.251"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "International Alliance of Theatrical Stage Employees, Local 52 Records"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1966/1990",
+                    "type": "inclusive",
+                    "value": "1966-1990"
+                }
+            ],
+            "unitid": "WAG.251",
+            "unittitle": {
+                "value": "International Alliance of Theatrical Stage Employees, Local 52 Records"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref3",
-                        "level": "series",
-                        "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref3",
+                    "level": "series",
+                    "did": {
+                        "dao": [
                             {
-                                "dao": [
-                                    {
-                                        "actuate": "onLoad",
-                                        "href": "https://wayback.archive-it.org/6349/*/http://www.iatselocal52.org/",
-                                        "role": "external-link",
-                                        "show": "new",
-                                        "type": "simple",
-                                        "daodesc": {
-                                            "p": [
-                                                {
-                                                    "value": "International Alliance of Theatrical and Stage Employees, Local 52"
-                                                }
-                                            ]
+                                "actuate": "onLoad",
+                                "href": "https://wayback.archive-it.org/6349/*/http://www.iatselocal52.org/",
+                                "role": "external-link",
+                                "show": "new",
+                                "title": "International Alliance of Theatrical and Stage Employees, Local 52",
+                                "type": "simple",
+                                "daodesc": {
+                                    "p": [
+                                        {
+                                            "value": "International Alliance of Theatrical and Stage Employees, Local 52"
                                         }
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "Feb 8, 2009-ongoing"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Archived Website"
-                                    }
-                                ]
+                                    ]
+                                }
                             }
                         ],
-                        "phystech": [
+                        "unitdate": [
                             {
-                                "id": "aspace_c365b110e8fe3aab9b84537b78e18ff5",
-                                "head": [
-                                    {
-                                        "value": "Physical Characteristics and Technical Requirements"
-                                    }
-                                ],
-                                "p": [
-                                    {
-                                        "value": "Due to technical or privacy issues, archived websites may not be exact copies of  the original website at the time of the web crawl. Certain file types will not be captured dependent on how they are embedded in the site. Other parts of websites that the crawler has difficulty capturing includes Javascript, streaming content, database-driven content, and highly interactive content. Full-Text searches of archived websites are available at https://archive-it.org/organizations/567."
-                                    }
-                                ]
+                                "value": "Feb 8, 2009-ongoing"
                             }
                         ],
-                        "scopecontent": [
-                            {
-                                "id": "aspace_4f4a0d034b71299da6236a0d04077c1c",
-                                "head": [
-                                    {
-                                        "value": "Scope and Content Note"
-                                    }
-                                ],
-                                "p": [
-                                    {
-                                        "value": "International Alliance of Theatrical and Stage Employees, Local 52 was founded in the early 1920s, and was officially chartered by the International Alliance of Theatrical Stage Employees (IATSE) in 1924. The local's jurisdiction includes, New York, New Jersey, Delaware, Pennsylvania (with the exception of Pittsburgh), and Connecticut. The labor union represents technicians, artisans and craftspeople in the entertainment industry, including live theatre, motion picture and television production, and trade shows. The website includes information on films and television series currently being filmed in the local's jurisdiction, membership applications, links and other resources."
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
+                        "unittitle": {
+                            "value": "Archived Website"
+                        }
+                    },
+                    "phystech": [
+                        {
+                            "id": "aspace_c365b110e8fe3aab9b84537b78e18ff5",
+                            "head": {
+                                "value": "Physical Characteristics and Technical Requirements"
+                            },
+                            "p": [
+                                {
+                                    "value": "Due to technical or privacy issues, archived websites may not be exact copies of  the original website at the time of the web crawl. Certain file types will not be captured dependent on how they are embedded in the site. Other parts of websites that the crawler has difficulty capturing includes Javascript, streaming content, database-driven content, and highly interactive content. Full-Text searches of archived websites are available at https://archive-it.org/organizations/567."
+                                }
+                            ]
+                        }
+                    ],
+                    "scopecontent": [
+                        {
+                            "id": "aspace_4f4a0d034b71299da6236a0d04077c1c",
+                            "head": {
+                                "value": "Scope and Content Note"
+                            },
+                            "p": [
+                                {
+                                    "value": "International Alliance of Theatrical and Stage Employees, Local 52 was founded in the early 1920s, and was officially chartered by the International Alliance of Theatrical Stage Employees (IATSE) in 1924. The local's jurisdiction includes, New York, New Jersey, Delaware, Pennsylvania (with the exception of Pittsburgh), and Connecticut. The labor union represents technicians, artisans and craftspeople in the entertainment industry, including live theatre, motion picture and television production, and trade shows. The website includes information on films and television series currently being filmed in the local's jurisdiction, membership applications, links and other resources."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_7800f2dac3ff2b01cc86535d268079a7",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; International Alliance of Theatrical Stage Employees, Local 52; WAG 251; box number; folder number; Tamiment Library/Robert F. Wagner Labor Archives, New York University."
@@ -232,11 +208,9 @@
         "processinfo": [
             {
                 "id": "aspace_feb7fdb04bb73c5445aa54a71780b3cc",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "In 2014, the archived website was added as a series."
@@ -247,11 +221,9 @@
         "scopecontent": [
             {
                 "id": "aspace_87fa79c23df3e2c96d09b559f057dcbc",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "IATSE, Local 52 (Motion Picture and Sound Mechanics) records include membership directory, Local 52 newsletters, 50th anniversary program, Executive Board minutes (1966-1990), budget meeting minutes, general membership meeting minutes, and by-laws."
@@ -262,11 +234,9 @@
         "userestrict": [
             {
                 "id": "aspace_8635dfeb26bd3fb80e769c56b58ffac5",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection, created by the International Alliance of Theatrical and Stage Employees, Local 52 was not transferred to New York University. Permission to use materials must be secured from the copyright holder."
@@ -275,92 +245,78 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/wag_251/",
-                    "value": "wag_251"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/wag_251/",
+            "value": "wag_251"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2014\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Tamiment Staff"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the International Alliance of Theatrical Stage Employees, Local 52 Records \u003cspan class=\"ead-num\"\u003eWAG.251\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 16:02:48 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in English"
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2014\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2014"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Tamiment Staff",
+                "titleproper": [
+                    {
+                        "value": "Guide to the International Alliance of Theatrical Stage Employees, Local 52 Records \u003cspan class=\"ead-num\"\u003eWAG.251\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "WAG.251"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 16:02:48 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

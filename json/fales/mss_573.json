@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_eae2dcc45840dfbfee7593d87031b9cd",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_b7554cf0e0a74eaeca10dca13044cb98",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Donated by Elisa Hertz, 2019. The accession number associated with this donation is 2019.017."
@@ -34,11 +30,9 @@
         "arrangement": [
             {
                 "id": "aspace_83b3b454ec313475eded584d3562d36c",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "This collection has not been arranged by an archivist. The materials are arranged in the order in which they were received from the donor."
@@ -49,11 +43,9 @@
         "bioghist": [
             {
                 "id": "aspace_eb5ab72254995de9b073446de6cd113a",
-                "head": [
-                    {
-                        "value": "Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Elisa Hertz is a New York University alumni from the 1990s."
@@ -61,40 +53,61 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Jesus Jones (Musical group)"
-                    }
-                ],
-                "genreform": [
-                    "Fliers (printed matter)",
-                    "Tickets.",
-                    "Buttons (information artifacts)."
-                ],
-                "persname": [
-                    {
-                        "role": "Donor",
-                        "value": "Hertz, Elisa"
-                    }
-                ],
-                "subject": [
-                    "Nightclubs -- New York (State) -- New York.",
-                    "Rock and roll music",
-                    "Popular music -- 1981-1990.",
-                    "Popular music -- 1991-2000."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "Jesus Jones (Musical group)"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Fliers (printed matter)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Tickets."
+                },
+                {
+                    "source": "aat",
+                    "value": "Buttons (information artifacts)."
+                }
+            ],
+            "persname": [
+                {
+                    "role": "Donor",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Hertz, Elisa"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Nightclubs -- New York (State) -- New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Rock and roll music"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Popular music -- 1981-1990."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Popular music -- 1991-2000."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_20f89ece663fb5f9e950293edbc11758",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "This material was kept in the donor's West Village apartment until it was donated to the Fales Library and Special Collections in July 2016."
@@ -102,309 +115,273 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 1 record carton and 1 oversize flat box folder",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The Elisa Hertz Collection of Concert and Nightclub Ephemera contains material accumulated by an individual while attending performances and frequenting various nightclubs within the New York City area from the 1980s to the mid-2000s. This collection includes tickets/stubs, buttons, and fliers. The concert tickets, some of which have been autographed by the performers, document bands/performers and nightclubs active in the City during this era. Of note are a significant amount of wearable buttons some representing music performers/bands, as well as others advertising New York City shops. Elisa Hertz is an alumni of New York University, from the 1990s.",
+                    "id": "aspace_419f75476b72b1a5c1297403b3e6b062"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English.",
+                    "id": "aspace_e92371d6efe875fce8dcf626a3a1389b"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Hertz, Elisa"
+                    }
+                },
+                {
+                    "label": "source",
+                    "persname": {
+                        "role": "Donor",
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Hertz, Elisa"
+                    }
+                }
+            ],
+            "physloc": [
+                {
+                    "id": "aspace_50bd51336f2bca33d5f19604f4dee408",
+                    "value": "Materials are stored offsite and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Fales Library and Special Collections"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1980/2006",
+                    "type": "inclusive",
+                    "value": "1980s-2000s"
+                }
+            ],
+            "unitid": "MSS.573",
+            "unittitle": {
+                "value": "Elisa Hertz Collection of Concert and Nightclub Ephemera"
+            }
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_fe56e309ee6ed1a4f3755d711a9fb80f",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "1 Linear Feet"
+                                "barcode": "31142063343704",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_f92b8c4c8ece447c47ac088bec864852",
+                                "type": "box",
+                                "value": "1"
                             },
                             {
-                                "value": "in 1 record carton and 1 oversize flat box folder"
+                                "id": "aspace_fdb321a803f7e77302200fe24a1455c7",
+                                "parent": "aspace_f92b8c4c8ece447c47ac088bec864852",
+                                "type": "folder",
+                                "value": "1"
                             }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "The Elisa Hertz Collection of Concert and Nightclub Ephemera contains material accumulated by an individual while attending performances and frequenting various nightclubs within the New York City area from the 1980s to the mid-2000s. This collection includes tickets/stubs, buttons, and fliers. The concert tickets, some of which have been autographed by the performers, document bands/performers and nightclubs active in the City during this era. Of note are a significant amount of wearable buttons some representing music performers/bands, as well as others advertising New York City shops. Elisa Hertz is an alumni of New York University, from the 1990s.",
-                        "id": "aspace_419f75476b72b1a5c1297403b3e6b062"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_e92371d6efe875fce8dcf626a3a1389b",
-                        "value": "Materials are in English."
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
+                        ],
+                        "unitdate": [
                             {
-                                "value": "Hertz, Elisa"
+                                "normal": "1992/1993",
+                                "type": "inclusive",
+                                "value": "1992-1993"
                             }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "role": "Donor",
-                                "value": "Hertz, Elisa"
-                            }
-                        ]
+                        ],
+                        "unittitle": {
+                            "value": "NYU Publications"
+                        }
                     }
-                ],
-                "physloc": [
-                    {
-                        "id": "aspace_50bd51336f2bca33d5f19604f4dee408",
-                        "value": "Materials are stored offsite and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
+                },
+                {
+                    "id": "aspace_74572043efe75a9d0cddd35c5c1ea901",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063343704",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_e1108c4038e12cdb6142dce93e0c8b25",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_1802292b45bcdad2b544c50ffe042c27",
+                                "parent": "aspace_e1108c4038e12cdb6142dce93e0c8b25",
+                                "type": "folder",
+                                "value": "2"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1988/1999",
+                                "type": "inclusive",
+                                "value": "1988, 1999"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Books"
+                        }
                     }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
+                },
+                {
+                    "id": "aspace_62c95df585e0d64f1a427d78e3e97d51",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "Fales Library and Special Collections"
+                                "barcode": "31142063343704",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_1edcbb7834c0ef1ce9be5e553e5c348d",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_54b382459937d4c3b93687b01e95d25d",
+                                "parent": "aspace_1edcbb7834c0ef1ce9be5e553e5c348d",
+                                "type": "folder",
+                                "value": "3-6"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1980/2010",
+                                "type": "inclusive",
+                                "value": "1980s-2000s"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Concert Tickets/Announcements"
+                        }
                     }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1980/2006",
-                        "type": "inclusive",
-                        "value": "1980s-2000s"
+                },
+                {
+                    "id": "aspace_7aca38ae187722375bb08f13b03fb534",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063343704",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_2e76497b4554546f60ea9ce637f86419",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_77be5e04b59df299c51929c4687162e7",
+                                "parent": "aspace_2e76497b4554546f60ea9ce637f86419",
+                                "type": "folder",
+                                "value": "7-10"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1980/2010",
+                                "type": "inclusive",
+                                "value": "1980s-2000s"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Buttons"
+                        }
                     }
-                ],
-                "unitid": [
-                    {
-                        "value": "MSS.573"
+                },
+                {
+                    "id": "aspace_41f01168069d76b51f3314b8f23f0401",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142063343704",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_0f476d56843f9a9604242476fa9c6158",
+                                "type": "box",
+                                "value": "1"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1980/2010",
+                                "type": "inclusive",
+                                "value": "undated"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Ritz T-Shirt"
+                        }
                     }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Elisa Hertz Collection of Concert and Nightclub Ephemera"
+                },
+                {
+                    "id": "aspace_aed1f829d1ec859d62bac3a909b884db",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062732568",
+                                "label": "Mixed Materials",
+                                "altrender": "Flat OS Box 17",
+                                "id": "aspace_e576fdd4f5cf09e5e4ea027b2d28ec6b",
+                                "type": "box",
+                                "value": "Shared Fales 011"
+                            },
+                            {
+                                "id": "aspace_552b547aef8c82e04b3dde023c43b3f0",
+                                "parent": "aspace_e576fdd4f5cf09e5e4ea027b2d28ec6b",
+                                "type": "folder",
+                                "value": "7"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1980/2000",
+                                "type": "inclusive",
+                                "value": "1980s-2000s"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Concert Fliers/Announcements/Set List"
+                        }
                     }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_fe56e309ee6ed1a4f3755d711a9fb80f",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063343704",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_f92b8c4c8ece447c47ac088bec864852",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_fdb321a803f7e77302200fe24a1455c7",
-                                        "parent": "aspace_f92b8c4c8ece447c47ac088bec864852",
-                                        "type": "folder",
-                                        "value": "1"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1992/1993",
-                                        "type": "inclusive",
-                                        "value": "1992-1993"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "NYU Publications"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_74572043efe75a9d0cddd35c5c1ea901",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063343704",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_e1108c4038e12cdb6142dce93e0c8b25",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_1802292b45bcdad2b544c50ffe042c27",
-                                        "parent": "aspace_e1108c4038e12cdb6142dce93e0c8b25",
-                                        "type": "folder",
-                                        "value": "2"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1988/1999",
-                                        "type": "inclusive",
-                                        "value": "1988, 1999"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Books"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_62c95df585e0d64f1a427d78e3e97d51",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063343704",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_1edcbb7834c0ef1ce9be5e553e5c348d",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_54b382459937d4c3b93687b01e95d25d",
-                                        "parent": "aspace_1edcbb7834c0ef1ce9be5e553e5c348d",
-                                        "type": "folder",
-                                        "value": "3-6"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1980/2010",
-                                        "type": "inclusive",
-                                        "value": "1980s-2000s"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Concert Tickets/Announcements"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_7aca38ae187722375bb08f13b03fb534",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063343704",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_2e76497b4554546f60ea9ce637f86419",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_77be5e04b59df299c51929c4687162e7",
-                                        "parent": "aspace_2e76497b4554546f60ea9ce637f86419",
-                                        "type": "folder",
-                                        "value": "7-10"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1980/2010",
-                                        "type": "inclusive",
-                                        "value": "1980s-2000s"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Buttons"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_41f01168069d76b51f3314b8f23f0401",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142063343704",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_0f476d56843f9a9604242476fa9c6158",
-                                        "type": "box",
-                                        "value": "1"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1980/2010",
-                                        "type": "inclusive",
-                                        "value": "undated"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Ritz T-Shirt"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_aed1f829d1ec859d62bac3a909b884db",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062732568",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Flat OS Box 17",
-                                        "id": "aspace_e576fdd4f5cf09e5e4ea027b2d28ec6b",
-                                        "type": "box",
-                                        "value": "Shared Fales 011"
-                                    },
-                                    {
-                                        "id": "aspace_552b547aef8c82e04b3dde023c43b3f0",
-                                        "parent": "aspace_e576fdd4f5cf09e5e4ea027b2d28ec6b",
-                                        "type": "folder",
-                                        "value": "7"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1980/2000",
-                                        "type": "inclusive",
-                                        "value": "1980s-2000s"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Concert Fliers/Announcements/Set List"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_8bc92a1be48c54c26afb442f026a953d",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; Eliza Hertz Collection of Concert and Nightclub Ephemera; MSS 573; box number; folder number; Fales Library and Special Collections, New York University."
@@ -415,11 +392,9 @@
         "processinfo": [
             {
                 "id": "aspace_80a7182f1388f04f6a47b1944c40725a",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "Materials were placed in acid-free folders and boxes. Oversize material was separated and placed in an appropriately sized folder/container. A box level inventory was created."
@@ -430,11 +405,9 @@
         "scopecontent": [
             {
                 "id": "aspace_37042bc1a8a23236e708be6ef8a41d21",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "This collection contains concert and New York area nightclub ephemera from the 1980s to the mid-2000s, including collectible buttons, tickets, and fliers. Concert tickets document performances, as well as the variety of nightclubs that existed throughout the city during this era. Autographed tickets in this collection include the Ramones, Violent Femmes, and Juliana Hatfield. Collectible music fan material include a significant collection of wearable buttons of R.E.M., INXS, Jane's Addiction, Soup Dragons, The Mighty Lemon Drops, The Charlatans, as well as an autographed Jesus Jones set list and flier, and signed Hot Hot Heat poster. New York nightclub ephemera includes an autographed CBGB's history, and a Ritz nightclub t-shirt. A small number of music festival-related NYU publications and collectible buttons from the 1990s and collectible buttons distributed by various New York City stores are also in this collection."
@@ -445,11 +418,9 @@
         "userestrict": [
             {
                 "id": "aspace_799e67432cf4312ed3d65b3d01ddf277",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Because of the assembled nature of this collection, copyright status varies across the collection. Copyright is assumed to be held by the original creator of individual items in the collection; these items are expected to pass into the public domain 120 years after their creation. The Fales Library and Special Collections is not authorized to grant permission to publish or reproduce materials from this collection."
@@ -458,62 +429,50 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NNU-F",
-                    "url": "http://dlib.nyu.edu/findingaids/html/fales/mss_573",
-                    "value": "mss_573"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
-                        {
-                            "publisher": "Fales Library and Special Collections",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003eFebruary 2019\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Stacey Flatt"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to Elisa Hertz Collection of Concert and Nightclub Ephemera \u003cspan class=\"ead-num\"\u003eMSS.573\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:16:09 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Finding aid written in English"
-                        }
-                    ]
-                }
-            ]
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NNU-F",
+            "url": "http://dlib.nyu.edu/findingaids/html/fales/mss_573",
+            "value": "mss_573"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003eFebruary 2019\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "February 2019"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Fales Library and Special Collections"
+            },
+            "titlestmt": {
+                "author": "Stacey Flatt",
+                "titleproper": [
+                    {
+                        "value": "Guide to Elisa Hertz Collection of Concert and Nightclub Ephemera \u003cspan class=\"ead-num\"\u003eMSS.573\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MSS.573"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:16:09 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

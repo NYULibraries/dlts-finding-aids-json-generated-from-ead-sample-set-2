@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_0898d573958b6bf37d86b71dd37ea6f9",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_2a8bde74f7422e33a15f206bdba5bc90",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Materials were donated by Dena Glassberg Leep in 1993; additional materials were donated in 1997 and 2006. The accession number associated with these gifts is 1994.027."
@@ -34,11 +30,9 @@
         "bioghist": [
             {
                 "id": "aspace_ee4ad33c86091be67298a2bb1462fea5",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Benjamin Glassberg was born in Poland in 1889 and moved to the United State when he was five years old.  He taught high school history in the New York public schools from 1912-1919. In 1913, he became active in the Teachers' League which was the forerunner of the Teachers' Union. He was one of five charter members of Local 5, Teachers Union, American Federation of Teachers. In 1919, he became acting director of the labor research department of the Rand School of Social Science and was co-editor of the \u003cspan class=\"ead-emph ead-emph-italic\"\u003eAmerican Labor Yearbook\u003c/span\u003e published by the school. In 1927, he moved to Wisconsin to become the executive director of the Federated Jewish Charities of Milwaukee. During this time, he was very active in the Wisconsin Conference of Social Work and helped to write child welfare legislation. From 1932-1943, he was appointed superintendent of the Department of Outdoor Relief. For five months in 1934, he left to work for the Federal Emergency Relief Administration. In 1943, he left Milwaukee and joined the Public Housing Administration. With the exception of a brief period during 1943 and 1944 when he served as a displaced persons officer in Europe with the United Nations Relief and Rehabilitation Administration, he worked on housing issues until his death in 1953. Jeanette Glassberg was involved in the women's suffrage movement in Washington D.C. where she grew up and attended George Washington University. After moving to Milwaukee, she helped create the first nursery school in Wisconsin. After Benjamin died, she moved to northern Virginia where she worked for the Department of Public Welfare and other social agencies."
@@ -46,43 +40,70 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "genreform": [
-                    "Articles.",
-                    "Manuscripts",
-                    "Correspondence.",
-                    "Clippings (information artifacts)",
-                    "Memorabilia."
-                ],
-                "persname": [
-                    {
-                        "value": "Glassberg, Jeannette"
-                    },
-                    {
-                        "value": "Glassberg, Benjamin, b. 1889"
-                    },
-                    {
-                        "role": "Donor",
-                        "value": "Leep, Dena"
-                    }
-                ],
-                "subject": [
-                    "Socialists -- United States.",
-                    "Women socialists -- United States.",
-                    "Housing -- United States.",
-                    "Housing policy -- United States."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Articles."
+                },
+                {
+                    "source": "aat",
+                    "value": "Manuscripts"
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Clippings (information artifacts)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Memorabilia."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "local",
+                    "value": "Glassberg, Jeannette"
+                },
+                {
+                    "source": "naf",
+                    "value": "Glassberg, Benjamin, b. 1889"
+                },
+                {
+                    "role": "Donor",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Leep, Dena"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Socialists -- United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Women socialists -- United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Housing -- United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Housing policy -- United States."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_a13bcd1a73bea22e3328831d5b35385a",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "This collection was donated by Dena Leep (daughter of Benjamin and Jeanette Glassberg) in 1994. The accession number associated with this gift is 1994.027. The collection had previously been housed at the Schlesinger Library at Radcliffe College before being transferred directly to Tamiment Library. Additional materials were donated by Dena Leep in 1997 and 2006."
@@ -90,140 +111,126 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "2.25 Linear Feet"
-                            },
-                            {
-                                "value": "in 5 manuscript boxes."
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "2.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 5 manuscript boxes.",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Benjamin Glassberg was a teacher and housing activist. Benjamin was active in the Teachers' League and in 1919 became acting director of the labor research department of the Rand School of Social Science.  He joined the Public Housing Administrationand in 1943 and worked on housing issues until his death in 1953. Jeanette Glassberg was involved in the women's suffrage movement in Washington D.C. and helped create the first nursery school in Wisconsin. After Benjamin died she worked for the Department of Public Welfare and other social agencies. This collection contains letters from Benjamin to Jeanette from 1944-1945, newspaper clippings related to Benjamin's work, articles by Benjamin, a copy of his unpublished PhD thesis, and school report cards. The collection also contains Jeanette's papers which include articles, clippings, report cards, photographs and other memorabilia.",
+                    "id": "aspace_fdd9675b4a7cbb605d39be0aee2c38bd"
+                }
+            ],
+            "container": [
+                {
+                    "barcode": "31142062852788",
+                    "label": "Mixed Materials",
+                    "altrender": "Manuscript box - Letter",
+                    "id": "aspace_510150882c4f896d4f876d2205006f96",
+                    "type": "box",
+                    "value": "1"
+                },
+                {
+                    "barcode": "31142062722494",
+                    "label": "Mixed Materials",
+                    "altrender": "Manuscript box - Legal",
+                    "id": "aspace_7c067bbfac7dde22ddf6d8cbca8ef5ef",
+                    "type": "box",
+                    "value": "2"
+                },
+                {
+                    "barcode": "31142062722502",
+                    "label": "Mixed Materials",
+                    "altrender": "Manuscript box - Legal",
+                    "id": "aspace_696673da3335a40432ca92afd6fba6ec",
+                    "type": "box",
+                    "value": "3"
+                },
+                {
+                    "barcode": "31142062852796",
+                    "label": "Mixed Materials",
+                    "altrender": "Manuscript box - Legal",
+                    "id": "aspace_5caaca997156d842b71921386f2570a7",
+                    "type": "box",
+                    "value": "4"
+                },
+                {
+                    "barcode": "31142062852804",
+                    "label": "Mixed Materials",
+                    "altrender": "Manuscript box - Letter - Half",
+                    "id": "aspace_8649221e9936945569aadfc99fa20fed",
+                    "type": "box",
+                    "value": "5"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English",
+                    "id": "aspace_9b4a4299bc050ca748d99913027c58d8"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
+                        "value": "Glassberg, Jeannette"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Benjamin Glassberg was a teacher and housing activist. Benjamin was active in the Teachers' League and in 1919 became acting director of the labor research department of the Rand School of Social Science.  He joined the Public Housing Administrationand in 1943 and worked on housing issues until his death in 1953. Jeanette Glassberg was involved in the women's suffrage movement in Washington D.C. and helped create the first nursery school in Wisconsin. After Benjamin died she worked for the Department of Public Welfare and other social agencies. This collection contains letters from Benjamin to Jeanette from 1944-1945, newspaper clippings related to Benjamin's work, articles by Benjamin, a copy of his unpublished PhD thesis, and school report cards. The collection also contains Jeanette's papers which include articles, clippings, report cards, photographs and other memorabilia.",
-                        "id": "aspace_fdd9675b4a7cbb605d39be0aee2c38bd"
+                },
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Glassberg, Benjamin, b. 1889"
                     }
-                ],
-                "container": [
-                    {
-                        "barcode": "31142062852788",
-                        "label": "Mixed Materials",
-                        "altrender": "Manuscript box - Letter",
-                        "id": "aspace_510150882c4f896d4f876d2205006f96",
-                        "type": "box",
-                        "value": "1"
-                    },
-                    {
-                        "barcode": "31142062722494",
-                        "label": "Mixed Materials",
-                        "altrender": "Manuscript box - Legal",
-                        "id": "aspace_7c067bbfac7dde22ddf6d8cbca8ef5ef",
-                        "type": "box",
-                        "value": "2"
-                    },
-                    {
-                        "barcode": "31142062722502",
-                        "label": "Mixed Materials",
-                        "altrender": "Manuscript box - Legal",
-                        "id": "aspace_696673da3335a40432ca92afd6fba6ec",
-                        "type": "box",
-                        "value": "3"
-                    },
-                    {
-                        "barcode": "31142062852796",
-                        "label": "Mixed Materials",
-                        "altrender": "Manuscript box - Legal",
-                        "id": "aspace_5caaca997156d842b71921386f2570a7",
-                        "type": "box",
-                        "value": "4"
-                    },
-                    {
-                        "barcode": "31142062852804",
-                        "label": "Mixed Materials",
-                        "altrender": "Manuscript box - Letter - Half",
-                        "id": "aspace_8649221e9936945569aadfc99fa20fed",
-                        "type": "box",
-                        "value": "5"
+                },
+                {
+                    "label": "source",
+                    "persname": {
+                        "role": "Donor",
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Leep, Dena"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_9b4a4299bc050ca748d99913027c58d8",
-                        "value": "Materials are in English"
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Glassberg, Jeannette"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Glassberg, Benjamin, b. 1889"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "role": "Donor",
-                                "value": "Leep, Dena"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1919/1953",
-                        "type": "bulk",
-                        "value": "1919-1953"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.168"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Benjamin and Jeannette Glassberg Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1919/1953",
+                    "type": "bulk",
+                    "value": "1919-1953"
+                }
+            ],
+            "unitid": "TAM.168",
+            "unittitle": {
+                "value": "Benjamin and Jeannette Glassberg Papers"
             }
-        ],
-        "dsc": [
-            {}
-        ],
+        },
+        "dsc": {},
         "prefercite": [
             {
                 "id": "aspace_d8e7c14fcaf7d7dce7a655398b13ca40",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; Benjamin and Jeanette Glassberg Papers; TAM 168; box number; folder number; Tamiment Library/Robert F. Wagner Labor Archives, New York University."
@@ -234,11 +241,9 @@
         "scopecontent": [
             {
                 "id": "aspace_b762ff33a606f01be48516f3d63441fc",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "This collection contains letters from Benjamin to Jeanette from 1944-1945, newspaper clippings related to his work, articles by Benjamin, a copy of his unpublished PhD thesis, and school report cards. The collection also contains Jeanette's papers which include articles, clippings, report cards, photographs and other memorabilia."
@@ -249,11 +254,9 @@
         "userestrict": [
             {
                 "id": "aspace_1248107c80ff611503afbd514c2ab1a7",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (and related rights to publicity and privacy) to materials in this collection created by Benjamin and Jeannette Glassberg was not transferred to New York University. Permission to use materials must be secured from the copyright holder."
@@ -262,100 +265,88 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_168",
-                    "value": "tam_168"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_168",
+            "value": "tam_168"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e11/15/2010\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Tamiment staff"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Benjamin and Jeannette Glassberg Papers \u003cspan class=\"ead-num\"\u003eTAM.168\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e11/15/2010\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "11/15/2010"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Tamiment staff",
+                "titleproper": [
+                    {
+                        "value": "Benjamin and Jeannette Glassberg Papers \u003cspan class=\"ead-num\"\u003eTAM.168\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.168"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:48:56 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            }
+        },
+        "revisiondesc": {
+            "change": [
                 {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:48:56 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ]
-                }
-            ],
-            "revisiondesc": [
-                {
-                    "change": [
-                        {
-                            "date": [
-                                "March 2020"
-                            ],
-                            "item": [
-                                {
-                                    "value": "Updated by Peter Sohmer to reflect the rehousing of materials."
-                                }
-                            ]
-                        }
-                    ]
+                    "date": {
+                        "value": "March 2020"
+                    },
+                    "item": {
+                        "value": "Updated by Peter Sohmer to reflect the rehousing of materials."
+                    }
                 }
             ]
         }
-    ]
+    }
 }

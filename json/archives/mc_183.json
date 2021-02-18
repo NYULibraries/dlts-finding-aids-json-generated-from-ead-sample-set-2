@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_881a64cc6730c7b4a539cb9f9af7c102",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_323427da1d45c2916111239d84a3dee6",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Materials found in repository; provenance is unknown."
@@ -34,11 +30,9 @@
         "arrangement": [
             {
                 "id": "aspace_07b90903416a0566052d66f000409297",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "The collection is arranged alphabetically by title."
@@ -49,11 +43,9 @@
         "bioghist": [
             {
                 "id": "aspace_dd61d5deb86b2f09978c17c00b24fa73",
-                "head": [
-                    {
-                        "value": "Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Albert Warren Ferris was born in Brooklyn in 1856, when Ferris' grandfather, Isaac Ferris, was Chancellor of the University of the City of New York (now New York University).  The younger Ferris entered NYU in 1874.  Elected to Phi Beta Kappa as a junior, Ferris also served as senior class president, editor of the \u003cspan class=\"ead-emph ead-emph-italic\"\u003eUniversity Quarterly\u003c/span\u003e, and senior regent in the Intercollegiate Literary Association.  He graduated as Greek salutatorian of the class of 1878.  Ferris was also a member of the Delta Upsilon fraternity as an undergraduate.\nFerris earned a medical degree from Columbia University College of Physicians and Surgeons in 1882 and an M.A. from NYU in 1885. He was elected president of the NYU Alumni Association in 1905.  \nFerris became a prominent physician in the developing field of psychiatry and served as president of the New York State Lunacy Commission from 1907 to 1911. He died in 1937."
@@ -67,242 +59,216 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Delta Upsilon Fraternity"
-                    },
-                    {
-                        "value": "New York University. Alumni Association"
-                    },
-                    {
-                        "value": "University of the City of New York"
-                    },
-                    {
-                        "value": "Phi Beta Kappa. Beta of New York (New York University)"
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Delta Upsilon Fraternity"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "New York University. Alumni Association"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "University of the City of New York"
+                },
+                {
+                    "rules": "aacr",
+                    "source": "local",
+                    "value": "Phi Beta Kappa. Beta of New York (New York University)"
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in one half manuscript box",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Albert W. Ferris was the grandson of New York University(NYU) Chancellor Isaac Ferris and an 1878 NYU alumnus.  The younger Ferris became a respected physician and psychiatrist in New York, as well as president of the NYU Alumni Association.  His notebooks provide a glimpse into the academic and social life of students at the University of the City of New York, as NYU was called during his time as a student.",
+                    "id": "aspace_75a525c0297ec72a02cd2c100687b029"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English.",
+                    "id": "aspace_630c12d972854ba57a975b7c0241e386"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Ferris, Albert Warren"
                     }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "New York University Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1865/1889",
+                    "type": "inclusive",
+                    "value": "1865-1889"
+                }
+            ],
+            "unitid": "MC.183",
+            "unittitle": {
+                "value": "Albert W. Ferris Papers"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref10",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "0.25 Linear Feet"
+                                "barcode": "31142062741676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Letter - Half",
+                                "id": "aspace_5928cb901c947d0f961f512145465084",
+                                "type": "box",
+                                "value": "1"
                             },
                             {
-                                "value": "in one half manuscript box"
+                                "id": "aspace_bcfd0c436d3297488a7684b7dfe1cb75",
+                                "parent": "aspace_5928cb901c947d0f961f512145465084",
+                                "type": "folder",
+                                "value": "1"
                             }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "Albert W. Ferris was the grandson of New York University(NYU) Chancellor Isaac Ferris and an 1878 NYU alumnus.  The younger Ferris became a respected physician and psychiatrist in New York, as well as president of the NYU Alumni Association.  His notebooks provide a glimpse into the academic and social life of students at the University of the City of New York, as NYU was called during his time as a student.",
-                        "id": "aspace_75a525c0297ec72a02cd2c100687b029"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_630c12d972854ba57a975b7c0241e386",
-                        "value": "Materials are in English."
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
+                        ],
+                        "langmaterial": [
                             {
-                                "value": "Ferris, Albert Warren"
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
                             }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
+                        ],
+                        "unitdate": [
                             {
-                                "value": "New York University Archives"
+                                "normal": "1865/1889",
+                                "type": "inclusive",
+                                "value": "1865-1889"
                             }
-                        ]
+                        ],
+                        "unittitle": {
+                            "value": "Commencement and Junior Exhibition Appointments in the University of N.Y. since 1865"
+                        }
                     }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1865/1889",
-                        "type": "inclusive",
-                        "value": "1865-1889"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "MC.183"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Albert W. Ferris Papers"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref10",
-                        "level": "file",
-                        "did": [
+                },
+                {
+                    "id": "aspace_ref11",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142062741676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Letter - Half",
-                                        "id": "aspace_5928cb901c947d0f961f512145465084",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_bcfd0c436d3297488a7684b7dfe1cb75",
-                                        "parent": "aspace_5928cb901c947d0f961f512145465084",
-                                        "type": "folder",
-                                        "value": "1"
-                                    }
-                                ],
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1865/1889",
-                                        "type": "inclusive",
-                                        "value": "1865-1889"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Commencement and Junior Exhibition Appointments in the University of N.Y. since 1865"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref11",
-                        "level": "file",
-                        "did": [
+                                "barcode": "31142062741676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Letter - Half",
+                                "id": "aspace_c880efd608a2972e22640cdeba8a92e7",
+                                "type": "box",
+                                "value": "1"
+                            },
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142062741676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Letter - Half",
-                                        "id": "aspace_c880efd608a2972e22640cdeba8a92e7",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_e905a03f2674556ce86f652af88820b2",
-                                        "parent": "aspace_c880efd608a2972e22640cdeba8a92e7",
-                                        "type": "folder",
-                                        "value": "2"
-                                    }
-                                ],
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1865/1880",
-                                        "type": "inclusive",
-                                        "value": "1865-1880"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Physical Diagnosis"
-                                    }
-                                ]
+                                "id": "aspace_e905a03f2674556ce86f652af88820b2",
+                                "parent": "aspace_c880efd608a2972e22640cdeba8a92e7",
+                                "type": "folder",
+                                "value": "2"
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref12",
-                        "level": "file",
-                        "did": [
+                        ],
+                        "langmaterial": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142062741676",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Letter - Half",
-                                        "id": "aspace_217c3db90780d97ec6aff0ff1cce43e9",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_5b6182466eb25a64fbf37a35e9508ba8",
-                                        "parent": "aspace_217c3db90780d97ec6aff0ff1cce43e9",
-                                        "type": "folder",
-                                        "value": "3"
-                                    }
-                                ],
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1882/1882",
-                                        "value": "circa 1882"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Psi Upsilon brochure"
-                                    }
-                                ]
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1865/1880",
+                                "type": "inclusive",
+                                "value": "1865-1880"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Physical Diagnosis"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref12",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062741676",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Letter - Half",
+                                "id": "aspace_217c3db90780d97ec6aff0ff1cce43e9",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_5b6182466eb25a64fbf37a35e9508ba8",
+                                "parent": "aspace_217c3db90780d97ec6aff0ff1cce43e9",
+                                "type": "folder",
+                                "value": "3"
+                            }
+                        ],
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1882/1882",
+                                "value": "circa 1882"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Psi Upsilon brochure"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_4853cd446cbab7311006455faaa92692",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date (if known); Albert W. Ferris Papers; MC 183; box number; folder number; New York University Archives"
@@ -313,11 +279,9 @@
         "processinfo": [
             {
                 "id": "aspace_68a08892a336194649b409976d0cee33",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "Materials were placed in acid-free folders and boxes."
@@ -328,11 +292,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_6b23e948ca992da29f66861823450ee5",
-                "head": [
-                    {
-                        "value": "Related Material at the New York University Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the New York University Archives"
+                },
                 "p": [
                     {
                         "value": "See the Records of Phi Beta Kappa, Beta Chapter (New York University) RG 39.27."
@@ -343,11 +305,9 @@
         "scopecontent": [
             {
                 "id": "aspace_50746cde87a8ce1bcfab7f9e06127a0c",
-                "head": [
-                    {
-                        "value": "Scope and Content"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content"
+                },
                 "p": [
                     {
                         "value": "The Albert W. Ferris Papers consist of notebooks related to NYU fraternities during the late nineteenth century.  The collection chronicles Ferris' time as a student at NYU, in particular his involvement in Phi Beta Kappa, Delta Upsilon, and Psi Upsilon. Notebooks list fraternity member honors, senior class presidents, and faculty reports."
@@ -358,11 +318,9 @@
         "userestrict": [
             {
                 "id": "aspace_d1ca548ed7f6a06e63ea9015eef11905",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the creator are maintained by New York University. Permission to publish or reproduce materials in this collection must be secured from New York University Archives, (212) 998-2646, university-archives@nyu.edu."
@@ -371,78 +329,62 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NyNyUA",
+            "url": "http://dlib.nyu.edu/findingaids/html/archives/mc_183/",
+            "value": "mc_183"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2013\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2013"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "New York University Archives"
+            },
+            "titlestmt": {
+                "author": "Celeste Brewer",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Albert W. Ferris Papers \u003cspan class=\"ead-num\"\u003eMC.183\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MC.183"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 14:30:54 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
+        },
+        "revisiondesc": {
+            "change": [
                 {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NyNyUA",
-                    "url": "http://dlib.nyu.edu/findingaids/html/archives/mc_183/",
-                    "value": "mc_183"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
-                        {
-                            "publisher": "New York University Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2013\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Celeste Brewer"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Albert W. Ferris Papers \u003cspan class=\"ead-num\"\u003eMC.183\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 14:30:54 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Finding aid written in English"
-                        }
-                    ]
-                }
-            ],
-            "revisiondesc": [
-                {
-                    "change": [
-                        {
-                            "date": [
-                                "November 2018"
-                            ],
-                            "item": [
-                                {
-                                    "value": "Updated by Jacqueline Rider for compliance with DACS and ACM Required Elements for Archival Description"
-                                }
-                            ]
-                        }
-                    ]
+                    "date": {
+                        "value": "November 2018"
+                    },
+                    "item": {
+                        "value": "Updated by Jacqueline Rider for compliance with DACS and ACM Required Elements for Archival Description"
+                    }
                 }
             ]
         }
-    ]
+    }
 }

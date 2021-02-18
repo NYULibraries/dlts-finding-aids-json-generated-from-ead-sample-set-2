@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_6b5c1835d539a0b461353f4598e10adb",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,21 @@
         "arrangement": [
             {
                 "id": "aspace_af1a7e32d4fe4c69ece5f855ee705a42",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "numeration": "arabic",
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "Series I: General"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -40,11 +50,9 @@
         "bioghist": [
             {
                 "id": "aspace_36eab605ac11864a7fac1b59f7200af9",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Edward Allen Carter, II (1916-1963) was born in Los Angeles to missionary parents, and raised in Shanghai, China.  As a teenager he joined the Chinese Nationalist Army to fight the Japanese, winning rapid advancement.  He later joined the Abraham Lincoln Brigade and served in Spain, beginning in June 1937.  Carter enlisted in the U.S. Army in September 1941 and was shipped overseas in November 1944.  In 1945, while stationed in Germany, Carter distinguished himself in battle, suffering multiple bullet wounds. His heroic actions went unheralded by the U.S. Army for many years, due largely to discrimination against African Americans. Suspicion of Carter's political background led the Army to reject his effort to re-enlist in 1949. Carter died on January 30, 1963.  More than three decades after his death, the Army and the U.S. government finally recognized Carter's bravery with a Congress Medal of Honor. The U.S. also named a ship after Carter, and his body was re-interred at Arlington National Cemetery in 1997."
@@ -52,42 +60,59 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "United Packinghouse, Food, and Allied Workers"
-                    }
-                ],
-                "genreform": [
-                    "Articles.",
-                    "Correspondence."
-                ],
-                "persname": [
-                    {
-                        "role": "Former owner",
-                        "value": "Carter, Allene G."
-                    },
-                    {
-                        "value": "Carter, Mildred Hoover"
-                    }
-                ],
-                "subject": [
-                    "World War, 1939-1945 |x Campaigns |z Germany.  ",
-                    "World War, 1939-1945 |x Medals |z United States.",
-                    "World War, 1939-1945 -- African Americans.",
-                    "African American soldiers |v Biography."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "United Packinghouse, Food, and Allied Workers"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Articles."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                }
+            ],
+            "persname": [
+                {
+                    "role": "Former owner",
+                    "source": "naf",
+                    "value": "Carter, Allene G."
+                },
+                {
+                    "source": "naf",
+                    "value": "Carter, Mildred Hoover"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "World War, 1939-1945 |x Campaigns |z Germany.  "
+                },
+                {
+                    "source": "lcsh",
+                    "value": "World War, 1939-1945 |x Medals |z United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "World War, 1939-1945 -- African Americans."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "African American soldiers |v Biography."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_6cc87dc8a8511f62f040d3ed1a0b857c",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The bulk of the Edward Carter Papers were donated to New York University in 2005 by Allene G. Carter, Edward Carter's daughter-in-law. One set of the Freedom of Information Act papers were acquired in 2005, and donated to New York University by Michael Nash."
@@ -95,618 +120,542 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Edward Allen Carter, II (1916-1963) was raised in Shanghai, China. In 1937, he joined the Abraham Lincoln Brigade and fought in the Spanish Civil War. During World War II, Carter distinguished himself in battle in Germany, but his service went unrecognized by the Army due to discrimination against African Americans. More than three decades after his death, the Army and the U.S. government finally honored Carter's bravery in action. This collection primarily consists of documents related to Carter's experiences in the U.S. Army.",
+                    "id": "aspace_f578f149e59d9958383fdc574a034cf0"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Edward Allen Carter, II (1916-1963) was raised in Shanghai, China. In 1937, he joined the Abraham Lincoln Brigade and fought in the Spanish Civil War. During World War II, Carter distinguished himself in battle in Germany, but his service went unrecognized by the Army due to discrimination against African Americans. More than three decades after his death, the Army and the U.S. government finally honored Carter's bravery in action. This collection primarily consists of documents related to Carter's experiences in the U.S. Army.",
-                        "id": "aspace_f578f149e59d9958383fdc574a034cf0"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "source",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Carter, Allene G."
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
+                },
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Carter, Edward A., -1963"
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "value": "Carter, Allene G."
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Carter, Edward A., -1963"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1941/2001",
-                        "type": "inclusive",
-                        "value": "1941-2001"
-                    },
-                    {
-                        "normal": "1942/1999",
-                        "type": "bulk",
-                        "value": "1942-1999"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.228"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Edward Carter Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1941/2001",
+                    "type": "inclusive",
+                    "value": "1941-2001"
+                },
+                {
+                    "normal": "1942/1999",
+                    "type": "bulk",
+                    "value": "1942-1999"
+                }
+            ],
+            "unitid": "ALBA.228",
+            "unittitle": {
+                "value": "Edward Carter Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref2",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref3",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref2",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref3",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062774503",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_728348f19fba73f4b4680641fd26691f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_cd366ddb1c01d3ffccddbd7ec764b76c",
-                                                "parent": "aspace_728348f19fba73f4b4680641fd26691f",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1945/1949",
-                                                "type": "inclusive",
-                                                "value": "Undated, 1945-1946, 1949"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clippings (photocopies)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref4",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062774503",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_728348f19fba73f4b4680641fd26691f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062774503",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a0b7833fc375cee3657afdea5afc84d6",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8fabbdad4a9b842d006cd5734bd88b9d",
-                                                "parent": "aspace_a0b7833fc375cee3657afdea5afc84d6",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1997/1999",
-                                                "type": "inclusive",
-                                                "value": "1997, 1999"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Congress Medal of Honor: Ceremony photographs, citations, correspondence (photocopies)"
-                                            }
-                                        ]
+                                        "id": "aspace_cd366ddb1c01d3ffccddbd7ec764b76c",
+                                        "parent": "aspace_728348f19fba73f4b4680641fd26691f",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref5",
-                                "level": "file",
-                                "did": [
+                                ],
+                                "unitdate": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062774503",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a84706ad785d8a5d02a4b8e644fee600",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2b096efbb372675d7c4e14b48ae94477",
-                                                "parent": "aspace_a84706ad785d8a5d02a4b8e644fee600",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1945/1945",
-                                                "type": "inclusive",
-                                                "value": "1945"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Adjutant General to Mildred Carter (photocopy)"
-                                            }
-                                        ]
+                                        "normal": "1945/1949",
+                                        "type": "inclusive",
+                                        "value": "Undated, 1945-1946, 1949"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref6",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062774503",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_e1154cd80f878fe815d95a9c46566b92",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d52cc60e97124be38dc9e86e4cc40520",
-                                                "parent": "aspace_e1154cd80f878fe815d95a9c46566b92",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1941/1945",
-                                                "type": "inclusive",
-                                                "value": "1941, 1944-1945"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Edward Carter to Mildred Carter (photocopies)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref7",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062774503",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_f7951dc0c39861168ee9dd448c6a1e46",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5392b9b3107a48b8354b9ba1942312c6",
-                                                "parent": "aspace_f7951dc0c39861168ee9dd448c6a1e46",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1960/1963",
-                                                "type": "inclusive",
-                                                "value": "1960, 1963"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Flyers: Negro American Labor Council; March on Washington (photocopies)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref8",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062774503",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_35eae9bf42357937383e863167aad713",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_cbfd70c9bb8e01a44742a14b19249fa9",
-                                                "parent": "aspace_35eae9bf42357937383e863167aad713",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1944/1946",
-                                                "type": "inclusive",
-                                                "value": "1944-1946"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Freedom of Information Act: Declassified documents"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref9",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062774503",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_146c3f27b8a0137272fb553c08de7718",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0b96d5fcfb16e7100e24a0914b61d166",
-                                                "parent": "aspace_146c3f27b8a0137272fb553c08de7718",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1942/1943",
-                                                "type": "inclusive",
-                                                "value": "1942-1943"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Freedom of Information Act: FBI Files (Set 1)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref10",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062774503",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_c688c87a935f0c593ba416108c438f69",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6a62743118879c419f8fc69a36b14730",
-                                                "parent": "aspace_c688c87a935f0c593ba416108c438f69",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1942/1943",
-                                                "type": "inclusive",
-                                                "value": "1942-1943, 1950"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Freedom of Information Act: FBI Files (Set 2)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref11",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062774503",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_295f4235d95b5fed6ac83a0d1e80e5c0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e75fd64277e5dd75a825364f4e4e65cb",
-                                                "parent": "aspace_295f4235d95b5fed6ac83a0d1e80e5c0",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\u003cspan class=\"ead-emph ead-emph-italic\"\u003eHonoring Sergeant Carter\u003c/span\u003e: Book promotion"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref12",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062774503",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_da74b72ae1bba7f627e68cd9ea963d3d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0ed463ecff3412bc9715fcaf99be9112",
-                                                "parent": "aspace_da74b72ae1bba7f627e68cd9ea963d3d",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "2001/2001",
-                                                "type": "inclusive",
-                                                "value": "2001"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\u003cspan class=\"ead-emph ead-emph-italic\"\u003eM/V SSG Edward A. Carter Jr. (T-AK 4544)\u003c/span\u003e: U.S. Navy ship naming ceremony"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref13",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062774503",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a438d33984ff9ae54d860f6cffa2c7e0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d175f29299ccff79e4b6e65f35827dd0",
-                                                "parent": "aspace_a438d33984ff9ae54d860f6cffa2c7e0",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Report on incidents of racial discrimination in U.S. Army"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref14",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062774503",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_b54df8f0f955d91255d5ebc7fde77c8b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_55c3391e73041b09584426e048ce8bae",
-                                                "parent": "aspace_b54df8f0f955d91255d5ebc7fde77c8b",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1948/1948",
-                                                "type": "inclusive",
-                                                "value": "Undated, 1948"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Union minutes and photographs (photocopies)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref15",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062774503",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_ec4666237c39d006178e033c297b063f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_55a443b1e57ec8f6e611da8c5a3fce57",
-                                                "parent": "aspace_ec4666237c39d006178e033c297b063f",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1941/1949",
-                                                "type": "inclusive",
-                                                "value": "1941, 1945, 1949"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "World War II: Official documents (photocopies)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062774503",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_910773f989c5995c1f4d1154ff6d75a8",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d476f86fddb460f546e84ee73cc5e780",
-                                                "parent": "aspace_910773f989c5995c1f4d1154ff6d75a8",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1945/1945",
-                                                "type": "inclusive",
-                                                "value": "circa 1945"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "World War II: Photographs (photocopies)"
-                                            }
-                                        ]
-                                    }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Clippings (photocopies)"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
+                        },
+                        {
+                            "id": "aspace_ref4",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "General"
+                                        "barcode": "31142062774503",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a0b7833fc375cee3657afdea5afc84d6",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8fabbdad4a9b842d006cd5734bd88b9d",
+                                        "parent": "aspace_a0b7833fc375cee3657afdea5afc84d6",
+                                        "type": "folder",
+                                        "value": "2"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1997/1999",
+                                        "type": "inclusive",
+                                        "value": "1997, 1999"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Congress Medal of Honor: Ceremony photographs, citations, correspondence (photocopies)"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref5",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062774503",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a84706ad785d8a5d02a4b8e644fee600",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2b096efbb372675d7c4e14b48ae94477",
+                                        "parent": "aspace_a84706ad785d8a5d02a4b8e644fee600",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1945/1945",
+                                        "type": "inclusive",
+                                        "value": "1945"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Adjutant General to Mildred Carter (photocopy)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref6",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062774503",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_e1154cd80f878fe815d95a9c46566b92",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d52cc60e97124be38dc9e86e4cc40520",
+                                        "parent": "aspace_e1154cd80f878fe815d95a9c46566b92",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1941/1945",
+                                        "type": "inclusive",
+                                        "value": "1941, 1944-1945"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Edward Carter to Mildred Carter (photocopies)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref7",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062774503",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_f7951dc0c39861168ee9dd448c6a1e46",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5392b9b3107a48b8354b9ba1942312c6",
+                                        "parent": "aspace_f7951dc0c39861168ee9dd448c6a1e46",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1960/1963",
+                                        "type": "inclusive",
+                                        "value": "1960, 1963"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Flyers: Negro American Labor Council; March on Washington (photocopies)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref8",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062774503",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_35eae9bf42357937383e863167aad713",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_cbfd70c9bb8e01a44742a14b19249fa9",
+                                        "parent": "aspace_35eae9bf42357937383e863167aad713",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1944/1946",
+                                        "type": "inclusive",
+                                        "value": "1944-1946"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Freedom of Information Act: Declassified documents"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref9",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062774503",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_146c3f27b8a0137272fb553c08de7718",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0b96d5fcfb16e7100e24a0914b61d166",
+                                        "parent": "aspace_146c3f27b8a0137272fb553c08de7718",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1942/1943",
+                                        "type": "inclusive",
+                                        "value": "1942-1943"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Freedom of Information Act: FBI Files (Set 1)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref10",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062774503",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_c688c87a935f0c593ba416108c438f69",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6a62743118879c419f8fc69a36b14730",
+                                        "parent": "aspace_c688c87a935f0c593ba416108c438f69",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1942/1943",
+                                        "type": "inclusive",
+                                        "value": "1942-1943, 1950"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Freedom of Information Act: FBI Files (Set 2)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref11",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062774503",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_295f4235d95b5fed6ac83a0d1e80e5c0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e75fd64277e5dd75a825364f4e4e65cb",
+                                        "parent": "aspace_295f4235d95b5fed6ac83a0d1e80e5c0",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\u003cspan class=\"ead-emph ead-emph-italic\"\u003eHonoring Sergeant Carter\u003c/span\u003e: Book promotion"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref12",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062774503",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_da74b72ae1bba7f627e68cd9ea963d3d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0ed463ecff3412bc9715fcaf99be9112",
+                                        "parent": "aspace_da74b72ae1bba7f627e68cd9ea963d3d",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "2001/2001",
+                                        "type": "inclusive",
+                                        "value": "2001"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\u003cspan class=\"ead-emph ead-emph-italic\"\u003eM/V SSG Edward A. Carter Jr. (T-AK 4544)\u003c/span\u003e: U.S. Navy ship naming ceremony"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref13",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062774503",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a438d33984ff9ae54d860f6cffa2c7e0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d175f29299ccff79e4b6e65f35827dd0",
+                                        "parent": "aspace_a438d33984ff9ae54d860f6cffa2c7e0",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Report on incidents of racial discrimination in U.S. Army"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref14",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062774503",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_b54df8f0f955d91255d5ebc7fde77c8b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_55c3391e73041b09584426e048ce8bae",
+                                        "parent": "aspace_b54df8f0f955d91255d5ebc7fde77c8b",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1948/1948",
+                                        "type": "inclusive",
+                                        "value": "Undated, 1948"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Union minutes and photographs (photocopies)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref15",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062774503",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_ec4666237c39d006178e033c297b063f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_55a443b1e57ec8f6e611da8c5a3fce57",
+                                        "parent": "aspace_ec4666237c39d006178e033c297b063f",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1941/1949",
+                                        "type": "inclusive",
+                                        "value": "1941, 1945, 1949"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "World War II: Official documents (photocopies)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062774503",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_910773f989c5995c1f4d1154ff6d75a8",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d476f86fddb460f546e84ee73cc5e780",
+                                        "parent": "aspace_910773f989c5995c1f4d1154ff6d75a8",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1945/1945",
+                                        "type": "inclusive",
+                                        "value": "circa 1945"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "World War II: Photographs (photocopies)"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "General"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_89609557e6ad483eec9e6dd07457a7df",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; Edward Carter Papers; ALBA 228; box number; folder number; Tamiment Library/Robert F. Wagner Labor Archives, New York University."
@@ -717,11 +666,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_55f7bfbb4911b0119bef7a3707969d04",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "ALBA collections at the Tamiment Library."
@@ -732,11 +679,9 @@
         "scopecontent": [
             {
                 "id": "aspace_88a0bd4bef45815802716d858e7d9f74",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "This collection primarily consists of photocopied documents related to Carter's experiences in the U.S. Army. All the papers post-date Carter's involvement in the Spanish Civil War. Materials include clippings pertaining to Carter's World War II service; letters from Carter to his wife, Mildred Hoover Carter, written while in service with the U.S. Army; and flyers for the Negro American Labor Council and the March on Washington. Also includes a report on Army discrimination against African Americans; a letter and citation signed by President Bill Clinton and documents associated with the ceremony for an Army supply ship named after Carter; and biographical materials outlining Carter's heroic service in World War II. Photographs include Carter in uniform, photos related to the presentation of his Congress Medal of Honor; his reburial at Arlington Cemetery in 1997; the ship naming ceremony; and a photo of Allene G. Carter with Bill Clinton. Also included are minutes and photographs, probably belonged to by Jesse Vaughn, Allene Carter's father, relating to the United Packinghouse Workers of America."
@@ -747,11 +692,9 @@
         "separatedmaterial": [
             {
                 "id": "aspace_452f8078f3dc2da2ca5ae1b69fc435c6",
-                "head": [
-                    {
-                        "value": "Separated Materials"
-                    }
-                ],
+                "head": {
+                    "value": "Separated Materials"
+                },
                 "p": [
                     {
                         "value": "Photographs from the Edward Carter Collection have been transferred to the non-print section of the ALBA collection in the Tamiment Library and Robert F. Wagner Labor Archives."
@@ -762,11 +705,9 @@
         "userestrict": [
             {
                 "id": "aspace_c71888932ce7051be738cfd6261a3323",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection was not transferred to New York University. Permission to use materials must be secured from the copyright holder. For more information, please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -775,78 +716,65 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_228"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_228"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Wendy Scheir, Jun 2005"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Edward Carter Papers \u003cspan class=\"ead-num\"\u003eALBA.228\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:35:46 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ]
-                }
-            ]
+                },
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Wendy Scheir, Jun 2005",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Edward Carter Papers \u003cspan class=\"ead-num\"\u003eALBA.228\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.228"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:35:46 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            }
         }
-    ]
+    }
 }
