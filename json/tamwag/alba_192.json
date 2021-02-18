@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_479797bfbc28cf44931bf9abbec9883a",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,23 @@
         "arrangement": [
             {
                 "id": "aspace_cc1befda1cfc91932639876925be521c",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I, Correspondence, 1937."
+                            },
+                            {
+                                "value": "II, Subject Files, 1937-1939."
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,11 +49,9 @@
         "bioghist": [
             {
                 "id": "aspace_3e775de78409718b01ecca0b51d6f690",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Miriam Sigel was born in Pittsburgh in 1914 to David Sigel and Hannah Lipman. She graduated from New York University in 1935 with a bachelor's degree in education and in 1939 married Mark Friedlander. The couple had a son whom they named Paul, in memory of her brother who died in Spain fighting with the Abraham Lincoln Brigade. Friedlander forged a career in community politics and between 1973 and 1991 served as city councilwoman for New York's 2nd Council District (Lower East Side)."
@@ -64,60 +74,98 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    },
-                    {
-                        "value": "Spain. Ejercito Popular de la Republica. MacKenzie-Papineau Battalion"
-                    }
-                ],
-                "genreform": [
-                    "Articles.",
-                    "Correspondence."
-                ],
-                "geogname": [
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American",
-                    "Madrid (Spain)",
-                    "Spain -- History -- Civil War, 1936-1939 -- Campaigns.",
-                    "Spain -- Civil War, 1936-1939 -- Periodicals.",
-                    "Belchite (Spain) -- History -- Siege, 1937.",
-                    "Spain |x History |y Civil War, 1936-1939 |v Songs and music."
-                ],
-                "persname": [
-                    {
-                        "value": "Sigel, Paul"
-                    },
-                    {
-                        "value": "Friedlander, Miriam Sigel, 1914-2009"
-                    },
-                    {
-                        "value": "Malofsky, Harold"
-                    },
-                    {
-                        "value": "Arion, Ernest"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939.",
-                    "Brunete, Battle of, Brunete, Spain, 1937.",
-                    "Ebro River, Battle of the, Spain, 1938."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejercito Popular de la Republica. MacKenzie-Papineau Battalion"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Articles."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Madrid (Spain)"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Campaigns."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- Civil War, 1936-1939 -- Periodicals."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Belchite (Spain) -- History -- Siege, 1937."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain |x History |y Civil War, 1936-1939 |v Songs and music."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Sigel, Paul"
+                },
+                {
+                    "source": "local",
+                    "value": "Friedlander, Miriam Sigel, 1914-2009"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Malofsky, Harold"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Arion, Ernest"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Brunete, Battle of, Brunete, Spain, 1937."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Ebro River, Battle of the, Spain, 1938."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_688628629c99c2c92bdc8e07fe35242e",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Miriam Sigel Friedlander Papers were donated to Abraham Lincoln Brigade Archives in 1992 by Miriam Friedlander. This collection came to New York University in January 2001 as part of the original acquisition of ALBA collections, formerly housed at Brandeis University."
@@ -125,656 +173,569 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The Miriam Sigel Friedlander Papers consist of letters written by three individuals who fought and died in the Spanish Civil War. Ernest Arion, Harold Malofsky (Melofsky) and Miriam's brother, Paul Sigel were acquaintances in New York City before traveling to Spain in 1937. Arion and Malofsky were involved in cultural and political activities with the International Workers Order and Sigel was politically active while studying Engineering at New York University. All three wrote detailed letters to Miriam Sigel (later Friedlander) about their travels to Spain, their social activities and military duties, and their experiences fighting in the battles of the Spanish Civil War.",
+                    "id": "aspace_e7df3f2365a61f6251ae4d12e97ecb2d"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "The Miriam Sigel Friedlander Papers consist of letters written by three individuals who fought and died in the Spanish Civil War. Ernest Arion, Harold Malofsky (Melofsky) and Miriam's brother, Paul Sigel were acquaintances in New York City before traveling to Spain in 1937. Arion and Malofsky were involved in cultural and political activities with the International Workers Order and Sigel was politically active while studying Engineering at New York University. All three wrote detailed letters to Miriam Sigel (later Friedlander) about their travels to Spain, their social activities and military duties, and their experiences fighting in the battles of the Spanish Civil War.",
-                        "id": "aspace_e7df3f2365a61f6251ae4d12e97ecb2d"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
+                        "value": "Friedlander, Miriam Sigel, 1914-2009"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Friedlander, Miriam Sigel, 1914-2009"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937/1939",
-                        "type": "inclusive",
-                        "value": "1937-1939"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.192"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Miriam Sigel Friedlander Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937/1939",
+                    "type": "inclusive",
+                    "value": "1937-1939"
+                }
+            ],
+            "unitid": "ALBA.192",
+            "unittitle": {
+                "value": "Miriam Sigel Friedlander Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref15",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref15",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757219",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_2c6fdaf759b63c87f4104608a0def713",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_46f6260379490aede614ba56d6f8bf7f",
-                                                "parent": "aspace_2c6fdaf759b63c87f4104608a0def713",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 1937-May 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Arion, Ernest to Miriam Sigel"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062757219",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_2c6fdaf759b63c87f4104608a0def713",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757219",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a7bd3efbf5143bd3d0f67af5b83d30e7",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_656fe3f055d23eedfc55122377a30b8a",
-                                                "parent": "aspace_a7bd3efbf5143bd3d0f67af5b83d30e7",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Oct 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Fellman, Harry to Mrs. Sigel"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757219",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_dca86eaea253e2aab2aeae3a3f8a9496",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8e5b19b5031e3538b301faab09572986",
-                                                "parent": "aspace_dca86eaea253e2aab2aeae3a3f8a9496",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 1937-Aug 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Malofsky, Harold (Melofsky) to Julius Blickstein"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757219",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_e0f25ed46e7a3b9f5d0d5a5c2742523b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_366a3bbf7d91758b3d988b1f74cbfac2",
-                                                "parent": "aspace_e0f25ed46e7a3b9f5d0d5a5c2742523b",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 1937-May 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Malofsky, Harold to Miriam Sigel"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757219",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_38a85cc430786474377ebbca6a8d698c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_73c503abc25dfe426f53552d9410d47b",
-                                                "parent": "aspace_38a85cc430786474377ebbca6a8d698c",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 1937-Aug 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Malofsky, Harold to Miriam Sigel"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757219",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_7269da9dc0f5ec9657c83f7e348a116f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_58d7d421f64ddec52cd7e726899fc3b8",
-                                                "parent": "aspace_7269da9dc0f5ec9657c83f7e348a116f",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 1937-Oct 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Sigel, Paul to Miriam Sigel"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757219",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_08854d315f2e6a8f4c5a4c48347bda76",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b6b9d373757a56729f4a2188a1e7d384",
-                                                "parent": "aspace_08854d315f2e6a8f4c5a4c48347bda76",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 1937-Jul 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Sigel, Paul to Mrs. Sigel (Mother)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757219",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_6bb49c7976f284c6cc446c43b1899a41",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_05a9c45dcc911d512c699ca3a46e5f47",
-                                                "parent": "aspace_6bb49c7976f284c6cc446c43b1899a41",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 1937-Oct 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Sigel, Paul to Mrs. Sigel (Mother)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757219",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_22970ca6a6a85da2f3f3cbf75977493e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d019dde60b5bf5b31647af55bde2976d",
-                                                "parent": "aspace_22970ca6a6a85da2f3f3cbf75977493e",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Sigel, Paul to Mrs. Sigel (Mother)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757219",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_d3adccfb231be4bc6d132250f452c4d8",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_479cddadf9931772868381aca2b7a922",
-                                                "parent": "aspace_d3adccfb231be4bc6d132250f452c4d8",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1937-Oct 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Sigel, Paul to Unidentified Correspondents"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_46f6260379490aede614ba56d6f8bf7f",
+                                        "parent": "aspace_2c6fdaf759b63c87f4104608a0def713",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: Correspondence, 1937."
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref26",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757219",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_4d86ebac9b4e68eb59ad0213f7043557",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8888f17a9afe6fb71b3d5fe74dea807b",
-                                                "parent": "aspace_4d86ebac9b4e68eb59ad0213f7043557",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1939",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Leaflets: Spanish Civil War"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757219",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_cfc60d05289d5a4549a118e198c3eefb",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d59f029c269ee3b45aaf82397190ee53",
-                                                "parent": "aspace_cfc60d05289d5a4549a118e198c3eefb",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Oct 1937-Apr 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Malofsky, Harold (Melofsky): In Memoriam"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757219",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_4f8736e9a5a3ec4d839ae7ddcf24a0af",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_dc8a8062e40b3fff585118e0955f37e4",
-                                                "parent": "aspace_4f8736e9a5a3ec4d839ae7ddcf24a0af",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "May 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Malofsky, Harold (Melofsky): \"Song of the International Brigades\" (Hand-written Sheet Music)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757219",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_0d16b4305372bca9c2eb48ba180199b6",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c424bfa9eceb5ad98a3086c4f9c77376",
-                                                "parent": "aspace_0d16b4305372bca9c2eb48ba180199b6",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Sep 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\u003cspan class=\"ead-emph ead-emph-italic\"\u003eOur Fight\u003c/span\u003e: Annotated by Paul Sigel"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062757219",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_330e1e63d6f0ad1c8e3ce93537f4dd2a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_001f7e7ee614e65547e5df70a362eb3d",
-                                                "parent": "aspace_330e1e63d6f0ad1c8e3ce93537f4dd2a",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\u003cspan class=\"ead-emph ead-emph-italic\"\u003eOur Fight\u003c/span\u003e: Harold Malofsky (Melofsky) Obituary Notice for Ernest Arion"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "value": "Feb 1937-May 1937"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series II: Subject Files, 1937-1939."
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "Arion, Ernest to Miriam Sigel"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757219",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a7bd3efbf5143bd3d0f67af5b83d30e7",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_656fe3f055d23eedfc55122377a30b8a",
+                                        "parent": "aspace_a7bd3efbf5143bd3d0f67af5b83d30e7",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Oct 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Fellman, Harry to Mrs. Sigel"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757219",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_dca86eaea253e2aab2aeae3a3f8a9496",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8e5b19b5031e3538b301faab09572986",
+                                        "parent": "aspace_dca86eaea253e2aab2aeae3a3f8a9496",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Feb 1937-Aug 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Malofsky, Harold (Melofsky) to Julius Blickstein"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757219",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_e0f25ed46e7a3b9f5d0d5a5c2742523b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_366a3bbf7d91758b3d988b1f74cbfac2",
+                                        "parent": "aspace_e0f25ed46e7a3b9f5d0d5a5c2742523b",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Feb 1937-May 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Malofsky, Harold to Miriam Sigel"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757219",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_38a85cc430786474377ebbca6a8d698c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_73c503abc25dfe426f53552d9410d47b",
+                                        "parent": "aspace_38a85cc430786474377ebbca6a8d698c",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 1937-Aug 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Malofsky, Harold to Miriam Sigel"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757219",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_7269da9dc0f5ec9657c83f7e348a116f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_58d7d421f64ddec52cd7e726899fc3b8",
+                                        "parent": "aspace_7269da9dc0f5ec9657c83f7e348a116f",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 1937-Oct 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Sigel, Paul to Miriam Sigel"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757219",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_08854d315f2e6a8f4c5a4c48347bda76",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b6b9d373757a56729f4a2188a1e7d384",
+                                        "parent": "aspace_08854d315f2e6a8f4c5a4c48347bda76",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 1937-Jul 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Sigel, Paul to Mrs. Sigel (Mother)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757219",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_6bb49c7976f284c6cc446c43b1899a41",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_05a9c45dcc911d512c699ca3a46e5f47",
+                                        "parent": "aspace_6bb49c7976f284c6cc446c43b1899a41",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Aug 1937-Oct 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Sigel, Paul to Mrs. Sigel (Mother)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757219",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_22970ca6a6a85da2f3f3cbf75977493e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d019dde60b5bf5b31647af55bde2976d",
+                                        "parent": "aspace_22970ca6a6a85da2f3f3cbf75977493e",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Sigel, Paul to Mrs. Sigel (Mother)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757219",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_d3adccfb231be4bc6d132250f452c4d8",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_479cddadf9931772868381aca2b7a922",
+                                        "parent": "aspace_d3adccfb231be4bc6d132250f452c4d8",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1937-Oct 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Sigel, Paul to Unidentified Correspondents"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Correspondence, 1937."
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref26",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757219",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_4d86ebac9b4e68eb59ad0213f7043557",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8888f17a9afe6fb71b3d5fe74dea807b",
+                                        "parent": "aspace_4d86ebac9b4e68eb59ad0213f7043557",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1939",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Leaflets: Spanish Civil War"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757219",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_cfc60d05289d5a4549a118e198c3eefb",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d59f029c269ee3b45aaf82397190ee53",
+                                        "parent": "aspace_cfc60d05289d5a4549a118e198c3eefb",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Oct 1937-Apr 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Malofsky, Harold (Melofsky): In Memoriam"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757219",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_4f8736e9a5a3ec4d839ae7ddcf24a0af",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_dc8a8062e40b3fff585118e0955f37e4",
+                                        "parent": "aspace_4f8736e9a5a3ec4d839ae7ddcf24a0af",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "May 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Malofsky, Harold (Melofsky): \"Song of the International Brigades\" (Hand-written Sheet Music)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757219",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_0d16b4305372bca9c2eb48ba180199b6",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c424bfa9eceb5ad98a3086c4f9c77376",
+                                        "parent": "aspace_0d16b4305372bca9c2eb48ba180199b6",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Sep 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\u003cspan class=\"ead-emph ead-emph-italic\"\u003eOur Fight\u003c/span\u003e: Annotated by Paul Sigel"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062757219",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_330e1e63d6f0ad1c8e3ce93537f4dd2a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_001f7e7ee614e65547e5df70a362eb3d",
+                                        "parent": "aspace_330e1e63d6f0ad1c8e3ce93537f4dd2a",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Aug 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\u003cspan class=\"ead-emph ead-emph-italic\"\u003eOur Fight\u003c/span\u003e: Harold Malofsky (Melofsky) Obituary Notice for Ernest Arion"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series II: Subject Files, 1937-1939."
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_44c3b27f8d33507f707a2bf90c8ccd37",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -785,11 +746,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_bc96455d20f4800d2d13cf40f50a7157",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "ALBA collections at the Tamiment Library."
@@ -800,11 +759,9 @@
         "scopecontent": [
             {
                 "id": "aspace_6e9f0979bbc726a5ea92cc6657f6eb89",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "\u003cspan class=\"ead-emph ead-emph-bold\"\u003eSeries I, Correspondence, 1937\u003c/span\u003e, consists of correspondence written by Ernest Arion, Harold Malofsky, and Paul Sigel."
@@ -827,11 +784,9 @@
         "separatedmaterial": [
             {
                 "id": "aspace_c660304e031a0f4103b067df8ba5bbbe",
-                "head": [
-                    {
-                        "value": "Separated Material"
-                    }
-                ],
+                "head": {
+                    "value": "Separated Material"
+                },
                 "p": [
                     {
                         "value": "Photographs from the Miriam Sigel Friedlander Papers have been transferred to the non-print section of the ALBA collection in the Tamiment Library and Robert F. Wagner Labor Archives."
@@ -842,11 +797,9 @@
         "userestrict": [
             {
                 "id": "aspace_ffd46c4339e3cc14cfd2ada832e8b326",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the donor were transferred to New York University. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -855,93 +808,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_192"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_192"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from friedlander.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from friedlander.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Rebecca Russell"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Miriam Sigel Friedlander Papers \u003cspan class=\"ead-num\"\u003eALBA.192\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Rebecca Russell",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Miriam Sigel Friedlander Papers \u003cspan class=\"ead-num\"\u003eALBA.192\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.192"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:35:28 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:35:28 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

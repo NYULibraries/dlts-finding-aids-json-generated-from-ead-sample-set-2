@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_42d738f39ec626c8ca399c86a4ac1518",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_a4e4bc263816d2b0326bff10dffaaa52",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Materials found in collection; provenance is unknown. The accession number associated with this collection is 1950.050."
@@ -34,9 +30,20 @@
         "arrangement": [
             {
                 "id": "aspace_ffc3076850ecc6be5a7e1f1ac6d0b46f",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I, Subject Files"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -52,11 +59,9 @@
         "bioghist": [
             {
                 "id": "aspace_2165aaf049f319390d41959d6f78579a",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "The Red Falcons of America was a socialist organization for children between the ages of 8 and 15, established ca. 1932, and affiliated with the Socialist Party (U.S.)."
@@ -64,510 +69,471 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Socialist Party (U.S.)"
-                    },
-                    {
-                        "value": "Young People's Socialist League"
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Socialist Party (U.S.)"
+                },
+                {
+                    "source": "naf",
+                    "value": "Young People's Socialist League"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Minutes (administrative records)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Reports."
+                },
+                {
+                    "source": "aat",
+                    "value": "Newsletters."
+                }
+            ],
+            "persname": [
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Keller, Edna Peters"
+                },
+                {
+                    "source": "local",
+                    "value": "Bohn, William E."
+                },
+                {
+                    "source": "naf",
+                    "value": "Senior, Clarence Ollson, 1903-1974"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Children |x Political activity |z United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Socialism and youth -- United States."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The Red Falcons of America was a socialist organization for children between the ages of eight and fifteen, established ca. 1932, and affiliated with the Socialist Party (U.S.). The collection contains circulars, constitutions, correspondence, flyers, manuals, minutes, newsletters, programs and reports. The bulk of the material is concerned with the Red Falcons' founding, organization, political program, educational activities, plans to establish a summer camp, and relations with the Socialist Party and the Young People's Socialist League, in particular during the period of factional dispute leading up to the 1936 split within the Socialist Party.",
+                    "id": "aspace_7b789484523729c7ff1dd6dcf53d0fe4"
+                }
+            ],
+            "container": [
+                {
+                    "barcode": "31142062733640",
+                    "label": "Mixed Materials",
+                    "altrender": "Manuscript box - Legal",
+                    "id": "aspace_3096e983c76f55d9a6301d7aa319a7be",
+                    "type": "box",
+                    "value": "1"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "value": "English"
                     }
-                ],
-                "genreform": [
-                    "Minutes (administrative records)",
-                    "Correspondence.",
-                    "Reports.",
-                    "Newsletters."
-                ],
-                "persname": [
-                    {
-                        "value": "Keller, Edna Peters"
-                    },
-                    {
-                        "value": "Bohn, William E."
-                    },
-                    {
-                        "value": "Senior, Clarence Ollson, 1903-1974"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "ingest",
+                        "value": "Red Falcons of America."
                     }
-                ],
-                "subject": [
-                    "Children |x Political activity |z United States.",
-                    "Socialism and youth -- United States."
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1932/1938",
+                    "type": "inclusive",
+                    "value": "1932-1938"
+                }
+            ],
+            "unitid": "TAM.337",
+            "unittitle": {
+                "value": "Red Falcons of America Records"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.5 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "The Red Falcons of America was a socialist organization for children between the ages of eight and fifteen, established ca. 1932, and affiliated with the Socialist Party (U.S.). The collection contains circulars, constitutions, correspondence, flyers, manuals, minutes, newsletters, programs and reports. The bulk of the material is concerned with the Red Falcons' founding, organization, political program, educational activities, plans to establish a summer camp, and relations with the Socialist Party and the Young People's Socialist League, in particular during the period of factional dispute leading up to the 1936 split within the Socialist Party.",
-                        "id": "aspace_7b789484523729c7ff1dd6dcf53d0fe4"
-                    }
-                ],
-                "container": [
-                    {
-                        "barcode": "31142062733640",
-                        "label": "Mixed Materials",
-                        "altrender": "Manuscript box - Legal",
-                        "id": "aspace_3096e983c76f55d9a6301d7aa319a7be",
-                        "type": "box",
-                        "value": "1"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Red Falcons of America."
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1932/1938",
-                        "type": "inclusive",
-                        "value": "1932-1938"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.337"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Red Falcons of America Records"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref13",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref14",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref13",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref14",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062733640",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_be0cd9df2059b9159093051b635150cc",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6a2e23a13fb2cde647f553b89dcc0ad9",
-                                                "parent": "aspace_be0cd9df2059b9159093051b635150cc",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1932/1938",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Red Falcons of America"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref15",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062733640",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_be0cd9df2059b9159093051b635150cc",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062733640",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_530e9d96d0a129c2420ec171fd0cc1bd",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_46a0f25c1da25dba8eb3fa38b9ec5795",
-                                                "parent": "aspace_530e9d96d0a129c2420ec171fd0cc1bd",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1932/1932",
-                                                "type": "inclusive",
-                                                "value": "1932"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Red Falcons of America"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062733640",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_c9e3196e06a84c50e0a61aaea39a6e12",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0c4c029fa9158d1158539620ddb8c2f6",
-                                                "parent": "aspace_c9e3196e06a84c50e0a61aaea39a6e12",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1933/1933",
-                                                "type": "inclusive",
-                                                "value": "1933"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Red Falcons of America"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062733640",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_27f8680c61d6324094a42b85f55236e6",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_32b7c03fe20e231baa3bcb7437abd97f",
-                                                "parent": "aspace_27f8680c61d6324094a42b85f55236e6",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1934/1934",
-                                                "type": "inclusive",
-                                                "value": "1934"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Red Falcons of America"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062733640",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_112130c678af9694ecf2983e8fe9fe54",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_ac1084741bf415dc638766ab7e0788e7",
-                                                "parent": "aspace_112130c678af9694ecf2983e8fe9fe54",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jan 1935-Feb 1935"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Red Falcons of America"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062733640",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_546f506ac9c303a7a3bd900554e55e1a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_87d1e78d09bd802bf2c74ee62807e795",
-                                                "parent": "aspace_546f506ac9c303a7a3bd900554e55e1a",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Mar 1935-Jul 1935"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Red Falcons of America"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062733640",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_02d3fd467055fe432da68900df949c91",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_f2161a657c8126c0d3d321049659beae",
-                                                "parent": "aspace_02d3fd467055fe432da68900df949c91",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 1935-Sep 1935"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Red Falcons of America"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062733640",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_96e19a54c9ced16f59ee4e1bdad6a69d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_aa80680c5c7d7faca735037002ed14ad",
-                                                "parent": "aspace_96e19a54c9ced16f59ee4e1bdad6a69d",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Oct 1935-Dec 1935"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Red Falcons of America"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062733640",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_dcad9ddeb2c3f5382d30dcd490d1f2b1",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_214c98570f97ab7ec530054929e25a2d",
-                                                "parent": "aspace_dcad9ddeb2c3f5382d30dcd490d1f2b1",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1936/1936",
-                                                "type": "inclusive",
-                                                "value": "1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Red Falcons of America"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062733640",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_3d4ac4c211eb8f82eedd9558a4597555",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_12328718fc05ddedc46676f3363fe34c",
-                                                "parent": "aspace_3d4ac4c211eb8f82eedd9558a4597555",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1938",
-                                                "type": "inclusive",
-                                                "value": "1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Red Falcons of America"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_6a2e23a13fb2cde647f553b89dcc0ad9",
+                                        "parent": "aspace_be0cd9df2059b9159093051b635150cc",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: General Files"
+                                        "normal": "1932/1938",
+                                        "type": "inclusive",
+                                        "value": "undated"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Red Falcons of America"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref15",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062733640",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_530e9d96d0a129c2420ec171fd0cc1bd",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_46a0f25c1da25dba8eb3fa38b9ec5795",
+                                        "parent": "aspace_530e9d96d0a129c2420ec171fd0cc1bd",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1932/1932",
+                                        "type": "inclusive",
+                                        "value": "1932"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Red Falcons of America"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062733640",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_c9e3196e06a84c50e0a61aaea39a6e12",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0c4c029fa9158d1158539620ddb8c2f6",
+                                        "parent": "aspace_c9e3196e06a84c50e0a61aaea39a6e12",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1933/1933",
+                                        "type": "inclusive",
+                                        "value": "1933"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Red Falcons of America"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062733640",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_27f8680c61d6324094a42b85f55236e6",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_32b7c03fe20e231baa3bcb7437abd97f",
+                                        "parent": "aspace_27f8680c61d6324094a42b85f55236e6",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1934/1934",
+                                        "type": "inclusive",
+                                        "value": "1934"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Red Falcons of America"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062733640",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_112130c678af9694ecf2983e8fe9fe54",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_ac1084741bf415dc638766ab7e0788e7",
+                                        "parent": "aspace_112130c678af9694ecf2983e8fe9fe54",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jan 1935-Feb 1935"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Red Falcons of America"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062733640",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_546f506ac9c303a7a3bd900554e55e1a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_87d1e78d09bd802bf2c74ee62807e795",
+                                        "parent": "aspace_546f506ac9c303a7a3bd900554e55e1a",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Mar 1935-Jul 1935"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Red Falcons of America"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062733640",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_02d3fd467055fe432da68900df949c91",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_f2161a657c8126c0d3d321049659beae",
+                                        "parent": "aspace_02d3fd467055fe432da68900df949c91",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Aug 1935-Sep 1935"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Red Falcons of America"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062733640",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_96e19a54c9ced16f59ee4e1bdad6a69d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_aa80680c5c7d7faca735037002ed14ad",
+                                        "parent": "aspace_96e19a54c9ced16f59ee4e1bdad6a69d",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Oct 1935-Dec 1935"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Red Falcons of America"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062733640",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_dcad9ddeb2c3f5382d30dcd490d1f2b1",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_214c98570f97ab7ec530054929e25a2d",
+                                        "parent": "aspace_dcad9ddeb2c3f5382d30dcd490d1f2b1",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1936/1936",
+                                        "type": "inclusive",
+                                        "value": "1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Red Falcons of America"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062733640",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_3d4ac4c211eb8f82eedd9558a4597555",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_12328718fc05ddedc46676f3363fe34c",
+                                        "parent": "aspace_3d4ac4c211eb8f82eedd9558a4597555",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1938",
+                                        "type": "inclusive",
+                                        "value": "1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Red Falcons of America"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: General Files"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_a09eca85414e90a99ae87f707269d556",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -578,11 +544,9 @@
         "scopecontent": [
             {
                 "id": "aspace_4cfe400f0b4633ed93840fb00b89d7d9",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The collection contains circulars, constitutions, correspondence, flyers, manuals, minutes, newsletters, programs and reports. The bulk of the material is concerned with the Red Falcons' founding, organization, political program, educational activities, plans to establish a summer camp, and relations with the Socialist Party and the Young People's Socialist League, in particular during the period of factional dispute leading up to the 1936 split with the Socialist Party. Notable correspondents include Edna Peters Keller (Red Falcon national chairperson) and SP leaders William E. Bohn and Clarence Senior."
@@ -593,11 +557,9 @@
         "userestrict": [
             {
                 "id": "aspace_6bb414f077982b31e57c0eda2b235ad1",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Tamiment Library and Robert F. Wagner Labor Archive has no information about copyright ownership for this collection and is not authorized to grant permission to publish or reproduce materials from it. Materials in this collection, which were created in 1932-1938, are expected to enter the public domain in 2058."
@@ -606,94 +568,90 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_337/",
-                    "value": "tam_337"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_337/",
+            "value": "tam_337"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from red_falcons.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from red_falcons.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Processed by Jennifer Jana"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Red Falcons of America Records \u003cspan class=\"ead-num\"\u003eTAM.337\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Processed by Jennifer Jana",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Red Falcons of America Records \u003cspan class=\"ead-num\"\u003eTAM.337\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.337"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:51:45 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:51:45 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

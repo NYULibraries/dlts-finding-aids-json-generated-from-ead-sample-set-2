@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_6efc87e72e3a07d2f58ca45bb1ee5474",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,23 @@
         "arrangement": [
             {
                 "id": "aspace_e559c73f0c735b507bd2a21b4ea79aac",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I. Correspondence"
+                            },
+                            {
+                                "value": "II. Subject Files"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,71 +49,108 @@
         "bioghist": [
             {
                 "id": "aspace_1031c52268b3b0fe0becdda899ada7f7",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Paul Wendorf graduated with a B.A. from Columbia University, where he majored in history and economics, in 1932. In 1933, while working as an organizer for the American League against War and Fascism, he joined the Communist Party. Over the course of the next three years, he worked as an activist and labor organizer in New York City, first for a white-collar municipal workers' union, and subsequently as a coordinator of welfare and relief for the unemployed. He married Leona Grossman and soon after enlisted in the Abraham Lincoln Brigade to fight on behalf of the Republican forces in Spain. He sailed on the S.S. Paris on February 6, 1937 and served in Spain from February 1937 until August 1938."
                     },
                     {
-                        "value": "He fought in the battle at the Jarama front from March to June 1937, and in the Brunete offensive from July until August 1937. He was appointed in September 1937 to the Historical Commission in Albacete and, under the supervision of Sandor Voros, participated in writing the history of the 15th International Brigade and the American battalions. He also contributed articles to the Brigade's newspaper the \u003cspan class=\"ead-title\"\u003eVolunteer for Liberty\u003c/span\u003e. In January of 1938 he was charged, along with Carl Geiser, with organizing a school for political commissars. A bout of rheumatism and subsequent hospitalization prevented him from carrying out this assignment, and by March, he was returned to active service. He took part in the Ebro offensive, the Brigade's final conflict, and crossed the Ebro with the Lincoln Brigade late in July. On August 18, 1938, Wendorf was killed during an aerial attack in the Sierra Pandols, only one month prior to the withdrawal of the International Brigades. In 1939 Charles Nusser, a fellow Lincoln Brigade veteran and Wendorf's friend, married Leona Grossman Wendorf."
+                        "value": "He fought in the battle at the Jarama front from March to June 1937, and in the Brunete offensive from July until August 1937. He was appointed in September 1937 to the Historical Commission in Albacete and, under the supervision of Sandor Voros, participated in writing the history of the 15th International Brigade and the American battalions. He also contributed articles to the Brigade's newspaper the \u003cspan class=\"ead-title\"\u003eVolunteer for Liberty\u003c/span\u003e. In January of 1938 he was charged, along with Carl Geiser, with organizing a school for political commissars. A bout of rheumatism and subsequent hospitalization prevented him from carrying out this assignment, and by March, he was returned to active service. He took part in the Ebro offensive, the Brigade's final conflict, and crossed the Ebro with the Lincoln Brigade late in July. On August 18, 1938, Wendorf was killed during an aerial attack in the Sierra Pandols, only one month prior to the withdrawal of the International Brigades. In 1939 Charles Nusser, a fellow Lincoln Brigade veteran and Wendorf's friend, married Leona Grossman Wendorf.",
+                        "title": [
+                            {
+                                "value": "Volunteer for Liberty",
+                                "render": "italic"
+                            }
+                        ]
                     }
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    }
-                ],
-                "genreform": [
-                    "Personal papers.",
-                    "Correspondence.",
-                    "Articles."
-                ],
-                "geogname": [
-                    "Jarama River Valley (Spain)",
-                    "Spain -- Civil War, 1936-1939 -- Periodicals.",
-                    "Spain -- History -- Civil War, 1936-1939 -- Campaigns.",
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American",
-                    "Belchite (Spain) -- History -- Siege, 1937."
-                ],
-                "persname": [
-                    {
-                        "value": "Wendorf, Paul"
-                    },
-                    {
-                        "value": "Voros, Sandor."
-                    },
-                    {
-                        "value": "Geiser, Carl"
-                    },
-                    {
-                        "value": "Nusser, Charles"
-                    }
-                ],
-                "subject": [
-                    "Ebro River, Battle of the, Spain, 1938.",
-                    "Spain -- History -- Civil War, 1936-1939."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Personal papers."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Articles."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Jarama River Valley (Spain)"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- Civil War, 1936-1939 -- Periodicals."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Campaigns."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Belchite (Spain) -- History -- Siege, 1937."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "local",
+                    "value": "Wendorf, Paul"
+                },
+                {
+                    "source": "ingest",
+                    "value": "Voros, Sandor."
+                },
+                {
+                    "source": "naf",
+                    "value": "Geiser, Carl"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Nusser, Charles"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Ebro River, Battle of the, Spain, 1938."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_0d465505f8158d9f3c75c93b9ab555b0",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Paul Wendorf Papers was donated to Abraham Lincoln Brigade Archives in October 1980 by Charles Nusser. This collection came to New York University in January 2001 as part of the original acquisition of ALBA collections, formerly housed at Brandeis University."
@@ -109,757 +158,662 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.5 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Paul Wendorf (1912?-1938) fought with the Abraham Lincoln Brigade in the Spanish Civil War and died during an aerial attack in the Sierra Pandols, one month prior to the withdrawal of the International Brigades. This collection consists chiefly of letters written by Wendorf to his wife during his 19 months in Spain. Also included are newspaper clippings and ephemera.",
+                    "id": "aspace_5ee43b81226f866a39f426bc4b1cd3f2"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Paul Wendorf (1912?-1938) fought with the Abraham Lincoln Brigade in the Spanish Civil War and died during an aerial attack in the Sierra Pandols, one month prior to the withdrawal of the International Brigades. This collection consists chiefly of letters written by Wendorf to his wife during his 19 months in Spain. Also included are newspaper clippings and ephemera.",
-                        "id": "aspace_5ee43b81226f866a39f426bc4b1cd3f2"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
+                        "value": "Wendorf, Paul"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Wendorf, Paul"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937-02/1938-09",
-                        "type": "inclusive",
-                        "value": "February 1937-September 1938"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.120"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Paul Wendorf Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937-02/1938-09",
+                    "type": "inclusive",
+                    "value": "February 1937-September 1938"
+                }
+            ],
+            "unitid": "ALBA.120",
+            "unittitle": {
+                "value": "Paul Wendorf Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref13",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref14",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref13",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref14",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_abe4ac2bf047b673456a1550e79649f6",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b1218085158ebdab1958aaec392d335f",
-                                                "parent": "aspace_abe4ac2bf047b673456a1550e79649f6",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 1937-Mar 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Outgoing"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref15",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_abe4ac2bf047b673456a1550e79649f6",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_eacc3a5c6cf29e3dfc5820396445939c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_ee89193e3acbba0c527169c0d194c049",
-                                                "parent": "aspace_eacc3a5c6cf29e3dfc5820396445939c",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 1937-May 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Outgoing"
-                                            }
-                                        ]
+                                        "id": "aspace_b1218085158ebdab1958aaec392d335f",
+                                        "parent": "aspace_abe4ac2bf047b673456a1550e79649f6",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                ],
+                                "unitdate": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_1d8ca899d1beb647370f547cdb06e019",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_fcace8e4cccf0ce57563e9d5119459d8",
-                                                "parent": "aspace_1d8ca899d1beb647370f547cdb06e019",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 1937-Jul 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Outgoing"
-                                            }
-                                        ]
+                                        "value": "Feb 1937-Mar 1937"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_86c694f871e8ad6d44b2713f75a51d95",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_06401e2f9680aa4356588bdca15b6eee",
-                                                "parent": "aspace_86c694f871e8ad6d44b2713f75a51d95",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 1937-Sep 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Outgoing"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_a246e5efcfab1b1d508ab69d1bc01598",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e5bd177d4fb2917f37688fc67355d0ef",
-                                                "parent": "aspace_a246e5efcfab1b1d508ab69d1bc01598",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Oct 1937-Nov 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Outgoing"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_dddc68fe9af8fc8a0c2b1329bd75e806",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_3791a8f2990eb58ffa6efdde4a59699d",
-                                                "parent": "aspace_dddc68fe9af8fc8a0c2b1329bd75e806",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Dec 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Outgoing"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_7435988d2f7cbcb66eb7010629550405",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e7dee82d28396a78a7f6bc5fb9c08cea",
-                                                "parent": "aspace_7435988d2f7cbcb66eb7010629550405",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jan 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Outgoing"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_8115c3683ac541012eab7ac62d78f719",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_577666dc101b861da0472b1cbe5056e2",
-                                                "parent": "aspace_8115c3683ac541012eab7ac62d78f719",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Outgoing"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_c9ecc5cd03aa399c80b735b6abf1f4e5",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4739676fedd314eb0a7661dd90d27a86",
-                                                "parent": "aspace_c9ecc5cd03aa399c80b735b6abf1f4e5",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Mar 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Outgoing"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_96993dcef280c6b13951a6f04915a50f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_ce85f702012985cd7cb801d955d11f60",
-                                                "parent": "aspace_96993dcef280c6b13951a6f04915a50f",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 1938-May 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Outgoing"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_32bb7339f5a8f3c76042467859ce399e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_af0e7adf76085a25f21a543a7d9230ce",
-                                                "parent": "aspace_32bb7339f5a8f3c76042467859ce399e",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Outgoing"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_3e65d7eb27f5bcaf5482c07dd5903f8b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7897ea03f1a960ff57a6169cfdc2f586",
-                                                "parent": "aspace_3e65d7eb27f5bcaf5482c07dd5903f8b",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Outgoing"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_51a69fc7b64653c1a22fa15871977e3f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0012a0d914e6ec38a5a7e8fea0b068df",
-                                                "parent": "aspace_51a69fc7b64653c1a22fa15871977e3f",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Outgoing"
-                                            }
-                                        ]
-                                    }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Outgoing"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
+                        },
+                        {
+                            "id": "aspace_ref15",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Series I: Correspondence"
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_eacc3a5c6cf29e3dfc5820396445939c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_ee89193e3acbba0c527169c0d194c049",
+                                        "parent": "aspace_eacc3a5c6cf29e3dfc5820396445939c",
+                                        "type": "folder",
+                                        "value": "2"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Apr 1937-May 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Outgoing"
+                                }
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref27",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref28",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_c8d499f4579e9ea6489ba766de23114f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_3bd9e523896b9534f63f475d6a0bf73b",
-                                                "parent": "aspace_c8d499f4579e9ea6489ba766de23114f",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Dec 1937 , undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Cards"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_1d8ca899d1beb647370f547cdb06e019",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062760007",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Flat OS 21",
-                                                "id": "aspace_6490ca924ac18a3a8646d6912dbb7b8c",
-                                                "type": "box",
-                                                "value": "MSXOS002"
-                                            },
-                                            {
-                                                "id": "aspace_0fc0895c7e22b7b533993089f4de9352",
-                                                "parent": "aspace_6490ca924ac18a3a8646d6912dbb7b8c",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Ibarruri, Dolores: Portrait by Paul Wendorf"
-                                            }
-                                        ]
+                                        "id": "aspace_fcace8e4cccf0ce57563e9d5119459d8",
+                                        "parent": "aspace_1d8ca899d1beb647370f547cdb06e019",
+                                        "type": "folder",
+                                        "value": "3"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                ],
+                                "unitdate": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_43d8821baf7eb372e7b4cbf7d86b81b7",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c68d773250115be90eeed472b2d661ac",
-                                                "parent": "aspace_43d8821baf7eb372e7b4cbf7d86b81b7",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Mementos: dried flower, peseta, weight card"
-                                            }
-                                        ]
+                                        "value": "Jun 1937-Jul 1937"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e94788683577bda130ae3382d0fe4d2c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_427caf775c64ce4920295967c5272115",
-                                                "parent": "aspace_e94788683577bda130ae3382d0fe4d2c",
-                                                "type": "folder",
-                                                "value": "16"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 1938-Dec 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "News Clippings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756377",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_66c77f8ceb4e59ae224b032989a0f444",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7bfd05708c9d5c6940c3930dbb87a234",
-                                                "parent": "aspace_66c77f8ceb4e59ae224b032989a0f444",
-                                                "type": "folder",
-                                                "value": "17"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 26, 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\u003cspan class=\"ead-title\"\u003eVolunteer for Liberty\u003c/span\u003e",
-                                                "title": [
-                                                    {
-                                                        "render": "italic",
-                                                        "value": "Volunteer for Liberty"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Outgoing"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Series II: Subject Files"
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_86c694f871e8ad6d44b2713f75a51d95",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_06401e2f9680aa4356588bdca15b6eee",
+                                        "parent": "aspace_86c694f871e8ad6d44b2713f75a51d95",
+                                        "type": "folder",
+                                        "value": "4"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Aug 1937-Sep 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Outgoing"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_a246e5efcfab1b1d508ab69d1bc01598",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e5bd177d4fb2917f37688fc67355d0ef",
+                                        "parent": "aspace_a246e5efcfab1b1d508ab69d1bc01598",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Oct 1937-Nov 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Outgoing"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_dddc68fe9af8fc8a0c2b1329bd75e806",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_3791a8f2990eb58ffa6efdde4a59699d",
+                                        "parent": "aspace_dddc68fe9af8fc8a0c2b1329bd75e806",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Dec 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Outgoing"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_7435988d2f7cbcb66eb7010629550405",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e7dee82d28396a78a7f6bc5fb9c08cea",
+                                        "parent": "aspace_7435988d2f7cbcb66eb7010629550405",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jan 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Outgoing"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_8115c3683ac541012eab7ac62d78f719",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_577666dc101b861da0472b1cbe5056e2",
+                                        "parent": "aspace_8115c3683ac541012eab7ac62d78f719",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Feb 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Outgoing"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_c9ecc5cd03aa399c80b735b6abf1f4e5",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4739676fedd314eb0a7661dd90d27a86",
+                                        "parent": "aspace_c9ecc5cd03aa399c80b735b6abf1f4e5",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Mar 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Outgoing"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_96993dcef280c6b13951a6f04915a50f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_ce85f702012985cd7cb801d955d11f60",
+                                        "parent": "aspace_96993dcef280c6b13951a6f04915a50f",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Apr 1938-May 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Outgoing"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_32bb7339f5a8f3c76042467859ce399e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_af0e7adf76085a25f21a543a7d9230ce",
+                                        "parent": "aspace_32bb7339f5a8f3c76042467859ce399e",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Outgoing"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_3e65d7eb27f5bcaf5482c07dd5903f8b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7897ea03f1a960ff57a6169cfdc2f586",
+                                        "parent": "aspace_3e65d7eb27f5bcaf5482c07dd5903f8b",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Outgoing"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_51a69fc7b64653c1a22fa15871977e3f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0012a0d914e6ec38a5a7e8fea0b068df",
+                                        "parent": "aspace_51a69fc7b64653c1a22fa15871977e3f",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Aug 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Outgoing"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series I: Correspondence"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref27",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref28",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_c8d499f4579e9ea6489ba766de23114f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_3bd9e523896b9534f63f475d6a0bf73b",
+                                        "parent": "aspace_c8d499f4579e9ea6489ba766de23114f",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Dec 1937 , undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Cards"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062760007",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Flat OS 21",
+                                        "id": "aspace_6490ca924ac18a3a8646d6912dbb7b8c",
+                                        "type": "box",
+                                        "value": "MSXOS002"
+                                    },
+                                    {
+                                        "id": "aspace_0fc0895c7e22b7b533993089f4de9352",
+                                        "parent": "aspace_6490ca924ac18a3a8646d6912dbb7b8c",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Ibarruri, Dolores: Portrait by Paul Wendorf"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_43d8821baf7eb372e7b4cbf7d86b81b7",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c68d773250115be90eeed472b2d661ac",
+                                        "parent": "aspace_43d8821baf7eb372e7b4cbf7d86b81b7",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Mementos: dried flower, peseta, weight card"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e94788683577bda130ae3382d0fe4d2c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_427caf775c64ce4920295967c5272115",
+                                        "parent": "aspace_e94788683577bda130ae3382d0fe4d2c",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Aug 1938-Dec 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "News Clippings"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756377",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_66c77f8ceb4e59ae224b032989a0f444",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7bfd05708c9d5c6940c3930dbb87a234",
+                                        "parent": "aspace_66c77f8ceb4e59ae224b032989a0f444",
+                                        "type": "folder",
+                                        "value": "17"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Aug 26, 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\u003cspan class=\"ead-title\"\u003eVolunteer for Liberty\u003c/span\u003e",
+                                    "title": [
+                                        {
+                                            "value": "Volunteer for Liberty",
+                                            "render": "italic"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series II: Subject Files"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_6bf14786ae9e3eef52ca380808cf0eb3",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -870,17 +824,25 @@
         "scopecontent": [
             {
                 "id": "aspace_db5e2214c6b470683ab2320f8f606a0e",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "\u003cspan class=\"ead-emph ead-emph-bold\"\u003eSeries I\u003c/span\u003e, Correspondence, contains Wendorf's outgoing correspondence during his 19 months in Spain from February 1937 to September 1938. His letters are addressed chiefly to his wife Leona (referred to by the endearment \"Mug\") and chronicle his time in Spain beginning with his voyage to France, through to his final days of battle in the hills of the Sierra Pandols. Wendorf is a keen observer of life in the trenches as well as the towns and streets of Spain. His letters offer information on his military career and the activities of the Abraham Lincoln Brigade; the progress of the Fascist forces; the political climate in Spain; his hospitalization and convalescence; and his critical views on the press, both mainstream and radical. Most notable are his full descriptions of the Lincoln Brigade's crossing of the Ebro, which appear in his final two letters (8/2/1938 and 8/8/1938). This series also includes two letters written to union associate Sherry Schulman, and to his friend Charles Nusser, who returned to the United States in February 1938."
                     },
                     {
-                        "value": "\u003cspan class=\"ead-emph ead-emph-bold\"\u003eSeries II\u003c/span\u003e, Subject Files, includes several unaddressed postcards including one with a political slogan, and a Republican Christmas greeting from the Red Cross. Also here are mementos including a peseta note and a dried flower; news clippings, including one from the \u003cspan class=\"ead-title\"\u003eManchester Guardian\u003c/span\u003ethat appears to contain the text of a letter written by Wendorf; and a copy of the \u003cspan class=\"ead-title\"\u003eVolunteer for Liberty\u003c/span\u003ewith an article that Wendorf wrote shortly before his death."
+                        "value": "\u003cspan class=\"ead-emph ead-emph-bold\"\u003eSeries II\u003c/span\u003e, Subject Files, includes several unaddressed postcards including one with a political slogan, and a Republican Christmas greeting from the Red Cross. Also here are mementos including a peseta note and a dried flower; news clippings, including one from the \u003cspan class=\"ead-title\"\u003eManchester Guardian\u003c/span\u003ethat appears to contain the text of a letter written by Wendorf; and a copy of the \u003cspan class=\"ead-title\"\u003eVolunteer for Liberty\u003c/span\u003ewith an article that Wendorf wrote shortly before his death.",
+                        "title": [
+                            {
+                                "value": "Manchester Guardian",
+                                "render": "italic"
+                            },
+                            {
+                                "value": "Volunteer for Liberty",
+                                "render": "italic"
+                            }
+                        ]
                     }
                 ]
             }
@@ -888,11 +850,9 @@
         "userestrict": [
             {
                 "id": "aspace_69184329f8a5495a22ad3fb47f91a7c7",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Abraham Lincoln Brigade Archives (ALBA), were transferred to New York University in November 2000 by the ALBA Board of Governors. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -901,93 +861,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_120"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_120"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from Wendorf 120.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from Wendorf 120.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Jessica Weglein and Elizabeth Compa"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Papers of Paul Wendorf \u003cspan class=\"ead-num\"\u003eALBA.120\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Jessica Weglein and Elizabeth Compa",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Papers of Paul Wendorf \u003cspan class=\"ead-num\"\u003eALBA.120\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.120"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:35:03 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:35:03 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

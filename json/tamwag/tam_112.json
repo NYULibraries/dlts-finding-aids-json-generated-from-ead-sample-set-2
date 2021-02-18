@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_e5bd344113dfcaffadfe7709acb2f4be",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_2e868bf574ec5a4a2fb2d335c5a48e36",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Donated by Louis Lazarus, 1984 and 1985. An additional accession was donated by Marc S. Lazarus and Ronald S. Lazarus in 1991. The accession number associated with these gifts is 1950.030."
@@ -34,11 +30,9 @@
         "bioghist": [
             {
                 "id": "aspace_38edb30345ca94451fb5100d0f34e699",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Karl Marx (1818-1883) and Friedrich Engels (1820-1895) were socialist and communist authors and leaders, and the founders of, and whose writings were the theoretical inspiration for socialist and communist movements and scholarship. Their best known work was \u003cspan class=\"ead-emph ead-emph-italic\"\u003eThe Communist Manifesto\u003c/span\u003e (1848)."
@@ -46,164 +40,179 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "genreform": [
-                    "Articles.",
-                    "Research notes.",
-                    "Correspondence."
-                ],
-                "geogname": [
-                    "United States |x Politics and government |y 19th century.",
-                    "United States |x History |y Civil War, 1861-1865 |x Foreign public opinion.",
-                    "United States -- History -- Civil War -- 1861-1865"
-                ],
-                "persname": [
-                    {
-                        "value": "Engels, Friedrich, 1820-1895"
-                    },
-                    {
-                        "value": "Marx, Karl, 1818-1883"
-                    },
-                    {
-                        "role": "Donor",
+        "controlaccess": {
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Articles."
+                },
+                {
+                    "source": "aat",
+                    "value": "Research notes."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "United States |x Politics and government |y 19th century."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "United States |x History |y Civil War, 1861-1865 |x Foreign public opinion."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "United States -- History -- Civil War -- 1861-1865"
+                }
+            ],
+            "persname": [
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "Engels, Friedrich, 1820-1895"
+                },
+                {
+                    "source": "naf",
+                    "value": "Marx, Karl, 1818-1883"
+                },
+                {
+                    "role": "Donor",
+                    "source": "local",
+                    "value": "Lazarus, Louis"
+                },
+                {
+                    "role": "Donor",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Lazarus, Marc S."
+                },
+                {
+                    "role": "Donor",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Lazarus, Ronald S."
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Communists."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Journalism, Communist."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1 linear foot",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The collection consists of photocopies and photostats of published materials, written by Marx and Engels, relating to the United States. The material, which dates from 1846 to 1898, was collected by Louis Lazarus in 1963. Much of it was originally published in England. Also included are Lazarus's research notes, the research notes of Louise Heinze.",
+                    "id": "aspace_4cda173be4ac44ee58c48b2d0949a5e0"
+                }
+            ],
+            "container": [
+                {
+                    "barcode": "31142062763118",
+                    "label": "Mixed Materials",
+                    "altrender": "Record carton",
+                    "id": "aspace_3fe254ed8ba32b893f023c28bdbaa148",
+                    "type": "box",
+                    "value": "1"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English",
+                    "id": "aspace_6e220c97f8395564f45534d5bf83c7da"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
                         "value": "Lazarus, Louis"
-                    },
-                    {
+                    }
+                },
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
+                        "value": "Heinze, Louise"
+                    }
+                },
+                {
+                    "label": "source",
+                    "persname": {
                         "role": "Donor",
+                        "source": "local",
+                        "value": "Lazarus, Louis"
+                    }
+                },
+                {
+                    "label": "source",
+                    "persname": {
+                        "role": "Donor",
+                        "rules": "dacs",
+                        "source": "local",
                         "value": "Lazarus, Marc S."
-                    },
-                    {
+                    }
+                },
+                {
+                    "label": "source",
+                    "persname": {
                         "role": "Donor",
+                        "rules": "dacs",
+                        "source": "local",
                         "value": "Lazarus, Ronald S."
                     }
-                ],
-                "subject": [
-                    "Communists.",
-                    "Journalism, Communist."
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1846/1898",
+                    "type": "inclusive",
+                    "value": "1846-1898"
+                }
+            ],
+            "unitid": "TAM.112",
+            "unittitle": {
+                "value": "Louis Lazarus and Louise Heinze Research Files: Karl Marx and Friedrich Engels on America"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "1 linear foot"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "The collection consists of photocopies and photostats of published materials, written by Marx and Engels, relating to the United States. The material, which dates from 1846 to 1898, was collected by Louis Lazarus in 1963. Much of it was originally published in England. Also included are Lazarus's research notes, the research notes of Louise Heinze.",
-                        "id": "aspace_4cda173be4ac44ee58c48b2d0949a5e0"
-                    }
-                ],
-                "container": [
-                    {
-                        "barcode": "31142062763118",
-                        "label": "Mixed Materials",
-                        "altrender": "Record carton",
-                        "id": "aspace_3fe254ed8ba32b893f023c28bdbaa148",
-                        "type": "box",
-                        "value": "1"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_6e220c97f8395564f45534d5bf83c7da",
-                        "value": "Materials are in English"
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Lazarus, Louis"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Heinze, Louise"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "role": "Donor",
-                                "value": "Lazarus, Louis"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "role": "Donor",
-                                "value": "Lazarus, Marc S."
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "role": "Donor",
-                                "value": "Lazarus, Ronald S."
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1846/1898",
-                        "type": "inclusive",
-                        "value": "1846-1898"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.112"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Louis Lazarus and Louise Heinze Research Files: Karl Marx and Friedrich Engels on America"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {}
-        ],
+        },
+        "dsc": {},
         "prefercite": [
             {
                 "id": "aspace_afe6a9e718038ab17ff823b569a55223",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; Louis Lazarus and Louise Heinze Research Files: Karl Marx and Friedrich Engels on America; TAM 112; box number; folder number; Tamiment Library/Robert F. Wagner Labor Archives, New York University."
@@ -214,11 +223,9 @@
         "scopecontent": [
             {
                 "id": "aspace_d49cae726f69a5f96fed854da90fa16e",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "The collection consists of photocopies and photostats of published materials, written by Marx and Engels, relating to the United States. The material, which dates from 1846 to 1898, was collected by Louis Lazarus in 1963. Much of it was originally published in England. Also included are Lazarus's research notes, the research notes of Louise Heinze (Tamiment Institute Librarian, ca. 1956-63), and correspondence with libraries."
@@ -229,11 +236,9 @@
         "userestrict": [
             {
                 "id": "aspace_c1839be6b4f78fdc8c5b591cedb499f3",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection, created by Louis Lazarus and Louise Heinze was not transferred to New York University. Permission to use materials must be secured from the copyright holder."
@@ -242,92 +247,78 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_112/",
-                    "value": "tam_112"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_112/",
+            "value": "tam_112"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Tamiment staff"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Louis Lazarus and Louise Heinze Research Files: Karl Marx and Friedrich Engels on America \u003cspan class=\"ead-num\"\u003eTAM.112\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:47:01 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Finding aid is written in English"
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Tamiment staff",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Louis Lazarus and Louise Heinze Research Files: Karl Marx and Friedrich Engels on America \u003cspan class=\"ead-num\"\u003eTAM.112\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.112"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:47:01 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

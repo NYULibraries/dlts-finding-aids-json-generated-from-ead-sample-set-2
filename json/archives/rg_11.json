@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_9e1910f56030a6a5089e0a5ce19ce586",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Institutional records of New York University are closed for a period of 20 years from the date of their creation (the date on which each document was written). Board of Trustees records are similarly closed for 35 years from the date of creation.  The opening date for files spanning several years will be 20 years from the most recent date. Access will be given to material already 20 years old contained within a collection that is not yet open when such material can be isolated from the rest of the collection."
@@ -22,9 +20,20 @@
         "arrangement": [
             {
                 "id": "aspace_4af90fd6284bfea79986a55ed3468f11",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "Inventory"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -40,11 +49,9 @@
         "bioghist": [
             {
                 "id": "aspace_6127b4199d3bad69c2e933675acb13cd",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "The Office of Vice President for Budget and Resource Planning was created in the early 1980s with the appointment of Dr. Richard Bing. The responsibilities of the Office include review and oversight of the budgets of all schools and departments. The four main areas of the office are: Academic Facilities, Planning and Construction, Real Estate, and the Office of the University Architect. The office is also in charge of the NYU Bookstore and all ID card offices. The name of the Office was changed in November 2003 to the Office of Public Resource Administration and Development."
@@ -52,41 +59,59 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "New York University"
-                    },
-                    {
-                        "value": "New York University. Office of Budget and Resource Planning"
-                    }
-                ],
-                "genreform": [
-                    "Contract documents.",
-                    "Financial records",
-                    "Project files."
-                ],
-                "persname": [
-                    {
-                        "value": "Bing, Richard"
-                    }
-                ],
-                "subject": [
-                    "Private universities and colleges |x Administration |y 20th century.",
-                    "Universities and Colleges -- Finance",
-                    "Budget and Resource Planning."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "New York University"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "New York University. Office of Budget and Resource Planning"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Contract documents."
+                },
+                {
+                    "source": "aat",
+                    "value": "Financial records"
+                },
+                {
+                    "source": "aat",
+                    "value": "Project files."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Bing, Richard"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Private universities and colleges |x Administration |y 20th century."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Universities and Colleges -- Finance"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Budget and Resource Planning."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_a83c6e83d8bbe59ea882d067432a24b7",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "Office of Budget and Resource Planning"
@@ -94,281 +119,277 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "10 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "10 linear feet",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The responsibilities of the Office of Vice President for Budget and Resources include review and oversight of the budgets of all schools and departments. The four main areas of the office are: Academic Facilities, Planning and Construction, Real Estate, and the Office of the University Architect. This office is also in charge of NYU Bookstore and all ID card offices. The records in the collection are the administrative files of Dr. Bing.",
+                    "id": "aspace_b3dd591308b0f37d9d2d932d64972599"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
+                    }
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "corpname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "New York University. Office of Budget and Resource Planning"
+                    }
+                }
+            ],
+            "physloc": [
+                {
+                    "id": "aspace_05d068f0f2ded1ee86cfee8975c42e49",
+                    "value": "Materials are stored offsite and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "New York University Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1980/2002",
+                    "type": "inclusive",
+                    "value": "1980-2002"
+                }
+            ],
+            "unitid": "RG.11",
+            "unittitle": {
+                "value": "Records of the Office of Budget and Resource Planning"
+            }
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_cbe13d1839fce54a11538e69eebf951f",
+                    "level": "series",
+                    "did": {
+                        "container": [
                             {
-                                "value": "10 Linear Feet"
+                                "barcode": "31142063145729",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_4b6a855053da52392c0c09198f7fdbe1",
+                                "type": "box",
+                                "value": "1"
                             },
                             {
-                                "value": "10 linear feet"
-                            }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "The responsibilities of the Office of Vice President for Budget and Resources include review and oversight of the budgets of all schools and departments. The four main areas of the office are: Academic Facilities, Planning and Construction, Real Estate, and the Office of the University Architect. This office is also in charge of NYU Bookstore and all ID card offices. The records in the collection are the administrative files of Dr. Bing.",
-                        "id": "aspace_b3dd591308b0f37d9d2d932d64972599"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
+                                "barcode": "31142063145737",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_9ea9757f4c30ae2c3b57aadba14d30c2",
+                                "type": "box",
+                                "value": "2"
+                            },
                             {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
+                                "barcode": "31142063145778",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_bde06e2ba495c53e2e235cf10cc779de",
+                                "type": "box",
+                                "value": "3"
+                            },
+                            {
+                                "barcode": "31142063145752",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_e6e7f1d3346a2ded635bd13ea2a58875",
+                                "type": "box",
+                                "value": "4"
+                            },
+                            {
+                                "barcode": "31142063145760",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_af3f2c58fd395d4eecc21219ce1f7a97",
+                                "type": "box",
+                                "value": "5"
+                            },
+                            {
+                                "barcode": "31142063145786",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_7e90711d6b3269f084604b244ed0ff97",
+                                "type": "box",
+                                "value": "6"
                             }
                         ],
-                        "value": "\n      \n.    "
+                        "unittitle": {
+                            "value": "Series I: 2006 Accession"
+                        }
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "corpname": [
+                },
+                {
+                    "id": "aspace_bf62f89dc4237bb704c435b091eb6097",
+                    "level": "series",
+                    "did": {
+                        "container": [
                             {
-                                "value": "New York University. Office of Budget and Resource Planning"
-                            }
-                        ]
-                    }
-                ],
-                "physloc": [
-                    {
-                        "id": "aspace_05d068f0f2ded1ee86cfee8975c42e49",
-                        "value": "Materials are stored offsite and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
+                                "barcode": "31142063145794",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_71c75e5761a5b5f89f4269317ee7d733",
+                                "type": "box",
+                                "value": "7"
+                            },
                             {
-                                "value": "New York University Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1980/2002",
-                        "type": "inclusive",
-                        "value": "1980-2002"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "RG.11"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Records of the Office of Budget and Resource Planning"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_cbe13d1839fce54a11538e69eebf951f",
-                        "level": "series",
-                        "did": [
+                                "barcode": "31142063145802",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_c29e94058c19dbecf81fb30115dca78f",
+                                "type": "box",
+                                "value": "8"
+                            },
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142063145729",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_4b6a855053da52392c0c09198f7fdbe1",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "barcode": "31142063145737",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_9ea9757f4c30ae2c3b57aadba14d30c2",
-                                        "type": "box",
-                                        "value": "2"
-                                    },
-                                    {
-                                        "barcode": "31142063145778",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_bde06e2ba495c53e2e235cf10cc779de",
-                                        "type": "box",
-                                        "value": "3"
-                                    },
-                                    {
-                                        "barcode": "31142063145752",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_e6e7f1d3346a2ded635bd13ea2a58875",
-                                        "type": "box",
-                                        "value": "4"
-                                    },
-                                    {
-                                        "barcode": "31142063145760",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_af3f2c58fd395d4eecc21219ce1f7a97",
-                                        "type": "box",
-                                        "value": "5"
-                                    },
-                                    {
-                                        "barcode": "31142063145786",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_7e90711d6b3269f084604b244ed0ff97",
-                                        "type": "box",
-                                        "value": "6"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series I: 2006 Accession"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_bf62f89dc4237bb704c435b091eb6097",
-                        "level": "series",
-                        "did": [
+                                "barcode": "31142063145810",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_884381668c4a7e5e1da418be27d643a8",
+                                "type": "box",
+                                "value": "9"
+                            },
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142063145794",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_71c75e5761a5b5f89f4269317ee7d733",
-                                        "type": "box",
-                                        "value": "7"
-                                    },
-                                    {
-                                        "barcode": "31142063145802",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_c29e94058c19dbecf81fb30115dca78f",
-                                        "type": "box",
-                                        "value": "8"
-                                    },
-                                    {
-                                        "barcode": "31142063145810",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_884381668c4a7e5e1da418be27d643a8",
-                                        "type": "box",
-                                        "value": "9"
-                                    },
-                                    {
-                                        "barcode": "31142063145828",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_c48c2ad5d5560335e43d88d7d95d858d",
-                                        "type": "box",
-                                        "value": "10"
-                                    },
-                                    {
-                                        "barcode": "31142063145836",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_23c69bfc12be4dd7aff86d09624c9bf9",
-                                        "type": "box",
-                                        "value": "11"
-                                    },
-                                    {
-                                        "barcode": "31142063145844",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_f2851b8d6ca82db40e54e0dc480be2fa",
-                                        "type": "box",
-                                        "value": "12"
-                                    },
-                                    {
-                                        "barcode": "31142063145851",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_1465935c1a4c738700164acfa461cbb0",
-                                        "type": "box",
-                                        "value": "13"
-                                    },
-                                    {
-                                        "barcode": "31142063145869",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_ffb690d6735d33b145581f7d0a65669f",
-                                        "type": "box",
-                                        "value": "14"
-                                    },
-                                    {
-                                        "barcode": "31142063145877",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_909eff7b0de3c3981e9da7bac5d4aab9",
-                                        "type": "box",
-                                        "value": "15"
-                                    },
-                                    {
-                                        "barcode": "31142063145885",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_387d7d5fa6e50ff9829ea1cbf5e90d3f",
-                                        "type": "box",
-                                        "value": "16"
-                                    },
-                                    {
-                                        "barcode": "31142063145893",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_3ff71eb6da242a54d3d2a1e739815cd4",
-                                        "type": "box",
-                                        "value": "17"
-                                    },
-                                    {
-                                        "barcode": "31142063145901",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_2161ba7eaffbfb733a92c710639601c9",
-                                        "type": "box",
-                                        "value": "18"
-                                    },
-                                    {
-                                        "barcode": "31142063145919",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Letter - Half",
-                                        "id": "aspace_69af735e72e28ab0e0323e4e9c5baa27",
-                                        "type": "box",
-                                        "value": "19"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series II: 2007 Accession"
-                                    }
-                                ]
+                                "barcode": "31142063145828",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_c48c2ad5d5560335e43d88d7d95d858d",
+                                "type": "box",
+                                "value": "10"
+                            },
+                            {
+                                "barcode": "31142063145836",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_23c69bfc12be4dd7aff86d09624c9bf9",
+                                "type": "box",
+                                "value": "11"
+                            },
+                            {
+                                "barcode": "31142063145844",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_f2851b8d6ca82db40e54e0dc480be2fa",
+                                "type": "box",
+                                "value": "12"
+                            },
+                            {
+                                "barcode": "31142063145851",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_1465935c1a4c738700164acfa461cbb0",
+                                "type": "box",
+                                "value": "13"
+                            },
+                            {
+                                "barcode": "31142063145869",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_ffb690d6735d33b145581f7d0a65669f",
+                                "type": "box",
+                                "value": "14"
+                            },
+                            {
+                                "barcode": "31142063145877",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_909eff7b0de3c3981e9da7bac5d4aab9",
+                                "type": "box",
+                                "value": "15"
+                            },
+                            {
+                                "barcode": "31142063145885",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_387d7d5fa6e50ff9829ea1cbf5e90d3f",
+                                "type": "box",
+                                "value": "16"
+                            },
+                            {
+                                "barcode": "31142063145893",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_3ff71eb6da242a54d3d2a1e739815cd4",
+                                "type": "box",
+                                "value": "17"
+                            },
+                            {
+                                "barcode": "31142063145901",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_2161ba7eaffbfb733a92c710639601c9",
+                                "type": "box",
+                                "value": "18"
+                            },
+                            {
+                                "barcode": "31142063145919",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Letter - Half",
+                                "id": "aspace_69af735e72e28ab0e0323e4e9c5baa27",
+                                "type": "box",
+                                "value": "19"
                             }
-                        ]
+                        ],
+                        "unittitle": {
+                            "value": "Series II: 2007 Accession"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_0e3ec801a618e409e6eac46101be0b7a",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
-                        "value": "Published citations should take the following form:\u003cbr\u003e\u003cbr\u003eIdentification of item, date (if known); The Office of Budget and Resource Planning; RG 11; box number; folder number;\u003cbr\u003e\u003cspan class=\"ead-address\"\u003e\u003cspan class=\"ead-addressline\"\u003eNew York University Archives\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eElmer Holmes Bobst Library\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003e70 Washington Square South\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eNew York, NY 10012\u003c/span\u003e\u003c/span\u003e, New York University Libraries."
+                        "value": "Published citations should take the following form:\u003cbr\u003e\u003cbr\u003eIdentification of item, date (if known); The Office of Budget and Resource Planning; RG 11; box number; folder number;\u003cbr\u003e\u003cspan class=\"ead-address\"\u003e\u003cspan class=\"ead-addressline\"\u003eNew York University Archives\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eElmer Holmes Bobst Library\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003e70 Washington Square South\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eNew York, NY 10012\u003c/span\u003e\u003c/span\u003e, New York University Libraries.",
+                        "address": [
+                            {
+                                "addressline": [
+                                    {
+                                        "value": "New York University Archives "
+                                    },
+                                    {
+                                        "value": "Elmer Holmes Bobst Library "
+                                    },
+                                    {
+                                        "value": "70 Washington Square South "
+                                    },
+                                    {
+                                        "value": "New York, NY 10012"
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
@@ -376,11 +397,9 @@
         "scopecontent": [
             {
                 "id": "aspace_b7a3b22dd1dd5e140b381bf60c88d714",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The records of the Office of Vice President for Budget and Resource Planning are the administrative files of Dr. Richard Bing. The files pertain to renovations, relocation, and maintenance for NYU buildings. The files are arranged by their account numbers."
@@ -391,11 +410,9 @@
         "separatedmaterial": [
             {
                 "id": "aspace_96939e6bf558bf61c288754cde1d7b36",
-                "head": [
-                    {
-                        "value": "Separated Material"
-                    }
-                ],
+                "head": {
+                    "value": "Separated Material"
+                },
                 "p": [
                     {
                         "value": "There is no information about materials that are associated by provenance to the described materials that have been physically separated or removed."
@@ -406,87 +423,104 @@
         "userestrict": [
             {
                 "id": "aspace_0a4760a46ce52ebce4aa6acfc25a723d",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
-                        "value": "Permission to publish materials must be obtained in writing from the:\u003cbr\u003e\u003cspan class=\"ead-address\"\u003e\u003cspan class=\"ead-addressline\"\u003eNew York University Archives\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eElmer Holmes Bobst Library\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003e70 Washington Square South\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eNew York, NY 10012\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003ePhone: (212) 998-2646\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eFax: (212) 995-4070\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eE-mail: university-archives@nyu.edu\u003cbr\u003e \u003c/span\u003e\u003c/span\u003e"
+                        "value": "Permission to publish materials must be obtained in writing from the:\u003cbr\u003e\u003cspan class=\"ead-address\"\u003e\u003cspan class=\"ead-addressline\"\u003eNew York University Archives\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eElmer Holmes Bobst Library\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003e70 Washington Square South\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eNew York, NY 10012\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003ePhone: (212) 998-2646\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eFax: (212) 995-4070\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eE-mail: university-archives@nyu.edu\u003cbr\u003e \u003c/span\u003e\u003c/span\u003e",
+                        "address": [
+                            {
+                                "addressline": [
+                                    {
+                                        "value": "New York University Archives "
+                                    },
+                                    {
+                                        "value": "Elmer Holmes Bobst Library "
+                                    },
+                                    {
+                                        "value": "70 Washington Square South "
+                                    },
+                                    {
+                                        "value": "New York, NY 10012 "
+                                    },
+                                    {
+                                        "value": "Phone: (212) 998-2646 "
+                                    },
+                                    {
+                                        "value": "Fax: (212) 995-4070 "
+                                    },
+                                    {
+                                        "value": "E-mail: university-archives@nyu.edu "
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NyNyUA",
-                    "value": "rg_11"
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NyNyUA",
+            "value": "rg_11"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "inventory of folders"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "publisher": "New York University Archives"
+            },
+            "titlestmt": {
+                "author": "Processed by University Archives staff",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Records of the Office of Budget and Resource Planning \u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-date\"\u003e1980-2002 \u003c/span\u003e\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-num\"\u003eRG 11 \u003c/span\u003e \u003cspan class=\"ead-num\"\u003eRG.11\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "RG 11 "
+                            },
+                            {
+                                "value": "RG.11"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 14:33:46 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "filedesc": [
+            }
+        },
+        "revisiondesc": {
+            "change": [
                 {
-                    "editionstmt": [
-                        {
-                            "value": "\u003cspan class=\"ead-p\"\u003einventory of folders\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
-                        {
-                            "publisher": "New York University Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Processed by University Archives staff"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Records of the Office of Budget and Resource Planning \u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-date\"\u003e1980-2002 \u003c/span\u003e\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-num\"\u003eRG 11 \u003c/span\u003e \u003cspan class=\"ead-num\"\u003eRG.11\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 14:33:46 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ],
-            "revisiondesc": [
-                {
-                    "change": [
-                        {
-                            "date": [
-                                "November 2016"
-                            ],
-                            "item": [
-                                {
-                                    "value": "Updated by Craig Savino to reflect Accession 06-013 and Accession 07-001."
-                                }
-                            ]
-                        }
-                    ]
+                    "date": {
+                        "value": "November 2016"
+                    },
+                    "item": {
+                        "value": "Updated by Craig Savino to reflect Accession 06-013 and Accession 07-001."
+                    }
                 }
             ]
         }
-    ]
+    }
 }

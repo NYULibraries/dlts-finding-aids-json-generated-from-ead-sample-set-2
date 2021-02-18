@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_5bb320e459344c543293d1d0e60f8878",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Open to researchers. Appointments are necessary to consult archive and manuscript materials."
@@ -19,9 +17,24 @@
         "arrangement": [
             {
                 "id": "aspace_3ec792bcf13ebb30e3166f316a509afe",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "numeration": "arabic",
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "Series I A: Correspondence, 1931-1970"
+                            },
+                            {
+                                "value": "Series I B: Notebooks, Loose Notes, Lists, Manuscripts, Photos, Victoriana, Printed Materials"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -34,11 +47,9 @@
         "bioghist": [
             {
                 "id": "aspace_4b45eb24389af55ba12460d6673867db",
-                "head": [
-                    {
-                        "value": "Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Ralph T. Adimari (1902-1970) was an editor, researcher, and historian of the dime novel, a class of popular fiction that thrived in the mid to late nineteenth century and into the twentieth. The term \"dime novels\" refers to inexpensive, cheaply produced paperbacks and serials, often romance, adventure, westerns, or detective stories. A prodigious collector, Adimari did extensive research on dime novels, and published many articles in \u003cspan class=\"ead-emph ead-emph-italic\"\u003eDime Novel Round-Up\u003c/span\u003ebefore 1940, and at least 20 articles between 1954 and 1964. He also wrote a piece titled \"Saga of a Dime Novelist\" which appeared in \u003cspan class=\"ead-emph ead-emph-italic\"\u003eAmerican Book Collector\u003c/span\u003ein early 1935. Through correspondence with fellow dime novel historian and \u003cspan class=\"ead-emph ead-emph-italic\"\u003eDNRU\u003c/span\u003eeditor Ralph F. Cummings, Adimari acquired the letters and notebooks of William J. Benners (1863-1940), a dime novel historian, author, and agent, and wrote a biography of Benners for the \u003cspan class=\"ead-emph ead-emph-italic\"\u003eDNRU\u003c/span\u003e. Building upon Benners's work identifying dime novel authors, Adimari compiled detailed lists of authors and pseudonyms, titles, and publishers, definitively solving several mysteries about dime novel authorship."
@@ -49,58 +60,101 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "genreform": [
-                    "Personal papers.",
-                    "Personal correspondence.",
-                    "Photographs.",
-                    "Visiting cards.",
-                    "Manuscripts for publication.",
-                    "Notebooks",
-                    "Clippings (information artifacts)"
-                ],
-                "persname": [
-                    {
-                        "value": "Johannsen, Albert, 1871-1962"
-                    },
-                    {
-                        "value": "Cummings, Ralph F., 1898-"
-                    },
-                    {
-                        "value": "Benners, William J. (William James), 1863-1940"
-                    },
-                    {
-                        "value": "Randolph, Charles D."
-                    },
-                    {
-                        "value": "Levy, Edward G."
-                    },
-                    {
-                        "value": "Leithead, J. Edward."
-                    },
-                    {
-                        "value": "LeBlanc, Edward T."
-                    }
-                ],
-                "subject": [
-                    "Dime novels",
-                    "American fiction -- 20th century.",
-                    "Popular literature |z United States.",
-                    "Victoriana.",
-                    "American fiction -- 19th century.",
-                    "Adventure stories, American."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Personal papers."
+                },
+                {
+                    "source": "aat",
+                    "value": "Personal correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Photographs."
+                },
+                {
+                    "source": "aat",
+                    "value": "Visiting cards."
+                },
+                {
+                    "source": "aat",
+                    "value": "Manuscripts for publication."
+                },
+                {
+                    "source": "aat",
+                    "value": "Notebooks"
+                },
+                {
+                    "source": "aat",
+                    "value": "Clippings (information artifacts)"
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Johannsen, Albert, 1871-1962"
+                },
+                {
+                    "source": "naf",
+                    "value": "Cummings, Ralph F., 1898-"
+                },
+                {
+                    "source": "naf",
+                    "value": "Benners, William J. (William James), 1863-1940"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Randolph, Charles D."
+                },
+                {
+                    "source": "local",
+                    "value": "Levy, Edward G."
+                },
+                {
+                    "source": "local",
+                    "value": "Leithead, J. Edward."
+                },
+                {
+                    "source": "naf",
+                    "value": "LeBlanc, Edward T."
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Dime novels"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "American fiction -- 20th century."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Popular literature |z United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Victoriana."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "American fiction -- 19th century."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Adventure stories, American."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_78e66735596171eb0a4a83d42c68b538",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "Ralph Adimari sold parts of his collection of dime novels and research material, including the William J. Benners Papers, to Edward G. Levy beginning in 1964. Levy, the dime novel collector and historian, donated the Ralph Adimari Papers to Fales in 1965-1966."
@@ -108,1331 +162,1481 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "1 Linear Feet"
-                            },
-                            {
-                                "value": "in 1 manuscript box and 2  half manuscript boxes"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 1 manuscript box and 2  half manuscript boxes",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Ralph T. Adimari (1902-1970) was an editor, researcher, and historian of the dime novel, a class of popular fiction that thrived in the mid to late nineteenth century and into the early twentieth. The Ralph Adimari Papers contain records of Adimari's research, including correspondence, notebooks, clippings, photographs, and ephemera.",
+                    "id": "aspace_4454ab91b2d23538534672b74c093d90"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Ralph T. Adimari (1902-1970) was an editor, researcher, and historian of the dime novel, a class of popular fiction that thrived in the mid to late nineteenth century and into the early twentieth. The Ralph Adimari Papers contain records of Adimari's research, including correspondence, notebooks, clippings, photographs, and ephemera.",
-                        "id": "aspace_4454ab91b2d23538534672b74c093d90"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Adimari, Ralph"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Adimari, Ralph"
-                            }
-                        ]
-                    }
-                ],
-                "physloc": [
-                    {
-                        "id": "aspace_3abd2e519d298f9abb1fe14e08ec34e2",
-                        "value": "Materials are stored offsite, and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Fales Library and Special Collections"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1931/1970",
-                        "type": "inclusive",
-                        "value": "1931-1970 "
-                    },
-                    {
-                        "normal": "1957/1964",
-                        "type": "bulk",
-                        "value": "1957-1964"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "MSS.550"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Ralph Adimari Papers"
-                    }
-                ]
+                }
+            ],
+            "physloc": [
+                {
+                    "id": "aspace_3abd2e519d298f9abb1fe14e08ec34e2",
+                    "value": "Materials are stored offsite, and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Fales Library and Special Collections"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1931/1970",
+                    "type": "inclusive",
+                    "value": "1931-1970 "
+                },
+                {
+                    "normal": "1957/1964",
+                    "type": "bulk",
+                    "value": "1957-1964"
+                }
+            ],
+            "unitid": "MSS.550",
+            "unittitle": {
+                "value": "Ralph Adimari Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref11",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref12",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref11",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref12",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900520",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_27ed5db0c3185cc6496720068bdedb80",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0e276af9a2397065538a4f93c85dfbd4",
-                                                "parent": "aspace_27ed5db0c3185cc6496720068bdedb80",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1957-1963"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Cummings, Ralph G."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref14",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                        "barcode": "31142054900520",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_27ed5db0c3185cc6496720068bdedb80",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900520",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_c48e2204574c87cd91e23fa1111eefe0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1bede6220e18137f3dbe259e4ab00647",
-                                                "parent": "aspace_c48e2204574c87cd91e23fa1111eefe0",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1961-1963"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Guinon, J.P."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref15",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900520",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_f339b21a751926418491dcfce73ba2d5",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a0c4ac43ffdeb5ed939762aaacbbb5bd",
-                                                "parent": "aspace_f339b21a751926418491dcfce73ba2d5",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1950-1962"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Johannsen, Albert"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900520",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_34a3437d3f7209ffd78617ff6c4d9907",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a8f820fe065440604010cb659b5e9857",
-                                                "parent": "aspace_34a3437d3f7209ffd78617ff6c4d9907",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1956-1963"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "LeBlanc, Edward T."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900520",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_c50651dbbb4352f78c27d42b63b2b433",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_69ebc525aa5a5dd159f83bf1807ffc7d",
-                                                "parent": "aspace_c50651dbbb4352f78c27d42b63b2b433",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1958-1963"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Leithead, J. Edward"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900520",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_cb69bcc4c7fdd090b4b9ce5c3115dba2",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0cc9cc489c1b7fa389b1c4e9cc14ee8f",
-                                                "parent": "aspace_cb69bcc4c7fdd090b4b9ce5c3115dba2",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1964-1970"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Levy, Edward G."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900520",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_5b38eedfd0e7741ebafef80bfae4e9d7",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_615af6c51c5689eaf37edf71a9af7395",
-                                                "parent": "aspace_5b38eedfd0e7741ebafef80bfae4e9d7",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1962"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Randolph, Charles D. aka \"Buckskin Bill\""
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900520",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_26ef3fbcb2ac8957f5cc2d56eb83a4ac",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5fd1f6bf66317c187e39962e2f6d386f",
-                                                "parent": "aspace_26ef3fbcb2ac8957f5cc2d56eb83a4ac",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1955-1961"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Van Devier, Roy B."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900520",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_9fdc17c6aeed607c414d426389b24fb3",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2dddfcaf8ea9ca6520e04d810d469468",
-                                                "parent": "aspace_9fdc17c6aeed607c414d426389b24fb3",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1958-1960"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Willson, Frank C."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900520",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_cd0f06aff10c16d4aca265b8de9116da",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9ff8a864ec744ce60b8e200740953414",
-                                                "parent": "aspace_cd0f06aff10c16d4aca265b8de9116da",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1931-1961"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Miscellaneous"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
-                                    {
-                                        "value": "Series I A: Correspondence, 1931-1970."
-                                    }
-                                ]
-                            }
-                        ],
-                        "scopecontent": [
-                            {
-                                "id": "aspace_39778f35f441e76d96a932c28ed46e6f",
-                                "head": [
-                                    {
-                                        "value": "Scope and Contents note"
+                                        "id": "aspace_0e276af9a2397065538a4f93c85dfbd4",
+                                        "parent": "aspace_27ed5db0c3185cc6496720068bdedb80",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "p": [
+                                "unitdate": [
                                     {
-                                        "value": "Correspondence to and from individuals, including authors, relating to Adimari's dime novel research."
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref25",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref26",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_26f912d1409f2817b81880eb19e01573",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_3bad0abd400054d7474f4fc00b84004c",
-                                                "parent": "aspace_26f912d1409f2817b81880eb19e01573",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notes"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_28a2d2b68c9fc8b1bd913fb11dedd025",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_8c080420106508b3847fbcc03c2acae2",
-                                                "parent": "aspace_28a2d2b68c9fc8b1bd913fb11dedd025",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notebook"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_f3bfe8307e3afb06e7538903b299248f",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_d7dd0e1e57688dd487c2deb134db4551",
-                                                "parent": "aspace_f3bfe8307e3afb06e7538903b299248f",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notes"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_21800e871fee054f22a3a5e1188dfb0c",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_5595523d1771ab9d6a36d695da5e1543",
-                                                "parent": "aspace_21800e871fee054f22a3a5e1188dfb0c",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notebook, \"Cushing -- Pseudonyms + More Notes\""
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_35c63b960cd76ade9ba849d4fe5ac301",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_6369e5a48cd75bf96950245f9bb255e8",
-                                                "parent": "aspace_35c63b960cd76ade9ba849d4fe5ac301",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notebook, \"Dime Novel Notes\""
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref36",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_b5cb5a7771ebd87f835bfea59894fe42",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_a5ac83ed0423196078b6756ed500b2ec",
-                                                "parent": "aspace_b5cb5a7771ebd87f835bfea59894fe42",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notebook, \"Literary Notes + Alger Notes\""
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref38",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_cbebf8c055ee481483375c3cc8cbe1e8",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_03f58f6532e7a61eb0c9c5e2c3ec4634",
-                                                "parent": "aspace_cbebf8c055ee481483375c3cc8cbe1e8",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notebook and loose notes"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref40",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_c0fb43b2b284dd02608384dcaf9834ed",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_46d52586edf37658dd66c5529f0f29a5",
-                                                "parent": "aspace_c0fb43b2b284dd02608384dcaf9834ed",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Non-Dime Novel Notes"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref42",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_fddcc0640245711242f5f3e872e2e3f5",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_5d9da5f972cdd7382ab5085da6fb8e62",
-                                                "parent": "aspace_fddcc0640245711242f5f3e872e2e3f5",
-                                                "type": "folder",
-                                                "value": "9A"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notebook"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref44",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_7b2388af1593d95ecab4ead175c782ff",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_073547ce68b57172a2c11c4b2a1dd7c7",
-                                                "parent": "aspace_7b2388af1593d95ecab4ead175c782ff",
-                                                "type": "folder",
-                                                "value": "9B"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notebook"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref46",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_3dd12ca8f7b5e4ff4772bc35426876cf",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_52cfc32c28c8dc0f0f63a936b6ba29fb",
-                                                "parent": "aspace_3dd12ca8f7b5e4ff4772bc35426876cf",
-                                                "type": "folder",
-                                                "value": "9C"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notebook"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref48",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_17303c7edde7a843cc80a3ee4d4491a5",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_ff4a2dc3936e417ae13e042e2207a139",
-                                                "parent": "aspace_17303c7edde7a843cc80a3ee4d4491a5",
-                                                "type": "folder",
-                                                "value": "10A"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Loose notes"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref50",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_50c27dd7a8afc800038616d340e1350e",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_9d31b5cfbf887d29cf81c9536893b36e",
-                                                "parent": "aspace_50c27dd7a8afc800038616d340e1350e",
-                                                "type": "folder",
-                                                "value": "10B"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notebook"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref52",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_7074f50b391c7261f21bcbc6457e654b",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_d92beb588d0f1132ae072421f5469c06",
-                                                "parent": "aspace_7074f50b391c7261f21bcbc6457e654b",
-                                                "type": "folder",
-                                                "value": "10C"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notebook"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref54",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_42ff466c5e77910e283d5a2848d40295",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_4279d86d4fe406bce3b6b03ad4730a5d",
-                                                "parent": "aspace_42ff466c5e77910e283d5a2848d40295",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Manuscripts"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref55",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_f812294a79a59481163485832fb804d5",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_42f86a4bac62c062297c771e94104ea0",
-                                                "parent": "aspace_f812294a79a59481163485832fb804d5",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Photographs"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref56",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900538",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_aac462db4e2e695b61e4f12225929649",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_10e47d8378b73f258b96af0a66bdc3c1",
-                                                "parent": "aspace_aac462db4e2e695b61e4f12225929649",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Victoriana"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref58",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900546",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_ad50ab509c11b0d53d6aaf62e9ccfed4",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_b7a7337d0a28c89262249b713d8faecc",
-                                                "parent": "aspace_ad50ab509c11b0d53d6aaf62e9ccfed4",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notes"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref60",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900546",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_859264c69ad6a33150bba63ab382741f",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_cecdf825da62f6f3e06bd83e283ffe4b",
-                                                "parent": "aspace_859264c69ad6a33150bba63ab382741f",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Lists"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref62",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900546",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_3b363efbcfe7afde590f0d37ee523d99",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_5c64291e324cedad84d2b992f41146fe",
-                                                "parent": "aspace_3b363efbcfe7afde590f0d37ee523d99",
-                                                "type": "folder",
-                                                "value": "3A"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1922-1962"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Newspaper clippings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref64",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900546",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_6641714e93851eb79fcec46f584cd676",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_877e0fc96e535037efe15a426211acab",
-                                                "parent": "aspace_6641714e93851eb79fcec46f584cd676",
-                                                "type": "folder",
-                                                "value": "3B"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1926-1962"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Newspaper clippings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref66",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900546",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a866291b19c6d0a4844eabfd31240022",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_80fec3b869202a726d3600c0875545b2",
-                                                "parent": "aspace_a866291b19c6d0a4844eabfd31240022",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1963, n.d."
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Newspaper clippings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref68",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900546",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_fd97a2a5fcf5908c1c33fe62c7ba2a10",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_346d7b8b47cb5f24a5cf55cac5a7d230",
-                                                "parent": "aspace_fd97a2a5fcf5908c1c33fe62c7ba2a10",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Printed materials"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref70",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900546",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_26b5a3d66dffe6e69bcc643dd4624146",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_dac205008c8c191b23edfa0fb11f5a02",
-                                                "parent": "aspace_26b5a3d66dffe6e69bcc643dd4624146",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1958"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Printed material: Dime Novel Round-Up, Vol. 26, No. 9"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
-                                    {
-                                        "value": "Series I B: Notebooks, loose notes, lists, manuscripts, photos, Victoriana, printed material."
-                                    }
-                                ]
-                            }
-                        ],
-                        "scopecontent": [
-                            {
-                                "id": "aspace_af0152e8ef8050507f223c3d9c44833e",
-                                "head": [
-                                    {
-                                        "value": "Scope and Contents note"
+                                        "value": "1957-1963"
                                     }
                                 ],
-                                "p": [
+                                "unittitle": {
+                                    "value": "Cummings, Ralph G."
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_209b47f7d1beb25e7972a7e209434588",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Includes 1962 letter from Cummings on Benners's stationary."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref14",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Extensive notes on the history of dime novels; lists of dime novel titles, authors, pseudonyms, and publishers; printed material and other ephemera related to Adimari's research; Adimari's biography of William J. Benners in \u003cspan class=\"ead-emph ead-emph-italic\"\u003eDime Novel Round-up\u003c/span\u003e."
+                                        "barcode": "31142054900520",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_c48e2204574c87cd91e23fa1111eefe0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_1bede6220e18137f3dbe259e4ab00647",
+                                        "parent": "aspace_c48e2204574c87cd91e23fa1111eefe0",
+                                        "type": "folder",
+                                        "value": "2"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1961-1963"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Guinon, J.P."
+                                }
                             }
-                        ]
-                    }
-                ]
-            }
-        ],
+                        },
+                        {
+                            "id": "aspace_ref15",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900520",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_f339b21a751926418491dcfce73ba2d5",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a0c4ac43ffdeb5ed939762aaacbbb5bd",
+                                        "parent": "aspace_f339b21a751926418491dcfce73ba2d5",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1950-1962"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Johannsen, Albert"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900520",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_34a3437d3f7209ffd78617ff6c4d9907",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a8f820fe065440604010cb659b5e9857",
+                                        "parent": "aspace_34a3437d3f7209ffd78617ff6c4d9907",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1956-1963"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "LeBlanc, Edward T."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900520",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_c50651dbbb4352f78c27d42b63b2b433",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_69ebc525aa5a5dd159f83bf1807ffc7d",
+                                        "parent": "aspace_c50651dbbb4352f78c27d42b63b2b433",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1958-1963"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Leithead, J. Edward"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900520",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_cb69bcc4c7fdd090b4b9ce5c3115dba2",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0cc9cc489c1b7fa389b1c4e9cc14ee8f",
+                                        "parent": "aspace_cb69bcc4c7fdd090b4b9ce5c3115dba2",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1964-1970"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Levy, Edward G."
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_9fd1646f0b4dd7af23a85c7e438e0521",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Includes letters from Adimari to Levy and biographical information about Levy."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900520",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_5b38eedfd0e7741ebafef80bfae4e9d7",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_615af6c51c5689eaf37edf71a9af7395",
+                                        "parent": "aspace_5b38eedfd0e7741ebafef80bfae4e9d7",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1962"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Randolph, Charles D. aka \"Buckskin Bill\""
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900520",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_26ef3fbcb2ac8957f5cc2d56eb83a4ac",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5fd1f6bf66317c187e39962e2f6d386f",
+                                        "parent": "aspace_26ef3fbcb2ac8957f5cc2d56eb83a4ac",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1955-1961"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Van Devier, Roy B."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900520",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_9fdc17c6aeed607c414d426389b24fb3",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2dddfcaf8ea9ca6520e04d810d469468",
+                                        "parent": "aspace_9fdc17c6aeed607c414d426389b24fb3",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1958-1960"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Willson, Frank C."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900520",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_cd0f06aff10c16d4aca265b8de9116da",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9ff8a864ec744ce60b8e200740953414",
+                                        "parent": "aspace_cd0f06aff10c16d4aca265b8de9116da",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1931-1961"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Miscellaneous"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series I A: Correspondence, 1931-1970."
+                        }
+                    },
+                    "scopecontent": [
+                        {
+                            "id": "aspace_39778f35f441e76d96a932c28ed46e6f",
+                            "head": {
+                                "value": "Scope and Contents note"
+                            },
+                            "p": [
+                                {
+                                    "value": "Correspondence to and from individuals, including authors, relating to Adimari's dime novel research."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "aspace_ref25",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref26",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_26f912d1409f2817b81880eb19e01573",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_3bad0abd400054d7474f4fc00b84004c",
+                                        "parent": "aspace_26f912d1409f2817b81880eb19e01573",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notes"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_79e7dd27659bd535b3fd5c7669be2fac",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "A collection of loose notes on Dime Novel authors."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_28a2d2b68c9fc8b1bd913fb11dedd025",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_8c080420106508b3847fbcc03c2acae2",
+                                        "parent": "aspace_28a2d2b68c9fc8b1bd913fb11dedd025",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notebook"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_701d4ed1aed2640bd1a4c06a4fd08176",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Marble composition book \"I\" contains bibliographical lists and notes on various publications."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_f3bfe8307e3afb06e7538903b299248f",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_d7dd0e1e57688dd487c2deb134db4551",
+                                        "parent": "aspace_f3bfe8307e3afb06e7538903b299248f",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notes"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_9d8fbf787e70dbf021fa5faebfde690a",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "A collection of notes transcribed \"from the William James Benners Jr. collection owned by Ralph F. Cummings.\""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_21800e871fee054f22a3a5e1188dfb0c",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_5595523d1771ab9d6a36d695da5e1543",
+                                        "parent": "aspace_21800e871fee054f22a3a5e1188dfb0c",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notebook, \"Cushing -- Pseudonyms + More Notes\""
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_3752d9e3ffadc8d13a7b8fdc487ba341",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Composition book contains notes on William Cushing's \u003cspan class=\"ead-emph ead-emph-italic\"\u003eInitials and Pseudonyms: A Dictionary of Literary Disguises\u003c/span\u003e."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_35c63b960cd76ade9ba849d4fe5ac301",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_6369e5a48cd75bf96950245f9bb255e8",
+                                        "parent": "aspace_35c63b960cd76ade9ba849d4fe5ac301",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notebook, \"Dime Novel Notes\""
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_6212b8d27c5d9eb8e6b732b8c052241d",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Memorandum book contains notes on Dime Novels and authors, arranged alphabetically."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref36",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_b5cb5a7771ebd87f835bfea59894fe42",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_a5ac83ed0423196078b6756ed500b2ec",
+                                        "parent": "aspace_b5cb5a7771ebd87f835bfea59894fe42",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notebook, \"Literary Notes + Alger Notes\""
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_ee876d96fcefde23b0ebdb6a6699930b",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Notebook contains author and pseudonym lists, notes by William Benners, and other research."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref38",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_cbebf8c055ee481483375c3cc8cbe1e8",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_03f58f6532e7a61eb0c9c5e2c3ec4634",
+                                        "parent": "aspace_cbebf8c055ee481483375c3cc8cbe1e8",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notebook and loose notes"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_cd1fc150934ac7a10962da4cd5b0c691",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Marble composition book \"II\" contains notes on various publications, especially the \u003cspan class=\"ead-emph ead-emph-italic\"\u003eNew York Dramatic Mirror\u003c/span\u003eand notes labeled \"Miscellaneous.\" Two newspaper clippings are pasted in the book. Loose pages include notes on the \u003cspan class=\"ead-emph ead-emph-italic\"\u003eMirror\u003c/span\u003e\"continued from composition book,\" various publication checklists, and other research."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref40",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_c0fb43b2b284dd02608384dcaf9834ed",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_46d52586edf37658dd66c5529f0f29a5",
+                                        "parent": "aspace_c0fb43b2b284dd02608384dcaf9834ed",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Non-Dime Novel Notes"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_cb73b34e61c51f2a90a3d35e21467c68",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "A collection of loose notes."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref42",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_fddcc0640245711242f5f3e872e2e3f5",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_5d9da5f972cdd7382ab5085da6fb8e62",
+                                        "parent": "aspace_fddcc0640245711242f5f3e872e2e3f5",
+                                        "type": "folder",
+                                        "value": "9A"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notebook"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_a65fc140ab057245ac128861ae03d6fa",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "\"Penmark\" marble composition book labeled \"Ledger Serials\" contains miscellaneous notes on serials and authors."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref44",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_7b2388af1593d95ecab4ead175c782ff",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_073547ce68b57172a2c11c4b2a1dd7c7",
+                                        "parent": "aspace_7b2388af1593d95ecab4ead175c782ff",
+                                        "type": "folder",
+                                        "value": "9B"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notebook"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_0564a25b944bf2f8abbec082d15a5336",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "\"Giant\" composition book contains notes on various publications."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref46",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_3dd12ca8f7b5e4ff4772bc35426876cf",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_52cfc32c28c8dc0f0f63a936b6ba29fb",
+                                        "parent": "aspace_3dd12ca8f7b5e4ff4772bc35426876cf",
+                                        "type": "folder",
+                                        "value": "9C"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notebook"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_c9b7d959f74c21f5c1813f8b000e9689",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "\"Penmark\" marble composition book labeled \"Book Reviews.\""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref48",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_17303c7edde7a843cc80a3ee4d4491a5",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_ff4a2dc3936e417ae13e042e2207a139",
+                                        "parent": "aspace_17303c7edde7a843cc80a3ee4d4491a5",
+                                        "type": "folder",
+                                        "value": "10A"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Loose notes"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_2eb3faef7845087f4bb6d0e824b25330",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "A collection of notes labeled \"Dime Novel Notes + Boys' Serials.\""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref50",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_50c27dd7a8afc800038616d340e1350e",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_9d31b5cfbf887d29cf81c9536893b36e",
+                                        "parent": "aspace_50c27dd7a8afc800038616d340e1350e",
+                                        "type": "folder",
+                                        "value": "10B"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notebook"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_d274036d2e61126dd80e234b4acb42ff",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Memo book labeled \"First Notes\" on one cover, and \"Miscellaneous\" on the other."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref52",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_7074f50b391c7261f21bcbc6457e654b",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_d92beb588d0f1132ae072421f5469c06",
+                                        "parent": "aspace_7074f50b391c7261f21bcbc6457e654b",
+                                        "type": "folder",
+                                        "value": "10C"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notebook"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_83818bb0bb640cfb62ee35d84910f7f6",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Memo book labeled \"Miscellany / Not Dime Novel\" contains miscellaneous notes."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref54",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_42ff466c5e77910e283d5a2848d40295",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_4279d86d4fe406bce3b6b03ad4730a5d",
+                                        "parent": "aspace_42ff466c5e77910e283d5a2848d40295",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Manuscripts"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref55",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_f812294a79a59481163485832fb804d5",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_42f86a4bac62c062297c771e94104ea0",
+                                        "parent": "aspace_f812294a79a59481163485832fb804d5",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Photographs"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref56",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900538",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_aac462db4e2e695b61e4f12225929649",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_10e47d8378b73f258b96af0a66bdc3c1",
+                                        "parent": "aspace_aac462db4e2e695b61e4f12225929649",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Victoriana"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_09a2d44bab24377df187b2ec70f72083",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Calling cards, Christmas cards, etc."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref58",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900546",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_ad50ab509c11b0d53d6aaf62e9ccfed4",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_b7a7337d0a28c89262249b713d8faecc",
+                                        "parent": "aspace_ad50ab509c11b0d53d6aaf62e9ccfed4",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notes"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_1b298b65b37cb244727452cdb8adf7a0",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Miscellaneous notes, some on legal-size paper."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref60",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900546",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_859264c69ad6a33150bba63ab382741f",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_cecdf825da62f6f3e06bd83e283ffe4b",
+                                        "parent": "aspace_859264c69ad6a33150bba63ab382741f",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Lists"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_d7a4ed591f383c2022097e64b3cd327c",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Type- and handwritten lists of: William Benners's correspondents; Benners's works; publications; pseudonym identifications."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref62",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900546",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_3b363efbcfe7afde590f0d37ee523d99",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_5c64291e324cedad84d2b992f41146fe",
+                                        "parent": "aspace_3b363efbcfe7afde590f0d37ee523d99",
+                                        "type": "folder",
+                                        "value": "3A"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1922-1962"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Newspaper clippings"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_57357e3b7ababcca6e5fd3f81908c9b4",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Photocopies of newspaper clippings re: authors A-K, including Benners."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref64",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900546",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_6641714e93851eb79fcec46f584cd676",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_877e0fc96e535037efe15a426211acab",
+                                        "parent": "aspace_6641714e93851eb79fcec46f584cd676",
+                                        "type": "folder",
+                                        "value": "3B"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1926-1962"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Newspaper clippings"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_9c3bf0515c9f77b41e61f60fac01bc74",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Photocopies of newspaper clippings re: authors L-Z."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref66",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900546",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a866291b19c6d0a4844eabfd31240022",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_80fec3b869202a726d3600c0875545b2",
+                                        "parent": "aspace_a866291b19c6d0a4844eabfd31240022",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1963, n.d."
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Newspaper clippings"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_5f41bec6e8ad216427bc2bc55f9d3192",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Newspaper clippings, including lists of the Pinkerton Detective Series (Laird and Lee), Ten- and Twenty-Cent Novelettes, Threepenny Novels, and Beadle's Dime Library."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref68",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900546",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_fd97a2a5fcf5908c1c33fe62c7ba2a10",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_346d7b8b47cb5f24a5cf55cac5a7d230",
+                                        "parent": "aspace_fd97a2a5fcf5908c1c33fe62c7ba2a10",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Printed materials"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_1c89d9cead92f3f1248ff57d83a7eee4",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Three pieces of printed material: (1) flyer for upcoming serials in National Farmer and Home Magazine; (2) flyer for Mrs. George Sheldon Downs' \"Love and Beauty, or, the Heiress of Dunleigh,\" published by William Benners for his Constance Library imprint, including blurbs by Benners; (3) folder for Dime Novel Club facsimile reprint no. 6A, 1945."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref70",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900546",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_26b5a3d66dffe6e69bcc643dd4624146",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_dac205008c8c191b23edfa0fb11f5a02",
+                                        "parent": "aspace_26b5a3d66dffe6e69bcc643dd4624146",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1958"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Printed material: Dime Novel Round-Up, Vol. 26, No. 9"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_cd4bc47e53e6017759d406fe6858c2dc",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Features Adimari's biography of William J. Benners."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series I B: Notebooks, loose notes, lists, manuscripts, photos, Victoriana, printed material."
+                        }
+                    },
+                    "scopecontent": [
+                        {
+                            "id": "aspace_af0152e8ef8050507f223c3d9c44833e",
+                            "head": {
+                                "value": "Scope and Contents note"
+                            },
+                            "p": [
+                                {
+                                    "value": "Extensive notes on the history of dime novels; lists of dime novel titles, authors, pseudonyms, and publishers; printed material and other ephemera related to Adimari's research; Adimari's biography of William J. Benners in \u003cspan class=\"ead-emph ead-emph-italic\"\u003eDime Novel Round-up\u003c/span\u003e."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_696b685962eedcb37de7373ef636fc93",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date (if known); Ralph Adimari Papers; MSS 550; box number; folder number; Fales Library and Special Collections, New York University Libraries."
@@ -1443,11 +1647,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_96187805b8aff5b26878bdc4fc32d819",
-                "head": [
-                    {
-                        "value": "Related Material at Fales Library and Special Collections"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at Fales Library and Special Collections"
+                },
                 "p": [
                     {
                         "value": "Levy Dime Novel Collection (MSS.028)"
@@ -1461,11 +1663,9 @@
         "scopecontent": [
             {
                 "id": "aspace_944912c58533fa0516144832acaf646e",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The Ralph Adimari Papers contain correspondence from fellow dime novel collectors and historians, including Edward G. Levy, Dr. Albert Johannsen, \u003cspan class=\"ead-emph ead-emph-italic\"\u003eDime Novel Round-Up\u003c/span\u003eeditors Edward T. LeBlanc and Ralph Cummings, the latter from whom Adimari acquired William Benners's papers, and writers including Col. Charles D. Randolph, aka \"Buckskin Bill,\" known for his dime-novel and Western themed poetry. Also included are notebooks of research, manuscripts, newspaper clippings related to dime novel authors, photographs, and Victoriana. The William J. Benners Papers, also housed in Fales, includes several of Benners's notebooks that were subsequently used and annotated by Adimari."
@@ -1476,11 +1676,9 @@
         "userestrict": [
             {
                 "id": "aspace_0c2d6d7dadc357c9a67c40e368c15f37",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Collection use is subject to all copyright laws.  Permission to\npublish materials must be obtained in writing from the Director of Fales Library and Special Collections.  Please contact fales.library@nyu.edu. or call 212 998 2596."
@@ -1489,78 +1687,59 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NNU-F",
+            "url": "http://dlib.nyu.edu/findingaids/html/fales/adimari",
+            "value": "mss_550"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from dimenov.htm"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "publisher": "Fales Library and Special Collections"
+            },
+            "titlestmt": {
+                "author": "Collection processed by Maxime La Fantasie, with portions reprocessed by William J. Levay in 2006.",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Ralph Adimari Papers \u003cspan class=\"ead-num\"\u003eMSS.550\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MSS.550"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 14:59:40 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
+        },
+        "revisiondesc": {
+            "change": [
                 {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NNU-F",
-                    "url": "http://dlib.nyu.edu/findingaids/html/fales/adimari",
-                    "value": "mss_550"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
-                        {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from dimenov.htm\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
-                        {
-                            "publisher": "Fales Library and Special Collections"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Collection processed by Maxime La Fantasie, with portions reprocessed by William J. Levay in 2006."
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Ralph Adimari Papers \u003cspan class=\"ead-num\"\u003eMSS.550\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 14:59:40 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Finding aid written in English."
-                        }
-                    ]
-                }
-            ],
-            "revisiondesc": [
-                {
-                    "change": [
-                        {
-                            "date": [
-                                "September 2018"
-                            ],
-                            "item": [
-                                {
-                                    "value": "Collection renumbered from MSS 028A to MSS 550 by Jacqueline Rider."
-                                }
-                            ]
-                        }
-                    ]
+                    "date": {
+                        "value": "September 2018"
+                    },
+                    "item": {
+                        "value": "Collection renumbered from MSS 028A to MSS 550 by Jacqueline Rider."
+                    }
                 }
             ]
         }
-    ]
+    }
 }

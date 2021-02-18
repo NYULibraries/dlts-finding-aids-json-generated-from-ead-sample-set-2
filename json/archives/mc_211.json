@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_28260685ba7ffe7bcf484295966095ab",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Open for research without restrictions."
@@ -19,11 +17,9 @@
         "arrangement": [
             {
                 "id": "aspace_46ccb6e3fa99028518601127bc0e4fcc",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "The files are grouped into one series."
@@ -34,11 +30,9 @@
         "bioghist": [
             {
                 "id": "aspace_9c49ca29c4b600b05957b3c7bae69692",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Irma Tuck-Weiss was born on August 5, 1913. She received her B.S. (1933), her M.A. (1936) and her Ph.D. from New York University."
@@ -58,34 +52,52 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "New York University. College of Dentistry"
-                    }
-                ],
-                "genreform": [
-                    "Correspondence.",
-                    "Diaries",
-                    "Laboratory notebooks.",
-                    "Photographs.",
-                    "Research notes."
-                ],
-                "subject": [
-                    "Electrophoresis.",
-                    "Biochemistry."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "New York University. College of Dentistry"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Diaries"
+                },
+                {
+                    "source": "aat",
+                    "value": "Laboratory notebooks."
+                },
+                {
+                    "source": "aat",
+                    "value": "Photographs."
+                },
+                {
+                    "source": "aat",
+                    "value": "Research notes."
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Electrophoresis."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Biochemistry."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_4a486c86fa21fb43704261cd35384d4f",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The papers were donated to New York University by the daughter of Dr. Irma Tuck-Weiss."
@@ -93,878 +105,773 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "1 boxes"
-                            }
-                        ]
-                    },
-                    {
-                        "value": "1 linear foot"
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1 boxes",
+                            "altrender": "materialtype spaceoccupied"
+                        }
+                    ]
+                },
+                {
+                    "value": "1 linear foot",
+                    "id": "aspace_3af2c6af937613dc34a542d5ef3e9f9e",
+                    "label": "General Physical Description note"
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Irma Tuck Weiss was a professor of biochemistry at New York University from 1950-1978. From 1980-1981, she also served as the president of the College of Dentistry at New York University. Her main research topics included human saliva. This collection is comprised of her notes and research analyses.",
+                    "id": "aspace_032d723bd7474fe618ed3b55dc28fff0"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Irma Tuck Weiss was a professor of biochemistry at New York University from 1950-1978. From 1980-1981, she also served as the president of the College of Dentistry at New York University. Her main research topics included human saliva. This collection is comprised of her notes and research analyses.",
-                        "id": "aspace_032d723bd7474fe618ed3b55dc28fff0"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Tuck-Weiss, Irma"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
+                }
+            ],
+            "physloc": [
+                {
+                    "id": "aspace_d987ae995f535614ecfa659ce54d70f7",
+                    "value": "New York University Archives 12/E/3"
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "New York University Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1954/1986",
+                    "type": "inclusive",
+                    "value": "1954-1986"
+                }
+            ],
+            "unitid": "MC.211",
+            "unittitle": {
+                "value": "Irma Tuck-Weiss Papers"
+            }
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref12",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_1742d7f15c70a19252f6b41155f8f7f2",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_f43d22e95d8776256b4b8b74fccd22b1",
+                                "parent": "aspace_1742d7f15c70a19252f6b41155f8f7f2",
+                                "type": "folder",
+                                "value": "1"
                             }
                         ],
-                        "value": "\n      \n.    "
+                        "unitdate": [
+                            {
+                                "value": "1958-1965"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Antibacterial properties of saliva: Research and publications"
+                        }
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
+                },
+                {
+                    "id": "aspace_ref13",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "Tuck-Weiss, Irma"
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_f68277b16850e5edf7c6d294bffebb4f",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_172a7a83d19a2f51d635d0276cbde556",
+                                "parent": "aspace_f68277b16850e5edf7c6d294bffebb4f",
+                                "type": "folder",
+                                "value": "2"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1966-1968"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Antifungal research and analysis"
+                        }
                     }
-                ],
-                "physloc": [
-                    {
-                        "id": "aspace_d987ae995f535614ecfa659ce54d70f7",
-                        "value": "New York University Archives 12/E/3"
+                },
+                {
+                    "id": "aspace_ref14",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_78f923571aaac3a5bf574a80394f6402",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_6dd87b2d03e6e11d6cef0195000f53ef",
+                                "parent": "aspace_78f923571aaac3a5bf574a80394f6402",
+                                "type": "folder",
+                                "value": "3"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1965-1981"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Awards"
+                        }
                     }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
+                },
+                {
+                    "id": "aspace_ref15",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "New York University Archives"
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_1943e6ef18dcd8b3293b6483da07d845",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_c75a2cf131e3d670de0512d9647495d4",
+                                "parent": "aspace_1943e6ef18dcd8b3293b6483da07d845",
+                                "type": "folder",
+                                "value": "4"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1973"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Class notes"
+                        }
                     }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1954/1986",
-                        "type": "inclusive",
-                        "value": "1954-1986"
+                },
+                {
+                    "id": "aspace_ref16",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_a9c26fb47dabe0bf5be0e0aaf1aff4b5",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_c6537d4e05cc3de9d22394d37e6c344e",
+                                "parent": "aspace_a9c26fb47dabe0bf5be0e0aaf1aff4b5",
+                                "type": "folder",
+                                "value": "5"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1962-1976"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Correspondence and photographs"
+                        }
                     }
-                ],
-                "unitid": [
-                    {
-                        "value": "MC.211"
+                },
+                {
+                    "id": "aspace_ref17",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_494592c573c0cf3a0744f6cd1769aceb",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_78ca01129f3ead2ad9f4721d3080a961",
+                                "parent": "aspace_494592c573c0cf3a0744f6cd1769aceb",
+                                "type": "folder",
+                                "value": "6"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1966"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Glycoprotein analysis"
+                        }
                     }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Irma Tuck-Weiss Papers"
+                },
+                {
+                    "id": "aspace_ref18",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_123dc0767ca54d5cb32ed51c49b246b8",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_f5d6bb66d66e76723a7192f2a423dff3",
+                                "parent": "aspace_123dc0767ca54d5cb32ed51c49b246b8",
+                                "type": "folder",
+                                "value": "7"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1955-1965"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Journals, bulletins and annoucements"
+                        }
                     }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref12",
-                        "level": "file",
-                        "did": [
+                },
+                {
+                    "id": "aspace_ref19",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_1742d7f15c70a19252f6b41155f8f7f2",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_f43d22e95d8776256b4b8b74fccd22b1",
-                                        "parent": "aspace_1742d7f15c70a19252f6b41155f8f7f2",
-                                        "type": "folder",
-                                        "value": "1"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1958-1965"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Antibacterial properties of saliva: Research and publications"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref13",
-                        "level": "file",
-                        "did": [
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_ea796322dbe2ae9a43db7e2acfd72c8e",
+                                "type": "box",
+                                "value": "1"
+                            },
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_f68277b16850e5edf7c6d294bffebb4f",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_172a7a83d19a2f51d635d0276cbde556",
-                                        "parent": "aspace_f68277b16850e5edf7c6d294bffebb4f",
-                                        "type": "folder",
-                                        "value": "2"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1966-1968"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Antifungal research and analysis"
-                                    }
-                                ]
+                                "id": "aspace_74e09842b7ad5378994d4b3beacdb65d",
+                                "parent": "aspace_ea796322dbe2ae9a43db7e2acfd72c8e",
+                                "type": "folder",
+                                "value": "8"
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref14",
-                        "level": "file",
-                        "did": [
+                        ],
+                        "unitdate": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_78f923571aaac3a5bf574a80394f6402",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_6dd87b2d03e6e11d6cef0195000f53ef",
-                                        "parent": "aspace_78f923571aaac3a5bf574a80394f6402",
-                                        "type": "folder",
-                                        "value": "3"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1965-1981"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Awards"
-                                    }
-                                ]
+                                "value": "undated"
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref15",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_1943e6ef18dcd8b3293b6483da07d845",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_c75a2cf131e3d670de0512d9647495d4",
-                                        "parent": "aspace_1943e6ef18dcd8b3293b6483da07d845",
-                                        "type": "folder",
-                                        "value": "4"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1973"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Class notes"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref16",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_a9c26fb47dabe0bf5be0e0aaf1aff4b5",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_c6537d4e05cc3de9d22394d37e6c344e",
-                                        "parent": "aspace_a9c26fb47dabe0bf5be0e0aaf1aff4b5",
-                                        "type": "folder",
-                                        "value": "5"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1962-1976"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Correspondence and photographs"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref17",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_494592c573c0cf3a0744f6cd1769aceb",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_78ca01129f3ead2ad9f4721d3080a961",
-                                        "parent": "aspace_494592c573c0cf3a0744f6cd1769aceb",
-                                        "type": "folder",
-                                        "value": "6"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1966"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Glycoprotein analysis"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref18",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_123dc0767ca54d5cb32ed51c49b246b8",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_f5d6bb66d66e76723a7192f2a423dff3",
-                                        "parent": "aspace_123dc0767ca54d5cb32ed51c49b246b8",
-                                        "type": "folder",
-                                        "value": "7"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1955-1965"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Journals, bulletins and annoucements"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref19",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_ea796322dbe2ae9a43db7e2acfd72c8e",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_74e09842b7ad5378994d4b3beacdb65d",
-                                        "parent": "aspace_ea796322dbe2ae9a43db7e2acfd72c8e",
-                                        "type": "folder",
-                                        "value": "8"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "undated"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Miscellaneous writings"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref20",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_9699ef2dd560a9f5dd5098207f9c50a2",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_99d8b1527e1c0a6faffc8f4f64a74ef7",
-                                        "parent": "aspace_9699ef2dd560a9f5dd5098207f9c50a2",
-                                        "type": "folder",
-                                        "value": "9"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1954-1986"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Photographs and images"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref21",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_d983fe9c5a9fc926e002e1f8246c84f0",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_a998f7f4dfb00706e1c2bff38c99b0db",
-                                        "parent": "aspace_d983fe9c5a9fc926e002e1f8246c84f0",
-                                        "type": "folder",
-                                        "value": "10"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1959-1979"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Press clippings"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref22",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_bf5bedc79a675fc3be972ac10a3d73bb",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_0f6637e1f1a8b91ec797b9456f4210af",
-                                        "parent": "aspace_bf5bedc79a675fc3be972ac10a3d73bb",
-                                        "type": "folder",
-                                        "value": "11"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1960-1969"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Publications on human saliva"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref23",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_885032d0548e56a4446ab8f8fef38198",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_b568d97b2315bdf8a07cbd5ca64278c1",
-                                        "parent": "aspace_885032d0548e56a4446ab8f8fef38198",
-                                        "type": "folder",
-                                        "value": "12"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1966"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Research"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref24",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_3844418bc7bea878e07f3a8f24335086",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_bbcb5367fda9f5c0557eec335b4cc6b4",
-                                        "parent": "aspace_3844418bc7bea878e07f3a8f24335086",
-                                        "type": "folder",
-                                        "value": "13"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1954-1964"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Research, notes and publication"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref25",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_aeeb7fc4622f46f5234d2b62a4acafe6",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_91902fe884e8513f1ae5e5ba189ca45a",
-                                        "parent": "aspace_aeeb7fc4622f46f5234d2b62a4acafe6",
-                                        "type": "folder",
-                                        "value": "14"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1960-1975"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Research, notes and results"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref26",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_4a3603f31bd0010a49162904b08fe2d0",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_03c362420bc804b58b1506ed29ef8aab",
-                                        "parent": "aspace_4a3603f31bd0010a49162904b08fe2d0",
-                                        "type": "folder",
-                                        "value": "15"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "undated"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Research on electrophoresis"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref27",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_79f293e187bb37ef87eb42ce062f5f28",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_9ce2a0a8fce8f1de7002d3c1b4d86eb9",
-                                        "parent": "aspace_79f293e187bb37ef87eb42ce062f5f28",
-                                        "type": "folder",
-                                        "value": "16"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "undated"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Research on electrophoresis"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref28",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_d647348ccd15a5cf934cc1a40979ac15",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_e273667f80d0d18c8ee0765c6ec16cfc",
-                                        "parent": "aspace_d647348ccd15a5cf934cc1a40979ac15",
-                                        "type": "folder",
-                                        "value": "17"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "undated"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Salivary indexing"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref29",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_179186ffded871e186206017f9e0e03c",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_c7618ceb0b1996963e13d9d2c7acdca3",
-                                        "parent": "aspace_179186ffded871e186206017f9e0e03c",
-                                        "type": "folder",
-                                        "value": "18"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1960"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Salivary indexing"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref30",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_c3d9d54a7ec64cfc484cdf2820d09946",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_406fc313cabd617f63deb867ddcebc5c",
-                                        "parent": "aspace_c3d9d54a7ec64cfc484cdf2820d09946",
-                                        "type": "folder",
-                                        "value": "19"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1960-1963"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Salivary indexing"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref31",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_8b1d3769706e718228b622396038bd12",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_d65fbbbaf37ebcdab1a299cc808896ae",
-                                        "parent": "aspace_8b1d3769706e718228b622396038bd12",
-                                        "type": "folder",
-                                        "value": "20"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1958-1965"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Salivaring indexing and notes"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref32",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_922fda3f3b6c5ba944b29a8c3566c437",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_d918d7fa21ac8cc5796b47cbd7587603",
-                                        "parent": "aspace_922fda3f3b6c5ba944b29a8c3566c437",
-                                        "type": "folder",
-                                        "value": "21"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1962"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Salivary indexing and notes"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref33",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_73ab1b8e5ef4685c5264ed238a60cfed",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_eec2807d7f5e9dac1e51e151be27b5e8",
-                                        "parent": "aspace_73ab1b8e5ef4685c5264ed238a60cfed",
-                                        "type": "folder",
-                                        "value": "22"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1959"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Salivary indexing and notes"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref34",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062912434",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_b0384c3c216f1d8b92c9293a2f50ff1e",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_8b984b2ae69ad59aa86d0f8dd01848e9",
-                                        "parent": "aspace_b0384c3c216f1d8b92c9293a2f50ff1e",
-                                        "type": "folder",
-                                        "value": "23"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "undated"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Salivary indexing, groups 4-6"
-                                    }
-                                ]
-                            }
-                        ]
+                        ],
+                        "unittitle": {
+                            "value": "Miscellaneous writings"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref20",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_9699ef2dd560a9f5dd5098207f9c50a2",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_99d8b1527e1c0a6faffc8f4f64a74ef7",
+                                "parent": "aspace_9699ef2dd560a9f5dd5098207f9c50a2",
+                                "type": "folder",
+                                "value": "9"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1954-1986"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Photographs and images"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref21",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_d983fe9c5a9fc926e002e1f8246c84f0",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_a998f7f4dfb00706e1c2bff38c99b0db",
+                                "parent": "aspace_d983fe9c5a9fc926e002e1f8246c84f0",
+                                "type": "folder",
+                                "value": "10"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1959-1979"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Press clippings"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref22",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_bf5bedc79a675fc3be972ac10a3d73bb",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_0f6637e1f1a8b91ec797b9456f4210af",
+                                "parent": "aspace_bf5bedc79a675fc3be972ac10a3d73bb",
+                                "type": "folder",
+                                "value": "11"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1960-1969"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Publications on human saliva"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref23",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_885032d0548e56a4446ab8f8fef38198",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_b568d97b2315bdf8a07cbd5ca64278c1",
+                                "parent": "aspace_885032d0548e56a4446ab8f8fef38198",
+                                "type": "folder",
+                                "value": "12"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1966"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Research"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref24",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_3844418bc7bea878e07f3a8f24335086",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_bbcb5367fda9f5c0557eec335b4cc6b4",
+                                "parent": "aspace_3844418bc7bea878e07f3a8f24335086",
+                                "type": "folder",
+                                "value": "13"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1954-1964"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Research, notes and publication"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref25",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_aeeb7fc4622f46f5234d2b62a4acafe6",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_91902fe884e8513f1ae5e5ba189ca45a",
+                                "parent": "aspace_aeeb7fc4622f46f5234d2b62a4acafe6",
+                                "type": "folder",
+                                "value": "14"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1960-1975"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Research, notes and results"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref26",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_4a3603f31bd0010a49162904b08fe2d0",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_03c362420bc804b58b1506ed29ef8aab",
+                                "parent": "aspace_4a3603f31bd0010a49162904b08fe2d0",
+                                "type": "folder",
+                                "value": "15"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "undated"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Research on electrophoresis"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref27",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_79f293e187bb37ef87eb42ce062f5f28",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_9ce2a0a8fce8f1de7002d3c1b4d86eb9",
+                                "parent": "aspace_79f293e187bb37ef87eb42ce062f5f28",
+                                "type": "folder",
+                                "value": "16"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "undated"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Research on electrophoresis"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref28",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_d647348ccd15a5cf934cc1a40979ac15",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_e273667f80d0d18c8ee0765c6ec16cfc",
+                                "parent": "aspace_d647348ccd15a5cf934cc1a40979ac15",
+                                "type": "folder",
+                                "value": "17"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "undated"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Salivary indexing"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref29",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_179186ffded871e186206017f9e0e03c",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_c7618ceb0b1996963e13d9d2c7acdca3",
+                                "parent": "aspace_179186ffded871e186206017f9e0e03c",
+                                "type": "folder",
+                                "value": "18"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1960"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Salivary indexing"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref30",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_c3d9d54a7ec64cfc484cdf2820d09946",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_406fc313cabd617f63deb867ddcebc5c",
+                                "parent": "aspace_c3d9d54a7ec64cfc484cdf2820d09946",
+                                "type": "folder",
+                                "value": "19"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1960-1963"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Salivary indexing"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref31",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_8b1d3769706e718228b622396038bd12",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_d65fbbbaf37ebcdab1a299cc808896ae",
+                                "parent": "aspace_8b1d3769706e718228b622396038bd12",
+                                "type": "folder",
+                                "value": "20"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1958-1965"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Salivaring indexing and notes"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref32",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_922fda3f3b6c5ba944b29a8c3566c437",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_d918d7fa21ac8cc5796b47cbd7587603",
+                                "parent": "aspace_922fda3f3b6c5ba944b29a8c3566c437",
+                                "type": "folder",
+                                "value": "21"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1962"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Salivary indexing and notes"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref33",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_73ab1b8e5ef4685c5264ed238a60cfed",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_eec2807d7f5e9dac1e51e151be27b5e8",
+                                "parent": "aspace_73ab1b8e5ef4685c5264ed238a60cfed",
+                                "type": "folder",
+                                "value": "22"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1959"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Salivary indexing and notes"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref34",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062912434",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_b0384c3c216f1d8b92c9293a2f50ff1e",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_8b984b2ae69ad59aa86d0f8dd01848e9",
+                                "parent": "aspace_b0384c3c216f1d8b92c9293a2f50ff1e",
+                                "type": "folder",
+                                "value": "23"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "undated"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Salivary indexing, groups 4-6"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_a9a8cc5c827bb621b457fcc0c3d95fab",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: Identification of item, date (if known); Irma Tuck-Weiss Papers; MC 211; box number; folder number; New York University Archives, New York University Libraries."
@@ -975,11 +882,9 @@
         "scopecontent": [
             {
                 "id": "aspace_dec656167e3e6f64f2e012b7c1c367a2",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "This collection contains notes, paper electropherograms and writings by Dr. Irma Tuck-Weiss. The bulk of the collection documents Dr. Tuck-Weiss' professional life through correspondence, published articles, historical research, and information regarding her membership in various professional associations."
@@ -990,71 +895,89 @@
         "userestrict": [
             {
                 "id": "aspace_06681dcb5f3a9d4d98d43c4b2e80202a",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
-                        "value": "Permission to publish materials must be obtained in writing from the:\u003cbr\u003e\u003cspan class=\"ead-address\"\u003e\u003cspan class=\"ead-addressline\"\u003eNew York University Archives\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eBobst Library\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003e70 Washington Square South\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eNew York, New York 10012\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003ePhone: 212.998.2641\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eFax: 212.995.4225\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eE-mail: nancy.cricco@nyu.edu\u003cbr\u003e \u003c/span\u003e\u003c/span\u003e"
+                        "value": "Permission to publish materials must be obtained in writing from the:\u003cbr\u003e\u003cspan class=\"ead-address\"\u003e\u003cspan class=\"ead-addressline\"\u003eNew York University Archives\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eBobst Library\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003e70 Washington Square South\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eNew York, New York 10012\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003ePhone: 212.998.2641\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eFax: 212.995.4225\u003cbr\u003e \u003c/span\u003e\u003cspan class=\"ead-addressline\"\u003eE-mail: nancy.cricco@nyu.edu\u003cbr\u003e \u003c/span\u003e\u003c/span\u003e",
+                        "address": [
+                            {
+                                "addressline": [
+                                    {
+                                        "value": "New York University Archives "
+                                    },
+                                    {
+                                        "value": "Bobst Library "
+                                    },
+                                    {
+                                        "value": "70 Washington Square South "
+                                    },
+                                    {
+                                        "value": "New York, New York 10012 "
+                                    },
+                                    {
+                                        "value": "Phone: 212.998.2641 "
+                                    },
+                                    {
+                                        "value": "Fax: 212.995.4225 "
+                                    },
+                                    {
+                                        "value": "E-mail: nancy.cricco@nyu.edu "
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NyNyUA",
-                    "value": "mc_211"
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NyNyUA",
+            "value": "mc_211"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from a MS Word document."
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "publisher": "New York University Archives"
+            },
+            "titlestmt": {
+                "author": "Processed by Clotilde Trouve and University Archives staff",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Irma Tuck Weiss Papers\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-date\"\u003e1954-1986\u003c/span\u003e\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e \u003cspan class=\"ead-num\"\u003eMC.211\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MC.211"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 14:31:19 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
-                        {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from a MS Word document.\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
-                        {
-                            "publisher": "New York University Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Processed by Clotilde Trouve and University Archives staff"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Irma Tuck Weiss Papers\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-date\"\u003e1954-1986\u003c/span\u003e\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e \u003cspan class=\"ead-num\"\u003eMC.211\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 14:31:19 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

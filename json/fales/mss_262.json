@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_e6fc3774e5e38d0c45398a6e02471c45",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Fales Library and Special Collections, fales.library@nyu.edu, 212-998-2596."
@@ -19,11 +17,9 @@
         "bioghist": [
             {
                 "id": "aspace_511b7ef99701b07035d6995658d9f5d5",
-                "head": [
-                    {
-                        "value": "Biographical / Historical"
-                    }
-                ],
+                "head": {
+                    "value": "Biographical / Historical"
+                },
                 "p": [
                     {
                         "value": "The Folklore Center and Fretted Instruments Shop was founded in 1957 by Israel (Izzy) Young. It was a place where people could purchase instruments, books, records, and other folk related materials. It was also a gathering place for the growing NYC folk music and poetry scenes, such as Bob Dylan, Peter Yarrow, Dave Van Ronk, Ted Berrigan, and many others. In addition to the storefront, the Center also organized regular concerts, poetry readings, and local gatherings. The store closed in 1973 when Young moved to Sweden to open up another Folklore Center."
@@ -31,50 +27,68 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "New Lost City Ramblers"
-                    }
-                ],
-                "genreform": [
-                    "Folk Music"
-                ],
-                "persname": [
-                    {
-                        "value": "Seeger, Mike, 1933-2009"
-                    },
-                    {
-                        "value": "Dylan, Bob, 1941-"
-                    },
-                    {
-                        "value": "Berrigan, Ted"
-                    },
-                    {
-                        "value": "Holcolm, Roscoe"
-                    },
-                    {
-                        "value": "Bromberg, David, 1945-"
-                    },
-                    {
-                        "value": "Young, Israel (Izzy) G., 1928-"
-                    }
-                ],
-                "subject": [
-                    "Music |z New York (State) |z New York |x Performance |x History.",
-                    "American poetry -- 20th century."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "New Lost City Ramblers"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "lcsh",
+                    "value": "Folk Music"
+                }
+            ],
+            "persname": [
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "Seeger, Mike, 1933-2009"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "Dylan, Bob, 1941-"
+                },
+                {
+                    "source": "naf",
+                    "value": "Berrigan, Ted"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Holcolm, Roscoe"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "Bromberg, David, 1945-"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "Young, Israel (Izzy) G., 1928-"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Music |z New York (State) |z New York |x Performance |x History."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "American poetry -- 20th century."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_fc018688cb5b69feece58374d8b8e899",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "The collection had been housed at NYU's Fales Library from at least the 1990s. The provenance of the collection is unclear."
@@ -82,279 +96,241 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "in 1 half manuscript box"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 1 half manuscript box",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The Folklore Center and Fretted Instruments Shop was founded in 1957 by Israel (Izzy) Young. It was a place where people could purchase instruments, books, records, and other folk related materials. It was also a gathering place for the growing NYC folk music and poetry scenes, such as Bob Dylan, Peter Yarrow, Dave Van Ronk, Ted Berrigan, and many others. This collection contains newsletters and flyers from the Folklore Center. The newsletters include lists of upcoming concerts and readings. Of note is a flyer for Bob Dylan's premier concert in New York City at the Carnegie Chapter Hall in 1961.",
+                    "id": "aspace_1339741af2b68b9c83a1aaa138b8962e"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "The Folklore Center and Fretted Instruments Shop was founded in 1957 by Israel (Izzy) Young. It was a place where people could purchase instruments, books, records, and other folk related materials. It was also a gathering place for the growing NYC folk music and poetry scenes, such as Bob Dylan, Peter Yarrow, Dave Van Ronk, Ted Berrigan, and many others. This collection contains newsletters and flyers from the Folklore Center. The newsletters include lists of upcoming concerts and readings. Of note is a flyer for Bob Dylan's premier concert in New York City at the Carnegie Chapter Hall in 1961.",
-                        "id": "aspace_1339741af2b68b9c83a1aaa138b8962e"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "corpname": {
+                        "rules": "dacs",
+                        "source": "naf",
+                        "value": "Folklore Center (New York, NY)"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "corpname": [
-                            {
-                                "value": "Folklore Center (New York, NY)"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Fales Library and Special Collections"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1961/1968",
-                        "type": "inclusive",
-                        "value": "1961-1968"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "MSS.262"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Folklore Center Collection"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Fales Library and Special Collections"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1961/1968",
+                    "type": "inclusive",
+                    "value": "1961-1968"
+                }
+            ],
+            "unitid": "MSS.262",
+            "unittitle": {
+                "value": "Folklore Center Collection"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref1",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref2",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref1",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref2",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063601531",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_afe05889a958c919cfb7060ffdce6ad2",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_18f3d03ba1440f3ac530b59dbfb6686a",
-                                                "parent": "aspace_afe05889a958c919cfb7060ffdce6ad2",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1968"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Newsletters"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref3",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142063601531",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_afe05889a958c919cfb7060ffdce6ad2",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063601531",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_69d8c128cfec3d2c585f0f3b26fdd1d0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b57f8db822043ad814c36b7b43a462e9",
-                                                "parent": "aspace_69d8c128cfec3d2c585f0f3b26fdd1d0",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Newspaper clipping"
-                                            }
-                                        ]
+                                        "id": "aspace_18f3d03ba1440f3ac530b59dbfb6686a",
+                                        "parent": "aspace_afe05889a958c919cfb7060ffdce6ad2",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref4",
-                                "level": "file",
-                                "did": [
+                                ],
+                                "unitdate": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063601531",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_81447a6edb532d50af974e9e91872446",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1df9892e0eae23a8011225d9a9d4ad59",
-                                                "parent": "aspace_81447a6edb532d50af974e9e91872446",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1966"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Poetry Reading series"
-                                            }
-                                        ]
+                                        "value": "1968"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref5",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063601531",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_2857ad43bbc05fe10f8baa4a73dd3857",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_93762b9d325a6200ee50c5322184ba1c",
-                                                "parent": "aspace_2857ad43bbc05fe10f8baa4a73dd3857",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1961/1968",
-                                                "type": "inclusive",
-                                                "value": "1961-1968"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Printed - flyers and announcements"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref6",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063601531",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_48d327f0eb4b87b52b9ada00cfed1df7",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8ce1ab073e331ed48813353fac09cdf7",
-                                                "parent": "aspace_48d327f0eb4b87b52b9ada00cfed1df7",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1967/1968",
-                                                "type": "inclusive",
-                                                "value": "1967-1968"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Printed - poetry readings"
-                                            }
-                                        ]
-                                    }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Newsletters"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
+                        },
+                        {
+                            "id": "aspace_ref3",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Series I: Printed Material"
+                                        "barcode": "31142063601531",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_69d8c128cfec3d2c585f0f3b26fdd1d0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b57f8db822043ad814c36b7b43a462e9",
+                                        "parent": "aspace_69d8c128cfec3d2c585f0f3b26fdd1d0",
+                                        "type": "folder",
+                                        "value": "2"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Newspaper clipping"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref4",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063601531",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_81447a6edb532d50af974e9e91872446",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_1df9892e0eae23a8011225d9a9d4ad59",
+                                        "parent": "aspace_81447a6edb532d50af974e9e91872446",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1966"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Poetry Reading series"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref5",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063601531",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_2857ad43bbc05fe10f8baa4a73dd3857",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_93762b9d325a6200ee50c5322184ba1c",
+                                        "parent": "aspace_2857ad43bbc05fe10f8baa4a73dd3857",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1961/1968",
+                                        "type": "inclusive",
+                                        "value": "1961-1968"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Printed - flyers and announcements"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref6",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063601531",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_48d327f0eb4b87b52b9ada00cfed1df7",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8ce1ab073e331ed48813353fac09cdf7",
+                                        "parent": "aspace_48d327f0eb4b87b52b9ada00cfed1df7",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1967/1968",
+                                        "type": "inclusive",
+                                        "value": "1967-1968"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Printed - poetry readings"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series I: Printed Material"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_f72bf26ac33753102d268258d82f9717",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the\nfollowing form:\u003cbr\u003e\u003cbr\u003e\nIdentification of item,  date (if known); Folklore Center Collection; MSS 262; box number; folder number; Fales Library and Special Collections, New York University Libraries."
@@ -365,11 +341,9 @@
         "scopecontent": [
             {
                 "id": "aspace_fe4e17b1303da061199d780bdc7001ef",
-                "head": [
-                    {
-                        "value": "Scope and Content"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content"
+                },
                 "p": [
                     {
                         "value": "This collection contains newsletters and flyers from the Folklore Center. The newsletters include lists of upcoming concerts and readings. Of note is a flyer for Bob Dylan's premier concert in New York City at the Carnegie Chapter Hall in 1961."
@@ -380,11 +354,9 @@
         "userestrict": [
             {
                 "id": "aspace_625f27fd837a8a09357bd62bc9fdcdca",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection was not transferred to New York University. Permission to use materials must be secured from the copyright holder. Please contact the Fales Library and Special Collections, fales.library@nyu.edu, 212-998-2596."
@@ -393,59 +365,49 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NNU-F",
-                    "url": "http://dlib.nyu.edu/findingaids/html/fales/folklore/",
-                    "value": "mss_262"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
-                        {
-                            "publisher": "Fales Library and Special Collections",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2014.\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Laura Newsome."
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Folklore Center Collection\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e1961-1968\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e \u003cspan class=\"ead-num\"\u003eMSS.262\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:09:42 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "English"
-                        }
-                    ]
-                }
-            ]
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NNU-F",
+            "url": "http://dlib.nyu.edu/findingaids/html/fales/folklore/",
+            "value": "mss_262"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2014.\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2014."
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Fales Library and Special Collections"
+            },
+            "titlestmt": {
+                "author": "Laura Newsome.",
+                "titleproper": [
+                    {
+                        "value": "Folklore Center Collection\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e1961-1968\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e \u003cspan class=\"ead-num\"\u003eMSS.262\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MSS.262"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:09:42 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {}
         }
-    ]
+    }
 }

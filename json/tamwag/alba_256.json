@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_4b109ec4122864ab8f93cedf49dee02b",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -16,133 +14,113 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "persname": [
-                    {
-                        "role": "Former owner",
+        "controlaccess": {
+            "persname": [
+                {
+                    "role": "Former owner",
+                    "source": "ingest",
+                    "value": "Persily, Fred."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(2 boxes)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
+                    }
+                }
+            ],
+            "origination": [
+                {
+                    "label": "source",
+                    "persname": {
+                        "source": "ingest",
                         "value": "Persily, Fred."
                     }
-                ]
+                },
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Persily, Coleman"
+                    }
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937/1999",
+                    "type": "inclusive",
+                    "value": "1937-1939; 1986-1999"
+                }
+            ],
+            "unitid": "ALBA.256",
+            "unittitle": {
+                "value": "Coleman Persily Papers"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_cbc5dff084ba9ab8989537bbaffc4a31",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "0.5 Linear Feet"
+                                "barcode": "31142062732717",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal - Half",
+                                "id": "aspace_2d19f433aaf47725644e84e9c9c3ecef",
+                                "type": "box",
+                                "value": "1"
                             },
                             {
-                                "value": "(2 boxes)"
-                            }
-                        ]
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
+                                "barcode": "31142062732733",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal - Half",
+                                "id": "aspace_0b4d54de1ff84cc3988f2624ef3e66bb",
+                                "type": "box",
+                                "value": "2"
                             }
                         ],
-                        "value": "\n      \n.    "
+                        "unittitle": {
+                            "value": "Unprocessed Records"
+                        }
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "value": "Persily, Fred."
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Persily, Coleman"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937/1999",
-                        "type": "inclusive",
-                        "value": "1937-1939; 1986-1999"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.256"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Coleman Persily Papers"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_cbc5dff084ba9ab8989537bbaffc4a31",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062732717",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal - Half",
-                                        "id": "aspace_2d19f433aaf47725644e84e9c9c3ecef",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "barcode": "31142062732733",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal - Half",
-                                        "id": "aspace_0b4d54de1ff84cc3988f2624ef3e66bb",
-                                        "type": "box",
-                                        "value": "2"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Unprocessed Records"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "scopecontent": [
             {
                 "id": "aspace_b8dad1f803c66dd14603558926b6b9b5",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "Contains c. 50 letters from Spain (1937-1939) written by ALB veteran Coleman Persily (aka Charles Warren, Charles Percy) mostly to his brother Joseph Persily, a CIO organizer in Indianapolis.  Also included are a clipping from El Mundo, 1996, describing the veterans' reunion in Spain, and a memorial tribute by Percily's first cousin, Clancy Sigal. The second box of the collection contains various collected clippings and correspondence related to VALB and some biographical materials pertaining to Persily."
@@ -153,11 +131,9 @@
         "userestrict": [
             {
                 "id": "aspace_50d144ca43ba3fbf0594c39a35b97fd2",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection was not transferred to New York University. Permission to use materials must be secured from the copyright holder. For more information, please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -166,75 +142,64 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_256"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_256"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "titleproper": [
-                                {
-                                    "value": "Coleman Persily Papers \u003cspan class=\"ead-num\"\u003eALBA.256\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:35:56 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ]
-                }
-            ]
+                },
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "titleproper": [
+                    {
+                        "value": "Coleman Persily Papers \u003cspan class=\"ead-num\"\u003eALBA.256\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.256"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:35:56 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            }
         }
-    ]
+    }
 }

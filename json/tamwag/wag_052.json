@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_5cfc5a4b458a9c1be3ca620857dc6d16",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_36b0fda2e8ab699f35826b012cff461a",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Donated by Hyman Levine, 1986. The accession number associated with this gift is 1986.009."
@@ -31,160 +27,140 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "persname": [
-                    {
-                        "role": "Donor",
+        "controlaccess": {
+            "persname": [
+                {
+                    "role": "Donor",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Levine, Hyman"
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 boxes)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
+                    }
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
                         "value": "Levine, Hyman"
                     }
-                ]
+                },
+                {
+                    "label": "source",
+                    "persname": {
+                        "role": "Donor",
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Levine, Hyman"
+                    }
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1916/1979",
+                    "type": "inclusive",
+                    "value": "1916-1979"
+                }
+            ],
+            "unitid": "WAG.052",
+            "unittitle": {
+                "value": "Hyman Levine Papers"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref3",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "0.5 Linear Feet"
+                                "barcode": "31142062766434",
+                                "label": "access cd",
+                                "altrender": "Manuscript box - Letter",
+                                "id": "aspace_7fe822e1303a89b134183bc0d6622cbf",
+                                "type": "box",
+                                "value": "1"
                             },
                             {
-                                "value": "(1 boxes)"
-                            }
-                        ]
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
+                                "id": "aspace_3b0dc054bd7c8d7f3e28b0cbf0f694aa",
+                                "parent": "aspace_7fe822e1303a89b134183bc0d6622cbf",
+                                "type": "cd",
+                                "value": "1-2"
+                            },
                             {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
+                                "barcode": "31142062766434",
+                                "label": "master reel",
+                                "altrender": "Manuscript box - Letter",
+                                "id": "aspace_50714f4d28a8f196b41d7cd80f163264",
+                                "type": "box",
+                                "value": "1"
                             }
                         ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
+                        "unitdate": [
                             {
-                                "value": "Levine, Hyman"
+                                "value": "undated"
                             }
-                        ]
+                        ],
+                        "unittitle": {
+                            "value": "Local 28 Meeting"
+                        }
                     },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "role": "Donor",
-                                "value": "Levine, Hyman"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1916/1979",
-                        "type": "inclusive",
-                        "value": "1916-1979"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "WAG.052"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Hyman Levine Papers"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref3",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062766434",
-                                        "label": "access cd",
-                                        "altrender": "Manuscript box - Letter",
-                                        "id": "aspace_7fe822e1303a89b134183bc0d6622cbf",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_3b0dc054bd7c8d7f3e28b0cbf0f694aa",
-                                        "parent": "aspace_7fe822e1303a89b134183bc0d6622cbf",
-                                        "type": "cd",
-                                        "value": "1-2"
-                                    },
-                                    {
-                                        "barcode": "31142062766434",
-                                        "label": "master reel",
-                                        "altrender": "Manuscript box - Letter",
-                                        "id": "aspace_50714f4d28a8f196b41d7cd80f163264",
-                                        "type": "box",
-                                        "value": "1"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "undated"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Local 28 Meeting"
-                                    }
-                                ]
-                            }
-                        ],
-                        "scopecontent": [
-                            {
-                                "id": "aspace_a298cd05242e8dfdeea30d3cda5f5f6e",
-                                "head": [
-                                    {
-                                        "value": "Scope and Content Note"
-                                    }
-                                ],
-                                "p": [
-                                    {
-                                        "value": "Recording of a meeting of Local 28 of the Sheet Metal Workers International Association. A prominent topic is \"lessening the effect of adverse publicity,\" and the discussion includes the union's attorney Richard N. Goodman."
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
+                    "scopecontent": [
+                        {
+                            "id": "aspace_a298cd05242e8dfdeea30d3cda5f5f6e",
+                            "head": {
+                                "value": "Scope and Content Note"
+                            },
+                            "p": [
+                                {
+                                    "value": "Recording of a meeting of Local 28 of the Sheet Metal Workers International Association. A prominent topic is \"lessening the effect of adverse publicity,\" and the discussion includes the union's attorney Richard N. Goodman."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         "phystech": [
             {
                 "id": "aspace_51d3f4bed221720e37237039c4943a09",
-                "head": [
-                    {
-                        "value": "Audiovisual Access Policies and Procedures"
-                    }
-                ],
+                "head": {
+                    "value": "Audiovisual Access Policies and Procedures"
+                },
                 "p": [
                     {
                         "value": "Access CDs for audiovisual materials in the collection are available by appointment for reading room viewing and listening only."
@@ -195,11 +171,9 @@
         "scopecontent": [
             {
                 "id": "aspace_2a9dd204f160e1128dfa1170e21fcccf",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "Hyman Levine served as the Political Action Director of Local 28 of the Sheet Metal Workers International Association in 1978.  He also served on the Safety Committee of Simpson Metal at Morgan Station Post Office.  He was a member of the Sheet Metal Workers Sick and Benevolent Association, which was founded in 1906-1907 as a mutual benefit association for Jewish members of the trade.  The Benevolent Association, with two other social clubs, the Get-Together Club and the Kitchen Equipment Club, was organized as an alternative to the predominantly Irish and Italian Paramount Club that dominated Sheet Metal Workers, Local 28.  The new independent groups stressed improvements in pension and welfare funds, organizing the unorganized, contributions to the International's strike fund, and left-wing political issues in general.  The Benevolent Association dissolved in the late 1970s, with the election of an independent candidate to the Local leadership.   This collection includes incorporation papers from 1916; the \u003cspan class=\"ead-emph ead-emph-italic\"\u003eSheet Metal Workers' Bulletin\u003c/span\u003e, issued by the New York rank and file group; election materials; political action committee materials from 1978; arbitration files; and newspaper clippings."
@@ -210,11 +184,9 @@
         "userestrict": [
             {
                 "id": "aspace_1c1c12cb587e8be798cbd04884965575",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection, created by Hyman Levine was not transferred to New York University. Permission to use materials must be secured from the copyright holder."
@@ -223,76 +195,65 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/wag_052/",
-                    "value": "wag_052"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/wag_052/",
+            "value": "wag_052"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "titleproper": [
-                                {
-                                    "value": "Hyman Levine Papers \u003cspan class=\"ead-num\"\u003eWAG.052\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:58:48 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ]
-                }
-            ]
+                },
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "titleproper": [
+                    {
+                        "value": "Hyman Levine Papers \u003cspan class=\"ead-num\"\u003eWAG.052\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "WAG.052"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:58:48 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            }
         }
-    ]
+    }
 }

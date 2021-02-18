@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_5f4d1e123e6205fa0ec25ad19994c90c",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Open for research without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_bfa9b0454e56c7d5651e40ab2c6c112e",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Gift of Dorothy Hayden Cudahy in 1996. This collection was part of an accession of materials from Dorothy Hayden Cudahy, who was secretary of the committee and therefore kept the most complete records of its activities. The accession number associated with this gift is 1996.003"
@@ -34,11 +30,9 @@
         "arrangement": [
             {
                 "id": "aspace_9356aa97f847fd568c50ea5ed0bd97cb",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "The material is arranged alphabetically. An oversize box of advertisements follows the subject files."
@@ -49,11 +43,9 @@
         "bioghist": [
             {
                 "id": "aspace_19b1c01d0538bc1dd72671431dfcf7aa",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "The American Irish Citizens Committee for the Re-Election of Mayor William O'Dwyer was formed in 1949 to help re-elect O'Dwyer to a second term as Mayor of New York City. It grew out of a previous entity, the Mayo Men's Committee for the Election of O'Dwyer, Joseph, and Impelletteri. Included on O'Dwyer's re-election ticket were City Council President Vincent R. Impellitteri and Comptroller Lazarus Joseph. With their headquarters based in the Hotel Commodore on 42nd Street and Lexington Avenue, the committee worked to raise funds, generate publicity, and successfully turn out the Irish vote for the three candidates.  Officers of the Committee included: Martin Killeen, Chairman; John Kerry O'Donnell, Treasurer; James FitzPatrick, Financial Secretary; and Hon. Francis T. Murphy, Chairman, Executive Board."
@@ -73,64 +65,101 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "American Irish Labor Leaders for O'Dwyer"
-                    },
-                    {
-                        "value": "American Irish Citizens Committee for the Re-Election of Mayor William O'Dwyer"
-                    }
-                ],
-                "genreform": [
-                    "Minutes (administrative records)",
-                    "Printed material.",
-                    "Advertisements.",
-                    "Press releases.",
-                    "Financial records"
-                ],
-                "geogname": [
-                    "New York (N.Y.)."
-                ],
-                "persname": [
-                    {
-                        "value": "Impellitteri, Vincent R. (Vincent Richard), 1900-1987"
-                    },
-                    {
-                        "value": "FitzPatrick, James"
-                    },
-                    {
-                        "value": "O'Dwyer, William, 1890-1964"
-                    },
-                    {
-                        "value": "Murphy, Francis T."
-                    },
-                    {
-                        "value": "O'Donnell, John Kerry"
-                    },
-                    {
-                        "value": "Joseph, Lazarus, 1891-1966"
-                    },
-                    {
-                        "value": "Killeen, Martin"
-                    }
-                ],
-                "subject": [
-                    "Irish Americans |z New York (State) |z New York |x Politics and government.",
-                    "Irish Americans -- New York (State) -- New York -- Political activity.",
-                    "Irish Americans -- New York (N.Y.)"
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "local",
+                    "value": "American Irish Labor Leaders for O'Dwyer"
+                },
+                {
+                    "source": "local",
+                    "value": "American Irish Citizens Committee for the Re-Election of Mayor William O'Dwyer"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Minutes (administrative records)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Printed material."
+                },
+                {
+                    "source": "aat",
+                    "value": "Advertisements."
+                },
+                {
+                    "source": "aat",
+                    "value": "Press releases."
+                },
+                {
+                    "source": "aat",
+                    "value": "Financial records"
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "New York (N.Y.)."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Impellitteri, Vincent R. (Vincent Richard), 1900-1987"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "FitzPatrick, James"
+                },
+                {
+                    "source": "naf",
+                    "value": "O'Dwyer, William, 1890-1964"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Murphy, Francis T."
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "O'Donnell, John Kerry"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Joseph, Lazarus, 1891-1966"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Killeen, Martin"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Irish Americans |z New York (State) |z New York |x Politics and government."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Irish Americans -- New York (State) -- New York -- Political activity."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Irish Americans -- New York (N.Y.)"
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_6cecd1893d10aa0f8a973dc8268e0817",
-                "head": [
-                    {
-                        "value": "Custodial History Note"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History Note"
+                },
                 "p": [
                     {
                         "value": "Gift of Dorothy Hayden Cudahy in 1996. This collection was part of an accession of materials from Dorothy Hayden Cudahy, who was secretary of the committee and therefore kept the most complete records of its activities.  The accession number associated with this collection is 1996.003."
@@ -138,804 +167,647 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 1 manuscript box and 1 oversize folder",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The American Irish Citizens Committee for the Re-Election of Mayor William O'Dwyer was formed in 1949 and grew out of a previous entity, the Mayo Men's Committee for the Election of O'Dwyer, Joseph, and Impelletteri.  O'Dwyer (1890-1964), a native of Bohola, County Mayo, Ireland, had been elected Mayor of New York in 1945.  His 1949 re-election ticket included City Council President Vincent R. Impellitteri and Comptroller Lazarus Joseph.  This collection includes reports, minutes, correspondence, financial records, press releases, advertisements, and other printed material generated by the Committee during the 1949 campaign.",
+                    "id": "aspace_04c5d330436d9a0ac32e3e0306b77ccc"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English",
+                    "id": "aspace_257886be4464957e16858078d17ee2ce"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "role": "Creator",
+                        "source": "local",
+                        "value": "Cudahy, Dorothy Hayden, 1922-2010"
+                    }
+                }
+            ],
+            "physloc": [
+                {
+                    "id": "aspace_56340888adcc349a555b035c909c72fc",
+                    "value": "Materials stored offsite and advance notice is required for use. Please contact tamiment.wagner@nyu.edu two business days prior to research visit."
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1949/1950",
+                    "type": "inclusive",
+                    "value": "1949-1950"
+                }
+            ],
+            "unitid": "AIA.002",
+            "unittitle": {
+                "value": "American Irish Citizens Committee for the Re-Election of Mayor William O'Dwyer Records"
+            }
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref12",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "1.25 Linear Feet"
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_fd1428503694330ff149b9c03d3b1fce",
+                                "type": "box",
+                                "value": "1"
                             },
                             {
-                                "value": "in 1 manuscript box and 1 oversize folder"
+                                "id": "aspace_f35e6eaf828cef56dd6089792f3099dd",
+                                "parent": "aspace_fd1428503694330ff149b9c03d3b1fce",
+                                "type": "folder",
+                                "value": "1"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "1949"
+                            }
+                        ],
+                        "unitid": "cuid14921",
+                        "unittitle": {
+                            "value": "American Irish Labor Leaders for O'Dwyer"
+                        }
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "The American Irish Citizens Committee for the Re-Election of Mayor William O'Dwyer was formed in 1949 and grew out of a previous entity, the Mayo Men's Committee for the Election of O'Dwyer, Joseph, and Impelletteri.  O'Dwyer (1890-1964), a native of Bohola, County Mayo, Ireland, had been elected Mayor of New York in 1945.  His 1949 re-election ticket included City Council President Vincent R. Impellitteri and Comptroller Lazarus Joseph.  This collection includes reports, minutes, correspondence, financial records, press releases, advertisements, and other printed material generated by the Committee during the 1949 campaign.",
-                        "id": "aspace_04c5d330436d9a0ac32e3e0306b77ccc"
+                },
+                {
+                    "id": "aspace_ref13",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_5dbbec2f7dfe9d7e4755925abc1e78b3",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_950e11ba0158f64e06a988f45fe67bba",
+                                "parent": "aspace_5dbbec2f7dfe9d7e4755925abc1e78b3",
+                                "type": "folder",
+                                "value": "2"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "1949"
+                            }
+                        ],
+                        "unitid": "cuid14922",
+                        "unittitle": {
+                            "value": "Committee Members"
+                        }
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_257886be4464957e16858078d17ee2ce",
-                        "value": "Materials are in English"
+                },
+                {
+                    "id": "aspace_ref14",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_94748278b1aa088c0c59d6b28bcebce4",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_e41c8ba8c4acaceb75cf09f6e6045c2f",
+                                "parent": "aspace_94748278b1aa088c0c59d6b28bcebce4",
+                                "type": "folder",
+                                "value": "3"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "1949"
+                            }
+                        ],
+                        "unitid": "cuid14923",
+                        "unittitle": {
+                            "value": "Correspondence"
+                        }
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
+                },
+                {
+                    "id": "aspace_ref15",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "role": "Creator",
-                                "value": "Cudahy, Dorothy Hayden, 1922-2010"
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_fc84ee7c0b23c7f236a6e13600b34c39",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_5d9f912e39f5e6d2e9c3cbb84aef0c3d",
+                                "parent": "aspace_fc84ee7c0b23c7f236a6e13600b34c39",
+                                "type": "folder",
+                                "value": "4"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "1949"
+                            }
+                        ],
+                        "unitid": "cuid14924",
+                        "unittitle": {
+                            "value": "Financial records: Account Book"
+                        }
                     }
-                ],
-                "physloc": [
-                    {
-                        "id": "aspace_56340888adcc349a555b035c909c72fc",
-                        "value": "Materials stored offsite and advance notice is required for use. Please contact tamiment.wagner@nyu.edu two business days prior to research visit."
+                },
+                {
+                    "id": "aspace_ref16",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_b1b0f9bf87db7ccbe3e45d52265be67a",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_fa002492eb5b1b6bf1d0e77276236384",
+                                "parent": "aspace_b1b0f9bf87db7ccbe3e45d52265be67a",
+                                "type": "folder",
+                                "value": "5"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "1949"
+                            }
+                        ],
+                        "unitid": "cuid14925",
+                        "unittitle": {
+                            "value": "Financial records: Bills Paid"
+                        }
                     }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
+                },
+                {
+                    "id": "aspace_ref17",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_01d6f2625889fceba05b10adf020d7a8",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_8c7080d655e31d5251d0400d58cc511e",
+                                "parent": "aspace_01d6f2625889fceba05b10adf020d7a8",
+                                "type": "folder",
+                                "value": "6"
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "1949"
+                            }
+                        ],
+                        "unitid": "cuid14926",
+                        "unittitle": {
+                            "value": "Financial records: Chase Manhattan Bank"
+                        }
                     }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1949/1950",
-                        "type": "inclusive",
-                        "value": "1949-1950"
+                },
+                {
+                    "id": "aspace_ref18",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_0312d93296fe0c683da558119a0c3a06",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_2fc6fe36878035b26772d250d758535c",
+                                "parent": "aspace_0312d93296fe0c683da558119a0c3a06",
+                                "type": "folder",
+                                "value": "7"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "1949"
+                            }
+                        ],
+                        "unitid": "cuid14927",
+                        "unittitle": {
+                            "value": "Financial records: Contributions and Expenses"
+                        }
                     }
-                ],
-                "unitid": [
-                    {
-                        "value": "AIA.002"
+                },
+                {
+                    "id": "aspace_ref19",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_78d03f6e2d4cee1099db344eb79e2f84",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_a6d3de658613a99d7eeeafcc4688011e",
+                                "parent": "aspace_78d03f6e2d4cee1099db344eb79e2f84",
+                                "type": "folder",
+                                "value": "8"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "1949"
+                            }
+                        ],
+                        "unitid": "cuid14928",
+                        "unittitle": {
+                            "value": "Newspaper Advertisements"
+                        }
                     }
-                ],
-                "unittitle": [
-                    {
-                        "value": "American Irish Citizens Committee for the Re-Election of Mayor William O'Dwyer Records"
+                },
+                {
+                    "id": "aspace_ref33",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_4197c1982e91fd1c534dec588bc4ee05",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_48e6c665f383b91afeb95392ed32179b",
+                                "parent": "aspace_4197c1982e91fd1c534dec588bc4ee05",
+                                "type": "folder",
+                                "value": "8A"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "1949"
+                            }
+                        ],
+                        "unitid": "cuid14929",
+                        "unittitle": {
+                            "value": "Photographs"
+                        }
                     }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref12",
-                        "level": "file",
-                        "did": [
+                },
+                {
+                    "id": "aspace_ref20",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_fd1428503694330ff149b9c03d3b1fce",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_f35e6eaf828cef56dd6089792f3099dd",
-                                        "parent": "aspace_fd1428503694330ff149b9c03d3b1fce",
-                                        "type": "folder",
-                                        "value": "1"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14921"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "American Irish Labor Leaders for O'Dwyer"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref13",
-                        "level": "file",
-                        "did": [
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_a10f684bd8a84914ebeda1940ccf157e",
+                                "type": "box",
+                                "value": "1"
+                            },
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_5dbbec2f7dfe9d7e4755925abc1e78b3",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_950e11ba0158f64e06a988f45fe67bba",
-                                        "parent": "aspace_5dbbec2f7dfe9d7e4755925abc1e78b3",
-                                        "type": "folder",
-                                        "value": "2"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14922"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Committee Members"
-                                    }
-                                ]
+                                "id": "aspace_0415cd27e4edb85594ab7b75975b9260",
+                                "parent": "aspace_a10f684bd8a84914ebeda1940ccf157e",
+                                "type": "folder",
+                                "value": "9"
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref14",
-                        "level": "file",
-                        "did": [
+                        ],
+                        "unitdate": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_94748278b1aa088c0c59d6b28bcebce4",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_e41c8ba8c4acaceb75cf09f6e6045c2f",
-                                        "parent": "aspace_94748278b1aa088c0c59d6b28bcebce4",
-                                        "type": "folder",
-                                        "value": "3"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14923"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Correspondence"
-                                    }
-                                ]
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "1949"
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref15",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_fc84ee7c0b23c7f236a6e13600b34c39",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_5d9f912e39f5e6d2e9c3cbb84aef0c3d",
-                                        "parent": "aspace_fc84ee7c0b23c7f236a6e13600b34c39",
-                                        "type": "folder",
-                                        "value": "4"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14924"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Financial records: Account Book"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref16",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_b1b0f9bf87db7ccbe3e45d52265be67a",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_fa002492eb5b1b6bf1d0e77276236384",
-                                        "parent": "aspace_b1b0f9bf87db7ccbe3e45d52265be67a",
-                                        "type": "folder",
-                                        "value": "5"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14925"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Financial records: Bills Paid"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref17",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_01d6f2625889fceba05b10adf020d7a8",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_8c7080d655e31d5251d0400d58cc511e",
-                                        "parent": "aspace_01d6f2625889fceba05b10adf020d7a8",
-                                        "type": "folder",
-                                        "value": "6"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14926"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Financial records: Chase Manhattan Bank"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref18",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_0312d93296fe0c683da558119a0c3a06",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_2fc6fe36878035b26772d250d758535c",
-                                        "parent": "aspace_0312d93296fe0c683da558119a0c3a06",
-                                        "type": "folder",
-                                        "value": "7"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14927"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Financial records: Contributions and Expenses"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref19",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_78d03f6e2d4cee1099db344eb79e2f84",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_a6d3de658613a99d7eeeafcc4688011e",
-                                        "parent": "aspace_78d03f6e2d4cee1099db344eb79e2f84",
-                                        "type": "folder",
-                                        "value": "8"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14928"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Newspaper Advertisements"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref33",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_4197c1982e91fd1c534dec588bc4ee05",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_48e6c665f383b91afeb95392ed32179b",
-                                        "parent": "aspace_4197c1982e91fd1c534dec588bc4ee05",
-                                        "type": "folder",
-                                        "value": "8A"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14929"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Photographs"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref20",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_a10f684bd8a84914ebeda1940ccf157e",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_0415cd27e4edb85594ab7b75975b9260",
-                                        "parent": "aspace_a10f684bd8a84914ebeda1940ccf157e",
-                                        "type": "folder",
-                                        "value": "9"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14930"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Press Releases"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref21",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_d8793dc7a3b0b3d67d4dc805e5b96bb6",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_a88c002ea4d40860e827c0af0d15db50",
-                                        "parent": "aspace_d8793dc7a3b0b3d67d4dc805e5b96bb6",
-                                        "type": "folder",
-                                        "value": "10"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14931"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Printed material"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref22",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_d9d8ad25575270ab498c66f310220bcc",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_80bedf5dbc593494d86b57fce86cdd62",
-                                        "parent": "aspace_d9d8ad25575270ab498c66f310220bcc",
-                                        "type": "folder",
-                                        "value": "11"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14932"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Radio Publicity"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref23",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_957186f42abd4ab81098cfc17118f5b4",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_1960befd09a93ccfedf190be5c98d09f",
-                                        "parent": "aspace_957186f42abd4ab81098cfc17118f5b4",
-                                        "type": "folder",
-                                        "value": "12"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14933"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Reports and Minutes"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref24",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_776006d44649d85f10ee4074b91386dc",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_0e3731f0dabade458545efc469a5ac8e",
-                                        "parent": "aspace_776006d44649d85f10ee4074b91386dc",
-                                        "type": "folder",
-                                        "value": "13"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14934"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Speakers Committee"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref32",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_5bd76b7625853f3903792d6954d343a8",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_0063856927b223809225e8b468f96b6c",
-                                        "parent": "aspace_5bd76b7625853f3903792d6954d343a8",
-                                        "type": "folder",
-                                        "value": "14"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "Mar 1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14935"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Testimonial Luncheon in Honor of Mayor William O'Dwyer"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref25",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_a622c1ed2ac64be9c64ddf7f3dd006ac",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_80edacd21bf4db5f91c127ff2c28d8cf",
-                                        "parent": "aspace_a622c1ed2ac64be9c64ddf7f3dd006ac",
-                                        "type": "folder",
-                                        "value": "15"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14936"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "\u003cspan class=\"ead-emph ead-emph-italic\"\u003eThis is O'Dwyer\u003c/span\u003e pamphlet"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref26",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142054615128",
-                                        "label": "Mixed Materials",
-                                        "id": "aspace_33af6725d919200e3e45aaa99a58fdbd",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "id": "aspace_963470e479233c77777d6c21d99dd3e4",
-                                        "parent": "aspace_33af6725d919200e3e45aaa99a58fdbd",
-                                        "type": "folder",
-                                        "value": "16"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1949/1949",
-                                        "type": "inclusive",
-                                        "value": "1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14937"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Volunteers (names on cards)"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref28",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062759801",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Flat OS Box 17",
-                                        "id": "aspace_453acfb8a725e092942e2b257e5e30b8",
-                                        "type": "box",
-                                        "value": "AIAOS001"
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "Oct 6, 1945-Nov 5, 1949"
-                                    }
-                                ],
-                                "unitid": [
-                                    {
-                                        "value": "cuid14938"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Newspaper Advertisements: \"American Irish Brooklyn Committee for the Election of William O'Dwyer,\" \u003cspan class=\"ead-emph ead-emph-italic\"\u003eThe Irish Echo\u003c/span\u003e, \u003cspan class=\"ead-emph ead-emph-italic\"\u003eThe Irish World and American Industrial Liberator\u003c/span\u003e"
-                                    }
-                                ]
-                            }
-                        ]
+                        ],
+                        "unitid": "cuid14930",
+                        "unittitle": {
+                            "value": "Press Releases"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref21",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_d8793dc7a3b0b3d67d4dc805e5b96bb6",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_a88c002ea4d40860e827c0af0d15db50",
+                                "parent": "aspace_d8793dc7a3b0b3d67d4dc805e5b96bb6",
+                                "type": "folder",
+                                "value": "10"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "1949"
+                            }
+                        ],
+                        "unitid": "cuid14931",
+                        "unittitle": {
+                            "value": "Printed material"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref22",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_d9d8ad25575270ab498c66f310220bcc",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_80bedf5dbc593494d86b57fce86cdd62",
+                                "parent": "aspace_d9d8ad25575270ab498c66f310220bcc",
+                                "type": "folder",
+                                "value": "11"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "1949"
+                            }
+                        ],
+                        "unitid": "cuid14932",
+                        "unittitle": {
+                            "value": "Radio Publicity"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref23",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_957186f42abd4ab81098cfc17118f5b4",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_1960befd09a93ccfedf190be5c98d09f",
+                                "parent": "aspace_957186f42abd4ab81098cfc17118f5b4",
+                                "type": "folder",
+                                "value": "12"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "1949"
+                            }
+                        ],
+                        "unitid": "cuid14933",
+                        "unittitle": {
+                            "value": "Reports and Minutes"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref24",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_776006d44649d85f10ee4074b91386dc",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_0e3731f0dabade458545efc469a5ac8e",
+                                "parent": "aspace_776006d44649d85f10ee4074b91386dc",
+                                "type": "folder",
+                                "value": "13"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "1949"
+                            }
+                        ],
+                        "unitid": "cuid14934",
+                        "unittitle": {
+                            "value": "Speakers Committee"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref32",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_5bd76b7625853f3903792d6954d343a8",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_0063856927b223809225e8b468f96b6c",
+                                "parent": "aspace_5bd76b7625853f3903792d6954d343a8",
+                                "type": "folder",
+                                "value": "14"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "Mar 1949"
+                            }
+                        ],
+                        "unitid": "cuid14935",
+                        "unittitle": {
+                            "value": "Testimonial Luncheon in Honor of Mayor William O'Dwyer"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref25",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_a622c1ed2ac64be9c64ddf7f3dd006ac",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_80edacd21bf4db5f91c127ff2c28d8cf",
+                                "parent": "aspace_a622c1ed2ac64be9c64ddf7f3dd006ac",
+                                "type": "folder",
+                                "value": "15"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "1949"
+                            }
+                        ],
+                        "unitid": "cuid14936",
+                        "unittitle": {
+                            "value": "\u003cspan class=\"ead-emph ead-emph-italic\"\u003eThis is O'Dwyer\u003c/span\u003e pamphlet"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref26",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142054615128",
+                                "label": "Mixed Materials",
+                                "id": "aspace_33af6725d919200e3e45aaa99a58fdbd",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "id": "aspace_963470e479233c77777d6c21d99dd3e4",
+                                "parent": "aspace_33af6725d919200e3e45aaa99a58fdbd",
+                                "type": "folder",
+                                "value": "16"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1949/1949",
+                                "type": "inclusive",
+                                "value": "1949"
+                            }
+                        ],
+                        "unitid": "cuid14937",
+                        "unittitle": {
+                            "value": "Volunteers (names on cards)"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref28",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142062759801",
+                                "label": "Mixed Materials",
+                                "altrender": "Flat OS Box 17",
+                                "id": "aspace_453acfb8a725e092942e2b257e5e30b8",
+                                "type": "box",
+                                "value": "AIAOS001"
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "Oct 6, 1945-Nov 5, 1949"
+                            }
+                        ],
+                        "unitid": "cuid14938",
+                        "unittitle": {
+                            "value": "Newspaper Advertisements: \"American Irish Brooklyn Committee for the Election of William O'Dwyer,\" \u003cspan class=\"ead-emph ead-emph-italic\"\u003eThe Irish Echo\u003c/span\u003e, \u003cspan class=\"ead-emph ead-emph-italic\"\u003eThe Irish World and American Industrial Liberator\u003c/span\u003e"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_4490f28eff0977595acb166d5640515a",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eArchives of Irish America, Tamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -946,11 +818,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_9663da2a30b9d166b918083cb39a11ed",
-                "head": [
-                    {
-                        "value": "Related Archival Materials"
-                    }
-                ],
+                "head": {
+                    "value": "Related Archival Materials"
+                },
                 "p": [
                     {
                         "value": "Mayor William O'Dwyer's papers are at the New York City Department of Records and Information Services, Municipal Archives."
@@ -961,11 +831,9 @@
         "scopecontent": [
             {
                 "id": "aspace_c05ebfd27043aa79430928bf906d9ecc",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The collection consists of reports and minutes, correspondence, financial records, press releases, newspaper ads, radio scripts and printed material generated by the committee from registration week to Election Day, 1949. Of particular interest is the pamphlet \u003cspan class=\"ead-emph ead-emph-italic\"\u003eThis Is O'Dwyer\u003c/span\u003e, produced by the committee. Also included in this collection is a newspaper advertisement for the election of William O'Dwyer from his first mayoral campaign in 1945."
@@ -976,11 +844,9 @@
         "userestrict": [
             {
                 "id": "aspace_dc01feebe3c8e550ce09fcf45659cc90",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Copyright held by Dorothy Hayden Cuhady, the creator of this collection, was transferred to New York University in 1996. Permission to publish or reproduce materials must be secured from the Tamiment Library."
@@ -989,97 +855,91 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/aia_002",
-                    "value": "aia_002"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/aia_002",
+            "value": "aia_002"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from American Irish Citizens Committee (final).doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from American Irish Citizens Committee (final).doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e09/23/2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Marion R. Casey, Rebecca Altermatt"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the American Irish Citizens Committee for the Re-Election of Mayor William O'Dwyer Records \u003cspan class=\"ead-num\"\u003eAIA.002\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e09/23/2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "09/23/2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Marion R. Casey, Rebecca Altermatt",
+                "titleproper": [
+                    {
+                        "value": "Guide to the American Irish Citizens Committee for the Re-Election of Mayor William O'Dwyer Records \u003cspan class=\"ead-num\"\u003eAIA.002\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "AIA.002"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:32:27 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:32:27 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

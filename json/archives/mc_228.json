@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_96e9dae9a95713c5e8ff6b249b54f8e5",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions, but special care must be given to fragile original documents."
@@ -19,9 +17,27 @@
         "arrangement": [
             {
                 "id": "aspace_880ec009e9393a13695fbe578e8c0607",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "numeration": "upperroman",
+                        "type": "ordered",
+                        "item": [
+                            {
+                                "value": "Documents Related to Founding"
+                            },
+                            {
+                                "value": "Early Documents"
+                            },
+                            {
+                                "value": "Published Articles"
+                            },
+                            {
+                                "value": "Clippings and Publications"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -34,11 +50,9 @@
         "bioghist": [
             {
                 "id": "aspace_783aed662f77b725d2c7fa10509fbbcc",
-                "head": [
-                    {
-                        "value": "Historical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical Note"
+                },
                 "p": [
                     {
                         "value": "New York University was founded as the University of the City of New-York in 1831. It retained this name until 1896. The University's founders envisioned the school as a departure from other American institutions of higher learning. It would be a nonsectarian university and educate the working classes with a practical and useful curriculum in modern language, sciences and politics. In 1830 a group of men, comprised of local merchants and businessmen, issued \"Considerations upon the Expediency and the Means of Establishing a University in the City of New-York,\" addressed to the citizens of the city. They desired to expand educational opportunities beyond the \"privileged class\" by establishing a university to prepare young men for a variety of occupations, from merchant to physician."
@@ -61,66 +75,82 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "role": "Former owner",
-                        "value": "Council of the University of the City of New York"
-                    },
-                    {
-                        "value": "New York University -- Administration"
-                    }
-                ],
-                "persname": [
-                    {
-                        "role": "Former owner",
-                        "value": "Wainwright, Jonathan Mayhew, 1792-1854"
-                    },
-                    {
-                        "role": "Former owner",
-                        "value": "Anthon, George, George C. (George Christian), 1820-1877"
-                    },
-                    {
-                        "value": "Mason, Cyrus, 1798-1865"
-                    },
-                    {
-                        "value": "Gallatin, Albert, 1761-1849"
-                    },
-                    {
-                        "value": "Mathews, J. M. (James McFarlane), 1785-1870"
-                    },
-                    {
-                        "role": "Former owner",
-                        "value": "Mott, Valentine, 1785-1865"
-                    },
-                    {
-                        "role": "Former owner",
-                        "value": "Lewis, Morgan, 1754-1844"
-                    },
-                    {
-                        "value": "Loomis, Elias, 1811-1889"
-                    },
-                    {
-                        "value": "Frelinghuysen, Theodore, 1787-1862"
-                    },
-                    {
-                        "value": "Henry, C. S. (Caleb Sprague), 1804-1884"
-                    },
-                    {
-                        "value": "Draper, John William, 1811-1882"
-                    }
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "role": "Former owner",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Council of the University of the City of New York"
+                },
+                {
+                    "source": "naf",
+                    "value": "New York University -- Administration"
+                }
+            ],
+            "persname": [
+                {
+                    "role": "Former owner",
+                    "source": "naf",
+                    "value": "Wainwright, Jonathan Mayhew, 1792-1854"
+                },
+                {
+                    "role": "Former owner",
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "Anthon, George, George C. (George Christian), 1820-1877"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "Mason, Cyrus, 1798-1865"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "Gallatin, Albert, 1761-1849"
+                },
+                {
+                    "source": "naf",
+                    "value": "Mathews, J. M. (James McFarlane), 1785-1870"
+                },
+                {
+                    "role": "Former owner",
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "Mott, Valentine, 1785-1865"
+                },
+                {
+                    "role": "Former owner",
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "Lewis, Morgan, 1754-1844"
+                },
+                {
+                    "source": "naf",
+                    "value": "Loomis, Elias, 1811-1889"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "Frelinghuysen, Theodore, 1787-1862"
+                },
+                {
+                    "source": "naf",
+                    "value": "Henry, C. S. (Caleb Sprague), 1804-1884"
+                },
+                {
+                    "source": "naf",
+                    "value": "Draper, John William, 1811-1882"
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_bb0dc0e398f9ec366ca366b1e6d3fcae",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "The collection was compiled from various sources and donors within the University."
@@ -128,1575 +158,1365 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "4 Linear Feet"
-                            },
-                            {
-                                "value": "in 7 manuscript boxes and 2 half manuscript boxes"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "4 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 7 manuscript boxes and 2 half manuscript boxes",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "New York University (NYU) was founded in 1831. This collection contains documentation surrounding that event, as well as material from subsequent decades pertaining to NYU's early history.",
+                    "id": "aspace_7d3c7ad3f4c79f57305ce1b632b1847b"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English.",
+                    "id": "aspace_2d9b894428d95c6e2db28bf3a4f57caf"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "source",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Wainwright, Jonathan Mayhew, 1792-1854"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "New York University (NYU) was founded in 1831. This collection contains documentation surrounding that event, as well as material from subsequent decades pertaining to NYU's early history.",
-                        "id": "aspace_7d3c7ad3f4c79f57305ce1b632b1847b"
+                },
+                {
+                    "label": "source",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "naf",
+                        "value": "Anthon, George, George C. (George Christian), 1820-1877"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_2d9b894428d95c6e2db28bf3a4f57caf",
-                        "value": "Materials are in English."
+                },
+                {
+                    "label": "source",
+                    "corpname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Council of the University of the City of New York"
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "value": "Wainwright, Jonathan Mayhew, 1792-1854"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "value": "Anthon, George, George C. (George Christian), 1820-1877"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "corpname": [
-                            {
-                                "value": "Council of the University of the City of New York"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "value": "Mott, Valentine, 1785-1865"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "value": "Lewis, Morgan, 1754-1844"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Creator",
-                        "corpname": [
-                            {
-                                "value": "New York University"
-                            }
-                        ]
+                },
+                {
+                    "label": "source",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "naf",
+                        "value": "Mott, Valentine, 1785-1865"
                     }
-                ],
-                "physloc": [
-                    {
-                        "id": "aspace_d2863d13b25e11a65255aa4ea7156094",
-                        "value": "Materials are stored offsite and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
+                },
+                {
+                    "label": "source",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "naf",
+                        "value": "Lewis, Morgan, 1754-1844"
                     }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "New York University Archives"
-                            }
-                        ]
+                },
+                {
+                    "label": "Creator",
+                    "corpname": {
+                        "source": "naf",
+                        "value": "New York University"
                     }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1830/1982",
-                        "type": "inclusive",
-                        "value": "1830-1982"
-                    },
-                    {
-                        "normal": "1830/1860",
-                        "type": "bulk",
-                        "value": "1830-1860"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "MC.228"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "New York University Collection of Printed Materials on the Founding of the University"
-                    }
-                ]
+                }
+            ],
+            "physloc": [
+                {
+                    "id": "aspace_d2863d13b25e11a65255aa4ea7156094",
+                    "value": "Materials are stored offsite and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "New York University Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1830/1982",
+                    "type": "inclusive",
+                    "value": "1830-1982"
+                },
+                {
+                    "normal": "1830/1860",
+                    "type": "bulk",
+                    "value": "1830-1860"
+                }
+            ],
+            "unitid": "MC.228",
+            "unittitle": {
+                "value": "New York University Collection of Printed Materials on the Founding of the University"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref1",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref2",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref1",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref2",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004181",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_91fa5a7124f100f08aca7b4518abb9fb",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "barcode": "31142063004256",
-                                                "label": "Books",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_e0cafe7e07d56317a9e67c7c740879ed",
-                                                "type": "box",
-                                                "value": "8"
-                                            },
-                                            {
-                                                "id": "aspace_57f3279be44f2dcb342eccaba5652c7f",
-                                                "parent": "aspace_e0cafe7e07d56317a9e67c7c740879ed",
-                                                "type": "folder",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "barcode": "31142063004264",
-                                                "label": "Books",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_23a28af56ed50a7cd497a292a680fe09",
-                                                "type": "box",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1830 October, 1933 March"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Journal of the Proceedings of a Convention of Literary and Scientific Gentlemen (multiple copies)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref5",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142063004181",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_91fa5a7124f100f08aca7b4518abb9fb",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004199",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_690dcfbfb9650d358ea748d7a0f187d6",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_c90fe1c3b111ce9dfeb480a510e7f492",
-                                                "parent": "aspace_690dcfbfb9650d358ea748d7a0f187d6",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1830"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\"Considerations Upon the Expediency and the Means of Establishing a University in the City of New York\" by Jonathan Mayhew Wainwright"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref6",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142063004256",
+                                        "label": "Books",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_e0cafe7e07d56317a9e67c7c740879ed",
+                                        "type": "box",
+                                        "value": "8"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004199",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_c0fb0d971725703f965ca105e3c3153a",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_ee2f75dee9e166b903b37fb874bcc2d6",
-                                                "parent": "aspace_c0fb0d971725703f965ca105e3c3153a",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1830 December"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Memorial to the New York State Legislature from the Council of the University of the CIty of New York (typewritten copy)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref7",
-                                "level": "file",
-                                "did": [
+                                        "id": "aspace_57f3279be44f2dcb342eccaba5652c7f",
+                                        "parent": "aspace_e0cafe7e07d56317a9e67c7c740879ed",
+                                        "type": "folder",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004199",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_e9b0cc342e4e42f8b0832260db7ca782",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_f86e6fcbea5a19f6cea3832fa47a13a0",
-                                                "parent": "aspace_e9b0cc342e4e42f8b0832260db7ca782",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1830"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "An Address to the Citizens of New York on the Claim of Columbia College and the New University to Their Patronage"
-                                            }
-                                        ]
+                                        "barcode": "31142063004264",
+                                        "label": "Books",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_23a28af56ed50a7cd497a292a680fe09",
+                                        "type": "box",
+                                        "value": "9"
                                     }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
+                                ],
                                 "langmaterial": [
                                     {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
                                     }
                                 ],
                                 "unitdate": [
                                     {
-                                        "value": "1830-1956"
+                                        "value": "1830 October, 1933 March"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series I: Documents Related to Founding"
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "Journal of the Proceedings of a Convention of Literary and Scientific Gentlemen (multiple copies)"
+                                }
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref21",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
+                        },
+                        {
+                            "id": "aspace_ref5",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004231",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_dfcb078291b4b4d0b5571e3ae5c54f0a",
-                                                "type": "box",
-                                                "value": "6"
-                                            },
-                                            {
-                                                "id": "aspace_611b9db8935880f9a2cd69879718d7ce",
-                                                "parent": "aspace_dfcb078291b4b4d0b5571e3ae5c54f0a",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1833 November"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\u003cspan class=\"ead-emph ead-emph-italic\"\u003eAn Exposition of the Reasons for the Resignation of Some of the Professors in the University of the City of New York\u003c/span\u003e by Henry Vethake, John Mulligan and John Torrey (4 copies)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142063004199",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_690dcfbfb9650d358ea748d7a0f187d6",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004231",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_9149a11f2855205f82e46df9dfaf4bce",
-                                                "type": "box",
-                                                "value": "6"
-                                            },
-                                            {
-                                                "id": "aspace_52dca3ac4002f7adeeafd5c62f372b29",
-                                                "parent": "aspace_9149a11f2855205f82e46df9dfaf4bce",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1838"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "A Letter to the Councillors of the University of the City of New York: From the Professors of the Faculty of Science and Letters"
-                                            }
-                                        ]
+                                        "id": "aspace_c90fe1c3b111ce9dfeb480a510e7f492",
+                                        "parent": "aspace_690dcfbfb9650d358ea748d7a0f187d6",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004231",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_149507c3877f5785340781410b69617a",
-                                                "type": "box",
-                                                "value": "6"
-                                            },
-                                            {
-                                                "id": "aspace_141c66f438e14bc51dfed4fa448918b0",
-                                                "parent": "aspace_149507c3877f5785340781410b69617a",
-                                                "type": "folder",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "barcode": "31142063004256",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_4f2df1afbc15d79bd6efae5f089a0817",
-                                                "type": "box",
-                                                "value": "8"
-                                            },
-                                            {
-                                                "id": "aspace_5bc7e1dcd3b4a64e692ff70ec44c8d74",
-                                                "parent": "aspace_4f2df1afbc15d79bd6efae5f089a0817",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1838"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "An Exposition by the Council of the University of the City of New York, Respecting the Late Measures of Retrenchment Adopted in That Institution, and Which Led to the Dismissal of Some of the Professors in the Faculty of Science and Letters (3 copies)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004231",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e5f043069486dc307565ca32dc491f65",
-                                                "type": "box",
-                                                "value": "6"
-                                            },
-                                            {
-                                                "id": "aspace_a9f9cf22ac57703479222c8d66eb55b3",
-                                                "parent": "aspace_e5f043069486dc307565ca32dc491f65",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1838"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "History of the Controversy in the University of the City of New York; With Original Documents and an Appendix (2 copies)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004231",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_f63ee8ae20df2d54e7ca8920d8271071",
-                                                "type": "box",
-                                                "value": "6"
-                                            },
-                                            {
-                                                "id": "aspace_30d7e2044bbeea02888d2e0005bea774",
-                                                "parent": "aspace_f63ee8ae20df2d54e7ca8920d8271071",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1839 April-May"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "The University of New York and the Professors Notes of Investigation by William C. Noyes"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004231",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e65dc4452c172deed6fe35d4e1e0a50b",
-                                                "type": "box",
-                                                "value": "6"
-                                            },
-                                            {
-                                                "id": "aspace_ee6792331c8b17020081b437e4326c06",
-                                                "parent": "aspace_e65dc4452c172deed6fe35d4e1e0a50b",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1840 January"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Report of the Regents of the University in Relation to the University of the City of New York (2 copies)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004231",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_6f8d5a8be5e39ba35edbe46973ef2835",
-                                                "type": "box",
-                                                "value": "6"
-                                            },
-                                            {
-                                                "id": "aspace_240ab618e4c4d105d25b12d47b0c88ec",
-                                                "parent": "aspace_6f8d5a8be5e39ba35edbe46973ef2835",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1847"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Circular of a Committee of the Council of the University of the City of New York"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004231",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_3890d5c42a0b12a0b0e28915faf1f7c2",
-                                                "type": "box",
-                                                "value": "6"
-                                            },
-                                            {
-                                                "id": "aspace_b6582d5ca0f3aff3fdb4efb46672eb90",
-                                                "parent": "aspace_3890d5c42a0b12a0b0e28915faf1f7c2",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1848"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Circular of a Committee of the Council of the University of the City of New York (2 copies)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004249",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_f2734ddfd5404e23fbf83ad15a91a3a0",
-                                                "type": "box",
-                                                "value": "7"
-                                            },
-                                            {
-                                                "id": "aspace_cb6b545ad8301b38a5fa8c11a074d116",
-                                                "parent": "aspace_f2734ddfd5404e23fbf83ad15a91a3a0",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1859 February"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Report of the Committee on Literature on the Petition of Hamilton and Geneva Colleges, and New York University"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004249",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_31f1750c42cf1ac4ca50992701a93e2f",
-                                                "type": "box",
-                                                "value": "7"
-                                            },
-                                            {
-                                                "id": "aspace_5526f89acdd394bc3c71b324c98c64ec",
-                                                "parent": "aspace_31f1750c42cf1ac4ca50992701a93e2f",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1851 April 2"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\"Narrative and Documents Connected with the Displacement of the Professor of the Greek Language and Literature in the University of the City of New York,\" by George C. Anthon, A.M. (4 copies)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004249",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_6d22a4c9124b33ecb711625c0730bed9",
-                                                "type": "box",
-                                                "value": "7"
-                                            },
-                                            {
-                                                "id": "aspace_b339c5f95cd3ebd77002b9ca9fac57b4",
-                                                "parent": "aspace_6d22a4c9124b33ecb711625c0730bed9",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1850 September"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Circular of the Faculty"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004249",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_75acacb59a7618bedc99bb4170676e82",
-                                                "type": "box",
-                                                "value": "7"
-                                            },
-                                            {
-                                                "id": "aspace_e37433b4530af4d32002888ca05feb14",
-                                                "parent": "aspace_75acacb59a7618bedc99bb4170676e82",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1881"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Events of 1881"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004249",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_7cdb25b402a63f2d23a936c2a67f44e4",
-                                                "type": "box",
-                                                "value": "7"
-                                            },
-                                            {
-                                                "id": "aspace_9bdb4517fada575305f527edbb33837a",
-                                                "parent": "aspace_7cdb25b402a63f2d23a936c2a67f44e4",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1881"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Faculty Circular and Newspaper Clippings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref35",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004249",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_d2927b9ef02dbd860788ffbcf0986f7f",
-                                                "type": "box",
-                                                "value": "7"
-                                            },
-                                            {
-                                                "id": "aspace_0c04f11d7e40833be85070b0c76bd1e3",
-                                                "parent": "aspace_d2927b9ef02dbd860788ffbcf0986f7f",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1929 November 15"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Literary Digest Controversy Adjusted"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_2f9c65ece64a7ad0166458d92b46e48c",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004256",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter",
-                                                "id": "aspace_46896d3629f3427bd0cb1336b66c7001",
-                                                "type": "box",
-                                                "value": "8"
-                                            },
-                                            {
-                                                "id": "aspace_61ba6fb6ac8012468f37e7e76639e455",
-                                                "parent": "aspace_46896d3629f3427bd0cb1336b66c7001",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1831/1831",
-                                                "value": "1831"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "An Act Incorporating the University of the City of New York, passed April, 18, 1831"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
+                                ],
                                 "langmaterial": [
                                     {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
                                     }
                                 ],
                                 "unitdate": [
                                     {
-                                        "value": "1833-1929"
+                                        "value": "1830"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series II: Early Documents"
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "\"Considerations Upon the Expediency and the Means of Establishing a University in the City of New York\" by Jonathan Mayhew Wainwright"
+                                }
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref11",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref8",
-                                "level": "file",
-                                "did": [
+                        },
+                        {
+                            "id": "aspace_ref6",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004207",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_537b95e3e5dd6c9280d3dd78b0d9de2b",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_f9beebf0771e7157ccc3dea9a9c5c21a",
-                                                "parent": "aspace_537b95e3e5dd6c9280d3dd78b0d9de2b",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1883 July"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\"Temple Court\" by Cornelius Mathews [an article descriptive of New York University While Located at Clinton Hall, 1832-1835]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref9",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142063004199",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_c0fb0d971725703f965ca105e3c3153a",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004207",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_bdb55e7558500ac5b62d0fa5b6700192",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_f1b4411290a07450930a38d70ce76e9d",
-                                                "parent": "aspace_bdb55e7558500ac5b62d0fa5b6700192",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Description of the University Building from \u003cspan class=\"ead-emph ead-emph-italic\"\u003eThe Family Magazine\u003c/span\u003e"
-                                            }
-                                        ]
+                                        "id": "aspace_ee2f75dee9e166b903b37fb874bcc2d6",
+                                        "parent": "aspace_c0fb0d971725703f965ca105e3c3153a",
+                                        "type": "folder",
+                                        "value": "2"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref10",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004207",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_c5deefb991c55dd28518713b57581fd7",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_88863275da745aff8057046219e60a68",
-                                                "parent": "aspace_c5deefb991c55dd28518713b57581fd7",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1853"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Putnam's Monthly: Educational Institutions of New York"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
+                                ],
                                 "langmaterial": [
                                     {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
                                     }
                                 ],
                                 "unitdate": [
                                     {
-                                        "value": "1853-1883"
+                                        "value": "1830 December"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series III: Published Articles about NYU"
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "Memorial to the New York State Legislature from the Council of the University of the CIty of New York (typewritten copy)"
+                                }
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref12",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref13",
-                                "level": "file",
-                                "did": [
+                        },
+                        {
+                            "id": "aspace_ref7",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004215",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_ec51cb892f94db065ece941c1b79c4cf",
-                                                "type": "box",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1829/1830",
-                                                "type": "inclusive",
-                                                "value": "1829-1830"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "New York University: W.R. Martin's Historical Collections"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref14",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142063004199",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_e9b0cc342e4e42f8b0832260db7ca782",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004215",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_636fbea7d3d24e4b76df4076a797a601",
-                                                "type": "box",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1836/1836",
-                                                "value": "1836"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "University of the City of New York"
-                                            }
-                                        ]
+                                        "id": "aspace_f86e6fcbea5a19f6cea3832fa47a13a0",
+                                        "parent": "aspace_e9b0cc342e4e42f8b0832260db7ca782",
+                                        "type": "folder",
+                                        "value": "3"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref15",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004223",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_f6bc3acff0fca73177a1f8346bb4c334",
-                                                "type": "box",
-                                                "value": "5"
-                                            },
-                                            {
-                                                "id": "aspace_8d26a368ef6381f10b5c0955c9437abc",
-                                                "parent": "aspace_f6bc3acff0fca73177a1f8346bb4c334",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1902"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\u003cspan class=\"ead-emph ead-emph-underline\"\u003eFort Washington\u003c/span\u003e by Reginold Pelham Bolton"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004223",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_23812451248c01384dd6735346e2accd",
-                                                "type": "box",
-                                                "value": "5"
-                                            },
-                                            {
-                                                "id": "aspace_b8d3b9623653f952b5df961daefcea87",
-                                                "parent": "aspace_23812451248c01384dd6735346e2accd",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1957"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\u003cspan class=\"ead-emph ead-emph-italic\"\u003eWashington and His Army in Bergen County\u003c/span\u003e by Arthur J. O'Dea, correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004223",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e7ed64f035f82115682ab3d11cf6e791",
-                                                "type": "box",
-                                                "value": "5"
-                                            },
-                                            {
-                                                "id": "aspace_6fc16fa17bc700918c1a6819d0f62ada",
-                                                "parent": "aspace_e7ed64f035f82115682ab3d11cf6e791",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1982"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\u003cspan class=\"ead-emph ead-emph-underline\"\u003eAround the Square, 1830-1890\u003c/span\u003e, ed. Mindy Cantor (3 copies)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004223",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_9954900ed9093c539de91761bd223012",
-                                                "type": "box",
-                                                "value": "5"
-                                            },
-                                            {
-                                                "id": "aspace_895b6ecbccf9d949803297a8689704d4",
-                                                "parent": "aspace_9954900ed9093c539de91761bd223012",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1884"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\"My Old Professors\" by F.N. Zabriskie"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063004223",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_5185a121c6f7fdac845b71712ef3fb6a",
-                                                "type": "box",
-                                                "value": "5"
-                                            },
-                                            {
-                                                "id": "aspace_22623fff9206d399085dd8ba78ccb278",
-                                                "parent": "aspace_5185a121c6f7fdac845b71712ef3fb6a",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1839"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clippings of the Inauguration of Chancellor Frelinghuysen"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
+                                ],
                                 "langmaterial": [
                                     {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
                                     }
                                 ],
                                 "unitdate": [
                                     {
-                                        "value": "1829-1982"
+                                        "value": "1830"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series IV: Clippings and Publications"
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "An Address to the Citizens of New York on the Claim of Columbia College and the New University to Their Patronage"
+                                }
                             }
-                        ]
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1830-1956"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Documents Related to Founding"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref21",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004231",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_dfcb078291b4b4d0b5571e3ae5c54f0a",
+                                        "type": "box",
+                                        "value": "6"
+                                    },
+                                    {
+                                        "id": "aspace_611b9db8935880f9a2cd69879718d7ce",
+                                        "parent": "aspace_dfcb078291b4b4d0b5571e3ae5c54f0a",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1833 November"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\u003cspan class=\"ead-emph ead-emph-italic\"\u003eAn Exposition of the Reasons for the Resignation of Some of the Professors in the University of the City of New York\u003c/span\u003e by Henry Vethake, John Mulligan and John Torrey (4 copies)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004231",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_9149a11f2855205f82e46df9dfaf4bce",
+                                        "type": "box",
+                                        "value": "6"
+                                    },
+                                    {
+                                        "id": "aspace_52dca3ac4002f7adeeafd5c62f372b29",
+                                        "parent": "aspace_9149a11f2855205f82e46df9dfaf4bce",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1838"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "A Letter to the Councillors of the University of the City of New York: From the Professors of the Faculty of Science and Letters"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004231",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_149507c3877f5785340781410b69617a",
+                                        "type": "box",
+                                        "value": "6"
+                                    },
+                                    {
+                                        "id": "aspace_141c66f438e14bc51dfed4fa448918b0",
+                                        "parent": "aspace_149507c3877f5785340781410b69617a",
+                                        "type": "folder",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "barcode": "31142063004256",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_4f2df1afbc15d79bd6efae5f089a0817",
+                                        "type": "box",
+                                        "value": "8"
+                                    },
+                                    {
+                                        "id": "aspace_5bc7e1dcd3b4a64e692ff70ec44c8d74",
+                                        "parent": "aspace_4f2df1afbc15d79bd6efae5f089a0817",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1838"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "An Exposition by the Council of the University of the City of New York, Respecting the Late Measures of Retrenchment Adopted in That Institution, and Which Led to the Dismissal of Some of the Professors in the Faculty of Science and Letters (3 copies)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004231",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e5f043069486dc307565ca32dc491f65",
+                                        "type": "box",
+                                        "value": "6"
+                                    },
+                                    {
+                                        "id": "aspace_a9f9cf22ac57703479222c8d66eb55b3",
+                                        "parent": "aspace_e5f043069486dc307565ca32dc491f65",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1838"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "History of the Controversy in the University of the City of New York; With Original Documents and an Appendix (2 copies)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004231",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_f63ee8ae20df2d54e7ca8920d8271071",
+                                        "type": "box",
+                                        "value": "6"
+                                    },
+                                    {
+                                        "id": "aspace_30d7e2044bbeea02888d2e0005bea774",
+                                        "parent": "aspace_f63ee8ae20df2d54e7ca8920d8271071",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1839 April-May"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "The University of New York and the Professors Notes of Investigation by William C. Noyes"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004231",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e65dc4452c172deed6fe35d4e1e0a50b",
+                                        "type": "box",
+                                        "value": "6"
+                                    },
+                                    {
+                                        "id": "aspace_ee6792331c8b17020081b437e4326c06",
+                                        "parent": "aspace_e65dc4452c172deed6fe35d4e1e0a50b",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1840 January"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Report of the Regents of the University in Relation to the University of the City of New York (2 copies)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004231",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_6f8d5a8be5e39ba35edbe46973ef2835",
+                                        "type": "box",
+                                        "value": "6"
+                                    },
+                                    {
+                                        "id": "aspace_240ab618e4c4d105d25b12d47b0c88ec",
+                                        "parent": "aspace_6f8d5a8be5e39ba35edbe46973ef2835",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1847"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Circular of a Committee of the Council of the University of the City of New York"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004231",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_3890d5c42a0b12a0b0e28915faf1f7c2",
+                                        "type": "box",
+                                        "value": "6"
+                                    },
+                                    {
+                                        "id": "aspace_b6582d5ca0f3aff3fdb4efb46672eb90",
+                                        "parent": "aspace_3890d5c42a0b12a0b0e28915faf1f7c2",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1848"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Circular of a Committee of the Council of the University of the City of New York (2 copies)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004249",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_f2734ddfd5404e23fbf83ad15a91a3a0",
+                                        "type": "box",
+                                        "value": "7"
+                                    },
+                                    {
+                                        "id": "aspace_cb6b545ad8301b38a5fa8c11a074d116",
+                                        "parent": "aspace_f2734ddfd5404e23fbf83ad15a91a3a0",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1859 February"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Report of the Committee on Literature on the Petition of Hamilton and Geneva Colleges, and New York University"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004249",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_31f1750c42cf1ac4ca50992701a93e2f",
+                                        "type": "box",
+                                        "value": "7"
+                                    },
+                                    {
+                                        "id": "aspace_5526f89acdd394bc3c71b324c98c64ec",
+                                        "parent": "aspace_31f1750c42cf1ac4ca50992701a93e2f",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1851 April 2"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\"Narrative and Documents Connected with the Displacement of the Professor of the Greek Language and Literature in the University of the City of New York,\" by George C. Anthon, A.M. (4 copies)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004249",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_6d22a4c9124b33ecb711625c0730bed9",
+                                        "type": "box",
+                                        "value": "7"
+                                    },
+                                    {
+                                        "id": "aspace_b339c5f95cd3ebd77002b9ca9fac57b4",
+                                        "parent": "aspace_6d22a4c9124b33ecb711625c0730bed9",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1850 September"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Circular of the Faculty"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004249",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_75acacb59a7618bedc99bb4170676e82",
+                                        "type": "box",
+                                        "value": "7"
+                                    },
+                                    {
+                                        "id": "aspace_e37433b4530af4d32002888ca05feb14",
+                                        "parent": "aspace_75acacb59a7618bedc99bb4170676e82",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1881"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Events of 1881"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004249",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_7cdb25b402a63f2d23a936c2a67f44e4",
+                                        "type": "box",
+                                        "value": "7"
+                                    },
+                                    {
+                                        "id": "aspace_9bdb4517fada575305f527edbb33837a",
+                                        "parent": "aspace_7cdb25b402a63f2d23a936c2a67f44e4",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1881"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Faculty Circular and Newspaper Clippings"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref35",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004249",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_d2927b9ef02dbd860788ffbcf0986f7f",
+                                        "type": "box",
+                                        "value": "7"
+                                    },
+                                    {
+                                        "id": "aspace_0c04f11d7e40833be85070b0c76bd1e3",
+                                        "parent": "aspace_d2927b9ef02dbd860788ffbcf0986f7f",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1929 November 15"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Literary Digest Controversy Adjusted"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_2f9c65ece64a7ad0166458d92b46e48c",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004256",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter",
+                                        "id": "aspace_46896d3629f3427bd0cb1336b66c7001",
+                                        "type": "box",
+                                        "value": "8"
+                                    },
+                                    {
+                                        "id": "aspace_61ba6fb6ac8012468f37e7e76639e455",
+                                        "parent": "aspace_46896d3629f3427bd0cb1336b66c7001",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1831/1831",
+                                        "value": "1831"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "An Act Incorporating the University of the City of New York, passed April, 18, 1831"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1833-1929"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series II: Early Documents"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref11",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref8",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004207",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_537b95e3e5dd6c9280d3dd78b0d9de2b",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_f9beebf0771e7157ccc3dea9a9c5c21a",
+                                        "parent": "aspace_537b95e3e5dd6c9280d3dd78b0d9de2b",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1883 July"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\"Temple Court\" by Cornelius Mathews [an article descriptive of New York University While Located at Clinton Hall, 1832-1835]"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref9",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004207",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_bdb55e7558500ac5b62d0fa5b6700192",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_f1b4411290a07450930a38d70ce76e9d",
+                                        "parent": "aspace_bdb55e7558500ac5b62d0fa5b6700192",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Description of the University Building from \u003cspan class=\"ead-emph ead-emph-italic\"\u003eThe Family Magazine\u003c/span\u003e"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref10",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004207",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_c5deefb991c55dd28518713b57581fd7",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_88863275da745aff8057046219e60a68",
+                                        "parent": "aspace_c5deefb991c55dd28518713b57581fd7",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1853"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Putnam's Monthly: Educational Institutions of New York"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1853-1883"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series III: Published Articles about NYU"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref12",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref13",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004215",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_ec51cb892f94db065ece941c1b79c4cf",
+                                        "type": "box",
+                                        "value": "4"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1829/1830",
+                                        "type": "inclusive",
+                                        "value": "1829-1830"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "New York University: W.R. Martin's Historical Collections"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref14",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004215",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_636fbea7d3d24e4b76df4076a797a601",
+                                        "type": "box",
+                                        "value": "4"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1836/1836",
+                                        "value": "1836"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "University of the City of New York"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref15",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004223",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_f6bc3acff0fca73177a1f8346bb4c334",
+                                        "type": "box",
+                                        "value": "5"
+                                    },
+                                    {
+                                        "id": "aspace_8d26a368ef6381f10b5c0955c9437abc",
+                                        "parent": "aspace_f6bc3acff0fca73177a1f8346bb4c334",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1902"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\u003cspan class=\"ead-emph ead-emph-underline\"\u003eFort Washington\u003c/span\u003e by Reginold Pelham Bolton"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004223",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_23812451248c01384dd6735346e2accd",
+                                        "type": "box",
+                                        "value": "5"
+                                    },
+                                    {
+                                        "id": "aspace_b8d3b9623653f952b5df961daefcea87",
+                                        "parent": "aspace_23812451248c01384dd6735346e2accd",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1957"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\u003cspan class=\"ead-emph ead-emph-italic\"\u003eWashington and His Army in Bergen County\u003c/span\u003e by Arthur J. O'Dea, correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004223",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e7ed64f035f82115682ab3d11cf6e791",
+                                        "type": "box",
+                                        "value": "5"
+                                    },
+                                    {
+                                        "id": "aspace_6fc16fa17bc700918c1a6819d0f62ada",
+                                        "parent": "aspace_e7ed64f035f82115682ab3d11cf6e791",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1982"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\u003cspan class=\"ead-emph ead-emph-underline\"\u003eAround the Square, 1830-1890\u003c/span\u003e, ed. Mindy Cantor (3 copies)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004223",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_9954900ed9093c539de91761bd223012",
+                                        "type": "box",
+                                        "value": "5"
+                                    },
+                                    {
+                                        "id": "aspace_895b6ecbccf9d949803297a8689704d4",
+                                        "parent": "aspace_9954900ed9093c539de91761bd223012",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1884"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\"My Old Professors\" by F.N. Zabriskie"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063004223",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_5185a121c6f7fdac845b71712ef3fb6a",
+                                        "type": "box",
+                                        "value": "5"
+                                    },
+                                    {
+                                        "id": "aspace_22623fff9206d399085dd8ba78ccb278",
+                                        "parent": "aspace_5185a121c6f7fdac845b71712ef3fb6a",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1839"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Clippings of the Inauguration of Chancellor Frelinghuysen"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1829-1982"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series IV: Clippings and Publications"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_b6abb4ad7649d1ea44c768df2b347f12",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date (if known); New York University Collection of Printed Materials on the Founding of the University; MC 228; box number; folder number; New York University Archives, New York University Libraries."
@@ -1707,11 +1527,9 @@
         "processinfo": [
             {
                 "id": "aspace_b223749f5b9e1823e2f0f2d6b547dbab",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "Materials were placed in archival boxes and folders at the time of processing."
@@ -1728,11 +1546,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_0185500a650f283aa8aa5657a572c8ef",
-                "head": [
-                    {
-                        "value": "Related Materials"
-                    }
-                ],
+                "head": {
+                    "value": "Related Materials"
+                },
                 "p": [
                     {
                         "value": "RG 3.0.1 Records of the Office of the Chancellor"
@@ -1743,11 +1559,9 @@
         "scopecontent": [
             {
                 "id": "aspace_46fb7e363d915b6c989d3c505e6d8378",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "The bulk of the collection is comprised of primary materials related to New York University's founding. These include the documents and manifestos the founders drafted to establish the University as well as some of the earliest articles written about NYU, recollections from students and material about the University Building. Materials also highlight certain episodes in the first half-century of the University, such as the 1881 effort to abolish the undergraduate department, resignation of the University's first Chancellor, James A. Matthews, and the firing of various professors. The collection also includes 20th-century material related to the early years of the university.\n \nContained within the collection are clippings, correspondence, circulars, addresses and publications. Most of the material is either bound or has been photocopied."
@@ -1758,11 +1572,9 @@
         "userestrict": [
             {
                 "id": "aspace_7520af4ddc133fbecc70aa248b0b116f",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the creator are maintained by New York University. Permission to publish or reproduce materials in this collection must be secured from New York University Archives, (212) 998-2646, university-archives@nyu.edu."
@@ -1771,73 +1583,52 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NyNyUA",
+            "url": "http://dlib.nyu.edu/findingaids/html/archives/founding/",
+            "value": "mc_228"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "publisher": "New York University Archives"
+            },
+            "titlestmt": {
+                "author": "Steven A. Walker and Cynthia Siu, October 1987. Alison Lotto and Bernadette Siddiqi contributed to the description of the collection. Additional description and arrangement by Shannon McDonald. Additional arrangement completed by Katie Ehrlich.  Electronic version prepared by Katie Ehrlich.",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Records of the Founding of the University \u003cspan class=\"ead-num\"\u003eMC.228\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MC.228"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 14:33:33 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
+        },
+        "revisiondesc": {
+            "change": [
                 {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NyNyUA",
-                    "url": "http://dlib.nyu.edu/findingaids/html/archives/founding/",
-                    "value": "mc_228"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
-                        {
-                            "publisher": "New York University Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Steven A. Walker and Cynthia Siu, October 1987. Alison Lotto and Bernadette Siddiqi contributed to the description of the collection. Additional description and arrangement by Shannon McDonald. Additional arrangement completed by Katie Ehrlich.  Electronic version prepared by Katie Ehrlich."
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Records of the Founding of the University \u003cspan class=\"ead-num\"\u003eMC.228\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 14:33:33 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Finding aid written in English"
-                        }
-                    ]
-                }
-            ],
-            "revisiondesc": [
-                {
-                    "change": [
-                        {
-                            "date": [
-                                "July 2019"
-                            ],
-                            "item": [
-                                {
-                                    "value": "Edited by Jacqueline Rider for compliance with DACS and ACM Required Elements for Archival Description"
-                                }
-                            ]
-                        }
-                    ]
+                    "date": {
+                        "value": "July 2019"
+                    },
+                    "item": {
+                        "value": "Edited by Jacqueline Rider for compliance with DACS and ACM Required Elements for Archival Description"
+                    }
                 }
             ]
         }
-    ]
+    }
 }

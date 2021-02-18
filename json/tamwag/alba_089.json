@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_b0dfb00d8e6d71ae648b0b88b2d0b4e6",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,26 @@
         "arrangement": [
             {
                 "id": "aspace_72f3dfe2e6a0a260c2489a6d2f830864",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I, Spanish Civil War Era and World War II, 1934-1946"
+                            },
+                            {
+                                "value": "II, Journals, 1939-1988"
+                            },
+                            {
+                                "value": "III, Subject Files, 1952-1989"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,11 +52,9 @@
         "bioghist": [
             {
                 "id": "aspace_b02dae557430f4e53690bf6546446790",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Born Ladislaus Ferdinand Szeliga in 1912 in Lowell, Massachusetts, Stanley Postek adopted his cousin's name when he ran away from home as a teenager. He left school in the mid-thirties to become a sailor and union organizer for the International Seamen's Union of America, and a founding member of the breakaway National Maritime Union. In 1937 Postek became a light heavyweight boxing champion. In May 1938, he sailed to Europe to join the International Brigades in the Spanish Civil War."
@@ -58,50 +71,73 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV -- biography."
-                    },
-                    {
-                        "value": "Veterans of the Abraham Lincoln Brigade"
-                    },
-                    {
-                        "value": "Spain. Ejercito Popular de la Republica. MacKenzie-Papineau Battalion"
-                    }
-                ],
-                "genreform": [
-                    "Personal papers.",
-                    "Memorabilia.",
-                    "Diaries",
-                    "Articles."
-                ],
-                "geogname": [
-                    "Spain -- History -- Civil War, 1936-1939 -- Personal narratives.",
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
-                ],
-                "persname": [
-                    {
-                        "value": "Postek, Stanley, 1912-1991"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV -- biography."
+                },
+                {
+                    "source": "naf",
+                    "value": "Veterans of the Abraham Lincoln Brigade"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejercito Popular de la Republica. MacKenzie-Papineau Battalion"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Personal papers."
+                },
+                {
+                    "source": "aat",
+                    "value": "Memorabilia."
+                },
+                {
+                    "source": "aat",
+                    "value": "Diaries"
+                },
+                {
+                    "source": "aat",
+                    "value": "Articles."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Personal narratives."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                }
+            ],
+            "persname": [
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Postek, Stanley, 1912-1991"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_1c61dee74facd0316a0ac82a498dbcab",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Stanley Postek Collection was donated to Abraham Lincoln Brigade Archives in the early 1990s by Postek's daughter, Judi Darnell. This collection came to New York University in January 2001 as part of the original acquisition of ALBA collections, formerly housed at Brandeis University."
@@ -109,1443 +145,1269 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.5 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Stanley Postek (1912-1991) was a sailor, prizefighter and union organizer who went to Spain in 1938 to fight in the Spanish Civil War. After being seriously injured, Postek was detained in a concentration camp in France before returning to New York. Postek later served in World War II as a merchant seaman. The collection consists of materials, including personal journals, from Postek's time in Spain and afterward and from his period of service as a merchant marine in World War II. Later papers include newspaper articles and other writings about aspects of the Spanish Civil War, memorial items about veterans, and material documenting Veterans of the Abraham Lincoln Brigade (VALB) activities.",
+                    "id": "aspace_10d20bab70eb2c452bdba5e9145e2c83"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English.",
+                    "id": "aspace_79cdbd4710f54d8ca73e981cceec84b1"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Postek, Stanley, 1912-1991"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Stanley Postek (1912-1991) was a sailor, prizefighter and union organizer who went to Spain in 1938 to fight in the Spanish Civil War. After being seriously injured, Postek was detained in a concentration camp in France before returning to New York. Postek later served in World War II as a merchant seaman. The collection consists of materials, including personal journals, from Postek's time in Spain and afterward and from his period of service as a merchant marine in World War II. Later papers include newspaper articles and other writings about aspects of the Spanish Civil War, memorial items about veterans, and material documenting Veterans of the Abraham Lincoln Brigade (VALB) activities.",
-                        "id": "aspace_10d20bab70eb2c452bdba5e9145e2c83"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_79cdbd4710f54d8ca73e981cceec84b1",
-                        "value": "Materials are in English."
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Postek, Stanley, 1912-1991"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1934/1989",
-                        "type": "inclusive",
-                        "value": "1934-1989"
-                    },
-                    {
-                        "normal": "1937/1939",
-                        "type": "bulk",
-                        "value": "1937-1939"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.089"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Stanley Postek Spanish Civil War Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1934/1989",
+                    "type": "inclusive",
+                    "value": "1934-1989"
+                },
+                {
+                    "normal": "1937/1939",
+                    "type": "bulk",
+                    "value": "1937-1939"
+                }
+            ],
+            "unitid": "ALBA.089",
+            "unittitle": {
+                "value": "Stanley Postek Spanish Civil War Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref15",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref15",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_7859a51427579ecd58a06c3ac1b227ba",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d81be61c81fa93f1e7c2fc118c671ca8",
-                                                "parent": "aspace_7859a51427579ecd58a06c3ac1b227ba",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1928/1949",
-                                                "type": "inclusive",
-                                                "value": "ca.1938-1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Bailey, William: article by, letter from"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_7859a51427579ecd58a06c3ac1b227ba",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_22c41bd0fee95c9ba932e9967126a231",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a07e27c433ed59f8355a658969c45b2b",
-                                                "parent": "aspace_22c41bd0fee95c9ba932e9967126a231",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1934/1989",
-                                                "type": "inclusive",
-                                                "value": "undated , 1934-1943"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clippings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_0e30509435802241d3441f9d4ff5e921",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_cf23c80573c17aabc8fd8d6c356c18b9",
-                                                "parent": "aspace_0e30509435802241d3441f9d4ff5e921",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Letter of permission to leave concentration camp"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_11779fbc20ad8de83ea0f61fb931cb4e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b2410361b9cfdcfe2e215ceeb36eb824",
-                                                "parent": "aspace_11779fbc20ad8de83ea0f61fb931cb4e",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1989",
-                                                "type": "inclusive",
-                                                "value": "undated , 1937-1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Memorabilia: Stamps, metro tickets, boarding pass, uniform patches, flyer"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_6130d56a7e7728a5e2b87211287caaba",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_759e16180c7382262ae0139cc35a4f79",
-                                                "parent": "aspace_6130d56a7e7728a5e2b87211287caaba",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1939",
-                                                "type": "inclusive",
-                                                "value": "1937-1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Military, political and hospital identifications, passbooks, merit award"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_0e55e6f0dada2def767e63f25207c59b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_518e91695195502b2d339b2ef236f023",
-                                                "parent": "aspace_0e55e6f0dada2def767e63f25207c59b",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1989",
-                                                "type": "inclusive",
-                                                "value": "undated , Jan 1943"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Poems and lyrics"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_02bf21d0d7920c86681cb4a01ca72e4e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5678aa7d096eebf6a3762aaebc6aabac",
-                                                "parent": "aspace_02bf21d0d7920c86681cb4a01ca72e4e",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1989",
-                                                "type": "inclusive",
-                                                "value": "undated , 1937 , 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Postek, Stanley: Articles and poem about"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_d4172a66833c050e8c0a7cde99d878b7",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b2ab69302bc5282cac4c2f86bb5f1e85",
-                                                "parent": "aspace_d4172a66833c050e8c0a7cde99d878b7",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Postek, Stanley: Voucher letters for"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_7d5f658cc3bc913dfd706c59533bde35",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2a7b6afb0797d2054717232622d31a50",
-                                                "parent": "aspace_7d5f658cc3bc913dfd706c59533bde35",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1939/1946",
-                                                "type": "inclusive",
-                                                "value": "1939 , 1942 , 1946"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans of the Abraham Lincoln Brigade (VALB): Membership cards and convention pass"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_12f7eafcf67f77700b29fa9a6024e23e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_301075f44ea5b5ec2e2c794be747f145",
-                                                "parent": "aspace_12f7eafcf67f77700b29fa9a6024e23e",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1944/1944",
-                                                "type": "inclusive",
-                                                "value": "1944"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Volunteer for Liberty (British)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_d81be61c81fa93f1e7c2fc118c671ca8",
+                                        "parent": "aspace_7859a51427579ecd58a06c3ac1b227ba",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: Spanish Civil War Era and World War II, 1934-1946"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref26",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_ea9e29cfa42d8d716bc9ce143867c119",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_45129049fd6f2bba96d3284362ac004a",
-                                                "parent": "aspace_ea9e29cfa42d8d716bc9ce143867c119",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1964/1988",
-                                                "type": "inclusive",
-                                                "value": "Mar 1939-Feb 1942 , 1964 , 1982-1988"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Postek, Stanley: Journal, \"Memoirs of Spain\""
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_9634438b1badaa6d7566b101eb914a12",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8f1e530ff82707ae6355394de0c31a86",
-                                                "parent": "aspace_9634438b1badaa6d7566b101eb914a12",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1942-Dec 1942"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Postek, Stanley: Journal"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_de31a4918ce10ebe96bbb9aaac1ff4cf",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a879e68935b03e168f0943f09d9f5157",
-                                                "parent": "aspace_de31a4918ce10ebe96bbb9aaac1ff4cf",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1989",
-                                                "type": "inclusive",
-                                                "value": "undated , Mar 1943-Apr 1944"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Postek, Stanley: Journal"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "normal": "1928/1949",
+                                        "type": "inclusive",
+                                        "value": "ca.1938-1939"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series II. Journals, 1939-1988"
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "Bailey, William: article by, letter from"
+                                }
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref30",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_b29c6e1d075984c5ee828143ccd4219d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_74a804e023e9d388579c586d5c0931c1",
-                                                "parent": "aspace_b29c6e1d075984c5ee828143ccd4219d",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jan 1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Abraham Lincoln Brigade: Certificate of Honor"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_22c41bd0fee95c9ba932e9967126a231",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_0f1fe78f11505a49fdbf65cc543d9258",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7a4862a41732e56e6e2b1beaf6a27335",
-                                                "parent": "aspace_0f1fe78f11505a49fdbf65cc543d9258",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 1983-Jan 1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clippings: Spain politics"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_9b940b47ff32861f927071cafa724f91",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_46846a95edb471a5859c0822c42004c7",
-                                                "parent": "aspace_9b940b47ff32861f927071cafa724f91",
-                                                "type": "folder",
-                                                "value": "16"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 1952"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "For Valor in Battle (pamphlet by Joseph North)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_dfb79669a17179f089f9917e4c0421e2",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_ed58e0c9ad5304860520d98164b761fd",
-                                                "parent": "aspace_dfb79669a17179f089f9917e4c0421e2",
-                                                "type": "folder",
-                                                "value": "17"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1984/1984",
-                                                "type": "inclusive",
-                                                "value": "1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Good Fight: Film reviews, promotional material"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref35",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_483491d27a0460a65e04a29ca94c13c8",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a2574bae3cb452a48283d52ed6a246a8",
-                                                "parent": "aspace_483491d27a0460a65e04a29ca94c13c8",
-                                                "type": "folder",
-                                                "value": "18"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1989/1989",
-                                                "type": "inclusive",
-                                                "value": "1989"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Heroines of the Good Fight: North American Women Volunteers in the Spanish Civil War (article by Frances Patai)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref36",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_5db201f71d17c6181bda75f6a632e066",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_3d907364d9eb5228810349fb1c80250e",
-                                                "parent": "aspace_5db201f71d17c6181bda75f6a632e066",
-                                                "type": "folder",
-                                                "value": "19"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 1980"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Oral History of the American Left (newsletter)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref37",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_623c25073a3b2299f492235452342da8",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_ab15ac87de066cffc5a7ca9e034b3232",
-                                                "parent": "aspace_623c25073a3b2299f492235452342da8",
-                                                "type": "folder",
-                                                "value": "20"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1989",
-                                                "type": "inclusive",
-                                                "value": "undated , 1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "O'Toole, Lawrence: Notes from audiotape interview with; obituaries and tributes"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref38",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_81ddb80e03a0a55f9a123a976fe2e0f0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_61ad08099cca970300e32a5b5693b791",
-                                                "parent": "aspace_81ddb80e03a0a55f9a123a976fe2e0f0",
-                                                "type": "folder",
-                                                "value": "21"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1972/1992",
-                                                "type": "inclusive",
-                                                "value": "ca.1982"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Point of Clarification: Postek's response to Joe Doyle's \"Seamen in the Lincoln Battalion\""
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref39",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_ebf31a90b901b769baa982d2a6efcbd0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1d0c14ce7161ab4058848745f81adc2c",
-                                                "parent": "aspace_ebf31a90b901b769baa982d2a6efcbd0",
-                                                "type": "folder",
-                                                "value": "22"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1989",
-                                                "type": "inclusive",
-                                                "value": "undated , 1963 , 1978"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Postcard, flyer, calling card, Mexican tourist visa"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref40",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_bd339224b9856c031ca0921f1262a8d9",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9f8f78e3c85da703f24cf81abe5f26b3",
-                                                "parent": "aspace_bd339224b9856c031ca0921f1262a8d9",
-                                                "type": "folder",
-                                                "value": "23"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1950/1970",
-                                                "type": "inclusive",
-                                                "value": "ca.1960"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Postek, Stanley: Film headshot/resumé"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref41",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_178e310daddde9350659e6d4a4bb34df",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b878ad29d794e71e32f001db5aeba67f",
-                                                "parent": "aspace_178e310daddde9350659e6d4a4bb34df",
-                                                "type": "folder",
-                                                "value": "24"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1989",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Postek, Stanley: Narrative of Spanish Civil War injury"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref42",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_653b7d2b26acba1e4134a06a74e85573",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0275135f96990c1413e0af5db4139365",
-                                                "parent": "aspace_653b7d2b26acba1e4134a06a74e85573",
-                                                "type": "folder",
-                                                "value": "25"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 1983"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Seamen in the Lincoln Battalion (article by Joe Doyle)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref43",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_36dc733b23bbc4e91f93a5ccd8e79065",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2efb2b449a03b65e95d9d0d5225225de",
-                                                "parent": "aspace_36dc733b23bbc4e91f93a5ccd8e79065",
-                                                "type": "folder",
-                                                "value": "26"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1989",
-                                                "type": "inclusive",
-                                                "value": "undated , Mar 1982"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Civil War Historical Society"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref44",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_a66844a2ab43b319d1e60df987d3babf",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_130ba7808bec057fc1aca336430f39da",
-                                                "parent": "aspace_a66844a2ab43b319d1e60df987d3babf",
-                                                "type": "folder",
-                                                "value": "27"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1976/1996",
-                                                "type": "inclusive",
-                                                "value": "ca.1986"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Tom Paine Brigade: Anti-Stalinist flyer"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref45",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_0b5adf30910b906616166fbe58a06261",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4c30b64575db94f3cbd983f4248edb77",
-                                                "parent": "aspace_0b5adf30910b906616166fbe58a06261",
-                                                "type": "folder",
-                                                "value": "28"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 1979"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "True Americans (article by Roy Hudson)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref46",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_789e76ef3ada5486a2248f3cb597b2ea",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a74e809b5c3f16dc8e67410c08f418e6",
-                                                "parent": "aspace_789e76ef3ada5486a2248f3cb597b2ea",
-                                                "type": "folder",
-                                                "value": "29"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1989/1989",
-                                                "type": "inclusive",
-                                                "value": "1989"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "U.S. Political Culture of the 1930s and the American Response to the Spanish Civil War (article by Robert Colodny)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref47",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_168992fa68ba49ce3f1cb6209ff26e4f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e3b450181986566d8060a35ab8e96371",
-                                                "parent": "aspace_168992fa68ba49ce3f1cb6209ff26e4f",
-                                                "type": "folder",
-                                                "value": "30"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1989",
-                                                "type": "inclusive",
-                                                "value": "undated , 1975-1989"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans: Articles, obituaries, poems, testimonials by and about"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref48",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_dcfcadd8bc7ff286e1f5dd17b8c0a8ea",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9e6160d043831d512c3d8f8696a1e2cc",
-                                                "parent": "aspace_dcfcadd8bc7ff286e1f5dd17b8c0a8ea",
-                                                "type": "folder",
-                                                "value": "31"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1989",
-                                                "type": "inclusive",
-                                                "value": "undated , 1977-1983"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans: Return visits to Spain"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref49",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_7b0392025270ab40b1b549e81cee9d14",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_41343a3308e3a876fe289c1698315ac2",
-                                                "parent": "aspace_7b0392025270ab40b1b549e81cee9d14",
-                                                "type": "folder",
-                                                "value": "32"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1978/1980",
-                                                "type": "inclusive",
-                                                "value": "1978 , 1980"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans of the Abraham Lincoln Brigade (VALB): Anniversary reservation, Congressional citation"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref50",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e23237bf43651cca79ab9ef7aa762f92",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_72b95bc52599f4376ddb0e8da49dadc0",
-                                                "parent": "aspace_e23237bf43651cca79ab9ef7aa762f92",
-                                                "type": "folder",
-                                                "value": "33"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1980",
-                                                "type": "inclusive",
-                                                "value": "1979-1980"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans of the Abraham Lincoln Brigade (VALB): Bibliography, newsletter, Congressional amendment proposal"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref51",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_6a76a475daf1cb51ee146d96967187c7",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0d11516cd5dadaa794dd3508cc0bb456",
-                                                "parent": "aspace_6a76a475daf1cb51ee146d96967187c7",
-                                                "type": "folder",
-                                                "value": "34"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Dec 1977 , Sep 1989"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans of the Abraham Lincoln Brigade (VALB): Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref52",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_d9d63dcdb8e8e8d0553fa7686b68daff",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_28585214eb7d88f48dd3ab195ed820bf",
-                                                "parent": "aspace_d9d63dcdb8e8e8d0553fa7686b68daff",
-                                                "type": "folder",
-                                                "value": "35"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1989",
-                                                "type": "inclusive",
-                                                "value": "undated , Jun 1979-Apr 1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans of the Abraham Lincoln Brigade (VALB): Maritime veterans"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref53",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756054",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_d3a8bd077eede40f211d127f3db03e12",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_418369314331a3ebccd0a47f57a5a777",
-                                                "parent": "aspace_d3a8bd077eede40f211d127f3db03e12",
-                                                "type": "folder",
-                                                "value": "36"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1989",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans of the Abraham Lincoln Brigade (VALB): Veterans lists"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_a07e27c433ed59f8355a658969c45b2b",
+                                        "parent": "aspace_22c41bd0fee95c9ba932e9967126a231",
+                                        "type": "folder",
+                                        "value": "2"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series III: Subject Files, 1952-1989"
+                                        "normal": "1934/1989",
+                                        "type": "inclusive",
+                                        "value": "undated , 1934-1943"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Clippings"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_0e30509435802241d3441f9d4ff5e921",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_cf23c80573c17aabc8fd8d6c356c18b9",
+                                        "parent": "aspace_0e30509435802241d3441f9d4ff5e921",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Feb 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Letter of permission to leave concentration camp"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_11779fbc20ad8de83ea0f61fb931cb4e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b2410361b9cfdcfe2e215ceeb36eb824",
+                                        "parent": "aspace_11779fbc20ad8de83ea0f61fb931cb4e",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1989",
+                                        "type": "inclusive",
+                                        "value": "undated , 1937-1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Memorabilia: Stamps, metro tickets, boarding pass, uniform patches, flyer"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_6130d56a7e7728a5e2b87211287caaba",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_759e16180c7382262ae0139cc35a4f79",
+                                        "parent": "aspace_6130d56a7e7728a5e2b87211287caaba",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1939",
+                                        "type": "inclusive",
+                                        "value": "1937-1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Military, political and hospital identifications, passbooks, merit award"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_0e55e6f0dada2def767e63f25207c59b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_518e91695195502b2d339b2ef236f023",
+                                        "parent": "aspace_0e55e6f0dada2def767e63f25207c59b",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1989",
+                                        "type": "inclusive",
+                                        "value": "undated , Jan 1943"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Poems and lyrics"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_02bf21d0d7920c86681cb4a01ca72e4e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5678aa7d096eebf6a3762aaebc6aabac",
+                                        "parent": "aspace_02bf21d0d7920c86681cb4a01ca72e4e",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1989",
+                                        "type": "inclusive",
+                                        "value": "undated , 1937 , 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Postek, Stanley: Articles and poem about"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_d4172a66833c050e8c0a7cde99d878b7",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b2ab69302bc5282cac4c2f86bb5f1e85",
+                                        "parent": "aspace_d4172a66833c050e8c0a7cde99d878b7",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Apr 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Postek, Stanley: Voucher letters for"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_7d5f658cc3bc913dfd706c59533bde35",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2a7b6afb0797d2054717232622d31a50",
+                                        "parent": "aspace_7d5f658cc3bc913dfd706c59533bde35",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1939/1946",
+                                        "type": "inclusive",
+                                        "value": "1939 , 1942 , 1946"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans of the Abraham Lincoln Brigade (VALB): Membership cards and convention pass"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_12f7eafcf67f77700b29fa9a6024e23e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_301075f44ea5b5ec2e2c794be747f145",
+                                        "parent": "aspace_12f7eafcf67f77700b29fa9a6024e23e",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1944/1944",
+                                        "type": "inclusive",
+                                        "value": "1944"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Volunteer for Liberty (British)"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Spanish Civil War Era and World War II, 1934-1946"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref26",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_ea9e29cfa42d8d716bc9ce143867c119",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_45129049fd6f2bba96d3284362ac004a",
+                                        "parent": "aspace_ea9e29cfa42d8d716bc9ce143867c119",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1964/1988",
+                                        "type": "inclusive",
+                                        "value": "Mar 1939-Feb 1942 , 1964 , 1982-1988"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Postek, Stanley: Journal, \"Memoirs of Spain\""
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_9634438b1badaa6d7566b101eb914a12",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8f1e530ff82707ae6355394de0c31a86",
+                                        "parent": "aspace_9634438b1badaa6d7566b101eb914a12",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1942-Dec 1942"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Postek, Stanley: Journal"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_de31a4918ce10ebe96bbb9aaac1ff4cf",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a879e68935b03e168f0943f09d9f5157",
+                                        "parent": "aspace_de31a4918ce10ebe96bbb9aaac1ff4cf",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1989",
+                                        "type": "inclusive",
+                                        "value": "undated , Mar 1943-Apr 1944"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Postek, Stanley: Journal"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series II. Journals, 1939-1988"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref30",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_b29c6e1d075984c5ee828143ccd4219d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_74a804e023e9d388579c586d5c0931c1",
+                                        "parent": "aspace_b29c6e1d075984c5ee828143ccd4219d",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jan 1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Abraham Lincoln Brigade: Certificate of Honor"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_0f1fe78f11505a49fdbf65cc543d9258",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7a4862a41732e56e6e2b1beaf6a27335",
+                                        "parent": "aspace_0f1fe78f11505a49fdbf65cc543d9258",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Apr 1983-Jan 1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Clippings: Spain politics"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_9b940b47ff32861f927071cafa724f91",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_46846a95edb471a5859c0822c42004c7",
+                                        "parent": "aspace_9b940b47ff32861f927071cafa724f91",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Apr 1952"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "For Valor in Battle (pamphlet by Joseph North)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_dfb79669a17179f089f9917e4c0421e2",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_ed58e0c9ad5304860520d98164b761fd",
+                                        "parent": "aspace_dfb79669a17179f089f9917e4c0421e2",
+                                        "type": "folder",
+                                        "value": "17"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1984/1984",
+                                        "type": "inclusive",
+                                        "value": "1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Good Fight: Film reviews, promotional material"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref35",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_483491d27a0460a65e04a29ca94c13c8",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a2574bae3cb452a48283d52ed6a246a8",
+                                        "parent": "aspace_483491d27a0460a65e04a29ca94c13c8",
+                                        "type": "folder",
+                                        "value": "18"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1989/1989",
+                                        "type": "inclusive",
+                                        "value": "1989"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Heroines of the Good Fight: North American Women Volunteers in the Spanish Civil War (article by Frances Patai)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref36",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_5db201f71d17c6181bda75f6a632e066",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_3d907364d9eb5228810349fb1c80250e",
+                                        "parent": "aspace_5db201f71d17c6181bda75f6a632e066",
+                                        "type": "folder",
+                                        "value": "19"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Apr 1980"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Oral History of the American Left (newsletter)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref37",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_623c25073a3b2299f492235452342da8",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_ab15ac87de066cffc5a7ca9e034b3232",
+                                        "parent": "aspace_623c25073a3b2299f492235452342da8",
+                                        "type": "folder",
+                                        "value": "20"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1989",
+                                        "type": "inclusive",
+                                        "value": "undated , 1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "O'Toole, Lawrence: Notes from audiotape interview with; obituaries and tributes"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref38",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_81ddb80e03a0a55f9a123a976fe2e0f0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_61ad08099cca970300e32a5b5693b791",
+                                        "parent": "aspace_81ddb80e03a0a55f9a123a976fe2e0f0",
+                                        "type": "folder",
+                                        "value": "21"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1972/1992",
+                                        "type": "inclusive",
+                                        "value": "ca.1982"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Point of Clarification: Postek's response to Joe Doyle's \"Seamen in the Lincoln Battalion\""
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref39",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_ebf31a90b901b769baa982d2a6efcbd0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_1d0c14ce7161ab4058848745f81adc2c",
+                                        "parent": "aspace_ebf31a90b901b769baa982d2a6efcbd0",
+                                        "type": "folder",
+                                        "value": "22"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1989",
+                                        "type": "inclusive",
+                                        "value": "undated , 1963 , 1978"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Postcard, flyer, calling card, Mexican tourist visa"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref40",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_bd339224b9856c031ca0921f1262a8d9",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9f8f78e3c85da703f24cf81abe5f26b3",
+                                        "parent": "aspace_bd339224b9856c031ca0921f1262a8d9",
+                                        "type": "folder",
+                                        "value": "23"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1950/1970",
+                                        "type": "inclusive",
+                                        "value": "ca.1960"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Postek, Stanley: Film headshot/resumé"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref41",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_178e310daddde9350659e6d4a4bb34df",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b878ad29d794e71e32f001db5aeba67f",
+                                        "parent": "aspace_178e310daddde9350659e6d4a4bb34df",
+                                        "type": "folder",
+                                        "value": "24"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1989",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Postek, Stanley: Narrative of Spanish Civil War injury"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref42",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_653b7d2b26acba1e4134a06a74e85573",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0275135f96990c1413e0af5db4139365",
+                                        "parent": "aspace_653b7d2b26acba1e4134a06a74e85573",
+                                        "type": "folder",
+                                        "value": "25"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Feb 1983"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Seamen in the Lincoln Battalion (article by Joe Doyle)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref43",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_36dc733b23bbc4e91f93a5ccd8e79065",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2efb2b449a03b65e95d9d0d5225225de",
+                                        "parent": "aspace_36dc733b23bbc4e91f93a5ccd8e79065",
+                                        "type": "folder",
+                                        "value": "26"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1989",
+                                        "type": "inclusive",
+                                        "value": "undated , Mar 1982"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Civil War Historical Society"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref44",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_a66844a2ab43b319d1e60df987d3babf",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_130ba7808bec057fc1aca336430f39da",
+                                        "parent": "aspace_a66844a2ab43b319d1e60df987d3babf",
+                                        "type": "folder",
+                                        "value": "27"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1976/1996",
+                                        "type": "inclusive",
+                                        "value": "ca.1986"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Tom Paine Brigade: Anti-Stalinist flyer"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref45",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_0b5adf30910b906616166fbe58a06261",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4c30b64575db94f3cbd983f4248edb77",
+                                        "parent": "aspace_0b5adf30910b906616166fbe58a06261",
+                                        "type": "folder",
+                                        "value": "28"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Aug 1979"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "True Americans (article by Roy Hudson)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref46",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_789e76ef3ada5486a2248f3cb597b2ea",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a74e809b5c3f16dc8e67410c08f418e6",
+                                        "parent": "aspace_789e76ef3ada5486a2248f3cb597b2ea",
+                                        "type": "folder",
+                                        "value": "29"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1989/1989",
+                                        "type": "inclusive",
+                                        "value": "1989"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "U.S. Political Culture of the 1930s and the American Response to the Spanish Civil War (article by Robert Colodny)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref47",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_168992fa68ba49ce3f1cb6209ff26e4f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e3b450181986566d8060a35ab8e96371",
+                                        "parent": "aspace_168992fa68ba49ce3f1cb6209ff26e4f",
+                                        "type": "folder",
+                                        "value": "30"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1989",
+                                        "type": "inclusive",
+                                        "value": "undated , 1975-1989"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans: Articles, obituaries, poems, testimonials by and about"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref48",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_dcfcadd8bc7ff286e1f5dd17b8c0a8ea",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9e6160d043831d512c3d8f8696a1e2cc",
+                                        "parent": "aspace_dcfcadd8bc7ff286e1f5dd17b8c0a8ea",
+                                        "type": "folder",
+                                        "value": "31"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1989",
+                                        "type": "inclusive",
+                                        "value": "undated , 1977-1983"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans: Return visits to Spain"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref49",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_7b0392025270ab40b1b549e81cee9d14",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_41343a3308e3a876fe289c1698315ac2",
+                                        "parent": "aspace_7b0392025270ab40b1b549e81cee9d14",
+                                        "type": "folder",
+                                        "value": "32"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1978/1980",
+                                        "type": "inclusive",
+                                        "value": "1978 , 1980"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans of the Abraham Lincoln Brigade (VALB): Anniversary reservation, Congressional citation"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref50",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e23237bf43651cca79ab9ef7aa762f92",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_72b95bc52599f4376ddb0e8da49dadc0",
+                                        "parent": "aspace_e23237bf43651cca79ab9ef7aa762f92",
+                                        "type": "folder",
+                                        "value": "33"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1980",
+                                        "type": "inclusive",
+                                        "value": "1979-1980"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans of the Abraham Lincoln Brigade (VALB): Bibliography, newsletter, Congressional amendment proposal"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref51",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_6a76a475daf1cb51ee146d96967187c7",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0d11516cd5dadaa794dd3508cc0bb456",
+                                        "parent": "aspace_6a76a475daf1cb51ee146d96967187c7",
+                                        "type": "folder",
+                                        "value": "34"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Dec 1977 , Sep 1989"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans of the Abraham Lincoln Brigade (VALB): Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref52",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_d9d63dcdb8e8e8d0553fa7686b68daff",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_28585214eb7d88f48dd3ab195ed820bf",
+                                        "parent": "aspace_d9d63dcdb8e8e8d0553fa7686b68daff",
+                                        "type": "folder",
+                                        "value": "35"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1989",
+                                        "type": "inclusive",
+                                        "value": "undated , Jun 1979-Apr 1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans of the Abraham Lincoln Brigade (VALB): Maritime veterans"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref53",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756054",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_d3a8bd077eede40f211d127f3db03e12",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_418369314331a3ebccd0a47f57a5a777",
+                                        "parent": "aspace_d3a8bd077eede40f211d127f3db03e12",
+                                        "type": "folder",
+                                        "value": "36"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1989",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans of the Abraham Lincoln Brigade (VALB): Veterans lists"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series III: Subject Files, 1952-1989"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_6b9e53f2815966f9627ae8f6a5817d78",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -1556,11 +1418,9 @@
         "processinfo": [
             {
                 "id": "aspace_1051c1cd3200170fe7fdce6ce70b7439",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "In 2013, the name of the collection was changed from Stanley Postek Papers to differentiate it from another collection called the Stanley Poster Papers (WAG.080)."
@@ -1571,11 +1431,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_3f53d06a8d37c5962317350c21305f43",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "Stanley Postek interview, in the Manny Harriman Video Oral History Collection (ALBA VIDEO 48)"
@@ -1598,11 +1456,9 @@
         "scopecontent": [
             {
                 "id": "aspace_15d83b952327f011f3055220d25ae0d4",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "\u003cspan class=\"ead-emph ead-emph-bold\"\u003eSeries I: Spanish Civil War Era and World War II, 1934-1946\u003c/span\u003econtains materials from Postek's time in Spain and afterward, as well as from his period of service as a merchant marine in World War II. Includes military and political identification cards and books, stamps and other memorabilia from Spain, and a letter of permission to leave the Argeles-sur-mer concentration camp."
@@ -1619,11 +1475,9 @@
         "separatedmaterial": [
             {
                 "id": "aspace_36a9cbfdb131eedba3e6ad192ff1f665",
-                "head": [
-                    {
-                        "value": "Separated Material"
-                    }
-                ],
+                "head": {
+                    "value": "Separated Material"
+                },
                 "p": [
                     {
                         "value": "Photographs from the Spanish Civil War and later, as well as videotapes of a memorial service for Spanish Civil War veteran Eliseo Del Rio from the Stanley Postek Collection have been transferred to the non-print section of the ALBA collection at the Tamiment Library."
@@ -1634,11 +1488,9 @@
         "userestrict": [
             {
                 "id": "aspace_589cb85ca3f7037eedbe2b88fa772102",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Abraham Lincoln Brigade Archives (ALBA), were transferred to New York University in November 2000 by the ALBA Board of Governors. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -1647,93 +1499,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_089"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_089"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from postek.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from postek.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Wendy Scheir"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Stanley Postek Spanish Civil War Papers \u003cspan class=\"ead-num\"\u003eALBA.089\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Wendy Scheir",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Stanley Postek Spanish Civil War Papers \u003cspan class=\"ead-num\"\u003eALBA.089\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.089"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:34:50 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:34:50 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

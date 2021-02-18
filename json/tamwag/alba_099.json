@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_7f9e4909eadde458949229c9ef62cb14",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,11 +17,9 @@
         "arrangement": [
             {
                 "id": "aspace_debc9b5259283d272f907af1bc769473",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "The collection is organized in one series: I. Correspondence, 1937-1938."
@@ -37,11 +33,9 @@
         "bioghist": [
             {
                 "id": "aspace_cea28ba56db7fce863ad1b7624947460",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Harold Smith served as a volunteer with the Abraham Lincoln Brigade in the Spanish Civil War. He was born in New York City on January 4, in either 1910 or 1912 (a later record differs, but a copy of his passport record lists him as aged 27 in 1937). He attended City College, joined the Communist Party in 1934, and worked as a trade-union organizer. He listed his occupation as \"clerk\" in 1937. He sailed to Europe in February 1937 and, after a stop-over in Paris, arrived in Spain in mid-March. His letters home reflect an eager interest in the political deveopment of his friends and fellow Branch members, and in his union. Smith was wounded twice in combat.  After suffering an arm wound he spent time in the Hospital Militar-Moya in Barcelona, where one of his nurses was U.S. volunteer Toby Jensky. He recovered sufficiently to fight in the Ebro action around Villalba, and returned to the U.S. on the SS Ausonia in December 1938. After the war, Smith became a member of the Board of Governors of the Veterans of the Abraham Lincoln Brigade (VALB) and taught for a while at the League for Seriously Disturbed Children. He died in 1970."
@@ -49,36 +43,47 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    }
-                ],
-                "geogname": [
-                    "Spain -- History -- Civil War, 1936-1939 -- Veterans -- United States -- Correspondence.",
-                    "Spain -- History -- Civil War, 1936-1939 -- Campaigns.",
-                    "Spain."
-                ],
-                "persname": [
-                    {
-                        "value": "Smith, Harold"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Veterans -- United States -- Correspondence."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Campaigns."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain."
+                }
+            ],
+            "persname": [
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Smith, Harold"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_2acc297048026208323bb3a91876965a",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Harold Smith Papers came to the Tamiment Library as part of the original acquisition of ALBA collections, formerly housed at Brandeis University, in 2001."
@@ -86,930 +91,816 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Harold Smith served as a volunteer with the Abraham Lincoln Brigade in the Spanish Civil War. He was born in New York City on January 4, in either 1910 or 1912 (a later record differs, but a copy of his passport record lists him as aged 27 in 1937). He attended City College, joined the Communist Party in 1934, and worked as a trade-union organizer. He listed his occupation as \"clerk\" in 1937. He sailed to Europe in February 1937 and, after a stop-over in Paris, arrived in Spain in mid-March. Smith was wounded twice in combat. He recovered sufficiently to fight in the Ebro action around Villalba, and returned to the U.S. on the SS Ausonia in December 1938. After the war, Smith taught at the League for Seriously Disturbed Children. He died in 1970. The collection consists of twenty-four handwritten letters written in Spain. Most are from Smith to his girlfriend, identified only as \"Jeanette.\" One is from Smith to his sister(?) Clara, and one from a friend and fellow volunteer, Harry \"Jack\" Boxer, to \"Jeanette.\"",
+                    "id": "aspace_31c2da18886c41f43f8094eac65924e6"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English",
+                    "id": "aspace_41564f6c4183514f372122e44bb7ce21"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Smith, Harold"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Harold Smith served as a volunteer with the Abraham Lincoln Brigade in the Spanish Civil War. He was born in New York City on January 4, in either 1910 or 1912 (a later record differs, but a copy of his passport record lists him as aged 27 in 1937). He attended City College, joined the Communist Party in 1934, and worked as a trade-union organizer. He listed his occupation as \"clerk\" in 1937. He sailed to Europe in February 1937 and, after a stop-over in Paris, arrived in Spain in mid-March. Smith was wounded twice in combat. He recovered sufficiently to fight in the Ebro action around Villalba, and returned to the U.S. on the SS Ausonia in December 1938. After the war, Smith taught at the League for Seriously Disturbed Children. He died in 1970. The collection consists of twenty-four handwritten letters written in Spain. Most are from Smith to his girlfriend, identified only as \"Jeanette.\" One is from Smith to his sister(?) Clara, and one from a friend and fellow volunteer, Harry \"Jack\" Boxer, to \"Jeanette.\"",
-                        "id": "aspace_31c2da18886c41f43f8094eac65924e6"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_41564f6c4183514f372122e44bb7ce21",
-                        "value": "Materials are in English"
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Smith, Harold"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937/1938",
-                        "type": "inclusive",
-                        "value": "1937-1938"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.099"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Harold Smith Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937/1938",
+                    "type": "inclusive",
+                    "value": "1937-1938"
+                }
+            ],
+            "unitid": "ALBA.099",
+            "unittitle": {
+                "value": "Harold Smith Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref2",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref2",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_f587e207d7ab3b0d75f4d9c55d8fedc8",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7a0949f68cd229bf188ed8283a5abd5b",
-                                                "parent": "aspace_f587e207d7ab3b0d75f4d9c55d8fedc8",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Boxer, Harry (Jack) to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_f587e207d7ab3b0d75f4d9c55d8fedc8",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_66eb1001b2404032dc731ea4e04cce66",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1e076dd726bec5bb6e6abcd3ac3009ed",
-                                                "parent": "aspace_66eb1001b2404032dc731ea4e04cce66",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 27, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_5008ce13304b5915749f7bb9d6a5a079",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_aaf1a43257b2acf0927517407766edfd",
-                                                "parent": "aspace_5008ce13304b5915749f7bb9d6a5a079",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Mar 20, 22, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_cb6d1d919c97674a6462e6e05d6344b7",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5411d63acdcb67476f6f09eba2abe6cd",
-                                                "parent": "aspace_cb6d1d919c97674a6462e6e05d6344b7",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "May 16, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_4bb43cfa27c4185be258cbea332d289d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9ac35d6be38bdaab495847a436cc1ec7",
-                                                "parent": "aspace_4bb43cfa27c4185be258cbea332d289d",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 11, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_d1f5b710c9f04563d3d9539e987feda1",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0200005d49e6f6ed6fb6b39acd7be915",
-                                                "parent": "aspace_d1f5b710c9f04563d3d9539e987feda1",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 25, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_b95f59beb6d64d68392000505a6673e5",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a3a4a76245a54eada6209b47b0145cb0",
-                                                "parent": "aspace_b95f59beb6d64d68392000505a6673e5",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 22, 28, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_d8d764cbac4317f7d6c7796eb9576cd1",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d4a85e5470f35a10f5a4415d7f34ddf7",
-                                                "parent": "aspace_d8d764cbac4317f7d6c7796eb9576cd1",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Sep 1, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_38a139b3c7812e9152744474616cad89",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6b47fa9985d9110701c0308716c6e461",
-                                                "parent": "aspace_38a139b3c7812e9152744474616cad89",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Nov 6, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_5b6c208218b8e7129f26f59ce21e3af0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c1e8a29aeca25ff38d289e6f514ae301",
-                                                "parent": "aspace_5b6c208218b8e7129f26f59ce21e3af0",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Dec 13, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref35",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_41ab0b5501dfd9acbd1a53903e151d95",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_833be606586ffb9b37d599302f4cdcf1",
-                                                "parent": "aspace_41ab0b5501dfd9acbd1a53903e151d95",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jan 9, 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref36",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_72551a2b76aaced44265bd7f7999eb7d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_196c1bff765adebc1bd3406b6a3a0e3a",
-                                                "parent": "aspace_72551a2b76aaced44265bd7f7999eb7d",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Mar 3, 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref37",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_bb974736013604f701bca15717125bce",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_28690b75d00d793e588dbd3794054798",
-                                                "parent": "aspace_bb974736013604f701bca15717125bce",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Mar 20, 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref38",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_fe115b2bf44986cdb8a6c588fecf4257",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7bc5932cefd2afeaaec57a1b3c908ccc",
-                                                "parent": "aspace_fe115b2bf44986cdb8a6c588fecf4257",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 20, 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Clara"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref39",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_5fdf40f4aa608f143148578b1b147fae",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b145127bf0c402c82c3db4e2f7ea43a7",
-                                                "parent": "aspace_5fdf40f4aa608f143148578b1b147fae",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 18, 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref40",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_f0ad4746ea8e6ba46c08cddc41e26526",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e396243a53f05783af3dc678782bac9e",
-                                                "parent": "aspace_f0ad4746ea8e6ba46c08cddc41e26526",
-                                                "type": "folder",
-                                                "value": "16"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 5, 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref41",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a385e7117512ffbfe5774a12353ef155",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_879bbda3be6a12b925e0d5cc1e1f78f3",
-                                                "parent": "aspace_a385e7117512ffbfe5774a12353ef155",
-                                                "type": "folder",
-                                                "value": "17"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 22, 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref42",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_e239e957b82112d6ff1c394156b20878",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5e801574961ae7a86914f1bb60863c7c",
-                                                "parent": "aspace_e239e957b82112d6ff1c394156b20878",
-                                                "type": "folder",
-                                                "value": "18"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 3, 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref43",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_9cb203c317d5259f0f18d94c0fd96d6d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5966413030f87c336fc802d43d2afaa1",
-                                                "parent": "aspace_9cb203c317d5259f0f18d94c0fd96d6d",
-                                                "type": "folder",
-                                                "value": "19"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Sep 5, 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref44",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_86279062dfc4ce6a46ecb27f67922463",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_fbdc5cdb35f2ef475abf706c944da2ce",
-                                                "parent": "aspace_86279062dfc4ce6a46ecb27f67922463",
-                                                "type": "folder",
-                                                "value": "20"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Oct 13, 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref45",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_25ab3ac419891fb69bc36949eb474053",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_51ae7dd70e9db657a5da51f760eedde8",
-                                                "parent": "aspace_25ab3ac419891fb69bc36949eb474053",
-                                                "type": "folder",
-                                                "value": "21"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Oct 14, 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to Jeanette"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref46",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_f04f930aedb61c4e01d010ea042f4eb4",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_aa01b41654a7a0dd9408ba50ee9a4026",
-                                                "parent": "aspace_f04f930aedb61c4e01d010ea042f4eb4",
-                                                "type": "folder",
-                                                "value": "22"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold to [Jeanette?]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref47",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_bdaecb41a9c76c45830b0d701e80ebe0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_dd79eb259cd1749d0361cac68add7c3d",
-                                                "parent": "aspace_bdaecb41a9c76c45830b0d701e80ebe0",
-                                                "type": "folder",
-                                                "value": "23"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold: Unidentified Fragment"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref48",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756112",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_096aa678b08a5fb82e2ccd59b222f807",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1586b14e9e24039d09ebe8e83e95afed",
-                                                "parent": "aspace_096aa678b08a5fb82e2ccd59b222f807",
-                                                "type": "folder",
-                                                "value": "24"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Smith, Harold: Unidentified Fragment"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
-                                    {
-                                        "value": "Series I: Correspondence, 1937-1938"
-                                    }
-                                ]
-                            }
-                        ],
-                        "scopecontent": [
-                            {
-                                "id": "aspace_4199f176ee6d675544e4599f6beb5ca8",
-                                "head": [
-                                    {
-                                        "value": "Scope and Content Note"
+                                        "id": "aspace_7a0949f68cd229bf188ed8283a5abd5b",
+                                        "parent": "aspace_f587e207d7ab3b0d75f4d9c55d8fedc8",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "p": [
+                                "unitdate": [
                                     {
-                                        "value": "The series consists mostly of letters sent by Harold Smith from Spain to a girlfriend, identified only as \"Jeanette.\" Also included are one letter to his sister(?) Clara, one from a fellow volunteer, Harold \"Jack\" Boxer, ansd three undated fragments."
+                                        "value": "Undated"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Boxer, Harry (Jack) to Jeanette"
+                                }
                             }
-                        ]
-                    }
-                ]
-            }
-        ],
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_66eb1001b2404032dc731ea4e04cce66",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_1e076dd726bec5bb6e6abcd3ac3009ed",
+                                        "parent": "aspace_66eb1001b2404032dc731ea4e04cce66",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Feb 27, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_5008ce13304b5915749f7bb9d6a5a079",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_aaf1a43257b2acf0927517407766edfd",
+                                        "parent": "aspace_5008ce13304b5915749f7bb9d6a5a079",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Mar 20, 22, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_cb6d1d919c97674a6462e6e05d6344b7",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5411d63acdcb67476f6f09eba2abe6cd",
+                                        "parent": "aspace_cb6d1d919c97674a6462e6e05d6344b7",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "May 16, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_4bb43cfa27c4185be258cbea332d289d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9ac35d6be38bdaab495847a436cc1ec7",
+                                        "parent": "aspace_4bb43cfa27c4185be258cbea332d289d",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 11, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_d1f5b710c9f04563d3d9539e987feda1",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0200005d49e6f6ed6fb6b39acd7be915",
+                                        "parent": "aspace_d1f5b710c9f04563d3d9539e987feda1",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 25, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_b95f59beb6d64d68392000505a6673e5",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a3a4a76245a54eada6209b47b0145cb0",
+                                        "parent": "aspace_b95f59beb6d64d68392000505a6673e5",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 22, 28, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_d8d764cbac4317f7d6c7796eb9576cd1",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d4a85e5470f35a10f5a4415d7f34ddf7",
+                                        "parent": "aspace_d8d764cbac4317f7d6c7796eb9576cd1",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Sep 1, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_38a139b3c7812e9152744474616cad89",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6b47fa9985d9110701c0308716c6e461",
+                                        "parent": "aspace_38a139b3c7812e9152744474616cad89",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Nov 6, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_5b6c208218b8e7129f26f59ce21e3af0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c1e8a29aeca25ff38d289e6f514ae301",
+                                        "parent": "aspace_5b6c208218b8e7129f26f59ce21e3af0",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Dec 13, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref35",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_41ab0b5501dfd9acbd1a53903e151d95",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_833be606586ffb9b37d599302f4cdcf1",
+                                        "parent": "aspace_41ab0b5501dfd9acbd1a53903e151d95",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jan 9, 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref36",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_72551a2b76aaced44265bd7f7999eb7d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_196c1bff765adebc1bd3406b6a3a0e3a",
+                                        "parent": "aspace_72551a2b76aaced44265bd7f7999eb7d",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Mar 3, 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref37",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_bb974736013604f701bca15717125bce",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_28690b75d00d793e588dbd3794054798",
+                                        "parent": "aspace_bb974736013604f701bca15717125bce",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Mar 20, 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref38",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_fe115b2bf44986cdb8a6c588fecf4257",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7bc5932cefd2afeaaec57a1b3c908ccc",
+                                        "parent": "aspace_fe115b2bf44986cdb8a6c588fecf4257",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Apr 20, 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Clara"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref39",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_5fdf40f4aa608f143148578b1b147fae",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b145127bf0c402c82c3db4e2f7ea43a7",
+                                        "parent": "aspace_5fdf40f4aa608f143148578b1b147fae",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 18, 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref40",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_f0ad4746ea8e6ba46c08cddc41e26526",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e396243a53f05783af3dc678782bac9e",
+                                        "parent": "aspace_f0ad4746ea8e6ba46c08cddc41e26526",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 5, 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref41",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a385e7117512ffbfe5774a12353ef155",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_879bbda3be6a12b925e0d5cc1e1f78f3",
+                                        "parent": "aspace_a385e7117512ffbfe5774a12353ef155",
+                                        "type": "folder",
+                                        "value": "17"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 22, 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref42",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_e239e957b82112d6ff1c394156b20878",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5e801574961ae7a86914f1bb60863c7c",
+                                        "parent": "aspace_e239e957b82112d6ff1c394156b20878",
+                                        "type": "folder",
+                                        "value": "18"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Aug 3, 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref43",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_9cb203c317d5259f0f18d94c0fd96d6d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5966413030f87c336fc802d43d2afaa1",
+                                        "parent": "aspace_9cb203c317d5259f0f18d94c0fd96d6d",
+                                        "type": "folder",
+                                        "value": "19"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Sep 5, 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref44",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_86279062dfc4ce6a46ecb27f67922463",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_fbdc5cdb35f2ef475abf706c944da2ce",
+                                        "parent": "aspace_86279062dfc4ce6a46ecb27f67922463",
+                                        "type": "folder",
+                                        "value": "20"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Oct 13, 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref45",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_25ab3ac419891fb69bc36949eb474053",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_51ae7dd70e9db657a5da51f760eedde8",
+                                        "parent": "aspace_25ab3ac419891fb69bc36949eb474053",
+                                        "type": "folder",
+                                        "value": "21"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Oct 14, 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to Jeanette"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref46",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_f04f930aedb61c4e01d010ea042f4eb4",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_aa01b41654a7a0dd9408ba50ee9a4026",
+                                        "parent": "aspace_f04f930aedb61c4e01d010ea042f4eb4",
+                                        "type": "folder",
+                                        "value": "22"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold to [Jeanette?]"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref47",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_bdaecb41a9c76c45830b0d701e80ebe0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_dd79eb259cd1749d0361cac68add7c3d",
+                                        "parent": "aspace_bdaecb41a9c76c45830b0d701e80ebe0",
+                                        "type": "folder",
+                                        "value": "23"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold: Unidentified Fragment"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref48",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756112",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_096aa678b08a5fb82e2ccd59b222f807",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_1586b14e9e24039d09ebe8e83e95afed",
+                                        "parent": "aspace_096aa678b08a5fb82e2ccd59b222f807",
+                                        "type": "folder",
+                                        "value": "24"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Smith, Harold: Unidentified Fragment"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series I: Correspondence, 1937-1938"
+                        }
+                    },
+                    "scopecontent": [
+                        {
+                            "id": "aspace_4199f176ee6d675544e4599f6beb5ca8",
+                            "head": {
+                                "value": "Scope and Content Note"
+                            },
+                            "p": [
+                                {
+                                    "value": "The series consists mostly of letters sent by Harold Smith from Spain to a girlfriend, identified only as \"Jeanette.\" Also included are one letter to his sister(?) Clara, one from a fellow volunteer, Harold \"Jack\" Boxer, ansd three undated fragments."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_0eeec0767baf37acbd1d6a29c73ff2ab",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; Tamiment Library, New York University."
@@ -1020,11 +911,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_e9008553243263593b4bfd746f22cf67",
-                "head": [
-                    {
-                        "value": "Related Archival Material"
-                    }
-                ],
+                "head": {
+                    "value": "Related Archival Material"
+                },
                 "p": [
                     {
                         "value": "ALBA collections at the Tamiment Library."
@@ -1035,11 +924,9 @@
         "scopecontent": [
             {
                 "id": "aspace_9bb38188231551ae78c90060987ae95d",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "The collection consists of twenty-four handwritten letters written in Spain. Most are from Smith to his girlfriend, identified only as \"Jeanette.\" One is from Smith to his sister(?) Clara, and one from a friend and fellow volunteer, Harry \"Jack\" Boxer, to \"Jeanette.\"  Three items are undated fragments. Several of Harold Smith's original letters are accompanied by typed transcripts."
@@ -1050,11 +937,9 @@
         "userestrict": [
             {
                 "id": "aspace_45fb8c5a2ca0d0f5a8616132cae6964b",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "The Tamiment Library \u0026 Robert F. Wagner Labor Archives has no information about copyright ownership for this collection and is not authorized to grant permission to publish or reproduce materials from it. Copyrights held by original creators of individual items in the collection are expected to pass into the public domain 70 years after the creator's death. For more information, please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -1063,83 +948,66 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_099"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_099"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Gail Malmgreen, 2012"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Harold Smith Papers \u003cspan class=\"ead-num\"\u003eALBA.099\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:34:54 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "English"
-                        }
-                    ]
-                }
-            ]
+                },
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Gail Malmgreen, 2012",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Harold Smith Papers \u003cspan class=\"ead-num\"\u003eALBA.099\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.099"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:34:54 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {}
         }
-    ]
+    }
 }

@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_8ec7a1cb6cf40654fc40a650da940bb1",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,20 @@
         "arrangement": [
             {
                 "id": "aspace_d061a2d9b7c3975ea7d84dce2b1c75c2",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I, Spanish Civil War and World War II"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,11 +46,9 @@
         "bioghist": [
             {
                 "id": "aspace_6df7a7b3be2e42bd6344535e309b5738",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Elias Begelman (1912-1959) was born in Riga, Latvia and grew up in the Williamsburg section of Brooklyn, New York. Telling his mother he was going to Chicago, Begelman joined the Abraham Lincoln Brigade and went to Spain in January 1937. He saw heavy action on several fronts, and also served for a stint as translator and interpreter for Brigade headquarters (he spoke eight languages). He returned to the United States in October 1938. Begelman later served in World War II."
@@ -52,57 +59,84 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Friends of the Abraham Lincoln Brigade"
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    }
-                ],
-                "genreform": [
-                    "Correspondence.",
-                    "Typescripts",
-                    "Articles."
-                ],
-                "geogname": [
-                    "Spain -- History -- Civil War, 1936-1939 -- Personal narratives.",
-                    "Spain -- History -- Civil War, 1936-1939 -- Campaigns.",
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American",
-                    "Spain -- History -- Civil War, 1936-1939 -- International brigades."
-                ],
-                "persname": [
-                    {
-                        "value": "Begelman, Elias, 1912-1959"
-                    },
-                    {
-                        "value": "Beal, Ellis"
-                    },
-                    {
-                        "value": "Beal, Leona"
-                    },
-                    {
-                        "value": "Dorf, Artur"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Friends of the Abraham Lincoln Brigade"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Typescripts"
+                },
+                {
+                    "source": "aat",
+                    "value": "Articles."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Personal narratives."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Campaigns."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- International brigades."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "local",
+                    "value": "Begelman, Elias, 1912-1959"
+                },
+                {
+                    "source": "local",
+                    "value": "Beal, Ellis"
+                },
+                {
+                    "source": "local",
+                    "value": "Beal, Leona"
+                },
+                {
+                    "source": "local",
+                    "value": "Dorf, Artur"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_4f2e44f8e012c90f9cca4b21f70ad9d9",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Elias Begelman Collection was donated to Abraham Lincoln Brigade Archives in 1974 and 1975 by Leona Beal, Begelman's wife. This collection came to New York University in January 2001 as part of the original acquisition of ALBA collections, formerly housed at Brandeis University."
@@ -110,397 +144,344 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Elias Begelman (1912-1959) served in the International Brigades as a volunteer in the Abraham Lincoln Briagde in Spain from January 1937 through October 1938, during which time he saw heavy action and served as translator and interpreter for Brigade headquarters. The collection includes letters Begelman wrote from Spain; letters from Artur Dorf to Leona Beal, Begelman's wife, during World War II; a typescript about a battle in Spain; and a letter from Begelman's commander during World War II.",
+                    "id": "aspace_6ac36814d5cb691a04e1587f6bf944b9"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Elias Begelman (1912-1959) served in the International Brigades as a volunteer in the Abraham Lincoln Briagde in Spain from January 1937 through October 1938, during which time he saw heavy action and served as translator and interpreter for Brigade headquarters. The collection includes letters Begelman wrote from Spain; letters from Artur Dorf to Leona Beal, Begelman's wife, during World War II; a typescript about a battle in Spain; and a letter from Begelman's commander during World War II.",
-                        "id": "aspace_6ac36814d5cb691a04e1587f6bf944b9"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
+                        "value": "Begelman, Elias, 1912-1959"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Begelman, Elias, 1912-1959"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937/1944",
-                        "type": "inclusive",
-                        "value": "1937-1944"
-                    },
-                    {
-                        "normal": "1938/1938",
-                        "type": "bulk",
-                        "value": "1938"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.124"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Elias Begelman Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937/1944",
+                    "type": "inclusive",
+                    "value": "1937-1944"
+                },
+                {
+                    "normal": "1938/1938",
+                    "type": "bulk",
+                    "value": "1938"
+                }
+            ],
+            "unitid": "ALBA.124",
+            "unittitle": {
+                "value": "Elias Begelman Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref15",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref15",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756419",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_3e6d69265bcf09b3075083ec489a2cc8",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8fcf4bd1ac3b93ccc074860da7b2c991",
-                                                "parent": "aspace_3e6d69265bcf09b3075083ec489a2cc8",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Oct 1959"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Beal, Ellis: New York Times Death Notice"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062756419",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_3e6d69265bcf09b3075083ec489a2cc8",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756419",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_9b49ce47d7ca90742016f79b94e27355",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8c6c41980f5f8452bc4832b3f6c423bb",
-                                                "parent": "aspace_9b49ce47d7ca90742016f79b94e27355",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Dec 1943-Aug 1944"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Artur Dorf to Leona Beal"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756419",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_47c6944a8c123f6f48f6984a863e297c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_01b0ca902c8d3b8974792493d5a9f09a",
-                                                "parent": "aspace_47c6944a8c123f6f48f6984a863e297c",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1944",
-                                                "type": "inclusive",
-                                                "value": "undated , Jan 1937-Aug 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Elias Begelman to Michael Simms"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756419",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_2e542b0a5c0c778f1d043e1bfe04d7f0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e23431e8d4c50748541df853b90d8de8",
-                                                "parent": "aspace_2e542b0a5c0c778f1d043e1bfe04d7f0",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 1938-Sep 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Friends of the Abraham Lincoln Brigade to Michael Simms"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756419",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_2ec5c142125f25b678ef4c33b1282f1c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4cdab28134b8f7b79ab281d7eae7bb93",
-                                                "parent": "aspace_2ec5c142125f25b678ef4c33b1282f1c",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "May 1937-May 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: General"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756419",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_febc936b351766e599d1174fd518eb10",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_87e90a0d8e99e94c2a4db0575d3dbb11",
-                                                "parent": "aspace_febc936b351766e599d1174fd518eb10",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1944",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Hot Spot in Quinto: An actual experience of the war in Spain (typescript)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756419",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_d6ab330ee3660ac20ca00b5ffff928fe",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_049a2e6f044578b3fe2e5fd68990e10f",
-                                                "parent": "aspace_d6ab330ee3660ac20ca00b5ffff928fe",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jan 1938-Sep 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "International Brigades: Authorizations, official business"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756419",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_d9339d047ac701a486077e1e6b1713fb",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e5939970924d1a357bcbb859726b7cae",
-                                                "parent": "aspace_d9339d047ac701a486077e1e6b1713fb",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1943"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "World War II: Request for transfer"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_8fcf4bd1ac3b93ccc074860da7b2c991",
+                                        "parent": "aspace_3e6d69265bcf09b3075083ec489a2cc8",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: Spanish Civil War and World War II"
+                                        "value": "Oct 1959"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Beal, Ellis: New York Times Death Notice"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756419",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_9b49ce47d7ca90742016f79b94e27355",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8c6c41980f5f8452bc4832b3f6c423bb",
+                                        "parent": "aspace_9b49ce47d7ca90742016f79b94e27355",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Dec 1943-Aug 1944"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Artur Dorf to Leona Beal"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756419",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_47c6944a8c123f6f48f6984a863e297c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_01b0ca902c8d3b8974792493d5a9f09a",
+                                        "parent": "aspace_47c6944a8c123f6f48f6984a863e297c",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1944",
+                                        "type": "inclusive",
+                                        "value": "undated , Jan 1937-Aug 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Elias Begelman to Michael Simms"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756419",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_2e542b0a5c0c778f1d043e1bfe04d7f0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e23431e8d4c50748541df853b90d8de8",
+                                        "parent": "aspace_2e542b0a5c0c778f1d043e1bfe04d7f0",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Feb 1938-Sep 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Friends of the Abraham Lincoln Brigade to Michael Simms"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756419",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_2ec5c142125f25b678ef4c33b1282f1c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4cdab28134b8f7b79ab281d7eae7bb93",
+                                        "parent": "aspace_2ec5c142125f25b678ef4c33b1282f1c",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "May 1937-May 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: General"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756419",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_febc936b351766e599d1174fd518eb10",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_87e90a0d8e99e94c2a4db0575d3dbb11",
+                                        "parent": "aspace_febc936b351766e599d1174fd518eb10",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1944",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Hot Spot in Quinto: An actual experience of the war in Spain (typescript)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756419",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_d6ab330ee3660ac20ca00b5ffff928fe",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_049a2e6f044578b3fe2e5fd68990e10f",
+                                        "parent": "aspace_d6ab330ee3660ac20ca00b5ffff928fe",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jan 1938-Sep 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "International Brigades: Authorizations, official business"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756419",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_d9339d047ac701a486077e1e6b1713fb",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e5939970924d1a357bcbb859726b7cae",
+                                        "parent": "aspace_d9339d047ac701a486077e1e6b1713fb",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1943"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "World War II: Request for transfer"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Spanish Civil War and World War II"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_256842fb94cfa5eb135a776c8aee9e26",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -511,11 +492,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_0c711c9f814f7f09304b1dc3573481e0",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "ALBA collections at the Tamiment Library."
@@ -526,11 +505,9 @@
         "scopecontent": [
             {
                 "id": "aspace_90a2a08fd98c28a99aa9c118bbd16e17",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The collection consists of letters from Begelman to his brother, Michael Simms, discussing the progress of the war in Spain and family situations back home (certain of these letters are copies of the originals typed by Begelman's wife, Leona). Also included are a five-page typescript by Begelman about capturing the town of Quinto; International Brigade documents; letters from the Friends of the Abraham Lincoln Brigade in New York to Simms; and a letter from Begelman's commander during World War II disputing \"a file on his case which prevents him from ever being sent overseas.\" The collection also includes are a series of letters from Artur Dorf to Leona Beal while Dorf was serving in World War II. Dorf was a German anti-fascist who spent two and a half years in Spain as political commissar of the Sanitary Service of the International Brigades, and was subsequently held for several years in concentration camps in France and in North Africa."
@@ -541,11 +518,9 @@
         "separatedmaterial": [
             {
                 "id": "aspace_883a8eb172c49c8546e63906de8c5f7c",
-                "head": [
-                    {
-                        "value": "Separated Material"
-                    }
-                ],
+                "head": {
+                    "value": "Separated Material"
+                },
                 "p": [
                     {
                         "value": "Photographs from the Elias Begelman Collection have been transferred to the non-print section of the ALBA collection in the Tamiment Library and Robert F. Wagner Labor Archives (ALBA Photo #36)."
@@ -556,11 +531,9 @@
         "userestrict": [
             {
                 "id": "aspace_e084dc677e9a9ca7b8a046ea7bcb3aa7",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Abraham Lincoln Brigade Archives (ALBA), were transferred to New York University in November 2000 by the ALBA Board of Governors. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -569,93 +542,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_124"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_124"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from begelman.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from begelman.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Wendy Scheir"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Elias Begelman Papers \u003cspan class=\"ead-num\"\u003eALBA.124\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Wendy Scheir",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Elias Begelman Papers \u003cspan class=\"ead-num\"\u003eALBA.124\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.124"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:35:05 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:35:05 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_189d5ae389b19597ebc7afd01740caa7",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_e7a8b81810fd1fd3b0c662e6fffddff8",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Donated by Douglas Kahan in 2001. The accession number associated with this gift is 2013.040."
@@ -34,11 +30,9 @@
         "appraisal": [
             {
                 "id": "aspace_34689929dc65696b4981f912c6016e9f",
-                "head": [
-                    {
-                        "value": "Appraisal"
-                    }
-                ],
+                "head": {
+                    "value": "Appraisal"
+                },
                 "p": [
                     {
                         "value": "No materials were separated from this collection."
@@ -49,11 +43,9 @@
         "arrangement": [
             {
                 "id": "aspace_3e81dedde886559df7434e912009a2fa",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "The order in which these materials were sent to the Tamiment Library has been maintained."
@@ -64,9 +56,12 @@
         "bibliography": [
             {
                 "id": "aspace_d972a4f45107e0079a72a473004116bb",
-                "head": [
+                "head": {
+                    "value": "Bibliographical Note"
+                },
+                "p": [
                     {
-                        "value": "Bibliographical Note"
+                        "value": "Information for this guide was drawn in part from a telephone interview with Douglas Kahan conducted circa 2001-2002 by Tamiment Library archivist Janet Greene ."
                     }
                 ]
             }
@@ -74,11 +69,9 @@
         "bioghist": [
             {
                 "id": "aspace_d7e0b9edf776e5ef8ef76062c57d8a57",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Benjamin Doctorich was born in the United States, but grew up in Goriizia, a city in northeast Italy near the  Slovenian border. He studied at a Polytechnic school in Vienna and trained as an architectural engineer. He spoke several languages fluently, and traveled extensively. He married in Italy and started a family there.  He then later immigrated to New York City, and lived in the Bronx. In the United States he started a second family and worked drawing, drafting, and building; he also worked as a photographer. He died in 1967, at the age of 84."
@@ -89,123 +82,125 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "genreform": [
-                    "Black-and-white photographs.",
-                    "blueprints (reprographic copies) "
-                ],
-                "geogname": [
-                    "New York (N.Y.) -- Buildings, structures, etc."
-                ],
-                "persname": [
-                    {
+        "controlaccess": {
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Black-and-white photographs."
+                },
+                {
+                    "source": "aat",
+                    "value": "blueprints (reprographic copies) "
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "New York (N.Y.) -- Buildings, structures, etc."
+                }
+            ],
+            "persname": [
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Doctorich, Benjamin"
+                },
+                {
+                    "role": "Donor",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Kahan, Douglas"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Construction projects."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.75 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in one manuscript box and two oversize folders",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "container": [
+                {
+                    "barcode": "31142062730414",
+                    "label": "Mixed Materials",
+                    "altrender": "Manuscript box - Legal",
+                    "id": "aspace_4ccfa6657c334e9ba4bf0bfd7bd78823",
+                    "type": "box",
+                    "value": "1"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English",
+                    "id": "aspace_b114f43e9c22ad76b19ac1ca217982cb"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
                         "value": "Doctorich, Benjamin"
-                    },
-                    {
+                    }
+                },
+                {
+                    "label": "source",
+                    "persname": {
                         "role": "Donor",
+                        "rules": "dacs",
+                        "source": "local",
                         "value": "Kahan, Douglas"
                     }
-                ],
-                "subject": [
-                    "Construction projects."
-                ]
+                }
+            ],
+            "physloc": [
+                {
+                    "id": "aspace_f7f403dfe2cbd041566cc55026d63b69",
+                    "value": "Materials are housed at the Tamiment Library."
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1954/1956",
+                    "type": "inclusive",
+                    "value": "1954-1956"
+                }
+            ],
+            "unitid": "TAM.636",
+            "unittitle": {
+                "value": "Benjamin Doctorich Photographs and Blueprints of New York City Hall"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.75 Linear Feet"
-                            },
-                            {
-                                "value": "in one manuscript box and two oversize folders"
-                            }
-                        ]
-                    }
-                ],
-                "container": [
-                    {
-                        "barcode": "31142062730414",
-                        "label": "Mixed Materials",
-                        "altrender": "Manuscript box - Legal",
-                        "id": "aspace_4ccfa6657c334e9ba4bf0bfd7bd78823",
-                        "type": "box",
-                        "value": "1"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_b114f43e9c22ad76b19ac1ca217982cb",
-                        "value": "Materials are in English"
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Doctorich, Benjamin"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "role": "Donor",
-                                "value": "Kahan, Douglas"
-                            }
-                        ]
-                    }
-                ],
-                "physloc": [
-                    {
-                        "id": "aspace_f7f403dfe2cbd041566cc55026d63b69",
-                        "value": "Materials are housed at the Tamiment Library."
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1954/1956",
-                        "type": "inclusive",
-                        "value": "1954-1956"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.636"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Benjamin Doctorich Photographs and Blueprints of New York City Hall"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {}
-        ],
+        },
+        "dsc": {},
         "prefercite": [
             {
                 "id": "aspace_06b50a3df89b3994213a0a03dac6c036",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; Benjamin Doctorich Photographs and Blueprints; TAM 641; box number; folder number; Tamiment Library/Robert F. Wagner Labor Archives, New York University."
@@ -216,11 +211,9 @@
         "processinfo": [
             {
                 "id": "aspace_2fec94471f9d5c997d712d60a56c5061",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "At the time of accessioning, materials were moved into archival housing, and a collection-level finding aid was created to describe these materials."
@@ -231,11 +224,9 @@
         "scopecontent": [
             {
                 "id": "aspace_9b4236f31b0f6f4628baee71a5a8e2fb",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "Collection of materials from the files of Benjamin Doctorich consisting of circa 165 black and white photographs and 42 blueprints documenting the replacement of stonework on New York City's City Hall during the mid-1950s. "
@@ -252,11 +243,9 @@
         "userestrict": [
             {
                 "id": "aspace_22da139f2f0da5ecb5cd99a12a42b70f",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Tamiment Library and Robert F. Wagner Labor Archive has no information about copyright ownership for this collection and is not authorized to grant permission to publish or reproduce materials from it. Materials in this collection, which were created in 1954-1956, are expected to enter the public domain in 2076."
@@ -265,92 +254,78 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_636/",
-                    "value": "tam_636"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_636/",
+            "value": "tam_636"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003eFebruary 12, 2014\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Erika Gottfried"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Benjamin Doctorich Photographs and Blueprints of New York City Hall \u003cspan class=\"ead-num\"\u003eTAM.636\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:54:49 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "English"
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003eFebruary 12, 2014\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "February 12, 2014"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Erika Gottfried",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Benjamin Doctorich Photographs and Blueprints of New York City Hall \u003cspan class=\"ead-num\"\u003eTAM.636\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.636"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:54:49 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

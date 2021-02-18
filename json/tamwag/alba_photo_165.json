@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_17afae53dd5af8663c54c64d4b7bf62b",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,23 @@
         "arrangement": [
             {
                 "id": "aspace_3609e503688a2e3636b790d246b4f822",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I, Photographs"
+                            },
+                            {
+                                "value": "II, Negatives"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,11 +49,9 @@
         "bioghist": [
             {
                 "id": "aspace_b48ba8701a7bc97613769a78235b2606",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Irving Weissman (1913-1998) grew up in a Polish-Jewish immigrant family in New York City. For further biographical information on Irving Weissman, and to review the scope and contents of his manuscript collection see Guide to the Irving Weissman Papers, ALBA #165."
@@ -52,76 +62,109 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    }
-                ],
-                "genreform": [
-                    "Negatives (photographic)",
-                    "Black-and-white photographs."
-                ],
-                "geogname": [
-                    "Barcelona (Spain)",
-                    "Spain -- History -- Civil War, 1936-1939 -- Pictorial works",
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
-                ],
-                "persname": [
-                    {
-                        "value": "Fishman, Mosess (Moe), 1916-2007"
-                    },
-                    {
-                        "value": "Prago, Albert"
-                    },
-                    {
-                        "value": "Smorodin, Abe"
-                    },
-                    {
-                        "value": "Tisa, John"
-                    },
-                    {
-                        "value": "Wallach, Hy"
-                    },
-                    {
-                        "value": "Weissman, Irving, 1913-1998"
-                    },
-                    {
-                        "value": "Nelson, Steve, 1903-1993"
-                    },
-                    {
-                        "value": "Koslow, Alan"
-                    },
-                    {
-                        "value": "Postek, Stanley, 1912-1991"
-                    },
-                    {
-                        "value": "Osheroff, Abe"
-                    },
-                    {
-                        "value": "Berkowitz, Norman"
-                    },
-                    {
-                        "value": "Brodsky, George"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Negatives (photographic)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Black-and-white photographs."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Barcelona (Spain)"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Pictorial works"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                }
+            ],
+            "persname": [
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Fishman, Mosess (Moe), 1916-2007"
+                },
+                {
+                    "source": "naf",
+                    "value": "Prago, Albert"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Smorodin, Abe"
+                },
+                {
+                    "source": "naf",
+                    "value": "Tisa, John"
+                },
+                {
+                    "source": "local",
+                    "value": "Wallach, Hy"
+                },
+                {
+                    "source": "local",
+                    "value": "Weissman, Irving, 1913-1998"
+                },
+                {
+                    "source": "naf",
+                    "value": "Nelson, Steve, 1903-1993"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Koslow, Alan"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Postek, Stanley, 1912-1991"
+                },
+                {
+                    "source": "naf",
+                    "value": "Osheroff, Abe"
+                },
+                {
+                    "source": "naf",
+                    "value": "Berkowitz, Norman"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Brodsky, George"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_6007cbf9a5b6ea85afb051c8cf036035",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Irving Weissman Photograph Collection was donated by Mr. Weissman to the Abraham Lincoln Brigade Archives, then held at Brandeis University, in 1994. This collection came to New York University in January 2001 as part of the original acquisition of Abraham Lincoln Brigade Archives collections, formerly housed at Brandeis University. The images in the Weissman Photograph Collection were separated from the Weissman manuscript material at the time of processing."
@@ -129,1531 +172,1350 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
-                    },
-                    {
-                        "value": "289 black and white photographs sized from 1 ¾ x 2 ¼ inches to 8 ½ x 11 inches and 10 negatives sized from 2 ½ x 3 ¼ to 5 ½ x 4 inches."
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                },
+                {
+                    "value": "289 black and white photographs sized from 1 ¾ x 2 ¼ inches to 8 ½ x 11 inches and 10 negatives sized from 2 ½ x 3 ¼ to 5 ½ x 4 inches.",
+                    "id": "aspace_9ac2ecff708cb7bd5cb5778b78ef5637",
+                    "label": "General Physical Description note"
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Irving Weissman (1913-1998) was a labor activist and a member of the Young Communist League before he went to fight in the Spanish Civil War. In Spain he trained and fought with the MacKenzie-Papineau Battalion. Many of the images in this collection were acquired by Weissman in the course of his service with the MacKenzie-Papineau Battalion in Spain. The collection contains combat and non-combat photographs, portraits, images of Czechoslovakian volunteers interned at the Gurs Concentration Camp in France, the U.S. veterans' fiftieth anniversary trip to Spain and a veterans memorial meeting.",
+                    "id": "aspace_7e7df5ea495cfefd646b82c799486a8f"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Irving Weissman (1913-1998) was a labor activist and a member of the Young Communist League before he went to fight in the Spanish Civil War. In Spain he trained and fought with the MacKenzie-Papineau Battalion. Many of the images in this collection were acquired by Weissman in the course of his service with the MacKenzie-Papineau Battalion in Spain. The collection contains combat and non-combat photographs, portraits, images of Czechoslovakian volunteers interned at the Gurs Concentration Camp in France, the U.S. veterans' fiftieth anniversary trip to Spain and a veterans memorial meeting.",
-                        "id": "aspace_7e7df5ea495cfefd646b82c799486a8f"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
+                        "value": "Weissman, Irving, 1913-1998"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Weissman, Irving, 1913-1998"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937/1991",
-                        "type": "inclusive",
-                        "value": "1937-1991"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.PHOTO.165"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Irving Weissman Photographs"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937/1991",
+                    "type": "inclusive",
+                    "value": "1937-1991"
+                }
+            ],
+            "unitid": "ALBA.PHOTO.165",
+            "unittitle": {
+                "value": "Irving Weissman Photographs"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref14",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref15",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref14",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref15",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_ff7c939f7efe0340f3e0044cb2400636",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_f1304d3ae40ded8a7fc30800844d8f95",
-                                                "parent": "aspace_ff7c939f7efe0340f3e0044cb2400636",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "{1970s or 1980s]"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Contact Sheets: 7 sheets, all showing a Veterans Memorial Gathering. (Among the veterans pictured are: Steve Nelson, George Brodsky, Norman Berkowitz, Stanley Postek, George Watt, Abraham Osheroff, Albert Prago, Al Koslow, Moe Fishman, John Koblich, Abe Smorodin, Hy Wallach, Adolf (Buster) Ross, George A. Cullinen Jr., Stephen Zak, Pete Smith, Court Bevensee, John Tisa, Louis Gordon, John Tisa, John Robinson, John Toutoloff, James Yates, Oscar Hunter, Irving Weissman, Nat Gross, and Ken Graeber.)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_ff7c939f7efe0340f3e0044cb2400636",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_43d874ce9e14500917f3634a3bdba027",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_443ff0cd712309bd731cab5626d9812d",
-                                                "parent": "aspace_43d874ce9e14500917f3634a3bdba027",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1947",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Czechoslovakian Volunteers: Gurs Concentration Camp, France"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_49ca6632db3bd030cc4a69d79e280fe3",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2cd99884aa167eea41b72fdf660f32b3",
-                                                "parent": "aspace_49ca6632db3bd030cc4a69d79e280fe3",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Damaged/Shelled Buildings: Belchite"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_105650fc11f41735ea79e83ff3c1817c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_beee34e35606ea57ca39af7cb3fb6df2",
-                                                "parent": "aspace_105650fc11f41735ea79e83ff3c1817c",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1987/1987",
-                                                "type": "inclusive",
-                                                "value": "1987"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Fiftieth Anniversary Veterans Trip: Orrin Feldt (far left), Joe Hautaneimi (second from right)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_89533f670ffa44c95c86edd162b20725",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a9a3a174b3a1cca670ce14ea89220d85",
-                                                "parent": "aspace_89533f670ffa44c95c86edd162b20725",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Mar 24, 1990"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Florida Veterans: (Back Row) Mike Jimenez, Norman Berkowitz, Bill Rappaport, Irving Gold, Milt Felson, Marvin Penn (Canadian), Tom Keenan, John Tisa; (Front Row) Hy Hirsch, Rubin Erlich, Rose Wachsman (Sorkin), Joe Aznar, Lake Worth Florida"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_10a141df6015c2496b9e718d780f5a42",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0f28d5fa26bd77f35886b7555afd8348",
-                                                "parent": "aspace_10a141df6015c2496b9e718d780f5a42",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Frye, Peter: Portrait, post-SCW"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_728bd328601bf1bd71e91aa703fc311e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b710f0d59cfff44895bee0e53eae27ff",
-                                                "parent": "aspace_728bd328601bf1bd71e91aa703fc311e",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Goldring, Ben: Portrait, post-SCW"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_8724e77cdd4c3930f3a51dc4da03e1db",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_749f5b87fe86ab55f8c3cf07c8080131",
-                                                "parent": "aspace_8724e77cdd4c3930f3a51dc4da03e1db",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1991/1991",
-                                                "type": "inclusive",
-                                                "value": "1991"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Labor History News: Memorial to Irish Veterans, Spain"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_f1c45f8b286c2d62de6be29d4396dc9b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b8cacf14655a0a26611e1b96eff6c455",
-                                                "parent": "aspace_f1c45f8b286c2d62de6be29d4396dc9b",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1991/1991",
-                                                "type": "inclusive",
-                                                "value": "1991"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Labor History News: Veterans on Cover"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_51fb32a0d3c896bbf49d88e9ee850dc1",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5792a85710a026b92532e634528179e0",
-                                                "parent": "aspace_51fb32a0d3c896bbf49d88e9ee850dc1",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Memorial to Jewish Volunteers Killed in Spain, Barcelona"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a4ad2bb0b0b18e6e185f475f74098300",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_92eaa7903dbbfaae4a74ce85153ebe96",
-                                                "parent": "aspace_a4ad2bb0b0b18e6e185f475f74098300",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1941/1941",
-                                                "type": "inclusive",
-                                                "value": "1941"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Noble, Marion: with Robert Steck, post-SCW"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_17c9fbcff6c381b406f2b037f7103f9a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9111f479b05675da30f6ba957178993c",
-                                                "parent": "aspace_17c9fbcff6c381b406f2b037f7103f9a",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Shuman, Jack: with anti-Fascist Posters, post-SCW"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_6c4ca7bf680da327fac6566cff8c5612",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6fc944c26056212aac34c34b063ce977",
-                                                "parent": "aspace_6c4ca7bf680da327fac6566cff8c5612",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "May 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Civilians: Celia, Murcia"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_71d7b2cfc1309559a44a94c7318ac706",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c93a5c9cbdb37ba4509332e5d2673c2e",
-                                                "parent": "aspace_71d7b2cfc1309559a44a94c7318ac706",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stone, Hy: Behind the Lines, Rest and Relaxation, Jarama"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_1040f9d89c090fb9e28560114033f313",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5eb488cea736a779e1699928d46c3579",
-                                                "parent": "aspace_1040f9d89c090fb9e28560114033f313",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Toney, Anthony: Painting of Anthony and Edna Toney"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_4c75b896f258eaaddd17640fad32aba3",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c21d3f0eeadc76f5b081d8b4eb54d509",
-                                                "parent": "aspace_4c75b896f258eaaddd17640fad32aba3",
-                                                "type": "folder",
-                                                "value": "16"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Oct 1967"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans: Art Taylor, Marion Noble, Phil Raymond, Robert Steck, Seattle, WA"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_3cf1e5801c955cda07673c3230475a5c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6f87f48e58ed2b7eeda915f9530d936c",
-                                                "parent": "aspace_3cf1e5801c955cda07673c3230475a5c",
-                                                "type": "folder",
-                                                "value": "17"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 14, 1986"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "VALB: Anti-Apartheid March"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_24634065b95078a532bff8c925bcf056",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_966e6f982d2dd15fb55788d2e4e10d8c",
-                                                "parent": "aspace_24634065b95078a532bff8c925bcf056",
-                                                "type": "folder",
-                                                "value": "18"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans Memorial Meeting"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_6fadfc677b12c2f06da3f09dac168a82",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9d2f1897c5a91c6044b5f4fef1ef3f39",
-                                                "parent": "aspace_6fadfc677b12c2f06da3f09dac168a82",
-                                                "type": "folder",
-                                                "value": "19"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans Memorial Meeting: Charles Clements (l) Steve Nelson (r)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_83958401c30f9cd18d23f7d1c30dd220",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b58cc55a5de54dafadaee9396044af1e",
-                                                "parent": "aspace_83958401c30f9cd18d23f7d1c30dd220",
-                                                "type": "folder",
-                                                "value": "20"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans Memorial Meeting: Charles Clements, Steve Nelson, Harry Fisher, Henry Foner"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref35",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_b7ef2b05cb2317a10355fdeff5c30a8f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0b765e47433180731e73c2d0cf44a019",
-                                                "parent": "aspace_b7ef2b05cb2317a10355fdeff5c30a8f",
-                                                "type": "folder",
-                                                "value": "21"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans Memorial Meeting: Frances Patai"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref36",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_7c9b3da9d837af7b4b45c831be9511ef",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_de9b9fb21b4485133857d5c6eba198e4",
-                                                "parent": "aspace_7c9b3da9d837af7b4b45c831be9511ef",
-                                                "type": "folder",
-                                                "value": "22"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans Memorial Meeting: Marty Balter (l) Steve Nelson (r)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref37",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a3ba6fe4596fbd8298e0deb57f118e61",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_869dcafb09ee14a2ac9e1394e815d3c2",
-                                                "parent": "aspace_a3ba6fe4596fbd8298e0deb57f118e61",
-                                                "type": "folder",
-                                                "value": "23"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans Memorial Meeting: Moe Fishman (standing), Steve Nelson (being hugged), Charles Clements (hugging Nelson)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref38",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_be1f27ec49fcf767a1484e852da74a49",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d25273e54c5e2cfada0205a9461768ea",
-                                                "parent": "aspace_be1f27ec49fcf767a1484e852da74a49",
-                                                "type": "folder",
-                                                "value": "24"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans Memorial Meeting: Moe Fishman and Unidentified Men"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref39",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_c2223c1385a0b1fc0d216086ee0f6eb2",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2e966c4a0ac98af9ecd916df8ff6fb3c",
-                                                "parent": "aspace_c2223c1385a0b1fc0d216086ee0f6eb2",
-                                                "type": "folder",
-                                                "value": "25"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans Memorial Meeting: (l to r) Ruth Epstein, Jacob Epstein, Jack Bjoze, Clarence Kailin, Dave Engleson, Jess Wallach, Blas Padrino (rear), Len Levenson, Ruby Schneiderman, Charles Nusser, Bill Sennett"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref40",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_e6187405a2d02cb8c8a354254a5295d3",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_cb8f28b3be1d0bcc3842b3670f8ba0f7",
-                                                "parent": "aspace_e6187405a2d02cb8c8a354254a5295d3",
-                                                "type": "folder",
-                                                "value": "26"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans Memorial Meeting: Steve Nelson"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref41",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_ee70157be55c8aee51c0fea4fb99c558",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8fb84868447a58f08f70386240026760",
-                                                "parent": "aspace_ee70157be55c8aee51c0fea4fb99c558",
-                                                "type": "folder",
-                                                "value": "27"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans Monument: Sierra de Pandols"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref42",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_838c277f64c53f6fe4d78c498c2c8b0f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_fcb61f0d98f3903976fb426a954b9cf9",
-                                                "parent": "aspace_838c277f64c53f6fe4d78c498c2c8b0f",
-                                                "type": "folder",
-                                                "value": "28"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Weissman, Irving: Portrait, post-SCW"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref43",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_b1e7cd72984fd0c0612417fcf5e6a314",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_ba22bd18c1aff19da6eb1b598943c4c2",
-                                                "parent": "aspace_b1e7cd72984fd0c0612417fcf5e6a314",
-                                                "type": "folder",
-                                                "value": "29"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Weissman, Irving: Portrait, Spain"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref44",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_22bbde5c262b0c176671d85983abbf88",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c6436b28fee408516cf2cf7bb473df83",
-                                                "parent": "aspace_22bbde5c262b0c176671d85983abbf88",
-                                                "type": "folder",
-                                                "value": "30"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "May 12, 1980"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Winston, Henry: with Oscar Hunter, Yusif Story, Randall (Pete) Smith, Len Levenson, U.S."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref45",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_9cd8b7543db94bb57163a657978bd6fd",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2d0a0e8981be1d95e2ef35ad8793d2eb",
-                                                "parent": "aspace_9cd8b7543db94bb57163a657978bd6fd",
-                                                "type": "folder",
-                                                "value": "31"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1948",
-                                                "type": "inclusive",
-                                                "value": "ca.1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Negative: Czechoslovakian Volunteers, Gurs Concentration Camp, France"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_f1304d3ae40ded8a7fc30800844d8f95",
+                                        "parent": "aspace_ff7c939f7efe0340f3e0044cb2400636",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I. Photographs"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref46",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref47",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_0ab3ed9d82eeed7c579813494ba5faf5",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8f259805bcbc2e7c6c8387010e62b219",
-                                                "parent": "aspace_0ab3ed9d82eeed7c579813494ba5faf5",
-                                                "type": "folder",
-                                                "value": "32"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1987/1987",
-                                                "type": "inclusive",
-                                                "value": "1987"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Negative: Fiftieth Anniversary Veterans Trip, Orrin Feldt (far left), Joe Hautaneimi (second from right)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref48",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_e3f547e2fa4757cc430c7ca9e215aac8",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b21d6b93b6a772f61090b3e602339cd9",
-                                                "parent": "aspace_e3f547e2fa4757cc430c7ca9e215aac8",
-                                                "type": "folder",
-                                                "value": "33"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Mar 24, 1990"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Negative: Florida Veterans"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref49",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_04b4f4110e722296985ef3f3eddca535",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_45b792d86c2609026a9cc55d7538a78d",
-                                                "parent": "aspace_04b4f4110e722296985ef3f3eddca535",
-                                                "type": "folder",
-                                                "value": "34"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Negative: Hy Stone, Behind the Lines, Rest and Relaxation, Jarama"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref50",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_92bce710d74a11f272f1202ae26b7347",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4525b69462e85f4f884f2e855344c2d9",
-                                                "parent": "aspace_92bce710d74a11f272f1202ae26b7347",
-                                                "type": "folder",
-                                                "value": "35"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1991/1991",
-                                                "type": "inclusive",
-                                                "value": "1991"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Negative: Labor History News, Memorial to Irish Veterans"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref51",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_56dc179d2d26ae74bf748470bfb4479f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8d91c86f1c7d665f042129a857282858",
-                                                "parent": "aspace_56dc179d2d26ae74bf748470bfb4479f",
-                                                "type": "folder",
-                                                "value": "36"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1991/1991",
-                                                "type": "inclusive",
-                                                "value": "1991"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Negative: Labor History News, Veterans on Cover"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref52",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_e0df6f669448ae53b1a31d78767fe038",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_323d56ea2227d6c957fab64ccef4864b",
-                                                "parent": "aspace_e0df6f669448ae53b1a31d78767fe038",
-                                                "type": "folder",
-                                                "value": "37"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Negative: Peter Frye, Portrait"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref53",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_2473b7a7e86329f54d7f5e2572010afe",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7fb45b360353461c6c36ece814a2547f",
-                                                "parent": "aspace_2473b7a7e86329f54d7f5e2572010afe",
-                                                "type": "folder",
-                                                "value": "38"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Negative: Painting of Anthony and Edna Toney"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref54",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062767705",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_85325223eb96338e400fcc6c5d5c1491",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7f95c8b531d2a2f7b353ccb38d0a8349",
-                                                "parent": "aspace_85325223eb96338e400fcc6c5d5c1491",
-                                                "type": "folder",
-                                                "value": "39"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1991",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Negative: Unidentified Couple"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "value": "{1970s or 1980s]"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series II. Negatives"
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "Contact Sheets: 7 sheets, all showing a Veterans Memorial Gathering. (Among the veterans pictured are: Steve Nelson, George Brodsky, Norman Berkowitz, Stanley Postek, George Watt, Abraham Osheroff, Albert Prago, Al Koslow, Moe Fishman, John Koblich, Abe Smorodin, Hy Wallach, Adolf (Buster) Ross, George A. Cullinen Jr., Stephen Zak, Pete Smith, Court Bevensee, John Tisa, Louis Gordon, John Tisa, John Robinson, John Toutoloff, James Yates, Oscar Hunter, Irving Weissman, Nat Gross, and Ken Graeber.)"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_43d874ce9e14500917f3634a3bdba027",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_443ff0cd712309bd731cab5626d9812d",
+                                        "parent": "aspace_43d874ce9e14500917f3634a3bdba027",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1947",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Czechoslovakian Volunteers: Gurs Concentration Camp, France"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_49ca6632db3bd030cc4a69d79e280fe3",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2cd99884aa167eea41b72fdf660f32b3",
+                                        "parent": "aspace_49ca6632db3bd030cc4a69d79e280fe3",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Damaged/Shelled Buildings: Belchite"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_105650fc11f41735ea79e83ff3c1817c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_beee34e35606ea57ca39af7cb3fb6df2",
+                                        "parent": "aspace_105650fc11f41735ea79e83ff3c1817c",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1987/1987",
+                                        "type": "inclusive",
+                                        "value": "1987"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Fiftieth Anniversary Veterans Trip: Orrin Feldt (far left), Joe Hautaneimi (second from right)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_89533f670ffa44c95c86edd162b20725",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a9a3a174b3a1cca670ce14ea89220d85",
+                                        "parent": "aspace_89533f670ffa44c95c86edd162b20725",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Mar 24, 1990"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Florida Veterans: (Back Row) Mike Jimenez, Norman Berkowitz, Bill Rappaport, Irving Gold, Milt Felson, Marvin Penn (Canadian), Tom Keenan, John Tisa; (Front Row) Hy Hirsch, Rubin Erlich, Rose Wachsman (Sorkin), Joe Aznar, Lake Worth Florida"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_10a141df6015c2496b9e718d780f5a42",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0f28d5fa26bd77f35886b7555afd8348",
+                                        "parent": "aspace_10a141df6015c2496b9e718d780f5a42",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Frye, Peter: Portrait, post-SCW"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_728bd328601bf1bd71e91aa703fc311e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b710f0d59cfff44895bee0e53eae27ff",
+                                        "parent": "aspace_728bd328601bf1bd71e91aa703fc311e",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Goldring, Ben: Portrait, post-SCW"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_8724e77cdd4c3930f3a51dc4da03e1db",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_749f5b87fe86ab55f8c3cf07c8080131",
+                                        "parent": "aspace_8724e77cdd4c3930f3a51dc4da03e1db",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1991/1991",
+                                        "type": "inclusive",
+                                        "value": "1991"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Labor History News: Memorial to Irish Veterans, Spain"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_f1c45f8b286c2d62de6be29d4396dc9b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b8cacf14655a0a26611e1b96eff6c455",
+                                        "parent": "aspace_f1c45f8b286c2d62de6be29d4396dc9b",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1991/1991",
+                                        "type": "inclusive",
+                                        "value": "1991"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Labor History News: Veterans on Cover"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_51fb32a0d3c896bbf49d88e9ee850dc1",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5792a85710a026b92532e634528179e0",
+                                        "parent": "aspace_51fb32a0d3c896bbf49d88e9ee850dc1",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Memorial to Jewish Volunteers Killed in Spain, Barcelona"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a4ad2bb0b0b18e6e185f475f74098300",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_92eaa7903dbbfaae4a74ce85153ebe96",
+                                        "parent": "aspace_a4ad2bb0b0b18e6e185f475f74098300",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1941/1941",
+                                        "type": "inclusive",
+                                        "value": "1941"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Noble, Marion: with Robert Steck, post-SCW"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_17c9fbcff6c381b406f2b037f7103f9a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9111f479b05675da30f6ba957178993c",
+                                        "parent": "aspace_17c9fbcff6c381b406f2b037f7103f9a",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Shuman, Jack: with anti-Fascist Posters, post-SCW"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_6c4ca7bf680da327fac6566cff8c5612",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6fc944c26056212aac34c34b063ce977",
+                                        "parent": "aspace_6c4ca7bf680da327fac6566cff8c5612",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "May 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Civilians: Celia, Murcia"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_71d7b2cfc1309559a44a94c7318ac706",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c93a5c9cbdb37ba4509332e5d2673c2e",
+                                        "parent": "aspace_71d7b2cfc1309559a44a94c7318ac706",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stone, Hy: Behind the Lines, Rest and Relaxation, Jarama"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_1040f9d89c090fb9e28560114033f313",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5eb488cea736a779e1699928d46c3579",
+                                        "parent": "aspace_1040f9d89c090fb9e28560114033f313",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Toney, Anthony: Painting of Anthony and Edna Toney"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_4c75b896f258eaaddd17640fad32aba3",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c21d3f0eeadc76f5b081d8b4eb54d509",
+                                        "parent": "aspace_4c75b896f258eaaddd17640fad32aba3",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Oct 1967"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans: Art Taylor, Marion Noble, Phil Raymond, Robert Steck, Seattle, WA"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_3cf1e5801c955cda07673c3230475a5c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6f87f48e58ed2b7eeda915f9530d936c",
+                                        "parent": "aspace_3cf1e5801c955cda07673c3230475a5c",
+                                        "type": "folder",
+                                        "value": "17"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 14, 1986"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "VALB: Anti-Apartheid March"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_24634065b95078a532bff8c925bcf056",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_966e6f982d2dd15fb55788d2e4e10d8c",
+                                        "parent": "aspace_24634065b95078a532bff8c925bcf056",
+                                        "type": "folder",
+                                        "value": "18"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans Memorial Meeting"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_6fadfc677b12c2f06da3f09dac168a82",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9d2f1897c5a91c6044b5f4fef1ef3f39",
+                                        "parent": "aspace_6fadfc677b12c2f06da3f09dac168a82",
+                                        "type": "folder",
+                                        "value": "19"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans Memorial Meeting: Charles Clements (l) Steve Nelson (r)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_83958401c30f9cd18d23f7d1c30dd220",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b58cc55a5de54dafadaee9396044af1e",
+                                        "parent": "aspace_83958401c30f9cd18d23f7d1c30dd220",
+                                        "type": "folder",
+                                        "value": "20"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans Memorial Meeting: Charles Clements, Steve Nelson, Harry Fisher, Henry Foner"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref35",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_b7ef2b05cb2317a10355fdeff5c30a8f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0b765e47433180731e73c2d0cf44a019",
+                                        "parent": "aspace_b7ef2b05cb2317a10355fdeff5c30a8f",
+                                        "type": "folder",
+                                        "value": "21"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans Memorial Meeting: Frances Patai"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref36",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_7c9b3da9d837af7b4b45c831be9511ef",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_de9b9fb21b4485133857d5c6eba198e4",
+                                        "parent": "aspace_7c9b3da9d837af7b4b45c831be9511ef",
+                                        "type": "folder",
+                                        "value": "22"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans Memorial Meeting: Marty Balter (l) Steve Nelson (r)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref37",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a3ba6fe4596fbd8298e0deb57f118e61",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_869dcafb09ee14a2ac9e1394e815d3c2",
+                                        "parent": "aspace_a3ba6fe4596fbd8298e0deb57f118e61",
+                                        "type": "folder",
+                                        "value": "23"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans Memorial Meeting: Moe Fishman (standing), Steve Nelson (being hugged), Charles Clements (hugging Nelson)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref38",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_be1f27ec49fcf767a1484e852da74a49",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d25273e54c5e2cfada0205a9461768ea",
+                                        "parent": "aspace_be1f27ec49fcf767a1484e852da74a49",
+                                        "type": "folder",
+                                        "value": "24"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans Memorial Meeting: Moe Fishman and Unidentified Men"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref39",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_c2223c1385a0b1fc0d216086ee0f6eb2",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2e966c4a0ac98af9ecd916df8ff6fb3c",
+                                        "parent": "aspace_c2223c1385a0b1fc0d216086ee0f6eb2",
+                                        "type": "folder",
+                                        "value": "25"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans Memorial Meeting: (l to r) Ruth Epstein, Jacob Epstein, Jack Bjoze, Clarence Kailin, Dave Engleson, Jess Wallach, Blas Padrino (rear), Len Levenson, Ruby Schneiderman, Charles Nusser, Bill Sennett"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref40",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_e6187405a2d02cb8c8a354254a5295d3",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_cb8f28b3be1d0bcc3842b3670f8ba0f7",
+                                        "parent": "aspace_e6187405a2d02cb8c8a354254a5295d3",
+                                        "type": "folder",
+                                        "value": "26"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans Memorial Meeting: Steve Nelson"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref41",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_ee70157be55c8aee51c0fea4fb99c558",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8fb84868447a58f08f70386240026760",
+                                        "parent": "aspace_ee70157be55c8aee51c0fea4fb99c558",
+                                        "type": "folder",
+                                        "value": "27"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans Monument: Sierra de Pandols"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref42",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_838c277f64c53f6fe4d78c498c2c8b0f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_fcb61f0d98f3903976fb426a954b9cf9",
+                                        "parent": "aspace_838c277f64c53f6fe4d78c498c2c8b0f",
+                                        "type": "folder",
+                                        "value": "28"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Weissman, Irving: Portrait, post-SCW"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref43",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_b1e7cd72984fd0c0612417fcf5e6a314",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_ba22bd18c1aff19da6eb1b598943c4c2",
+                                        "parent": "aspace_b1e7cd72984fd0c0612417fcf5e6a314",
+                                        "type": "folder",
+                                        "value": "29"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Weissman, Irving: Portrait, Spain"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref44",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_22bbde5c262b0c176671d85983abbf88",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c6436b28fee408516cf2cf7bb473df83",
+                                        "parent": "aspace_22bbde5c262b0c176671d85983abbf88",
+                                        "type": "folder",
+                                        "value": "30"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "May 12, 1980"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Winston, Henry: with Oscar Hunter, Yusif Story, Randall (Pete) Smith, Len Levenson, U.S."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref45",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_9cd8b7543db94bb57163a657978bd6fd",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2d0a0e8981be1d95e2ef35ad8793d2eb",
+                                        "parent": "aspace_9cd8b7543db94bb57163a657978bd6fd",
+                                        "type": "folder",
+                                        "value": "31"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1948",
+                                        "type": "inclusive",
+                                        "value": "ca.1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Negative: Czechoslovakian Volunteers, Gurs Concentration Camp, France"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I. Photographs"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref46",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref47",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_0ab3ed9d82eeed7c579813494ba5faf5",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8f259805bcbc2e7c6c8387010e62b219",
+                                        "parent": "aspace_0ab3ed9d82eeed7c579813494ba5faf5",
+                                        "type": "folder",
+                                        "value": "32"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1987/1987",
+                                        "type": "inclusive",
+                                        "value": "1987"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Negative: Fiftieth Anniversary Veterans Trip, Orrin Feldt (far left), Joe Hautaneimi (second from right)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref48",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_e3f547e2fa4757cc430c7ca9e215aac8",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b21d6b93b6a772f61090b3e602339cd9",
+                                        "parent": "aspace_e3f547e2fa4757cc430c7ca9e215aac8",
+                                        "type": "folder",
+                                        "value": "33"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Mar 24, 1990"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Negative: Florida Veterans"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref49",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_04b4f4110e722296985ef3f3eddca535",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_45b792d86c2609026a9cc55d7538a78d",
+                                        "parent": "aspace_04b4f4110e722296985ef3f3eddca535",
+                                        "type": "folder",
+                                        "value": "34"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Negative: Hy Stone, Behind the Lines, Rest and Relaxation, Jarama"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref50",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_92bce710d74a11f272f1202ae26b7347",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4525b69462e85f4f884f2e855344c2d9",
+                                        "parent": "aspace_92bce710d74a11f272f1202ae26b7347",
+                                        "type": "folder",
+                                        "value": "35"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1991/1991",
+                                        "type": "inclusive",
+                                        "value": "1991"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Negative: Labor History News, Memorial to Irish Veterans"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref51",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_56dc179d2d26ae74bf748470bfb4479f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8d91c86f1c7d665f042129a857282858",
+                                        "parent": "aspace_56dc179d2d26ae74bf748470bfb4479f",
+                                        "type": "folder",
+                                        "value": "36"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1991/1991",
+                                        "type": "inclusive",
+                                        "value": "1991"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Negative: Labor History News, Veterans on Cover"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref52",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_e0df6f669448ae53b1a31d78767fe038",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_323d56ea2227d6c957fab64ccef4864b",
+                                        "parent": "aspace_e0df6f669448ae53b1a31d78767fe038",
+                                        "type": "folder",
+                                        "value": "37"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Negative: Peter Frye, Portrait"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref53",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_2473b7a7e86329f54d7f5e2572010afe",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7fb45b360353461c6c36ece814a2547f",
+                                        "parent": "aspace_2473b7a7e86329f54d7f5e2572010afe",
+                                        "type": "folder",
+                                        "value": "38"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Negative: Painting of Anthony and Edna Toney"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref54",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062767705",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_85325223eb96338e400fcc6c5d5c1491",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7f95c8b531d2a2f7b353ccb38d0a8349",
+                                        "parent": "aspace_85325223eb96338e400fcc6c5d5c1491",
+                                        "type": "folder",
+                                        "value": "39"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1991",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Negative: Unidentified Couple"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series II. Negatives"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_57d96530580464697b266fea4ab9f02c",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -1664,11 +1526,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_e6c7e9fcc3974989c5be7f79a75e425e",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "Irving Weissman Papers, ALBA #165"
@@ -1679,11 +1539,9 @@
         "scopecontent": [
             {
                 "id": "aspace_e644ced51da97b3f84021752bcd7195f",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "\u003cspan class=\"ead-emph ead-emph-bold\"\u003eSeries I: Photographs\u003c/span\u003e. The Irving Weissman Collection contains 289 prints (including seven contact sheets) containing images of Steve Nelson, George Brodsky, Norman Berkowitz, Stanley Postek, George Watt, Abraham Osheroff, Albert Prago, Al Koslow, Moe Fishman, John Koblich, Abe Smorodin, Hy Wallach, Kenneth Graeber, Adolf Ross, George Cullinen, Stephen Zak, Pete Smith, John Tisa, Louis Gordon, Art Shields, John Robinson; Czechoslovakian volunteers at the Gurs Concentration Camp in France, U.S. veterans' Fiftieth Anniversary Trip to Spain and a veterans memorial meeting."
@@ -1697,11 +1555,9 @@
         "userestrict": [
             {
                 "id": "aspace_fd6b2dcb481c5218493892b55d274cf8",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Abraham Lincoln Brigade Archives (ALBA), were transferred to New York University in November 2000 by the ALBA Board of Governors. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -1710,93 +1566,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_photo_165"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_photo_165"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from weissman ALBA Photo.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from weissman ALBA Photo.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Evan Daniel"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Irving Weissman Photograph Collection \u003cspan class=\"ead-num\"\u003eALBA.PHOTO.165\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Evan Daniel",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Irving Weissman Photograph Collection \u003cspan class=\"ead-num\"\u003eALBA.PHOTO.165\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.PHOTO.165"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:37:00 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:37:00 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

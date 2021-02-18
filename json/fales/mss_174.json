@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_98ed3e3c77d69f38c11aa6ea729e6312",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Fales Library and Special Collections, fales.library@nyu.edu, 212-998-2596."
@@ -19,9 +17,21 @@
         "arrangement": [
             {
                 "id": "aspace_5f9cab10b6fe0e0239ca6af58d09294f",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "numeration": "arabic",
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "Series I: Video recordings - The Grand Union, May 1972"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -34,11 +44,9 @@
         "bioghist": [
             {
                 "id": "aspace_7bab60d39c5e01f95139903cfb02b0df",
-                "head": [
-                    {
-                        "value": "Historical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical Note"
+                },
                 "p": [
                     {
                         "value": "The Grand Union was a collective of nine choreographers/ dancers who performed group improvisations from 1970 to 1976. The group evolved out of work by Yvonne Rainer, in particular, \u003cspan class=\"ead-emph ead-emph-italic\"\u003eContinuous Project-Altered Daily\u003c/span\u003e, yet Rainer purposefully subverted her role as leader; each member had an equal give-and-take in the creation and process of the performance. The Grand Union embraced dance, theater, and theatrics in an ongoing investigation into the nature of dance and performance. Performers included David Gordon, Stephen Paxton, Barbara Dilley, Nancy Lewis, Lincoln Scott, Becky Arnold and Douglas Dunn."
@@ -49,65 +57,86 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "The Grand Union"
-                    }
-                ],
-                "genreform": [
-                    "Videocassettes."
-                ],
-                "geogname": [
-                    "New York (N.Y.)."
-                ],
-                "persname": [
-                    {
-                        "value": "Clark, Ron"
-                    },
-                    {
-                        "value": "Brown, Trisha, 1936-2017"
-                    },
-                    {
-                        "value": "Paxton, Steve"
-                    },
-                    {
-                        "value": "Dilley, Barbara"
-                    },
-                    {
-                        "value": "Schoolman, Carlota"
-                    },
-                    {
-                        "value": "Gordon, David, 1936-"
-                    },
-                    {
-                        "value": "Dunn, Douglas, 1942-"
-                    },
-                    {
-                        "value": "Bower, Gary, 1940-"
-                    },
-                    {
-                        "value": "Dearing, Jamie"
-                    },
-                    {
-                        "value": "Green, Nancy"
-                    }
-                ],
-                "subject": [
-                    "Dance -- United States.",
-                    "Modern dance."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "ingest",
+                    "value": "The Grand Union"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Videocassettes."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "New York (N.Y.)."
+                }
+            ],
+            "persname": [
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Clark, Ron"
+                },
+                {
+                    "source": "naf",
+                    "value": "Brown, Trisha, 1936-2017"
+                },
+                {
+                    "source": "naf",
+                    "value": "Paxton, Steve"
+                },
+                {
+                    "source": "local",
+                    "value": "Dilley, Barbara"
+                },
+                {
+                    "source": "local",
+                    "value": "Schoolman, Carlota"
+                },
+                {
+                    "source": "naf",
+                    "value": "Gordon, David, 1936-"
+                },
+                {
+                    "source": "naf",
+                    "value": "Dunn, Douglas, 1942-"
+                },
+                {
+                    "source": "naf",
+                    "value": "Bower, Gary, 1940-"
+                },
+                {
+                    "source": "local",
+                    "value": "Dearing, Jamie"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Green, Nancy"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Dance -- United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Modern dance."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_a8b8834fe3da7576917cd5e7ab4cf8ef",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The videotapes were donated to the Fales Library by Yvonne Rainer in 2002."
@@ -115,901 +144,765 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "4.5 Linear Feet"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "4.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The collection consists of seven videotapes which document a series of Grand Union performances that took place on May 28, 1972 at the Joe LoGiudice Gallery at 59 Wooster Street in SoHo.",
+                    "id": "aspace_74b80cd66f7c5403a90b444d17a59db6"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "The collection consists of seven videotapes which document a series of Grand Union performances that took place on May 28, 1972 at the Joe LoGiudice Gallery at 59 Wooster Street in SoHo.",
-                        "id": "aspace_74b80cd66f7c5403a90b444d17a59db6"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Rainer, Yvonne, 1934-"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Rainer, Yvonne, 1934-"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Fales Library and Special Collections"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1972/1972",
-                        "value": "1972"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "MSS.174"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Yvonne Rainer \u003cspan class=\"ead-emph ead-emph-italic\"\u003eGrand Union\u003c/span\u003e Performance Videotape Collection"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Fales Library and Special Collections"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1972/1972",
+                    "value": "1972"
+                }
+            ],
+            "unitid": "MSS.174",
+            "unittitle": {
+                "value": "Yvonne Rainer \u003cspan class=\"ead-emph ead-emph-italic\"\u003eGrand Union\u003c/span\u003e Performance Videotape Collection"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref12",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref29",
-                                "level": "subseries",
-                                "c": [
-                                    {
-                                        "id": "aspace_ref30",
-                                        "level": "item",
-                                        "accessrestrict": [
-                                            {
-                                                "id": "aspace_dd95fbc9d8f516fd1a7f203bf4dca2ec",
-                                                "head": [
-                                                    {
-                                                        "value": "Conditions Governing Access"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Currently available."
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "did": [
-                                            {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142063396397",
-                                                        "label": "moving images",
-                                                        "altrender": "Record carton",
-                                                        "id": "aspace_ea6e0c2c51ca3e736634ecf182c3fb95",
-                                                        "type": "box",
-                                                        "value": "1"
-                                                    },
-                                                    {
-                                                        "barcode": "31142063238128",
-                                                        "label": "access dvd",
-                                                        "altrender": "Jewel Case - 5.75",
-                                                        "id": "aspace_9b5d5a395e1419f8fa4df06220464f62",
-                                                        "type": "case",
-                                                        "value": "174.0001"
-                                                    },
-                                                    {
-                                                        "barcode": "31142063238268",
-                                                        "label": "access dvd",
-                                                        "altrender": "Jewel Case - 5.75",
-                                                        "id": "aspace_9efb7b90c4605f40254784cf7138b1c6",
-                                                        "type": "case",
-                                                        "value": "174.0022"
-                                                    }
-                                                ],
-                                                "unitdate": [
-                                                    {
-                                                        "normal": "1972/1972",
-                                                        "type": "inclusive",
-                                                        "value": "May 1972"
-                                                    }
-                                                ],
-                                                "unitid": [
-                                                    {
-                                                        "value": "ID: 174.0001"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "The Grand Union, Tape 1"
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "phystech": [
-                                            {
-                                                "id": "aspace_74d24a5d3277d04b3cbfef7d59551fa7",
-                                                "head": [
-                                                    {
-                                                        "value": "Physical Characteristics and Technical Requirements"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Black \u0026 White, Sound"
-                                                    },
-                                                    {
-                                                        "value": "Duration: 1 hour 2 minutes"
-                                                    },
-                                                    {
-                                                        "value": "Original format: 3/4\" Umatic"
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "scopecontent": [
-                                            {
-                                                "id": "aspace_e3796db2b4331b3e3fb32f36ed2eb183",
-                                                "head": [
-                                                    {
-                                                        "value": "Scope and Content"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Documentation of May 1972 dance performance by the Grand Union."
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "aspace_ref32",
-                                        "level": "item",
-                                        "accessrestrict": [
-                                            {
-                                                "id": "aspace_341b73cd56a2ee326021b4cf985bef28",
-                                                "head": [
-                                                    {
-                                                        "value": "Conditions Governing Access"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Currently available."
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "did": [
-                                            {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142063396397",
-                                                        "label": "moving images",
-                                                        "altrender": "Record carton",
-                                                        "id": "aspace_f6885e83e620c9a05d670a82b6596746",
-                                                        "type": "box",
-                                                        "value": "1"
-                                                    },
-                                                    {
-                                                        "barcode": "31142063238144",
-                                                        "label": "access dvd",
-                                                        "altrender": "Jewel Case - 5.75",
-                                                        "id": "aspace_e7d69484592e87358fedc89373b46830",
-                                                        "type": "case",
-                                                        "value": "174.0004"
-                                                    },
-                                                    {
-                                                        "barcode": "31142063238276",
-                                                        "label": "access dvd",
-                                                        "altrender": "Jewel Case - 5.75",
-                                                        "id": "aspace_bc6f2d2ce30cedc659898370cec3ab91",
-                                                        "type": "case",
-                                                        "value": "174.0023"
-                                                    }
-                                                ],
-                                                "unitdate": [
-                                                    {
-                                                        "normal": "1972/1972",
-                                                        "type": "inclusive",
-                                                        "value": "May 1972"
-                                                    }
-                                                ],
-                                                "unitid": [
-                                                    {
-                                                        "value": "ID: 174.0004"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "The Grand Union, Tape 3"
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "phystech": [
-                                            {
-                                                "id": "aspace_6db0d1dded5b3b42ac5f912b38074807",
-                                                "head": [
-                                                    {
-                                                        "value": "Physical Characteristics and Technical Requirements"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Black \u0026 White, Sound"
-                                                    },
-                                                    {
-                                                        "value": "Duration: 1 hour 1 minute "
-                                                    },
-                                                    {
-                                                        "value": "Original format: 3/4\" Umatic"
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "scopecontent": [
-                                            {
-                                                "id": "aspace_6934e210e78c4bda0d764c6a5b582b50",
-                                                "head": [
-                                                    {
-                                                        "value": "Scope and Content"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Documentation of May 1972 dance performance by the Grand Union."
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "aspace_ref34",
-                                        "level": "item",
-                                        "accessrestrict": [
-                                            {
-                                                "id": "aspace_386a73ff6c4c6032de63a25c385faaa0",
-                                                "head": [
-                                                    {
-                                                        "value": "Conditions Governing Access"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Currently available."
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "did": [
-                                            {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142063396397",
-                                                        "label": "moving images",
-                                                        "altrender": "Record carton",
-                                                        "id": "aspace_2c4a5cc0213050acf5faf4a2928de672",
-                                                        "type": "box",
-                                                        "value": "1"
-                                                    },
-                                                    {
-                                                        "barcode": "31142063238169",
-                                                        "label": "access dvd",
-                                                        "altrender": "Jewel Case - 5.75",
-                                                        "id": "aspace_d42564590d125f6b98a873cfbc2d32e0",
-                                                        "type": "case",
-                                                        "value": "174.0007"
-                                                    }
-                                                ],
-                                                "unitdate": [
-                                                    {
-                                                        "normal": "1972/1972",
-                                                        "type": "inclusive",
-                                                        "value": "May 1972"
-                                                    }
-                                                ],
-                                                "unitid": [
-                                                    {
-                                                        "value": "ID: 174.0007"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "The Grand Union, Tape 4"
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "phystech": [
-                                            {
-                                                "id": "aspace_83153bf47c2268a89d440dece00f7e60",
-                                                "head": [
-                                                    {
-                                                        "value": "Physical Characteristics and Technical Requirements"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Black \u0026 White, Sound"
-                                                    },
-                                                    {
-                                                        "value": "Duration: 10 minutes"
-                                                    },
-                                                    {
-                                                        "value": "Original format: 3/4\" Umatic"
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "scopecontent": [
-                                            {
-                                                "id": "aspace_0a280582eadb72b50d72b6983e7baaa4",
-                                                "head": [
-                                                    {
-                                                        "value": "Scope and Content"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Documentation of May 1972 dance performance by the Grand Union."
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "aspace_ref36",
-                                        "level": "item",
-                                        "accessrestrict": [
-                                            {
-                                                "id": "aspace_95a7cef788a48bb1ffb77ed216bf5cf8",
-                                                "head": [
-                                                    {
-                                                        "value": "Conditions Governing Access"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Currently available."
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "did": [
-                                            {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142063396397",
-                                                        "label": "moving images",
-                                                        "altrender": "Record carton",
-                                                        "id": "aspace_6c33f2b88d327f494083bb36d942a0fc",
-                                                        "type": "box",
-                                                        "value": "1"
-                                                    },
-                                                    {
-                                                        "barcode": "31142063238185",
-                                                        "label": "access dvd",
-                                                        "altrender": "Jewel Case - 5.75",
-                                                        "id": "aspace_9ade249d3ffcbfb00c3949dc776feb47",
-                                                        "type": "case",
-                                                        "value": "174.0011"
-                                                    }
-                                                ],
-                                                "unitdate": [
-                                                    {
-                                                        "normal": "1972/1972",
-                                                        "type": "inclusive",
-                                                        "value": "May 1972"
-                                                    }
-                                                ],
-                                                "unitid": [
-                                                    {
-                                                        "value": "ID: 174.0011"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "The Grand Union, Tape 5"
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "phystech": [
-                                            {
-                                                "id": "aspace_d0d7beee0ab641ee07d1a1e60212449e",
-                                                "head": [
-                                                    {
-                                                        "value": "Physical Characteristics and Technical Requirements"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Black \u0026 White, Sound"
-                                                    },
-                                                    {
-                                                        "value": "Duration: 59 minutes"
-                                                    },
-                                                    {
-                                                        "value": "Original format: 3/4\" Umatic"
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "scopecontent": [
-                                            {
-                                                "id": "aspace_dcb650cd59c0a0daade9d05d6b3a8127",
-                                                "head": [
-                                                    {
-                                                        "value": "Scope and Content"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Documentation of May 1972 dance performance by the Grand Union."
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "aspace_ref38",
-                                        "level": "item",
-                                        "accessrestrict": [
-                                            {
-                                                "id": "aspace_7eba974afa3c45a4f4718c37ea2e731f",
-                                                "head": [
-                                                    {
-                                                        "value": "Conditions Governing Access"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Currently available."
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "did": [
-                                            {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142063396397",
-                                                        "label": "moving images",
-                                                        "altrender": "Record carton",
-                                                        "id": "aspace_3c8149ceb395b431011081dfc645ce32",
-                                                        "type": "box",
-                                                        "value": "1"
-                                                    },
-                                                    {
-                                                        "barcode": "31142063238201",
-                                                        "label": "access dvd",
-                                                        "altrender": "Jewel Case - 5.75",
-                                                        "id": "aspace_9d53088ce9a5f0ac981f15d2c262fe8a",
-                                                        "type": "case",
-                                                        "value": "174.0013"
-                                                    },
-                                                    {
-                                                        "barcode": "31142063238284",
-                                                        "label": "access dvd",
-                                                        "altrender": "Jewel Case - 5.75",
-                                                        "id": "aspace_47dc8c2dc13c7a9ac711500a49742758",
-                                                        "type": "case",
-                                                        "value": "174.0024"
-                                                    }
-                                                ],
-                                                "unitdate": [
-                                                    {
-                                                        "normal": "1972/1972",
-                                                        "type": "inclusive",
-                                                        "value": "May 1972"
-                                                    }
-                                                ],
-                                                "unitid": [
-                                                    {
-                                                        "value": "ID: 174.0013"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "The Grand Union, Tape 6"
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "phystech": [
-                                            {
-                                                "id": "aspace_028fff0b9667bb7667f1560d1373630b",
-                                                "head": [
-                                                    {
-                                                        "value": "Physical Characteristics and Technical Requirements"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Black \u0026 White, Sound"
-                                                    },
-                                                    {
-                                                        "value": "Duration: 32 minutes"
-                                                    },
-                                                    {
-                                                        "value": "Original format: 3/4\" Umatic"
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "scopecontent": [
-                                            {
-                                                "id": "aspace_cb9983133f57afc5a4d4e762125320ef",
-                                                "head": [
-                                                    {
-                                                        "value": "Scope and Content"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Documentation of May 1972 dance performance by the Grand Union."
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "aspace_ref40",
-                                        "level": "item",
-                                        "accessrestrict": [
-                                            {
-                                                "id": "aspace_8e2100e2a83b617ed62a0618e424d63e",
-                                                "head": [
-                                                    {
-                                                        "value": "Conditions Governing Access"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Currently available."
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "did": [
-                                            {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142063396397",
-                                                        "label": "moving images",
-                                                        "altrender": "Record carton",
-                                                        "id": "aspace_3bb03403ce8b716df866a147b0de6c7d",
-                                                        "type": "box",
-                                                        "value": "1"
-                                                    },
-                                                    {
-                                                        "barcode": "31142063238227",
-                                                        "label": "access dvd",
-                                                        "altrender": "Jewel Case - 5.75",
-                                                        "id": "aspace_ac71d2a211cdf5fc4911c7cf366133a8",
-                                                        "type": "case",
-                                                        "value": "174.0016"
-                                                    }
-                                                ],
-                                                "unitdate": [
-                                                    {
-                                                        "normal": "1972/1972",
-                                                        "type": "inclusive",
-                                                        "value": "May 1972"
-                                                    }
-                                                ],
-                                                "unitid": [
-                                                    {
-                                                        "value": "ID: 174.0016"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "The Grand Union, Tape 7"
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "phystech": [
-                                            {
-                                                "id": "aspace_f04e4ab9702dd7f5918f9336252bf8e2",
-                                                "head": [
-                                                    {
-                                                        "value": "Physical Characteristics and Technical Requirements"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Black \u0026 White, Sound"
-                                                    },
-                                                    {
-                                                        "value": "Duration: 1 hour 2 minutes"
-                                                    },
-                                                    {
-                                                        "value": "Original format: 3/4\" Umatic"
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "scopecontent": [
-                                            {
-                                                "id": "aspace_de57370a98f8a561bfccf22d0caaa7fc",
-                                                "head": [
-                                                    {
-                                                        "value": "Scope and Content"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Documentation of May 1972 dance performance by the Grand Union."
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "aspace_ref42",
-                                        "level": "item",
-                                        "accessrestrict": [
-                                            {
-                                                "id": "aspace_12c1f65931010b13cb7aa6506c7597c5",
-                                                "head": [
-                                                    {
-                                                        "value": "Conditions Governing Access"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Currently available."
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "did": [
-                                            {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142063396397",
-                                                        "label": "moving images",
-                                                        "altrender": "Record carton",
-                                                        "id": "aspace_53c4754ef1fd26712ffd95adfe617323",
-                                                        "type": "box",
-                                                        "value": "1"
-                                                    },
-                                                    {
-                                                        "barcode": "31142063238243",
-                                                        "label": "access dvd",
-                                                        "altrender": "Jewel Case - 5.75",
-                                                        "id": "aspace_4bf9d7be1b517dfad990b58498773ea5",
-                                                        "type": "case",
-                                                        "value": "174.0020"
-                                                    },
-                                                    {
-                                                        "id": "aspace_e746d320e0cd3f9fbd2d39d136b77341",
-                                                        "parent": "aspace_4bf9d7be1b517dfad990b58498773ea5",
-                                                        "type": "case",
-                                                        "value": "174.0020"
-                                                    },
-                                                    {
-                                                        "barcode": "31142063238292",
-                                                        "label": "access dvd",
-                                                        "altrender": "Jewel Case - 5.75",
-                                                        "id": "aspace_a4e616c489782211901c8bf23bd7e68d",
-                                                        "type": "case",
-                                                        "value": "174.0025"
-                                                    },
-                                                    {
-                                                        "id": "aspace_ba0a6db00d9ac492c6d62594d18b7ae3",
-                                                        "parent": "aspace_a4e616c489782211901c8bf23bd7e68d",
-                                                        "type": "case",
-                                                        "value": "174.0025"
-                                                    }
-                                                ],
-                                                "unitdate": [
-                                                    {
-                                                        "normal": "1972/1972",
-                                                        "type": "inclusive",
-                                                        "value": "May 1972"
-                                                    }
-                                                ],
-                                                "unitid": [
-                                                    {
-                                                        "value": "ID: 174.0020"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "The Grand Union, Tape 8"
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "phystech": [
-                                            {
-                                                "id": "aspace_624f68a388bab31efd1015239bd8ba44",
-                                                "head": [
-                                                    {
-                                                        "value": "Physical Characteristics and Technical Requirements"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Black \u0026 White, Sound"
-                                                    },
-                                                    {
-                                                        "value": "Duration: 58 minutes"
-                                                    },
-                                                    {
-                                                        "value": "Original format: 3/4\" Umatic"
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "scopecontent": [
-                                            {
-                                                "id": "aspace_1f33dbc4b787eeaaf6af968db8c919c1",
-                                                "head": [
-                                                    {
-                                                        "value": "Scope and Content"
-                                                    }
-                                                ],
-                                                "p": [
-                                                    {
-                                                        "value": "Documentation of May 1972 dance performance by the Grand Union. Includes almost twenty minutes of after show footage."
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ],
-                                "did": [
-                                    {
-                                        "unittitle": [
-                                            {
-                                                "value": "Subseries A: Video recordings"
-                                            }
-                                        ]
-                                    }
-                                ],
-                                "phystech": [
-                                    {
-                                        "id": "aspace_6f5824d31cf94af1ff836742388cfdcf",
-                                        "head": [
-                                            {
-                                                "value": "Physical Characteristics and Technical Requirements"
-                                            }
-                                        ],
-                                        "p": [
-                                            {
-                                                "value": "Subseries A includes original donated 3/4\" Umatic tapes."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_6352016e49b286d7c52370de3bd4eb23",
-                                "level": "subseries",
-                                "accessrestrict": [
-                                    {
-                                        "id": "aspace_f63a9645ce922b44344e66e402c32de0",
-                                        "head": [
-                                            {
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref12",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref29",
+                            "level": "subseries",
+                            "c": [
+                                {
+                                    "id": "aspace_ref30",
+                                    "level": "item",
+                                    "accessrestrict": [
+                                        {
+                                            "id": "aspace_dd95fbc9d8f516fd1a7f203bf4dca2ec",
+                                            "head": {
                                                 "value": "Conditions Governing Access"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Currently available."
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "did": {
+                                        "container": [
+                                            {
+                                                "barcode": "31142063396397",
+                                                "label": "moving images",
+                                                "altrender": "Record carton",
+                                                "id": "aspace_ea6e0c2c51ca3e736634ecf182c3fb95",
+                                                "type": "box",
+                                                "value": "1"
+                                            },
+                                            {
+                                                "barcode": "31142063238128",
+                                                "label": "access dvd",
+                                                "altrender": "Jewel Case - 5.75",
+                                                "id": "aspace_9b5d5a395e1419f8fa4df06220464f62",
+                                                "type": "case",
+                                                "value": "174.0001"
+                                            },
+                                            {
+                                                "barcode": "31142063238268",
+                                                "label": "access dvd",
+                                                "altrender": "Jewel Case - 5.75",
+                                                "id": "aspace_9efb7b90c4605f40254784cf7138b1c6",
+                                                "type": "case",
+                                                "value": "174.0022"
                                             }
                                         ],
-                                        "p": [
+                                        "unitdate": [
                                             {
-                                                "value": "CLOSED"
+                                                "normal": "1972/1972",
+                                                "type": "inclusive",
+                                                "value": "May 1972"
                                             }
-                                        ]
-                                    }
-                                ],
-                                "c": [
-                                    {
-                                        "id": "aspace_ec4604a2e455c3baa68cec091b9308fb",
-                                        "level": "file",
-                                        "did": [
+                                        ],
+                                        "unitid": "ID: 174.0001",
+                                        "unittitle": {
+                                            "value": "The Grand Union, Tape 1"
+                                        }
+                                    },
+                                    "phystech": [
+                                        {
+                                            "id": "aspace_74d24a5d3277d04b3cbfef7d59551fa7",
+                                            "head": {
+                                                "value": "Physical Characteristics and Technical Requirements"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Black \u0026 White, Sound"
+                                                },
+                                                {
+                                                    "value": "Duration: 1 hour 2 minutes"
+                                                },
+                                                {
+                                                    "value": "Original format: 3/4\" Umatic"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "scopecontent": [
+                                        {
+                                            "id": "aspace_e3796db2b4331b3e3fb32f36ed2eb183",
+                                            "head": {
+                                                "value": "Scope and Content"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Documentation of May 1972 dance performance by the Grand Union."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "aspace_ref32",
+                                    "level": "item",
+                                    "accessrestrict": [
+                                        {
+                                            "id": "aspace_341b73cd56a2ee326021b4cf985bef28",
+                                            "head": {
+                                                "value": "Conditions Governing Access"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Currently available."
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "did": {
+                                        "container": [
                                             {
-                                                "container": [
-                                                    {
-                                                        "barcode": "31142054893501",
-                                                        "label": "Moving Images",
-                                                        "altrender": "Record carton",
-                                                        "id": "aspace_b39e15005ed71bc740785b7feaf78c01",
-                                                        "type": "box",
-                                                        "value": "PM 48"
-                                                    }
-                                                ],
-                                                "unittitle": [
-                                                    {
-                                                        "value": "ID: 174.0002 - 174.0020"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ],
-                                "did": [
-                                    {
-                                        "unittitle": [
+                                                "barcode": "31142063396397",
+                                                "label": "moving images",
+                                                "altrender": "Record carton",
+                                                "id": "aspace_f6885e83e620c9a05d670a82b6596746",
+                                                "type": "box",
+                                                "value": "1"
+                                            },
                                             {
-                                                "value": "Subseries B: Video Preservation Masters - CLOSED"
+                                                "barcode": "31142063238144",
+                                                "label": "access dvd",
+                                                "altrender": "Jewel Case - 5.75",
+                                                "id": "aspace_e7d69484592e87358fedc89373b46830",
+                                                "type": "case",
+                                                "value": "174.0004"
+                                            },
+                                            {
+                                                "barcode": "31142063238276",
+                                                "label": "access dvd",
+                                                "altrender": "Jewel Case - 5.75",
+                                                "id": "aspace_bc6f2d2ce30cedc659898370cec3ab91",
+                                                "type": "case",
+                                                "value": "174.0023"
                                             }
-                                        ]
+                                        ],
+                                        "unitdate": [
+                                            {
+                                                "normal": "1972/1972",
+                                                "type": "inclusive",
+                                                "value": "May 1972"
+                                            }
+                                        ],
+                                        "unitid": "ID: 174.0004",
+                                        "unittitle": {
+                                            "value": "The Grand Union, Tape 3"
+                                        }
+                                    },
+                                    "phystech": [
+                                        {
+                                            "id": "aspace_6db0d1dded5b3b42ac5f912b38074807",
+                                            "head": {
+                                                "value": "Physical Characteristics and Technical Requirements"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Black \u0026 White, Sound"
+                                                },
+                                                {
+                                                    "value": "Duration: 1 hour 1 minute "
+                                                },
+                                                {
+                                                    "value": "Original format: 3/4\" Umatic"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "scopecontent": [
+                                        {
+                                            "id": "aspace_6934e210e78c4bda0d764c6a5b582b50",
+                                            "head": {
+                                                "value": "Scope and Content"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Documentation of May 1972 dance performance by the Grand Union."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "aspace_ref34",
+                                    "level": "item",
+                                    "accessrestrict": [
+                                        {
+                                            "id": "aspace_386a73ff6c4c6032de63a25c385faaa0",
+                                            "head": {
+                                                "value": "Conditions Governing Access"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Currently available."
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "did": {
+                                        "container": [
+                                            {
+                                                "barcode": "31142063396397",
+                                                "label": "moving images",
+                                                "altrender": "Record carton",
+                                                "id": "aspace_2c4a5cc0213050acf5faf4a2928de672",
+                                                "type": "box",
+                                                "value": "1"
+                                            },
+                                            {
+                                                "barcode": "31142063238169",
+                                                "label": "access dvd",
+                                                "altrender": "Jewel Case - 5.75",
+                                                "id": "aspace_d42564590d125f6b98a873cfbc2d32e0",
+                                                "type": "case",
+                                                "value": "174.0007"
+                                            }
+                                        ],
+                                        "unitdate": [
+                                            {
+                                                "normal": "1972/1972",
+                                                "type": "inclusive",
+                                                "value": "May 1972"
+                                            }
+                                        ],
+                                        "unitid": "ID: 174.0007",
+                                        "unittitle": {
+                                            "value": "The Grand Union, Tape 4"
+                                        }
+                                    },
+                                    "phystech": [
+                                        {
+                                            "id": "aspace_83153bf47c2268a89d440dece00f7e60",
+                                            "head": {
+                                                "value": "Physical Characteristics and Technical Requirements"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Black \u0026 White, Sound"
+                                                },
+                                                {
+                                                    "value": "Duration: 10 minutes"
+                                                },
+                                                {
+                                                    "value": "Original format: 3/4\" Umatic"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "scopecontent": [
+                                        {
+                                            "id": "aspace_0a280582eadb72b50d72b6983e7baaa4",
+                                            "head": {
+                                                "value": "Scope and Content"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Documentation of May 1972 dance performance by the Grand Union."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "aspace_ref36",
+                                    "level": "item",
+                                    "accessrestrict": [
+                                        {
+                                            "id": "aspace_95a7cef788a48bb1ffb77ed216bf5cf8",
+                                            "head": {
+                                                "value": "Conditions Governing Access"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Currently available."
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "did": {
+                                        "container": [
+                                            {
+                                                "barcode": "31142063396397",
+                                                "label": "moving images",
+                                                "altrender": "Record carton",
+                                                "id": "aspace_6c33f2b88d327f494083bb36d942a0fc",
+                                                "type": "box",
+                                                "value": "1"
+                                            },
+                                            {
+                                                "barcode": "31142063238185",
+                                                "label": "access dvd",
+                                                "altrender": "Jewel Case - 5.75",
+                                                "id": "aspace_9ade249d3ffcbfb00c3949dc776feb47",
+                                                "type": "case",
+                                                "value": "174.0011"
+                                            }
+                                        ],
+                                        "unitdate": [
+                                            {
+                                                "normal": "1972/1972",
+                                                "type": "inclusive",
+                                                "value": "May 1972"
+                                            }
+                                        ],
+                                        "unitid": "ID: 174.0011",
+                                        "unittitle": {
+                                            "value": "The Grand Union, Tape 5"
+                                        }
+                                    },
+                                    "phystech": [
+                                        {
+                                            "id": "aspace_d0d7beee0ab641ee07d1a1e60212449e",
+                                            "head": {
+                                                "value": "Physical Characteristics and Technical Requirements"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Black \u0026 White, Sound"
+                                                },
+                                                {
+                                                    "value": "Duration: 59 minutes"
+                                                },
+                                                {
+                                                    "value": "Original format: 3/4\" Umatic"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "scopecontent": [
+                                        {
+                                            "id": "aspace_dcb650cd59c0a0daade9d05d6b3a8127",
+                                            "head": {
+                                                "value": "Scope and Content"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Documentation of May 1972 dance performance by the Grand Union."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "aspace_ref38",
+                                    "level": "item",
+                                    "accessrestrict": [
+                                        {
+                                            "id": "aspace_7eba974afa3c45a4f4718c37ea2e731f",
+                                            "head": {
+                                                "value": "Conditions Governing Access"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Currently available."
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "did": {
+                                        "container": [
+                                            {
+                                                "barcode": "31142063396397",
+                                                "label": "moving images",
+                                                "altrender": "Record carton",
+                                                "id": "aspace_3c8149ceb395b431011081dfc645ce32",
+                                                "type": "box",
+                                                "value": "1"
+                                            },
+                                            {
+                                                "barcode": "31142063238201",
+                                                "label": "access dvd",
+                                                "altrender": "Jewel Case - 5.75",
+                                                "id": "aspace_9d53088ce9a5f0ac981f15d2c262fe8a",
+                                                "type": "case",
+                                                "value": "174.0013"
+                                            },
+                                            {
+                                                "barcode": "31142063238284",
+                                                "label": "access dvd",
+                                                "altrender": "Jewel Case - 5.75",
+                                                "id": "aspace_47dc8c2dc13c7a9ac711500a49742758",
+                                                "type": "case",
+                                                "value": "174.0024"
+                                            }
+                                        ],
+                                        "unitdate": [
+                                            {
+                                                "normal": "1972/1972",
+                                                "type": "inclusive",
+                                                "value": "May 1972"
+                                            }
+                                        ],
+                                        "unitid": "ID: 174.0013",
+                                        "unittitle": {
+                                            "value": "The Grand Union, Tape 6"
+                                        }
+                                    },
+                                    "phystech": [
+                                        {
+                                            "id": "aspace_028fff0b9667bb7667f1560d1373630b",
+                                            "head": {
+                                                "value": "Physical Characteristics and Technical Requirements"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Black \u0026 White, Sound"
+                                                },
+                                                {
+                                                    "value": "Duration: 32 minutes"
+                                                },
+                                                {
+                                                    "value": "Original format: 3/4\" Umatic"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "scopecontent": [
+                                        {
+                                            "id": "aspace_cb9983133f57afc5a4d4e762125320ef",
+                                            "head": {
+                                                "value": "Scope and Content"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Documentation of May 1972 dance performance by the Grand Union."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "aspace_ref40",
+                                    "level": "item",
+                                    "accessrestrict": [
+                                        {
+                                            "id": "aspace_8e2100e2a83b617ed62a0618e424d63e",
+                                            "head": {
+                                                "value": "Conditions Governing Access"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Currently available."
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "did": {
+                                        "container": [
+                                            {
+                                                "barcode": "31142063396397",
+                                                "label": "moving images",
+                                                "altrender": "Record carton",
+                                                "id": "aspace_3bb03403ce8b716df866a147b0de6c7d",
+                                                "type": "box",
+                                                "value": "1"
+                                            },
+                                            {
+                                                "barcode": "31142063238227",
+                                                "label": "access dvd",
+                                                "altrender": "Jewel Case - 5.75",
+                                                "id": "aspace_ac71d2a211cdf5fc4911c7cf366133a8",
+                                                "type": "case",
+                                                "value": "174.0016"
+                                            }
+                                        ],
+                                        "unitdate": [
+                                            {
+                                                "normal": "1972/1972",
+                                                "type": "inclusive",
+                                                "value": "May 1972"
+                                            }
+                                        ],
+                                        "unitid": "ID: 174.0016",
+                                        "unittitle": {
+                                            "value": "The Grand Union, Tape 7"
+                                        }
+                                    },
+                                    "phystech": [
+                                        {
+                                            "id": "aspace_f04e4ab9702dd7f5918f9336252bf8e2",
+                                            "head": {
+                                                "value": "Physical Characteristics and Technical Requirements"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Black \u0026 White, Sound"
+                                                },
+                                                {
+                                                    "value": "Duration: 1 hour 2 minutes"
+                                                },
+                                                {
+                                                    "value": "Original format: 3/4\" Umatic"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "scopecontent": [
+                                        {
+                                            "id": "aspace_de57370a98f8a561bfccf22d0caaa7fc",
+                                            "head": {
+                                                "value": "Scope and Content"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Documentation of May 1972 dance performance by the Grand Union."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "aspace_ref42",
+                                    "level": "item",
+                                    "accessrestrict": [
+                                        {
+                                            "id": "aspace_12c1f65931010b13cb7aa6506c7597c5",
+                                            "head": {
+                                                "value": "Conditions Governing Access"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Currently available."
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "did": {
+                                        "container": [
+                                            {
+                                                "barcode": "31142063396397",
+                                                "label": "moving images",
+                                                "altrender": "Record carton",
+                                                "id": "aspace_53c4754ef1fd26712ffd95adfe617323",
+                                                "type": "box",
+                                                "value": "1"
+                                            },
+                                            {
+                                                "barcode": "31142063238243",
+                                                "label": "access dvd",
+                                                "altrender": "Jewel Case - 5.75",
+                                                "id": "aspace_4bf9d7be1b517dfad990b58498773ea5",
+                                                "type": "case",
+                                                "value": "174.0020"
+                                            },
+                                            {
+                                                "id": "aspace_e746d320e0cd3f9fbd2d39d136b77341",
+                                                "parent": "aspace_4bf9d7be1b517dfad990b58498773ea5",
+                                                "type": "case",
+                                                "value": "174.0020"
+                                            },
+                                            {
+                                                "barcode": "31142063238292",
+                                                "label": "access dvd",
+                                                "altrender": "Jewel Case - 5.75",
+                                                "id": "aspace_a4e616c489782211901c8bf23bd7e68d",
+                                                "type": "case",
+                                                "value": "174.0025"
+                                            },
+                                            {
+                                                "id": "aspace_ba0a6db00d9ac492c6d62594d18b7ae3",
+                                                "parent": "aspace_a4e616c489782211901c8bf23bd7e68d",
+                                                "type": "case",
+                                                "value": "174.0025"
+                                            }
+                                        ],
+                                        "unitdate": [
+                                            {
+                                                "normal": "1972/1972",
+                                                "type": "inclusive",
+                                                "value": "May 1972"
+                                            }
+                                        ],
+                                        "unitid": "ID: 174.0020",
+                                        "unittitle": {
+                                            "value": "The Grand Union, Tape 8"
+                                        }
+                                    },
+                                    "phystech": [
+                                        {
+                                            "id": "aspace_624f68a388bab31efd1015239bd8ba44",
+                                            "head": {
+                                                "value": "Physical Characteristics and Technical Requirements"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Black \u0026 White, Sound"
+                                                },
+                                                {
+                                                    "value": "Duration: 58 minutes"
+                                                },
+                                                {
+                                                    "value": "Original format: 3/4\" Umatic"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "scopecontent": [
+                                        {
+                                            "id": "aspace_1f33dbc4b787eeaaf6af968db8c919c1",
+                                            "head": {
+                                                "value": "Scope and Content"
+                                            },
+                                            "p": [
+                                                {
+                                                    "value": "Documentation of May 1972 dance performance by the Grand Union. Includes almost twenty minutes of after show footage."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "did": {
+                                "unittitle": {
+                                    "value": "Subseries A: Video recordings"
+                                }
+                            },
+                            "phystech": [
+                                {
+                                    "id": "aspace_6f5824d31cf94af1ff836742388cfdcf",
+                                    "head": {
+                                        "value": "Physical Characteristics and Technical Requirements"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Subseries A includes original donated 3/4\" Umatic tapes."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_6352016e49b286d7c52370de3bd4eb23",
+                            "level": "subseries",
+                            "accessrestrict": [
+                                {
+                                    "id": "aspace_f63a9645ce922b44344e66e402c32de0",
+                                    "head": {
+                                        "value": "Conditions Governing Access"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "CLOSED"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "c": [
+                                {
+                                    "id": "aspace_ec4604a2e455c3baa68cec091b9308fb",
+                                    "level": "file",
+                                    "did": {
+                                        "container": [
+                                            {
+                                                "barcode": "31142054893501",
+                                                "label": "Moving Images",
+                                                "altrender": "Record carton",
+                                                "id": "aspace_b39e15005ed71bc740785b7feaf78c01",
+                                                "type": "box",
+                                                "value": "PM 48"
+                                            }
+                                        ],
+                                        "unittitle": {
+                                            "value": "ID: 174.0002 - 174.0020"
+                                        }
                                     }
-                                ]
+                                }
+                            ],
+                            "did": {
+                                "unittitle": {
+                                    "value": "Subseries B: Video Preservation Masters - CLOSED"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
-                                    {
-                                        "value": "Series I: Video recordings - The Grand Union, May 1972"
-                                    }
-                                ]
-                            }
-                        ],
-                        "scopecontent": [
-                            {
-                                "id": "aspace_fcedf1540035a66d8ea7e74294293399",
-                                "head": [
-                                    {
-                                        "value": "Scope and Contents note"
-                                    }
-                                ],
-                                "p": [
-                                    {
-                                        "value": "Contains all video materials in collection. Each subsequent tape is a contuation of the one previous constituting a single performance. Tape 2 was not part of acquisition."
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series I: Video recordings - The Grand Union, May 1972"
+                        }
+                    },
+                    "scopecontent": [
+                        {
+                            "id": "aspace_fcedf1540035a66d8ea7e74294293399",
+                            "head": {
+                                "value": "Scope and Contents note"
+                            },
+                            "p": [
+                                {
+                                    "value": "Contains all video materials in collection. Each subsequent tape is a contuation of the one previous constituting a single performance. Tape 2 was not part of acquisition."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         "phystech": [
             {
                 "id": "aspace_e402e25c7397998216adfcd6ff48d62d",
-                "head": [
-                    {
-                        "value": "Physical Characteristics and Technical Requirements"
-                    }
-                ],
+                "head": {
+                    "value": "Physical Characteristics and Technical Requirements"
+                },
                 "p": [
                     {
                         "value": "Access copies for some materials are available by appointment for reading room viewing and listening only. Please contact fales.library@nyu.edu, 212-998-2596."
@@ -1020,11 +913,9 @@
         "prefercite": [
             {
                 "id": "aspace_262fa24ea8893f0207e23673302766ae",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form:\u003cbr\u003e\u003cbr\u003eIdentification of item, date (if known); The Yvonne Rainer \u003cspan class=\"ead-emph ead-emph-italic\"\u003eGrand Union\u003c/span\u003e Performance Videotape Collection; MSS 174; box number; folder number; Fales Library and Special Collections, New York University Libraries."
@@ -1035,11 +926,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_9578d6deb8042c00c8949fc0203a5161",
-                "head": [
-                    {
-                        "value": "Related Material at Fales Library and Special Collections"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at Fales Library and Special Collections"
+                },
                 "p": [
                     {
                         "value": "Robert Alexander Papers (MSS.114)"
@@ -1053,11 +942,9 @@
         "scopecontent": [
             {
                 "id": "aspace_d866b3569cce1d582cf0f73d517b1f37",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The collection consists of seven videotapes which document a series of Grand Union performances that took place on May 28, 1972 at the Joe LoGiudice Gallery at 59 Wooster Street in SoHo. The performers are Trisha Brown, Barbara Dilley, Douglas Dunn, David Gordon, Nancy Green, Steve Paxton, and Yvonne Rainer. The original footage was shot on ½\" open reel videotape by Gary Bower, Ron Clark, and Jamie Dearing and produced by Carlota Schoolman. In the late 1970's, Schoolman made ¾\" U-Matic dubmasters of the original reels. In a letter to Yvonne Rainier, Schoolman suggested that this second set was incomplete, \"missing the second half,\" possibly because she sent a tape to someone in London. In 1992, Middlemarch Films made another set of ¾\" U-Matic dubs from the dubmasters for a documentary on postmodern dance. The material was not used in the documentary because of objections from Trisha Brown and Steve Paxton. In 2002, this set was given to the Fales Library and Special Collections by Yvonne Rainer. Preservation masters and research copies of the 7 tapes were made in April 2003 by Vidipax (Job #3947). Original numbering of tapes, eg. #D222, was applied by Middlemarch Films. Fales Media Object ID numbers, eg. #174.0001, were assigned in October 2005."
@@ -1068,11 +955,9 @@
         "separatedmaterial": [
             {
                 "id": "aspace_12a0b3f2dc06bc2381598f4619d2a25b",
-                "head": [
-                    {
-                        "value": "Separated Material"
-                    }
-                ],
+                "head": {
+                    "value": "Separated Material"
+                },
                 "p": [
                     {
                         "value": "There is no information about materials that are associated by provenance to the described materials that have been physically separated or removed."
@@ -1083,11 +968,9 @@
         "userestrict": [
             {
                 "id": "aspace_a383f1e675580a088367d05d6ad144cd",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection was not transferred to New York University. Permission to use materials must be secured from the copyright holder. Please contact the Fales Library and Special Collections, fales.library@nyu.edu, 212-998-2596."
@@ -1096,75 +979,64 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NNU-F",
-                    "url": "http://dlib.nyu.edu/findingaids/html/fales/rainer/",
-                    "value": "mss_174"
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NNU-F",
+            "url": "http://dlib.nyu.edu/findingaids/html/fales/rainer/",
+            "value": "mss_174"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from Rainer, Yvonne videotapes\\finding aid.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "publisher": "Fales Library and Special Collections"
+            },
+            "titlestmt": {
+                "author": "Processed by Brandon Stosuy, 2003, with additional research by Pamela Smith and Huiming Yu. Additional media processing by Luke Martin and Brent Phillips, 2008.",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Yvonne Rainer \u003cspan class=\"ead-emph ead-emph-italic\"\u003eGrand Union\u003c/span\u003e performance videotape collection \u003cspan class=\"ead-num\"\u003eMSS.174\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MSS.174"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:06:52 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "filedesc": [
+            }
+        },
+        "revisiondesc": {
+            "change": [
                 {
-                    "editionstmt": [
-                        {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from Rainer, Yvonne videotapes\\finding aid.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
-                        {
-                            "publisher": "Fales Library and Special Collections"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Processed by Brandon Stosuy, 2003, with additional research by Pamela Smith and Huiming Yu. Additional media processing by Luke Martin and Brent Phillips, 2008."
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Yvonne Rainer \u003cspan class=\"ead-emph ead-emph-italic\"\u003eGrand Union\u003c/span\u003e performance videotape collection \u003cspan class=\"ead-num\"\u003eMSS.174\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:06:52 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ],
-            "revisiondesc": [
-                {
-                    "change": [
-                        {
-                            "date": [
-                                "October 2019"
-                            ],
-                            "item": [
-                                {
-                                    "value": "Updated by Kelly Haydon to reflect the removal of VHS access copies"
-                                }
-                            ]
-                        }
-                    ]
+                    "date": {
+                        "value": "October 2019"
+                    },
+                    "item": {
+                        "value": "Updated by Kelly Haydon to reflect the removal of VHS access copies"
+                    }
                 }
             ]
         }
-    ]
+    }
 }

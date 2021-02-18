@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_8686202251d697233890812ae269f8e4",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Open for research without restrictions."
@@ -19,9 +17,20 @@
         "arrangement": [
             {
                 "id": "aspace_614f08946bf6c9a3e2da065ec37a69d4",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I. Subject Files"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -34,11 +43,9 @@
         "bioghist": [
             {
                 "id": "aspace_19b861600051fb3fbd222b5ab45220c6",
-                "head": [
-                    {
-                        "value": "History"
-                    }
-                ],
+                "head": {
+                    "value": "History"
+                },
                 "p": [
                     {
                         "value": "On August 28, 1981, the U.S. Postal Department honored the architect Stanford White, by depicting on a commemorative stamp the Gould Memorial Library, situated on what formerly was the Heights Campus of New York University. White was one of four architects honored in a block of four commemorative stamps, the third issue in an American Architecture series that began to be issues in 1979. The other architects honored in this block are Richard Morris Hunt, Bernard Maybeck, and Louis Sullivan. The National Building Museum, located in the historic Pension Building in Washington, D.C., was chosen as the site of the First Day of Issue Ceremony. "
@@ -55,623 +62,567 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "New York University. University Heights"
-                    },
-                    {
-                        "value": "Gould Memorial Library"
-                    },
-                    {
-                        "value": "New York University. Libraries"
-                    },
-                    {
-                        "value": "United States Postal Service"
+        "controlaccess": {
+            "corpname": [
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "New York University. University Heights"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "Gould Memorial Library"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "New York University. Libraries"
+                },
+                {
+                    "source": "naf",
+                    "value": "United States Postal Service"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Photographs."
+                },
+                {
+                    "source": "aat",
+                    "value": "Clippings (information artifacts)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Postage stamps"
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "White, Stanford, 1853-1906"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Architecture"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Architects and builders."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(.5 manuscript box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Stanford White, a partner of the architectural firm McKim, Mead, \u0026 White (1879-1906), designed several buildings of the University Heights campus of New York University, including the Gould Memorial Library (c. 1895). The campus is now part of the Bronx Community College of the City University of New York. The United States Postal Service selected Stanford White to be one of four architects honored in a block of stamps issued in 1979 in commemoration of American architecture. The Gould Memorial Library was selected as the structure to represent the work of Stanford White.",
+                    "id": "aspace_c8e33441dc5e59368b49131c99427350"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "value": "English"
                     }
-                ],
-                "genreform": [
-                    "Correspondence.",
-                    "Photographs.",
-                    "Clippings (information artifacts)",
-                    "Postage stamps"
-                ],
-                "persname": [
-                    {
-                        "value": "White, Stanford, 1853-1906"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "naf",
+                        "value": "Still, Bayrd"
                     }
-                ],
-                "subject": [
-                    "Architecture",
-                    "Architects and builders."
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "New York University Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1979/1982",
+                    "type": "inclusive",
+                    "value": "1979-1982"
+                }
+            ],
+            "unitid": "MC.6",
+            "unittitle": {
+                "value": "Stanford White Commemorative Stamp Special Collection"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(.5 manuscript box)"
-                            }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "Stanford White, a partner of the architectural firm McKim, Mead, \u0026 White (1879-1906), designed several buildings of the University Heights campus of New York University, including the Gould Memorial Library (c. 1895). The campus is now part of the Bronx Community College of the City University of New York. The United States Postal Service selected Stanford White to be one of four architects honored in a block of stamps issued in 1979 in commemoration of American architecture. The Gould Memorial Library was selected as the structure to represent the work of Stanford White.",
-                        "id": "aspace_c8e33441dc5e59368b49131c99427350"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Still, Bayrd"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "New York University Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1979/1982",
-                        "type": "inclusive",
-                        "value": "1979-1982"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "MC.6"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Stanford White Commemorative Stamp Special Collection"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref1",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref2",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref1",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref2",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063000593",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_489dff9064c43d593e068ca4d7f897ac",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e0baefb6ee3eb8cf96d6dff4476fa3a2",
-                                                "parent": "aspace_489dff9064c43d593e068ca4d7f897ac",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1981/1981",
-                                                "type": "inclusive",
-                                                "value": "August 1981"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Introductory note by Bayrd Still, supplying background details, including White's relationship to New York University"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref3",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142063000593",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_489dff9064c43d593e068ca4d7f897ac",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063000593",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_c684609b702e03c06d3cd6e00971de04",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_694751896f99fd9379729204cca6d12b",
-                                                "parent": "aspace_c684609b702e03c06d3cd6e00971de04",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1981/1981",
-                                                "type": "inclusive",
-                                                "value": "April-September 1981"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence and telephone messages"
-                                            }
-                                        ]
+                                        "id": "aspace_e0baefb6ee3eb8cf96d6dff4476fa3a2",
+                                        "parent": "aspace_489dff9064c43d593e068ca4d7f897ac",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref4",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063000593",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_6b51daf7a7684eea0dedb0d10975c1a6",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7c25bd674c8bc241cb78f7be7ba8a123",
-                                                "parent": "aspace_6b51daf7a7684eea0dedb0d10975c1a6",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1981/1982",
-                                                "type": "inclusive",
-                                                "value": "August 1981-June 1982"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Press releases and newspaper stories, Reference to in \u003cspan class=\"ead-emph ead-emph-underline\"\u003eAmerican Libraries\u003c/span\u003e"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref5",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063000593",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_4c8b23d495ed897f439cffee6804c13d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d4d04ea8f6cddd43987b36b58eb15fb8",
-                                                "parent": "aspace_4c8b23d495ed897f439cffee6804c13d",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1981/1981",
-                                                "type": "inclusive",
-                                                "value": "August 1981"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Program and \"libretto\" for ceremony, August 28, 1981"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref6",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063000593",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_9a92a237e407f06e5262f61c0d27b086",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_f6afa8fd1c40b224ad2062e1a4358d88",
-                                                "parent": "aspace_9a92a237e407f06e5262f61c0d27b086",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1981/1981",
-                                                "type": "inclusive",
-                                                "value": "1981"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Samples of cachets for first-day covers"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref7",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063000593",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_94ed2c4272ae090f8f793117b38182b3",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d9b8b0d8a7a00676e7a0e325a74383da",
-                                                "parent": "aspace_94ed2c4272ae090f8f793117b38182b3",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1981/1981",
-                                                "type": "inclusive",
-                                                "value": "1981"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "First-day covers; transparency of Postal Office poster; small photograph of same"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref8",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063000593",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_177c7a51e82136cb6318935a63eba802",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4f72492fcdd48fa794754fe566b5d10e",
-                                                "parent": "aspace_177c7a51e82136cb6318935a63eba802",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "National Building Museum; Owatonna Bank"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref9",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063000593",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_1e130691a03c66669013fff0ea45c951",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6260f5391c54486423349486ecddd912",
-                                                "parent": "aspace_1e130691a03c66669013fff0ea45c951",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1981/1981",
-                                                "type": "inclusive",
-                                                "value": "August 1981"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Album of stamps presented to Bayrd Still at ceremony, August 28, 1981"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref10",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063000593",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_5e6b42e3bb275928c61242a36eefa9ee",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_965d98823a0760bc17ee8dc233dbcd37",
-                                                "parent": "aspace_5e6b42e3bb275928c61242a36eefa9ee",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1981/1981",
-                                                "type": "inclusive",
-                                                "value": "August 1981"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Photographs"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref11",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142063000593",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_6ea116ef157cc734f830b6a17ba5ca11",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a2816d2e3a6ab951ef9f3931bc0f2387",
-                                                "parent": "aspace_6ea116ef157cc734f830b6a17ba5ca11",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1981",
-                                                "type": "inclusive",
-                                                "value": "1979-1981"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\u003cspan class=\"ead-emph ead-emph-underline\"\u003eReader's Digest\u003c/span\u003e, American Architecture First-Day series, including Stanford White, A.J. Davis, Frank Furness, Thomas Jefferson, and Benjamin Henry Latrobe"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
+                                ],
                                 "langmaterial": [
                                     {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
                                     }
                                 ],
                                 "unitdate": [
                                     {
-                                        "normal": "1979/1982",
+                                        "normal": "1981/1981",
                                         "type": "inclusive",
-                                        "value": "1979-1982"
+                                        "value": "August 1981"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Subject Files"
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "Introductory note by Bayrd Still, supplying background details, including White's relationship to New York University"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref3",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063000593",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_c684609b702e03c06d3cd6e00971de04",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_694751896f99fd9379729204cca6d12b",
+                                        "parent": "aspace_c684609b702e03c06d3cd6e00971de04",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1981/1981",
+                                        "type": "inclusive",
+                                        "value": "April-September 1981"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence and telephone messages"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref4",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063000593",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_6b51daf7a7684eea0dedb0d10975c1a6",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7c25bd674c8bc241cb78f7be7ba8a123",
+                                        "parent": "aspace_6b51daf7a7684eea0dedb0d10975c1a6",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1981/1982",
+                                        "type": "inclusive",
+                                        "value": "August 1981-June 1982"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Press releases and newspaper stories, Reference to in \u003cspan class=\"ead-emph ead-emph-underline\"\u003eAmerican Libraries\u003c/span\u003e"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref5",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063000593",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_4c8b23d495ed897f439cffee6804c13d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d4d04ea8f6cddd43987b36b58eb15fb8",
+                                        "parent": "aspace_4c8b23d495ed897f439cffee6804c13d",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1981/1981",
+                                        "type": "inclusive",
+                                        "value": "August 1981"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Program and \"libretto\" for ceremony, August 28, 1981"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref6",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063000593",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_9a92a237e407f06e5262f61c0d27b086",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_f6afa8fd1c40b224ad2062e1a4358d88",
+                                        "parent": "aspace_9a92a237e407f06e5262f61c0d27b086",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1981/1981",
+                                        "type": "inclusive",
+                                        "value": "1981"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Samples of cachets for first-day covers"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref7",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063000593",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_94ed2c4272ae090f8f793117b38182b3",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d9b8b0d8a7a00676e7a0e325a74383da",
+                                        "parent": "aspace_94ed2c4272ae090f8f793117b38182b3",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1981/1981",
+                                        "type": "inclusive",
+                                        "value": "1981"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "First-day covers; transparency of Postal Office poster; small photograph of same"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref8",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063000593",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_177c7a51e82136cb6318935a63eba802",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4f72492fcdd48fa794754fe566b5d10e",
+                                        "parent": "aspace_177c7a51e82136cb6318935a63eba802",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "National Building Museum; Owatonna Bank"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref9",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063000593",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_1e130691a03c66669013fff0ea45c951",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6260f5391c54486423349486ecddd912",
+                                        "parent": "aspace_1e130691a03c66669013fff0ea45c951",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1981/1981",
+                                        "type": "inclusive",
+                                        "value": "August 1981"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Album of stamps presented to Bayrd Still at ceremony, August 28, 1981"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref10",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063000593",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_5e6b42e3bb275928c61242a36eefa9ee",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_965d98823a0760bc17ee8dc233dbcd37",
+                                        "parent": "aspace_5e6b42e3bb275928c61242a36eefa9ee",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1981/1981",
+                                        "type": "inclusive",
+                                        "value": "August 1981"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Photographs"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref11",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142063000593",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_6ea116ef157cc734f830b6a17ba5ca11",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a2816d2e3a6ab951ef9f3931bc0f2387",
+                                        "parent": "aspace_6ea116ef157cc734f830b6a17ba5ca11",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1981",
+                                        "type": "inclusive",
+                                        "value": "1979-1981"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\u003cspan class=\"ead-emph ead-emph-underline\"\u003eReader's Digest\u003c/span\u003e, American Architecture First-Day series, including Stanford White, A.J. Davis, Frank Furness, Thomas Jefferson, and Benjamin Henry Latrobe"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1979/1982",
+                                "type": "inclusive",
+                                "value": "1979-1982"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Subject Files"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_121550ec06073eb96ba4e07faafe0080",
-                "head": [
-                    {
-                        "value": "Preferred Citation "
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation "
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: Identification of item, date (if known); Stanford White Commemorative Stamp Special Collection; MC 6; box number; folder number; New York University Archives, New York University Libraries."
@@ -682,11 +633,9 @@
         "scopecontent": [
             {
                 "id": "aspace_27c055669e4ff5cf4310340597b697b5",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "This collection consists of correspondence, press releases, newspaper clippings, first day covers, an album of stamps, and photographs pertaining to the selection and publication of Stanford White's Gould Memorial Library in the American Architecture Stamp series."
@@ -697,11 +646,9 @@
         "userestrict": [
             {
                 "id": "aspace_1c2707fb73e3b6023a9eab25a0779218",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Permission to publish materials must be obtained in writing from the:"
@@ -713,59 +660,55 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NyNyUA",
-                    "url": "http://dlib.nyu.edu/findingaids/html/archives/mc_6",
-                    "value": "mc_6"
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NyNyUA",
+            "url": "http://dlib.nyu.edu/findingaids/html/archives/mc_6",
+            "value": "mc_6"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e7-19-2011\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "7-19-2011"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "New York University Archives"
+            },
+            "titlestmt": {
+                "author": "Bayrd Still.  Online finding aid created by Julianna Monjeau.",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Stanford White Commemorative Stamp Special Collection \u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-date\"\u003e1979-1982 \u003c/span\u003e\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e \u003cspan class=\"ead-num\"\u003eMC.6\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MC.6"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 14:32:18 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
-                        {
-                            "publisher": "New York University Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e7-19-2011\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Bayrd Still.  Online finding aid created by Julianna Monjeau."
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Stanford White Commemorative Stamp Special Collection \u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-date\"\u003e1979-1982 \u003c/span\u003e\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e \u003cspan class=\"ead-num\"\u003eMC.6\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 14:32:18 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

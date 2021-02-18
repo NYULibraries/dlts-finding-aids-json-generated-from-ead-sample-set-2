@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_e874c2f732eaeec70621523e32be3abf",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,23 @@
         "arrangement": [
             {
                 "id": "aspace_0d12dc68f9288959822f45fffd9fce4d",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I, Spanish Civil War (1937-1939)"
+                            },
+                            {
+                                "value": "II, Correspondence and Clipping (1931-1935)"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,11 +49,9 @@
         "bioghist": [
             {
                 "id": "aspace_c839ccc50a1cc1c2b13971c8b55d9ab5",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Born Joseph and Leo Mendelowitz in 1914 and 1915, respectively, Joe and Leo Gordon were the sons of Eastern European immigrants, and were raised in the Williamsburg section of Brooklyn. In 1931, soon after their mother died, Joe left home to find work. He hopped freight trains and hitchhiked his way across the country, landing in San Francisco. Leo soon joined Joe out west. The brothers traveled together, working odd jobs in Arizona, New Mexico, Texas, and Louisiana. For a time, Joe had hopes of becoming a professional boxer in New Orleans. Eventually, Joe and Leo went to work for the Civilian Conservation Corps (CCC) in Tennessee, Idaho, and Wyoming. It was during this period that the brothers became politically radicalized, and around this time they adopted the last name Gordon (Joe refers to it in a letter as their \"red name\"). Joe began to organize cannery workers in San Diego, quickly rising to a leadership role in the union. In 1935, he was beaten up by the San Diego Police and kicked out of the city."
@@ -62,60 +72,96 @@
                         "value": "Sources:"
                     },
                     {
-                        "value": "\u003cspan class=\"ead-list\"\u003e\u003cspan class=\"ead-item\"\u003eDaniel Czitrom, Introduction, \"Volunteers for Liberty: Letters from Joe and Leo Gordon, Americans in Spain, 1937-38,\" in Massachusetts Review 25 (Fall 1984).\u003c/span\u003e\u003c/span\u003e "
+                        "value": "\u003cspan class=\"ead-list\"\u003e\u003cspan class=\"ead-item\"\u003eDaniel Czitrom, Introduction, \"Volunteers for Liberty: Letters from Joe and Leo Gordon, Americans in Spain, 1937-38,\" in Massachusetts Review 25 (Fall 1984).\u003c/span\u003e\u003c/span\u003e ",
+                        "list": [
+                            {
+                                "item": [
+                                    {
+                                        "value": "Daniel Czitrom, Introduction, \"Volunteers for Liberty: Letters from Joe and Leo Gordon, Americans in Spain, 1937-38,\" in Massachusetts Review 25 (Fall 1984)."
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV -- biography."
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    },
-                    {
-                        "value": "Spain. Ejercito Popular de la Republica. MacKenzie-Papineau Battalion"
-                    }
-                ],
-                "genreform": [
-                    "Clippings (information artifacts)",
-                    "Printed ephemera.",
-                    "Correspondence."
-                ],
-                "geogname": [
-                    "Jarama River Valley (Spain)",
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American",
-                    "Spain -- History -- Civil War, 1936-1939 -- Personal narratives."
-                ],
-                "persname": [
-                    {
-                        "value": "Gordon, Leo, 1915-1938"
-                    },
-                    {
-                        "role": "Former owner",
-                        "value": "Czitrom, Daniel J., 1951-"
-                    },
-                    {
-                        "value": "Gordon, Joseph, 1914-1942"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939.",
-                    "Brunete, Battle of, Brunete, Spain, 1937."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV -- biography."
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejercito Popular de la Republica. MacKenzie-Papineau Battalion"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Clippings (information artifacts)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Printed ephemera."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Jarama River Valley (Spain)"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Personal narratives."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "local",
+                    "value": "Gordon, Leo, 1915-1938"
+                },
+                {
+                    "role": "Former owner",
+                    "source": "naf",
+                    "value": "Czitrom, Daniel J., 1951-"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Gordon, Joseph, 1914-1942"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Brunete, Battle of, Brunete, Spain, 1937."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_da1c2e2505cf4b594c94f2a1f5f1fa96",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Joseph and Leo Gordon Collection was donated to Abraham Lincoln Brigade Archives in 1998 by Daniel Czitrom. This collection came to New York University in January 2001 as part of the original acquisition of ALBA collections, formerly housed at Brandeis University."
@@ -123,440 +169,380 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Joseph Gordon (1914-1942) and Leo Gordon (1915-1938), brothers raised in Brooklyn, New York, joined the International Brigades in Spain in 1936 and 1937, respectively. Leo was killed in action. Joe later joined the Merchant Marines and was killed when his ship was torpedoed in the North Atlantic. The collection is primarily comprised of letters from Leo and Joe during their time in Spain, as well as letters written while they were traveling and working odd jobs around the U.S. in the early 1930s.",
+                    "id": "aspace_109b4098300c2e09931120bdaf1fe906"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Joseph Gordon (1914-1942) and Leo Gordon (1915-1938), brothers raised in Brooklyn, New York, joined the International Brigades in Spain in 1936 and 1937, respectively. Leo was killed in action. Joe later joined the Merchant Marines and was killed when his ship was torpedoed in the North Atlantic. The collection is primarily comprised of letters from Leo and Joe during their time in Spain, as well as letters written while they were traveling and working odd jobs around the U.S. in the early 1930s.",
-                        "id": "aspace_109b4098300c2e09931120bdaf1fe906"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "source",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Czitrom, Daniel J., 1951-"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
+                },
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
+                        "value": "Gordon, Leo, 1915-1938"
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "value": "Czitrom, Daniel J., 1951-"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Gordon, Leo, 1915-1938"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Gordon, Joseph, 1914-1942"
-                            }
-                        ]
+                },
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Gordon, Joseph, 1914-1942"
                     }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1931/1939",
-                        "type": "inclusive",
-                        "value": "1931-1939"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.133"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Joseph and Leo Gordon Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1931/1939",
+                    "type": "inclusive",
+                    "value": "1931-1939"
+                }
+            ],
+            "unitid": "ALBA.133",
+            "unittitle": {
+                "value": "Joseph and Leo Gordon Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref14",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref15",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref14",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref15",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756625",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_b63d09aba2a6d371415a33cb39c9ceb8",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_73bbe8971f8ab97d5321153bc1a785f4",
-                                                "parent": "aspace_b63d09aba2a6d371415a33cb39c9ceb8",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1938",
-                                                "type": "inclusive",
-                                                "value": "1937 , 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Carnet militar and border pass"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062756625",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_b63d09aba2a6d371415a33cb39c9ceb8",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756625",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_7ff5e01808ede2652d73b66ff3eccfdc",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8265f4fdf9afb37c8f0611f3b9732c2d",
-                                                "parent": "aspace_7ff5e01808ede2652d73b66ff3eccfdc",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1939",
-                                                "type": "inclusive",
-                                                "value": "1937-1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clippings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756625",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_edad92086231dfa42711750a7f28a967",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_78d85c25b25bca465fb6aa78bfda67b1",
-                                                "parent": "aspace_edad92086231dfa42711750a7f28a967",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 1938-Sep 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Gordon, Joe"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756625",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_f377c282b5ca656ca9c6848d405bf299",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_f03464f245e261905c8047794a11363d",
-                                                "parent": "aspace_f377c282b5ca656ca9c6848d405bf299",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 1937-Feb 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Gordon, Leo"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_73bbe8971f8ab97d5321153bc1a785f4",
+                                        "parent": "aspace_b63d09aba2a6d371415a33cb39c9ceb8",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: Spanish Civil War (1937-1939)"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref19",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756625",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_6aeee21de139efd6e803000b4cd0edf2",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_73ce288ad75ea50bcd4162a25223039a",
-                                                "parent": "aspace_6aeee21de139efd6e803000b4cd0edf2",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1922/1942",
-                                                "type": "inclusive",
-                                                "value": "ca.1932"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clipping"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756625",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_153631a1057b9e3e17e059866014e1bf",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e82439abd58fbba9160aabedeea0c4f8",
-                                                "parent": "aspace_153631a1057b9e3e17e059866014e1bf",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1935/1935",
-                                                "type": "inclusive",
-                                                "value": "1935"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Gordon, Joe"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756625",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_bfadd7c8d9215e4eda44e36e59d03480",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_396799cf4870c0e90e13a8a7cfaae296",
-                                                "parent": "aspace_bfadd7c8d9215e4eda44e36e59d03480",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1931/1939",
-                                                "type": "inclusive",
-                                                "value": "undated , Sep 1931-Jan 1934; 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Gordon, Leo"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756625",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_855b888299d2a7740c03c576c8b64b31",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_85e12a1961278ac2a515ffb7900f6029",
-                                                "parent": "aspace_855b888299d2a7740c03c576c8b64b31",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Dec 1931-Feb 1932"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Gordon, Leo and Joe"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "normal": "1937/1938",
+                                        "type": "inclusive",
+                                        "value": "1937 , 1938"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series II: Correspondence and Clipping (1931-1935)"
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "Carnet militar and border pass"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756625",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_7ff5e01808ede2652d73b66ff3eccfdc",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8265f4fdf9afb37c8f0611f3b9732c2d",
+                                        "parent": "aspace_7ff5e01808ede2652d73b66ff3eccfdc",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1939",
+                                        "type": "inclusive",
+                                        "value": "1937-1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Clippings"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756625",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_edad92086231dfa42711750a7f28a967",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_78d85c25b25bca465fb6aa78bfda67b1",
+                                        "parent": "aspace_edad92086231dfa42711750a7f28a967",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 1938-Sep 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Gordon, Joe"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756625",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_f377c282b5ca656ca9c6848d405bf299",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_f03464f245e261905c8047794a11363d",
+                                        "parent": "aspace_f377c282b5ca656ca9c6848d405bf299",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Aug 1937-Feb 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Gordon, Leo"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Spanish Civil War (1937-1939)"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref19",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756625",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_6aeee21de139efd6e803000b4cd0edf2",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_73ce288ad75ea50bcd4162a25223039a",
+                                        "parent": "aspace_6aeee21de139efd6e803000b4cd0edf2",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1922/1942",
+                                        "type": "inclusive",
+                                        "value": "ca.1932"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Clipping"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756625",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_153631a1057b9e3e17e059866014e1bf",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e82439abd58fbba9160aabedeea0c4f8",
+                                        "parent": "aspace_153631a1057b9e3e17e059866014e1bf",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1935/1935",
+                                        "type": "inclusive",
+                                        "value": "1935"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Gordon, Joe"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756625",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_bfadd7c8d9215e4eda44e36e59d03480",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_396799cf4870c0e90e13a8a7cfaae296",
+                                        "parent": "aspace_bfadd7c8d9215e4eda44e36e59d03480",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1931/1939",
+                                        "type": "inclusive",
+                                        "value": "undated , Sep 1931-Jan 1934; 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Gordon, Leo"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756625",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_855b888299d2a7740c03c576c8b64b31",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_85e12a1961278ac2a515ffb7900f6029",
+                                        "parent": "aspace_855b888299d2a7740c03c576c8b64b31",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Dec 1931-Feb 1932"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Gordon, Leo and Joe"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series II: Correspondence and Clipping (1931-1935)"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_3c877ad9774d476c44b7f9e323ad10b5",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -567,11 +553,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_11217656577889fd8d1f07532a1d1f89",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "ALBA collections at the Tamiment Library."
@@ -582,11 +566,9 @@
         "scopecontent": [
             {
                 "id": "aspace_d95e90d7f631ec3147961b91e53e10e6",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "\u003cspan class=\"ead-emph ead-emph-bold\"\u003eSeries I, Spanish Civil War (1937-1939)\u003c/span\u003eprimarily consists of letters from Leo and Joe Gordon to various family members about daily life, politics, and battle experiences. All of Joe's letters date from his second trip to Spain, after Leo's death. There are also newspaper articles related to the Spanish Civil War, a border pass and military passport (Carnet militar) for Joe."
@@ -603,11 +585,9 @@
         "userestrict": [
             {
                 "id": "aspace_65714302bc0e318c76b7a3a752ec9555",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Abraham Lincoln Brigade Archives (ALBA), were transferred to New York University in November 2000 by the ALBA Board of Governors. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -616,93 +596,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_133"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_133"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from gordon.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from gordon.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Wendy Scheir"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Joseph and Leo Gordon Papers \u003cspan class=\"ead-num\"\u003eALBA.133\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Wendy Scheir",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Joseph and Leo Gordon Papers \u003cspan class=\"ead-num\"\u003eALBA.133\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.133"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:35:11 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:35:11 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_7b6394a5a2240c7b13747630b02bb381",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access "
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access "
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "arrangement": [
             {
                 "id": "aspace_d20dae2986a389d2e076f648db138719",
-                "head": [
-                    {
-                        "value": "Arrangement "
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement "
+                },
                 "p": [
                     {
                         "value": "This collection is arranged in two series: Grand Master of Masons and St. David's Society of the State of New York. Within each series, folders are arranged chronologically."
@@ -34,11 +30,9 @@
         "bioghist": [
             {
                 "id": "aspace_a091c28c868eae7afceece7f2f8f46f8",
-                "head": [
-                    {
-                        "value": "Biography"
-                    }
-                ],
+                "head": {
+                    "value": "Biography"
+                },
                 "p": [
                     {
                         "value": "Charles F. Gosnell served as Director of Libraries at New York University (NYU) and professor at NYU's School of Law, specializing in civil liberties and constitutional law, from 1962 to 1974.  During this time he served as a consultant to the University of Brasilia and to the Inter-American Development Bank and headed a UNESCO survey of public library services in Colombia.  "
@@ -58,29 +52,32 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "St. David's Society of the State of New York"
-                    },
-                    {
-                        "value": "New York University. Office of Library Administration"
-                    }
-                ],
-                "subject": [
-                    "Freemasons."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "St. David's Society of the State of New York"
+                },
+                {
+                    "rules": "aacr",
+                    "source": "local",
+                    "value": "New York University. Office of Library Administration"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Freemasons."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_bae0d79b6a2c90d7e34cf6c379f4da3a",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "Transferred from Gould Memorial Library at an unspecified date."
@@ -88,401 +85,323 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Charles F. Gosnell served as Director of Libraries at New York University (NYU) and taught library administration and law in the University's School of Law.  This collection includes articles, programs, and a member list of the Free and Accepted Masons along with a booklet by the St. David's Society of the State of New York.",
+                    "id": "aspace_94e46e8edbddbb9e616fba1aba20aebf"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English.",
+                    "id": "aspace_7432cdd54754aa5970d90efe39dad611"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "naf",
+                        "value": "Gosnell, Charles Francis, 1909-1993"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Charles F. Gosnell served as Director of Libraries at New York University (NYU) and taught library administration and law in the University's School of Law.  This collection includes articles, programs, and a member list of the Free and Accepted Masons along with a booklet by the St. David's Society of the State of New York.",
-                        "id": "aspace_94e46e8edbddbb9e616fba1aba20aebf"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_7432cdd54754aa5970d90efe39dad611",
-                        "value": "Materials are in English."
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Gosnell, Charles Francis, 1909-1993"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "New York University Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1967/1969",
-                        "type": "inclusive",
-                        "value": "1967-1969"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "MC.58"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Charles F. Gosnell Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "New York University Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1967/1969",
+                    "type": "inclusive",
+                    "value": "1967-1969"
+                }
+            ],
+            "unitid": "MC.58",
+            "unittitle": {
+                "value": "Charles F. Gosnell Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref1",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref7",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref1",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref7",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062742419",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_219e79e002959d55b51e2b0a81376bef",
-                                                "type": "box",
-                                                "value": "Shared University Archives 009"
-                                            },
-                                            {
-                                                "id": "aspace_7ddfa2a77ea46d58ce77182216e13923",
-                                                "parent": "aspace_219e79e002959d55b51e2b0a81376bef",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1968/1968",
-                                                "type": "inclusive",
-                                                "value": "1968"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Members of Master's Lodge of Masons"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref2",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062742419",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_219e79e002959d55b51e2b0a81376bef",
+                                        "type": "box",
+                                        "value": "Shared University Archives 009"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062742419",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_67eb5ff0ba0181a99f053cfe5842e61b",
-                                                "type": "box",
-                                                "value": "Shared University Archives 009"
-                                            },
-                                            {
-                                                "id": "aspace_6a05a38ca03397714321085fd0b7d591",
-                                                "parent": "aspace_67eb5ff0ba0181a99f053cfe5842e61b",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1968/1968",
-                                                "type": "inclusive",
-                                                "value": "1968"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\"The Masons - a universal brotherhood\" article"
-                                            }
-                                        ]
+                                        "id": "aspace_7ddfa2a77ea46d58ce77182216e13923",
+                                        "parent": "aspace_219e79e002959d55b51e2b0a81376bef",
+                                        "type": "folder",
+                                        "value": "2"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref4",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062742419",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_febd9a8cab3d3d82923ff2bbd658eca1",
-                                                "type": "box",
-                                                "value": "Shared University Archives 009"
-                                            },
-                                            {
-                                                "id": "aspace_09413696981c854478253fe6a34a5961",
-                                                "parent": "aspace_febd9a8cab3d3d82923ff2bbd658eca1",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1969/1969",
-                                                "type": "inclusive",
-                                                "value": "1969"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Address of M.W. Charles F. Gosnell"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref5",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062742419",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_6e55bb526fd26a1557b443865abb6f8f",
-                                                "type": "box",
-                                                "value": "Shared University Archives 009"
-                                            },
-                                            {
-                                                "id": "aspace_423ae67de71a3f2b152fcf45ec6dac6c",
-                                                "parent": "aspace_6e55bb526fd26a1557b443865abb6f8f",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1969/1969",
-                                                "type": "inclusive",
-                                                "value": "1969"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Installation of Grand Master of Masons in New York State"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref6",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062742419",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_ec6437945245a2026c1e4375d6fe252b",
-                                                "type": "box",
-                                                "value": "Shared University Archives 009"
-                                            },
-                                            {
-                                                "id": "aspace_cf322daf79087b49e38a7db999b28957",
-                                                "parent": "aspace_ec6437945245a2026c1e4375d6fe252b",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1969/1969",
-                                                "type": "inclusive",
-                                                "value": "1969"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Grand Master's Dinner Program"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
+                                ],
                                 "langmaterial": [
                                     {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
                                     }
                                 ],
                                 "unitdate": [
                                     {
-                                        "normal": "1968/1969",
+                                        "normal": "1968/1968",
                                         "type": "inclusive",
-                                        "value": "1968-1969"
+                                        "value": "1968"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series I: Grand Master of Masons"
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "Members of Master's Lodge of Masons"
+                                }
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref9",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref10",
-                                "level": "file",
-                                "did": [
+                        },
+                        {
+                            "id": "aspace_ref2",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062742419",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_3d0ed8c32a4a67c2eb78cb0b333be044",
-                                                "type": "box",
-                                                "value": "Shared University Archives 009"
-                                            },
-                                            {
-                                                "id": "aspace_97969ee81d0856464a859a2b3d4dffb4",
-                                                "parent": "aspace_3d0ed8c32a4a67c2eb78cb0b333be044",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "langmaterial": [
-                                            {
-                                                "language": [
-                                                    {
-                                                        "langcode": "eng",
-                                                        "value": "English"
-                                                    }
-                                                ],
-                                                "value": "."
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1967/1967",
-                                                "type": "inclusive",
-                                                "value": "1967"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "St. David's Society of the State of New York Booklet"
-                                            }
-                                        ]
+                                        "barcode": "31142062742419",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_67eb5ff0ba0181a99f053cfe5842e61b",
+                                        "type": "box",
+                                        "value": "Shared University Archives 009"
+                                    },
+                                    {
+                                        "id": "aspace_6a05a38ca03397714321085fd0b7d591",
+                                        "parent": "aspace_67eb5ff0ba0181a99f053cfe5842e61b",
+                                        "type": "folder",
+                                        "value": "3"
                                     }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
+                                ],
                                 "langmaterial": [
                                     {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1968/1968",
+                                        "type": "inclusive",
+                                        "value": "1968"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\"The Masons - a universal brotherhood\" article"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref4",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062742419",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_febd9a8cab3d3d82923ff2bbd658eca1",
+                                        "type": "box",
+                                        "value": "Shared University Archives 009"
+                                    },
+                                    {
+                                        "id": "aspace_09413696981c854478253fe6a34a5961",
+                                        "parent": "aspace_febd9a8cab3d3d82923ff2bbd658eca1",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1969/1969",
+                                        "type": "inclusive",
+                                        "value": "1969"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Address of M.W. Charles F. Gosnell"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref5",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062742419",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_6e55bb526fd26a1557b443865abb6f8f",
+                                        "type": "box",
+                                        "value": "Shared University Archives 009"
+                                    },
+                                    {
+                                        "id": "aspace_423ae67de71a3f2b152fcf45ec6dac6c",
+                                        "parent": "aspace_6e55bb526fd26a1557b443865abb6f8f",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1969/1969",
+                                        "type": "inclusive",
+                                        "value": "1969"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Installation of Grand Master of Masons in New York State"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref6",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062742419",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_ec6437945245a2026c1e4375d6fe252b",
+                                        "type": "box",
+                                        "value": "Shared University Archives 009"
+                                    },
+                                    {
+                                        "id": "aspace_cf322daf79087b49e38a7db999b28957",
+                                        "parent": "aspace_ec6437945245a2026c1e4375d6fe252b",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1969/1969",
+                                        "type": "inclusive",
+                                        "value": "1969"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Grand Master's Dinner Program"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1968/1969",
+                                "type": "inclusive",
+                                "value": "1968-1969"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Grand Master of Masons"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref9",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref10",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062742419",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_3d0ed8c32a4a67c2eb78cb0b333be044",
+                                        "type": "box",
+                                        "value": "Shared University Archives 009"
+                                    },
+                                    {
+                                        "id": "aspace_97969ee81d0856464a859a2b3d4dffb4",
+                                        "parent": "aspace_3d0ed8c32a4a67c2eb78cb0b333be044",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "langmaterial": [
+                                    {
+                                        "value": ".",
+                                        "language": {
+                                            "langcode": "eng",
+                                            "value": "English"
+                                        }
                                     }
                                 ],
                                 "unitdate": [
@@ -492,25 +411,42 @@
                                         "value": "1967"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series II: St. David's Society of the State of New York"
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "St. David's Society of the State of New York Booklet"
+                                }
                             }
-                        ]
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1967/1967",
+                                "type": "inclusive",
+                                "value": "1967"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series II: St. David's Society of the State of New York"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_072f598765b0b20af71fe45cac5da63d",
-                "head": [
-                    {
-                        "value": "Preferred Citation "
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation "
+                },
                 "p": [
                     {
                         "value": "Identification of item, date (if known); Charles F. Gosnell Papers; MC 58; box number; folder number; New York University Archives, New York University Libraries."
@@ -521,11 +457,9 @@
         "processinfo": [
             {
                 "id": "aspace_24f25540b0a14a152fb87b7df9efb88e",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "Processing information before 2019 is unavailable."
@@ -536,11 +470,9 @@
         "scopecontent": [
             {
                 "id": "aspace_b892bf68e248168ca2ea15abda8f314b",
-                "head": [
-                    {
-                        "value": "Scope and Contents "
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents "
+                },
                 "p": [
                     {
                         "value": "This collection contains articles, programs, and lists pertaining to Gosnell's membership in and leadership positions within the Masons."
@@ -551,11 +483,9 @@
         "userestrict": [
             {
                 "id": "aspace_4a98f385ba85349613ac3eebfe52e3fa",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the creator are maintained by New York University. Permission to publish or reproduce materials in this collection must be secured from New York University Archives, (212) 998-2646, university-archives@nyu.edu."
@@ -564,73 +494,52 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NyNyUA",
+            "url": "http://dlib.nyu.edu/findingaids/html/archives/gosnell",
+            "value": "mc_58"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "publisher": "New York University Archives"
+            },
+            "titlestmt": {
+                "author": "Norma Chaires.",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Charles F. Gosnell Papers \u003cspan class=\"ead-num\"\u003eMC.58\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MC.58"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 14:32:16 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
+        },
+        "revisiondesc": {
+            "change": [
                 {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NyNyUA",
-                    "url": "http://dlib.nyu.edu/findingaids/html/archives/gosnell",
-                    "value": "mc_58"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
-                        {
-                            "publisher": "New York University Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Norma Chaires."
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Charles F. Gosnell Papers \u003cspan class=\"ead-num\"\u003eMC.58\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 14:32:16 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Finding aid written in English."
-                        }
-                    ]
-                }
-            ],
-            "revisiondesc": [
-                {
-                    "change": [
-                        {
-                            "date": [
-                                "January 2019"
-                            ],
-                            "item": [
-                                {
-                                    "value": "Edited by Jacqueline Rider for compliance with DACS and ACM Required Elements for Archival Description"
-                                }
-                            ]
-                        }
-                    ]
+                    "date": {
+                        "value": "January 2019"
+                    },
+                    "item": {
+                        "value": "Edited by Jacqueline Rider for compliance with DACS and ACM Required Elements for Archival Description"
+                    }
                 }
             ]
         }
-    ]
+    }
 }

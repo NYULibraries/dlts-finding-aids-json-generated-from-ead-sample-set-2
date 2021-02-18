@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_65385cc904cbf5bf427658657fb527c7",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Unprocessed paper materials are closed until processing, due to the presence of personal identifying information throughout the records. The archived website is available for research without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_7c5738c6c1919dd73f67c7148789c08c",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Donated by the National Writers Union, NY Local in 1985. The accession number associated with this gift is 1985.021. Additional materials were donated in 2009 and 2012. The accession numbers associated with these materials are 2009.070 and 2012.007."
@@ -34,11 +30,9 @@
         "arrangement": [
             {
                 "id": "aspace_da95d1973541de1d9601dafce21bced8",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "This collection has not been arranged by an archivist. The materials are arranged in the order in which they were received from the donor."
@@ -49,11 +43,9 @@
         "bioghist": [
             {
                 "id": "aspace_58a317fc81937661556640eb6b7cacfc",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "The National Writers Union (NWU) represents freelance writers throughout the United States.  It was formed in 1981 during the Writers' Congress held in New York City.  By the end of the year, the organization had more than 1000 dues-paying members and was actively organizing around the country.  The Union convened annual delegates' assemblies, offered a low-cost health and dental insurance plan for freelancers, instituted a committee structure, and produced materials to assist their membership such as a model book contract, a survey of New England publications and a checklist of questions for writers to use when bidding on jobs.  Most significantly, the Union began to win contracts with periodicals, such as \u003cspan class=\"ead-emph ead-emph-italic\"\u003eMother Jones\u003c/span\u003e, \u003cspan class=\"ead-emph ead-emph-italic\"\u003eColumbia Journalism Review\u003c/span\u003e, \u003cspan class=\"ead-emph ead-emph-italic\"\u003eIn These Times\u003c/span\u003e, and \u003cspan class=\"ead-emph ead-emph-italic\"\u003eLos Angeles Weekly\u003c/span\u003e.  In 1981, the NWU affiliated with the United Auto Workers (UAW) as Local 1981.  The NWU's fight for author retention of copyright in electronically published articles culminated in its victory in \u003cspan class=\"ead-emph ead-emph-italic\"\u003eTasini v. New York Times Co.\u003c/span\u003e in 2001.  As of 2011, the NWU has over 1,500 members in fifteen locals."
@@ -61,60 +53,83 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Organizing Committee for a National Writers Union (U.S.)"
-                    },
-                    {
-                        "value": "National Writers Union (U.S.)"
-                    },
-                    {
-                        "value": "National Writers Union (U.S.). New York Local"
-                    },
-                    {
-                        "value": "Google Library Project"
-                    },
-                    {
-                        "value": "New York Times Company"
-                    },
-                    {
-                        "role": "Donor",
-                        "value": "National Writers Union (U.S.). New York Local"
-                    }
-                ],
-                "persname": [
-                    {
-                        "value": "Tasini, Jonathan"
-                    },
-                    {
-                        "value": "Dubro, Alec"
-                    },
-                    {
-                        "value": "Reiser, Bob"
-                    },
-                    {
-                        "value": "Sunshine, Alice"
-                    }
-                ],
-                "subject": [
-                    "Authors and publishers.",
-                    "Authors |x Labor unions |z United States.",
-                    "Copyright infringement.",
-                    "Copyright |x Databases.",
-                    "Copyright |z United States."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "local",
+                    "value": "Organizing Committee for a National Writers Union (U.S.)"
+                },
+                {
+                    "source": "naf",
+                    "value": "National Writers Union (U.S.)"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "National Writers Union (U.S.). New York Local"
+                },
+                {
+                    "source": "naf",
+                    "value": "Google Library Project"
+                },
+                {
+                    "source": "naf",
+                    "value": "New York Times Company"
+                },
+                {
+                    "role": "Donor",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "National Writers Union (U.S.). New York Local"
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Tasini, Jonathan"
+                },
+                {
+                    "source": "naf",
+                    "value": "Dubro, Alec"
+                },
+                {
+                    "source": "naf",
+                    "value": "Reiser, Bob"
+                },
+                {
+                    "source": "local",
+                    "value": "Sunshine, Alice"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Authors and publishers."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Authors |x Labor unions |z United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Copyright infringement."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Copyright |x Databases."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Copyright |z United States."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_d1c5ffbc995aa4716e7558a08bbd15f2",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "The archived website was migrated from the California Digital Library's Web Archiving Service to the Internet Archive's Archive-It Service in November 2015. The link to California Digital Library was removed in October 2017."
@@ -122,158 +137,136 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "46.25 Linear Feet"
-                            },
-                            {
-                                "value": "(in 48 boxes)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "46.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(in 48 boxes)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "value": "English"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "corpname": {
+                        "source": "naf",
+                        "value": "National Writers Union (U.S.)"
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "corpname": [
-                            {
-                                "value": "National Writers Union (U.S.)"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "corpname": [
-                            {
-                                "role": "Donor",
-                                "value": "National Writers Union (U.S.). New York Local"
-                            }
-                        ]
+                },
+                {
+                    "label": "source",
+                    "corpname": {
+                        "role": "Donor",
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "National Writers Union (U.S.). New York Local"
                     }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1976/2009",
-                        "type": "inclusive",
-                        "value": "1976-2009"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "WAG.026"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "National Writers Union Records"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1976/2009",
+                    "type": "inclusive",
+                    "value": "1976-2009"
+                }
+            ],
+            "unitid": "WAG.026",
+            "unittitle": {
+                "value": "National Writers Union Records"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref58",
-                        "level": "series",
-                        "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref58",
+                    "level": "series",
+                    "did": {
+                        "dao": [
                             {
-                                "dao": [
-                                    {
-                                        "actuate": "onLoad",
-                                        "href": "https://wayback.archive-it.org/6349/*/https://nwu.org/",
-                                        "role": "external-link",
-                                        "show": "new",
-                                        "type": "simple",
-                                        "daodesc": {
-                                            "p": [
-                                                {
-                                                    "value": "National Writers Union"
-                                                }
-                                            ]
+                                "actuate": "onLoad",
+                                "href": "https://wayback.archive-it.org/6349/*/https://nwu.org/",
+                                "role": "external-link",
+                                "show": "new",
+                                "title": "National Writers Union",
+                                "type": "simple",
+                                "daodesc": {
+                                    "p": [
+                                        {
+                                            "value": "National Writers Union"
                                         }
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "2012-12-08/2019-02-27",
-                                        "type": "inclusive",
-                                        "value": "December 8, 2012-ongoing"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Archived Website"
-                                    }
-                                ]
+                                    ]
+                                }
                             }
                         ],
-                        "phystech": [
+                        "unitdate": [
                             {
-                                "id": "aspace_e0391676cb295f460a4ab840178cc7c1",
-                                "head": [
-                                    {
-                                        "value": "Physical Characteristics and Technical Requirements"
-                                    }
-                                ],
-                                "p": [
-                                    {
-                                        "value": "Due to technical or privacy issues, archived websites may not be exact copies of  the original website at the time of the web crawl. Certain file types will not be captured dependent on how they are embedded in the site. Other parts of websites that the crawler has difficulty capturing includes Javascript, streaming content, database-driven content, and highly interactive content. Full-Text searches of archived websites are available at https://archive-it.org/organizations/567."
-                                    }
-                                ]
+                                "normal": "2012-12-08/2019-02-27",
+                                "type": "inclusive",
+                                "value": "December 8, 2012-ongoing"
                             }
                         ],
-                        "scopecontent": [
-                            {
-                                "id": "aspace_dd52fbe9af3411468ee452c0b90f3a52",
-                                "head": [
-                                    {
-                                        "value": "Scope and Content Note"
-                                    }
-                                ],
-                                "p": [
-                                    {
-                                        "value": "The National Writers Union (NWU) represents freelance writers throughout the United States. It was formed in 1981 during the Writers' Congress held in New York City. In 1981, the NWU affiliated with the United Auto Workers (UAW) as Local 1981. As of 2011, the NWU has over 1,500 members in fifteen locals. The website contains news and chapter information."
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
+                        "unittitle": {
+                            "value": "Archived Website"
+                        }
+                    },
+                    "phystech": [
+                        {
+                            "id": "aspace_e0391676cb295f460a4ab840178cc7c1",
+                            "head": {
+                                "value": "Physical Characteristics and Technical Requirements"
+                            },
+                            "p": [
+                                {
+                                    "value": "Due to technical or privacy issues, archived websites may not be exact copies of  the original website at the time of the web crawl. Certain file types will not be captured dependent on how they are embedded in the site. Other parts of websites that the crawler has difficulty capturing includes Javascript, streaming content, database-driven content, and highly interactive content. Full-Text searches of archived websites are available at https://archive-it.org/organizations/567."
+                                }
+                            ]
+                        }
+                    ],
+                    "scopecontent": [
+                        {
+                            "id": "aspace_dd52fbe9af3411468ee452c0b90f3a52",
+                            "head": {
+                                "value": "Scope and Content Note"
+                            },
+                            "p": [
+                                {
+                                    "value": "The National Writers Union (NWU) represents freelance writers throughout the United States. It was formed in 1981 during the Writers' Congress held in New York City. In 1981, the NWU affiliated with the United Auto Workers (UAW) as Local 1981. As of 2011, the NWU has over 1,500 members in fifteen locals. The website contains news and chapter information."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_967c0f6fac9db5d3579eb647a67f5dc5",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; National Writers Union Records; WAG 026; box number; folder number; Tamiment Library/Robert F. Wagner Labor Archives, New York University."
@@ -284,11 +277,9 @@
         "processinfo": [
             {
                 "id": "aspace_3e552d4dbd956bebef0af0f937378087",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "In 2014, the archived website was added as a series."
@@ -299,11 +290,9 @@
         "scopecontent": [
             {
                 "id": "aspace_ef6b2c0d075f73fd46adb7c82e9cb7e2",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "The collection consists mostly of the records of the NWU's national office, although some material came from the New York and Los Angeles Locals.  The records include National Executive Board minutes, officers' files, internal e-mails, local and national newsletters, membership applications and grievances.  Also included are materials from Delegate Assembly meetings, which include minutes, reports, agendas and notes.  Finally, there is particularily extensive documentation of the landmark lawsuit \u003cspan class=\"ead-emph ead-emph-italic\"\u003eTasini v. New York Times Co.\u003c/span\u003e"
@@ -314,11 +303,9 @@
         "userestrict": [
             {
                 "id": "aspace_4409a4152522c90916a2bd3ba0997cf0",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection, created by National Writers Union was not transferred to New York University. Permission to use materials must be secured from the copyright holder."
@@ -327,87 +314,68 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/wag_026/",
-                    "value": "wag_026"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/wag_026/",
+            "value": "wag_026"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Daniel Michelson, 2011; Addendum by Rachel Schimke, 2012"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Preliminary Inventory to the National Writers Union Records \u003cspan class=\"ead-num\"\u003eWAG.026\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:58:14 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in English"
-                        }
-                    ]
-                }
-            ]
+                },
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Daniel Michelson, 2011; Addendum by Rachel Schimke, 2012",
+                "titleproper": [
+                    {
+                        "value": "Preliminary Inventory to the National Writers Union Records \u003cspan class=\"ead-num\"\u003eWAG.026\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "WAG.026"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:58:14 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }
