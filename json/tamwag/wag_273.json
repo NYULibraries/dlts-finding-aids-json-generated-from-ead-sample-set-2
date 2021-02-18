@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_52835a8eba946dceed10d5714947accf",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_21f0d87d511a8c01ffefea8bd9a7f0e5",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Donated by Sheldon Rosenzweig (son) in 2008 and 2015. The accession numbers associated with this gift are 2008.004 and 2015.013."
@@ -34,11 +30,9 @@
         "arrangement": [
             {
                 "id": "aspace_4a48a16b2d4b382de5eba825e156e7b9",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "This collection has not been arranged by an archivist, materials are in the order in which they were received from the donor."
@@ -49,11 +43,9 @@
         "bioghist": [
             {
                 "id": "aspace_03b445ac342ccb795afbffa7b71a4ce6",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Morris Rosenzweig was the comptroller of District 65/United Automobile Workers."
@@ -61,117 +53,107 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "International Union, United Automobile, Aerospace, and Agricultural Implement Workers of America. District 65"
-                    },
-                    {
-                        "value": "Distributive, Processing, and Office Workers of America. District 65"
-                    },
-                    {
-                        "value": "United Automobile, Aircraft, and Vehicle Workers of America. District 65"
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "International Union, United Automobile, Aerospace, and Agricultural Implement Workers of America. District 65"
+                },
+                {
+                    "source": "naf",
+                    "value": "Distributive, Processing, and Office Workers of America. District 65"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "United Automobile, Aircraft, and Vehicle Workers of America. District 65"
+                }
+            ],
+            "persname": [
+                {
+                    "role": "Donor",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Rosenzweig, Sheldon L."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in one manuscript box and one oversized box",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Morris Rosenzweig was the comptroller of District 65/United Automobile Workers. This collection contains clippings, booklets, buttons, photographs, artifacts, ephemera and a typescript on the history of District 65 written by Morris Rosenzweig.",
+                    "id": "aspace_b75c58ac42513db6cf2387dada3d44ed"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "persname": [
-                    {
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Rosenzweig, Morris"
+                    }
+                },
+                {
+                    "label": "source",
+                    "persname": {
                         "role": "Donor",
+                        "rules": "dacs",
+                        "source": "local",
                         "value": "Rosenzweig, Sheldon L."
                     }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1950/1989",
+                    "type": "inclusive",
+                    "value": "circa 1950s-1980s"
+                }
+            ],
+            "unitid": "WAG.273",
+            "unittitle": {
+                "value": "Morris Rosenzweig Papers"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "1.25 Linear Feet"
-                            },
-                            {
-                                "value": "in one manuscript box and one oversized box"
-                            }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "Morris Rosenzweig was the comptroller of District 65/United Automobile Workers. This collection contains clippings, booklets, buttons, photographs, artifacts, ephemera and a typescript on the history of District 65 written by Morris Rosenzweig.",
-                        "id": "aspace_b75c58ac42513db6cf2387dada3d44ed"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Rosenzweig, Morris"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "role": "Donor",
-                                "value": "Rosenzweig, Sheldon L."
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1950/1989",
-                        "type": "inclusive",
-                        "value": "circa 1950s-1980s"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "WAG.273"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Morris Rosenzweig Papers"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {}
-        ],
+        },
+        "dsc": {},
         "prefercite": [
             {
                 "id": "aspace_785802949c7d001c040683ddf2ddb3ad",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; Morris Rosenzweig Papers; WAG 273; box number; folder number; Tamiment Library/Robert F. Wagner Labor Archives, New York University."
@@ -182,11 +164,9 @@
         "scopecontent": [
             {
                 "id": "aspace_97bb37aeea61f109074237992d229544",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "This collection contains clippings, booklets, buttons, photographs, newspapers, artifacts (jacket, caps, luggage tag), ephemera and a typescript on the history of District 65 written by Morris Rosenzweig."
@@ -197,11 +177,9 @@
         "userestrict": [
             {
                 "id": "aspace_0f4f3c7723f47829eee02551db994799",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection, created by Morris Rosenzweig was not transferred to New York University. Permission to use materials must be secured from the copyright holder."
@@ -210,92 +188,78 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/wag_273/",
-                    "value": "wag_273"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/wag_273/",
+            "value": "wag_273"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2015\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Tamiment Staff"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Morris Rosenzweig Papers \u003cspan class=\"ead-num\"\u003eWAG.273\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 16:03:17 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in English"
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2015\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2015"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Tamiment Staff",
+                "titleproper": [
+                    {
+                        "value": "Morris Rosenzweig Papers \u003cspan class=\"ead-num\"\u003eWAG.273\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "WAG.273"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 16:03:17 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

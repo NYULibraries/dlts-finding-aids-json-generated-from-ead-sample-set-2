@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_6686030a77957b999f8b009b6970f8f9",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are opn without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_d1846ea426e16dc21b3d5899e382c113",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Donated by Aimee Gaudette in 2013. The accession number associated with this gift is 2014.015."
@@ -34,11 +30,9 @@
         "appraisal": [
             {
                 "id": "aspace_a1f86eb2f17fb6d5cb0aa09aef1f14d4",
-                "head": [
-                    {
-                        "value": "Appraisal"
-                    }
-                ],
+                "head": {
+                    "value": "Appraisal"
+                },
                 "p": [
                     {
                         "value": "Duplicates of programs and event brochures were removed from the collection."
@@ -49,11 +43,9 @@
         "arrangement": [
             {
                 "id": "aspace_aff7b9d72f9efdf5f70c121cffa1ee94",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "The order in which these materials were sent to the Tamiment Library has been maintained."
@@ -64,11 +56,9 @@
         "bioghist": [
             {
                 "id": "aspace_8c9fcfa6d9473f0b213e38798c97afcc",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "The Union Square Awards was established in 1998 to provide support for grassroots activism throughout the five boroughs of New York City. 187 organizations have received the Union Square Award, which provides a general assistance grant of $50,000 to an emerging organization as well as technical assistance and the opportunity to apply for regrants. In 2006 the Union Square Arts Award was established to recognize organizations that provide educational opportunities in the arts to low-income communities. This award consists of a $35,000 grant, technical assistance and regrant opportunities. Beginning in 2004, the Union Square Awards has provided over 300 individual grants of $25,000 to eligible organizations that had received a Union Square Award in the past and required further assistance to meet their goals. "
@@ -79,33 +69,38 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Union Square Awards"
-                    }
-                ],
-                "persname": [
-                    {
-                        "role": "Donor",
-                        "value": "Gaudette, Aimee"
-                    }
-                ],
-                "subject": [
-                    "Charities -- New York (State) -- New York.",
-                    "Social justice."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "ingest",
+                    "value": "Union Square Awards"
+                }
+            ],
+            "persname": [
+                {
+                    "role": "Donor",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Gaudette, Aimee"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Charities -- New York (State) -- New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Social justice."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_0fb2db20b6377f3165066bfde5ef796e",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "The archived website was migrated from the California Digital Library's Web Archiving Service to the Internet Archive's Archive-It Service in November 2015. The link to California Digital Library was removed in October 2017."
@@ -113,195 +108,173 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "3 Linear Feet"
-                            },
-                            {
-                                "value": "in 3 record cartons and 1 compact disc box"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "3 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 3 record cartons and 1 compact disc box",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The Union Square Awards was established in 1998 to provide support for grassroots activism throughout the five boroughs of New York City. This collection consists primarily of brochures and photographs from the Union Square Awards' ceremonies and events as well as photographs of organizations and their members who received financial support. The collection also contains annual reports for the organization throughout the years 1998-2011 as well as two special reports.",
+                    "id": "aspace_9c7da62af6c3b39e4c23fb20ba7535a8"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English",
+                    "id": "aspace_28a2edd19b4c9c677a2e868671ba0377"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "corpname": {
+                        "source": "ingest",
+                        "value": "Union Square Awards"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "The Union Square Awards was established in 1998 to provide support for grassroots activism throughout the five boroughs of New York City. This collection consists primarily of brochures and photographs from the Union Square Awards' ceremonies and events as well as photographs of organizations and their members who received financial support. The collection also contains annual reports for the organization throughout the years 1998-2011 as well as two special reports.",
-                        "id": "aspace_9c7da62af6c3b39e4c23fb20ba7535a8"
+                },
+                {
+                    "label": "source",
+                    "persname": {
+                        "role": "Donor",
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Gaudette, Aimee"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_28a2edd19b4c9c677a2e868671ba0377",
-                        "value": "Materials are in English"
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "corpname": [
-                            {
-                                "value": "Union Square Awards"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "role": "Donor",
-                                "value": "Gaudette, Aimee"
-                            }
-                        ]
-                    }
-                ],
-                "physloc": [
-                    {
-                        "id": "aspace_44381bc8a5d5ad1ae9ab626f6b250161",
-                        "value": "Materials are located at the Tamiment Library."
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1998/2011",
-                        "type": "inclusive",
-                        "value": "1998-2011"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.645"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Union Square Awards Records"
-                    }
-                ]
+                }
+            ],
+            "physloc": [
+                {
+                    "id": "aspace_44381bc8a5d5ad1ae9ab626f6b250161",
+                    "value": "Materials are located at the Tamiment Library."
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1998/2011",
+                    "type": "inclusive",
+                    "value": "1998-2011"
+                }
+            ],
+            "unitid": "TAM.645",
+            "unittitle": {
+                "value": "Union Square Awards Records"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref16",
-                        "level": "series",
-                        "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref16",
+                    "level": "series",
+                    "did": {
+                        "dao": [
                             {
-                                "dao": [
-                                    {
-                                        "actuate": "onLoad",
-                                        "href": "https://wayback.archive-it.org/6351/*/http://www.unionsquareawards.org/",
-                                        "role": "external-link",
-                                        "show": "new",
-                                        "type": "simple",
-                                        "daodesc": {
-                                            "p": [
-                                                {
-                                                    "value": "Union Square Awards"
-                                                }
-                                            ]
+                                "actuate": "onLoad",
+                                "href": "https://wayback.archive-it.org/6351/*/http://www.unionsquareawards.org/",
+                                "role": "external-link",
+                                "show": "new",
+                                "title": "Union Square Awards",
+                                "type": "simple",
+                                "daodesc": {
+                                    "p": [
+                                        {
+                                            "value": "Union Square Awards"
                                         }
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "Aug 1, 2011-Jan 7, 2014"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Archived Website"
-                                    }
-                                ]
+                                    ]
+                                }
                             }
                         ],
-                        "scopecontent": [
+                        "unitdate": [
                             {
-                                "id": "aspace_78d96140205f722c972acbce7ab34961",
-                                "head": [
-                                    {
-                                        "value": "Scope and Content Note"
-                                    }
-                                ],
-                                "p": [
-                                    {
-                                        "value": "The Union Square Awards, established in 1998, awards grants to social activists, community organizers, arts organizations, and other activism in New York City. Over $16 million has been distributed to 238 organizations, since the awards founding. The website contains information on past awardees, grants, and award programs."
-                                    }
-                                ]
+                                "value": "Aug 1, 2011-Jan 7, 2014"
                             }
-                        ]
+                        ],
+                        "unittitle": {
+                            "value": "Archived Website"
+                        }
                     },
-                    {
-                        "id": "aspace_0e7033939fc95319212b8881b7d97ea4",
-                        "level": "file",
-                        "did": [
+                    "scopecontent": [
+                        {
+                            "id": "aspace_78d96140205f722c972acbce7ab34961",
+                            "head": {
+                                "value": "Scope and Content Note"
+                            },
+                            "p": [
+                                {
+                                    "value": "The Union Square Awards, established in 1998, awards grants to social activists, community organizers, arts organizations, and other activism in New York City. Over $16 million has been distributed to 238 organizations, since the awards founding. The website contains information on past awardees, grants, and award programs."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "aspace_0e7033939fc95319212b8881b7d97ea4",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142062724458",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_bd3167ae3b5326493ce430c007fde023",
-                                        "type": "box",
-                                        "value": "1"
-                                    },
-                                    {
-                                        "barcode": "31142062724466",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_dc228ac3598ad4804968236c5bdcf097",
-                                        "type": "box",
-                                        "value": "2"
-                                    },
-                                    {
-                                        "barcode": "31142062724474",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Record carton",
-                                        "id": "aspace_f01d65bb858df3e3a5b69669f9cbe18d",
-                                        "type": "box",
-                                        "value": "3"
-                                    },
-                                    {
-                                        "barcode": "31142062758621",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Shoe Box - 8.5",
-                                        "id": "aspace_9406acb1694dcb38ff194322f299dab3",
-                                        "type": "box",
-                                        "value": "4"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Unprocessed Records"
-                                    }
-                                ]
+                                "barcode": "31142062724458",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_bd3167ae3b5326493ce430c007fde023",
+                                "type": "box",
+                                "value": "1"
+                            },
+                            {
+                                "barcode": "31142062724466",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_dc228ac3598ad4804968236c5bdcf097",
+                                "type": "box",
+                                "value": "2"
+                            },
+                            {
+                                "barcode": "31142062724474",
+                                "label": "Mixed Materials",
+                                "altrender": "Record carton",
+                                "id": "aspace_f01d65bb858df3e3a5b69669f9cbe18d",
+                                "type": "box",
+                                "value": "3"
+                            },
+                            {
+                                "barcode": "31142062758621",
+                                "label": "Mixed Materials",
+                                "altrender": "Shoe Box - 8.5",
+                                "id": "aspace_9406acb1694dcb38ff194322f299dab3",
+                                "type": "box",
+                                "value": "4"
                             }
-                        ]
+                        ],
+                        "unittitle": {
+                            "value": "Unprocessed Records"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "phystech": [
             {
                 "id": "aspace_9f6975fc9a155d513928d2fc113744b4",
-                "head": [
-                    {
-                        "value": "Physical Characteristics and Technical Requirements"
-                    }
-                ],
+                "head": {
+                    "value": "Physical Characteristics and Technical Requirements"
+                },
                 "p": [
                     {
                         "value": "Advance notice is required for the use of computer records.  Original physical digital media is restricted.  Born-digital materials have not been transferred and may not be available to researchers. Researchers may request access copies.  To request that material be transferred, or if you are unsure if material has been transferred, please contact tamiment.wagner@nyu.edu with the collection name, collection number, and a description of the item(s) requested. A staff member will respond to you with further information."
@@ -310,11 +283,9 @@
             },
             {
                 "id": "aspace_5cfc6b42ccb6931326f788e002a1ad58",
-                "head": [
-                    {
-                        "value": "Physical Characteristics and Technical Requirements"
-                    }
-                ],
+                "head": {
+                    "value": "Physical Characteristics and Technical Requirements"
+                },
                 "p": [
                     {
                         "value": "Due to technical or privacy issues, archived websites may not be exact copies of the original website at the time of the web crawl. Certain file types will not be captured dependent on how they are embedded in the site. Other parts of websites that the crawler has difficulty capturing includes Javascript, streaming content, database-driven content, and highly interactive content. Full-Text searches of archived websites are available at https://archive-it.org/organizations/567."
@@ -325,11 +296,9 @@
         "prefercite": [
             {
                 "id": "aspace_1f7ce00c34d1805af06d534a19b43cc5",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citation should take the following form:\u003cbr\u003e"
@@ -343,11 +312,9 @@
         "processinfo": [
             {
                 "id": "aspace_fe6392dfbe246ccf80793c82c9b7394b",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "During accessioning, photographic materials that were in binders were taken out of the binders and put into folders. Plastic coverings of photographs were not removed. Images on CDs were taken out of binders and placed in CD covers within a compact disc box. A collection level finding aid was created to describe the materials."
@@ -361,11 +328,9 @@
         "scopecontent": [
             {
                 "id": "aspace_7a08ebbb379105e7b2d2eb33ca12a7ea",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "This collection consists primarily of brochures and photographs from the Union Square Awards' ceremonies and events as well as photographs of organizations and their members who received financial support.  Many of the photographs are undeveloped negatives and almost all of the printed photographs are in black-and-white. There are various CDs containing additional images of the organization's events throughout its history as well as logo files for the Union Square Awards. The collection also contains annual reports for the organization throughout the years 1998-2011 as well as two special reports, a 10-year report and a Social Justice Artists' Collaborative Survey Report."
@@ -376,11 +341,9 @@
         "userestrict": [
             {
                 "id": "aspace_2e15dcdf6075b12a1f4622373537eb2c",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection, created by Union Square Awards, was not transferred to New York University. Permission to use materials must be secured from the copyright holder."
@@ -389,92 +352,78 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_645/",
-                    "value": "tam_645"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_645/",
+            "value": "tam_645"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e4/18/2014\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Giana Ricci and Rachel Schimke"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Union Square Awards Records \u003cspan class=\"ead-num\"\u003eTAM.645\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:54:55 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Finding aid is in English"
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e4/18/2014\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "4/18/2014"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Giana Ricci and Rachel Schimke",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Union Square Awards Records \u003cspan class=\"ead-num\"\u003eTAM.645\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.645"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:54:55 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

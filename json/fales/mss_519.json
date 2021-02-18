@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_17ef21fc10bd3d502c13be182342239a",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_03ffe61b86d76190074f8bc6f9a0ef6c",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Donated by Rena Charnin Mueller, 2016."
@@ -34,11 +30,9 @@
         "arrangement": [
             {
                 "id": "aspace_7e098289fb60909e80e94fc72e6f7f31",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "This collection has not been arranged by an archivist. The materials are arranged in the order in which they were received from the donor."
@@ -49,11 +43,9 @@
         "bioghist": [
             {
                 "id": "aspace_bd4c9141ce8e5275a645b5f98886367b",
-                "head": [
-                    {
-                        "value": "Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Richard Wagner (1813-1883) was a German composer.  One of his most well-known works is \u003cspan class=\"ead-emph ead-emph-italic\"\u003eDer Ring des Nibelungen\u003c/span\u003e (\u003cspan class=\"ead-emph ead-emph-italic\"\u003eThe Ring of the Nibelung\u003c/span\u003e)."
@@ -64,31 +56,35 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "genreform": [
-                    "Manuscripts",
-                    "Poems."
-                ],
-                "persname": [
-                    {
-                        "role": "Former owner",
-                        "value": "Mueller, Rena Charnin"
-                    },
-                    {
-                        "value": "Wagner, Richard, 1813-1883 -- Der Ring des Nibelungen."
-                    }
-                ]
-            }
-        ],
+        "controlaccess": {
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Manuscripts"
+                },
+                {
+                    "source": "aat",
+                    "value": "Poems."
+                }
+            ],
+            "persname": [
+                {
+                    "role": "Former owner",
+                    "source": "naf",
+                    "value": "Mueller, Rena Charnin"
+                },
+                {
+                    "source": "naf",
+                    "value": "Wagner, Richard, 1813-1883 -- Der Ring des Nibelungen."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_f8151ee7d86c17e10437d815c456f0a9",
-                "head": [
-                    {
-                        "value": "Custodial History"
-                    }
-                ],
+                "head": {
+                    "value": "Custodial History"
+                },
                 "p": [
                     {
                         "value": "The Louis Knass song was given by Lauritz Melchior to the New York University Music Department in approximately 1950; Charles Frost gave it to Rena Charnin Mueller on an unspecified date.  The Richard Wagner and Anton Seidl manuscript was found in 1972 in a copy of Ernest Newman's \u003cspan class=\"ead-emph ead-emph-italic\"\u003eWagner Nights\u003c/span\u003e by Martin Bernstein and Ruth Hilton.  More information about this manuscript's custodial history may be found in an article written by Mueller and published in the \u003cspan class=\"ead-emph ead-emph-italic\"\u003eJournal of the American Liszt Society\u003c/span\u003e."
@@ -96,107 +92,92 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.1 Linear Feet"
-                            },
-                            {
-                                "value": "in one oversize folder"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.1 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in one oversize folder",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Richard Wagner (1813-1883) was a German composer. Rena Charnin Mueller is an associate professor of music at New York University. The Richard Wagner Manuscripts include two items handwritten by Wagner. One item is a song written by Wagner, dedicated to Louis [Kn]ass.  The other item is a poem invitation to celebrate the completion of \u003cspan class=\"ead-emph ead-emph-italic\"\u003eDie Götterdämmerung\u003c/span\u003e, with a list on its verso of potential singers for the first complete production of \u003cspan class=\"ead-emph ead-emph-italic\"\u003eDer Ring des Nibelungen\u003c/span\u003e at Bayreuth, Germany, written by Anton Seidl with notations by Wagner.",
+                    "id": "aspace_6ddaff2ff61ef61dbd52c475f1df3330"
+                }
+            ],
+            "container": [
+                {
+                    "barcode": "31142054908358",
+                    "label": "Mixed Materials",
+                    "altrender": "Flat OS Box 17",
+                    "id": "aspace_92da462e6224b7ab272aa5288c2538f9",
+                    "type": "box",
+                    "value": "Shared Fales 031"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in German.",
+                    "id": "aspace_712735df60a938c2e83794d9ad1fac17"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "source",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Mueller, Rena Charnin"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Richard Wagner (1813-1883) was a German composer. Rena Charnin Mueller is an associate professor of music at New York University. The Richard Wagner Manuscripts include two items handwritten by Wagner. One item is a song written by Wagner, dedicated to Louis [Kn]ass.  The other item is a poem invitation to celebrate the completion of \u003cspan class=\"ead-emph ead-emph-italic\"\u003eDie Götterdämmerung\u003c/span\u003e, with a list on its verso of potential singers for the first complete production of \u003cspan class=\"ead-emph ead-emph-italic\"\u003eDer Ring des Nibelungen\u003c/span\u003e at Bayreuth, Germany, written by Anton Seidl with notations by Wagner.",
-                        "id": "aspace_6ddaff2ff61ef61dbd52c475f1df3330"
+                },
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Wagner, Richard, 1813-1883"
                     }
-                ],
-                "container": [
-                    {
-                        "barcode": "31142054908358",
-                        "label": "Mixed Materials",
-                        "altrender": "Flat OS Box 17",
-                        "id": "aspace_92da462e6224b7ab272aa5288c2538f9",
-                        "type": "box",
-                        "value": "Shared Fales 031"
+                },
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Seidl, Anton, 1850-1898"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_712735df60a938c2e83794d9ad1fac17",
-                        "value": "Materials are in German."
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "value": "Mueller, Rena Charnin"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Wagner, Richard, 1813-1883"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Seidl, Anton, 1850-1898"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Fales Library and Special Collections"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1871/1876",
-                        "type": "inclusive",
-                        "value": "1871-1876"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "MSS.519"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Richard Wagner Manuscripts"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Fales Library and Special Collections"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1871/1876",
+                    "type": "inclusive",
+                    "value": "1871-1876"
+                }
+            ],
+            "unitid": "MSS.519",
+            "unittitle": {
+                "value": "Richard Wagner Manuscripts"
             }
-        ],
-        "dsc": [
-            {}
-        ],
+        },
+        "dsc": {},
         "prefercite": [
             {
                 "id": "aspace_df5d8659e29fed00f507c23c917aed0d",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Identification of item, date; Richard Wagner Manuscripts; MSS 519; box number; folder number; Fales Library \u0026 Special Collections, New York University."
@@ -207,11 +188,9 @@
         "processinfo": [
             {
                 "id": "aspace_b5d3e726fc42c93f20f2b080ac234fa0",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "At the time of accessioning, materials were rehoused in a new acid-free folder, stored in a shared oversize box, and described on the collection-level."
@@ -222,11 +201,9 @@
         "scopecontent": [
             {
                 "id": "aspace_15188bbe1262ca8b105e3856c386423b",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "This collection consists of two items in the hand of Richard Wagner that were part of the NYU Department of Music until August 2016. They were given to the Fales Library and Special Collections by Rena Mueller, a long-time faculty member upon her retirement.  "
@@ -243,11 +220,9 @@
         "userestrict": [
             {
                 "id": "aspace_509f41bb2d6a73ec6db994ee2be563d7",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Materials in this collection, which were created in 1871-1876, are in the public domain. Permission to publish or reproduce is not required."
@@ -256,62 +231,50 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NNU-F",
-                    "url": "http://dlib.nyu.edu/findingaids/html/fales/mss_519",
-                    "value": "mss_519"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
-                        {
-                            "publisher": "Fales Library and Special Collections",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003eNovember 2017\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Megan O'Shea"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Richard Wagner Manuscripts \u003cspan class=\"ead-num\"\u003eMSS.519\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:14:20 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Finding aid written in English"
-                        }
-                    ]
-                }
-            ]
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NNU-F",
+            "url": "http://dlib.nyu.edu/findingaids/html/fales/mss_519",
+            "value": "mss_519"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003eNovember 2017\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "November 2017"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Fales Library and Special Collections"
+            },
+            "titlestmt": {
+                "author": "Megan O'Shea",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Richard Wagner Manuscripts \u003cspan class=\"ead-num\"\u003eMSS.519\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MSS.519"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:14:20 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

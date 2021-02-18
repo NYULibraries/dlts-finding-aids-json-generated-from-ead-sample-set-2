@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_75fe14378b1a6567c2a4f11c9f32472f",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,20 @@
         "arrangement": [
             {
                 "id": "aspace_8b39427c102a536c7fb566419f32abd1",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "Series I: General Files, 1937-1983."
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -34,11 +43,9 @@
         "bioghist": [
             {
                 "id": "aspace_710f06b24b698c9862098c7c725dbc79",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Samuel Simon (\"Bill\") Krafsur was born January 10, 1913 in Boston, Massachusetts. He attended Northeastern University for a year, and is alleged to have joined the Communist Party in the 1930s.  He volunteered to fight in Spain and sailed on the SS Paris in January 16, 1937, arriving at Le Havre, France on January 23rd.  He joined the Abraham Lincoln Brigade in Spain, was reported as wounded in May 1937 and left Spain through Barcelona in July 1937.  In the spring of 1938, he was in New York, serving as an editorial staff member of \u003cspan class=\"ead-emph ead-emph-italic\"\u003eThe Volunteer for Liberty\u003c/span\u003e, a publication of the Veterans of the Abraham Lincoln Brigade. He also worked a secretary to the novelist (and his one-time brother-in-law), Elliot Paul, author of \u003cspan class=\"ead-emph ead-emph-italic\"\u003eLife and Death of a Spanish Town.\u003c/span\u003e"
@@ -49,39 +56,47 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    }
-                ],
-                "genreform": [
-                    "Identity cards.",
-                    "Printed ephemera."
-                ],
-                "geogname": [
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
-                ],
-                "persname": [
-                    {
-                        "value": "Krafsur, Samuel Simon, 1913-1983"
-                    },
-                    {
-                        "role": "Former owner",
-                        "value": "Krafsur, Richard P."
-                    }
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Identity cards."
+                },
+                {
+                    "source": "aat",
+                    "value": "Printed ephemera."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                }
+            ],
+            "persname": [
+                {
+                    "source": "local",
+                    "value": "Krafsur, Samuel Simon, 1913-1983"
+                },
+                {
+                    "role": "Former owner",
+                    "source": "naf",
+                    "value": "Krafsur, Richard P."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_e7656ff6da705f70d535229c4e513349",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The collection was donated to the ALBA archives at the Tamiment Library, NYU in August 2008, by Samuel Krafsur's son, Richard Krafsur."
@@ -89,455 +104,397 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.5 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Samuel (\"Bill\") Krafsur (1913-1983) volunteered to fight in the Spanish Civil War with the Abraham Lincoln Brigade.  He was wounded in Spain in May and returned to the U.S. in July 1937. In the spring of 1938 he was in New York, serving as an editorial staff member of \u003cspan class=\"ead-emph ead-emph-italic\"\u003eThe Volunteer for Liberty,\u003c/span\u003e published by the Veterans of the Abraham Lincoln Brigade.  The collection includes correspondence, medical records, identity cards, other printed ephemera, and clippings that document Krafsur's service and other aspects of the Spanish Civil War.  There are also a small number of items relating to Krafsur's subsequent career in journalism.",
+                    "id": "aspace_2c2283803a6137af0b0652f4eca95983"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English, Spanish, and French.",
+                    "id": "aspace_2f15680c90b705353e078b8a0a6f0c15"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
+                        "value": "Krafsur, Samuel Simon, 1913-1983"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Samuel (\"Bill\") Krafsur (1913-1983) volunteered to fight in the Spanish Civil War with the Abraham Lincoln Brigade.  He was wounded in Spain in May and returned to the U.S. in July 1937. In the spring of 1938 he was in New York, serving as an editorial staff member of \u003cspan class=\"ead-emph ead-emph-italic\"\u003eThe Volunteer for Liberty,\u003c/span\u003e published by the Veterans of the Abraham Lincoln Brigade.  The collection includes correspondence, medical records, identity cards, other printed ephemera, and clippings that document Krafsur's service and other aspects of the Spanish Civil War.  There are also a small number of items relating to Krafsur's subsequent career in journalism.",
-                        "id": "aspace_2c2283803a6137af0b0652f4eca95983"
+                },
+                {
+                    "label": "source",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Krafsur, Richard P."
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_2f15680c90b705353e078b8a0a6f0c15",
-                        "value": "Materials are in English, Spanish, and French."
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Krafsur, Samuel Simon, 1913-1983"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "value": "Krafsur, Richard P."
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937/1983",
-                        "type": "inclusive",
-                        "value": "1937-1983"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.267"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Samuel Krafsur Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937/1983",
+                    "type": "inclusive",
+                    "value": "1937-1983"
+                }
+            ],
+            "unitid": "ALBA.267",
+            "unittitle": {
+                "value": "Samuel Krafsur Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref25",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref25",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062732824",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_d9fdc446e1a43bb16b24d20cfd8883e8",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_18e13c0ca48eb3b835d152cabaf5329f",
-                                                "parent": "aspace_d9fdc446e1a43bb16b24d20cfd8883e8",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1937, 1978"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "American Newspaper Guild"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062732824",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_d9fdc446e1a43bb16b24d20cfd8883e8",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062732824",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_f343b4cea67e67a52c7a7939f125c1a2",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5d346a3f1864c01de34ccc4715432bb8",
-                                                "parent": "aspace_f343b4cea67e67a52c7a7939f125c1a2",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clipping (unidentified) re: Aid to Wounded Massachisetts Volunteers"
-                                            }
-                                        ]
+                                        "id": "aspace_18e13c0ca48eb3b835d152cabaf5329f",
+                                        "parent": "aspace_d9fdc446e1a43bb16b24d20cfd8883e8",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
+                                ],
+                                "unitdate": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062732824",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_2485f98519b65607da7ae194dc098a69",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8621d1f6ad61af79c5a77e3181ef45c5",
-                                                "parent": "aspace_2485f98519b65607da7ae194dc098a69",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "[1968],1977"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clippings"
-                                            }
-                                        ]
+                                        "value": "1937, 1978"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062732824",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_5db350307d4add8ad9ecbf6e9e9511e0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0d1705105d1fe608054d2e43267e6d29",
-                                                "parent": "aspace_5db350307d4add8ad9ecbf6e9e9511e0",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Peter Frye and Irving Fajans to SK (1 letter, re: Spanish Prisoners Revue)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref36",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062732824",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_64302614fbb126bb67c7c0d8896da026",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b915ef084ccb6350eefd01a4ded95173",
-                                                "parent": "aspace_64302614fbb126bb67c7c0d8896da026",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Flyers: Film Screening, \"La Mujer X\" (Alcala, Teatro-Salon Cervantes; PS/UGT); \"Gran Baile\" (Juventudas Socialistas Unificadas); \"Fiesta de Liberacion del Pueblo Americano\" (4th of July, Albacete)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062732824",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_339fa8fdf3d1617bcbabada5eb4cfe69",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_60f8e8217de2b58ef3847ed0ec2f19a1",
-                                                "parent": "aspace_339fa8fdf3d1617bcbabada5eb4cfe69",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1937-1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Identity Card (Carnet Militaire), Membership Cards, Safe Conduct Pass, Handwritten Pass(?), and U.S. Passport"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref35",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062732824",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_647c347b27811d8a6b59a362a4dd5ae5",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d4b9a4c6b7b7c91d34a908c625eedec9",
-                                                "parent": "aspace_647c347b27811d8a6b59a362a4dd5ae5",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Marlow, Inver (aka John Scott): Obituary"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062732824",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_3676da35b1aa2b2d4ca123fe6d3178f3",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_f303ec2cb77f37312ced6c352fdac41c",
-                                                "parent": "aspace_3676da35b1aa2b2d4ca123fe6d3178f3",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "Jun 8, 1937; Jul 6, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Medical Documents re: SK (unfit for service at the front, etc.)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062732824",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_ac12a514c3eed681d55c8f5ce506d46e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_67d78926e3a4626366906679079b63b3",
-                                                "parent": "aspace_ac12a514c3eed681d55c8f5ce506d46e",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1983"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Obituary: \u003cspan class=\"ead-emph ead-emph-italic\"\u003eReuters World\u003c/span\u003e"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062732824",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_34cebc6563f8dbc11264592e201dee58",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_24d17b3b2d416020a7f922ed68d937a0",
-                                                "parent": "aspace_34cebc6563f8dbc11264592e201dee58",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1949/1978",
-                                                "type": "inclusive",
-                                                "value": "1949-1978"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Press Passes"
-                                            }
-                                        ]
-                                    }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "American Newspaper Guild"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Series I: General Files, 1937-1983."
+                                        "barcode": "31142062732824",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_f343b4cea67e67a52c7a7939f125c1a2",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5d346a3f1864c01de34ccc4715432bb8",
+                                        "parent": "aspace_f343b4cea67e67a52c7a7939f125c1a2",
+                                        "type": "folder",
+                                        "value": "2"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Clipping (unidentified) re: Aid to Wounded Massachisetts Volunteers"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062732824",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_2485f98519b65607da7ae194dc098a69",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8621d1f6ad61af79c5a77e3181ef45c5",
+                                        "parent": "aspace_2485f98519b65607da7ae194dc098a69",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "[1968],1977"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Clippings"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062732824",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_5db350307d4add8ad9ecbf6e9e9511e0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0d1705105d1fe608054d2e43267e6d29",
+                                        "parent": "aspace_5db350307d4add8ad9ecbf6e9e9511e0",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Peter Frye and Irving Fajans to SK (1 letter, re: Spanish Prisoners Revue)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref36",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062732824",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_64302614fbb126bb67c7c0d8896da026",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b915ef084ccb6350eefd01a4ded95173",
+                                        "parent": "aspace_64302614fbb126bb67c7c0d8896da026",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Flyers: Film Screening, \"La Mujer X\" (Alcala, Teatro-Salon Cervantes; PS/UGT); \"Gran Baile\" (Juventudas Socialistas Unificadas); \"Fiesta de Liberacion del Pueblo Americano\" (4th of July, Albacete)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062732824",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_339fa8fdf3d1617bcbabada5eb4cfe69",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_60f8e8217de2b58ef3847ed0ec2f19a1",
+                                        "parent": "aspace_339fa8fdf3d1617bcbabada5eb4cfe69",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1937-1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Identity Card (Carnet Militaire), Membership Cards, Safe Conduct Pass, Handwritten Pass(?), and U.S. Passport"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref35",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062732824",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_647c347b27811d8a6b59a362a4dd5ae5",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d4b9a4c6b7b7c91d34a908c625eedec9",
+                                        "parent": "aspace_647c347b27811d8a6b59a362a4dd5ae5",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Marlow, Inver (aka John Scott): Obituary"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062732824",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_3676da35b1aa2b2d4ca123fe6d3178f3",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_f303ec2cb77f37312ced6c352fdac41c",
+                                        "parent": "aspace_3676da35b1aa2b2d4ca123fe6d3178f3",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "Jun 8, 1937; Jul 6, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Medical Documents re: SK (unfit for service at the front, etc.)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062732824",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_ac12a514c3eed681d55c8f5ce506d46e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_67d78926e3a4626366906679079b63b3",
+                                        "parent": "aspace_ac12a514c3eed681d55c8f5ce506d46e",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1983"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Obituary: \u003cspan class=\"ead-emph ead-emph-italic\"\u003eReuters World\u003c/span\u003e"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062732824",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_34cebc6563f8dbc11264592e201dee58",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_24d17b3b2d416020a7f922ed68d937a0",
+                                        "parent": "aspace_34cebc6563f8dbc11264592e201dee58",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1949/1978",
+                                        "type": "inclusive",
+                                        "value": "1949-1978"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Press Passes"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series I: General Files, 1937-1983."
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_26dd6881629625bfe20f4216926d6ce6",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -548,11 +505,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_054b30cd07c615924a6f63372a5f74d0",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "Samuel Krafsur File, ALBA Vertical Files\nOther ALBA collections."
@@ -563,11 +518,9 @@
         "scopecontent": [
             {
                 "id": "aspace_2284f44c20152d42b040755e4f2c1739",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "The collection includes correspondence, documents, identity cards, ephemera, and clippings that document Samuel Krafsur's service in and other apsects of the Spanish Civil War.  There are also a small number of items relating to his subsequent career in journalism. "
@@ -581,11 +534,9 @@
         "separatedmaterial": [
             {
                 "id": "aspace_200a3b9c3349c686873683d5dca1db9f",
-                "head": [
-                    {
-                        "value": "Separated Materials"
-                    }
-                ],
+                "head": {
+                    "value": "Separated Materials"
+                },
                 "p": [
                     {
                         "value": "Two photographs of Krafsur (one circa 1950, one circa 1960) were temporarily moved to ALBA PHOTOS 164 (Box 6) and will eventually be integrated into ALBA PHOTOS 15."
@@ -596,11 +547,9 @@
         "userestrict": [
             {
                 "id": "aspace_fd71f5b74a8d4bbebca32e00ed083d96",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection was not transferred to New York University. Permission to use materials must be secured from the copyright holder. For more information, please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -609,83 +558,75 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_267"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_267"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2010\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Melissa Haley and Gail Malmgreen"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Samuel Krafsur Papers \u003cspan class=\"ead-num\"\u003eALBA.267\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:36:02 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2010\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2010"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Melissa Haley and Gail Malmgreen",
+                "titleproper": [
+                    {
+                        "value": "Samuel Krafsur Papers \u003cspan class=\"ead-num\"\u003eALBA.267\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.267"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:36:02 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            }
         }
-    ]
+    }
 }

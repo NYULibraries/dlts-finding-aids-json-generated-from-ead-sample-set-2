@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_1b788bfdb0c93c7012270e846795a62e",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_8d0d531157a4f52d06a7f1801554a439",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Transferred from the Rand School Archives, 1963. The accession number associated with this collection is 1963.002."
@@ -34,9 +30,20 @@
         "arrangement": [
             {
                 "id": "aspace_d70358ba4739441f8eba8f72dca09664",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "Inventory"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -52,11 +59,9 @@
         "bioghist": [
             {
                 "id": "aspace_493bcaa56d68d15108e2f174d1555a4f",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "The American Labor Party (ALP), was a short lived group, organized along lines of British Labour Party, that was founded in New York City in 1922 by delegates from Socialist Party, Farmer Labor Party, Workmen's Circle, Poale Zion, and 82 labor organizations."
@@ -64,371 +69,351 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "American Labor Party"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Proceedings."
+                },
+                {
+                    "source": "aat",
+                    "value": "Minutes (administrative records)"
+                }
+            ],
+            "persname": [
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Gerber, Julius, 1862-1916"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Fine, Nathan"
+                },
+                {
+                    "source": "naf",
+                    "value": "Oneal, James, 1875-1962"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "MacDonald, Marie B."
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Shiplacoff, A. I. (Abraham Isaac), 1877-1936"
+                },
+                {
+                    "source": "local",
+                    "value": "Cannon, Joseph D."
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Cassidy, Edward F."
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Working class -- United States -- Political activity."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Socialism -- United States."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The American Labor Party was a short-lived group founded in 1922. The collection contains convention proceedings and minutes, which have been microfilmed. Patrons must use microfilm copy (R-7862)",
+                    "id": "aspace_7baf22fa012c158c6301bf8bb963148b"
+                }
+            ],
+            "container": [
+                {
+                    "barcode": "31142062729184",
+                    "label": "Mixed Materials",
+                    "altrender": "Manuscript box - Legal - Half",
+                    "id": "aspace_52baf6a6e607f3102f7339c9357602e8",
+                    "type": "box",
+                    "value": "1"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
+                    }
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "corpname": {
+                        "source": "naf",
                         "value": "American Labor Party"
                     }
-                ],
-                "genreform": [
-                    "Proceedings.",
-                    "Minutes (administrative records)"
-                ],
-                "persname": [
-                    {
-                        "value": "Gerber, Julius, 1862-1916"
-                    },
-                    {
-                        "value": "Fine, Nathan"
-                    },
-                    {
-                        "value": "Oneal, James, 1875-1962"
-                    },
-                    {
-                        "value": "MacDonald, Marie B."
-                    },
-                    {
-                        "value": "Shiplacoff, A. I. (Abraham Isaac), 1877-1936"
-                    },
-                    {
-                        "value": "Cannon, Joseph D."
-                    },
-                    {
-                        "value": "Cassidy, Edward F."
-                    }
-                ],
-                "subject": [
-                    "Working class -- United States -- Political activity.",
-                    "Socialism -- United States."
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1922/1924",
+                    "type": "inclusive",
+                    "value": "1922-1924"
+                }
+            ],
+            "unitid": "TAM.061",
+            "unittitle": {
+                "value": "American Labor Party Minutes and Proceedings"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref13",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref14",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062729184",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_5bbc164db7dd53eef80d142fb7cf64f5",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_136e674275f037cbda938a2c1be88bf7",
+                                        "parent": "aspace_5bbc164db7dd53eef80d142fb7cf64f5",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1922"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Convention Proceedings (First), New York"
+                                }
                             }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "The American Labor Party was a short-lived group founded in 1922. The collection contains convention proceedings and minutes, which have been microfilmed. Patrons must use microfilm copy (R-7862)",
-                        "id": "aspace_7baf22fa012c158c6301bf8bb963148b"
-                    }
-                ],
-                "container": [
-                    {
-                        "barcode": "31142062729184",
-                        "label": "Mixed Materials",
-                        "altrender": "Manuscript box - Legal - Half",
-                        "id": "aspace_52baf6a6e607f3102f7339c9357602e8",
-                        "type": "box",
-                        "value": "1"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
+                        },
+                        {
+                            "id": "aspace_ref15",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062729184",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_3eb7a663b2d8d44af6fbff08e3a17f5e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8fcac1439c3ead663d5fd6d18f464afb",
+                                        "parent": "aspace_3eb7a663b2d8d44af6fbff08e3a17f5e",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Feb 1923"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Convention Proceedings (Second), New York"
+                                }
                             }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "corpname": [
-                            {
-                                "value": "American Labor Party"
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062729184",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_35670a0eec080f7b9f73f376199c4382",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_aa4ce99c81999eb7c32d81147ac6bec9",
+                                        "parent": "aspace_35670a0eec080f7b9f73f376199c4382",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Sep 1923"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Convention Proceedings (Third), New York"
+                                }
                             }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062729184",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_0e1b2558d53853a0de0e75a08b9d6103",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8c4fddac8e4db7a3352cb06030579f5a",
+                                        "parent": "aspace_0e1b2558d53853a0de0e75a08b9d6103",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1922/1924",
+                                        "type": "inclusive",
+                                        "value": "1922-1924"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Minutes: Executive Committee, New York"
+                                }
                             }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1922/1924",
-                        "type": "inclusive",
-                        "value": "1922-1924"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.061"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "American Labor Party Minutes and Proceedings"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref13",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref14",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729184",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_5bbc164db7dd53eef80d142fb7cf64f5",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_136e674275f037cbda938a2c1be88bf7",
-                                                "parent": "aspace_5bbc164db7dd53eef80d142fb7cf64f5",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1922"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Convention Proceedings (First), New York"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref15",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                        "barcode": "31142062729184",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_aedd977e035337cd7c6b965a19745d16",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729184",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_3eb7a663b2d8d44af6fbff08e3a17f5e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8fcac1439c3ead663d5fd6d18f464afb",
-                                                "parent": "aspace_3eb7a663b2d8d44af6fbff08e3a17f5e",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 1923"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Convention Proceedings (Second), New York"
-                                            }
-                                        ]
+                                        "id": "aspace_4513afe341e32def4f2b96d3f1d5a1d2",
+                                        "parent": "aspace_aedd977e035337cd7c6b965a19745d16",
+                                        "type": "folder",
+                                        "value": "5"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                ],
+                                "unitdate": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729184",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_35670a0eec080f7b9f73f376199c4382",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_aa4ce99c81999eb7c32d81147ac6bec9",
-                                                "parent": "aspace_35670a0eec080f7b9f73f376199c4382",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Sep 1923"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Convention Proceedings (Third), New York"
-                                            }
-                                        ]
+                                        "normal": "1922/1922",
+                                        "type": "inclusive",
+                                        "value": "1922"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729184",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_0e1b2558d53853a0de0e75a08b9d6103",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8c4fddac8e4db7a3352cb06030579f5a",
-                                                "parent": "aspace_0e1b2558d53853a0de0e75a08b9d6103",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1922/1924",
-                                                "type": "inclusive",
-                                                "value": "1922-1924"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Minutes: Executive Committee, New York"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729184",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_aedd977e035337cd7c6b965a19745d16",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4513afe341e32def4f2b96d3f1d5a1d2",
-                                                "parent": "aspace_aedd977e035337cd7c6b965a19745d16",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1922/1922",
-                                                "type": "inclusive",
-                                                "value": "1922"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Minutes: General Campaign Committee, New York"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062729184",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_c80f59f2bb4b32d48dd8f1f1fe966bdf",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2f2acbd9b421c14b044096867cc96ff5",
-                                                "parent": "aspace_c80f59f2bb4b32d48dd8f1f1fe966bdf",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1922/1924",
-                                                "type": "inclusive",
-                                                "value": "1922-1924"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Minutes: General Council, New York"
-                                            }
-                                        ]
-                                    }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Minutes: General Campaign Committee, New York"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Inventory"
+                                        "barcode": "31142062729184",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_c80f59f2bb4b32d48dd8f1f1fe966bdf",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2f2acbd9b421c14b044096867cc96ff5",
+                                        "parent": "aspace_c80f59f2bb4b32d48dd8f1f1fe966bdf",
+                                        "type": "folder",
+                                        "value": "6"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1922/1924",
+                                        "type": "inclusive",
+                                        "value": "1922-1924"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Minutes: General Council, New York"
+                                }
                             }
-                        ]
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Inventory"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "phystech": [
             {
                 "id": "aspace_67dfb234aeafced145252625b3b57584",
-                "head": [
-                    {
-                        "value": "Physical Characteristics and Technical Requirements"
-                    }
-                ],
+                "head": {
+                    "value": "Physical Characteristics and Technical Requirements"
+                },
                 "p": [
                     {
                         "value": "Due to the fragile nature of the original materials, researchers must use the microfilmed version; microfilm call number is Film R-7862."
@@ -439,11 +424,9 @@
         "prefercite": [
             {
                 "id": "aspace_596811ee7fbe4d317b5ec13f7b23011f",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -454,11 +437,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_5203b71aa4bd2eefc7b5f9c424e79486",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "Abraham I. Shiplacoff Papers and Photographs (TAM 102)."
@@ -469,11 +450,9 @@
         "scopecontent": [
             {
                 "id": "aspace_2d96080bc52cf613177f652ce6b6b4b0",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "This collection contains minutes of the Party's three conventions (1922-1923), Executive Committee minutes (1922-1924), and General Campaign Committee minutes (1922). Prominent persons active in the ALP include: Joseph D. Cannon, Edward F. Cassidy, Nathan Fine, Julius Gerber, Marie B. MacDonald, James Oneal, and A.I. Shiplacoff."
@@ -484,11 +463,9 @@
         "userestrict": [
             {
                 "id": "aspace_4644f1c5e68a9f2b27506d7285a4fea8",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Tamiment Library has no information about copyright ownership for this collection and is not authorized to grant permission to publish or reproduce materials from it. Materials in this collection, which were created in 1922-1924, are expected to enter the public domain in 2045."
@@ -497,97 +474,101 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_061",
-                    "value": "tam_061"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_061",
+            "value": "tam_061"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from ALP template.doc"
+                    }
+                ]
+            },
+            "notestmt": {
+                "note": [
+                    {
+                        "p": [
+                            {
+                                "value": "Finding Aid"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from ALP template.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "notestmt": [
-                        {}
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Tamiment staff"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the American Labor Party Minutes and Proceedings \u003cspan class=\"ead-num\"\u003eTAM.061\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Tamiment staff",
+                "titleproper": [
+                    {
+                        "value": "Guide to the American Labor Party Minutes and Proceedings \u003cspan class=\"ead-num\"\u003eTAM.061\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.061"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:46:10 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:46:10 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

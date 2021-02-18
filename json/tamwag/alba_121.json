@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_569ff1dc153e86966f553ac58a299795",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,23 @@
         "arrangement": [
             {
                 "id": "aspace_6cbc61b376261a78f61fc115a5b5d8fc",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I, Correspondence"
+                            },
+                            {
+                                "value": "II, Subject File"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,11 +49,9 @@
         "bioghist": [
             {
                 "id": "aspace_f83326e4341712f987684d5680c2e21e",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Seymour Herman Workoff was born in New York City in October 1917. He was an apprentice ship-fitter living in the Bronx prior to his enrollment in the International Brigade. Workoff sailed to France on March 12, 1937 aboard the S.S. Ile de France. In late March, Workoff, along with 24 other American men, was stopped by the French police on a boat destined for Spain. The men were charged with trying to enter Spain to enlist in the army and were sentenced to 20 days in prison. After spending 3 weeks in prison in a small town near the border between France and Spain, Workoff successfully made it across the border into Spain. A story about the men's arrest appeared in the New York Times on April 1, 1937."
@@ -52,42 +62,64 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    }
-                ],
-                "genreform": [
-                    "Correspondence.",
-                    "Biography files."
-                ],
-                "geogname": [
-                    "Jarama River Valley (Spain)",
-                    "Spain |x History |y Civil War, 1936-1939 |x Atrocities.",
-                    "Madrid (Spain)",
-                    "Belchite (Spain) -- History -- Siege, 1937.",
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
-                ],
-                "persname": [
-                    {
-                        "value": "Workoff, Seymour Herman, 1917-1937"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Biography files."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Jarama River Valley (Spain)"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain |x History |y Civil War, 1936-1939 |x Atrocities."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Madrid (Spain)"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Belchite (Spain) -- History -- Siege, 1937."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                }
+            ],
+            "persname": [
+                {
+                    "source": "local",
+                    "value": "Workoff, Seymour Herman, 1917-1937"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_6fcf215b02e1124ca456fac1bbb85c06",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Seymour Herman Workoff Collection was donated to the Abraham Lincoln Brigade Archives by Irving Workoff, in 1975. This collection came to New York University in January 2001 as part of the original acquisition of ALBA collections, formerly housed at Brandeis University."
@@ -95,619 +127,536 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Seymour Herman Workoff volunteered in the Spanish Civil War as part of the Washington Battalion and later with the Abraham Lincoln Brigade. He died in the battle of Belchite, Hijar Del Pueblo, Spain in September 1937. Workoff was born in October 1917 and worked as an apprentice ship-fitter. The collection contains correspondence from Seymour to his brother Irving for the period of time of his service in the Spanish Civil War. The collection also contains a passport photograph of Seymour.",
+                    "id": "aspace_b2f48e7d4a404f9f5da31ac94bb27c71"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Seymour Herman Workoff volunteered in the Spanish Civil War as part of the Washington Battalion and later with the Abraham Lincoln Brigade. He died in the battle of Belchite, Hijar Del Pueblo, Spain in September 1937. Workoff was born in October 1917 and worked as an apprentice ship-fitter. The collection contains correspondence from Seymour to his brother Irving for the period of time of his service in the Spanish Civil War. The collection also contains a passport photograph of Seymour.",
-                        "id": "aspace_b2f48e7d4a404f9f5da31ac94bb27c71"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
+                        "value": "Workoff, Seymour Herman, 1917-1937"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Workoff, Seymour Herman, 1917-1937"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937/1937",
-                        "value": "1937"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.121"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Seymour Herman Workoff Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937/1937",
+                    "value": "1937"
+                }
+            ],
+            "unitid": "ALBA.121",
+            "unittitle": {
+                "value": "Seymour Herman Workoff Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref15",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref15",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756385",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_f7731579b4264070d06820812d06e8ae",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1c1ef2fed93e2640f2764e41ea9a0770",
-                                                "parent": "aspace_f7731579b4264070d06820812d06e8ae",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 3, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Workoff, Seymour to Irving Workoff"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062756385",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_f7731579b4264070d06820812d06e8ae",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756385",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_ad55f5a29934a293a0532a8294781373",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2a26f18032ebc24eadea8abb415ddf84",
-                                                "parent": "aspace_ad55f5a29934a293a0532a8294781373",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 11, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Workoff, Seymour to Irving Workoff"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756385",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_67110206dd53beaebd8043ab5591bd95",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7b06c71d62ffaa32d6800e9ac1c3819b",
-                                                "parent": "aspace_67110206dd53beaebd8043ab5591bd95",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 17, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Workoff, Seymour to Irving Workoff"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756385",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_547e78901f6216bbb4bee103c2b9b504",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5e8403112bf4df64fa6b2131edd494ac",
-                                                "parent": "aspace_547e78901f6216bbb4bee103c2b9b504",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 19, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Workoff, Seymour to Irving Workoff"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756385",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_9d57a7bffe3c0b1b4bca6fdc36bb8da6",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_feb337d80291f5618dbd0fc5538214db",
-                                                "parent": "aspace_9d57a7bffe3c0b1b4bca6fdc36bb8da6",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 25, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Workoff, Seymour to Irving Workoff"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756385",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a065093fe19fef6c2458b7e599c43756",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_532409a935ebfec2cfcaaadb4a60a011",
-                                                "parent": "aspace_a065093fe19fef6c2458b7e599c43756",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 1, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Workoff, Seymour to Irving Workoff"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756385",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_6a7f98c10d36bbdda9a4d36da3e1e732",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_65ad1852ae6fc0fd8657802916dce7e0",
-                                                "parent": "aspace_6a7f98c10d36bbdda9a4d36da3e1e732",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 14, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Workoff, Seymour to Irving Workoff"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756385",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_67b746d8af8932e1fa91a6e12af6374f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_aecf1a133debf2220833602057f31c8f",
-                                                "parent": "aspace_67b746d8af8932e1fa91a6e12af6374f",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 21, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Workoff, Seymour to Irving Workoff"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756385",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a4e5d82f5f7bf33fbc502fb7b78631fa",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_56122c6efc31ad93e39880f5b16bf7f3",
-                                                "parent": "aspace_a4e5d82f5f7bf33fbc502fb7b78631fa",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 24, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Workoff, Seymour to Irving Workoff"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756385",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_4c21495ee74d306c93494057d7ae77d4",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_87825b7ff0c18564505a1968e6e4fd84",
-                                                "parent": "aspace_4c21495ee74d306c93494057d7ae77d4",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 15, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Workoff, Seymour to Irving Workoff"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756385",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_81f655eac0019725d4d18611732734b0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c71676c10d7a4b20d716bac301e3c018",
-                                                "parent": "aspace_81f655eac0019725d4d18611732734b0",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 24, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Workoff, Seymour to Irving Workoff"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756385",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_c2a4b8a2de5abf1046b658c9a90e0563",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9d5d0d03ab315c9465c9b77ccf1bd6d4",
-                                                "parent": "aspace_c2a4b8a2de5abf1046b658c9a90e0563",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 5, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Workoff, Seymour to Irving Workoff"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756385",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_b9e5722a15557c4a54cc780b9d6922a4",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_405067139978fdfc4acfe3364c00d3f2",
-                                                "parent": "aspace_b9e5722a15557c4a54cc780b9d6922a4",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 22, 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Workoff, Seymour to Irving Workoff"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_1c1ef2fed93e2640f2764e41ea9a0770",
+                                        "parent": "aspace_f7731579b4264070d06820812d06e8ae",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: Correspondence, 1937"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref29",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756385",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_25aee0ba7c0f3af8fa49f8f8efad8e63",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e344ab5466c067ae80854935d14a5a42",
-                                                "parent": "aspace_25aee0ba7c0f3af8fa49f8f8efad8e63",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1975/1975",
-                                                "type": "inclusive",
-                                                "value": "May 28, 1905"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Civil War Biographical Register"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "value": "Apr 3, 1937"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series II: Subject Files"
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "Workoff, Seymour to Irving Workoff"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756385",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_ad55f5a29934a293a0532a8294781373",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2a26f18032ebc24eadea8abb415ddf84",
+                                        "parent": "aspace_ad55f5a29934a293a0532a8294781373",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Apr 11, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Workoff, Seymour to Irving Workoff"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756385",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_67110206dd53beaebd8043ab5591bd95",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7b06c71d62ffaa32d6800e9ac1c3819b",
+                                        "parent": "aspace_67110206dd53beaebd8043ab5591bd95",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Apr 17, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Workoff, Seymour to Irving Workoff"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756385",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_547e78901f6216bbb4bee103c2b9b504",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5e8403112bf4df64fa6b2131edd494ac",
+                                        "parent": "aspace_547e78901f6216bbb4bee103c2b9b504",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Apr 19, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Workoff, Seymour to Irving Workoff"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756385",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_9d57a7bffe3c0b1b4bca6fdc36bb8da6",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_feb337d80291f5618dbd0fc5538214db",
+                                        "parent": "aspace_9d57a7bffe3c0b1b4bca6fdc36bb8da6",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Apr 25, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Workoff, Seymour to Irving Workoff"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756385",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a065093fe19fef6c2458b7e599c43756",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_532409a935ebfec2cfcaaadb4a60a011",
+                                        "parent": "aspace_a065093fe19fef6c2458b7e599c43756",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Apr 1, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Workoff, Seymour to Irving Workoff"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756385",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_6a7f98c10d36bbdda9a4d36da3e1e732",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_65ad1852ae6fc0fd8657802916dce7e0",
+                                        "parent": "aspace_6a7f98c10d36bbdda9a4d36da3e1e732",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 14, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Workoff, Seymour to Irving Workoff"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756385",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_67b746d8af8932e1fa91a6e12af6374f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_aecf1a133debf2220833602057f31c8f",
+                                        "parent": "aspace_67b746d8af8932e1fa91a6e12af6374f",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 21, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Workoff, Seymour to Irving Workoff"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756385",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a4e5d82f5f7bf33fbc502fb7b78631fa",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_56122c6efc31ad93e39880f5b16bf7f3",
+                                        "parent": "aspace_a4e5d82f5f7bf33fbc502fb7b78631fa",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 24, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Workoff, Seymour to Irving Workoff"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756385",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_4c21495ee74d306c93494057d7ae77d4",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_87825b7ff0c18564505a1968e6e4fd84",
+                                        "parent": "aspace_4c21495ee74d306c93494057d7ae77d4",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 15, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Workoff, Seymour to Irving Workoff"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756385",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_81f655eac0019725d4d18611732734b0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c71676c10d7a4b20d716bac301e3c018",
+                                        "parent": "aspace_81f655eac0019725d4d18611732734b0",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 24, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Workoff, Seymour to Irving Workoff"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756385",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_c2a4b8a2de5abf1046b658c9a90e0563",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9d5d0d03ab315c9465c9b77ccf1bd6d4",
+                                        "parent": "aspace_c2a4b8a2de5abf1046b658c9a90e0563",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Aug 5, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Workoff, Seymour to Irving Workoff"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756385",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_b9e5722a15557c4a54cc780b9d6922a4",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_405067139978fdfc4acfe3364c00d3f2",
+                                        "parent": "aspace_b9e5722a15557c4a54cc780b9d6922a4",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Aug 22, 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Workoff, Seymour to Irving Workoff"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Correspondence, 1937"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref29",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756385",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_25aee0ba7c0f3af8fa49f8f8efad8e63",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e344ab5466c067ae80854935d14a5a42",
+                                        "parent": "aspace_25aee0ba7c0f3af8fa49f8f8efad8e63",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1975/1975",
+                                        "type": "inclusive",
+                                        "value": "May 28, 1905"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Civil War Biographical Register"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series II: Subject Files"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_a4f1fbfab195ce451d486cd47724f37b",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -718,11 +667,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_e3416f67a791cf091532b1824e18a454",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "ALBA collections at the Tamiment Library."
@@ -733,11 +680,9 @@
         "scopecontent": [
             {
                 "id": "aspace_69b71d066648ee09f06dd9337ef00980",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "\u003cspan class=\"ead-emph ead-emph-bold\"\u003eSeries I: Correspondence, 1937\u003c/span\u003e, contains letters written by Seymour Workoff to his brother Irving for the period of his service in the Spanish Civil War up until his death. He writes detailed accounts of battles fought and of soldier life. The letters also document his three-week prison term in France before arriving in Spain. He addresses the letters to \"George,\" a cover name he used for his brother."
@@ -751,11 +696,9 @@
         "userestrict": [
             {
                 "id": "aspace_6f8b89665e5ca8668c9644ede135573d",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Abraham Lincoln Brigade Archives (ALBA), were transferred to New York University in November 2000 by the ALBA Board of Governors. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -764,93 +707,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_121"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_121"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from workoff.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from workoff.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Susan Tofte"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Seymour Herman Workoff Papers \u003cspan class=\"ead-num\"\u003eALBA.121\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Susan Tofte",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Seymour Herman Workoff Papers \u003cspan class=\"ead-num\"\u003eALBA.121\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.121"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:35:04 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:35:04 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

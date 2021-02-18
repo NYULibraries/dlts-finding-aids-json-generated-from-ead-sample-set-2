@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_37c4a88d1fc6e21f6e480e7605263b1d",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Fales Library and Special Collections, fales.library@nyu.edu, 212-998-2596."
@@ -19,9 +17,21 @@
         "arrangement": [
             {
                 "id": "aspace_4999c0c2994c6abfbf655433e197bee8",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "numeration": "arabic",
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "Series I: Correspondence and Issues of Burning Water"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -31,51 +41,82 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "genreform": [
-                    "Manuscripts for publication.",
-                    "Postcards.",
-                    "Correspondence."
-                ],
-                "geogname": [
-                    "New York (N.Y.) -- Intellectual life -- 20th century."
-                ],
-                "persname": [
-                    {
-                        "value": "Bly, Robert"
-                    },
-                    {
-                        "value": "Bergé, Carol, 1928-"
-                    },
-                    {
-                        "value": "Snyder, Gary, 1930-"
-                    },
-                    {
-                        "value": "Enslin, Theodore"
-                    },
-                    {
-                        "value": "Eshleman, Clayton"
-                    }
-                ],
-                "subject": [
-                    "Art, Modern |y 20th century |v Periodicals.",
-                    "Literature, Experimental |x Periodicals.",
-                    "Avant-garde (Aesthetics)",
-                    "Small presses -- New York (State) -- New York.",
-                    "American literature -- 20th century.",
-                    "Authors, American -- 20th century."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Manuscripts for publication."
+                },
+                {
+                    "source": "aat",
+                    "value": "Postcards."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "New York (N.Y.) -- Intellectual life -- 20th century."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Bly, Robert"
+                },
+                {
+                    "source": "naf",
+                    "value": "Bergé, Carol, 1928-"
+                },
+                {
+                    "source": "naf",
+                    "value": "Snyder, Gary, 1930-"
+                },
+                {
+                    "source": "naf",
+                    "value": "Enslin, Theodore"
+                },
+                {
+                    "source": "naf",
+                    "value": "Eshleman, Clayton"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Art, Modern |y 20th century |v Periodicals."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Literature, Experimental |x Periodicals."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Avant-garde (Aesthetics)"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Small presses -- New York (State) -- New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "American literature -- 20th century."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Authors, American -- 20th century."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_a498fb1bf9e05ea9e23a65d08e0616a4",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Burning Water Archive was acquired in 1969."
@@ -83,470 +124,409 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "in one half manuscript box."
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in one half manuscript box.",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The Burning Water Archive is a collection of correspondence to the editors, Edward Kissam and Paul Boorstin, and issues 1-5 of the journal.",
+                    "id": "aspace_aeaa96212451da6c829e65e82aeba033"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "The Burning Water Archive is a collection of correspondence to the editors, Edward Kissam and Paul Boorstin, and issues 1-5 of the journal.",
-                        "id": "aspace_aeaa96212451da6c829e65e82aeba033"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "corpname": {
+                        "source": "local",
+                        "value": "Burning Water"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "corpname": [
-                            {
-                                "value": "Burning Water"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Fales Library and Special Collections"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1962/1968",
-                        "type": "inclusive",
-                        "value": "ca. 1962-1968"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "MSS.007"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Burning Water Archive"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Fales Library and Special Collections"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1962/1968",
+                    "type": "inclusive",
+                    "value": "ca. 1962-1968"
+                }
+            ],
+            "unitid": "MSS.007",
+            "unittitle": {
+                "value": "Burning Water Archive"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref10",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref11",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref10",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref11",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054862951",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_c52697c81f7ee5c0935667e88df7e96f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c8764b2251de1f0f8a4f15c8cd319563",
-                                                "parent": "aspace_c52697c81f7ee5c0935667e88df7e96f",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1962-1964; 1966"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Carol Bergé, Robert Bly, George Bowering"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref12",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                        "barcode": "31142054862951",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_c52697c81f7ee5c0935667e88df7e96f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054862951",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_9ba5a901069a43bf6c0c175a07e33972",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9f44eb41391ba474691033e38fc20fd7",
-                                                "parent": "aspace_9ba5a901069a43bf6c0c175a07e33972",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1962-1964; 1966"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Cardona-Hine, Alvan Choudhury, Malay Roy - Defense Fund, John Willian Corrington"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref13",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054862951",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_1b66c5f20117584ddbd63191c63411b4",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_3be325d90d54cabee48ed0217898d69f",
-                                                "parent": "aspace_1b66c5f20117584ddbd63191c63411b4",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1962-1965; undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Maurice English, D.J. Enright, Ted Enslin, Clayton Eshleman"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref14",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054862951",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_20439d3fcdb8c472c3a454e88e80263a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_384c98e58d6d0be33294176c7b7e9283",
-                                                "parent": "aspace_20439d3fcdb8c472c3a454e88e80263a",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1962-1968"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Roy Fisher, Frederic A. Franklyn, John Haines, William Harmon, George Hitchcock, Anselm Hollo"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref15",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054862951",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_449f2d43d3ffb98fefdbf728d9291cac",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_33da030ce2169effaadcd1f9a20dd90c",
-                                                "parent": "aspace_449f2d43d3ffb98fefdbf728d9291cac",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1963-1965; undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Ron Johnson, Robert Kelly, Howard McCord, James Merrill, James Ryan Morris"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054862951",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_519b31be157c4e31bf77dc4c657c545d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_793713c97fc0c62f15ec69e2c1f61d6c",
-                                                "parent": "aspace_519b31be157c4e31bf77dc4c657c545d",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1962-1968"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Margaret Randall"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054862951",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_c469b7bc0a982487aeb91c43feb93980",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0966dd8c3b31e08f8dbcb3c53c0390ea",
-                                                "parent": "aspace_c469b7bc0a982487aeb91c43feb93980",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1962-1968"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Gary Snyder, John Tagliabue, Anne Waldman, Peter Wild, Jonathan Williams, and Miller Williams."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054862951",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_19eb3e7e5892bb349dc8db0f56117d4a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0126ec48f064e200f7bbe22820cba12d",
-                                                "parent": "aspace_19eb3e7e5892bb349dc8db0f56117d4a",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1965-1966"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Unidentified Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054862951",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_e87ab8eaee8c929b4a7bbb347b98d811",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2ba6821309977df5e1f347f130c3ff95",
-                                                "parent": "aspace_e87ab8eaee8c929b4a7bbb347b98d811",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1963-1964"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Issues 1-3 of Burning Water"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054862951",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_4278d143e06d06b1bd9cf43e94552044",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_ae1994d129317fc8a4b5c26f953697d9",
-                                                "parent": "aspace_4278d143e06d06b1bd9cf43e94552044",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1965"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Issues 4-5 of Burning Water"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
-                                    {
-                                        "value": "Series I: Correspondence and Issues of Burning Water"
-                                    }
-                                ]
-                            }
-                        ],
-                        "scopecontent": [
-                            {
-                                "id": "aspace_653db90ef1dc9e70498aced12aface2e",
-                                "head": [
-                                    {
-                                        "value": "Scope and Contents note"
+                                        "id": "aspace_c8764b2251de1f0f8a4f15c8cd319563",
+                                        "parent": "aspace_c52697c81f7ee5c0935667e88df7e96f",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "p": [
+                                "unitdate": [
                                     {
-                                        "value": "Series 1 contains one box of correspondence to the editors, Edward Kissam and Paul Boorstin between 1962-1968. Noted correspondents include Carol Bergé, Robert Bly, Ted Enslin, Clayton Eschleman, and Gary Snyder. Series 1 also contains issues 1-5 of Burning Water."
+                                        "value": "1962-1964; 1966"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Carol Bergé, Robert Bly, George Bowering"
+                                }
                             }
-                        ]
-                    }
-                ]
-            }
-        ],
+                        },
+                        {
+                            "id": "aspace_ref12",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054862951",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_9ba5a901069a43bf6c0c175a07e33972",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9f44eb41391ba474691033e38fc20fd7",
+                                        "parent": "aspace_9ba5a901069a43bf6c0c175a07e33972",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1962-1964; 1966"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Cardona-Hine, Alvan Choudhury, Malay Roy - Defense Fund, John Willian Corrington"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref13",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054862951",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_1b66c5f20117584ddbd63191c63411b4",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_3be325d90d54cabee48ed0217898d69f",
+                                        "parent": "aspace_1b66c5f20117584ddbd63191c63411b4",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1962-1965; undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Maurice English, D.J. Enright, Ted Enslin, Clayton Eshleman"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref14",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054862951",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_20439d3fcdb8c472c3a454e88e80263a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_384c98e58d6d0be33294176c7b7e9283",
+                                        "parent": "aspace_20439d3fcdb8c472c3a454e88e80263a",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1962-1968"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Roy Fisher, Frederic A. Franklyn, John Haines, William Harmon, George Hitchcock, Anselm Hollo"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref15",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054862951",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_449f2d43d3ffb98fefdbf728d9291cac",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_33da030ce2169effaadcd1f9a20dd90c",
+                                        "parent": "aspace_449f2d43d3ffb98fefdbf728d9291cac",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1963-1965; undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Ron Johnson, Robert Kelly, Howard McCord, James Merrill, James Ryan Morris"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054862951",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_519b31be157c4e31bf77dc4c657c545d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_793713c97fc0c62f15ec69e2c1f61d6c",
+                                        "parent": "aspace_519b31be157c4e31bf77dc4c657c545d",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1962-1968"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Margaret Randall"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054862951",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_c469b7bc0a982487aeb91c43feb93980",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0966dd8c3b31e08f8dbcb3c53c0390ea",
+                                        "parent": "aspace_c469b7bc0a982487aeb91c43feb93980",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1962-1968"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Gary Snyder, John Tagliabue, Anne Waldman, Peter Wild, Jonathan Williams, and Miller Williams."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054862951",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_19eb3e7e5892bb349dc8db0f56117d4a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0126ec48f064e200f7bbe22820cba12d",
+                                        "parent": "aspace_19eb3e7e5892bb349dc8db0f56117d4a",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1965-1966"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Unidentified Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054862951",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_e87ab8eaee8c929b4a7bbb347b98d811",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2ba6821309977df5e1f347f130c3ff95",
+                                        "parent": "aspace_e87ab8eaee8c929b4a7bbb347b98d811",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1963-1964"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Issues 1-3 of Burning Water"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054862951",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_4278d143e06d06b1bd9cf43e94552044",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_ae1994d129317fc8a4b5c26f953697d9",
+                                        "parent": "aspace_4278d143e06d06b1bd9cf43e94552044",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1965"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Issues 4-5 of Burning Water"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series I: Correspondence and Issues of Burning Water"
+                        }
+                    },
+                    "scopecontent": [
+                        {
+                            "id": "aspace_653db90ef1dc9e70498aced12aface2e",
+                            "head": {
+                                "value": "Scope and Contents note"
+                            },
+                            "p": [
+                                {
+                                    "value": "Series 1 contains one box of correspondence to the editors, Edward Kissam and Paul Boorstin between 1962-1968. Noted correspondents include Carol Bergé, Robert Bly, Ted Enslin, Clayton Eschleman, and Gary Snyder. Series 1 also contains issues 1-5 of Burning Water."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_52cd1d8265ca02e2d8bd70c9451edeba",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date (if known); The Burning Water Archive; MSS 7; [box number]; [folder number], Fales Library and Special Collections, New York University Libraries."
@@ -557,11 +537,9 @@
         "scopecontent": [
             {
                 "id": "aspace_2b0c03a755c360bfe5911fb95de97718",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The Burning Water Archive is a collection of correspondence to the editors, Edward Kissam and Paul Boorstin, from 1962 to 1968. Collection highlights include letters written by Carol Bergé, Robert Bly, Ted Enslin, Clayton Eschleman, and Gary Snyder."
@@ -572,11 +550,9 @@
         "separatedmaterial": [
             {
                 "id": "aspace_b26f763da35050f5262944bc6cf62cab",
-                "head": [
-                    {
-                        "value": "Separated Material"
-                    }
-                ],
+                "head": {
+                    "value": "Separated Material"
+                },
                 "p": [
                     {
                         "value": "There is no information about materials that are associated by provenance to the described materials that have been physically separated or removed."
@@ -587,11 +563,9 @@
         "userestrict": [
             {
                 "id": "aspace_852c94c74c4092cc344b53693e5f6861",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection was not transferred to New York University. Permission to use materials must be secured from the copyright holder. Please contact the Fales Library and Special Collections, fales.library@nyu.edu, 212-998-2596."
@@ -600,58 +574,51 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NNU-F",
-                    "value": "mss_007"
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NNU-F",
+            "value": "mss_007"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from burningwater.html"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "publisher": "Fales Library and Special Collections"
+            },
+            "titlestmt": {
+                "author": "Processed by Tania Friedel, April 1999",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Burning Water Archive \u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-date\"\u003eca.1962-1968\u003c/span\u003e\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e \u003cspan class=\"ead-num\"\u003eMSS.007\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MSS.007"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 14:59:14 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
-                        {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from burningwater.html\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
-                        {
-                            "publisher": "Fales Library and Special Collections"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Processed by Tania Friedel, April 1999"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Burning Water Archive \u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-date\"\u003eca.1962-1968\u003c/span\u003e\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e \u003cspan class=\"ead-num\"\u003eMSS.007\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 14:59:14 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

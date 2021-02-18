@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_09d814dcac509351d7fd8cb7481e4e4b",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,23 @@
         "arrangement": [
             {
                 "id": "aspace_b3b2c52da9e0a72131ae30f488a45ed0",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I, Spanish Civil War Files, 1937-1939."
+                            },
+                            {
+                                "value": "II, General Files, 1940-1956."
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,11 +49,9 @@
         "bioghist": [
             {
                 "id": "aspace_de3b295a4f038b343ab8f5c8eca7b47d",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Branko Grujic was born in Sfântu Gheorghe (St. George), Romania on August 15, 1904. In 1937, he joined the Dimitrov Battalion of the 15th International Brigade, a battalion whose members consisted primarily of Balkan and Eastern European volunteers. The Dimitrov Battalion was later incorporated into the 129th International Brigade. Grujic fought in an anti-tank outfit."
@@ -52,50 +62,88 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV -- biography."
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    }
-                ],
-                "genreform": [
-                    "Memorabilia.",
-                    "Correspondence.",
-                    "Money.",
-                    "Personal papers.",
-                    "Biography files.",
-                    "Official documents."
-                ],
-                "geogname": [
-                    "Barcelona (Spain)",
-                    "Spain |x History |y Civil War, 1936-1939 |x Participation, Romanian.",
-                    "Spain |x History |y Civil War, 1936-1939 |x Participation, Yugoslavian.",
-                    "Jarama River Valley (Spain)",
-                    "Madrid (Spain)",
-                    "Spain |x History |y Civil War, 1936-1939 |v Songs and music."
-                ],
-                "persname": [
-                    {
-                        "value": "Grujic, Branko, 1904-1956"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV -- biography."
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Memorabilia."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Money."
+                },
+                {
+                    "source": "aat",
+                    "value": "Personal papers."
+                },
+                {
+                    "source": "aat",
+                    "value": "Biography files."
+                },
+                {
+                    "source": "aat",
+                    "value": "Official documents."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Barcelona (Spain)"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain |x History |y Civil War, 1936-1939 |x Participation, Romanian."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain |x History |y Civil War, 1936-1939 |x Participation, Yugoslavian."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Jarama River Valley (Spain)"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Madrid (Spain)"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain |x History |y Civil War, 1936-1939 |v Songs and music."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "local",
+                    "value": "Grujic, Branko, 1904-1956"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_4a47a9cf2e67e2e8ad551a05ac6a1632",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Branko Grujic Papers were donated to the Abraham Lincoln Brigade Archives by Margaret Fishman, in 1997. This collection came to New York University in January 2001 as part of the original acquisition of ALBA collections, formerly housed at Brandeis University."
@@ -103,1502 +151,1327 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "1.5 Linear Feet"
-                            },
-                            {
-                                "value": "in 1 manuscript box and 1 oversize flat box"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 1 manuscript box and 1 oversize flat box",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Branko Grujic was a Romanian-born Canadian who fought in the Dimitrov Battalion of the 15th Intenational Brigade during the Spanish Civil War. This collection consists of correspondence, notebooks, memorabilia, and documents issued to him during this time, as well as during the Second World War.",
+                    "id": "aspace_1e634deb1bc802736be1e9f4923cea9c"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Branko Grujic was a Romanian-born Canadian who fought in the Dimitrov Battalion of the 15th Intenational Brigade during the Spanish Civil War. This collection consists of correspondence, notebooks, memorabilia, and documents issued to him during this time, as well as during the Second World War.",
-                        "id": "aspace_1e634deb1bc802736be1e9f4923cea9c"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
+                        "value": "Grujic, Branko, 1904-1956"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Grujic, Branko, 1904-1956"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937/1956",
-                        "type": "inclusive",
-                        "value": "1937-1956"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.127"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Branko Grujic Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937/1956",
+                    "type": "inclusive",
+                    "value": "1937-1956"
+                }
+            ],
+            "unitid": "ALBA.127",
+            "unittitle": {
+                "value": "Branko Grujic Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref14",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref15",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref14",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref15",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_970d9bdc0ae36ee9845bdd6a99369585",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b4c7034fb697856102ffddd4c3deb24c",
-                                                "parent": "aspace_970d9bdc0ae36ee9845bdd6a99369585",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Carnet Militar"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_970d9bdc0ae36ee9845bdd6a99369585",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_66fa4bfd89242be0f43d371727008216",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_fb132d3187d715db407024d4fe92b9d6",
-                                                "parent": "aspace_66fa4bfd89242be0f43d371727008216",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1939/1939",
-                                                "type": "inclusive",
-                                                "value": "1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Certificate of Retirement from the International Brigades"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_414420b402f5b10386493a8f4c32fc65",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1400e5603c6dda9baf9a421599d8a7ae",
-                                                "parent": "aspace_414420b402f5b10386493a8f4c32fc65",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1938",
-                                                "type": "inclusive",
-                                                "value": "1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clippings: Pictures and Captions on Dimitrov Battalion and Individual Balkan Volunteers, from \u003cspan class=\"ead-title\"\u003eNuestro Espana\u003c/span\u003e",
-                                                "title": [
-                                                    {
-                                                        "render": "italic",
-                                                        "value": "Nuestro Espana"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_caa4c5c3de1d62666ffc50dddf2cf440",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_712685f1fe1664a154238736f3dd025a",
-                                                "parent": "aspace_caa4c5c3de1d62666ffc50dddf2cf440",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1938",
-                                                "type": "inclusive",
-                                                "value": "1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_eecd65791ec9295fa798d1c797deb8ec",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0469ffc6759943a4143ad07e63f07763",
-                                                "parent": "aspace_eecd65791ec9295fa798d1c797deb8ec",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1939",
-                                                "type": "inclusive",
-                                                "value": "1937-1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Currency: Spanish Republican (\"Vales\")"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_245c81c630015405fef0711fbf46db13",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c70177f5de67f614ed2d82f1b9a9c0dd",
-                                                "parent": "aspace_245c81c630015405fef0711fbf46db13",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1938",
-                                                "type": "inclusive",
-                                                "value": "1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\u003cspan class=\"ead-title\"\u003eEjercito de Levante\u003c/span\u003e: Homage to the International Fighters `",
-                                                "title": [
-                                                    {
-                                                        "render": "italic",
-                                                        "value": "Ejercito de Levante"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_dfaa6847b8b6c1f98c906edff928d150",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_df7ef3686a705671b7687909fa484387",
-                                                "parent": "aspace_dfaa6847b8b6c1f98c906edff928d150",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1938",
-                                                "type": "inclusive",
-                                                "value": "1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Identification Questionnaire (\"Filacion\")"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_8bdd354237a83ea58db162701433d3e5",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e7420ad38acc314caa04287eef8aea1b",
-                                                "parent": "aspace_8bdd354237a83ea58db162701433d3e5",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1956",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Leaflet: \u003cspan class=\"ead-title\"\u003eInvitacion Personal al Homenaje, Dedicado a los Voluntarios Internacionales\u003c/span\u003e",
-                                                "title": [
-                                                    {
-                                                        "render": "italic",
-                                                        "value": "Invitacion Personal al Homenaje, Dedicado a los Voluntarios Internacionales"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_eb10e9f437e657b845a1e606e25fea58",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b44bba4233ab1ac34aa50e7388f865d6",
-                                                "parent": "aspace_eb10e9f437e657b845a1e606e25fea58",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1956",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Leaflet for Spanish Movie, \"Diego Corrientes\""
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_039114ea12eed75cb4110bb64b8badc7",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_da7f15fde55ffb78184e38553cd52eb6",
-                                                "parent": "aspace_039114ea12eed75cb4110bb64b8badc7",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Leaflet Dropped by Loyalist Air Force for International Brigade Soldiers"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_014cf278df42388480885bea04acde5b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b7a809ac332f07d66ae7ca1b364b09b6",
-                                                "parent": "aspace_014cf278df42388480885bea04acde5b",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1939/1939",
-                                                "type": "inclusive",
-                                                "value": "1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "League of Nations: Certificate of Retirement from the International Brigades"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_19dfb85e5ac530454d7b0c9a39d7d057",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9829d9226f672ea3b7e83103774242a4",
-                                                "parent": "aspace_19dfb85e5ac530454d7b0c9a39d7d057",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Map of Aragon"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_d34a01c598d497d04bf0df807e5cf1d8",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5c2d81cdb2abb7a8f2375f7c6dc3438f",
-                                                "parent": "aspace_d34a01c598d497d04bf0df807e5cf1d8",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1938",
-                                                "type": "inclusive",
-                                                "value": "1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Medical Records"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_4a8a2a3ce90b779e2c0ad34d1ccb4099",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_bfa1d08fd0d3c10898b47b66bc476699",
-                                                "parent": "aspace_4a8a2a3ce90b779e2c0ad34d1ccb4099",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1938",
-                                                "type": "inclusive",
-                                                "value": "1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notebook: Diary/Spanish Vocabulary"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_ec8a954a26d5a9ae8a2acc5b760285a8",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5d03da9ffa09936b7a73834ba85af766",
-                                                "parent": "aspace_ec8a954a26d5a9ae8a2acc5b760285a8",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1956",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notebook: Spanish-Serbian Vocabulary"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_fb229168b55cd6b8793c059ce042b34d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_3a5447e40f5ac9157d3f8e174672c3c3",
-                                                "parent": "aspace_fb229168b55cd6b8793c059ce042b34d",
-                                                "type": "folder",
-                                                "value": "16"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1938",
-                                                "type": "inclusive",
-                                                "value": "1927-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notebook: Travel Log and Notes on Front Activities"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e71d3479da10616098c2a747ce47beda",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1908603274d5b48d4a9ba775bd0dbfbc",
-                                                "parent": "aspace_e71d3479da10616098c2a747ce47beda",
-                                                "type": "folder",
-                                                "value": "17"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1956",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Note (in Serbian)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_309de8f0f2ac7429f721dcf369c84835",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_38af32c80ce001861621f221b39c7a8d",
-                                                "parent": "aspace_309de8f0f2ac7429f721dcf369c84835",
-                                                "type": "folder",
-                                                "value": "18"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Pamphlet: \u003cspan class=\"ead-title\"\u003eLa Declaracion de Principiod del Gobierno de Union Nacional (Comisariado de la 129 Brigada Internacional)\u003c/span\u003e, with Names Written on Back",
-                                                "title": [
-                                                    {
-                                                        "render": "italic",
-                                                        "value": "La Declaracion de Principiod del Gobierno de Union Nacional (Comisariado de la 129 Brigada Internacional)"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_0b10a64c9e23e342fa0f6cf2400e357a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_f00b903bb2709704c9fc657360cd80ec",
-                                                "parent": "aspace_0b10a64c9e23e342fa0f6cf2400e357a",
-                                                "type": "folder",
-                                                "value": "19"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1938",
-                                                "type": "inclusive",
-                                                "value": "1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Safe Conduct Pass"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_2ed5f92e6c9a6f1f2c1f0fa55cd0411d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5d4f41369db9f5e12e8e063534580465",
-                                                "parent": "aspace_2ed5f92e6c9a6f1f2c1f0fa55cd0411d",
-                                                "type": "folder",
-                                                "value": "20"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\u003cspan class=\"ead-title\"\u003eSocorro Rojo\u003c/span\u003e: Membership Card, Stamps, Contribution Receipt",
-                                                "title": [
-                                                    {
-                                                        "render": "italic",
-                                                        "value": "Socorro Rojo"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref35",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_1b34d48ccc9eb62b7c6ced08eaa9ff6e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d1b9952bb41dc909bbfc8532ec539529",
-                                                "parent": "aspace_1b34d48ccc9eb62b7c6ced08eaa9ff6e",
-                                                "type": "folder",
-                                                "value": "21"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1939",
-                                                "type": "inclusive",
-                                                "value": "1937-1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Stamps and Bus Tickets"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref36",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_528cd1d0f13981cac3279cc8214ec122",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8e7963918e99471306d9121e856a37ef",
-                                                "parent": "aspace_528cd1d0f13981cac3279cc8214ec122",
-                                                "type": "folder",
-                                                "value": "22"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1956",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Text of War Songs (Serbian)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_b4c7034fb697856102ffddd4c3deb24c",
+                                        "parent": "aspace_970d9bdc0ae36ee9845bdd6a99369585",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: Spanish Civil War Files. 1937-1939."
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref37",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref38",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_78c80a8c8aa65b4d53777ba12a5c4a71",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9b26a41d7c904b3ee72e610664a213b0",
-                                                "parent": "aspace_78c80a8c8aa65b4d53777ba12a5c4a71",
-                                                "type": "folder",
-                                                "value": "23"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1956",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Arm Patch Issued by Canadian Army"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref39",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_39af96c4e3f762f4075de1f56ed06fc7",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d7234fe236bcf6127db2523160a7b143",
-                                                "parent": "aspace_39af96c4e3f762f4075de1f56ed06fc7",
-                                                "type": "folder",
-                                                "value": "24"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1941/1945",
-                                                "type": "inclusive",
-                                                "value": "1941 , 1945"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clipping: Gas Attack Chart (British ARP)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref40",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_9f85278e2b3c1ca9ee2901d52f8a2343",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_73e8fcb2f906c7012f284103bcff1a10",
-                                                "parent": "aspace_9f85278e2b3c1ca9ee2901d52f8a2343",
-                                                "type": "folder",
-                                                "value": "25"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1956",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clippings: Yugoslavian Soldiers"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref41",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_9d29a4d391ad7a0e8199c048fb3fd489",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_844248f0c8aa6984ccc4f4522070f583",
-                                                "parent": "aspace_9d29a4d391ad7a0e8199c048fb3fd489",
-                                                "type": "folder",
-                                                "value": "26"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1956",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence (Serbian)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref42",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_57b9f28cfd11cd5e613f8ada168c750d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c520999f429c3ab85cdadbdab6ac5b2d",
-                                                "parent": "aspace_57b9f28cfd11cd5e613f8ada168c750d",
-                                                "type": "folder",
-                                                "value": "27"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1948/1948",
-                                                "type": "inclusive",
-                                                "value": "1948"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Gruici, Budinca"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref43",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_67a832842cd7462538400126caa1f310",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1f6c9c1e231b30f03a6fe1d4471bbec9",
-                                                "parent": "aspace_67a832842cd7462538400126caa1f310",
-                                                "type": "folder",
-                                                "value": "28"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1949/1949",
-                                                "type": "inclusive",
-                                                "value": "1949"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Truiuk, Ilya"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref44",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_2d31287f8ebff85017c389beddbd830c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_71ff3281fa21da4daf0a51915e26b813",
-                                                "parent": "aspace_2d31287f8ebff85017c389beddbd830c",
-                                                "type": "folder",
-                                                "value": "29"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1940/1944",
-                                                "type": "inclusive",
-                                                "value": "1940-1944"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Currency: International"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref45",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_09b0a8eae0cdb416d6cf424885a2cb06",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_ca3ff2db727bab261c8b5bb9926d8f1a",
-                                                "parent": "aspace_09b0a8eae0cdb416d6cf424885a2cb06",
-                                                "type": "folder",
-                                                "value": "30"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1940/1949",
-                                                "type": "inclusive",
-                                                "value": "1940-1949"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Home Guard: \u003cspan class=\"ead-title\"\u003eWhat the H.G. Needs to Know about Explosives\u003c/span\u003e, by Chas C. Knight",
-                                                "title": [
-                                                    {
-                                                        "render": "italic",
-                                                        "value": "What the H.G. Needs to Know about Explosives"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref46",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_935e53011ce0c454b4a3d69de24c4e2a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_28dc2642845fd6d90994b758162e868f",
-                                                "parent": "aspace_935e53011ce0c454b4a3d69de24c4e2a",
-                                                "type": "folder",
-                                                "value": "31"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1947/1947",
-                                                "type": "inclusive",
-                                                "value": "1947"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Identification Cards"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref47",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_b16deca0ed049dc5d88e86dec578a15b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_02cce27e45c9b3d591945d59985bd251",
-                                                "parent": "aspace_b16deca0ed049dc5d88e86dec578a15b",
-                                                "type": "folder",
-                                                "value": "32"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1956/1956",
-                                                "type": "inclusive",
-                                                "value": "1956"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Interment Card"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref48",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_f31e0e4859f40ca283aeedbea972080e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0d4d22778b52fbdd5b95be658e05a28e",
-                                                "parent": "aspace_f31e0e4859f40ca283aeedbea972080e",
-                                                "type": "folder",
-                                                "value": "33"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1942/1942",
-                                                "type": "inclusive",
-                                                "value": "1942"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notebook: Address/Notes on Explosives"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref49",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_bc8ce797b6a96f8f6eaf7cf81b0bfa56",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1bece5b59bcc4ab51f7f09c4a54fd890",
-                                                "parent": "aspace_bc8ce797b6a96f8f6eaf7cf81b0bfa56",
-                                                "type": "folder",
-                                                "value": "34"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1940/1940",
-                                                "type": "inclusive",
-                                                "value": "1940"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Notebook: English-Serbian Vocabulary"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref50",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_488fd27458a28ce33958e767344e175e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_dbff3b8433dd8755a89009f8399cc5ec",
-                                                "parent": "aspace_488fd27458a28ce33958e767344e175e",
-                                                "type": "folder",
-                                                "value": "35"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1956/1956",
-                                                "type": "inclusive",
-                                                "value": "1956"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Obituary (Serbian)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref51",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770345",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_163d520c32bf40098432dcf8479d7363",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_f69b78968a3863e8209fdb037c3cf931",
-                                                "parent": "aspace_163d520c32bf40098432dcf8479d7363",
-                                                "type": "folder",
-                                                "value": "36"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1945/1945",
-                                                "type": "inclusive",
-                                                "value": "1945"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Passport (Canadian)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref54",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062770337",
-                                                "label": "Realia",
-                                                "altrender": "OS Flat Box - 19 ",
-                                                "id": "aspace_930a90800d8b6bdaa2dc41d4dd1ccd19",
-                                                "type": "box",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Painting (named spelled \"Stanko Gruich\")"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "1937"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series II: General Files, 1940-1956."
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "Carnet Militar"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_66fa4bfd89242be0f43d371727008216",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_fb132d3187d715db407024d4fe92b9d6",
+                                        "parent": "aspace_66fa4bfd89242be0f43d371727008216",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1939/1939",
+                                        "type": "inclusive",
+                                        "value": "1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Certificate of Retirement from the International Brigades"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_414420b402f5b10386493a8f4c32fc65",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_1400e5603c6dda9baf9a421599d8a7ae",
+                                        "parent": "aspace_414420b402f5b10386493a8f4c32fc65",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1938",
+                                        "type": "inclusive",
+                                        "value": "1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Clippings: Pictures and Captions on Dimitrov Battalion and Individual Balkan Volunteers, from \u003cspan class=\"ead-title\"\u003eNuestro Espana\u003c/span\u003e",
+                                    "title": [
+                                        {
+                                            "value": "Nuestro Espana",
+                                            "render": "italic"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_caa4c5c3de1d62666ffc50dddf2cf440",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_712685f1fe1664a154238736f3dd025a",
+                                        "parent": "aspace_caa4c5c3de1d62666ffc50dddf2cf440",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1938",
+                                        "type": "inclusive",
+                                        "value": "1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_eecd65791ec9295fa798d1c797deb8ec",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0469ffc6759943a4143ad07e63f07763",
+                                        "parent": "aspace_eecd65791ec9295fa798d1c797deb8ec",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1939",
+                                        "type": "inclusive",
+                                        "value": "1937-1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Currency: Spanish Republican (\"Vales\")"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_245c81c630015405fef0711fbf46db13",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c70177f5de67f614ed2d82f1b9a9c0dd",
+                                        "parent": "aspace_245c81c630015405fef0711fbf46db13",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1938",
+                                        "type": "inclusive",
+                                        "value": "1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\u003cspan class=\"ead-title\"\u003eEjercito de Levante\u003c/span\u003e: Homage to the International Fighters `",
+                                    "title": [
+                                        {
+                                            "value": "Ejercito de Levante",
+                                            "render": "italic"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_dfaa6847b8b6c1f98c906edff928d150",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_df7ef3686a705671b7687909fa484387",
+                                        "parent": "aspace_dfaa6847b8b6c1f98c906edff928d150",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1938",
+                                        "type": "inclusive",
+                                        "value": "1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Identification Questionnaire (\"Filacion\")"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_8bdd354237a83ea58db162701433d3e5",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e7420ad38acc314caa04287eef8aea1b",
+                                        "parent": "aspace_8bdd354237a83ea58db162701433d3e5",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1956",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Leaflet: \u003cspan class=\"ead-title\"\u003eInvitacion Personal al Homenaje, Dedicado a los Voluntarios Internacionales\u003c/span\u003e",
+                                    "title": [
+                                        {
+                                            "value": "Invitacion Personal al Homenaje, Dedicado a los Voluntarios Internacionales",
+                                            "render": "italic"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_eb10e9f437e657b845a1e606e25fea58",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b44bba4233ab1ac34aa50e7388f865d6",
+                                        "parent": "aspace_eb10e9f437e657b845a1e606e25fea58",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1956",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Leaflet for Spanish Movie, \"Diego Corrientes\""
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_039114ea12eed75cb4110bb64b8badc7",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_da7f15fde55ffb78184e38553cd52eb6",
+                                        "parent": "aspace_039114ea12eed75cb4110bb64b8badc7",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Leaflet Dropped by Loyalist Air Force for International Brigade Soldiers"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_014cf278df42388480885bea04acde5b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b7a809ac332f07d66ae7ca1b364b09b6",
+                                        "parent": "aspace_014cf278df42388480885bea04acde5b",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1939/1939",
+                                        "type": "inclusive",
+                                        "value": "1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "League of Nations: Certificate of Retirement from the International Brigades"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_19dfb85e5ac530454d7b0c9a39d7d057",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9829d9226f672ea3b7e83103774242a4",
+                                        "parent": "aspace_19dfb85e5ac530454d7b0c9a39d7d057",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Map of Aragon"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_d34a01c598d497d04bf0df807e5cf1d8",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5c2d81cdb2abb7a8f2375f7c6dc3438f",
+                                        "parent": "aspace_d34a01c598d497d04bf0df807e5cf1d8",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1938",
+                                        "type": "inclusive",
+                                        "value": "1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Medical Records"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_4a8a2a3ce90b779e2c0ad34d1ccb4099",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_bfa1d08fd0d3c10898b47b66bc476699",
+                                        "parent": "aspace_4a8a2a3ce90b779e2c0ad34d1ccb4099",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1938",
+                                        "type": "inclusive",
+                                        "value": "1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notebook: Diary/Spanish Vocabulary"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_ec8a954a26d5a9ae8a2acc5b760285a8",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5d03da9ffa09936b7a73834ba85af766",
+                                        "parent": "aspace_ec8a954a26d5a9ae8a2acc5b760285a8",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1956",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notebook: Spanish-Serbian Vocabulary"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_fb229168b55cd6b8793c059ce042b34d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_3a5447e40f5ac9157d3f8e174672c3c3",
+                                        "parent": "aspace_fb229168b55cd6b8793c059ce042b34d",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1938",
+                                        "type": "inclusive",
+                                        "value": "1927-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notebook: Travel Log and Notes on Front Activities"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e71d3479da10616098c2a747ce47beda",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_1908603274d5b48d4a9ba775bd0dbfbc",
+                                        "parent": "aspace_e71d3479da10616098c2a747ce47beda",
+                                        "type": "folder",
+                                        "value": "17"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1956",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Note (in Serbian)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_309de8f0f2ac7429f721dcf369c84835",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_38af32c80ce001861621f221b39c7a8d",
+                                        "parent": "aspace_309de8f0f2ac7429f721dcf369c84835",
+                                        "type": "folder",
+                                        "value": "18"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Pamphlet: \u003cspan class=\"ead-title\"\u003eLa Declaracion de Principiod del Gobierno de Union Nacional (Comisariado de la 129 Brigada Internacional)\u003c/span\u003e, with Names Written on Back",
+                                    "title": [
+                                        {
+                                            "value": "La Declaracion de Principiod del Gobierno de Union Nacional (Comisariado de la 129 Brigada Internacional)",
+                                            "render": "italic"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_0b10a64c9e23e342fa0f6cf2400e357a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_f00b903bb2709704c9fc657360cd80ec",
+                                        "parent": "aspace_0b10a64c9e23e342fa0f6cf2400e357a",
+                                        "type": "folder",
+                                        "value": "19"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1938",
+                                        "type": "inclusive",
+                                        "value": "1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Safe Conduct Pass"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_2ed5f92e6c9a6f1f2c1f0fa55cd0411d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5d4f41369db9f5e12e8e063534580465",
+                                        "parent": "aspace_2ed5f92e6c9a6f1f2c1f0fa55cd0411d",
+                                        "type": "folder",
+                                        "value": "20"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\u003cspan class=\"ead-title\"\u003eSocorro Rojo\u003c/span\u003e: Membership Card, Stamps, Contribution Receipt",
+                                    "title": [
+                                        {
+                                            "value": "Socorro Rojo",
+                                            "render": "italic"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref35",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_1b34d48ccc9eb62b7c6ced08eaa9ff6e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d1b9952bb41dc909bbfc8532ec539529",
+                                        "parent": "aspace_1b34d48ccc9eb62b7c6ced08eaa9ff6e",
+                                        "type": "folder",
+                                        "value": "21"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1939",
+                                        "type": "inclusive",
+                                        "value": "1937-1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Stamps and Bus Tickets"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref36",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_528cd1d0f13981cac3279cc8214ec122",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8e7963918e99471306d9121e856a37ef",
+                                        "parent": "aspace_528cd1d0f13981cac3279cc8214ec122",
+                                        "type": "folder",
+                                        "value": "22"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1956",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Text of War Songs (Serbian)"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Spanish Civil War Files. 1937-1939."
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref37",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref38",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_78c80a8c8aa65b4d53777ba12a5c4a71",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9b26a41d7c904b3ee72e610664a213b0",
+                                        "parent": "aspace_78c80a8c8aa65b4d53777ba12a5c4a71",
+                                        "type": "folder",
+                                        "value": "23"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1956",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Arm Patch Issued by Canadian Army"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref39",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_39af96c4e3f762f4075de1f56ed06fc7",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d7234fe236bcf6127db2523160a7b143",
+                                        "parent": "aspace_39af96c4e3f762f4075de1f56ed06fc7",
+                                        "type": "folder",
+                                        "value": "24"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1941/1945",
+                                        "type": "inclusive",
+                                        "value": "1941 , 1945"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Clipping: Gas Attack Chart (British ARP)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref40",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_9f85278e2b3c1ca9ee2901d52f8a2343",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_73e8fcb2f906c7012f284103bcff1a10",
+                                        "parent": "aspace_9f85278e2b3c1ca9ee2901d52f8a2343",
+                                        "type": "folder",
+                                        "value": "25"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1956",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Clippings: Yugoslavian Soldiers"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref41",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_9d29a4d391ad7a0e8199c048fb3fd489",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_844248f0c8aa6984ccc4f4522070f583",
+                                        "parent": "aspace_9d29a4d391ad7a0e8199c048fb3fd489",
+                                        "type": "folder",
+                                        "value": "26"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1956",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence (Serbian)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref42",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_57b9f28cfd11cd5e613f8ada168c750d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c520999f429c3ab85cdadbdab6ac5b2d",
+                                        "parent": "aspace_57b9f28cfd11cd5e613f8ada168c750d",
+                                        "type": "folder",
+                                        "value": "27"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1948/1948",
+                                        "type": "inclusive",
+                                        "value": "1948"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Gruici, Budinca"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref43",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_67a832842cd7462538400126caa1f310",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_1f6c9c1e231b30f03a6fe1d4471bbec9",
+                                        "parent": "aspace_67a832842cd7462538400126caa1f310",
+                                        "type": "folder",
+                                        "value": "28"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1949/1949",
+                                        "type": "inclusive",
+                                        "value": "1949"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Truiuk, Ilya"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref44",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_2d31287f8ebff85017c389beddbd830c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_71ff3281fa21da4daf0a51915e26b813",
+                                        "parent": "aspace_2d31287f8ebff85017c389beddbd830c",
+                                        "type": "folder",
+                                        "value": "29"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1940/1944",
+                                        "type": "inclusive",
+                                        "value": "1940-1944"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Currency: International"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref45",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_09b0a8eae0cdb416d6cf424885a2cb06",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_ca3ff2db727bab261c8b5bb9926d8f1a",
+                                        "parent": "aspace_09b0a8eae0cdb416d6cf424885a2cb06",
+                                        "type": "folder",
+                                        "value": "30"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1940/1949",
+                                        "type": "inclusive",
+                                        "value": "1940-1949"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Home Guard: \u003cspan class=\"ead-title\"\u003eWhat the H.G. Needs to Know about Explosives\u003c/span\u003e, by Chas C. Knight",
+                                    "title": [
+                                        {
+                                            "value": "What the H.G. Needs to Know about Explosives",
+                                            "render": "italic"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref46",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_935e53011ce0c454b4a3d69de24c4e2a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_28dc2642845fd6d90994b758162e868f",
+                                        "parent": "aspace_935e53011ce0c454b4a3d69de24c4e2a",
+                                        "type": "folder",
+                                        "value": "31"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1947/1947",
+                                        "type": "inclusive",
+                                        "value": "1947"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Identification Cards"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref47",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_b16deca0ed049dc5d88e86dec578a15b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_02cce27e45c9b3d591945d59985bd251",
+                                        "parent": "aspace_b16deca0ed049dc5d88e86dec578a15b",
+                                        "type": "folder",
+                                        "value": "32"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1956/1956",
+                                        "type": "inclusive",
+                                        "value": "1956"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Interment Card"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref48",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_f31e0e4859f40ca283aeedbea972080e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0d4d22778b52fbdd5b95be658e05a28e",
+                                        "parent": "aspace_f31e0e4859f40ca283aeedbea972080e",
+                                        "type": "folder",
+                                        "value": "33"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1942/1942",
+                                        "type": "inclusive",
+                                        "value": "1942"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notebook: Address/Notes on Explosives"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref49",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_bc8ce797b6a96f8f6eaf7cf81b0bfa56",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_1bece5b59bcc4ab51f7f09c4a54fd890",
+                                        "parent": "aspace_bc8ce797b6a96f8f6eaf7cf81b0bfa56",
+                                        "type": "folder",
+                                        "value": "34"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1940/1940",
+                                        "type": "inclusive",
+                                        "value": "1940"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Notebook: English-Serbian Vocabulary"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref50",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_488fd27458a28ce33958e767344e175e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_dbff3b8433dd8755a89009f8399cc5ec",
+                                        "parent": "aspace_488fd27458a28ce33958e767344e175e",
+                                        "type": "folder",
+                                        "value": "35"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1956/1956",
+                                        "type": "inclusive",
+                                        "value": "1956"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Obituary (Serbian)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref51",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770345",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_163d520c32bf40098432dcf8479d7363",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_f69b78968a3863e8209fdb037c3cf931",
+                                        "parent": "aspace_163d520c32bf40098432dcf8479d7363",
+                                        "type": "folder",
+                                        "value": "36"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1945/1945",
+                                        "type": "inclusive",
+                                        "value": "1945"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Passport (Canadian)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref54",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062770337",
+                                        "label": "Realia",
+                                        "altrender": "OS Flat Box - 19 ",
+                                        "id": "aspace_930a90800d8b6bdaa2dc41d4dd1ccd19",
+                                        "type": "box",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Painting (named spelled \"Stanko Gruich\")"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series II: General Files, 1940-1956."
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_fe93877d9535bda8600a471952bd4d40",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -1609,11 +1482,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_c27e9f11113cabbffb5e534513091188",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "Branko Grujic Photographs. (ALBA Photo #127)"
@@ -1627,17 +1498,27 @@
         "scopecontent": [
             {
                 "id": "aspace_793768df03082f9a584e488405c34b44",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
-                        "value": "This small collection consists of two series. \u003cspan class=\"ead-title\"\u003eSeries I: Spanish Civil War Files, 1937-1939\u003c/span\u003e, includes official documents (identification cards, medical records/receipts, etc.), notebooks, and memorabilia that Grujic acquired during his time in Spain."
+                        "value": "This small collection consists of two series. \u003cspan class=\"ead-title\"\u003eSeries I: Spanish Civil War Files, 1937-1939\u003c/span\u003e, includes official documents (identification cards, medical records/receipts, etc.), notebooks, and memorabilia that Grujic acquired during his time in Spain.",
+                        "title": [
+                            {
+                                "value": "Series I: Spanish Civil War Files, 1937-1939",
+                                "render": "bold"
+                            }
+                        ]
                     },
                     {
-                        "value": "\u003cspan class=\"ead-title\"\u003eSeries II: General Files, 1940-1956\u003c/span\u003e, consists of notebooks, correspondence, and memorabilia, dating primarily from the period of World War II. It also includes correspondence in Serbian, presumably with family members."
+                        "value": "\u003cspan class=\"ead-title\"\u003eSeries II: General Files, 1940-1956\u003c/span\u003e, consists of notebooks, correspondence, and memorabilia, dating primarily from the period of World War II. It also includes correspondence in Serbian, presumably with family members.",
+                        "title": [
+                            {
+                                "value": "Series II: General Files, 1940-1956",
+                                "render": "bold"
+                            }
+                        ]
                     },
                     {
                         "value": "Grujic's surname appears in many permutations throughout the collection, and this finding-aid uses the spelling that appears most consistently, and that conforms to Serbian usage. His given name also occurs in a variety of forms, including \"Stanko,\" \"Brance,\" and \"Stanley.\""
@@ -1648,11 +1529,9 @@
         "userestrict": [
             {
                 "id": "aspace_ede5be6333c95d2e54188cac79bddde0",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Abraham Lincoln Brigade Archives (ALBA), were transferred to New York University in November 2000 by the ALBA Board of Governors. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -1661,96 +1540,84 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_127"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_127"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "Grujic ALBA 127"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eGrujic ALBA 127\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Ariel Zambenedetti"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Branko Grujic Papers \u003cspan class=\"ead-num\"\u003eALBA.127\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:35:08 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Finding aid is in English"
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Ariel Zambenedetti",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Branko Grujic Papers \u003cspan class=\"ead-num\"\u003eALBA.127\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.127"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:35:08 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

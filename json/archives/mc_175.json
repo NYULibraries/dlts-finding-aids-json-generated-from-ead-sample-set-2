@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_f6430917a15d8fd50c4d9ab52b68969d",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Open for research without restrictions."
@@ -19,9 +17,26 @@
         "arrangement": [
             {
                 "id": "aspace_30159b5e91285f24f8e7f0cd3ee25be8",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "Correspondence"
+                            },
+                            {
+                                "value": "Newspaper Clippings"
+                            },
+                            {
+                                "value": "Publications"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,11 +52,9 @@
         "bioghist": [
             {
                 "id": "aspace_f046a7cc61af97737ef09dff2a353e63",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Edward Northup Gadsby was born in North Adams, Massachusetts. He graduated from Amherst College in 1923 and received his law degree from New York University in 1929. After practicing in New York for eight years, he returned to North Adams, where he practiced for 10 years (1947-1952) before being named to the Massachusetts Public Utilities Commission. From 1952-1956 he served as counsel to the commission. "
@@ -56,42 +69,62 @@
                         "value": " Sources: "
                     },
                     {
-                        "value": "\u003cspan class=\"ead-list\"\u003e\u003cspan class=\"ead-item\"\u003eGadsby, Edward, Biographical File, NYU Archives.\u003c/span\u003e\u003c/span\u003e "
+                        "value": "\u003cspan class=\"ead-list\"\u003e\u003cspan class=\"ead-item\"\u003eGadsby, Edward, Biographical File, NYU Archives.\u003c/span\u003e\u003c/span\u003e ",
+                        "list": [
+                            {
+                                "item": [
+                                    {
+                                        "value": "Gadsby, Edward, Biographical File, NYU Archives."
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Massachusetts. Department of Public Utilities"
-                    },
-                    {
-                        "value": "United States. Securities and Exchange Commission"
-                    }
-                ],
-                "genreform": [
-                    "Correspondence.",
-                    "Clippings (information artifacts)",
-                    "Speeches.",
-                    "Publications (documents)"
-                ],
-                "persname": [
-                    {
-                        "value": "Gadsby, Edward N., 1900-1973"
-                    }
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Massachusetts. Department of Public Utilities"
+                },
+                {
+                    "source": "naf",
+                    "value": "United States. Securities and Exchange Commission"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Clippings (information artifacts)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Speeches."
+                },
+                {
+                    "source": "aat",
+                    "value": "Publications (documents)"
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Gadsby, Edward N., 1900-1973"
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_ce51eec8a0b4204f9e1832faca77e8f1",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "Edward N. Gadsby, Jr. donated this collection to the University Archives in 2004."
@@ -99,996 +132,1179 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "2.5 Linear Feet"
-                            },
-                            {
-                                "value": "2.5 linear feet ( 5 boxes)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "2.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "2.5 linear feet ( 5 boxes)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Gadsby, Edward N., 1900-1973"
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Gadsby, Edward N., 1900-1973"
-                            }
-                        ]
-                    }
-                ],
-                "physloc": [
-                    {
-                        "id": "aspace_23d6556b3d84b050703db4c98f9ca559",
-                        "value": "Materials are stored offsite and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "New York University Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1956/1973",
-                        "type": "inclusive",
-                        "value": "1956-1973"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "MC.175"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Edward N. Gadsby Papers"
-                    }
-                ]
+                }
+            ],
+            "physloc": [
+                {
+                    "id": "aspace_23d6556b3d84b050703db4c98f9ca559",
+                    "value": "Materials are stored offsite and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "New York University Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1956/1973",
+                    "type": "inclusive",
+                    "value": "1956-1973"
+                }
+            ],
+            "unitid": "MC.175",
+            "unittitle": {
+                "value": "Edward N. Gadsby Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref20",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref20",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266125",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_82c02b9f1c1d889c6fd9c795f42b21ce",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_ba6c1a2db8c53662c4064a7b89ee7f3f",
-                                                "parent": "aspace_82c02b9f1c1d889c6fd9c795f42b21ce",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 1957-Oct 1957"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Congratulatory Letters re: Appointment"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142042266125",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_82c02b9f1c1d889c6fd9c795f42b21ce",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266125",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_58ee1d85e6ff30a9fda777edd5250731",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7426a95e672de8074930291001989cba",
-                                                "parent": "aspace_58ee1d85e6ff30a9fda777edd5250731",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 1957-Dec 1957"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Reading File"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266125",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_f8ecd4048b83fbf60a122c47aada722a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_bf49b49ce98a5089c41da530bd20f0ce",
-                                                "parent": "aspace_f8ecd4048b83fbf60a122c47aada722a",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jan 1958-Jun 1958"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Reading File"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266125",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_c65cad5b5032f77a0ca8cd769f190845",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_10b72973bfde4015114bb840736c81f0",
-                                                "parent": "aspace_c65cad5b5032f77a0ca8cd769f190845",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 1958-Dec 1958"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Reading File"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266125",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_8417d8fe02d380e5c66b3bf93220500e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_bbc0149517312c22b1b31b180821ba72",
-                                                "parent": "aspace_8417d8fe02d380e5c66b3bf93220500e",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1959/1959",
-                                                "type": "inclusive",
-                                                "value": "1959"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Reading File"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref36",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266125",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_3f51d2e57940644075f3fa52a22b2f42",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_ba00f35a131d7c543e5eed291531292a",
-                                                "parent": "aspace_3f51d2e57940644075f3fa52a22b2f42",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1960/1960",
-                                                "type": "inclusive",
-                                                "value": "1960"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Reading File"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref39",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266125",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_a1aeb45597024647de90f34acd1a6a96",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8ff106f16cebc435b96354fa41d630a9",
-                                                "parent": "aspace_a1aeb45597024647de90f34acd1a6a96",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1957/1961",
-                                                "type": "inclusive",
-                                                "value": "1957-1961"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "White House Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref42",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266133",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_82425b04ad10d379d3aad7675923abb7",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_35e53bd4e3f20f3cf3b92e295cc803df",
-                                                "parent": "aspace_82425b04ad10d379d3aad7675923abb7",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1968/1973",
-                                                "type": "inclusive",
-                                                "value": "1968-1973"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence re: NED's Death"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_ba6c1a2db8c53662c4064a7b89ee7f3f",
+                                        "parent": "aspace_82c02b9f1c1d889c6fd9c795f42b21ce",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: Correspondence"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref45",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref46",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266133",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_9a11e143a51f088303b1d1dca280495f",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_8e82c7d8ac077ba695673278ca12fc7d",
-                                                "parent": "aspace_9a11e143a51f088303b1d1dca280495f",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1956/1973",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "NED - No. Adams Politics - 1940s (1 of 2)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref49",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266133",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_31d1c62f657822058beeecb13ae489f0",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_18f35c926bf1db4dcb07d183af5fff9a",
-                                                "parent": "aspace_31d1c62f657822058beeecb13ae489f0",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1956/1973",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "NED - No. Adams Politics - 1940s (2 of 2)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref52",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266133",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_8f90f903b6f78e80a15218dae0ee4e2f",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_b981c45146c606825b69692821795760",
-                                                "parent": "aspace_8f90f903b6f78e80a15218dae0ee4e2f",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1956/1960",
-                                                "type": "inclusive",
-                                                "value": "1956-1960"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Amusing Incidents"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref55",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266133",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_99a722ecc02dde2aee3965e5cf90c7bf",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_c39c85c23a6014951d58f4f3ba96855a",
-                                                "parent": "aspace_99a722ecc02dde2aee3965e5cf90c7bf",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "May 1970"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Boston College Article \"The Securities Exchange Commission\""
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref58",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266133",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_20388fdbf20d5ccda92d925621a38273",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_edc15cfe1487e5c74d24e56d3aa7add8",
-                                                "parent": "aspace_20388fdbf20d5ccda92d925621a38273",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1971/1972",
-                                                "type": "inclusive",
-                                                "value": "1971-1972"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "New York Law School Article"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "value": "Aug 1957-Oct 1957"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series II: Newspaper Clippings"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref61",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref62",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266141",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_7743987e48b119e525b3231f45541ebc",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_ab1d19236b6c5bb74a725b158c755df2",
-                                                "parent": "aspace_7743987e48b119e525b3231f45541ebc",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Sep 1957-Dec 1960"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Speeches of Edward N. Gadsby"
-                                            }
-                                        ]
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "Congratulatory Letters re: Appointment"
+                                }
                             },
-                            {
-                                "id": "aspace_ref65",
-                                "level": "file",
-                                "did": [
+                            "odd": [
+                                {
+                                    "id": "aspace_ad0b66c09bcceaa8ea3aa7bee4ef0a23",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266125"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266141",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_fb8f72c7e091d6efe10fbf2366ccb363",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_39a6aae08875191b6ead913d379e5cb1",
-                                                "parent": "aspace_fb8f72c7e091d6efe10fbf2366ccb363",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1967/1967",
-                                                "type": "inclusive",
-                                                "value": "1967"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Business Organizations: Federal Securities Exchange Act 1934, by Edward N. Gadsby"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref68",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142042266125",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_58ee1d85e6ff30a9fda777edd5250731",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266141",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_171cebb03a88e3e560b2d3a412740977",
-                                                "type": "box",
-                                                "value": "3"
-                                            },
-                                            {
-                                                "id": "aspace_92cf818509bc12d31fd51a49046ac26c",
-                                                "parent": "aspace_171cebb03a88e3e560b2d3a412740977",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1968/1968",
-                                                "type": "inclusive",
-                                                "value": "1968"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Business Organizations: Federal Securities Exchange Act 1934, Cumulative Supplement, by Edward N. Gadsby"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref71",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266158",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_44d97993c968cf35d8ba231262012024",
-                                                "type": "box",
-                                                "value": "4"
-                                            },
-                                            {
-                                                "id": "aspace_5d2b80908f1c46cc93c6e0c6b0562856",
-                                                "parent": "aspace_44d97993c968cf35d8ba231262012024",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1956/1973",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Gadsby Opinions, Vol. I, pp. 1-167"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref74",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266158",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_3305cdd9799c842ac51c5a614d4b449c",
-                                                "type": "box",
-                                                "value": "4"
-                                            },
-                                            {
-                                                "id": "aspace_0ea5101a9495e8e773dd2b099ef5d28e",
-                                                "parent": "aspace_3305cdd9799c842ac51c5a614d4b449c",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1956/1973",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Gadsby Opinions, Vol. II, pp. 168-412"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref77",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266158",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_b2f7efa0127c15893eec422200c962fc",
-                                                "type": "box",
-                                                "value": "4"
-                                            },
-                                            {
-                                                "id": "aspace_1fc2f2a1dad84de9cf4f2d5354bd7416",
-                                                "parent": "aspace_b2f7efa0127c15893eec422200c962fc",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1956/1973",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Gadsby Opinions, Vol. III, pp. 413-613"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref80",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266158",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_649942a80dfba7c5cff68cac7c2313b8",
-                                                "type": "box",
-                                                "value": "4"
-                                            },
-                                            {
-                                                "id": "aspace_c012f3a1807b1c319a14aa782855e8f7",
-                                                "parent": "aspace_649942a80dfba7c5cff68cac7c2313b8",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1956/1973",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Gadsby Opinions, Vol. IV, pp. 614-764b"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref83",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266166",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_5a93bacd13f719487994e9be6199ceff",
-                                                "type": "box",
-                                                "value": "5"
-                                            },
-                                            {
-                                                "id": "aspace_58bf4ed711535a91a8f40a563e1b0951",
-                                                "parent": "aspace_5a93bacd13f719487994e9be6199ceff",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1956/1973",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Gadsby Opinions, Vol. V, pp. 765-903"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref86",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266166",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_cc70efba7689082104263f199a6a4d6d",
-                                                "type": "box",
-                                                "value": "5"
-                                            },
-                                            {
-                                                "id": "aspace_2d53a6405c6b96f3f10aa14d39e9c1d0",
-                                                "parent": "aspace_cc70efba7689082104263f199a6a4d6d",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1956/1973",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Gadsby Opinions, Vol. VI, pp. 904-1049"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref89",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266166",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_0c4096ae38899ec93346117dd0b94942",
-                                                "type": "box",
-                                                "value": "5"
-                                            },
-                                            {
-                                                "id": "aspace_ccfec9c145e81a846d2f8ad9afb93862",
-                                                "parent": "aspace_0c4096ae38899ec93346117dd0b94942",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1956/1973",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Gadsby Opinions, Vol. VII, pp. 1050-1272"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref92",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142042266166",
-                                                "label": "Mixed Materials",
-                                                "id": "aspace_236f8b4fe93fd47a547f0295245afea3",
-                                                "type": "box",
-                                                "value": "5"
-                                            },
-                                            {
-                                                "id": "aspace_a6f7175f6a6f3b726c051c2bd18ecb3d",
-                                                "parent": "aspace_236f8b4fe93fd47a547f0295245afea3",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1956/1973",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Gadsby Opinions, Vol. VIII, pp. 1273-1504"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_7426a95e672de8074930291001989cba",
+                                        "parent": "aspace_58ee1d85e6ff30a9fda777edd5250731",
+                                        "type": "folder",
+                                        "value": "2"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series III: Publications"
+                                        "value": "Aug 1957-Dec 1957"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Reading File"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_015032fa63929a2025b5bf2c99bc0632",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266112 5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266125",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_f8ecd4048b83fbf60a122c47aada722a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_bf49b49ce98a5089c41da530bd20f0ce",
+                                        "parent": "aspace_f8ecd4048b83fbf60a122c47aada722a",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jan 1958-Jun 1958"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Reading File"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_54b41e7ed71cb01688659952dc50f4b0",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266112 5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266125",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_c65cad5b5032f77a0ca8cd769f190845",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_10b72973bfde4015114bb840736c81f0",
+                                        "parent": "aspace_c65cad5b5032f77a0ca8cd769f190845",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 1958-Dec 1958"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Reading File"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_c883a0c75d6561520b9937cbd65244e8",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266112 5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266125",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_8417d8fe02d380e5c66b3bf93220500e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_bbc0149517312c22b1b31b180821ba72",
+                                        "parent": "aspace_8417d8fe02d380e5c66b3bf93220500e",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1959/1959",
+                                        "type": "inclusive",
+                                        "value": "1959"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Reading File"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_8bfb9d9b3326dc0e69d950a6c9cdebfd",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266112 5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref36",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266125",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_3f51d2e57940644075f3fa52a22b2f42",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_ba00f35a131d7c543e5eed291531292a",
+                                        "parent": "aspace_3f51d2e57940644075f3fa52a22b2f42",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1960/1960",
+                                        "type": "inclusive",
+                                        "value": "1960"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Reading File"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_47318bc75aef034d87e45d97cbaaf5b8",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266112 5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref39",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266125",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_a1aeb45597024647de90f34acd1a6a96",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8ff106f16cebc435b96354fa41d630a9",
+                                        "parent": "aspace_a1aeb45597024647de90f34acd1a6a96",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1957/1961",
+                                        "type": "inclusive",
+                                        "value": "1957-1961"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "White House Correspondence"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_3d45f68cbc7c4e858675800850ae8079",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266112 5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref42",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266133",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_82425b04ad10d379d3aad7675923abb7",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_35e53bd4e3f20f3cf3b92e295cc803df",
+                                        "parent": "aspace_82425b04ad10d379d3aad7675923abb7",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1968/1973",
+                                        "type": "inclusive",
+                                        "value": "1968-1973"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence re: NED's Death"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_9a5ae3e8d449aea6cfef65489eb39be1",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266113 3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
                             }
-                        ]
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Correspondence"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref45",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref46",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266133",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_9a11e143a51f088303b1d1dca280495f",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_8e82c7d8ac077ba695673278ca12fc7d",
+                                        "parent": "aspace_9a11e143a51f088303b1d1dca280495f",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1956/1973",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "NED - No. Adams Politics - 1940s (1 of 2)"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_b7e9a34165285b84693182062318f916",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266113 3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref49",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266133",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_31d1c62f657822058beeecb13ae489f0",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_18f35c926bf1db4dcb07d183af5fff9a",
+                                        "parent": "aspace_31d1c62f657822058beeecb13ae489f0",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1956/1973",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "NED - No. Adams Politics - 1940s (2 of 2)"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_1b19be8bbe7f7db170ee24edc5218ad1",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266113 3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref52",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266133",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_8f90f903b6f78e80a15218dae0ee4e2f",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_b981c45146c606825b69692821795760",
+                                        "parent": "aspace_8f90f903b6f78e80a15218dae0ee4e2f",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1956/1960",
+                                        "type": "inclusive",
+                                        "value": "1956-1960"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Amusing Incidents"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_8bfd68cc01718e2f1135aab4f83d51d0",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266113 3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref55",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266133",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_99a722ecc02dde2aee3965e5cf90c7bf",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_c39c85c23a6014951d58f4f3ba96855a",
+                                        "parent": "aspace_99a722ecc02dde2aee3965e5cf90c7bf",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "May 1970"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Boston College Article \"The Securities Exchange Commission\""
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_70bde67ddcc4ba6ce1547b1681fa8ebf",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266113 3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref58",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266133",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_20388fdbf20d5ccda92d925621a38273",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_edc15cfe1487e5c74d24e56d3aa7add8",
+                                        "parent": "aspace_20388fdbf20d5ccda92d925621a38273",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1971/1972",
+                                        "type": "inclusive",
+                                        "value": "1971-1972"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "New York Law School Article"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_60a9fcb5ecddc485a6f6d7f085640c34",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266113 3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series II: Newspaper Clippings"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref61",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref62",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266141",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_7743987e48b119e525b3231f45541ebc",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_ab1d19236b6c5bb74a725b158c755df2",
+                                        "parent": "aspace_7743987e48b119e525b3231f45541ebc",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Sep 1957-Dec 1960"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Speeches of Edward N. Gadsby"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_20b4d429eb2d941fb0ad03150a08ecf0",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266114 1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref65",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266141",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_fb8f72c7e091d6efe10fbf2366ccb363",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_39a6aae08875191b6ead913d379e5cb1",
+                                        "parent": "aspace_fb8f72c7e091d6efe10fbf2366ccb363",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1967/1967",
+                                        "type": "inclusive",
+                                        "value": "1967"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Business Organizations: Federal Securities Exchange Act 1934, by Edward N. Gadsby"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_55a66ddf0c2e52fc9047a4aff174c066",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266114 1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref68",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266141",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_171cebb03a88e3e560b2d3a412740977",
+                                        "type": "box",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "id": "aspace_92cf818509bc12d31fd51a49046ac26c",
+                                        "parent": "aspace_171cebb03a88e3e560b2d3a412740977",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1968/1968",
+                                        "type": "inclusive",
+                                        "value": "1968"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Business Organizations: Federal Securities Exchange Act 1934, Cumulative Supplement, by Edward N. Gadsby"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_ea4a306f8dc7310ec676c7e49ab6ab53",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266114 1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref71",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266158",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_44d97993c968cf35d8ba231262012024",
+                                        "type": "box",
+                                        "value": "4"
+                                    },
+                                    {
+                                        "id": "aspace_5d2b80908f1c46cc93c6e0c6b0562856",
+                                        "parent": "aspace_44d97993c968cf35d8ba231262012024",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1956/1973",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Gadsby Opinions, Vol. I, pp. 1-167"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_dc737631f5e78f29a2f5321c8fb6e742",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266115 8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref74",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266158",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_3305cdd9799c842ac51c5a614d4b449c",
+                                        "type": "box",
+                                        "value": "4"
+                                    },
+                                    {
+                                        "id": "aspace_0ea5101a9495e8e773dd2b099ef5d28e",
+                                        "parent": "aspace_3305cdd9799c842ac51c5a614d4b449c",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1956/1973",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Gadsby Opinions, Vol. II, pp. 168-412"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_0e32fce52acc150989201969390e6415",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266115 8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref77",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266158",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_b2f7efa0127c15893eec422200c962fc",
+                                        "type": "box",
+                                        "value": "4"
+                                    },
+                                    {
+                                        "id": "aspace_1fc2f2a1dad84de9cf4f2d5354bd7416",
+                                        "parent": "aspace_b2f7efa0127c15893eec422200c962fc",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1956/1973",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Gadsby Opinions, Vol. III, pp. 413-613"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_748d7f5f7d17dae0d28ab1a272a4d27b",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266115 8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref80",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266158",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_649942a80dfba7c5cff68cac7c2313b8",
+                                        "type": "box",
+                                        "value": "4"
+                                    },
+                                    {
+                                        "id": "aspace_c012f3a1807b1c319a14aa782855e8f7",
+                                        "parent": "aspace_649942a80dfba7c5cff68cac7c2313b8",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1956/1973",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Gadsby Opinions, Vol. IV, pp. 614-764b"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_087804d46cceac55dd8a4462e5960c98",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266115 8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref83",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266166",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_5a93bacd13f719487994e9be6199ceff",
+                                        "type": "box",
+                                        "value": "5"
+                                    },
+                                    {
+                                        "id": "aspace_58bf4ed711535a91a8f40a563e1b0951",
+                                        "parent": "aspace_5a93bacd13f719487994e9be6199ceff",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1956/1973",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Gadsby Opinions, Vol. V, pp. 765-903"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_d347f035814c1f078a44dba850afec99",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266116 6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref86",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266166",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_cc70efba7689082104263f199a6a4d6d",
+                                        "type": "box",
+                                        "value": "5"
+                                    },
+                                    {
+                                        "id": "aspace_2d53a6405c6b96f3f10aa14d39e9c1d0",
+                                        "parent": "aspace_cc70efba7689082104263f199a6a4d6d",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1956/1973",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Gadsby Opinions, Vol. VI, pp. 904-1049"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_fb8c7b145cd14842bd9162bd4e116429",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266116 6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref89",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266166",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_0c4096ae38899ec93346117dd0b94942",
+                                        "type": "box",
+                                        "value": "5"
+                                    },
+                                    {
+                                        "id": "aspace_ccfec9c145e81a846d2f8ad9afb93862",
+                                        "parent": "aspace_0c4096ae38899ec93346117dd0b94942",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1956/1973",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Gadsby Opinions, Vol. VII, pp. 1050-1272"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_560b94f9165cb33d2cea5d9ec2fdffee",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266116 6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref92",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142042266166",
+                                        "label": "Mixed Materials",
+                                        "id": "aspace_236f8b4fe93fd47a547f0295245afea3",
+                                        "type": "box",
+                                        "value": "5"
+                                    },
+                                    {
+                                        "id": "aspace_a6f7175f6a6f3b726c051c2bd18ecb3d",
+                                        "parent": "aspace_236f8b4fe93fd47a547f0295245afea3",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1956/1973",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Gadsby Opinions, Vol. VIII, pp. 1273-1504"
+                                }
+                            },
+                            "odd": [
+                                {
+                                    "id": "aspace_abe056f0609b11ceb9a204383ad8df12",
+                                    "head": {
+                                        "value": "General note"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "Barcode #: 3 1142 042266116 6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series III: Publications"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_a953b100db0f5f42775c958fdb9f176b",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: Identification of item, date (if known); Edward N. Gadsby Papers; MC 175; box number; folder number; New York University Archives, New York University Libraries."
@@ -1099,14 +1315,22 @@
         "scopecontent": [
             {
                 "id": "aspace_c453db2736e2816e80a94cb1944dc759",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
-                        "value": "The collection contains correspondence, published opinions, clippings, and speeches of Edward N. Gadsby. The collection has been divided into three series: Correspondence, Newspaper Clippings, and Publications. Correspondence includes letters during Gadsby's tenure on the Securities and Exchange Commission (SEC) as well as personal correspondence. Newspaper clippings include articles and excerpts from the \u003cspan class=\"ead-title\"\u003eNorth Adams Transcript\u003c/span\u003e during the early 1940s, when Gadsby was particularly active in local and state politics. The Publications Series contains several volumes of opinions authored by Gadsby when he was associated with the Massachusetts Department of Public Utilities, a bound set of his collected speeches as Chair of the SEC, and two editions of the Matthew Bender \u003cspan class=\"ead-title\"\u003eBusiness Organizations\u003c/span\u003e series, relating to the Security Exchange Act of 1934, which Gadsby edited and which include his handwritten edits."
+                        "value": "The collection contains correspondence, published opinions, clippings, and speeches of Edward N. Gadsby. The collection has been divided into three series: Correspondence, Newspaper Clippings, and Publications. Correspondence includes letters during Gadsby's tenure on the Securities and Exchange Commission (SEC) as well as personal correspondence. Newspaper clippings include articles and excerpts from the \u003cspan class=\"ead-title\"\u003eNorth Adams Transcript\u003c/span\u003e during the early 1940s, when Gadsby was particularly active in local and state politics. The Publications Series contains several volumes of opinions authored by Gadsby when he was associated with the Massachusetts Department of Public Utilities, a bound set of his collected speeches as Chair of the SEC, and two editions of the Matthew Bender \u003cspan class=\"ead-title\"\u003eBusiness Organizations\u003c/span\u003e series, relating to the Security Exchange Act of 1934, which Gadsby edited and which include his handwritten edits.",
+                        "title": [
+                            {
+                                "value": "North Adams Transcript",
+                                "render": "italic"
+                            },
+                            {
+                                "value": "Business Organizations",
+                                "render": "italic"
+                            }
+                        ]
                     }
                 ]
             }
@@ -1114,11 +1338,9 @@
         "userestrict": [
             {
                 "id": "aspace_4ace606e82b1c73d227486e6d7c9bc1c",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Some materials may be restricted. Permission to publish materials must be obtained in writing from the:\u003cbr\u003eNew York University Archives\u003cbr\u003e Elmer Holmes Bobst Library\u003cbr\u003e 70 Washington Square South\u003cbr\u003e New York, NY 10012\u003cbr\u003e Phone: (212) 998-2641\u003cbr\u003eFax: (212) 995-4225\u003cbr\u003eE-mail: university-archives@nyu.edu\u003cbr\u003e"
@@ -1127,53 +1349,44 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NyNyUA",
-                    "value": "mc_175"
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NyNyUA",
+            "value": "mc_175"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "publisher": "New York University Archives"
+            },
+            "titlestmt": {
+                "author": "Svetlana Kouzmina.",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Papers of Edward N. Gadsby \u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-date\"\u003e1956-1973 \u003c/span\u003e\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e \u003cspan class=\"ead-num\"\u003eMC.175\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MC.175"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 14:30:50 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
-                        {
-                            "publisher": "New York University Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Svetlana Kouzmina."
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Papers of Edward N. Gadsby \u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-date\"\u003e1956-1973 \u003c/span\u003e\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e \u003cspan class=\"ead-num\"\u003eMC.175\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 14:30:50 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

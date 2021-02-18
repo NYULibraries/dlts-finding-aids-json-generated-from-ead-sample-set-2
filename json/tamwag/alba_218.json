@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_28df39f6be151311ae3fee84fc78dc2a",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,23 @@
         "arrangement": [
             {
                 "id": "aspace_46e80f7ef7021881436861a2e59ba0be",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I. Correspondence, 1937-1939; 1966."
+                            },
+                            {
+                                "value": "II. Subject Files, 1931-1944."
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,17 +49,21 @@
         "bioghist": [
             {
                 "id": "aspace_8a5a287aad873072ca633be9936950b4",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Martin Friedman was born into a working-class family in Trenton, New Jersey on November 24, 1914 to Morris and Rose Friedman. He came of age during the Depression in the Bronx, and was raised by his older sister Zelda after his mother's death. Following his graduation from a vocational high school in 1930, Friedman attended the Baron de Hirsch Trade School in New York, trained as a machinist, and found work in Pennsylvania and New York in machine shops and metal works. He became a member of the International Association of Machinists (IAM) and from 1932 to 1935 was a volunteer in New York's 258th Field Artillery Unit of the United States National Guard. In February 1936, he joined the American League against War and Fascism and served as the Secretary of the Tremont Branch in the Bronx. Through his older sister Zelda and her husband Nat Baral, Friedman became active in the Communist Party and in November 1937 formally became a party member."
                     },
                     {
-                        "value": "Motivated by anti-fascist sentiments, Friedman traveled to Spain to fight with the International Brigades to aid the Republican Army. He sailed for France in February 1937 and then made his way to Spain where he was initially assigned to an artillery unit in a French battalion, and by March was made sergeant of an American heavy artillery unit. He served in this capacity on the battlefront until the withdrawal of foreign volunteers from Spain in October 1938. Before departing Spain he spent time in Valencia and later Barcelona before returning to New York on the \u003cspan class=\"ead-title\"\u003eQueen Mary\u003c/span\u003ein February 1939."
+                        "value": "Motivated by anti-fascist sentiments, Friedman traveled to Spain to fight with the International Brigades to aid the Republican Army. He sailed for France in February 1937 and then made his way to Spain where he was initially assigned to an artillery unit in a French battalion, and by March was made sergeant of an American heavy artillery unit. He served in this capacity on the battlefront until the withdrawal of foreign volunteers from Spain in October 1938. Before departing Spain he spent time in Valencia and later Barcelona before returning to New York on the \u003cspan class=\"ead-title\"\u003eQueen Mary\u003c/span\u003ein February 1939.",
+                        "title": [
+                            {
+                                "value": "Queen Mary",
+                                "render": "italic"
+                            }
+                        ]
                     },
                     {
                         "value": "Upon his return he resumed working as a machinist, and became active with the IAM as a labor organizer and shop steward. At a Veterans of the Abraham Lincoln Brigade dance in early 1941, Friedman met, and soon after married, Anne Naginsky. The couple had twin boys, Neil and Robert. Ineligible for military service during WWII (a blow to the head during a violent strike action left his vision impaired), Friedman worked at Todd Shipyards in New Jersey. In the years following the war Friedman organized Hispanic workers at Berger Industries and initiated a successful program of English language classes. Throughout the 1940s and early 1950s, Friedman remained an active member of the Communist Party, working as an organizer and serving as an aide to chairman William Z. Foster; but in 1956, following the revelations of Stalinist atrocities, Friedman withdrew in disillusionment from the party. Beginning in 1962, Friedman applied and was admitted to Queens College where he pursued studies in history and politics. Martin Friedman died in 1966 following a heart attack. He was 52 years old."
@@ -55,69 +71,110 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    },
-                    {
-                        "value": "International Red Aid"
-                    },
-                    {
-                        "value": "Daily Worker (New York)"
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
-                    },
-                    {
-                        "value": "Veterans of the Abraham Lincoln Brigade"
-                    },
-                    {
-                        "value": "Communist Party of the United States of America"
-                    }
-                ],
-                "genreform": [
-                    "Drawings (visual works)",
-                    "Correspondence.",
-                    "Graphic arts",
-                    "Personal papers."
-                ],
-                "geogname": [
-                    "Spain -- History -- Civil War, 1936-1939 -- Foreign public opinion",
-                    "Spain -- History -- Civil War, 1936-1939 -- Children",
-                    "Spain.",
-                    "Spain -- History -- Civil War, 1936-1939 -- Pictorial works",
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American",
-                    "Spain -- Civil War, 1936-1939 -- Periodicals."
-                ],
-                "persname": [
-                    {
-                        "value": "Goldberg, Arthur J."
-                    },
-                    {
-                        "value": "Friedman, Martin, 1914-1966"
-                    },
-                    {
-                        "value": "Fishman, Mosess (Moe), 1916-2007"
-                    },
-                    {
-                        "value": "Hubbard, Keith Harry"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                },
+                {
+                    "source": "naf",
+                    "value": "International Red Aid"
+                },
+                {
+                    "source": "naf",
+                    "value": "Daily Worker (New York)"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
+                },
+                {
+                    "source": "naf",
+                    "value": "Veterans of the Abraham Lincoln Brigade"
+                },
+                {
+                    "source": "naf",
+                    "value": "Communist Party of the United States of America"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Drawings (visual works)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Graphic arts"
+                },
+                {
+                    "source": "aat",
+                    "value": "Personal papers."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Foreign public opinion"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Children"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Pictorial works"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- Civil War, 1936-1939 -- Periodicals."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Goldberg, Arthur J."
+                },
+                {
+                    "source": "local",
+                    "value": "Friedman, Martin, 1914-1966"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Fishman, Mosess (Moe), 1916-2007"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Hubbard, Keith Harry"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_ab872992b83caa0fda706a218e447a5a",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Martin Friedman Collection was donated to the Abraham Lincoln Brigade Archives in June 2004 by his son Neil Friedman and daughter-in-law Ellen Bogolub."
@@ -125,1203 +182,1060 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.5 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Martin Friedman (1914-1966) fought with the Abraham Lincoln Brigade in the Spanish Civil War and worked as a union organizer with the International Association of Machinists for over 25 years. This collection consists chiefly of weekly letters written by Friedman from Spain to his family in New York from 1937 through 1938. The collection also contains printed matter, artifacts and ephemera documenting Friedman's time in Spain and his affiliation with the Veterans of the Abraham Lincoln Brigade following his return to New York.",
+                    "id": "aspace_bdf3088cd8b0e46090a17e500cf5d333"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Martin Friedman (1914-1966) fought with the Abraham Lincoln Brigade in the Spanish Civil War and worked as a union organizer with the International Association of Machinists for over 25 years. This collection consists chiefly of weekly letters written by Friedman from Spain to his family in New York from 1937 through 1938. The collection also contains printed matter, artifacts and ephemera documenting Friedman's time in Spain and his affiliation with the Veterans of the Abraham Lincoln Brigade following his return to New York.",
-                        "id": "aspace_bdf3088cd8b0e46090a17e500cf5d333"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
+                        "value": "Friedman, Martin, 1914-1966"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Friedman, Martin, 1914-1966"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1931/1966",
-                        "type": "inclusive",
-                        "value": "1931-1966"
-                    },
-                    {
-                        "normal": "1937/1938",
-                        "type": "bulk",
-                        "value": "1937-1938"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.218"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Martin Friedman Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1931/1966",
+                    "type": "inclusive",
+                    "value": "1931-1966"
+                },
+                {
+                    "normal": "1937/1938",
+                    "type": "bulk",
+                    "value": "1937-1938"
+                }
+            ],
+            "unitid": "ALBA.218",
+            "unittitle": {
+                "value": "Martin Friedman Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref15",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref15",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_72558c589a8f8a0cbc843f4019f3c364",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6194f9994569b4a30c5b00bd17e82f06",
-                                                "parent": "aspace_72558c589a8f8a0cbc843f4019f3c364",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1966/1966",
-                                                "type": "inclusive",
-                                                "value": "1966"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Fishman, Moe"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_72558c589a8f8a0cbc843f4019f3c364",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_feabdfd479c2974746d6f4c47369fc30",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_84afe6c5b9ddd1c196b291abc16a2e56",
-                                                "parent": "aspace_feabdfd479c2974746d6f4c47369fc30",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 1937-May 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Friedman, Martin"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_6d057cee8884676d36bae50b4d3d0e53",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b2c414f7a5996077ade5cca954ffe7c9",
-                                                "parent": "aspace_6d057cee8884676d36bae50b4d3d0e53",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 1937-Aug 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Friedman, Martin"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_7c1d81da09d3c81a568bf1170242e1b0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_de7336b4273b53665ea4dec698504f1f",
-                                                "parent": "aspace_7c1d81da09d3c81a568bf1170242e1b0",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Sep 1937-Dec 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Friedman, Martin"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_ed48cd53699a3c6fb6e0333d5e94c936",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_96bb58a65cc1d4714080073ac9638df9",
-                                                "parent": "aspace_ed48cd53699a3c6fb6e0333d5e94c936",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jan 1938-May 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Friedman, Martin"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_77e13c8dd301465d9b0ef865bcd6b1ae",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6f7805ef176561035c3cbb9dfe4fb5f7",
-                                                "parent": "aspace_77e13c8dd301465d9b0ef865bcd6b1ae",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 1938-Aug 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Friedman, Martin"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_79ae8f69350e668c3ccdc8a1637eedb1",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1d2ff8e555cd7272f3b07012427c08ad",
-                                                "parent": "aspace_79ae8f69350e668c3ccdc8a1637eedb1",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Sep 1938-Jan 1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Friedman, Martin"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_ca9b7b9cd6a5d0391df3215fd90cc257",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_18e2ebb2719c1ef3f819f4e57047b283",
-                                                "parent": "aspace_ca9b7b9cd6a5d0391df3215fd90cc257",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1931/1966",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Friedman, Martin: Fragments"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_03781cc9984c9fd5347b25cc7901d6ba",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6d3ccd6f867e6dfd3c51ba483b859722",
-                                                "parent": "aspace_03781cc9984c9fd5347b25cc7901d6ba",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1939/1939",
-                                                "type": "inclusive",
-                                                "value": "1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Friedman Baral, Zelda"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_9af40b96c604f25f8377e6c6da53e0e1",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_02c7a76f8ba3c8a57ddbc16b197012cf",
-                                                "parent": "aspace_9af40b96c604f25f8377e6c6da53e0e1",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Dec 1937-Mar 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Goldberg, Arthur (a.k.a. Quentin Arthur Gorgan)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_4e2413f53161b6adca0d0b58d6b34832",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_26f69acce173791c2a48009c9ce115c2",
-                                                "parent": "aspace_4e2413f53161b6adca0d0b58d6b34832",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jan 1938-Sep 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Hubbard, Keith Harry (\"Duke\")"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_6194f9994569b4a30c5b00bd17e82f06",
+                                        "parent": "aspace_72558c589a8f8a0cbc843f4019f3c364",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: Correspondence, 1936-1966 [Bulk, 1936-1939]"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref27",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_58c5f05f49b4d684997e637b6dcf3c14",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9910c92d6ec36a492e6a433a8339f3c1",
-                                                "parent": "aspace_58c5f05f49b4d684997e637b6dcf3c14",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1939",
-                                                "type": "inclusive",
-                                                "value": "1937-1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Carnet Militaire"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_5f729ac57ae9ab4a2a412926f72254aa",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a88422b6ddfcb4cba71e40c1a0a2883a",
-                                                "parent": "aspace_5f729ac57ae9ab4a2a412926f72254aa",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1939",
-                                                "type": "inclusive",
-                                                "value": "1938-1939"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clippings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_8445cfac236446e6683c7208d362c4fe",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e388446374faf70a8c31ea864427eab3",
-                                                "parent": "aspace_8445cfac236446e6683c7208d362c4fe",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Graphic Works: \u003cspan class=\"ead-title\"\u003eAtila en Galicia: Estampa por Castelao\u003c/span\u003e",
-                                                "title": [
-                                                    {
-                                                        "render": "italic",
-                                                        "value": "Atila en Galicia: Estampa por Castelao"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_08309451aff57856b5473bfde286ec17",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6b3efd5a1079789887481fa22a956937",
-                                                "parent": "aspace_08309451aff57856b5473bfde286ec17",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1947",
-                                                "type": "inclusive",
-                                                "value": "ca.1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Graphic Works: \u003cspan class=\"ead-title\"\u003eEstampas de la Revolucion Espanola, 19 Julio de 1936\u003c/span\u003e(drawings by Sim)",
-                                                "title": [
-                                                    {
-                                                        "render": "italic",
-                                                        "value": "Estampas de la Revolucion Espanola, 19 Julio de 1936"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_b5be56139196c65f5523936789416d7a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_13a93e440ffd2c9eaa65b793af580592",
-                                                "parent": "aspace_b5be56139196c65f5523936789416d7a",
-                                                "type": "folder",
-                                                "value": "16"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1947",
-                                                "type": "inclusive",
-                                                "value": "ca.1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Graphic Works: Molne, Spanish Civil War"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_8d08397d0165af7532cd29a8f180ca46",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_322207b9fad7368a6fdd823d44fd9d0c",
-                                                "parent": "aspace_8d08397d0165af7532cd29a8f180ca46",
-                                                "type": "folder",
-                                                "value": "17"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Apr 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Graphic Works: Spain ( \u003cspan class=\"ead-title\"\u003ePhoto History Magazine\u003c/span\u003epublication)",
-                                                "title": [
-                                                    {
-                                                        "render": "italic",
-                                                        "value": "Photo History Magazine"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_36c40965d4a10e7745c77af9bcdcbdd1",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_244bbbcade3e0d870816e974c2019c06",
-                                                "parent": "aspace_36c40965d4a10e7745c77af9bcdcbdd1",
-                                                "type": "folder",
-                                                "value": "18"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1947",
-                                                "type": "inclusive",
-                                                "value": "ca.1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Graphic Works: Twelve Dibujo (drawings by Martinez de Leon)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref35",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_f9a87ac7a0a3887c9c8abd1a4601f667",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_f250f90f75737fc9ff03d06a0d1fab2e",
-                                                "parent": "aspace_f9a87ac7a0a3887c9c8abd1a4601f667",
-                                                "type": "folder",
-                                                "value": "19"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Hubbard, Keith Harry: Pen-and-Ink Drawings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref36",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_9415d3a1525307b092baca4313aebf56",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c50f02fdbf241a32f2c2e8675a5e872e",
-                                                "parent": "aspace_9415d3a1525307b092baca4313aebf56",
-                                                "type": "folder",
-                                                "value": "20"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1931/1966",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "International Brigade Signet Ring "
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref37",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e802290776c6d08c29cd872a4cc8d5ef",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_db427e8f2b9d33f6b21a1846045099af",
-                                                "parent": "aspace_e802290776c6d08c29cd872a4cc8d5ef",
-                                                "type": "folder",
-                                                "value": "21"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1938",
-                                                "type": "inclusive",
-                                                "value": "1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Leaflet: \"Fifteenth Brigade: One Year of Battle\""
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref38",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_98ff94b713c7524083929cb466808ab1",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_318f8dc29375ac7e6e2666edce12a916",
-                                                "parent": "aspace_98ff94b713c7524083929cb466808ab1",
-                                                "type": "folder",
-                                                "value": "22"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1947",
-                                                "type": "inclusive",
-                                                "value": "ca.1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Pamphlet: Open Letter from the Spanish Communist Party (missing cover), in Spanish"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref39",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_46279c0b596651e6c6bb635505679c64",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_eb81564367a591b0c2c5202bd9d66d45",
-                                                "parent": "aspace_46279c0b596651e6c6bb635505679c64",
-                                                "type": "folder",
-                                                "value": "23"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1947",
-                                                "type": "inclusive",
-                                                "value": "ca.1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Postcards: International Brigade and Spanish Political Parties"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref40",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_d4be2319b2b450f08b8922a3b1cce291",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_56c13c123df91d9a6186ca47b5ababa7",
-                                                "parent": "aspace_d4be2319b2b450f08b8922a3b1cce291",
-                                                "type": "folder",
-                                                "value": "24"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1947",
-                                                "type": "inclusive",
-                                                "value": "ca.1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Socorro Rojo: Fundraising Stamps and Postcards"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref41",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_fa8fbf611612da4e63c6e12621acfe7c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_adfa083bb931fa829395f0660cf5e4f8",
-                                                "parent": "aspace_fa8fbf611612da4e63c6e12621acfe7c",
-                                                "type": "folder",
-                                                "value": "25"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1931/1936",
-                                                "type": "inclusive",
-                                                "value": "1931-1936"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Currency"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref42",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_c9bfc106dd3287d97991c63a4af4274a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2fa7a3e3dafffdd6a23ac1ad72fd19f8",
-                                                "parent": "aspace_c9bfc106dd3287d97991c63a4af4274a",
-                                                "type": "folder",
-                                                "value": "26"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1944/1944",
-                                                "type": "inclusive",
-                                                "value": "1944"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans of the Abraham Lincoln Brigade: Christmas Ball Fundraising Tickets"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref43",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_9a791975110027a081c83c0b81d6bec7",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_3d0e130dbc9204b7da212a79e53496e8",
-                                                "parent": "aspace_9a791975110027a081c83c0b81d6bec7",
-                                                "type": "folder",
-                                                "value": "27"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1940/1940",
-                                                "type": "inclusive",
-                                                "value": "1940"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans of the Abraham Lincoln Brigade: Membership Card"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref44",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_f802c6717bfec3d7cedab2dbd079090a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d1e284a0c203cd8ab15d4ee191df8987",
-                                                "parent": "aspace_f802c6717bfec3d7cedab2dbd079090a",
-                                                "type": "folder",
-                                                "value": "28"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1927/1947",
-                                                "type": "inclusive",
-                                                "value": "ca.1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Vocabulary Sheets, Spanish/English"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref45",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062730836",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_a1840458d9630b6d55437257719e2778",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_88e9e77042800d571e7ee9dd86649126",
-                                                "parent": "aspace_a1840458d9630b6d55437257719e2778",
-                                                "type": "folder",
-                                                "value": "29"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1938",
-                                                "type": "inclusive",
-                                                "value": "1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\u003cspan class=\"ead-title\"\u003eVolunteer for Liberty\u003c/span\u003e, \u003cspan class=\"ead-title\"\u003e\u003c/span\u003e(some with \u003cspan class=\"ead-title\"\u003e\u003c/span\u003eannotations by Friedman)",
-                                                "title": [
-                                                    {
-                                                        "render": "italic",
-                                                        "value": "Volunteer for Liberty"
-                                                    },
-                                                    {
-                                                        "render": "italic"
-                                                    },
-                                                    {
-                                                        "render": "italic"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "normal": "1966/1966",
+                                        "type": "inclusive",
+                                        "value": "1966"
                                     }
                                 ],
-                                "unittitle": [
-                                    {
-                                        "value": "Series II: Subject Files, 1931-"
-                                    }
-                                ]
+                                "unittitle": {
+                                    "value": "Correspondence: Fishman, Moe"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_feabdfd479c2974746d6f4c47369fc30",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_84afe6c5b9ddd1c196b291abc16a2e56",
+                                        "parent": "aspace_feabdfd479c2974746d6f4c47369fc30",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Feb 1937-May 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Friedman, Martin"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_6d057cee8884676d36bae50b4d3d0e53",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b2c414f7a5996077ade5cca954ffe7c9",
+                                        "parent": "aspace_6d057cee8884676d36bae50b4d3d0e53",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 1937-Aug 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Friedman, Martin"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_7c1d81da09d3c81a568bf1170242e1b0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_de7336b4273b53665ea4dec698504f1f",
+                                        "parent": "aspace_7c1d81da09d3c81a568bf1170242e1b0",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Sep 1937-Dec 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Friedman, Martin"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_ed48cd53699a3c6fb6e0333d5e94c936",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_96bb58a65cc1d4714080073ac9638df9",
+                                        "parent": "aspace_ed48cd53699a3c6fb6e0333d5e94c936",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jan 1938-May 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Friedman, Martin"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_77e13c8dd301465d9b0ef865bcd6b1ae",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6f7805ef176561035c3cbb9dfe4fb5f7",
+                                        "parent": "aspace_77e13c8dd301465d9b0ef865bcd6b1ae",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 1938-Aug 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Friedman, Martin"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_79ae8f69350e668c3ccdc8a1637eedb1",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_1d2ff8e555cd7272f3b07012427c08ad",
+                                        "parent": "aspace_79ae8f69350e668c3ccdc8a1637eedb1",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Sep 1938-Jan 1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Friedman, Martin"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_ca9b7b9cd6a5d0391df3215fd90cc257",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_18e2ebb2719c1ef3f819f4e57047b283",
+                                        "parent": "aspace_ca9b7b9cd6a5d0391df3215fd90cc257",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1931/1966",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Friedman, Martin: Fragments"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_03781cc9984c9fd5347b25cc7901d6ba",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6d3ccd6f867e6dfd3c51ba483b859722",
+                                        "parent": "aspace_03781cc9984c9fd5347b25cc7901d6ba",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1939/1939",
+                                        "type": "inclusive",
+                                        "value": "1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Friedman Baral, Zelda"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_9af40b96c604f25f8377e6c6da53e0e1",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_02c7a76f8ba3c8a57ddbc16b197012cf",
+                                        "parent": "aspace_9af40b96c604f25f8377e6c6da53e0e1",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Dec 1937-Mar 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Goldberg, Arthur (a.k.a. Quentin Arthur Gorgan)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_4e2413f53161b6adca0d0b58d6b34832",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_26f69acce173791c2a48009c9ce115c2",
+                                        "parent": "aspace_4e2413f53161b6adca0d0b58d6b34832",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jan 1938-Sep 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Hubbard, Keith Harry (\"Duke\")"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Correspondence, 1936-1966 [Bulk, 1936-1939]"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref27",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_58c5f05f49b4d684997e637b6dcf3c14",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9910c92d6ec36a492e6a433a8339f3c1",
+                                        "parent": "aspace_58c5f05f49b4d684997e637b6dcf3c14",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1939",
+                                        "type": "inclusive",
+                                        "value": "1937-1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Carnet Militaire"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_5f729ac57ae9ab4a2a412926f72254aa",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a88422b6ddfcb4cba71e40c1a0a2883a",
+                                        "parent": "aspace_5f729ac57ae9ab4a2a412926f72254aa",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1939",
+                                        "type": "inclusive",
+                                        "value": "1938-1939"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Clippings"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_8445cfac236446e6683c7208d362c4fe",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e388446374faf70a8c31ea864427eab3",
+                                        "parent": "aspace_8445cfac236446e6683c7208d362c4fe",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Graphic Works: \u003cspan class=\"ead-title\"\u003eAtila en Galicia: Estampa por Castelao\u003c/span\u003e",
+                                    "title": [
+                                        {
+                                            "value": "Atila en Galicia: Estampa por Castelao",
+                                            "render": "italic"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_08309451aff57856b5473bfde286ec17",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6b3efd5a1079789887481fa22a956937",
+                                        "parent": "aspace_08309451aff57856b5473bfde286ec17",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1947",
+                                        "type": "inclusive",
+                                        "value": "ca.1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Graphic Works: \u003cspan class=\"ead-title\"\u003eEstampas de la Revolucion Espanola, 19 Julio de 1936\u003c/span\u003e(drawings by Sim)",
+                                    "title": [
+                                        {
+                                            "value": "Estampas de la Revolucion Espanola, 19 Julio de 1936",
+                                            "render": "italic"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_b5be56139196c65f5523936789416d7a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_13a93e440ffd2c9eaa65b793af580592",
+                                        "parent": "aspace_b5be56139196c65f5523936789416d7a",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1947",
+                                        "type": "inclusive",
+                                        "value": "ca.1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Graphic Works: Molne, Spanish Civil War"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_8d08397d0165af7532cd29a8f180ca46",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_322207b9fad7368a6fdd823d44fd9d0c",
+                                        "parent": "aspace_8d08397d0165af7532cd29a8f180ca46",
+                                        "type": "folder",
+                                        "value": "17"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Apr 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Graphic Works: Spain ( \u003cspan class=\"ead-title\"\u003ePhoto History Magazine\u003c/span\u003epublication)",
+                                    "title": [
+                                        {
+                                            "value": "Photo History Magazine",
+                                            "render": "italic"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_36c40965d4a10e7745c77af9bcdcbdd1",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_244bbbcade3e0d870816e974c2019c06",
+                                        "parent": "aspace_36c40965d4a10e7745c77af9bcdcbdd1",
+                                        "type": "folder",
+                                        "value": "18"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1947",
+                                        "type": "inclusive",
+                                        "value": "ca.1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Graphic Works: Twelve Dibujo (drawings by Martinez de Leon)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref35",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_f9a87ac7a0a3887c9c8abd1a4601f667",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_f250f90f75737fc9ff03d06a0d1fab2e",
+                                        "parent": "aspace_f9a87ac7a0a3887c9c8abd1a4601f667",
+                                        "type": "folder",
+                                        "value": "19"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Hubbard, Keith Harry: Pen-and-Ink Drawings"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref36",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_9415d3a1525307b092baca4313aebf56",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c50f02fdbf241a32f2c2e8675a5e872e",
+                                        "parent": "aspace_9415d3a1525307b092baca4313aebf56",
+                                        "type": "folder",
+                                        "value": "20"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1931/1966",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "International Brigade Signet Ring "
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref37",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e802290776c6d08c29cd872a4cc8d5ef",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_db427e8f2b9d33f6b21a1846045099af",
+                                        "parent": "aspace_e802290776c6d08c29cd872a4cc8d5ef",
+                                        "type": "folder",
+                                        "value": "21"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1938",
+                                        "type": "inclusive",
+                                        "value": "1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Leaflet: \"Fifteenth Brigade: One Year of Battle\""
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref38",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_98ff94b713c7524083929cb466808ab1",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_318f8dc29375ac7e6e2666edce12a916",
+                                        "parent": "aspace_98ff94b713c7524083929cb466808ab1",
+                                        "type": "folder",
+                                        "value": "22"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1947",
+                                        "type": "inclusive",
+                                        "value": "ca.1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Pamphlet: Open Letter from the Spanish Communist Party (missing cover), in Spanish"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref39",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_46279c0b596651e6c6bb635505679c64",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_eb81564367a591b0c2c5202bd9d66d45",
+                                        "parent": "aspace_46279c0b596651e6c6bb635505679c64",
+                                        "type": "folder",
+                                        "value": "23"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1947",
+                                        "type": "inclusive",
+                                        "value": "ca.1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Postcards: International Brigade and Spanish Political Parties"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref40",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_d4be2319b2b450f08b8922a3b1cce291",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_56c13c123df91d9a6186ca47b5ababa7",
+                                        "parent": "aspace_d4be2319b2b450f08b8922a3b1cce291",
+                                        "type": "folder",
+                                        "value": "24"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1947",
+                                        "type": "inclusive",
+                                        "value": "ca.1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Socorro Rojo: Fundraising Stamps and Postcards"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref41",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_fa8fbf611612da4e63c6e12621acfe7c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_adfa083bb931fa829395f0660cf5e4f8",
+                                        "parent": "aspace_fa8fbf611612da4e63c6e12621acfe7c",
+                                        "type": "folder",
+                                        "value": "25"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1931/1936",
+                                        "type": "inclusive",
+                                        "value": "1931-1936"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Currency"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref42",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_c9bfc106dd3287d97991c63a4af4274a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2fa7a3e3dafffdd6a23ac1ad72fd19f8",
+                                        "parent": "aspace_c9bfc106dd3287d97991c63a4af4274a",
+                                        "type": "folder",
+                                        "value": "26"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1944/1944",
+                                        "type": "inclusive",
+                                        "value": "1944"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans of the Abraham Lincoln Brigade: Christmas Ball Fundraising Tickets"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref43",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_9a791975110027a081c83c0b81d6bec7",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_3d0e130dbc9204b7da212a79e53496e8",
+                                        "parent": "aspace_9a791975110027a081c83c0b81d6bec7",
+                                        "type": "folder",
+                                        "value": "27"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1940/1940",
+                                        "type": "inclusive",
+                                        "value": "1940"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans of the Abraham Lincoln Brigade: Membership Card"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref44",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_f802c6717bfec3d7cedab2dbd079090a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d1e284a0c203cd8ab15d4ee191df8987",
+                                        "parent": "aspace_f802c6717bfec3d7cedab2dbd079090a",
+                                        "type": "folder",
+                                        "value": "28"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1927/1947",
+                                        "type": "inclusive",
+                                        "value": "ca.1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Vocabulary Sheets, Spanish/English"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref45",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062730836",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_a1840458d9630b6d55437257719e2778",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_88e9e77042800d571e7ee9dd86649126",
+                                        "parent": "aspace_a1840458d9630b6d55437257719e2778",
+                                        "type": "folder",
+                                        "value": "29"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1938",
+                                        "type": "inclusive",
+                                        "value": "1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\u003cspan class=\"ead-title\"\u003eVolunteer for Liberty\u003c/span\u003e, \u003cspan class=\"ead-title\"\u003e\u003c/span\u003e(some with \u003cspan class=\"ead-title\"\u003e\u003c/span\u003eannotations by Friedman)",
+                                    "title": [
+                                        {
+                                            "value": "Volunteer for Liberty",
+                                            "render": "italic"
+                                        },
+                                        {
+                                            "render": "italic"
+                                        },
+                                        {
+                                            "render": "italic"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series II: Subject Files, 1931-"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_bcb0995cf82c9c834fc494f3c7d3f244",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -1332,11 +1246,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_edc4601669ddd78ab2d8edf6b6130055",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "ALBA collections at the Tamiment Library."
@@ -1347,20 +1259,30 @@
         "scopecontent": [
             {
                 "id": "aspace_b0467f0f685d2c64be5fe334f783fed7",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "\u003cspan class=\"ead-emph ead-emph-bold\"\u003eSeries I. Correspondence, 1937-1939; 1966\u003c/span\u003e. This series consists chiefly of letters written by Friedman from Spain to his sister Zelda, brother-in-law Nat, his father Morris, and friends Mary and Ben, who shared a Jackson Heights apartment with his family. Full of warmth and humor, Friedman's weekly letters home cover the period from his arrival in Spain in February 1937 to his demobilization in January 1939. These letters offer keenly observed accounts of the ravages of war, the quotidian existence of combat volunteers, the political and social conditions in Spain, and the beauty of the architecture and rural landscape. Also included are references to the Friedman family's fundraising activities in New York, extended commentary on the \"Daily Worker,\" and declarations of Friedman's commitment to the Republican cause. Of particular note is a description of cooperative farming and land distribution in Catalonia (4/14/1937); a letter that details the plight of orphans and refugees (5/7/1937); and a Christmas greeting from Friedman's Spanish comrades at the front written on the back of a pre-printed International Brigade card (12/25/1937)."
                     },
                     {
-                        "value": "In addition this series includes a few letters written by fellow volunteers Arthur Goldberg (a.k.a. Gorgan) and Keith Harry Hubbard to Zelda and Nat. Goldberg served in Spain as an ambulance driver and was killed in April 1938. Hubbard, who signs his letters \"Duke,\" served in the artillery unit with Friedman. A 1966 condolence letter from Moe Fishman, in his capacity as Veterans of the Abraham Lincoln Brigade Secretary, to Friedman's widow Anne and a February 1939 (misdated 1938) telegram from Zelda received by Martin onboard the \u003cspan class=\"ead-title\"\u003eQueen Mary\u003c/span\u003ecan also be found here."
+                        "value": "In addition this series includes a few letters written by fellow volunteers Arthur Goldberg (a.k.a. Gorgan) and Keith Harry Hubbard to Zelda and Nat. Goldberg served in Spain as an ambulance driver and was killed in April 1938. Hubbard, who signs his letters \"Duke,\" served in the artillery unit with Friedman. A 1966 condolence letter from Moe Fishman, in his capacity as Veterans of the Abraham Lincoln Brigade Secretary, to Friedman's widow Anne and a February 1939 (misdated 1938) telegram from Zelda received by Martin onboard the \u003cspan class=\"ead-title\"\u003eQueen Mary\u003c/span\u003ecan also be found here.",
+                        "title": [
+                            {
+                                "value": "Queen Mary",
+                                "render": "italic"
+                            }
+                        ]
                     },
                     {
-                        "value": "\u003cspan class=\"ead-emph ead-emph-bold\"\u003eSeries II. Subject Files, 1931-1944\u003c/span\u003e. This series includes Friedman's \u003cspan class=\"ead-emph ead-emph-italic\"\u003ecarnet militaire\u003c/span\u003efrom Spain, his VALB membership card, and Spanish vocabulary sheets that he carried with him in Spain. Also here are Spanish political party, International Brigade and Socorro Rojo postcards; annotated copies of the International Brigade publication, \u003cspan class=\"ead-title\"\u003eThe Volunteer for Liberty\u003c/span\u003e; and four published graphic works of Spanish Civil War-era prints and photographs. Of particular note are three 1937 pen-and-ink drawings by K. H. Hubbard satirizing life at the front and in the camps, and Friedman's well-worn International Brigade signet ring with circular inscription in Spanish reading, \"International Volunteers for Liberty.\" [Note: This ring is physically housed with the processed artifacts from the ALBA collections. Consult staff.]"
+                        "value": "\u003cspan class=\"ead-emph ead-emph-bold\"\u003eSeries II. Subject Files, 1931-1944\u003c/span\u003e. This series includes Friedman's \u003cspan class=\"ead-emph ead-emph-italic\"\u003ecarnet militaire\u003c/span\u003efrom Spain, his VALB membership card, and Spanish vocabulary sheets that he carried with him in Spain. Also here are Spanish political party, International Brigade and Socorro Rojo postcards; annotated copies of the International Brigade publication, \u003cspan class=\"ead-title\"\u003eThe Volunteer for Liberty\u003c/span\u003e; and four published graphic works of Spanish Civil War-era prints and photographs. Of particular note are three 1937 pen-and-ink drawings by K. H. Hubbard satirizing life at the front and in the camps, and Friedman's well-worn International Brigade signet ring with circular inscription in Spanish reading, \"International Volunteers for Liberty.\" [Note: This ring is physically housed with the processed artifacts from the ALBA collections. Consult staff.]",
+                        "title": [
+                            {
+                                "value": "The Volunteer for Liberty",
+                                "render": "italic"
+                            }
+                        ]
                     }
                 ]
             }
@@ -1368,11 +1290,9 @@
         "separatedmaterial": [
             {
                 "id": "aspace_39b17f9e91c519a09b9f512e907fdfc6",
-                "head": [
-                    {
-                        "value": "Separated Material"
-                    }
-                ],
+                "head": {
+                    "value": "Separated Material"
+                },
                 "p": [
                     {
                         "value": "Two photographs were separated from the Martin Friedman manuscript materials in the course of processing and have been transferred to the non-print section of the ALBA collection in the Tamiment Library and Robert F. Wagner Labor Archives."
@@ -1383,11 +1303,9 @@
         "userestrict": [
             {
                 "id": "aspace_51eabf241a068ad907ae1f6c9a53ed4d",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection was not transferred to New York University. Permission to use materials must be secured from the copyright holder. For more information, please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -1396,93 +1314,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_218"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_218"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "FriedmanM ALBA 218.htm"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eFriedmanM ALBA 218.htm\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Jessica Weglein, January 2005."
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Martin Friedman Papers \u003cspan class=\"ead-num\"\u003eALBA.218\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Jessica Weglein, January 2005.",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Martin Friedman Papers \u003cspan class=\"ead-num\"\u003eALBA.218\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.218"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:35:41 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:35:41 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_c1550de1ad90c2a298a5f3fe8beb03d0",
-                "head": [
-                    {
-                        "value": "Access restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials related to personnel, grievances, job and fellowship searches and applications, and all files that fall under the federal Family Educational Rights and Privacy Act (FERPA) are permanently restricted.  Additional restrictions may apply to other materials in this collection.  For questions regarding specific restrictions, please contact the University Archives."
@@ -19,11 +17,9 @@
         "arrangement": [
             {
                 "id": "aspace_faf64dcd6110452e43f8883f35768c5c",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "The materials were arranged chronologically at the time of accession. They are currently arranged by year and, within each year, alphabetically by the last name of the author. A list of thesis authors and titles may be found at the Archives. Each box is labeled with the year(s) and the range of first letters of authors' last names in that box. For example: 1971-1973, A-F."
@@ -34,11 +30,9 @@
         "bioghist": [
             {
                 "id": "aspace_828faabd42e5b4a1ebc8c19b1ae1b466",
-                "head": [
-                    {
-                        "value": "History of the Economics Department"
-                    }
-                ],
+                "head": {
+                    "value": "History of the Economics Department"
+                },
                 "p": [
                     {
                         "value": "Undergraduate courses in Political Economy and Finance were being offered at NYU as early as 1846 as part of the Political Science Department's curriculum. In 1895, Political Economy and Finance professor Frank M. Colby became the sole faculty member of the newly formed Graduate School Department of Economics. Undergraduate courses in economics continued to be offered solely by the Department of Political Science until 1912, when an undergraduate Department of Economics was established."
@@ -52,42 +46,51 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "genreform": [
-                    "Masters theses"
-                ],
-                "persname": [
-                    {
-                        "role": "Proofreader",
-                        "value": "Leontief, Wassily, 1906-1999"
-                    },
-                    {
-                        "role": "Donor",
-                        "value": "Rizzo, Emily"
-                    },
-                    {
-                        "role": "Proofreader",
-                        "value": "Backman, Jules, 1910-1982"
-                    },
-                    {
-                        "role": "Proofreader",
-                        "value": "Fabricant, Robert"
-                    }
-                ],
-                "subject": [
-                    "Economics."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Masters theses"
+                }
+            ],
+            "persname": [
+                {
+                    "role": "Proofreader",
+                    "rules": "aacr",
+                    "source": "naf",
+                    "value": "Leontief, Wassily, 1906-1999"
+                },
+                {
+                    "role": "Donor",
+                    "rules": "aacr",
+                    "source": "local",
+                    "value": "Rizzo, Emily"
+                },
+                {
+                    "role": "Proofreader",
+                    "source": "naf",
+                    "value": "Backman, Jules, 1910-1982"
+                },
+                {
+                    "role": "Proofreader",
+                    "rules": "aacr",
+                    "source": "local",
+                    "value": "Fabricant, Robert"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Economics."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_81804a53a53cac76772cda98e44c6a95",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "These materials were accessioned on February 26, 1985, and donated by Emily Rizzo, a staff member in the Department of Economics."
@@ -95,486 +98,412 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "5 Linear Feet"
-                            },
-                            {
-                                "value": "(10 boxes)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(10 boxes)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "This collection contains a selection of masters theses written by students from the Department of Economics between 1971 and 1979.",
+                    "id": "aspace_d86af121ef6fe69593860dfc7cfe79c1"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "This collection contains a selection of masters theses written by students from the Department of Economics between 1971 and 1979.",
-                        "id": "aspace_d86af121ef6fe69593860dfc7cfe79c1"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "corpname": {
+                        "rules": "aacr",
+                        "source": "naf",
+                        "value": "New York University. Department of Economics"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
+                },
+                {
+                    "label": "source",
+                    "persname": {
+                        "role": "Donor",
+                        "rules": "aacr",
+                        "source": "local",
+                        "value": "Rizzo, Emily"
+                    }
+                }
+            ],
+            "physloc": [
+                {
+                    "id": "aspace_9217a5d290bf8aa1bf3b63602e66d0e4",
+                    "value": "Materials are stored offsite, and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "New York University Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1971/1979",
+                    "type": "inclusive",
+                    "value": "1971-1979"
+                }
+            ],
+            "unitid": "MC.119",
+            "unittitle": {
+                "value": "Collection of Masters Theses from the Faculty of Arts and Science, Department of Economics"
+            }
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref2",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "langcode": "eng",
-                                "value": "English"
+                                "barcode": "31142046896455",
+                                "label": "Text",
+                                "id": "aspace_16373eb574fa05ae4d0c06218b9a3567",
+                                "type": "box",
+                                "value": "1"
                             }
                         ],
-                        "value": "\n      \n.    "
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1971-1973"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Theses (A-F)"
+                        }
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "corpname": [
+                },
+                {
+                    "id": "aspace_ref3",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "New York University. Department of Economics"
+                                "barcode": "31142046896497",
+                                "label": "Text",
+                                "id": "aspace_a6a3c846850071bcd5b1f18c52ba4d97",
+                                "type": "box",
+                                "value": "2"
                             }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
+                        ],
+                        "langmaterial": [
                             {
-                                "role": "Donor",
-                                "value": "Rizzo, Emily"
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
                             }
-                        ]
+                        ],
+                        "unitdate": [
+                            {
+                                "normal": "1973/1973",
+                                "type": "inclusive",
+                                "value": "1973"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Theses (G-Y)"
+                        }
                     }
-                ],
-                "physloc": [
-                    {
-                        "id": "aspace_9217a5d290bf8aa1bf3b63602e66d0e4",
-                        "value": "Materials are stored offsite, and advance notice is required for use. Please request materials at least two business days prior to your research visit to coordinate access."
+                },
+                {
+                    "id": "aspace_ref4",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142046896505",
+                                "label": "Text",
+                                "id": "aspace_e71f8cac9c3653ffc4e77cd0670db122",
+                                "type": "box",
+                                "value": "3"
+                            }
+                        ],
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1974"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Theses"
+                        }
                     }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
+                },
+                {
+                    "id": "aspace_ref5",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "New York University Archives"
+                                "barcode": "31142046896513",
+                                "label": "Text",
+                                "id": "aspace_fad386f766575c2384d4832a34505fb9",
+                                "type": "box",
+                                "value": "4"
                             }
-                        ]
+                        ],
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1975"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Theses"
+                        }
                     }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1971/1979",
-                        "type": "inclusive",
-                        "value": "1971-1979"
+                },
+                {
+                    "id": "aspace_ref6",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142046896521",
+                                "label": "Text",
+                                "id": "aspace_af9db2f55cbe9b2eb3f19a7ccd6b1cb8",
+                                "type": "box",
+                                "value": "5"
+                            }
+                        ],
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1976-1977"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Theses (A-E)"
+                        }
                     }
-                ],
-                "unitid": [
-                    {
-                        "value": "MC.119"
+                },
+                {
+                    "id": "aspace_ref7",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142046896539",
+                                "label": "Text",
+                                "id": "aspace_5fe8c9ddad60073f186ce60a6e54c67a",
+                                "type": "box",
+                                "value": "6"
+                            }
+                        ],
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1977-1978"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Theses (A-B)"
+                        }
                     }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Collection of Masters Theses from the Faculty of Arts and Science, Department of Economics"
+                },
+                {
+                    "id": "aspace_ref8",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142046896570",
+                                "label": "Text",
+                                "id": "aspace_3c02c7365c565f78fd63ffe55cad2221",
+                                "type": "box",
+                                "value": "7"
+                            }
+                        ],
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1978"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Theses (C-Y)"
+                        }
                     }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref2",
-                        "level": "file",
-                        "did": [
+                },
+                {
+                    "id": "aspace_ref9",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142046896455",
-                                        "label": "Text",
-                                        "id": "aspace_16373eb574fa05ae4d0c06218b9a3567",
-                                        "type": "box",
-                                        "value": "1"
-                                    }
-                                ],
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1971-1973"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Theses (A-F)"
-                                    }
-                                ]
+                                "barcode": "31142046896588",
+                                "label": "Text",
+                                "id": "aspace_c1ce486c96ba8d2970c19c4a6c4ec492",
+                                "type": "box",
+                                "value": "8"
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref3",
-                        "level": "file",
-                        "did": [
+                        ],
+                        "langmaterial": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142046896497",
-                                        "label": "Text",
-                                        "id": "aspace_a6a3c846850071bcd5b1f18c52ba4d97",
-                                        "type": "box",
-                                        "value": "2"
-                                    }
-                                ],
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "normal": "1973/1973",
-                                        "type": "inclusive",
-                                        "value": "1973"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Theses (G-Y)"
-                                    }
-                                ]
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref4",
-                        "level": "file",
-                        "did": [
+                        ],
+                        "unitdate": [
                             {
-                                "container": [
-                                    {
-                                        "barcode": "31142046896505",
-                                        "label": "Text",
-                                        "id": "aspace_e71f8cac9c3653ffc4e77cd0670db122",
-                                        "type": "box",
-                                        "value": "3"
-                                    }
-                                ],
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1974"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Theses"
-                                    }
-                                ]
+                                "value": "1979"
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref5",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142046896513",
-                                        "label": "Text",
-                                        "id": "aspace_fad386f766575c2384d4832a34505fb9",
-                                        "type": "box",
-                                        "value": "4"
-                                    }
-                                ],
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1975"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Theses"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref6",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142046896521",
-                                        "label": "Text",
-                                        "id": "aspace_af9db2f55cbe9b2eb3f19a7ccd6b1cb8",
-                                        "type": "box",
-                                        "value": "5"
-                                    }
-                                ],
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1976-1977"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Theses (A-E)"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref7",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142046896539",
-                                        "label": "Text",
-                                        "id": "aspace_5fe8c9ddad60073f186ce60a6e54c67a",
-                                        "type": "box",
-                                        "value": "6"
-                                    }
-                                ],
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1977-1978"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Theses (A-B)"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref8",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142046896570",
-                                        "label": "Text",
-                                        "id": "aspace_3c02c7365c565f78fd63ffe55cad2221",
-                                        "type": "box",
-                                        "value": "7"
-                                    }
-                                ],
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1978"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Theses (C-Y)"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref9",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142046896588",
-                                        "label": "Text",
-                                        "id": "aspace_c1ce486c96ba8d2970c19c4a6c4ec492",
-                                        "type": "box",
-                                        "value": "8"
-                                    }
-                                ],
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1979"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Theses (A-G)"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref10",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142046896596",
-                                        "label": "Text",
-                                        "id": "aspace_50129813456502f5f6aaf818ed9c6f3b",
-                                        "type": "box",
-                                        "value": "9"
-                                    }
-                                ],
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "1979"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Theses (K-Z)"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref11",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142046896604",
-                                        "label": "Text",
-                                        "id": "aspace_4462172951f937387e328b5da44a15bd",
-                                        "type": "box",
-                                        "value": "10"
-                                    }
-                                ],
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
-                                    }
-                                ],
-                                "unitdate": [
-                                    {
-                                        "value": "Undated"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Theses"
-                                    }
-                                ]
-                            }
-                        ]
+                        ],
+                        "unittitle": {
+                            "value": "Theses (A-G)"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref10",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142046896596",
+                                "label": "Text",
+                                "id": "aspace_50129813456502f5f6aaf818ed9c6f3b",
+                                "type": "box",
+                                "value": "9"
+                            }
+                        ],
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "1979"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Theses (K-Z)"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref11",
+                    "level": "file",
+                    "did": {
+                        "container": [
+                            {
+                                "barcode": "31142046896604",
+                                "label": "Text",
+                                "id": "aspace_4462172951f937387e328b5da44a15bd",
+                                "type": "box",
+                                "value": "10"
+                            }
+                        ],
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unitdate": [
+                            {
+                                "value": "Undated"
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Theses"
+                        }
+                    }
+                }
+            ]
+        },
         "scopecontent": [
             {
                 "id": "aspace_96c757823c75f19a3fc334d3d8cb54fe",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "This collection contains a selection of masters theses written by students from the Department of Economics between 1971 and 1979. A full list of thesis authors and titles may be found at the Archives. This collection does not contain all graduate theses written by students but is, rather, a selection that was collected by the Department during this time period."
@@ -585,11 +514,9 @@
         "userestrict": [
             {
                 "id": "aspace_fd43286775f5fe9fb42a71c64d2ec080",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the creator are maintained by New York University. Permission to publish or reproduce materials in this collection must be secured from New York University Archives, (212) 998-2646, university-archives@nyu.edu"
@@ -598,68 +525,51 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NyNyUA",
+            "url": "http://dlib.nyu.edu/findingaids/html/archives/mc_119/",
+            "value": "mc_119"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "publisher": "New York University Archives"
+            },
+            "titlestmt": {
+                "author": "Darren W. Johnson in 1989. Revised by Caroline Moseley in 1990. Additional description in 2014 by Connor Gaudet.",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Collection of Theses from the Faculty of Arts and Science, Department of Economics \u003cspan class=\"ead-num\"\u003eMC.119\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MC.119"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 14:29:13 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard"
+        },
+        "revisiondesc": {
+            "change": [
                 {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NyNyUA",
-                    "url": "http://dlib.nyu.edu/findingaids/html/archives/mc_119/",
-                    "value": "mc_119"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
-                        {
-                            "publisher": "New York University Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Darren W. Johnson in 1989. Revised by Caroline Moseley in 1990. Additional description in 2014 by Connor Gaudet."
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Collection of Theses from the Faculty of Arts and Science, Department of Economics \u003cspan class=\"ead-num\"\u003eMC.119\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 14:29:13 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ]
-                }
-            ],
-            "revisiondesc": [
-                {
-                    "change": [
-                        {
-                            "date": [
-                                "January 2019"
-                            ],
-                            "item": [
-                                {
-                                    "value": "Edited by Jacqueline Rider for compliance with DACS and ACM Required Elements for Archival Description"
-                                }
-                            ]
-                        }
-                    ]
+                    "date": {
+                        "value": "January 2019"
+                    },
+                    "item": {
+                        "value": "Edited by Jacqueline Rider for compliance with DACS and ACM Required Elements for Archival Description"
+                    }
                 }
             ]
         }
-    ]
+    }
 }

@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_20779b812485093b125bacad476b122c",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Patrons should be supervised while using box 3 due to the fragile condition of its materials."
@@ -17,11 +15,9 @@
             },
             {
                 "id": "aspace_9b75d39236ff03e123d4208b778ef9ac",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Institutional records of New York University are closed for a period of 20 years from the date of their creation (the date on which each document was written). Board of Trustees records are similarly closed for 35 years from the date of creation.  The opening date for files spanning several years will be 20 years from the most recent date. Access will be given to material already 20 years old contained within a collection that is not yet open when such material can be isolated from the rest of the collection."
@@ -35,11 +31,9 @@
         "arrangement": [
             {
                 "id": "aspace_f9fbed2036f026e3fe109d2cca81cd74",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "The papers of the Woman's Law Class and the Woman's Legal Education Society have been divided into four series: general correspondence, material dealing with the Woman's Legal Education Society (WLES), material pertaining to the Woman's Law Class (WLC) and printed material. Folders have been arranged alphabetically by name/subject heading within each series."
@@ -50,11 +44,9 @@
         "bioghist": [
             {
                 "id": "aspace_8e78f38904e00e30fa35befceb85a641",
-                "head": [
-                    {
-                        "value": "Administrative History"
-                    }
-                ],
+                "head": {
+                    "value": "Administrative History"
+                },
                 "p": [
                     {
                         "value": "The Woman's Law Class of New York University was founded in 1890. Few law schools at the time admitted women, and the few women who did attend law school faced serious prejudice. "
@@ -80,58 +72,92 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "University of the City of New York"
-                    },
-                    {
-                        "value": "American Arbitration Association"
-                    }
-                ],
-                "genreform": [
-                    "Articles of incorporation.",
-                    "Affidavits.",
-                    "Speeches.",
-                    "Reports.",
-                    "Minutes (administrative records)"
-                ],
-                "geogname": [
-                    "New York (N.Y.)."
-                ],
-                "persname": [
-                    {
-                        "value": "Munn, Martha Buell, 1856-1926"
-                    },
-                    {
-                        "value": "MacCracken, Henry Mitchell, 1840-1918"
-                    },
-                    {
-                        "value": "Weber, Fanny B."
-                    },
-                    {
-                        "value": "Russell, Isaac Franklin, 1857-1931"
-                    },
-                    {
-                        "value": "Kempin, Emily"
-                    }
-                ],
-                "subject": [
-                    "Women Law Students.",
-                    "Women Law Teachers.",
-                    "Law |x Study and teaching."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "rules": "dacs",
+                    "source": "naf",
+                    "value": "University of the City of New York"
+                },
+                {
+                    "source": "naf",
+                    "value": "American Arbitration Association"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Articles of incorporation."
+                },
+                {
+                    "source": "aat",
+                    "value": "Affidavits."
+                },
+                {
+                    "source": "aat",
+                    "value": "Speeches."
+                },
+                {
+                    "source": "aat",
+                    "value": "Reports."
+                },
+                {
+                    "source": "aat",
+                    "value": "Minutes (administrative records)"
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "New York (N.Y.)."
+                }
+            ],
+            "persname": [
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Munn, Martha Buell, 1856-1926"
+                },
+                {
+                    "source": "naf",
+                    "value": "MacCracken, Henry Mitchell, 1840-1918"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Weber, Fanny B."
+                },
+                {
+                    "source": "naf",
+                    "value": "Russell, Isaac Franklin, 1857-1931"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Kempin, Emily"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Women Law Students."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Women Law Teachers."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Law |x Study and teaching."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_15be8bab11aaa06c77f9ae0409fb0276",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "Portions of this collection are presumed to have been extracted from the Henry Mitchell MacCracken Papers."
@@ -139,954 +165,853 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "1 Linear Feet"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The Woman's Legal Education Society of New York University was founded in 1890. The collection of its records is small but valuable in that it provides information regarding the origin and development of the Woman's Legal Education Society and the Woman's Law Class in their early years.",
+                    "id": "aspace_8e8b0bb4924afaffd326103a8e7181f9"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "The Woman's Legal Education Society of New York University was founded in 1890. The collection of its records is small but valuable in that it provides information regarding the origin and development of the Woman's Legal Education Society and the Woman's Law Class in their early years.",
-                        "id": "aspace_8e8b0bb4924afaffd326103a8e7181f9"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "corpname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Woman's Legal Education Society"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "corpname": [
-                            {
-                                "value": "Woman's Legal Education Society"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "New York University Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1888/1941",
-                        "type": "inclusive",
-                        "value": "1888-1923, 1941"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "RG.22.1"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Records of the Woman's Legal Education Society and the Woman's Law Class of New York University"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "New York University Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1888/1941",
+                    "type": "inclusive",
+                    "value": "1888-1923, 1941"
+                }
+            ],
+            "unitid": "RG.22.1",
+            "unittitle": {
+                "value": "Records of the Woman's Legal Education Society and the Woman's Law Class of New York University"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref17",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref18",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref17",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref18",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911287",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_458296445f848e54431756489c7c3b9b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_3bb37799bc3f9a372a1cdac1c7a6c05c",
-                                                "parent": "aspace_458296445f848e54431756489c7c3b9b",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1894-1907"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Letters to/from Henry M. MacCracken, Isaac Russell and Mrs. John P. Munn re: Woman's Legal Education Society and Woman's Law Class."
-                                            }
-                                        ]
+                                        "barcode": "31142062911287",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_458296445f848e54431756489c7c3b9b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_3bb37799bc3f9a372a1cdac1c7a6c05c",
+                                        "parent": "aspace_458296445f848e54431756489c7c3b9b",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1894-1907"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Letters to/from Henry M. MacCracken, Isaac Russell and Mrs. John P. Munn re: Woman's Legal Education Society and Woman's Law Class."
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
-                                    {
-                                        "value": "Series I: General Correspondence"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref19",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref20",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911287",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_f7d30ec0b5c4b8951b85ec43e867127c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4e998544f497e4720d76b1d336387490",
-                                                "parent": "aspace_f7d30ec0b5c4b8951b85ec43e867127c",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1890"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Affidavit of incorporation and by-laws."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911287",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_2af4f3aa6bae83bf87b170990ae2af63",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7b8d4b957642692d19343ea842cfbb60",
-                                                "parent": "aspace_2af4f3aa6bae83bf87b170990ae2af63",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1890"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Articles of incorporation"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911287",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e53204ee0a895bace7d53889e5e0d16a",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4e9dd871fb7a3c6f5af44a151cb27616",
-                                                "parent": "aspace_e53204ee0a895bace7d53889e5e0d16a",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1896-1904"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Financial reports"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911287",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_2697d14664de8626787bc99020d7d25c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_406f06593c9843d1863525bfce8fd8c2",
-                                                "parent": "aspace_2697d14664de8626787bc99020d7d25c",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1888-1891"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Kempin, Emily: Council records regarding her appointment as lecturer"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911287",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_05b17913486b70d0a2b9c183210fd55b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2a93653953175f0f753bd68afa0ef534",
-                                                "parent": "aspace_05b17913486b70d0a2b9c183210fd55b",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1895"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Reorganization of the Board of Directors"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911287",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_0455945881569aff2dec87383a02f1da",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4b3e07896eb0c3a9de0f190cf95ab0de",
-                                                "parent": "aspace_0455945881569aff2dec87383a02f1da",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1899-1901"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Russell, Isaac: Correspondence regarding payment of his salary"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
-                                    {
-                                        "value": "Series II: Woman's Legal Education Society"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref26",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref27",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911287",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_0b3832b5ff35e7bb0df2fbcf4f6ba4c5",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_93e57b9be3f93454a7f02f324134c9cb",
-                                                "parent": "aspace_0b3832b5ff35e7bb0df2fbcf4f6ba4c5",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1901, 1923"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911287",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_51b31a8e5fc8a992191bcf8c5827639e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_cec6cb7f7fcdc2ce1ef2563896aa76df",
-                                                "parent": "aspace_51b31a8e5fc8a992191bcf8c5827639e",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1899-1900"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Minutes"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911287",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e1858a636cd9d8ec641075ca047d0044",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_989907aa2887b11a5e21d40b4ee8eac5",
-                                                "parent": "aspace_e1858a636cd9d8ec641075ca047d0044",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1896-1900"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Endowment: correspondence, lists of donors, etc."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911287",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_deaa82ab13cee0298d48748225eb6915",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1ad198fc49c2dddcf29e8737c40f6ad9",
-                                                "parent": "aspace_deaa82ab13cee0298d48748225eb6915",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1922-1923"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "List of lecturers, number of lectures, compensation basis, etc."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911287",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_3ed3fd4f222366b4df7e2f4b827d16fd",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_451b974307134f7c2a33b1b4b613b94e",
-                                                "parent": "aspace_3ed3fd4f222366b4df7e2f4b827d16fd",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1900-1902"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Reports of lecturer: on student performance"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911287",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_261aee82a1c566e6bde7abad69cc6efe",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_253a544174dca08bc4b5bf2c17f379ae",
-                                                "parent": "aspace_261aee82a1c566e6bde7abad69cc6efe",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1900-1935"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Scholarships: Correspondence, list of students receiving, etc."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911295",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_d6ca39f462148c08bb28682e3c0ae937",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_e5be46627a69bbf2c05d223d74ec8b6b",
-                                                "parent": "aspace_d6ca39f462148c08bb28682e3c0ae937",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1908"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Speeches and addresses"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911295",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_c3cfe8d53ff56762652d3e6d191641a6",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_858f1dbb6870ba962df96ac9f7ca257d",
-                                                "parent": "aspace_c3cfe8d53ff56762652d3e6d191641a6",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1902-1918"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Students' names and addresses"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref35",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911295",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_4f93d87623c9cca8244846db22f28957",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_1bcc74811046ca8bcc21ac4a218d7bca",
-                                                "parent": "aspace_4f93d87623c9cca8244846db22f28957",
-                                                "type": "folder",
-                                                "value": "16"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1909, 1916-1917"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Students' names and addresses includes evening division"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_131f72a28f72c764561fd846322a8839",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062852242",
-                                                "label": "Mixed Materials",
-                                                "altrender": "OS Flat Box - 17x21x5",
-                                                "id": "aspace_559e1182b78f5dcf943056dee6d725f6",
-                                                "type": "box",
-                                                "value": "Shared University Archives 090"
-                                            },
-                                            {
-                                                "id": "aspace_273c1e46d1670669494a8de9f35f511a",
-                                                "parent": "aspace_559e1182b78f5dcf943056dee6d725f6",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1918"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Women's Law Class Portrait"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
-                                    {
-                                        "value": "Series III: Woman's Law Class"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref36",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref37",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911295",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_a4f7d3664085a0a63ee8b051c835359f",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_462817dc6255f208a992c860a0a7b56e",
-                                                "parent": "aspace_a4f7d3664085a0a63ee8b051c835359f",
-                                                "type": "folder",
-                                                "value": "17"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1898-1901"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Admission tickets: to Woman's Law Class and to closing exercises"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref38",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911295",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_4960f7170c1ccdd4bc1a58c9672ccbe3",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_04347b3a6bc0da8c173300e4154f3a27",
-                                                "parent": "aspace_4960f7170c1ccdd4bc1a58c9672ccbe3",
-                                                "type": "folder",
-                                                "value": "18"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1897-1904"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Articles"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref39",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911295",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_15bbcc80ebc36709c1610ef7d799366f",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_3198bf52dc3be8217e20b05f78f371b8",
-                                                "parent": "aspace_15bbcc80ebc36709c1610ef7d799366f",
-                                                "type": "folder",
-                                                "value": "19"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1893-1920"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Circulars"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref40",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911295",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_d03948bd48d31a380f8abb4eda722fe7",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_821351629e18af082da67471d78b0e4e",
-                                                "parent": "aspace_d03948bd48d31a380f8abb4eda722fe7",
-                                                "type": "folder",
-                                                "value": "20"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1940"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "\"For the Better Protection of their Rights\""
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref41",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911295",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e6a09abe6d23df19905a33fb45bbbd89",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_48f189df33e29cdf036ead5f0d61f4a5",
-                                                "parent": "aspace_e6a09abe6d23df19905a33fb45bbbd89",
-                                                "type": "folder",
-                                                "value": "21"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1897-1901"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Invitations"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref42",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062911295",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_1416d72d347afee023e6059cc6464f23",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_69c0bf96d8a5b8c3f39ca30996a65200",
-                                                "parent": "aspace_1416d72d347afee023e6059cc6464f23",
-                                                "type": "folder",
-                                                "value": "22"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1896-1941"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Programs: Closing Exercises"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
-                                    {
-                                        "value": "Series IV: Printed Material"
-                                    }
-                                ]
-                            }
-                        ]
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series I: General Correspondence"
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref19",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref20",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911287",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_f7d30ec0b5c4b8951b85ec43e867127c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4e998544f497e4720d76b1d336387490",
+                                        "parent": "aspace_f7d30ec0b5c4b8951b85ec43e867127c",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1890"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Affidavit of incorporation and by-laws."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911287",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_2af4f3aa6bae83bf87b170990ae2af63",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7b8d4b957642692d19343ea842cfbb60",
+                                        "parent": "aspace_2af4f3aa6bae83bf87b170990ae2af63",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1890"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Articles of incorporation"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911287",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e53204ee0a895bace7d53889e5e0d16a",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4e9dd871fb7a3c6f5af44a151cb27616",
+                                        "parent": "aspace_e53204ee0a895bace7d53889e5e0d16a",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1896-1904"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Financial reports"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911287",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_2697d14664de8626787bc99020d7d25c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_406f06593c9843d1863525bfce8fd8c2",
+                                        "parent": "aspace_2697d14664de8626787bc99020d7d25c",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1888-1891"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Kempin, Emily: Council records regarding her appointment as lecturer"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911287",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_05b17913486b70d0a2b9c183210fd55b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2a93653953175f0f753bd68afa0ef534",
+                                        "parent": "aspace_05b17913486b70d0a2b9c183210fd55b",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1895"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Reorganization of the Board of Directors"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911287",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_0455945881569aff2dec87383a02f1da",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4b3e07896eb0c3a9de0f190cf95ab0de",
+                                        "parent": "aspace_0455945881569aff2dec87383a02f1da",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1899-1901"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Russell, Isaac: Correspondence regarding payment of his salary"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series II: Woman's Legal Education Society"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref26",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref27",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911287",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_0b3832b5ff35e7bb0df2fbcf4f6ba4c5",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_93e57b9be3f93454a7f02f324134c9cb",
+                                        "parent": "aspace_0b3832b5ff35e7bb0df2fbcf4f6ba4c5",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1901, 1923"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911287",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_51b31a8e5fc8a992191bcf8c5827639e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_cec6cb7f7fcdc2ce1ef2563896aa76df",
+                                        "parent": "aspace_51b31a8e5fc8a992191bcf8c5827639e",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1899-1900"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Minutes"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911287",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e1858a636cd9d8ec641075ca047d0044",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_989907aa2887b11a5e21d40b4ee8eac5",
+                                        "parent": "aspace_e1858a636cd9d8ec641075ca047d0044",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1896-1900"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Endowment: correspondence, lists of donors, etc."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911287",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_deaa82ab13cee0298d48748225eb6915",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_1ad198fc49c2dddcf29e8737c40f6ad9",
+                                        "parent": "aspace_deaa82ab13cee0298d48748225eb6915",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1922-1923"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "List of lecturers, number of lectures, compensation basis, etc."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911287",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_3ed3fd4f222366b4df7e2f4b827d16fd",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_451b974307134f7c2a33b1b4b613b94e",
+                                        "parent": "aspace_3ed3fd4f222366b4df7e2f4b827d16fd",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1900-1902"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Reports of lecturer: on student performance"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911287",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_261aee82a1c566e6bde7abad69cc6efe",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_253a544174dca08bc4b5bf2c17f379ae",
+                                        "parent": "aspace_261aee82a1c566e6bde7abad69cc6efe",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1900-1935"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Scholarships: Correspondence, list of students receiving, etc."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911295",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_d6ca39f462148c08bb28682e3c0ae937",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_e5be46627a69bbf2c05d223d74ec8b6b",
+                                        "parent": "aspace_d6ca39f462148c08bb28682e3c0ae937",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1908"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Speeches and addresses"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911295",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_c3cfe8d53ff56762652d3e6d191641a6",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_858f1dbb6870ba962df96ac9f7ca257d",
+                                        "parent": "aspace_c3cfe8d53ff56762652d3e6d191641a6",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1902-1918"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Students' names and addresses"
+                                }
+                            },
+                            "separatedmaterial": [
+                                {
+                                    "id": "aspace_c11ab0574895a6e77c721c0604ff8de5",
+                                    "head": {
+                                        "value": "Separated materials"
+                                    },
+                                    "p": [
+                                        {
+                                            "value": "This volume was moved in 2002 to a separate box due to the deterioration of its binding."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aspace_ref35",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911295",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_4f93d87623c9cca8244846db22f28957",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_1bcc74811046ca8bcc21ac4a218d7bca",
+                                        "parent": "aspace_4f93d87623c9cca8244846db22f28957",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1909, 1916-1917"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Students' names and addresses includes evening division"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_131f72a28f72c764561fd846322a8839",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062852242",
+                                        "label": "Mixed Materials",
+                                        "altrender": "OS Flat Box - 17x21x5",
+                                        "id": "aspace_559e1182b78f5dcf943056dee6d725f6",
+                                        "type": "box",
+                                        "value": "Shared University Archives 090"
+                                    },
+                                    {
+                                        "id": "aspace_273c1e46d1670669494a8de9f35f511a",
+                                        "parent": "aspace_559e1182b78f5dcf943056dee6d725f6",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1918"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Women's Law Class Portrait"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series III: Woman's Law Class"
+                        }
+                    }
+                },
+                {
+                    "id": "aspace_ref36",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref37",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911295",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_a4f7d3664085a0a63ee8b051c835359f",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_462817dc6255f208a992c860a0a7b56e",
+                                        "parent": "aspace_a4f7d3664085a0a63ee8b051c835359f",
+                                        "type": "folder",
+                                        "value": "17"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1898-1901"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Admission tickets: to Woman's Law Class and to closing exercises"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref38",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911295",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_4960f7170c1ccdd4bc1a58c9672ccbe3",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_04347b3a6bc0da8c173300e4154f3a27",
+                                        "parent": "aspace_4960f7170c1ccdd4bc1a58c9672ccbe3",
+                                        "type": "folder",
+                                        "value": "18"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1897-1904"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Articles"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref39",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911295",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_15bbcc80ebc36709c1610ef7d799366f",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_3198bf52dc3be8217e20b05f78f371b8",
+                                        "parent": "aspace_15bbcc80ebc36709c1610ef7d799366f",
+                                        "type": "folder",
+                                        "value": "19"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1893-1920"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Circulars"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref40",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911295",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_d03948bd48d31a380f8abb4eda722fe7",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_821351629e18af082da67471d78b0e4e",
+                                        "parent": "aspace_d03948bd48d31a380f8abb4eda722fe7",
+                                        "type": "folder",
+                                        "value": "20"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1940"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "\"For the Better Protection of their Rights\""
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref41",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911295",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e6a09abe6d23df19905a33fb45bbbd89",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_48f189df33e29cdf036ead5f0d61f4a5",
+                                        "parent": "aspace_e6a09abe6d23df19905a33fb45bbbd89",
+                                        "type": "folder",
+                                        "value": "21"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1897-1901"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Invitations"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref42",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062911295",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_1416d72d347afee023e6059cc6464f23",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_69c0bf96d8a5b8c3f39ca30996a65200",
+                                        "parent": "aspace_1416d72d347afee023e6059cc6464f23",
+                                        "type": "folder",
+                                        "value": "22"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1896-1941"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Programs: Closing Exercises"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series IV: Printed Material"
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_fe62067a14168cc944d8046a3b433981",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
-                        "value": "Published citations should take the following form:\u003cbr\u003e\u003cbr\u003eIdentification of item, date (if known); Records of the Woman's Law Class and Women's Legal Education Society of New York University ; collection number; box number; folder number; \u003cspan class=\"ead-address\"\u003e\u003cspan class=\"ead-addressline\"\u003eNew York University Archives\u003c/span\u003e\u003c/span\u003e , New York University Libraries."
+                        "value": "Published citations should take the following form:\u003cbr\u003e\u003cbr\u003eIdentification of item, date (if known); Records of the Woman's Law Class and Women's Legal Education Society of New York University ; collection number; box number; folder number; \u003cspan class=\"ead-address\"\u003e\u003cspan class=\"ead-addressline\"\u003eNew York University Archives\u003c/span\u003e\u003c/span\u003e , New York University Libraries.",
+                        "address": [
+                            {
+                                "addressline": [
+                                    {
+                                        "value": "New York University Archives"
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
@@ -1094,14 +1019,18 @@
         "relatedmaterial": [
             {
                 "id": "aspace_b06151a04409df36cd1671bf4f6ce107",
-                "head": [
-                    {
-                        "value": "Related Material at the New York University Archives         "
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the New York University Archives         "
+                },
                 "p": [
                     {
-                        "value": "See also the \u003cspan class=\"ead-extref\"\u003eHenry Mitchell MacCracken Papers \u003c/span\u003e(MC 15)/"
+                        "value": "See also the \u003cspan class=\"ead-extref\"\u003eHenry Mitchell MacCracken Papers \u003c/span\u003e(MC 15)/",
+                        "extref": [
+                            {
+                                "href": "http://dlib.nyu.edu/findingaids/html/archives/maccrackenpers/",
+                                "show": "embed"
+                            }
+                        ]
                     }
                 ]
             }
@@ -1109,11 +1038,9 @@
         "scopecontent": [
             {
                 "id": "aspace_27a6ea63a4f5a8ec07eb18a601a3c7b9",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "Although the office of origin of the records of the Woman's Law Class and the Woman's Legal Education Society is unclear, some of them were presumably extracted from the Henry Mitchell MacCracken Papers (MC 15). "
@@ -1128,10 +1055,24 @@
                         "value": "The third series includes material which pertains mainly to the Woman's Law Class. The few pieces of correspondence relate to various routine administrative matters of the WLC (folder 8). There also are excerpts from minutes regarding the Woman's Law Class, which pertain mainly to significant financial matters that occurred over the years (folder 9). The file on endowments includes correspondence and lists of donors to the various endowment funds of the Woman's Law Class (folder 10). A list of names of lecturers, the number of lectures taught, total costs of compensation and the basis for this total compensation is also provided (folder 11). Other papers that have survived from this early period of the Woman's Law Class are the reports of the lecturer on student performance. Although some of these reports refer to the fact that the Woman's Law Class Examination Paper for that year is attached, only one such paper is actually in this series (folder 12)."
                     },
                     {
-                        "value": "The material on scholarships includes some correspondence and a few lists indicating students who received scholarships as well as those who received honors. One of the lists of names does not have a title as such, but a handwritten note at the bottom of the list suggests that it was a list of people who were to receive some sort of \"Certificate\" (folder 13). This series also contains two transcripts of speeches. The first of these was apparently addressed to the Chancellor and all members present at the Woman's Law Class Closing Exercises in 1902; the identity of the person addressing the audience is not clear, but the content of the speech tends to suggest that it was probably delivered by one of the members of the graduating class. The second address, of which there are two typed copies with some handwritten notes, was given by Chancellor MacCracken at the opening of the Woman's Law Class in 1908. The main theme of this speech is his suggestion that a study \"on comparative legislation of England and America touching woman's place in local self-government and municipal affairs\" should be undertaken by this law class for women. In his speech Dr. MacCracken refers to and relies quite heavily upon an article written by Mrs. Humphrey Ward, who was the daughter of the 'great teacher' Thomas Arnold. A copy of the first page of this article \"Why I Do Not Believe in Woman Suffrage,\" published in the November 1908 issue of the \u003cspan class=\"ead-title\"\u003eLadies' Home Journal\u003c/span\u003e, is filed with this material (folder 14). Also within this series is a leather bound book, which contains handwritten lists of the names and addresses of the students of the Woman's Law Class from the academic years 1902-1903 through 1917-1918 (folder 15). Moreover, there is a list of names and addresses of students who were enrolled in the evening division as well as a similar list indicating whether or not the students passed or failed (folder 16)."
+                        "value": "The material on scholarships includes some correspondence and a few lists indicating students who received scholarships as well as those who received honors. One of the lists of names does not have a title as such, but a handwritten note at the bottom of the list suggests that it was a list of people who were to receive some sort of \"Certificate\" (folder 13). This series also contains two transcripts of speeches. The first of these was apparently addressed to the Chancellor and all members present at the Woman's Law Class Closing Exercises in 1902; the identity of the person addressing the audience is not clear, but the content of the speech tends to suggest that it was probably delivered by one of the members of the graduating class. The second address, of which there are two typed copies with some handwritten notes, was given by Chancellor MacCracken at the opening of the Woman's Law Class in 1908. The main theme of this speech is his suggestion that a study \"on comparative legislation of England and America touching woman's place in local self-government and municipal affairs\" should be undertaken by this law class for women. In his speech Dr. MacCracken refers to and relies quite heavily upon an article written by Mrs. Humphrey Ward, who was the daughter of the 'great teacher' Thomas Arnold. A copy of the first page of this article \"Why I Do Not Believe in Woman Suffrage,\" published in the November 1908 issue of the \u003cspan class=\"ead-title\"\u003eLadies' Home Journal\u003c/span\u003e, is filed with this material (folder 14). Also within this series is a leather bound book, which contains handwritten lists of the names and addresses of the students of the Woman's Law Class from the academic years 1902-1903 through 1917-1918 (folder 15). Moreover, there is a list of names and addresses of students who were enrolled in the evening division as well as a similar list indicating whether or not the students passed or failed (folder 16).",
+                        "title": [
+                            {
+                                "value": "Ladies' Home Journal",
+                                "render": "italic",
+                                "type": "simple"
+                            }
+                        ]
                     },
                     {
-                        "value": "The final series in this collection includes the printed material which pertains to the Woman's Legal Education Society and the Woman's Law Class. There are admission tickets to WLC Closing Exercises as well as one admission ticket to the \"Law Lectures to Women\" (folder 17). Various newspaper clippings and other articles also form a part of the series. These include \"Women Lawyers: Opening of the New York University Classes for 1897-1898.\" printed in the \u003cspan class=\"ead-title\"\u003eBrooklyn Standard Union\u003c/span\u003e on October 20, 1897; \"Will Not Depend on Men for Law,\" printed in the New York Herald on November 4, 1900; \"Woman's Study of Law: the Dean's View of it and Some More Frivolous Opinions,\" printed in The Sun on February 7, 1904; and \"Law in Our Colleges,\" which provides no information as to where or when it was printed (folder 18). Also in the series are several circulars, or announcements of courses for the Woman's Law Class, some correspondence regarding certain circulars, a draft of a circular and a copy of a University graduate seminary calendar (folder 19). \"For the Better Protection of their Rights\" is a historical review of the first fifty years of the Woman's Legal Education Society and the Woman's Law Class at New York University, published by the University in 1940 to commemorate the Fiftieth Anniversary of the founding of the WLC and the WLES (folder 20). Additional printed material in this series consists of invitations, including several to a reunion tea of the Alumnae Association given by the President of the WLES and the President of the Alumnae Association of the WLC, some to the Woman's Law Class Closing Exercises, invitations from the Woman's Advisory Committee of New York University to meet the faculty of the University School of Pedagogy and one invitation to attend the Opening Exercises of the WLC at the New York University Building (folder 21). Numerous programs (some of which are duplicated) of the Closing Exercises of the Woman's Law Class are also included among the printed material (folder 22)."
+                        "value": "The final series in this collection includes the printed material which pertains to the Woman's Legal Education Society and the Woman's Law Class. There are admission tickets to WLC Closing Exercises as well as one admission ticket to the \"Law Lectures to Women\" (folder 17). Various newspaper clippings and other articles also form a part of the series. These include \"Women Lawyers: Opening of the New York University Classes for 1897-1898.\" printed in the \u003cspan class=\"ead-title\"\u003eBrooklyn Standard Union\u003c/span\u003e on October 20, 1897; \"Will Not Depend on Men for Law,\" printed in the New York Herald on November 4, 1900; \"Woman's Study of Law: the Dean's View of it and Some More Frivolous Opinions,\" printed in The Sun on February 7, 1904; and \"Law in Our Colleges,\" which provides no information as to where or when it was printed (folder 18). Also in the series are several circulars, or announcements of courses for the Woman's Law Class, some correspondence regarding certain circulars, a draft of a circular and a copy of a University graduate seminary calendar (folder 19). \"For the Better Protection of their Rights\" is a historical review of the first fifty years of the Woman's Legal Education Society and the Woman's Law Class at New York University, published by the University in 1940 to commemorate the Fiftieth Anniversary of the founding of the WLC and the WLES (folder 20). Additional printed material in this series consists of invitations, including several to a reunion tea of the Alumnae Association given by the President of the WLES and the President of the Alumnae Association of the WLC, some to the Woman's Law Class Closing Exercises, invitations from the Woman's Advisory Committee of New York University to meet the faculty of the University School of Pedagogy and one invitation to attend the Opening Exercises of the WLC at the New York University Building (folder 21). Numerous programs (some of which are duplicated) of the Closing Exercises of the Woman's Law Class are also included among the printed material (folder 22).",
+                        "title": [
+                            {
+                                "value": "Brooklyn Standard Union",
+                                "render": "italic",
+                                "type": "simple"
+                            }
+                        ]
                     },
                     {
                         "value": "This collection is a small but valuable one in that it provides the researcher with information regarding the origin and development of the Woman's Legal Education Society and the Woman's Law Class through their early years. In addition, it sheds light on the subject of women and education at the turn of the century as well as on the relationship fostered between the University and the New York community. The correspondence is particularly useful since it discloses several prominent correspondents; moreover, it sometimes reveals the character of the correspondent and his or her concern for the Woman's Legal Education Society or the Woman's Law Class. In addition, some of the printed matter enlightens the researcher with regard to prevailing attitudes of the day towards women in the legal profession."
@@ -1142,11 +1083,9 @@
         "userestrict": [
             {
                 "id": "aspace_04d231c731c6b8f41bfe81c7514cc4b1",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Some materials may be restricted. Permission to publish materials must be obtained in writing from the:\u003cbr\u003eNew York University Archives\u003cbr\u003e Elmer Holmes Bobst Library\u003cbr\u003e 70 Washington Square South\u003cbr\u003e New York, NY 10012\u003cbr\u003e Phone: (212) 998-2641\u003cbr\u003eFax: (212) 995-4225\u003cbr\u003eE-mail: university-archives@nyu.edu\u003cbr\u003e"
@@ -1155,62 +1094,51 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NyNyUA",
-                    "url": "http://dlib.nyu.edu/findingaids/html/archives/womanslaw/",
-                    "value": "rg_22_1"
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NyNyUA",
+            "url": "http://dlib.nyu.edu/findingaids/html/archives/womanslaw/",
+            "value": "rg_22_1"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from a hard copy."
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "publisher": "New York University Archives"
+            },
+            "titlestmt": {
+                "author": "Rohinie Jayatilaka.",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Records of the Woman's Legal Education Society and the Woman's Law Class of New York University  \u003cspan class=\"ead-num\"\u003eRG.22.1\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "RG.22.1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 14:34:32 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {
+                "language": {
+                    "value": "English"
                 }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
-                        {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from a hard copy.\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
-                        {
-                            "publisher": "New York University Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Rohinie Jayatilaka."
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Records of the Woman's Legal Education Society and the Woman's Law Class of New York University  \u003cspan class=\"ead-num\"\u003eRG.22.1\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 14:34:32 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

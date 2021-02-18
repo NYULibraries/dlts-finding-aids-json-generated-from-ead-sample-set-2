@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_2388cc980f13422db619d557a8f0ec6f",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_3b50488a9c778e348707c55c8329667b",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Donated by Irving Genn at an unknown date. The accession number associated with this gift is 2014.023."
@@ -34,11 +30,9 @@
         "appraisal": [
             {
                 "id": "aspace_9d813c6d202a2ad45aefc10421e91a40",
-                "head": [
-                    {
-                        "value": "Appraisal"
-                    }
-                ],
+                "head": {
+                    "value": "Appraisal"
+                },
                 "p": [
                     {
                         "value": "No materials were separated from this collection."
@@ -49,11 +43,9 @@
         "arrangement": [
             {
                 "id": "aspace_074179db8da4796f3a9de727f794b2cc",
-                "head": [
-                    {
-                        "value": "Arrangement"
-                    }
-                ],
+                "head": {
+                    "value": "Arrangement"
+                },
                 "p": [
                     {
                         "value": "The order in which these materials were sent to the Tamiment Library has been maintained."
@@ -64,11 +56,9 @@
         "bioghist": [
             {
                 "id": "aspace_15ff01172c59ffa3077045b3c6368439",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Sally Genn (1920-1985) was a labor publicist and activist. After graduating from Hunter College in 1942, she worked for the Amalgamated Clothing Workers. She later became assistant to Morris Iushewitz, secretary-treasurer of the New York City Labor Council, CIO. She continued working for Iushewitz when he became secretary of the merged New York City Central Labor Council, AFL-CIO, and later worked for Harry Avrutin when he succeeded Iushewitz as secretary."
@@ -79,137 +69,151 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "AFL-CIO. New York City Central Labor Council"
-                    },
-                    {
-                        "value": "Labor Theater (New York, N.Y.)"
-                    }
-                ],
-                "persname": [
-                    {
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "AFL-CIO. New York City Central Labor Council"
+                },
+                {
+                    "source": "naf",
+                    "value": "Labor Theater (New York, N.Y.)"
+                }
+            ],
+            "persname": [
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Genn, Sally, 1920-1985"
+                },
+                {
+                    "role": "Donor",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Genn, Irving"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Labor movement -- New York (State) --  New York"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Women journalists |z United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Theaters |x Employees |X Labor unions |z United States."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 1 record carton",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Sally Genn (1920-1985) was a labor publicist and activist. She worked as an assistant to several secretaries of the New York City Central Labor Council, edited the Council's \u003cspan class=\"ead-emph ead-emph-italic\"\u003eTrade Union Handbook\u003c/span\u003e, and was managing editor of its monthly \u003cspan class=\"ead-emph ead-emph-italic\"\u003eLabor Chronicle\u003c/span\u003e. Genn was also active in the Newspaper Guild of New York and the Labor Theater. Notes, correspondence, programs, news clippings, conference materials, photographs, posters and fliers, and other materials highlight Genn's role in the New York City Central Labor Council, particularly her collaboration with various theatrical unions on behalf of the Council, and also document the Council, performing arts groups, and the labor movement in New York City more generally.",
+                    "id": "aspace_e165e889210bbe4e33dc64af002ae1bf"
+                }
+            ],
+            "container": [
+                {
+                    "barcode": "31142062763571",
+                    "label": "Mixed Materials",
+                    "altrender": "Record carton",
+                    "id": "aspace_9e7cb88aa9954343fe5bdc010deef276",
+                    "type": "box",
+                    "value": "1"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English",
+                    "id": "aspace_dca8a5adb4616a9b385c0671acacde20"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
                         "value": "Genn, Sally, 1920-1985"
-                    },
-                    {
+                    }
+                },
+                {
+                    "label": "source",
+                    "persname": {
                         "role": "Donor",
+                        "rules": "dacs",
+                        "source": "local",
                         "value": "Genn, Irving"
                     }
-                ],
-                "subject": [
-                    "Labor movement -- New York (State) --  New York",
-                    "Women journalists |z United States.",
-                    "Theaters |x Employees |X Labor unions |z United States."
-                ]
+                }
+            ],
+            "physloc": [
+                {
+                    "id": "aspace_61b07125988afbaf188b33c1548acb54",
+                    "value": "Materials are located at the Tamiment Library."
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1913/1982",
+                    "type": "inclusive",
+                    "value": "1913-1982"
+                },
+                {
+                    "normal": "1942/1982",
+                    "type": "bulk",
+                    "value": "1942-1982"
+                }
+            ],
+            "unitid": "WAG.330",
+            "unittitle": {
+                "value": "Sally Genn Papers"
             }
-        ],
-        "did": [
+        },
+        "dsc": {},
+        "otherfindaid": [
             {
-                "physdesc": [
+                "id": "aspace_fe95ceded2a56322a92d24436a83c6a9",
+                "head": {
+                    "value": "Other Finding Aids"
+                },
+                "p": [
                     {
-                        "extent": [
-                            {
-                                "value": "1 Linear Feet"
-                            },
-                            {
-                                "value": "in 1 record carton"
-                            }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "Sally Genn (1920-1985) was a labor publicist and activist. She worked as an assistant to several secretaries of the New York City Central Labor Council, edited the Council's \u003cspan class=\"ead-emph ead-emph-italic\"\u003eTrade Union Handbook\u003c/span\u003e, and was managing editor of its monthly \u003cspan class=\"ead-emph ead-emph-italic\"\u003eLabor Chronicle\u003c/span\u003e. Genn was also active in the Newspaper Guild of New York and the Labor Theater. Notes, correspondence, programs, news clippings, conference materials, photographs, posters and fliers, and other materials highlight Genn's role in the New York City Central Labor Council, particularly her collaboration with various theatrical unions on behalf of the Council, and also document the Council, performing arts groups, and the labor movement in New York City more generally.",
-                        "id": "aspace_e165e889210bbe4e33dc64af002ae1bf"
-                    }
-                ],
-                "container": [
-                    {
-                        "barcode": "31142062763571",
-                        "label": "Mixed Materials",
-                        "altrender": "Record carton",
-                        "id": "aspace_9e7cb88aa9954343fe5bdc010deef276",
-                        "type": "box",
-                        "value": "1"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_dca8a5adb4616a9b385c0671acacde20",
-                        "value": "Materials are in English"
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Genn, Sally, 1920-1985"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "role": "Donor",
-                                "value": "Genn, Irving"
-                            }
-                        ]
-                    }
-                ],
-                "physloc": [
-                    {
-                        "id": "aspace_61b07125988afbaf188b33c1548acb54",
-                        "value": "Materials are located at the Tamiment Library."
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1913/1982",
-                        "type": "inclusive",
-                        "value": "1913-1982"
-                    },
-                    {
-                        "normal": "1942/1982",
-                        "type": "bulk",
-                        "value": "1942-1982"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "WAG.330"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Sally Genn Papers"
+                        "value": "A folder-level inventory conducted by Irving Genn, which provides contextual information and further details about Sally Genn's relationship to the collection materials, is available in the repository."
                     }
                 ]
             }
-        ],
-        "dsc": [
-            {}
         ],
         "prefercite": [
             {
                 "id": "aspace_3be3d35a69f0226ae65966b4f3314cf6",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form:"
@@ -223,11 +227,9 @@
         "processinfo": [
             {
                 "id": "aspace_1b6800913b1d27283365c195a093199d",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "This collection was discovered in the repository in 2014. At that time, a collection-level finding aid was created to describe the materials. A framed photograph of United Automobile Workers president Walter Reuther was removed from its frame and placed in an archival folder. All other materials remain in their original folders."
@@ -238,11 +240,9 @@
         "scopecontent": [
             {
                 "id": "aspace_12884607580a02bb222c1caf514b62d5",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The collection documents Sally Genn's involvement in the labor movement in New York City through her employment with the New York City Central Labor Council and her leadership in other organizations. Notes, correspondence, programs, news clippings, conference materials, photographs, posters and fliers, and other materials highlight Genn's role in the NYC Central Labor Council, particularly her collaboration with various theatrical unions on behalf of the Council. Genn's writings and editorial work are represented in the 1975, 1977, and 1981 edition of the \u003cspan class=\"ead-emph ead-emph-italic\"\u003eTrade Union Handbook\u003c/span\u003e, which Genn edited, and in an article she wrote for \u003cspan class=\"ead-emph ead-emph-italic\"\u003eLabor Today\u003c/span\u003e. Other pamphlets, photographs, and news clippings collected by Genn document the Council and the labor movement in New York City more broadly."
@@ -259,11 +259,9 @@
         "userestrict": [
             {
                 "id": "aspace_571db52bb5d261f8448f2d2951e365fc",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection, created by Sally Genn was not transferred to New York University. Permission to use materials must be secured from the copyright holder."
@@ -272,92 +270,78 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/wag_330/",
-                    "value": "wag_330"
-                }
-            ],
-            "filedesc": [
-                {
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/wag_330/",
+            "value": "wag_330"
+        },
+        "filedesc": {
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e4/16/2014\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Rachel Schimke"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Sally Genn Papers \u003cspan class=\"ead-num\"\u003eWAG.330\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 16:04:16 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Finding aid is in English"
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e4/16/2014\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "4/16/2014"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Rachel Schimke",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Sally Genn Papers \u003cspan class=\"ead-num\"\u003eWAG.330\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "WAG.330"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 16:04:16 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_c2eedba6ff1e1fa3158d9e85a80d3bc8",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,20 @@
         "arrangement": [
             {
                 "id": "aspace_9960ab5bfcbd1fad3ea4a4bf8404c0ad",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I, Subject Files, 1937-1981."
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,11 +46,9 @@
         "bioghist": [
             {
                 "id": "aspace_a0d1858f1fd12871466cb286f287d496",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "George Boehm was born in Velika Pisanica, Croatia on November 5, 1897. He sailed to Europe from New York City to volunteer in the International Brigades in Spain in February 1937. An artist, Spanish teacher, and interpreter, Boehm was killed during the Battle of the Ebro in July or August 1938. Boehm's wife, Sylvia Diner Boehm, participated in fundraising and support work for the International Briagdes volunteers in New York City. After George Boehm's death, Sylvia married another Spanish Civil War veteran, Leon Acker, who had served with the Jewish battalion of the Dombrowski Brigade of Polish volunteers. In the decades after the war, Sylvia remained active in committees to aid Spanish Refugees and Spanish Civil War veterans."
@@ -49,72 +56,113 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
-                    },
-                    {
-                        "value": "Medical Bureau and North American Committee to Aid Spanish Democracy"
-                    },
-                    {
-                        "value": "Friends of the Abraham Lincoln Brigade"
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
-                    },
-                    {
-                        "value": "Botvin Committee to Aid Jewish Volunteers in Spain"
-                    },
-                    {
-                        "value": "Veterans of the Abraham Lincoln Brigade"
-                    }
-                ],
-                "genreform": [
-                    "Articles.",
-                    "Speeches.",
-                    "Correspondence.",
-                    "Clippings (information artifacts)"
-                ],
-                "geogname": [
-                    "Spain |x History |y Civil War, 1936-1939 |x Participation, Polish.",
-                    "Spain -- History -- Civil War, 1936-1939 -- Campaigns.",
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American",
-                    "Spain -- History -- Civil War, 1936-1939 -- Personal narratives.",
-                    "Spain -- History -- Civil War, 1936-1939 -- International brigades."
-                ],
-                "persname": [
-                    {
-                        "value": "Ibárruri, Dolores, 1895-1989"
-                    },
-                    {
-                        "value": "Acker, Leon."
-                    },
-                    {
-                        "value": "Acker, Sylvia Boehm."
-                    },
-                    {
-                        "value": "Boehm, George, 1897-1938"
-                    },
-                    {
-                        "value": "Casa, Enrique Carlos de la"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939.",
-                    "Ebro River, Battle of the, Spain, 1938."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
+                },
+                {
+                    "source": "naf",
+                    "value": "Medical Bureau and North American Committee to Aid Spanish Democracy"
+                },
+                {
+                    "source": "naf",
+                    "value": "Friends of the Abraham Lincoln Brigade"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Abraham Lincoln Battalion"
+                },
+                {
+                    "source": "local",
+                    "value": "Botvin Committee to Aid Jewish Volunteers in Spain"
+                },
+                {
+                    "source": "naf",
+                    "value": "Veterans of the Abraham Lincoln Brigade"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Articles."
+                },
+                {
+                    "source": "aat",
+                    "value": "Speeches."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Clippings (information artifacts)"
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain |x History |y Civil War, 1936-1939 |x Participation, Polish."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Campaigns."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Personal narratives."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- International brigades."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Ibárruri, Dolores, 1895-1989"
+                },
+                {
+                    "source": "local",
+                    "value": "Acker, Leon."
+                },
+                {
+                    "source": "naf",
+                    "value": "Acker, Sylvia Boehm."
+                },
+                {
+                    "source": "local",
+                    "value": "Boehm, George, 1897-1938"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Casa, Enrique Carlos de la"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Ebro River, Battle of the, Spain, 1938."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_0703ac28fb172ffc688a6ba4597d36f8",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Sylvia Boehm Acker Collection was donated to Abraham Lincoln Brigade Archives in 1981 by Sylvia Acker. This collection came to New York University in January 2001 as part of the original acquisition of ALBA collections, formerly housed at Brandeis University."
@@ -122,860 +170,755 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.5 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.5 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "George Boehm joined the International Brigades as a volunteer in the Abraham Lincoln Brigade in February 1937, and was killed during the Battle of the Ebro in July or August 1938. The collection was donated by Boehm's widow, Sylvia Diner Boehm Acker, who later married Leon Acker, an International Brigades volunteer from Poland. The collection includes Boehm's letters to Silvia from Spain, memorabilia, clippings, and material relating to Sylvia's lifelong activity with International Brigades veterans' and refugee aid organizations.",
+                    "id": "aspace_9c0e61aa97662279e8e1582a9a050ad4"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "George Boehm joined the International Brigades as a volunteer in the Abraham Lincoln Brigade in February 1937, and was killed during the Battle of the Ebro in July or August 1938. The collection was donated by Boehm's widow, Sylvia Diner Boehm Acker, who later married Leon Acker, an International Brigades volunteer from Poland. The collection includes Boehm's letters to Silvia from Spain, memorabilia, clippings, and material relating to Sylvia's lifelong activity with International Brigades veterans' and refugee aid organizations.",
-                        "id": "aspace_9c0e61aa97662279e8e1582a9a050ad4"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Acker, Sylvia Boehm."
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Acker, Sylvia Boehm."
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937/1981",
-                        "type": "inclusive",
-                        "value": "1937-1981"
-                    },
-                    {
-                        "normal": "1937/1938",
-                        "type": "bulk",
-                        "value": "1937-1938"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.202"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Sylvia Boehm Acker Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937/1981",
+                    "type": "inclusive",
+                    "value": "1937-1981"
+                },
+                {
+                    "normal": "1937/1938",
+                    "type": "bulk",
+                    "value": "1937-1938"
+                }
+            ],
+            "unitid": "ALBA.202",
+            "unittitle": {
+                "value": "Sylvia Boehm Acker Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref15",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref15",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_082357e547b6622a6a832c132fc1d63c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2706bf8a8e375971ed3f0d6d047f4c28",
-                                                "parent": "aspace_082357e547b6622a6a832c132fc1d63c",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1940",
-                                                "type": "inclusive",
-                                                "value": "1938 , 1940"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Acker, Leon: Military document; letter of introduction to United Electrical Workers, Local 1224"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_082357e547b6622a6a832c132fc1d63c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_f7165dd510c6318f85eacc952dbd033e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e45280d96241dddf9e068b7787d5dfde",
-                                                "parent": "aspace_f7165dd510c6318f85eacc952dbd033e",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1939/1967",
-                                                "type": "inclusive",
-                                                "value": "1939 , 1967"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Acker, Sylvia: Receipts for Spanish Aid Contributions (Medical Bureau and Polski Comitet Solidarnosci z Ludem Hiszpani)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_532a1097196379e106460335ae75e633",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_841e85671ae111c9e935e0d4b162de4f",
-                                                "parent": "aspace_532a1097196379e106460335ae75e633",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Dec 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Ante el Pleno de Nuestro Comitó Central (annotated pamphlet)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_d3e1cb203052a5085ceab8cf66970199",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1ca58176a10b5d74ed8221fdaf30c545",
-                                                "parent": "aspace_d3e1cb203052a5085ceab8cf66970199",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1938/1938",
-                                                "type": "inclusive",
-                                                "value": "1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Boehm, George: Death certificate; notes"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_be4cb770023df42b69a8cda1ed3ee150",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_63e6b46c779c1a4961b8fb891ec46d5e",
-                                                "parent": "aspace_be4cb770023df42b69a8cda1ed3ee150",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1939/1940",
-                                                "type": "inclusive",
-                                                "value": "1939-1940"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Botvin Committee to Aid Jewish Volunteers of Spain"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_a0225bfa6431587c9f1dba2857be19bc",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d72a161b46216292a1f0c715cf773eb0",
-                                                "parent": "aspace_a0225bfa6431587c9f1dba2857be19bc",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1981",
-                                                "type": "inclusive",
-                                                "value": "undated , 1937-1941"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clippings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_2e090f8cc88f34196eaa56bf811a5201",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_ed59eafa001368af3afd946c2ca0d468",
-                                                "parent": "aspace_2e090f8cc88f34196eaa56bf811a5201",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1976/1978",
-                                                "type": "inclusive",
-                                                "value": "1976-1978"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Clippings"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_85457e1ad3489be4364c8d82b3174c42",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_ebdc88827ced4bf2786334b7ebba8fce",
-                                                "parent": "aspace_85457e1ad3489be4364c8d82b3174c42",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1937-Dec 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Friends of the Abraham Lincoln Brigade to Sylvia Boehm"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_d35496f9738562989aa19a633dbd42c0",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_eaa0b2d5a140fc6590e2784a5a93841f",
-                                                "parent": "aspace_d35496f9738562989aa19a633dbd42c0",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1938",
-                                                "type": "inclusive",
-                                                "value": "1937-1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: George Boehm (Letters to Mrs. Belche Camel, Mrs. Tillie Diner, and draft of telegram to Governor of Alabama re: Clarence Norris execution, with notes by Sylvia Boehm on envelopes)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_209a999664ac76f68fb03adc9d63c801",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7f8fd4bf2c2a6f57dce6274721ae9e64",
-                                                "parent": "aspace_209a999664ac76f68fb03adc9d63c801",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1981",
-                                                "type": "inclusive",
-                                                "value": "undated , Feb 1937-Jul 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: George Boehm to Sylvia Boehm"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_8733bd0e28e0b620308f1adc5737f2cf",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e3e8506b3e28e2b7eb42d5154ab98a4a",
-                                                "parent": "aspace_8733bd0e28e0b620308f1adc5737f2cf",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 1937-Dec 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: George Boehm to Sylvia Boehm"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_6a8aff852ac944b3d876f98980f6bc6c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e972b28e8ba40b30324262f6e592afda",
-                                                "parent": "aspace_6a8aff852ac944b3d876f98980f6bc6c",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jan 1938-Jul 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: George Boehm to Sylvia Boehm"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_3d8a86e67948e97c3cfd54d52426641d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_87c179aad993571ce5db2b0dd633d714",
-                                                "parent": "aspace_3d8a86e67948e97c3cfd54d52426641d",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Dec 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Joe Gibbons to Sylvia Boehm"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_f839554c411475d5c117b04ebe4bb3e8",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2efb936e13be30dad5d78f1343db948b",
-                                                "parent": "aspace_f839554c411475d5c117b04ebe4bb3e8",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1964 , Sep 1967"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Correspondence: Sylvia Boehm Acker (letter from Fruma Bogen-Dua of Watsaw, in Yiddish, 1964; letter to Miriam Tache re: visit to IB veteran Ickovic Salaman in Czechoslovakia, 1967; reply from Miriam Tache)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_79fe440b7518b8626a25ae08f3ea7e1e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_5ce3c14b0a53c9301bfcdfaf8ae4bef2",
-                                                "parent": "aspace_79fe440b7518b8626a25ae08f3ea7e1e",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1963/1963",
-                                                "type": "inclusive",
-                                                "value": "1963"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Ibarruri, Dolores: Autograph"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_a9047d216c1570c9550f5f4767519cc9",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b1cc007e2c3c641fface14bfd029ada2",
-                                                "parent": "aspace_a9047d216c1570c9550f5f4767519cc9",
-                                                "type": "folder",
-                                                "value": "16"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1937",
-                                                "type": "inclusive",
-                                                "value": "Aug 1937-Dec 1937 "
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Periodicals: \u003cspan class=\"ead-emph ead-emph-italic\"\u003eNews Bulletin of the International Brigades\u003c/span\u003e (mimeographed, pp. 3 and 4 missing, and odd pages); \u003cspan class=\"ead-emph ead-emph-italic\"\u003eOur Fight - Journal of the XV International Brigade (3 issues)\u003c/span\u003e; \u003cspan class=\"ead-emph ead-emph-italic\"\u003eAcero, Organo del V Cuerpo de Ejercito\u003c/span\u003e; \u003cspan class=\"ead-emph ead-emph-italic\"\u003eMackenzie Papineau Daily\u003c/span\u003e (typed, 2 unrelated pages)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_b2aaeea3f2ad9fd97aba11d2b0eb4448",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7c09094a09c31ead0a3c7518010961ba",
-                                                "parent": "aspace_b2aaeea3f2ad9fd97aba11d2b0eb4448",
-                                                "type": "folder",
-                                                "value": "17"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1976",
-                                                "type": "inclusive",
-                                                "value": "undated , 1937-1939, 1976"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Pins, medals and commemorative object [Separated to ALBA Artifacts. Consult archivist.]  One pin \"Honor Guest\", with ribbon, Hippodrome Benefit, June 28, 1937, is in this folder."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_bb7e32edb27781f97afdb2a85d54a7ad",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a32d64bc03d16784ae48987088da82e0",
-                                                "parent": "aspace_bb7e32edb27781f97afdb2a85d54a7ad",
-                                                "type": "folder",
-                                                "value": "18"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1941/1966",
-                                                "type": "inclusive",
-                                                "value": "undated, 1941, 1966"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Civil War Prisoner, Refugee, and International Brigades Aid Appeals (including a postcard with photo from a french refugee camp, and a printed invitation from Dashiell Hammett to a benefit reception and exhibition honring William Gropper)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref39",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e5afc5efbfa30c0ebe38d7634f8014cb",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_fc018011c6032dcc2be6abb781f67e0a",
-                                                "parent": "aspace_e5afc5efbfa30c0ebe38d7634f8014cb",
-                                                "type": "folder",
-                                                "value": "19"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Mar 15, 1941-Mar 16, 1941"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Spanish Refugees: \"Proceedings , National Emergency Conference on an Immediate Program to Aid Spanish Refugees\" (Hotel Hamilton, Washington DC)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_e0d14aedccebd994b46da705f422c128",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_582de4db6a254285afb9f458d25150f7",
-                                                "parent": "aspace_e0d14aedccebd994b46da705f422c128",
-                                                "type": "folder",
-                                                "value": "20"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Speech delivered by Dr. Enrique Carlos de la Casa"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref35",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062728517",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_6ec17d56095b21c30b507bd4c68e0b8e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a778b83426400cc4ea1f584889637e71",
-                                                "parent": "aspace_6ec17d56095b21c30b507bd4c68e0b8e",
-                                                "type": "folder",
-                                                "value": "21"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1967/1978",
-                                                "type": "inclusive",
-                                                "value": "1967 , 1976-1978"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans of the Abraham Lincoln Brigade: Reunions and anniversaries"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_2706bf8a8e375971ed3f0d6d047f4c28",
+                                        "parent": "aspace_082357e547b6622a6a832c132fc1d63c",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: Subject Files, 1937-1981."
+                                        "normal": "1938/1940",
+                                        "type": "inclusive",
+                                        "value": "1938 , 1940"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Acker, Leon: Military document; letter of introduction to United Electrical Workers, Local 1224"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_f7165dd510c6318f85eacc952dbd033e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e45280d96241dddf9e068b7787d5dfde",
+                                        "parent": "aspace_f7165dd510c6318f85eacc952dbd033e",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1939/1967",
+                                        "type": "inclusive",
+                                        "value": "1939 , 1967"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Acker, Sylvia: Receipts for Spanish Aid Contributions (Medical Bureau and Polski Comitet Solidarnosci z Ludem Hiszpani)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_532a1097196379e106460335ae75e633",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_841e85671ae111c9e935e0d4b162de4f",
+                                        "parent": "aspace_532a1097196379e106460335ae75e633",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Dec 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Ante el Pleno de Nuestro Comitó Central (annotated pamphlet)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_d3e1cb203052a5085ceab8cf66970199",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_1ca58176a10b5d74ed8221fdaf30c545",
+                                        "parent": "aspace_d3e1cb203052a5085ceab8cf66970199",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1938/1938",
+                                        "type": "inclusive",
+                                        "value": "1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Boehm, George: Death certificate; notes"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_be4cb770023df42b69a8cda1ed3ee150",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_63e6b46c779c1a4961b8fb891ec46d5e",
+                                        "parent": "aspace_be4cb770023df42b69a8cda1ed3ee150",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1939/1940",
+                                        "type": "inclusive",
+                                        "value": "1939-1940"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Botvin Committee to Aid Jewish Volunteers of Spain"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_a0225bfa6431587c9f1dba2857be19bc",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d72a161b46216292a1f0c715cf773eb0",
+                                        "parent": "aspace_a0225bfa6431587c9f1dba2857be19bc",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1981",
+                                        "type": "inclusive",
+                                        "value": "undated , 1937-1941"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Clippings"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_2e090f8cc88f34196eaa56bf811a5201",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_ed59eafa001368af3afd946c2ca0d468",
+                                        "parent": "aspace_2e090f8cc88f34196eaa56bf811a5201",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1976/1978",
+                                        "type": "inclusive",
+                                        "value": "1976-1978"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Clippings"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_85457e1ad3489be4364c8d82b3174c42",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_ebdc88827ced4bf2786334b7ebba8fce",
+                                        "parent": "aspace_85457e1ad3489be4364c8d82b3174c42",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1937-Dec 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Friends of the Abraham Lincoln Brigade to Sylvia Boehm"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_d35496f9738562989aa19a633dbd42c0",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_eaa0b2d5a140fc6590e2784a5a93841f",
+                                        "parent": "aspace_d35496f9738562989aa19a633dbd42c0",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1938",
+                                        "type": "inclusive",
+                                        "value": "1937-1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: George Boehm (Letters to Mrs. Belche Camel, Mrs. Tillie Diner, and draft of telegram to Governor of Alabama re: Clarence Norris execution, with notes by Sylvia Boehm on envelopes)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_209a999664ac76f68fb03adc9d63c801",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7f8fd4bf2c2a6f57dce6274721ae9e64",
+                                        "parent": "aspace_209a999664ac76f68fb03adc9d63c801",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1981",
+                                        "type": "inclusive",
+                                        "value": "undated , Feb 1937-Jul 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: George Boehm to Sylvia Boehm"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_8733bd0e28e0b620308f1adc5737f2cf",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e3e8506b3e28e2b7eb42d5154ab98a4a",
+                                        "parent": "aspace_8733bd0e28e0b620308f1adc5737f2cf",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Aug 1937-Dec 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: George Boehm to Sylvia Boehm"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_6a8aff852ac944b3d876f98980f6bc6c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e972b28e8ba40b30324262f6e592afda",
+                                        "parent": "aspace_6a8aff852ac944b3d876f98980f6bc6c",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jan 1938-Jul 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: George Boehm to Sylvia Boehm"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_3d8a86e67948e97c3cfd54d52426641d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_87c179aad993571ce5db2b0dd633d714",
+                                        "parent": "aspace_3d8a86e67948e97c3cfd54d52426641d",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Dec 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Joe Gibbons to Sylvia Boehm"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_f839554c411475d5c117b04ebe4bb3e8",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2efb936e13be30dad5d78f1343db948b",
+                                        "parent": "aspace_f839554c411475d5c117b04ebe4bb3e8",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1964 , Sep 1967"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Correspondence: Sylvia Boehm Acker (letter from Fruma Bogen-Dua of Watsaw, in Yiddish, 1964; letter to Miriam Tache re: visit to IB veteran Ickovic Salaman in Czechoslovakia, 1967; reply from Miriam Tache)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_79fe440b7518b8626a25ae08f3ea7e1e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_5ce3c14b0a53c9301bfcdfaf8ae4bef2",
+                                        "parent": "aspace_79fe440b7518b8626a25ae08f3ea7e1e",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1963/1963",
+                                        "type": "inclusive",
+                                        "value": "1963"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Ibarruri, Dolores: Autograph"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_a9047d216c1570c9550f5f4767519cc9",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b1cc007e2c3c641fface14bfd029ada2",
+                                        "parent": "aspace_a9047d216c1570c9550f5f4767519cc9",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1937",
+                                        "type": "inclusive",
+                                        "value": "Aug 1937-Dec 1937 "
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Periodicals: \u003cspan class=\"ead-emph ead-emph-italic\"\u003eNews Bulletin of the International Brigades\u003c/span\u003e (mimeographed, pp. 3 and 4 missing, and odd pages); \u003cspan class=\"ead-emph ead-emph-italic\"\u003eOur Fight - Journal of the XV International Brigade (3 issues)\u003c/span\u003e; \u003cspan class=\"ead-emph ead-emph-italic\"\u003eAcero, Organo del V Cuerpo de Ejercito\u003c/span\u003e; \u003cspan class=\"ead-emph ead-emph-italic\"\u003eMackenzie Papineau Daily\u003c/span\u003e (typed, 2 unrelated pages)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_b2aaeea3f2ad9fd97aba11d2b0eb4448",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7c09094a09c31ead0a3c7518010961ba",
+                                        "parent": "aspace_b2aaeea3f2ad9fd97aba11d2b0eb4448",
+                                        "type": "folder",
+                                        "value": "17"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1976",
+                                        "type": "inclusive",
+                                        "value": "undated , 1937-1939, 1976"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Pins, medals and commemorative object [Separated to ALBA Artifacts. Consult archivist.]  One pin \"Honor Guest\", with ribbon, Hippodrome Benefit, June 28, 1937, is in this folder."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_bb7e32edb27781f97afdb2a85d54a7ad",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a32d64bc03d16784ae48987088da82e0",
+                                        "parent": "aspace_bb7e32edb27781f97afdb2a85d54a7ad",
+                                        "type": "folder",
+                                        "value": "18"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1941/1966",
+                                        "type": "inclusive",
+                                        "value": "undated, 1941, 1966"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Civil War Prisoner, Refugee, and International Brigades Aid Appeals (including a postcard with photo from a french refugee camp, and a printed invitation from Dashiell Hammett to a benefit reception and exhibition honring William Gropper)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref39",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e5afc5efbfa30c0ebe38d7634f8014cb",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_fc018011c6032dcc2be6abb781f67e0a",
+                                        "parent": "aspace_e5afc5efbfa30c0ebe38d7634f8014cb",
+                                        "type": "folder",
+                                        "value": "19"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Mar 15, 1941-Mar 16, 1941"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Spanish Refugees: \"Proceedings , National Emergency Conference on an Immediate Program to Aid Spanish Refugees\" (Hotel Hamilton, Washington DC)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_e0d14aedccebd994b46da705f422c128",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_582de4db6a254285afb9f458d25150f7",
+                                        "parent": "aspace_e0d14aedccebd994b46da705f422c128",
+                                        "type": "folder",
+                                        "value": "20"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Speech delivered by Dr. Enrique Carlos de la Casa"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref35",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062728517",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_6ec17d56095b21c30b507bd4c68e0b8e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a778b83426400cc4ea1f584889637e71",
+                                        "parent": "aspace_6ec17d56095b21c30b507bd4c68e0b8e",
+                                        "type": "folder",
+                                        "value": "21"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1967/1978",
+                                        "type": "inclusive",
+                                        "value": "1967 , 1976-1978"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans of the Abraham Lincoln Brigade: Reunions and anniversaries"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Subject Files, 1937-1981."
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_682bfc2926a9e1e1036294c02b3b4ce4",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -986,11 +929,9 @@
         "processinfo": [
             {
                 "id": "aspace_1ed698653d2028b97d7100b4538a185a",
-                "head": [
-                    {
-                        "value": "Processing Information"
-                    }
-                ],
+                "head": {
+                    "value": "Processing Information"
+                },
                 "p": [
                     {
                         "value": "Processing decisions made prior to 2017 have not been recorded."
@@ -1001,11 +942,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_d38dabbb41bf07a216ca055c2e9a4ee6",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "ALBA collections at the Tamiment Library."
@@ -1016,11 +955,9 @@
         "scopecontent": [
             {
                 "id": "aspace_58f3f3a5d31bd6b32b5a1179a77c01f7",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "A substantial portion of the collection consists of George Boehm's letters from Spain to his wife, Sylvia, with notes written by her on the envelopes. Also included are letters to Sylvia from the Friends of the Abraham Lincoln Brigade regarding her efforts to learn about George's fate in Spain; clippings about the Spanish Civil War, Spanish refugees, and politics; original artwork and paste-up of a flyer for a dinner-dance sponsored by the Botvin Committee to Aid Jewish Volunteers in Spain (in Yiddish); and an autograph of Dolores Ibárruri."
@@ -1031,11 +968,9 @@
         "separatedmaterial": [
             {
                 "id": "aspace_04f9748674fedc79a5d1eceb3538b029",
-                "head": [
-                    {
-                        "value": "Separated Material"
-                    }
-                ],
+                "head": {
+                    "value": "Separated Material"
+                },
                 "p": [
                     {
                         "value": "Photographs and posters from the Sylvia Boehm Acker Collection have been transferred to the Non-Print section of the ALBA collection in the Tamiment Library."
@@ -1046,11 +981,9 @@
         "userestrict": [
             {
                 "id": "aspace_0a7dc974bd2c3ec2b65161e8749e13ed",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Abraham Lincoln Brigade Archives (ALBA), were transferred to New York University in November 2000 by the ALBA Board of Governors. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -1059,93 +992,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_202"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_202"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from acker.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from acker.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2011\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Wendy Scheir and Gail Malmgreen"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Sylvia Boehm Acker Papers \u003cspan class=\"ead-num\"\u003eALBA.202\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2011\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2011"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Wendy Scheir and Gail Malmgreen",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Sylvia Boehm Acker Papers \u003cspan class=\"ead-num\"\u003eALBA.202\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.202"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:35:33 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:35:33 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

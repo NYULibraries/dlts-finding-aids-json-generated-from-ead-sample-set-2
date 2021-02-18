@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_9016586ab6af687fc52412ead89b0f37",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Tamiment Library \u0026 Robert F. Wagner Labor Archives for more information and to schedule an appointment, tamiment.wagner@nyu.edu or 212-998-2630."
@@ -19,9 +17,20 @@
         "arrangement": [
             {
                 "id": "aspace_3f55a59f5039abd288409307b29f907e",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I, Correspondence and Documents"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -37,11 +46,9 @@
         "bioghist": [
             {
                 "id": "aspace_ab875bf884809a2491af07d37758dca1",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Ely Joseph Sack was born September 19, 1915 in Brooklyn, New York to Russian Jewish immigrant parents. After graduating from New Utrecht High School in 1931, Sack worked at low-paying day jobs while attending night classes in accounting at the City College of New York School of Commerce."
@@ -58,50 +65,73 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Abraham Lincoln Brigade Archives"
-                    },
-                    {
-                        "value": "Veterans of the Abraham Lincoln Brigade"
-                    },
-                    {
-                        "value": "Spain. Ejercito Popular de la Republica. MacKenzie-Papineau Battalion"
-                    },
-                    {
-                        "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
-                    }
-                ],
-                "genreform": [
-                    "Correspondence.",
-                    "Personal papers."
-                ],
-                "geogname": [
-                    "Spain -- History -- Civil War, 1936-1939 -- Participation, American",
-                    "Spain -- History -- Civil War, 1936-1939 -- Campaigns.",
-                    "Spain -- History -- Civil War, 1936-1939 -- Personal narratives."
-                ],
-                "persname": [
-                    {
-                        "value": "Sack, Ely Joseph, 1937-1992"
-                    }
-                ],
-                "subject": [
-                    "Spain -- History -- Civil War, 1936-1939.",
-                    "Ebro River, Battle of the, Spain, 1938."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "Abraham Lincoln Brigade Archives"
+                },
+                {
+                    "source": "naf",
+                    "value": "Veterans of the Abraham Lincoln Brigade"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejercito Popular de la Republica. MacKenzie-Papineau Battalion"
+                },
+                {
+                    "source": "naf",
+                    "value": "Spain. Ejército Popular de la República. Brigada Internacional, XV"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Personal papers."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Participation, American"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Campaigns."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939 -- Personal narratives."
+                }
+            ],
+            "persname": [
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Sack, Ely Joseph, 1937-1992"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Spain -- History -- Civil War, 1936-1939."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Ebro River, Battle of the, Spain, 1938."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_b445317ff3e4f972f813b92b4b4f4559",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The Ely J. Sack Papers were donated to the Abraham Lincoln Brigade Archives in 1992 by his daughter Luise S. Stone. This collection came to New York University in January 2001 as part of the original acquisition of ALBA collections, formerly housed at Brandeis University."
@@ -109,533 +139,465 @@
                 ]
             }
         ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Ely Sack left New York to fight in the Spanish Civil War with the Abraham Lincoln Brigade in 1937. Sack trained and fought with the MacKenzie-Papineau Battalion before being injured in March, 1938. Sack underwent three operations to his left leg before returning to the United States in August, 1938. This collection consists of letters and postcards written by Sack while he was in Spain. This brief but frequent correspondence describes Sack's activities in training camp, in reserve, and in action. The collection also contains medical and military documents and a membership card to the Veterans of the Abraham Lincoln Brigade. Finally, the collection contains a memoir written by Sack in 1992 that describes some of his activities in Spain and after his return to the United States.",
+                    "id": "aspace_6dfd94a02b3d238ffa380f300ce7de2c"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "abstract": [
-                    {
-                        "value": "Ely Sack left New York to fight in the Spanish Civil War with the Abraham Lincoln Brigade in 1937. Sack trained and fought with the MacKenzie-Papineau Battalion before being injured in March, 1938. Sack underwent three operations to his left leg before returning to the United States in August, 1938. This collection consists of letters and postcards written by Sack while he was in Spain. This brief but frequent correspondence describes Sack's activities in training camp, in reserve, and in action. The collection also contains medical and military documents and a membership card to the Veterans of the Abraham Lincoln Brigade. Finally, the collection contains a memoir written by Sack in 1992 that describes some of his activities in Spain and after his return to the United States.",
-                        "id": "aspace_6dfd94a02b3d238ffa380f300ce7de2c"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Sack, Ely Joseph, 1937-1992"
                     }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Sack, Ely Joseph, 1937-1992"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1937/1992",
-                        "type": "inclusive",
-                        "value": "1937-1992"
-                    },
-                    {
-                        "normal": "1937/1938",
-                        "type": "bulk",
-                        "value": "1937-1938"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "ALBA.094"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Ely J. Sack Papers"
-                    }
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1937/1992",
+                    "type": "inclusive",
+                    "value": "1937-1992"
+                },
+                {
+                    "normal": "1937/1938",
+                    "type": "bulk",
+                    "value": "1937-1938"
+                }
+            ],
+            "unitid": "ALBA.094",
+            "unittitle": {
+                "value": "Ely J. Sack Papers"
             }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref15",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref15",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756070",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_6c1b500fa8c56083ffe41dd614c0bb3d",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_14aad50827af1d0bf958e36dae5109f9",
-                                                "parent": "aspace_6c1b500fa8c56083ffe41dd614c0bb3d",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "May 1937-Jul 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Sack, Ely J. to Edith Berk"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062756070",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_6c1b500fa8c56083ffe41dd614c0bb3d",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756070",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_7c08f2e126be4c4ec5523c59cc933eb4",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d0e4c95e582887338b42ec3a81104cd0",
-                                                "parent": "aspace_7c08f2e126be4c4ec5523c59cc933eb4",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 1937-Sep 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Sack, Ely J. to Mr. and Mrs. Sack (Parents)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756070",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_f7eb2a0ddb8373c36c9dacd5e83ec656",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_6827796db969a327f7c53086872ec9fb",
-                                                "parent": "aspace_f7eb2a0ddb8373c36c9dacd5e83ec656",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Oct 1937-Nov 1937"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Sack, Ely J. to Mr. and Mrs. Sack (Parents)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756070",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_a2fb3fee0b89673c5cfe5107972fb123",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4724b80751a4f76f5153db4356354b29",
-                                                "parent": "aspace_a2fb3fee0b89673c5cfe5107972fb123",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Dec 1937-Jan 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Sack, Ely J. to Mr. and Mrs. Sack (Parents)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756070",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_720d07790426f7ccf8a97b00ed31e103",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_406e25aa4e85a7acd8c0ecea65e4aa9b",
-                                                "parent": "aspace_720d07790426f7ccf8a97b00ed31e103",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Feb 1938-Jun 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Sack, Ely J. to Mr. and Mrs. Sack (Parents)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756070",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_c3fcda510ef36e5353b1a8a83eb506af",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c4cc58685d021eb67adf06831a055450",
-                                                "parent": "aspace_c3fcda510ef36e5353b1a8a83eb506af",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1992",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Sack, Ely J. to Mr. and Mrs. Sack (Parents): Letter Fragment"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756070",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_0913bef06ea1e6c61b516a3044d94980",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b725e97849eba4264365ddd8cf063467",
-                                                "parent": "aspace_0913bef06ea1e6c61b516a3044d94980",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jun 1937-Mar 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Sack, Ely J. to Unidentified Correspondents"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756070",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_00ecd053c45cbdc2a7c9cf85bca28a23",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_245325d90eed4c2e023f41e347993650",
-                                                "parent": "aspace_00ecd053c45cbdc2a7c9cf85bca28a23",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Mar 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Certificate of Service"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756070",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_d90af8878d5f6ed416a2dfde359230c2",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_92aba1c40da7cb8792e21238c963641a",
-                                                "parent": "aspace_d90af8878d5f6ed416a2dfde359230c2",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1937/1992",
-                                                "type": "inclusive",
-                                                "value": "undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Disabled Veterans of Spain's Civil War: Clipping"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756070",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_1c8401331b8757be559bc69856f2a44f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c32b1fc5b232ffe2e29d2e2f29971fda",
-                                                "parent": "aspace_1c8401331b8757be559bc69856f2a44f",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Jul 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Medical Documents"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756070",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_789be70ca4ef743d00a1b00ea56b39d4",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_71c3c68a2ec85ea7be2675e8eaceb55e",
-                                                "parent": "aspace_789be70ca4ef743d00a1b00ea56b39d4",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Mar 1992"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Sack, Ely J.: Memoirs (typescript, 5pp)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "file",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062756070",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_31ca0df7efada0cebc845d4963074d44",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_da01039eab21f705827ad398df4caaf0",
-                                                "parent": "aspace_31ca0df7efada0cebc845d4963074d44",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Aug 1938"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Veterans of the Abraham Lincoln Brigade: Membership Card"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "langmaterial": [
-                                    {
-                                        "language": [
-                                            {
-                                                "langcode": "eng",
-                                                "value": "English"
-                                            }
-                                        ],
-                                        "value": "."
+                                        "id": "aspace_14aad50827af1d0bf958e36dae5109f9",
+                                        "parent": "aspace_6c1b500fa8c56083ffe41dd614c0bb3d",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "unittitle": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I: Correspondence and Documents"
+                                        "value": "May 1937-Jul 1938"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Sack, Ely J. to Edith Berk"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756070",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_7c08f2e126be4c4ec5523c59cc933eb4",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d0e4c95e582887338b42ec3a81104cd0",
+                                        "parent": "aspace_7c08f2e126be4c4ec5523c59cc933eb4",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 1937-Sep 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Sack, Ely J. to Mr. and Mrs. Sack (Parents)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756070",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_f7eb2a0ddb8373c36c9dacd5e83ec656",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_6827796db969a327f7c53086872ec9fb",
+                                        "parent": "aspace_f7eb2a0ddb8373c36c9dacd5e83ec656",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Oct 1937-Nov 1937"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Sack, Ely J. to Mr. and Mrs. Sack (Parents)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756070",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_a2fb3fee0b89673c5cfe5107972fb123",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4724b80751a4f76f5153db4356354b29",
+                                        "parent": "aspace_a2fb3fee0b89673c5cfe5107972fb123",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Dec 1937-Jan 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Sack, Ely J. to Mr. and Mrs. Sack (Parents)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756070",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_720d07790426f7ccf8a97b00ed31e103",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_406e25aa4e85a7acd8c0ecea65e4aa9b",
+                                        "parent": "aspace_720d07790426f7ccf8a97b00ed31e103",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Feb 1938-Jun 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Sack, Ely J. to Mr. and Mrs. Sack (Parents)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756070",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_c3fcda510ef36e5353b1a8a83eb506af",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c4cc58685d021eb67adf06831a055450",
+                                        "parent": "aspace_c3fcda510ef36e5353b1a8a83eb506af",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1992",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Sack, Ely J. to Mr. and Mrs. Sack (Parents): Letter Fragment"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756070",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_0913bef06ea1e6c61b516a3044d94980",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b725e97849eba4264365ddd8cf063467",
+                                        "parent": "aspace_0913bef06ea1e6c61b516a3044d94980",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jun 1937-Mar 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Sack, Ely J. to Unidentified Correspondents"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756070",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_00ecd053c45cbdc2a7c9cf85bca28a23",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_245325d90eed4c2e023f41e347993650",
+                                        "parent": "aspace_00ecd053c45cbdc2a7c9cf85bca28a23",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Mar 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Certificate of Service"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756070",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_d90af8878d5f6ed416a2dfde359230c2",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_92aba1c40da7cb8792e21238c963641a",
+                                        "parent": "aspace_d90af8878d5f6ed416a2dfde359230c2",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1937/1992",
+                                        "type": "inclusive",
+                                        "value": "undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Disabled Veterans of Spain's Civil War: Clipping"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756070",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_1c8401331b8757be559bc69856f2a44f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c32b1fc5b232ffe2e29d2e2f29971fda",
+                                        "parent": "aspace_1c8401331b8757be559bc69856f2a44f",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Jul 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Medical Documents"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756070",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_789be70ca4ef743d00a1b00ea56b39d4",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_71c3c68a2ec85ea7be2675e8eaceb55e",
+                                        "parent": "aspace_789be70ca4ef743d00a1b00ea56b39d4",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Mar 1992"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Sack, Ely J.: Memoirs (typescript, 5pp)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062756070",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_31ca0df7efada0cebc845d4963074d44",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_da01039eab21f705827ad398df4caaf0",
+                                        "parent": "aspace_31ca0df7efada0cebc845d4963074d44",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Aug 1938"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Veterans of the Abraham Lincoln Brigade: Membership Card"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "langmaterial": [
+                            {
+                                "value": ".",
+                                "language": {
+                                    "langcode": "eng",
+                                    "value": "English"
+                                }
+                            }
+                        ],
+                        "unittitle": {
+                            "value": "Series I: Correspondence and Documents"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_65cc35f5aa16bb05f5da66b613c2a464",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -646,11 +608,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_cadf95ed25393066d89c0745422d89dc",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "ALBA collections at the Tamiment Library."
@@ -661,11 +621,9 @@
         "scopecontent": [
             {
                 "id": "aspace_7115e58ca16a17808c0891ea2f994df3",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "This collection consists of letters and postcards written by Ely J. Sack to his parents and friends while he was in Spain. This brief but frequent correspondence describes Sack's activities in training camp, in reserve, and in action. The collection also contains medical and military documents and a membership card to the Veterans of the Abraham Lincoln Brigade. Finally, the collection contains a memoir written by Sack in 1992 that describes some of his activities in Spain and after his return to the United States."
@@ -676,11 +634,9 @@
         "separatedmaterial": [
             {
                 "id": "aspace_039ec8699fd27dda7f9ba365da71d706",
-                "head": [
-                    {
-                        "value": "Separated Material"
-                    }
-                ],
+                "head": {
+                    "value": "Separated Material"
+                },
                 "p": [
                     {
                         "value": "Photographs from the Ely J. Sack Papers have been transferred to the non-print section of the ALBA collection in the Tamiment Library and Robert F. Wagner Labor Archives."
@@ -691,11 +647,9 @@
         "userestrict": [
             {
                 "id": "aspace_e76ece7d2b121464b61cbfc7fc0c71af",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by the Abraham Lincoln Brigade Archives (ALBA), were transferred to New York University in November 2000 by the ALBA Board of Governors. Permission to publish or reproduce materials in this collection must be secured from the Tamiment Library \u0026 Robert F. Wagner Labor Archives. For more information, contact tamiment.wagner@nyu.edu or 212-998-2630."
@@ -704,93 +658,89 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "value": "alba_094"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "value": "alba_094"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from sack.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from sack.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Rebecca Russell"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Ely J. Sack Papers \u003cspan class=\"ead-num\"\u003eALBA.094\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Rebecca Russell",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Ely J. Sack Papers \u003cspan class=\"ead-num\"\u003eALBA.094\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "ALBA.094"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:34:52 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:34:52 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

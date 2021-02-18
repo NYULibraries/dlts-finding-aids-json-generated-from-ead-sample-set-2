@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_49c6a19a5d8c7744a26ec6d9efaec507",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_df0f4550554cc76cd94713e027fc73ed",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Donated by John Holmes in 1988; additional materials were received in 2002. The accession number associated with this gift is 1998.005."
@@ -34,9 +30,20 @@
         "arrangement": [
             {
                 "id": "aspace_827f8c9db92f3986bae8b9eae5f5efc0",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "Container list"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -52,260 +59,262 @@
         "bioghist": [
             {
                 "id": "aspace_7bf529a97f693420935ca3fd66ec4e33",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
-                        "value": "Noah London (1888-c1940), born in Russia in 1888, was an important Jewish official of the Communist Party of the USA before returning to his native Russia around 1926. In the United States, he studied engineering at Cooper Union, was active in the Party's Jewish Federation, was the first labor editor of its newspaper, \u003cspan class=\"ead-title\"\u003eFreiheit\u003c/span\u003e, and was chair of the United Workers Cooperative Colony. In the USSR, he worked on the Moscow subway, and at one time was head of water management for the Russian SFR, reporting to Ordzhonikidze. He was arrested sometime during the 1937-38 purges connected to the Moscow Trials and died around 1940."
+                        "value": "Noah London (1888-c1940), born in Russia in 1888, was an important Jewish official of the Communist Party of the USA before returning to his native Russia around 1926. In the United States, he studied engineering at Cooper Union, was active in the Party's Jewish Federation, was the first labor editor of its newspaper, \u003cspan class=\"ead-title\"\u003eFreiheit\u003c/span\u003e, and was chair of the United Workers Cooperative Colony. In the USSR, he worked on the Moscow subway, and at one time was head of water management for the Russian SFR, reporting to Ordzhonikidze. He was arrested sometime during the 1937-38 purges connected to the Moscow Trials and died around 1940.",
+                        "title": [
+                            {
+                                "value": "Freiheit",
+                                "render": "italic"
+                            }
+                        ]
                     }
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "Communist Party of the United States of America. Jewish Federation"
-                    },
-                    {
-                        "value": "United Workers' Cooperative Colony (Bronx, N.Y.)"
-                    }
-                ],
-                "genreform": [
-                    "Manuscripts for publication.",
-                    "Oral histories (literary works)"
-                ],
-                "geogname": [
-                    "Soviet Union -- Politics and government -- 1917-1936."
-                ],
-                "persname": [
-                    {
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "local",
+                    "value": "Communist Party of the United States of America. Jewish Federation"
+                },
+                {
+                    "source": "local",
+                    "value": "United Workers' Cooperative Colony (Bronx, N.Y.)"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Manuscripts for publication."
+                },
+                {
+                    "source": "aat",
+                    "value": "Oral histories (literary works)"
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "Soviet Union -- Politics and government -- 1917-1936."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "local",
+                    "value": "London, Noah, 1888-"
+                },
+                {
+                    "role": "Donor",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Holmes, John"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Freiheit"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Jewish communists -- United States."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "Russian-born Noah London was active in the Jewish Federation of the Communist Party of the USA, and was the first labor editor of its newspaper, \u003cspan class=\"ead-title\"\u003eFreiheit\u003c/span\u003e, before returning to the USSR around 1926, where he used his engineering training to help develop the new socialist state. He was arrested sometime during the 1937-38 purges and died around 1940. Contains an unpublished typescript, ca. 1934, describing London's disillusionment with Stalinism, the transcript of an interview with \u003cspan class=\"ead-title\"\u003eFreiheit\u003c/span\u003eeditor Paul Novick, and several unpublished typescripts about London by John Holmes (great nephew of London).",
+                    "id": "aspace_5862dae614cf7bfd92fac76ce8905b03",
+                    "title": [
+                        {
+                            "value": "Freiheit",
+                            "render": "italic"
+                        },
+                        {
+                            "value": "Freiheit",
+                            "render": "italic"
+                        }
+                    ]
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "Materials are in English",
+                    "id": "aspace_53837b110328c929d8015ba9df78b755"
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "local",
                         "value": "London, Noah, 1888-"
-                    },
-                    {
+                    }
+                },
+                {
+                    "label": "source",
+                    "persname": {
                         "role": "Donor",
+                        "rules": "dacs",
+                        "source": "local",
                         "value": "Holmes, John"
-                    },
-                    {
-                        "value": "Freiheit"
                     }
-                ],
-                "subject": [
-                    "Jewish communists -- United States."
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1924/2002",
+                    "type": "inclusive",
+                    "value": "circa 1934-2002"
+                }
+            ],
+            "unitid": "TAM.135",
+            "unittitle": {
+                "value": "John Holmes Collection on Noah London"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "Russian-born Noah London was active in the Jewish Federation of the Communist Party of the USA, and was the first labor editor of its newspaper, \u003cspan class=\"ead-title\"\u003eFreiheit\u003c/span\u003e, before returning to the USSR around 1926, where he used his engineering training to help develop the new socialist state. He was arrested sometime during the 1937-38 purges and died around 1940. Contains an unpublished typescript, ca. 1934, describing London's disillusionment with Stalinism, the transcript of an interview with \u003cspan class=\"ead-title\"\u003eFreiheit\u003c/span\u003eeditor Paul Novick, and several unpublished typescripts about London by John Holmes (great nephew of London).",
-                        "id": "aspace_5862dae614cf7bfd92fac76ce8905b03"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "id": "aspace_53837b110328c929d8015ba9df78b755",
-                        "value": "Materials are in English"
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "London, Noah, 1888-"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "role": "Donor",
-                                "value": "Holmes, John"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1924/2002",
-                        "type": "inclusive",
-                        "value": "circa 1934-2002"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "TAM.135"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "John Holmes Collection on Noah London"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref14",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref15",
-                                "level": "file",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref14",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref15",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062747962",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_997d526f1d138196b0759defb5039a46",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_98ab28d169a9751a79eb4232232aad00",
-                                                "parent": "aspace_997d526f1d138196b0759defb5039a46",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1986/2002",
-                                                "type": "inclusive",
-                                                "value": "1986-2002"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Holmes, John: Unpublished Writings re Noah London"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "file",
-                                "did": [
+                                        "barcode": "31142062747962",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_997d526f1d138196b0759defb5039a46",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062747962",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_8eff40189eea238d87c2c8bb3ecd1aba",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d1bf387658d42402e99e213d386850a3",
-                                                "parent": "aspace_8eff40189eea238d87c2c8bb3ecd1aba",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1934/1934",
-                                                "type": "inclusive",
-                                                "value": "ca. 1934"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "London, Noah: Notes on USSR (unpublished typescript, 46 pp.)"
-                                            }
-                                        ]
+                                        "id": "aspace_98ab28d169a9751a79eb4232232aad00",
+                                        "parent": "aspace_997d526f1d138196b0759defb5039a46",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "file",
-                                "did": [
+                                ],
+                                "unitdate": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062747962",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal - Half",
-                                                "id": "aspace_6c4f929d671a08804ff4601bed69751f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_acace314e908a7ebac8efa8e3801495f",
-                                                "parent": "aspace_6c4f929d671a08804ff4601bed69751f",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "May 26, 1988"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Novick, Paul: Transcript of Interview by John Holmes"
-                                            }
-                                        ]
+                                        "normal": "1986/2002",
+                                        "type": "inclusive",
+                                        "value": "1986-2002"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Holmes, John: Unpublished Writings re Noah London"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "file",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Container list"
+                                        "barcode": "31142062747962",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_8eff40189eea238d87c2c8bb3ecd1aba",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d1bf387658d42402e99e213d386850a3",
+                                        "parent": "aspace_8eff40189eea238d87c2c8bb3ecd1aba",
+                                        "type": "folder",
+                                        "value": "2"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1934/1934",
+                                        "type": "inclusive",
+                                        "value": "ca. 1934"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "London, Noah: Notes on USSR (unpublished typescript, 46 pp.)"
+                                }
                             }
-                        ]
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "file",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062747962",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal - Half",
+                                        "id": "aspace_6c4f929d671a08804ff4601bed69751f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_acace314e908a7ebac8efa8e3801495f",
+                                        "parent": "aspace_6c4f929d671a08804ff4601bed69751f",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "May 26, 1988"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Novick, Paul: Transcript of Interview by John Holmes"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Container list"
+                        }
                     }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_b823641f4088380165de055987d26174",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; John Holmes Collection on Noah London; TAM 135; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -316,14 +325,18 @@
         "scopecontent": [
             {
                 "id": "aspace_59a8ba8def3f6f6e1f8003b95b9789a3",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
-                        "value": "This collection contains a 46 page unpublished typescript, c1934, describing London's disillusionment with Stalinism, the transcript of an interview with Paul Novick, editor of the \u003cspan class=\"ead-title\"\u003eFreiheit\u003c/span\u003e, conducted by John Holmes, great nephew of London, and several unpublished typescripts by Holmes regarding both London's writings and his life and political activities in the US and the USSR."
+                        "value": "This collection contains a 46 page unpublished typescript, c1934, describing London's disillusionment with Stalinism, the transcript of an interview with Paul Novick, editor of the \u003cspan class=\"ead-title\"\u003eFreiheit\u003c/span\u003e, conducted by John Holmes, great nephew of London, and several unpublished typescripts by Holmes regarding both London's writings and his life and political activities in the US and the USSR.",
+                        "title": [
+                            {
+                                "value": "Freiheit",
+                                "render": "italic"
+                            }
+                        ]
                     }
                 ]
             }
@@ -331,11 +344,9 @@
         "userestrict": [
             {
                 "id": "aspace_45966a664e8c84447c16ec2b2d331af0",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection created by John Holmes was not transferred to New York University. Permission to use materials must be secured from the copyright holder."
@@ -344,97 +355,85 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_135/",
-                    "value": "tam_135"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/tam_135/",
+            "value": "tam_135"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from London, Noah template.doc"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from London, Noah template.doc\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Tamiment staff"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the John Holmes Collection on Noah London \u003cspan class=\"ead-num\"\u003eTAM.135\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:48:04 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "descrules": [
-                        "Describing Archives: A Content Standard"
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in English"
-                        }
-                    ]
-                }
-            ]
+                },
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Tamiment staff",
+                "titleproper": [
+                    {
+                        "value": "Guide to the John Holmes Collection on Noah London \u003cspan class=\"ead-num\"\u003eTAM.135\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "TAM.135"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:48:04 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "descrules": "Describing Archives: A Content Standard",
+            "langusage": {}
         }
-    ]
+    }
 }

@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_3950b8470fb7e5398eed2c3ea5c3ebff",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Fales Library and Special Collections, fales.library@nyu.edu, 212-998-2596."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_f1603453ac4d4a16a3c5fdc56996da78",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
                         "value": "The John Taggart Archive was acquired via purchases from Taggart between 1971-1975."
@@ -34,9 +30,21 @@
         "arrangement": [
             {
                 "id": "aspace_a4acd8c0e4326271f9506732fc9c982d",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "numeration": "arabic",
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "Series I: Correspondence"
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -49,11 +57,9 @@
         "bioghist": [
             {
                 "id": "aspace_e6eaa49e21f98aeaa0aac0eda91943f5",
-                "head": [
-                    {
-                        "value": "[put Biographical or Historical here] Note"
-                    }
-                ],
+                "head": {
+                    "value": "[put Biographical or Historical here] Note"
+                },
                 "p": [
                     {
                         "value": "[concise information about the creator(s) of the described materials]"
@@ -61,730 +67,707 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "genreform": [
-                    "Manuscripts for publication.",
-                    "Correspondence."
-                ],
-                "geogname": [
-                    "United States.",
-                    "New York (N.Y.) -- Intellectual life -- 20th century."
-                ],
-                "persname": [
-                    {
-                        "value": "Zukofsky, Louis, 1904-1978"
-                    },
-                    {
-                        "value": "Carruth, Hayden, 1921-2008"
-                    },
-                    {
-                        "value": "Blackburn, Paul"
-                    },
-                    {
-                        "value": "Davenport, Guy"
-                    },
-                    {
-                        "value": "Bergé, Carol, 1928-"
-                    },
-                    {
-                        "value": "Creeley, Robert, 1926-2005"
-                    },
-                    {
-                        "value": "Snyder, Gary, 1930-"
+        "controlaccess": {
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Manuscripts for publication."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "United States."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "New York (N.Y.) -- Intellectual life -- 20th century."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Zukofsky, Louis, 1904-1978"
+                },
+                {
+                    "source": "naf",
+                    "value": "Carruth, Hayden, 1921-2008"
+                },
+                {
+                    "source": "naf",
+                    "value": "Blackburn, Paul"
+                },
+                {
+                    "source": "naf",
+                    "value": "Davenport, Guy"
+                },
+                {
+                    "source": "naf",
+                    "value": "Bergé, Carol, 1928-"
+                },
+                {
+                    "source": "naf",
+                    "value": "Creeley, Robert, 1926-2005"
+                },
+                {
+                    "source": "naf",
+                    "value": "Snyder, Gary, 1930-"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Small presses -- New York (State) -- New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Art, Modern |y 20th century |v Periodicals."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Literature, Experimental |x Periodicals."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Poets, American -- 20th century."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "American literature -- 20th century."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Authors, American -- 20th century."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "American fiction -- 20th century."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "American poetry -- 20th century."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Avant-garde (Aesthetics)"
+                },
+                {
+                    "source": "local",
+                    "value": "Downtown writers."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": ".25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "in 1 half manuscript box.",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The John Taggart Archive is a collection of correspondence John Taggart received as editor of \u003cspan class=\"ead-title\"\u003eMaps\u003c/span\u003e during 1970 to 1974. Collection highlights include correspondence from Carol Bergé, Paul Blackburn, Hayden Carruth, Robert Creeley, Guy Davenport, Gary Snyder, and Louis Zukofsky.",
+                    "id": "aspace_4822eff2ca2efb15473afc1b8e1f7aa9",
+                    "title": [
+                        {
+                            "value": "Maps",
+                            "render": "italic"
+                        }
+                    ]
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "subject": [
-                    "Small presses -- New York (State) -- New York.",
-                    "Art, Modern |y 20th century |v Periodicals.",
-                    "Literature, Experimental |x Periodicals.",
-                    "Poets, American -- 20th century.",
-                    "American literature -- 20th century.",
-                    "Authors, American -- 20th century.",
-                    "American fiction -- 20th century.",
-                    "American poetry -- 20th century.",
-                    "Avant-garde (Aesthetics)",
-                    "Downtown writers."
-                ]
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "source": "naf",
+                        "value": "Taggart, John, 1942-"
+                    }
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Fales Library and Special Collections"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1970/1974",
+                    "type": "inclusive",
+                    "value": "1970-1974"
+                }
+            ],
+            "unitid": "MSS.025",
+            "unittitle": {
+                "value": "John Taggart Archive"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": ".25 Linear Feet"
-                            },
-                            {
-                                "value": "in 1 half manuscript box."
-                            }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "The John Taggart Archive is a collection of correspondence John Taggart received as editor of \u003cspan class=\"ead-title\"\u003eMaps\u003c/span\u003e during 1970 to 1974. Collection highlights include correspondence from Carol Bergé, Paul Blackburn, Hayden Carruth, Robert Creeley, Guy Davenport, Gary Snyder, and Louis Zukofsky.",
-                        "id": "aspace_4822eff2ca2efb15473afc1b8e1f7aa9"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Taggart, John, 1942-"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Fales Library and Special Collections"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1970/1974",
-                        "type": "inclusive",
-                        "value": "1970-1974"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "MSS.025"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "John Taggart Archive"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref12",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref13",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref12",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref13",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900314",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_114336660f1a7776557403c2fa61bd9c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9acd7bf97daae54d0499c96013e8a11d",
-                                                "parent": "aspace_114336660f1a7776557403c2fa61bd9c",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1971"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Allen, Donald\u003cbr\u003eBergé, Carol\u003cbr\u003eBlackburn, Paul"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref14",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                        "barcode": "31142054900314",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_114336660f1a7776557403c2fa61bd9c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900314",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_70a20b9dee5c481256f2720571f3089c",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1bf812b73cc8ea9b384ebbd5fbaddddd",
-                                                "parent": "aspace_70a20b9dee5c481256f2720571f3089c",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1973"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Brakhage, Stan\u003cbr\u003eBronk, William"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref15",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900314",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_6ddbb81a9387546987c3e01b6624b440",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_8c840258c2b668c6d635d81207570d53",
-                                                "parent": "aspace_6ddbb81a9387546987c3e01b6624b440",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1971-1974"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Butterick, George"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900314",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_eca88707628e199fc8c25f1d2bc5875b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_070de8ce4ba27f65370217d3a09e7b0d",
-                                                "parent": "aspace_eca88707628e199fc8c25f1d2bc5875b",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1970; 1973"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Carruth, Hayden\u003cbr\u003eCreeley, Robert"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900314",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_3c579bb286c9839fdad0c2d191f2f387",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_92d80de3f99db858d9bcc81642f57a2c",
-                                                "parent": "aspace_3c579bb286c9839fdad0c2d191f2f387",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1972-1974"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Davenport, Guy"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900314",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_d7e64b852a5fa9fc4da1831590514630",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_0d272c35a44ba1d3cc2e137b1e1ff27e",
-                                                "parent": "aspace_d7e64b852a5fa9fc4da1831590514630",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1973"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Edson, Russell"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900314",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_056ae3687bff33c6249161937dfcbd0b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_e45d488227f8be2e1fe78d877c0b1b57",
-                                                "parent": "aspace_056ae3687bff33c6249161937dfcbd0b",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1970-1971"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Eigner, Larry\u003cbr\u003e\u003cbr\u003eElliott, George P."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900314",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_f8b417e0dfd330c7f837b7e459581cc4",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_3a37b0bbe127bb6f216832e51da873f6",
-                                                "parent": "aspace_f8b417e0dfd330c7f837b7e459581cc4",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1971"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Goodman, Mitchell\u003cbr\u003eGreene, Jonathan"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900314",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_dfc278341a1dfbf9547b1f5413678c78",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_864b028deb55b1e54e3f7b0aaf7bf6f9",
-                                                "parent": "aspace_dfc278341a1dfbf9547b1f5413678c78",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "Undated"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Grossinger, Richard\u003cbr\u003eHarris, George\u003cbr\u003eHeller, Michael"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900314",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_59fe33c7d50870e922ea6ca7376b369f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4f369664effe60df98fb0e914feefb83",
-                                                "parent": "aspace_59fe33c7d50870e922ea6ca7376b369f",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1971"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Justice, Donald\u003cbr\u003eKenner, Hugh\u003cbr\u003eKrofsky, Frank"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref23",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900314",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_8866ab89ebb313f2bfb117f38c49978e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c7ed0d3bba8df4234104b9cf346b948b",
-                                                "parent": "aspace_8866ab89ebb313f2bfb117f38c49978e",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1970"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Meltzer, David\u003cbr\u003eNewlove, John\u003cbr\u003eOppen, George"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref24",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900314",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_4d1af7353d3dd5f56bc95a4a58d10ad2",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_2016f3abb62274f4b2a31dd5a91da4a2",
-                                                "parent": "aspace_4d1af7353d3dd5f56bc95a4a58d10ad2",
-                                                "type": "folder",
-                                                "value": "12"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1973"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Pearson, Norman Holms\u003cbr\u003ePhelps, Donald\u003cbr\u003eRothenberg, Jerome"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900314",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_71c04aff60c5849a76b5e3a134bffbf1",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_69b07653f656667aa70e4194eb45adfc",
-                                                "parent": "aspace_71c04aff60c5849a76b5e3a134bffbf1",
-                                                "type": "folder",
-                                                "value": "13"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1970-1971"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Silliman, Ronald\u003cbr\u003eSnyder, Gary\u003cbr\u003eSpann, Marcella\u003cbr\u003eVas Dias, Robert"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900314",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_482aaf2d6ec93606a03ea59366ff80ad",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_47815f277fd6a623f3180af9e7783f84",
-                                                "parent": "aspace_482aaf2d6ec93606a03ea59366ff80ad",
-                                                "type": "folder",
-                                                "value": "14"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1971"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Unidentified"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900314",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_d800da538cf4a97db081279bf075dddf",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4f798fff4a2030a1926956778665e8bf",
-                                                "parent": "aspace_d800da538cf4a97db081279bf075dddf",
-                                                "type": "folder",
-                                                "value": "15"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1969-1974"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Weil, James"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900314",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_99cbf4c7060b73d79be786fbc9663331",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_b29125766d25d2224edc305584d7a428",
-                                                "parent": "aspace_99cbf4c7060b73d79be786fbc9663331",
-                                                "type": "folder",
-                                                "value": "16"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1969-1970"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Weiss, Ted and Renée\u003cbr\u003eWhalen, Philip\u003cbr\u003eZukofsky, Louis"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
-                                    {
-                                        "value": "Series I: Correspondence"
-                                    }
-                                ]
-                            }
-                        ],
-                        "scopecontent": [
-                            {
-                                "id": "aspace_9623ffed486840bc70702091cd8a7906",
-                                "head": [
-                                    {
-                                        "value": "Scope and Contents note"
+                                        "id": "aspace_9acd7bf97daae54d0499c96013e8a11d",
+                                        "parent": "aspace_114336660f1a7776557403c2fa61bd9c",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "p": [
+                                "unitdate": [
                                     {
-                                        "value": "Series 1 contains one box of correspondence to John Taggert, editor of Maps. Noted correspondents include Carol Bergé, Paul Blackburn, Hayden Carruth, Robert Creeley, Guy Davenport, Gary Snyder, and Louis Zukofsky."
+                                        "value": "1971"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Allen, Donald\u003cbr\u003eBergé, Carol\u003cbr\u003eBlackburn, Paul"
+                                }
                             }
-                        ]
-                    }
-                ]
-            }
-        ],
+                        },
+                        {
+                            "id": "aspace_ref14",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900314",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_70a20b9dee5c481256f2720571f3089c",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_1bf812b73cc8ea9b384ebbd5fbaddddd",
+                                        "parent": "aspace_70a20b9dee5c481256f2720571f3089c",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1973"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Brakhage, Stan\u003cbr\u003eBronk, William"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref15",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900314",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_6ddbb81a9387546987c3e01b6624b440",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_8c840258c2b668c6d635d81207570d53",
+                                        "parent": "aspace_6ddbb81a9387546987c3e01b6624b440",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1971-1974"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Butterick, George"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900314",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_eca88707628e199fc8c25f1d2bc5875b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_070de8ce4ba27f65370217d3a09e7b0d",
+                                        "parent": "aspace_eca88707628e199fc8c25f1d2bc5875b",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1970; 1973"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Carruth, Hayden\u003cbr\u003eCreeley, Robert"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900314",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_3c579bb286c9839fdad0c2d191f2f387",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_92d80de3f99db858d9bcc81642f57a2c",
+                                        "parent": "aspace_3c579bb286c9839fdad0c2d191f2f387",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1972-1974"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Davenport, Guy"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900314",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_d7e64b852a5fa9fc4da1831590514630",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_0d272c35a44ba1d3cc2e137b1e1ff27e",
+                                        "parent": "aspace_d7e64b852a5fa9fc4da1831590514630",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1973"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Edson, Russell"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900314",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_056ae3687bff33c6249161937dfcbd0b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_e45d488227f8be2e1fe78d877c0b1b57",
+                                        "parent": "aspace_056ae3687bff33c6249161937dfcbd0b",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1970-1971"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Eigner, Larry\u003cbr\u003e\u003cbr\u003eElliott, George P."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900314",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_f8b417e0dfd330c7f837b7e459581cc4",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_3a37b0bbe127bb6f216832e51da873f6",
+                                        "parent": "aspace_f8b417e0dfd330c7f837b7e459581cc4",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1971"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Goodman, Mitchell\u003cbr\u003eGreene, Jonathan"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900314",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_dfc278341a1dfbf9547b1f5413678c78",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_864b028deb55b1e54e3f7b0aaf7bf6f9",
+                                        "parent": "aspace_dfc278341a1dfbf9547b1f5413678c78",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "Undated"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Grossinger, Richard\u003cbr\u003eHarris, George\u003cbr\u003eHeller, Michael"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900314",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_59fe33c7d50870e922ea6ca7376b369f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4f369664effe60df98fb0e914feefb83",
+                                        "parent": "aspace_59fe33c7d50870e922ea6ca7376b369f",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1971"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Justice, Donald\u003cbr\u003eKenner, Hugh\u003cbr\u003eKrofsky, Frank"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref23",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900314",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_8866ab89ebb313f2bfb117f38c49978e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c7ed0d3bba8df4234104b9cf346b948b",
+                                        "parent": "aspace_8866ab89ebb313f2bfb117f38c49978e",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1970"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Meltzer, David\u003cbr\u003eNewlove, John\u003cbr\u003eOppen, George"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref24",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900314",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_4d1af7353d3dd5f56bc95a4a58d10ad2",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_2016f3abb62274f4b2a31dd5a91da4a2",
+                                        "parent": "aspace_4d1af7353d3dd5f56bc95a4a58d10ad2",
+                                        "type": "folder",
+                                        "value": "12"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1973"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Pearson, Norman Holms\u003cbr\u003ePhelps, Donald\u003cbr\u003eRothenberg, Jerome"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900314",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_71c04aff60c5849a76b5e3a134bffbf1",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_69b07653f656667aa70e4194eb45adfc",
+                                        "parent": "aspace_71c04aff60c5849a76b5e3a134bffbf1",
+                                        "type": "folder",
+                                        "value": "13"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1970-1971"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Silliman, Ronald\u003cbr\u003eSnyder, Gary\u003cbr\u003eSpann, Marcella\u003cbr\u003eVas Dias, Robert"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900314",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_482aaf2d6ec93606a03ea59366ff80ad",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_47815f277fd6a623f3180af9e7783f84",
+                                        "parent": "aspace_482aaf2d6ec93606a03ea59366ff80ad",
+                                        "type": "folder",
+                                        "value": "14"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1971"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Unidentified"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900314",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_d800da538cf4a97db081279bf075dddf",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4f798fff4a2030a1926956778665e8bf",
+                                        "parent": "aspace_d800da538cf4a97db081279bf075dddf",
+                                        "type": "folder",
+                                        "value": "15"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1969-1974"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Weil, James"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900314",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_99cbf4c7060b73d79be786fbc9663331",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_b29125766d25d2224edc305584d7a428",
+                                        "parent": "aspace_99cbf4c7060b73d79be786fbc9663331",
+                                        "type": "folder",
+                                        "value": "16"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1969-1970"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Weiss, Ted and Renée\u003cbr\u003eWhalen, Philip\u003cbr\u003eZukofsky, Louis"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series I: Correspondence"
+                        }
+                    },
+                    "scopecontent": [
+                        {
+                            "id": "aspace_9623ffed486840bc70702091cd8a7906",
+                            "head": {
+                                "value": "Scope and Contents note"
+                            },
+                            "p": [
+                                {
+                                    "value": "Series 1 contains one box of correspondence to John Taggert, editor of Maps. Noted correspondents include Carol Bergé, Paul Blackburn, Hayden Carruth, Robert Creeley, Guy Davenport, Gary Snyder, and Louis Zukofsky."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_22231f8706cecdbe9b38eb564f0a7e67",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
-                        "value": "Published citations should take the following form:\u003cbr\u003e\u003cbr\u003e\nIdentification of item,  date (if known); The John Taggart Archive; MSS 025; box number; folder number; \u003cspan class=\"ead-address\"\u003e\u003cspan class=\"ead-addressline\"\u003eFales Library and Special Collections, New York University Libraries.\u003c/span\u003e\u003c/span\u003e"
+                        "value": "Published citations should take the following form:\u003cbr\u003e\u003cbr\u003e\nIdentification of item,  date (if known); The John Taggart Archive; MSS 025; box number; folder number; \u003cspan class=\"ead-address\"\u003e\u003cspan class=\"ead-addressline\"\u003eFales Library and Special Collections, New York University Libraries.\u003c/span\u003e\u003c/span\u003e",
+                        "address": [
+                            {
+                                "addressline": [
+                                    {
+                                        "value": "Fales Library and Special Collections, New York University Libraries."
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
@@ -792,11 +775,9 @@
         "scopecontent": [
             {
                 "id": "aspace_e2cc2876e3e9de2b87646ddf4dfe24aa",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The John Taggart Archive is a part of the Avant Garde Collection at Fales Library, New York University. The Fales Library is the primary special collections division of the NYU libraries, housing over 170,000 volumes of English and American literature from 1700 to the present. Strengths of the collection include the development of the English and American novel, with an emphasis on the Gothic and the Victorian novel. The Avant Garde Collection comprises printed materials, archives, and other materials related to the avant-garde writing from the 1960s and early 1970s. The collection was build during that period by curators, including Mel Edestein and Ted Grieder."
@@ -807,11 +788,9 @@
         "separatedmaterial": [
             {
                 "id": "aspace_9ee5064803aa2e3d9d340cb8a94b0099",
-                "head": [
-                    {
-                        "value": "Separated Material"
-                    }
-                ],
+                "head": {
+                    "value": "Separated Material"
+                },
                 "p": [
                     {
                         "value": "There is no information about materials that are associated by provenance to the described materials that have been physically separated or removed."
@@ -822,11 +801,9 @@
         "userestrict": [
             {
                 "id": "aspace_76e9db651ac0bcf599420f1269e01ffb",
-                "head": [
-                    {
-                        "value": "Use Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Use Restrictions"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection was not transferred to New York University. Permission to use materials must be secured from the copyright holder. Please contact the Fales Library and Special Collections, fales.library@nyu.edu, 212-998-2596."
@@ -835,63 +812,62 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NNU-F",
-                    "value": "mss_025"
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NNU-F",
+            "value": "mss_025"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from taggart.html"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "p": [
+                    {
+                        "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e",
+                        "date": [
+                            {
+                                "value": "2009"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": "Fales Library and Special Collections"
+            },
+            "titlestmt": {
+                "author": "Amber Creger, March 1999",
+                "titleproper": [
+                    {
+                        "value": "Guide to the John Taggart Archive\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-date\"\u003eca. 1970-1974 \u003c/span\u003e\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-num\"\u003e\u003c/span\u003e \u003cspan class=\"ead-num\"\u003eMSS.025\u003c/span\u003e",
+                        "num": [
+                            {},
+                            {
+                                "value": "MSS.025"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 14:59:29 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
-                        {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from taggart.html\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
-                        {
-                            "publisher": "Fales Library and Special Collections",
-                            "p": [
-                                {
-                                    "value": "\u003cspan class=\"ead-date\"\u003e2009\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Amber Creger, March 1999"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the John Taggart Archive\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-date\"\u003eca. 1970-1974 \u003c/span\u003e\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-num\"\u003e\u003c/span\u003e \u003cspan class=\"ead-num\"\u003eMSS.025\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 14:59:29 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

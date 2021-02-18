@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_e0517b3f4179963e9191a1afc2e8900a",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_e3155923e388c8db43f958ee513a7d55",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Donated by Carl Blum, 1993. The accession number associated with this gift is 1993.013."
@@ -34,11 +30,9 @@
         "bioghist": [
             {
                 "id": "aspace_f3a5452712de4cc293be258360bbb093",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "Carl Blum was born in Brooklyn and joined Local 1511 of the International Brotherhood of Painters in 1945. He got a job as a woodfinisher at Bergen Cabinet. He was first appointed by the members to participate in contract negotiations in 1950, and he soon became a spokesman for the hardwood finishers in Brooklyn and Queens. "
@@ -52,151 +46,166 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "International Brotherhood of Painters and Allied Trades"
-                    },
-                    {
-                        "value": "International Brotherhood of Painters and Allied Trades. Painters District Council 9 of New York City"
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "naf",
+                    "value": "International Brotherhood of Painters and Allied Trades"
+                },
+                {
+                    "source": "naf",
+                    "value": "International Brotherhood of Painters and Allied Trades. Painters District Council 9 of New York City"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Clippings (information artifacts)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Newsletters."
+                },
+                {
+                    "source": "aat",
+                    "value": "Reports."
+                },
+                {
+                    "source": "aat",
+                    "value": "Legal documents."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                },
+                {
+                    "source": "aat",
+                    "value": "Fliers (printed matter)"
+                }
+            ],
+            "persname": [
+                {
+                    "role": "Donor",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Blum, Carl"
+                },
+                {
+                    "source": "naf",
+                    "value": "Schonfeld, Frank"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Labor unions -- Elections -- New York (State) -- New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Labor union democracy -- New York (State) -- New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Woodworkers |x Labor unions |z New York (State) |z New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Painters, Industrial -- Labor unions -- New York (State) -- New York."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 boxes)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
                     }
-                ],
-                "genreform": [
-                    "Clippings (information artifacts)",
-                    "Newsletters.",
-                    "Reports.",
-                    "Legal documents.",
-                    "Correspondence.",
-                    "Fliers (printed matter)"
-                ],
-                "persname": [
-                    {
-                        "role": "Donor",
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "persname": {
+                        "rules": "dacs",
+                        "source": "local",
                         "value": "Blum, Carl"
-                    },
-                    {
-                        "value": "Schonfeld, Frank"
                     }
-                ],
-                "subject": [
-                    "Labor unions -- Elections -- New York (State) -- New York.",
-                    "Labor union democracy -- New York (State) -- New York.",
-                    "Woodworkers |x Labor unions |z New York (State) |z New York.",
-                    "Painters, Industrial -- Labor unions -- New York (State) -- New York."
-                ]
+                },
+                {
+                    "label": "source",
+                    "persname": {
+                        "role": "Donor",
+                        "rules": "dacs",
+                        "source": "local",
+                        "value": "Blum, Carl"
+                    }
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1964/1994",
+                    "type": "inclusive",
+                    "value": "1964-1994"
+                }
+            ],
+            "unitid": "WAG.100",
+            "unittitle": {
+                "value": "Carl Blum Papers"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_fd1eefdd246446e57ff1d7ec4de9978e",
+                    "level": "file",
+                    "did": {
+                        "container": [
                             {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 boxes)"
-                            }
-                        ]
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
+                                "barcode": "31142062766541",
+                                "label": "Mixed Materials",
+                                "altrender": "Manuscript box - Legal - Half",
+                                "id": "aspace_d81248df16f2c0fcda7c8abe759f0004",
+                                "type": "box",
+                                "value": "1"
                             }
                         ],
-                        "value": "\n      \n.    "
+                        "unittitle": {
+                            "value": "Unprocessed Materials"
+                        }
                     }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "persname": [
-                            {
-                                "value": "Blum, Carl"
-                            }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "role": "Donor",
-                                "value": "Blum, Carl"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1964/1994",
-                        "type": "inclusive",
-                        "value": "1964-1994"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "WAG.100"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "Carl Blum Papers"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_fd1eefdd246446e57ff1d7ec4de9978e",
-                        "level": "file",
-                        "did": [
-                            {
-                                "container": [
-                                    {
-                                        "barcode": "31142062766541",
-                                        "label": "Mixed Materials",
-                                        "altrender": "Manuscript box - Legal - Half",
-                                        "id": "aspace_d81248df16f2c0fcda7c8abe759f0004",
-                                        "type": "box",
-                                        "value": "1"
-                                    }
-                                ],
-                                "unittitle": [
-                                    {
-                                        "value": "Unprocessed Materials"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
+                }
+            ]
+        },
         "scopecontent": [
             {
                 "id": "aspace_f710481ecd222302a59d6a1a694a33b4",
-                "head": [
-                    {
-                        "value": "Scope and Contents"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Contents"
+                },
                 "p": [
                     {
                         "value": "The select collection of papers, annotated by Blum, contains correspondence, flyers, legal documents, reports, bulletins and newspapers which relate to Blum's activity within District Council 9 and as an International Representative. These include the organizing activity and litigation concerning the Hardwood Finishers, the Schonfeld-Blum alliance and split, the 1967 and 1977-79 Trusteeships in District Council 9, opposition election literature written by Carl Blum and other opponents, documents on Local Union 490, the Paperhangers' Local, the Pension Plan, 1981 Special Trusteeship in District Council 4, Buffalo, Local Union 1815, Long Island, news clippings on corruption within the Painters, and copies of \"The Constitutionalist\", a rank-and-file opposition newspaper directed at the International. "
@@ -210,11 +219,9 @@
         "userestrict": [
             {
                 "id": "aspace_3ecc5c27e99f501cd58884b63e46efda",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Any rights (including copyright and related rights to publicity and privacy) held by Carl Blum were transferred to New York University in 1993 by Carl Blum. Permission to publish or reproduce materials in this collection must be secured from Tamiment Library and Robert F. Wagner Archives. Please contact tamiment.wagner@nyu.edu, (212) 998-2630."
@@ -223,79 +230,76 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/wag_100/",
-                    "value": "wag_100"
-                }
-            ],
-            "filedesc": [
-                {
-                    "notestmt": [
-                        {}
-                    ],
-                    "publicationstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/wag_100/",
+            "value": "wag_100"
+        },
+        "filedesc": {
+            "notestmt": {
+                "note": [
+                    {
+                        "p": [
+                            {
+                                "value": "Brief EAD; Finding Aid (Paper)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "address": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
+                        {
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "titleproper": [
-                                {
-                                    "value": "Carl Blum Papers \u003cspan class=\"ead-num\"\u003eWAG.100\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:59:28 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ]
-                }
-            ]
+                },
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "titleproper": [
+                    {
+                        "value": "Carl Blum Papers \u003cspan class=\"ead-num\"\u003eWAG.100\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "WAG.100"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:59:28 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            }
         }
-    ]
+    }
 }

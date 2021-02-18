@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_373686a2cb7618340086822eaaebc011",
-                "head": [
-                    {
-                        "value": "Access Restrictions"
-                    }
-                ],
+                "head": {
+                    "value": "Access Restrictions"
+                },
                 "p": [
                     {
                         "value": "Materials are open to researchers. Please contact the Fales Library and Special Collections, fales.library@nyu.edu, 212-998-2596."
@@ -19,14 +17,32 @@
         "arrangement": [
             {
                 "id": "aspace_cf9abe624fe490bd2b3b0c081c5ebc22",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "numeration": "arabic",
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "Series I: Correspondence to Michael Kirchberger"
+                            }
+                        ]
                     }
                 ],
                 "p": [
                     {
-                        "value": "The \u003cspan class=\"ead-title\"\u003eHika\u003c/span\u003e Archive is arranged in alphabetical order by correspondent."
+                        "value": "The \u003cspan class=\"ead-title\"\u003eHika\u003c/span\u003e Archive is arranged in alphabetical order by correspondent.",
+                        "title": [
+                            {
+                                "value": "Hika",
+                                "render": "italic"
+                            }
+                        ]
                     }
                 ]
             }
@@ -34,407 +50,428 @@
         "bioghist": [
             {
                 "id": "aspace_005ee4c4b105c7b915bffdb3237667c7",
-                "head": [
-                    {
-                        "value": "Historical  Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical  Note"
+                },
                 "p": [
                     {
-                        "value": "\u003cspan class=\"ead-title\"\u003eHika,\u003c/span\u003e established in 1935, is Kenyon College's oldest, student-run literary magazine. Michael Kirchberger served as its editor in 1966-67."
+                        "value": "\u003cspan class=\"ead-title\"\u003eHika,\u003c/span\u003e established in 1935, is Kenyon College's oldest, student-run literary magazine. Michael Kirchberger served as its editor in 1966-67.",
+                        "title": [
+                            {
+                                "value": "Hika,",
+                                "render": "italic"
+                            }
+                        ]
                     },
                     {
-                        "value": "Sources:\u003cbr\u003e \nKenyon College: Student Life: Film and Media,(http://www.kenyon.edu/x11583.xml) Accessed November 23, 2009\u003cbr\u003e \n\u003cspan class=\"ead-title\"\u003e60 Years of Hika\u003c/span\u003e, Kenyon College Archives, 1990.\u003cbr\u003e"
+                        "value": "Sources:\u003cbr\u003e \nKenyon College: Student Life: Film and Media,(http://www.kenyon.edu/x11583.xml) Accessed November 23, 2009\u003cbr\u003e \n\u003cspan class=\"ead-title\"\u003e60 Years of Hika\u003c/span\u003e, Kenyon College Archives, 1990.\u003cbr\u003e",
+                        "title": [
+                            {
+                                "value": "60 Years of Hika",
+                                "render": "italic"
+                            }
+                        ]
                     }
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
-                        "value": "The Hika Archive"
-                    }
-                ],
-                "genreform": [
-                    "Manuscripts for publication.",
-                    "Correspondence."
-                ],
-                "geogname": [
-                    "New York (N.Y.) -- Intellectual life -- 20th century.",
-                    "United States."
-                ],
-                "persname": [
-                    {
-                        "value": "Kirchberger, Michael"
-                    },
-                    {
-                        "value": "Bergé, Carol, 1928-"
-                    },
-                    {
-                        "value": "Ginsberg, Allen, 1926-1997"
-                    },
-                    {
-                        "value": "Harrison, Jim, 1937-"
-                    }
-                ],
-                "subject": [
-                    "Literature, Experimental |x Periodicals.",
-                    "American poetry -- 20th century.",
-                    "Avant-garde (Aesthetics)",
-                    "American literature -- 20th century.",
-                    "Small presses -- New York (State) -- New York.",
-                    "Poets, American -- 20th century.",
-                    "Authors, American -- 20th century.",
-                    "American fiction -- 20th century.",
-                    "Downtown writers."
-                ]
-            }
-        ],
+        "controlaccess": {
+            "corpname": [
+                {
+                    "source": "ingest",
+                    "value": "The Hika Archive"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Manuscripts for publication."
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                }
+            ],
+            "geogname": [
+                {
+                    "source": "lcsh",
+                    "value": "New York (N.Y.) -- Intellectual life -- 20th century."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "United States."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "naf",
+                    "value": "Kirchberger, Michael"
+                },
+                {
+                    "source": "naf",
+                    "value": "Bergé, Carol, 1928-"
+                },
+                {
+                    "source": "naf",
+                    "value": "Ginsberg, Allen, 1926-1997"
+                },
+                {
+                    "source": "naf",
+                    "value": "Harrison, Jim, 1937-"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Literature, Experimental |x Periodicals."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "American poetry -- 20th century."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Avant-garde (Aesthetics)"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "American literature -- 20th century."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Small presses -- New York (State) -- New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Poets, American -- 20th century."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Authors, American -- 20th century."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "American fiction -- 20th century."
+                },
+                {
+                    "source": "local",
+                    "value": "Downtown writers."
+                }
+            ]
+        },
         "custodhist": [
             {
                 "id": "aspace_abb4805c61f92cf7cab1ad3d0d940045",
-                "head": [
-                    {
-                        "value": "Provenance"
-                    }
-                ],
+                "head": {
+                    "value": "Provenance"
+                },
                 "p": [
                     {
-                        "value": "The \u003cspan class=\"ead-title\"\u003eHika\u003c/span\u003e correspondence was given to Fales by Michael Kirchberger."
-                    }
-                ]
-            }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "0.25 Linear Feet"
-                            },
-                            {
-                                "value": "(1 box)"
-                            }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "The \u003cspan class=\"ead-title\"\u003eHika\u003c/span\u003e Archive consists of correspondence and manuscripts sent to \u003cspan class=\"ead-title\"\u003eHika\u003c/span\u003e editor Michael Kirchberger. Noted contributors to the magazine include Carol Bergé, Allen Ginsberg, and Jim Harrison.",
-                        "id": "aspace_605f44c863d8c40afb1110145a01dc7f"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
-                            }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "corpname": [
-                            {
-                                "value": "The Hika Archive"
-                            }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Fales Library and Special Collections"
-                            }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1966/1966",
-                        "value": "1966"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "MSS.015"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "\u003cspan class=\"ead-title\"\u003eHika\u003c/span\u003e Archive",
+                        "value": "The \u003cspan class=\"ead-title\"\u003eHika\u003c/span\u003e correspondence was given to Fales by Michael Kirchberger.",
                         "title": [
                             {
-                                "render": "italic",
-                                "value": "Hika"
+                                "value": "Hika",
+                                "render": "italic"
                             }
                         ]
                     }
                 ]
             }
         ],
-        "dsc": [
-            {
-                "c": [
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "0.25 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(1 box)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "The \u003cspan class=\"ead-title\"\u003eHika\u003c/span\u003e Archive consists of correspondence and manuscripts sent to \u003cspan class=\"ead-title\"\u003eHika\u003c/span\u003e editor Michael Kirchberger. Noted contributors to the magazine include Carol Bergé, Allen Ginsberg, and Jim Harrison.",
+                    "id": "aspace_605f44c863d8c40afb1110145a01dc7f",
+                    "title": [
+                        {
+                            "value": "Hika",
+                            "render": "italic"
+                        },
+                        {
+                            "value": "Hika",
+                            "render": "italic"
+                        }
+                    ]
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
+                    }
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "corpname": {
+                        "source": "ingest",
+                        "value": "The Hika Archive"
+                    }
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Fales Library and Special Collections"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1966/1966",
+                    "value": "1966"
+                }
+            ],
+            "unitid": "MSS.015",
+            "unittitle": {
+                "value": "\u003cspan class=\"ead-title\"\u003eHika\u003c/span\u003e Archive",
+                "title": [
                     {
-                        "id": "aspace_ref12",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref13",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                        "value": "Hika",
+                        "render": "italic"
+                    }
+                ]
+            }
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref12",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref13",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900496",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_44df1b36a0ce029bf8ce36729848a18f",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_675515b456605d0dc376e91ef717e549",
-                                                "parent": "aspace_44df1b36a0ce029bf8ce36729848a18f",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1966"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Aldan, Daisy\u003cbr\u003e Bergé, Carol\u003cbr\u003e Dawson, Robert\u003cbr\u003e Dawson, Ruth\u003cbr\u003e"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref14",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                        "barcode": "31142054900496",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_44df1b36a0ce029bf8ce36729848a18f",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900496",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_c13bc29dcc8a857b9312bbe7daa8a5de",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_7dd502d5bdc4d8c49c8dc1f3cc6e2273",
-                                                "parent": "aspace_c13bc29dcc8a857b9312bbe7daa8a5de",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1966"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Feldman, Irving\u003cbr\u003e Galler, David\u003cbr\u003e Ginsberg, Allen\u003cbr\u003e Greenberg, Jerrold"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref15",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900496",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_5307441ed316ae84c96b4b8cc883d060",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_9f1a45320cadee5f76690f3eedb59755",
-                                                "parent": "aspace_5307441ed316ae84c96b4b8cc883d060",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1966"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Harrison, Jim\u003cbr\u003e Hazel, Robert\u003cbr\u003e Kessler, Milton\u003cbr\u003e Lardas, Konstantinos"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900496",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_2557e0b4dc193322b9465f31b2c16b54",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_4b07e205c505278581c067cff4f08d2b",
-                                                "parent": "aspace_2557e0b4dc193322b9465f31b2c16b54",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1966"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Larsen, Carl\u003cbr\u003e Leveson, David\u003cbr\u003e Levy, D.A.\u003cbr\u003e Moss, Howard\u003cbr\u003e"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900496",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_fba201c9c8277ca89b2be3aeb606e52e",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_afdecc3693a096fd52277278991848f5",
-                                                "parent": "aspace_fba201c9c8277ca89b2be3aeb606e52e",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1963"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Ossman, David\u003cbr\u003e Planz, Allen\u003cbr\u003e Scully, Jim"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142054900496",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Letter - Half",
-                                                "id": "aspace_e826aaf62bf987f724aaf300b3289fec",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a5ffd484328284e472c5916bcc34d7f8",
-                                                "parent": "aspace_e826aaf62bf987f724aaf300b3289fec",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "value": "1966"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Squires, Radcliffe\u003cbr\u003e Swenson, May"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
-                                    {
-                                        "value": "Series I: Correspondence to Michael Kirchberger"
-                                    }
-                                ]
-                            }
-                        ],
-                        "scopecontent": [
-                            {
-                                "id": "aspace_d68dfb3e1cb8b47b140e1341de9c7791",
-                                "head": [
-                                    {
-                                        "value": "Scope and Contents note"
+                                        "id": "aspace_675515b456605d0dc376e91ef717e549",
+                                        "parent": "aspace_44df1b36a0ce029bf8ce36729848a18f",
+                                        "type": "folder",
+                                        "value": "1"
                                     }
                                 ],
-                                "p": [
+                                "unitdate": [
                                     {
-                                        "value": "Series I consists of one box of correspondence and manuscripts sent to Hika."
+                                        "value": "1966"
                                     }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "Aldan, Daisy\u003cbr\u003e Bergé, Carol\u003cbr\u003e Dawson, Robert\u003cbr\u003e Dawson, Ruth\u003cbr\u003e"
+                                }
                             }
-                        ]
-                    }
-                ]
-            }
-        ],
+                        },
+                        {
+                            "id": "aspace_ref14",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900496",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_c13bc29dcc8a857b9312bbe7daa8a5de",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_7dd502d5bdc4d8c49c8dc1f3cc6e2273",
+                                        "parent": "aspace_c13bc29dcc8a857b9312bbe7daa8a5de",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1966"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Feldman, Irving\u003cbr\u003e Galler, David\u003cbr\u003e Ginsberg, Allen\u003cbr\u003e Greenberg, Jerrold"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref15",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900496",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_5307441ed316ae84c96b4b8cc883d060",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_9f1a45320cadee5f76690f3eedb59755",
+                                        "parent": "aspace_5307441ed316ae84c96b4b8cc883d060",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1966"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Harrison, Jim\u003cbr\u003e Hazel, Robert\u003cbr\u003e Kessler, Milton\u003cbr\u003e Lardas, Konstantinos"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900496",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_2557e0b4dc193322b9465f31b2c16b54",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_4b07e205c505278581c067cff4f08d2b",
+                                        "parent": "aspace_2557e0b4dc193322b9465f31b2c16b54",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1966"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Larsen, Carl\u003cbr\u003e Leveson, David\u003cbr\u003e Levy, D.A.\u003cbr\u003e Moss, Howard\u003cbr\u003e"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900496",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_fba201c9c8277ca89b2be3aeb606e52e",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_afdecc3693a096fd52277278991848f5",
+                                        "parent": "aspace_fba201c9c8277ca89b2be3aeb606e52e",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1963"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Ossman, David\u003cbr\u003e Planz, Allen\u003cbr\u003e Scully, Jim"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142054900496",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Letter - Half",
+                                        "id": "aspace_e826aaf62bf987f724aaf300b3289fec",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a5ffd484328284e472c5916bcc34d7f8",
+                                        "parent": "aspace_e826aaf62bf987f724aaf300b3289fec",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "value": "1966"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Squires, Radcliffe\u003cbr\u003e Swenson, May"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series I: Correspondence to Michael Kirchberger"
+                        }
+                    },
+                    "scopecontent": [
+                        {
+                            "id": "aspace_d68dfb3e1cb8b47b140e1341de9c7791",
+                            "head": {
+                                "value": "Scope and Contents note"
+                            },
+                            "p": [
+                                {
+                                    "value": "Series I consists of one box of correspondence and manuscripts sent to Hika."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_b2e1478a753db7592bfecd87ca868d5a",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the\nfollowing form:\u003cbr\u003e\u003cbr\u003e\nIdentification of item,  date (if known); Hika Archive; MSS 15; box number; folder number; Fales Library and Special Collections, New York University Libraries."
@@ -445,11 +482,9 @@
         "scopecontent": [
             {
                 "id": "aspace_8548357720bbdb7505e7fb3b33a239a5",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The\u003cspan class=\"ead-emph ead-emph-italic\"\u003eHika \u003c/span\u003e Archive consists of one box of correspondence and manuscripts submitted to Hika editor Michael Kirchberger."
@@ -460,11 +495,9 @@
         "userestrict": [
             {
                 "id": "aspace_e9a67d65caf8856e0ceed0aaeea6bf70",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection was not transferred to New York University. Permission to use materials must be secured from the copyright holder. Please contact the Fales Library and Special Collections, fales.library@nyu.edu, 212-998-2596."
@@ -473,58 +506,51 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "countrycode": "US",
-                    "mainagencycode": "US-NNU-F",
-                    "value": "mss_015"
+    "eadheader": {
+        "eadid": {
+            "countrycode": "US",
+            "mainagencycode": "US-NNU-F",
+            "value": "mss_015"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from hika.html"
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "publisher": "Fales Library and Special Collections"
+            },
+            "titlestmt": {
+                "author": "Amber Creger, February 1999. Finding aid updated by Zachary Dabbs and Lawrence Giffin, 2009.",
+                "titleproper": [
+                    {
+                        "value": "Guide to the Hika Archive\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-date\"\u003eca. 1966 \u003c/span\u003e\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e \u003cspan class=\"ead-num\"\u003eMSS.015\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "MSS.015"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 14:59:21 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
-                        {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from hika.html\u003c/span\u003e"
-                        }
-                    ],
-                    "publicationstmt": [
-                        {
-                            "publisher": "Fales Library and Special Collections"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Amber Creger, February 1999. Finding aid updated by Zachary Dabbs and Lawrence Giffin, 2009."
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the Hika Archive\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e\u003cspan class=\"ead-date\"\u003eca. 1966 \u003c/span\u003e\u003cspan class=\"ead-lb\"\u003e\u003c/span\u003e \u003cspan class=\"ead-num\"\u003eMSS.015\u003c/span\u003e"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 14:59:21 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }

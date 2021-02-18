@@ -4,11 +4,9 @@
         "accessrestrict": [
             {
                 "id": "aspace_edc75cd0aebd7420c075f4996a140786",
-                "head": [
-                    {
-                        "value": "Conditions Governing Access"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Access"
+                },
                 "p": [
                     {
                         "value": "Materials are open without restrictions."
@@ -19,11 +17,9 @@
         "acqinfo": [
             {
                 "id": "aspace_38e0d384624b1f81349faa846ebcc872",
-                "head": [
-                    {
-                        "value": "Immediate Source of Acquisition"
-                    }
-                ],
+                "head": {
+                    "value": "Immediate Source of Acquisition"
+                },
                 "p": [
                     {
                         "value": "Donated by Irene Soloway, 1994. The accession number associated with this gift is 1994.007."
@@ -34,9 +30,23 @@
         "arrangement": [
             {
                 "id": "aspace_85b18fb125004997ad67b7de28d6fe5f",
-                "head": [
+                "head": {
+                    "value": "Arrangement"
+                },
+                "list": [
                     {
-                        "value": "Arrangement"
+                        "type": "ordered",
+                        "head": {
+                            "value": "Missing Title"
+                        },
+                        "item": [
+                            {
+                                "value": "I, Administrative, Membership Activities and Publications"
+                            },
+                            {
+                                "value": "II, Advocacy."
+                            }
+                        ]
                     }
                 ],
                 "p": [
@@ -52,11 +62,9 @@
         "bioghist": [
             {
                 "id": "aspace_9d99800306b5c2ba45d04bcd2060544a",
-                "head": [
-                    {
-                        "value": "Historical/Biographical Note"
-                    }
-                ],
+                "head": {
+                    "value": "Historical/Biographical Note"
+                },
                 "p": [
                     {
                         "value": "United Tradeswomen was founded by women working in the construction industry in New York City to promote the training and employment of women, and to combat discrimination in employment and in the workplace."
@@ -76,910 +84,854 @@
                 ]
             }
         ],
-        "controlaccess": [
-            {
-                "corpname": [
-                    {
+        "controlaccess": {
+            "corpname": [
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "United Tradeswomen (New York, N.Y.)"
+                }
+            ],
+            "genreform": [
+                {
+                    "source": "aat",
+                    "value": "Newsletters."
+                },
+                {
+                    "source": "aat",
+                    "value": "Minutes (administrative records)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Printed ephemera."
+                },
+                {
+                    "source": "aat",
+                    "value": "Programs (documents)"
+                },
+                {
+                    "source": "aat",
+                    "value": "Correspondence."
+                }
+            ],
+            "persname": [
+                {
+                    "source": "ingest",
+                    "value": "Ross, Lois."
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Soloway, Irene"
+                },
+                {
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Garvin, Mary"
+                },
+                {
+                    "role": "Donor",
+                    "rules": "dacs",
+                    "source": "local",
+                    "value": "Soloway, Irene"
+                }
+            ],
+            "subject": [
+                {
+                    "source": "lcsh",
+                    "value": "Women labor union members -- New York (State) -- New York"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Construction industry -- New York (State) -- New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Working class -- Education."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Women construction workers --  New York (State) -- New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Sex discrimination in employment -- Construction industry -- New York (State) -- New York"
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Sex role in the work environment x| Construction industry |z New York (State) |z New York."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Women labor union members |v Statistics."
+                },
+                {
+                    "source": "lcsh",
+                    "value": "Minority labor union members."
+                }
+            ]
+        },
+        "did": {
+            "physdesc": [
+                {
+                    "altrender": "whole",
+                    "extent": [
+                        {
+                            "value": "1 Linear Feet",
+                            "altrender": "materialtype spaceoccupied"
+                        },
+                        {
+                            "value": "(2 boxes)",
+                            "altrender": "carrier"
+                        }
+                    ]
+                }
+            ],
+            "abstract": [
+                {
+                    "value": "United Tradeswomen was founded in 1979 as an outgrowth of activity surrounding the entrance of women into the construction trades in New York City. Overt resistance to the entrance of women, persistent discrimination in hiring, and the on-going need for support for those women in the trades, prompted several women to organize the group. These records include meeting minutes, organizational correspondence, informational leaflets and handouts, program announcements and posters, newsletters, and internal memos.",
+                    "id": "aspace_37f14929d97b2e03c0d39f0c77cc5401"
+                }
+            ],
+            "langmaterial": [
+                {
+                    "value": "\n      \n.    ",
+                    "language": {
+                        "langcode": "eng",
+                        "scriptcode": "Latn",
+                        "value": "English"
+                    }
+                }
+            ],
+            "origination": [
+                {
+                    "label": "Creator",
+                    "corpname": {
+                        "rules": "dacs",
+                        "source": "local",
                         "value": "United Tradeswomen (New York, N.Y.)"
                     }
-                ],
-                "genreform": [
-                    "Newsletters.",
-                    "Minutes (administrative records)",
-                    "Printed ephemera.",
-                    "Programs (documents)",
-                    "Correspondence."
-                ],
-                "persname": [
-                    {
-                        "value": "Ross, Lois."
-                    },
-                    {
-                        "value": "Soloway, Irene"
-                    },
-                    {
-                        "value": "Garvin, Mary"
-                    },
-                    {
+                },
+                {
+                    "label": "source",
+                    "persname": {
                         "role": "Donor",
+                        "rules": "dacs",
+                        "source": "local",
                         "value": "Soloway, Irene"
                     }
-                ],
-                "subject": [
-                    "Women labor union members -- New York (State) -- New York",
-                    "Construction industry -- New York (State) -- New York.",
-                    "Working class -- Education.",
-                    "Women construction workers --  New York (State) -- New York.",
-                    "Sex discrimination in employment -- Construction industry -- New York (State) -- New York",
-                    "Sex role in the work environment x| Construction industry |z New York (State) |z New York.",
-                    "Women labor union members |v Statistics.",
-                    "Minority labor union members."
-                ]
+                }
+            ],
+            "repository": {
+                "corpname": {
+                    "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                },
+                "value": "\n      \n    "
+            },
+            "unitdate": [
+                {
+                    "normal": "1979/1984",
+                    "type": "inclusive",
+                    "value": "1979-1984"
+                }
+            ],
+            "unitid": "WAG.102",
+            "unittitle": {
+                "value": "United Tradeswomen Records"
             }
-        ],
-        "did": [
-            {
-                "physdesc": [
-                    {
-                        "extent": [
-                            {
-                                "value": "1 Linear Feet"
-                            },
-                            {
-                                "value": "(2 boxes)"
+        },
+        "dsc": {
+            "c": [
+                {
+                    "id": "aspace_ref13",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref14",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062766467",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_bdf40e38c6e00ea606e41fa3102e6d82",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_862fe2d637ba8fbebcc038729125aa23",
+                                        "parent": "aspace_bdf40e38c6e00ea606e41fa3102e6d82",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "United Tradeswomen - Committee Notes, Minutes"
+                                }
                             }
-                        ]
-                    }
-                ],
-                "abstract": [
-                    {
-                        "value": "United Tradeswomen was founded in 1979 as an outgrowth of activity surrounding the entrance of women into the construction trades in New York City. Overt resistance to the entrance of women, persistent discrimination in hiring, and the on-going need for support for those women in the trades, prompted several women to organize the group. These records include meeting minutes, organizational correspondence, informational leaflets and handouts, program announcements and posters, newsletters, and internal memos.",
-                        "id": "aspace_37f14929d97b2e03c0d39f0c77cc5401"
-                    }
-                ],
-                "langmaterial": [
-                    {
-                        "language": [
-                            {
-                                "langcode": "eng",
-                                "scriptcode": "Latn",
-                                "value": "English"
+                        },
+                        {
+                            "id": "aspace_ref15",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062766467",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_ca8093c0e2f80643d574fc8aaba71264",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_f2979946e26061c33db7b6080e2d4db3",
+                                        "parent": "aspace_ca8093c0e2f80643d574fc8aaba71264",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "UT - Newsletters"
+                                }
                             }
-                        ],
-                        "value": "\n      \n.    "
-                    }
-                ],
-                "origination": [
-                    {
-                        "label": "Creator",
-                        "corpname": [
-                            {
-                                "value": "United Tradeswomen (New York, N.Y.)"
+                        },
+                        {
+                            "id": "aspace_ref16",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062766467",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_692a5671df6820a3a3920e83c1549ddf",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d99a3dbf5c0e25c3e6ef90f2000f0906",
+                                        "parent": "aspace_692a5671df6820a3a3920e83c1549ddf",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "UT - Flyers"
+                                }
                             }
-                        ]
-                    },
-                    {
-                        "label": "source",
-                        "persname": [
-                            {
-                                "role": "Donor",
-                                "value": "Soloway, Irene"
+                        },
+                        {
+                            "id": "aspace_ref17",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062766467",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_7222423ec0ad4b0435738f5d84d1b812",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_a5fc8c1ab67b9a5094ea8c585acadab2",
+                                        "parent": "aspace_7222423ec0ad4b0435738f5d84d1b812",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "UT - Membership Activities #1"
+                                }
                             }
-                        ]
-                    }
-                ],
-                "repository": [
-                    {
-                        "corpname": [
-                            {
-                                "value": "Tamiment Library and Robert F. Wagner Labor Archives"
+                        },
+                        {
+                            "id": "aspace_ref18",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062766467",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_4850c48b99fceb74d4aa00b9bad2b0f1",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_efa2f77a93dfea5f83ddbc23f596bb90",
+                                        "parent": "aspace_4850c48b99fceb74d4aa00b9bad2b0f1",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "UT - Membership Activities #2 - Apprenticeship"
+                                }
                             }
-                        ]
-                    }
-                ],
-                "unitdate": [
-                    {
-                        "normal": "1979/1984",
-                        "type": "inclusive",
-                        "value": "1979-1984"
-                    }
-                ],
-                "unitid": [
-                    {
-                        "value": "WAG.102"
-                    }
-                ],
-                "unittitle": [
-                    {
-                        "value": "United Tradeswomen Records"
-                    }
-                ]
-            }
-        ],
-        "dsc": [
-            {
-                "c": [
-                    {
-                        "id": "aspace_ref13",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref14",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                        },
+                        {
+                            "id": "aspace_ref19",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766467",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_bdf40e38c6e00ea606e41fa3102e6d82",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_862fe2d637ba8fbebcc038729125aa23",
-                                                "parent": "aspace_bdf40e38c6e00ea606e41fa3102e6d82",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "United Tradeswomen - Committee Notes, Minutes"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref15",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                        "barcode": "31142062766467",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_48abfd0ee7fd4b942d7778824607475b",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766467",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_ca8093c0e2f80643d574fc8aaba71264",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_f2979946e26061c33db7b6080e2d4db3",
-                                                "parent": "aspace_ca8093c0e2f80643d574fc8aaba71264",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "UT - Newsletters"
-                                            }
-                                        ]
+                                        "id": "aspace_cc2d77300bf75270af316ea59e30e5fb",
+                                        "parent": "aspace_48abfd0ee7fd4b942d7778824607475b",
+                                        "type": "folder",
+                                        "value": "6"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref16",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                ],
+                                "unitdate": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766467",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_692a5671df6820a3a3920e83c1549ddf",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d99a3dbf5c0e25c3e6ef90f2000f0906",
-                                                "parent": "aspace_692a5671df6820a3a3920e83c1549ddf",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "UT - Flyers"
-                                            }
-                                        ]
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref17",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766467",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_7222423ec0ad4b0435738f5d84d1b812",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_a5fc8c1ab67b9a5094ea8c585acadab2",
-                                                "parent": "aspace_7222423ec0ad4b0435738f5d84d1b812",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "UT - Membership Activities #1"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref18",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766467",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_4850c48b99fceb74d4aa00b9bad2b0f1",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_efa2f77a93dfea5f83ddbc23f596bb90",
-                                                "parent": "aspace_4850c48b99fceb74d4aa00b9bad2b0f1",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "UT - Membership Activities #2 - Apprenticeship"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref19",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766467",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_48abfd0ee7fd4b942d7778824607475b",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_cc2d77300bf75270af316ea59e30e5fb",
-                                                "parent": "aspace_48abfd0ee7fd4b942d7778824607475b",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "UT - Membership Activities #3 - Jobs Committee"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref20",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766467",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_c5cc02345f8b9a2a3f8061a31bfe1275",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_1951663bdf53f5c5bd2d2fa3d4d25b8e",
-                                                "parent": "aspace_c5cc02345f8b9a2a3f8061a31bfe1275",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "UT - Membership Activities #4 - Carpenters' Committee"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref21",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766467",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_9bd8b00adb220a02de7eb081d3655424",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_de9631c3cf8ec52ea429c0b0cbc3de36",
-                                                "parent": "aspace_9bd8b00adb220a02de7eb081d3655424",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "UT - Membership Activities #5 - UDC \u0026 Convention Center"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref22",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766467",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_f85169b398e0c2f9091123b42a17fcf3",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_16bc47c5be00399249b6ce03691e1ea2",
-                                                "parent": "aspace_f85169b398e0c2f9091123b42a17fcf3",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "UT - New York City Hiring, Bureau of Labor Statistics"
-                                            }
-                                        ]
-                                    }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "UT - Membership Activities #3 - Jobs Committee"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
+                        },
+                        {
+                            "id": "aspace_ref20",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Series I: Administrative, Membership Activities and Publications."
+                                        "barcode": "31142062766467",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_c5cc02345f8b9a2a3f8061a31bfe1275",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_1951663bdf53f5c5bd2d2fa3d4d25b8e",
+                                        "parent": "aspace_c5cc02345f8b9a2a3f8061a31bfe1275",
+                                        "type": "folder",
+                                        "value": "7"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "UT - Membership Activities #4 - Carpenters' Committee"
+                                }
                             }
-                        ]
-                    },
-                    {
-                        "id": "aspace_ref23",
-                        "level": "series",
-                        "c": [
-                            {
-                                "id": "aspace_ref24",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                        },
+                        {
+                            "id": "aspace_ref21",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766467",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_556915cb31f19cd2a3b1b118dc4a1ffb",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_d8fdcdf6386a984da3f8cbbe89d37357",
-                                                "parent": "aspace_556915cb31f19cd2a3b1b118dc4a1ffb",
-                                                "type": "folder",
-                                                "value": "10"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Advocacy - New York - WITT (Women In The Trades)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref25",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                        "barcode": "31142062766467",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_9bd8b00adb220a02de7eb081d3655424",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766467",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_f76f5e6310805ec186bf28b4c934febe",
-                                                "type": "box",
-                                                "value": "1"
-                                            },
-                                            {
-                                                "id": "aspace_c84d5a91a498545d1db5128b6da8f8e7",
-                                                "parent": "aspace_f76f5e6310805ec186bf28b4c934febe",
-                                                "type": "folder",
-                                                "value": "11"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Advocacy - New York - Committee For Women In Non-Traditional Jobs"
-                                            }
-                                        ]
+                                        "id": "aspace_de9631c3cf8ec52ea429c0b0cbc3de36",
+                                        "parent": "aspace_9bd8b00adb220a02de7eb081d3655424",
+                                        "type": "folder",
+                                        "value": "8"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref26",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
+                                ],
+                                "unitdate": [
                                     {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766475",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_c23da0521164e3eefefa6ff2b7d774ac",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_06323bb03384be56b1fb057f1dc21e33",
-                                                "parent": "aspace_c23da0521164e3eefefa6ff2b7d774ac",
-                                                "type": "folder",
-                                                "value": "1"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Advocacy - New York - Women In Apprenticeship/NEW (Non-Traditional Employment for Women)"
-                                            }
-                                        ]
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
                                     }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref27",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766475",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_43713d9225e3e3003c8ec21a8cbefd21",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_d64e234683cfdb712b99b1962712b79c",
-                                                "parent": "aspace_43713d9225e3e3003c8ec21a8cbefd21",
-                                                "type": "folder",
-                                                "value": "2"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Advocacy - New York - All Craft"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref28",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766475",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_cb1ec09ef2e0bead3aed7a6101d33f4f",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_317a3d0cfcfe20fe772bf228431c5171",
-                                                "parent": "aspace_cb1ec09ef2e0bead3aed7a6101d33f4f",
-                                                "type": "folder",
-                                                "value": "3"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Advocacy - New York - Fight Back"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref29",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766475",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_3c86aff7a64ca97a44e18a5c2cd8dd05",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_b424f6624048a2b333b3f8b1be2986bc",
-                                                "parent": "aspace_3c86aff7a64ca97a44e18a5c2cd8dd05",
-                                                "type": "folder",
-                                                "value": "4"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Advocacy - New York - Working Women's Institute"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref30",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766475",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_d755ba8569e596b78ac97afb9cd1bd2b",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_6724516b14d642f7f64bb656c550ccf5",
-                                                "parent": "aspace_d755ba8569e596b78ac97afb9cd1bd2b",
-                                                "type": "folder",
-                                                "value": "5"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Advocacy - Boston - (WICP) Women In Non-Traditional Jobs"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref31",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766475",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_7726778514486e54b2c59f1a1f7e4f23",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_33d4763b4ea9df3a4f618aa0e0478e55",
-                                                "parent": "aspace_7726778514486e54b2c59f1a1f7e4f23",
-                                                "type": "folder",
-                                                "value": "6"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Advocacy - Washington, D.C. - Blue Collar Trades Women, Women's Work Force"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref32",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766475",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_0adec8054278d2959e5e66653240a1de",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_c38632d603016787eac57d7de79f984d",
-                                                "parent": "aspace_0adec8054278d2959e5e66653240a1de",
-                                                "type": "folder",
-                                                "value": "7"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Advocacy - California - Tradeswomen, Inc."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref33",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766475",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_1c8cebd90887a8ce0462d2e16e8439c2",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_5eac49906505b1780210c50a38ff0a60",
-                                                "parent": "aspace_1c8cebd90887a8ce0462d2e16e8439c2",
-                                                "type": "folder",
-                                                "value": "8"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Advocacy - Other (PA, MN)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "aspace_ref34",
-                                "level": "otherlevel",
-                                "otherlevel": "unspecified",
-                                "did": [
-                                    {
-                                        "container": [
-                                            {
-                                                "barcode": "31142062766475",
-                                                "label": "Mixed Materials",
-                                                "altrender": "Manuscript box - Legal",
-                                                "id": "aspace_038513984d226fe2dca9b76dc784030f",
-                                                "type": "box",
-                                                "value": "2"
-                                            },
-                                            {
-                                                "id": "aspace_8922257a1b6a18b9fe77a850d804c19d",
-                                                "parent": "aspace_038513984d226fe2dca9b76dc784030f",
-                                                "type": "folder",
-                                                "value": "9"
-                                            }
-                                        ],
-                                        "unitdate": [
-                                            {
-                                                "normal": "1979/1984",
-                                                "type": "inclusive",
-                                                "value": "1979-1984"
-                                            }
-                                        ],
-                                        "unittitle": [
-                                            {
-                                                "value": "Advocacy - Brochures, Fact Sheets, Newsletters"
-                                            }
-                                        ]
-                                    }
-                                ]
+                                ],
+                                "unittitle": {
+                                    "value": "UT - Membership Activities #5 - UDC \u0026 Convention Center"
+                                }
                             }
-                        ],
-                        "did": [
-                            {
-                                "unittitle": [
+                        },
+                        {
+                            "id": "aspace_ref22",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
                                     {
-                                        "value": "Series II: Advocacy."
+                                        "barcode": "31142062766467",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_f85169b398e0c2f9091123b42a17fcf3",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_16bc47c5be00399249b6ce03691e1ea2",
+                                        "parent": "aspace_f85169b398e0c2f9091123b42a17fcf3",
+                                        "type": "folder",
+                                        "value": "9"
                                     }
-                                ]
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "UT - New York City Hiring, Bureau of Labor Statistics"
+                                }
                             }
-                        ]
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series I: Administrative, Membership Activities and Publications."
+                        }
                     }
-                ]
-            }
-        ],
+                },
+                {
+                    "id": "aspace_ref23",
+                    "level": "series",
+                    "c": [
+                        {
+                            "id": "aspace_ref24",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062766467",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_556915cb31f19cd2a3b1b118dc4a1ffb",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_d8fdcdf6386a984da3f8cbbe89d37357",
+                                        "parent": "aspace_556915cb31f19cd2a3b1b118dc4a1ffb",
+                                        "type": "folder",
+                                        "value": "10"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Advocacy - New York - WITT (Women In The Trades)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref25",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062766467",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_f76f5e6310805ec186bf28b4c934febe",
+                                        "type": "box",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "id": "aspace_c84d5a91a498545d1db5128b6da8f8e7",
+                                        "parent": "aspace_f76f5e6310805ec186bf28b4c934febe",
+                                        "type": "folder",
+                                        "value": "11"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Advocacy - New York - Committee For Women In Non-Traditional Jobs"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref26",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062766475",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_c23da0521164e3eefefa6ff2b7d774ac",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_06323bb03384be56b1fb057f1dc21e33",
+                                        "parent": "aspace_c23da0521164e3eefefa6ff2b7d774ac",
+                                        "type": "folder",
+                                        "value": "1"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Advocacy - New York - Women In Apprenticeship/NEW (Non-Traditional Employment for Women)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref27",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062766475",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_43713d9225e3e3003c8ec21a8cbefd21",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_d64e234683cfdb712b99b1962712b79c",
+                                        "parent": "aspace_43713d9225e3e3003c8ec21a8cbefd21",
+                                        "type": "folder",
+                                        "value": "2"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Advocacy - New York - All Craft"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref28",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062766475",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_cb1ec09ef2e0bead3aed7a6101d33f4f",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_317a3d0cfcfe20fe772bf228431c5171",
+                                        "parent": "aspace_cb1ec09ef2e0bead3aed7a6101d33f4f",
+                                        "type": "folder",
+                                        "value": "3"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Advocacy - New York - Fight Back"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref29",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062766475",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_3c86aff7a64ca97a44e18a5c2cd8dd05",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_b424f6624048a2b333b3f8b1be2986bc",
+                                        "parent": "aspace_3c86aff7a64ca97a44e18a5c2cd8dd05",
+                                        "type": "folder",
+                                        "value": "4"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Advocacy - New York - Working Women's Institute"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref30",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062766475",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_d755ba8569e596b78ac97afb9cd1bd2b",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_6724516b14d642f7f64bb656c550ccf5",
+                                        "parent": "aspace_d755ba8569e596b78ac97afb9cd1bd2b",
+                                        "type": "folder",
+                                        "value": "5"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Advocacy - Boston - (WICP) Women In Non-Traditional Jobs"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref31",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062766475",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_7726778514486e54b2c59f1a1f7e4f23",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_33d4763b4ea9df3a4f618aa0e0478e55",
+                                        "parent": "aspace_7726778514486e54b2c59f1a1f7e4f23",
+                                        "type": "folder",
+                                        "value": "6"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Advocacy - Washington, D.C. - Blue Collar Trades Women, Women's Work Force"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref32",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062766475",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_0adec8054278d2959e5e66653240a1de",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_c38632d603016787eac57d7de79f984d",
+                                        "parent": "aspace_0adec8054278d2959e5e66653240a1de",
+                                        "type": "folder",
+                                        "value": "7"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Advocacy - California - Tradeswomen, Inc."
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref33",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062766475",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_1c8cebd90887a8ce0462d2e16e8439c2",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_5eac49906505b1780210c50a38ff0a60",
+                                        "parent": "aspace_1c8cebd90887a8ce0462d2e16e8439c2",
+                                        "type": "folder",
+                                        "value": "8"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Advocacy - Other (PA, MN)"
+                                }
+                            }
+                        },
+                        {
+                            "id": "aspace_ref34",
+                            "level": "otherlevel",
+                            "otherlevel": "unspecified",
+                            "did": {
+                                "container": [
+                                    {
+                                        "barcode": "31142062766475",
+                                        "label": "Mixed Materials",
+                                        "altrender": "Manuscript box - Legal",
+                                        "id": "aspace_038513984d226fe2dca9b76dc784030f",
+                                        "type": "box",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "id": "aspace_8922257a1b6a18b9fe77a850d804c19d",
+                                        "parent": "aspace_038513984d226fe2dca9b76dc784030f",
+                                        "type": "folder",
+                                        "value": "9"
+                                    }
+                                ],
+                                "unitdate": [
+                                    {
+                                        "normal": "1979/1984",
+                                        "type": "inclusive",
+                                        "value": "1979-1984"
+                                    }
+                                ],
+                                "unittitle": {
+                                    "value": "Advocacy - Brochures, Fact Sheets, Newsletters"
+                                }
+                            }
+                        }
+                    ],
+                    "did": {
+                        "unittitle": {
+                            "value": "Series II: Advocacy."
+                        }
+                    }
+                }
+            ]
+        },
         "prefercite": [
             {
                 "id": "aspace_2b710bc9c8f8e7901ddaaeec9a92a296",
-                "head": [
-                    {
-                        "value": "Preferred Citation"
-                    }
-                ],
+                "head": {
+                    "value": "Preferred Citation"
+                },
                 "p": [
                     {
                         "value": "Published citations should take the following form: \u003cbr\u003e\u003cbr\u003eIdentification of item, date; Collection name; Collection number; box number; folder number; \u003cbr\u003eTamiment Library/Robert F. Wagner Labor Archives \u003cbr\u003eElmer Holmes Bobst Library \u003cbr\u003e70 Washington Square South \u003cbr\u003eNew York, NY 10012, New York University Libraries."
@@ -990,11 +942,9 @@
         "relatedmaterial": [
             {
                 "id": "aspace_b2347c0b3775223be71ba5b29262ac1c",
-                "head": [
-                    {
-                        "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
-                    }
-                ],
+                "head": {
+                    "value": "Related Material at the Tamiment Library/Robert F. Wagner Labor Archives"
+                },
                 "p": [
                     {
                         "value": "United Tradeswomen; Non-Traditional Employment for Women; All-Craft Center and All-Craft Foundation; Coalition of Labor Union Union Women CLUW); Harlem Fight Back"
@@ -1026,11 +976,9 @@
         "scopecontent": [
             {
                 "id": "aspace_9b5ec12a59534dad211c8d9da4ba1c13",
-                "head": [
-                    {
-                        "value": "Scope and Content Note"
-                    }
-                ],
+                "head": {
+                    "value": "Scope and Content Note"
+                },
                 "p": [
                     {
                         "value": "The collection contains minutes and correspondence, newsletters, brochures, flyers and posters, program announcements and internal memos. The records document the work of the various Committees and the Borough Coordinators for the UT. As an aid to the advocacy work of the organization, the group collected informational brochures and materials from other organizations seeking to act as advocates for women in the trades. Various lobbying efforts on behalf of local and state legislative initiatives, such as Executive Order #50, New York City's Affirmative Action Policy, hiring campaigns aimed at certain high-profile employers, such as the Javits Center, as well as efforts to monitor and pressure the various local, state and federal regulatory agencies, are included in the Collection."
@@ -1044,11 +992,9 @@
         "userestrict": [
             {
                 "id": "aspace_c78e754e0555c9d9b315558ef36472f7",
-                "head": [
-                    {
-                        "value": "Conditions Governing Use"
-                    }
-                ],
+                "head": {
+                    "value": "Conditions Governing Use"
+                },
                 "p": [
                     {
                         "value": "Copyright (or related rights to publicity and privacy) for materials in this collection, created by the United Tradeswomen was not transferred to New York University. Permission to use materials must be secured from the copyright holder."
@@ -1057,92 +1003,91 @@
             }
         ]
     },
-    "eadheader": [
-        {
-            "eadid": [
-                {
-                    "url": "http://dlib.nyu.edu/findingaids/html/tamwag/wag_102/",
-                    "value": "wag_102"
-                }
-            ],
-            "filedesc": [
-                {
-                    "editionstmt": [
+    "eadheader": {
+        "eadid": {
+            "url": "http://dlib.nyu.edu/findingaids/html/tamwag/wag_102/",
+            "value": "wag_102"
+        },
+        "filedesc": {
+            "editionstmt": {
+                "p": [
+                    {
+                        "value": "This version was derived from United Trades.sgm"
+                    }
+                ]
+            },
+            "notestmt": {
+                "note": [
+                    {
+                        "p": [
+                            {
+                                "value": "Inventory, Folder Level"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "publicationstmt": {
+                "address": {
+                    "addressline": [
                         {
-                            "value": "\u003cspan class=\"ead-p\"\u003eThis version was derived from United Trades.sgm\u003c/span\u003e"
-                        }
-                    ],
-                    "notestmt": [
-                        {}
-                    ],
-                    "publicationstmt": [
+                            "value": "Elmer Holmes Bobst Library"
+                        },
                         {
-                            "address": [
+                            "value": "70 Washington Square South"
+                        },
+                        {
+                            "value": "2nd Floor"
+                        },
+                        {
+                            "value": "New York, NY 10012"
+                        },
+                        {
+                            "value": "special.collections@nyu.edu"
+                        },
+                        {
+                            "extptr": [
                                 {
-                                    "addressline": [
-                                        {
-                                            "value": "Elmer Holmes Bobst Library"
-                                        },
-                                        {
-                                            "value": "70 Washington Square South"
-                                        },
-                                        {
-                                            "value": "2nd Floor"
-                                        },
-                                        {
-                                            "value": "New York, NY 10012"
-                                        },
-                                        {
-                                            "value": "special.collections@nyu.edu"
-                                        },
-                                        {
-                                            "extptr": [
-                                                {
-                                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "show": "new",
-                                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
-                                                    "type": "simple"
-                                                }
-                                            ],
-                                            "value": "URL: "
-                                        }
-                                    ]
+                                    "href": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "show": "new",
+                                    "title": "http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/",
+                                    "type": "simple"
                                 }
                             ],
-                            "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
-                        }
-                    ],
-                    "titlestmt": [
-                        {
-                            "author": [
-                                "Jane Latour"
-                            ],
-                            "titleproper": [
-                                {
-                                    "value": "Guide to the United Tradeswomen Records \u003cspan class=\"ead-num\"\u003eWAG.102\u003c/span\u003e"
-                                }
-                            ]
+                            "value": "URL: "
                         }
                     ]
+                },
+                "publisher": "Tamiment Library and Robert F. Wagner Labor Archives"
+            },
+            "titlestmt": {
+                "author": "Jane Latour",
+                "titleproper": [
+                    {
+                        "value": "Guide to the United Tradeswomen Records \u003cspan class=\"ead-num\"\u003eWAG.102\u003c/span\u003e",
+                        "num": [
+                            {
+                                "value": "WAG.102"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "profiledesc": {
+            "creation": {
+                "date": {
+                    "value": "2021-01-21 15:59:29 -0500"
+                },
+                "value": "This finding aid was produced using ArchivesSpace on ."
+            },
+            "langusage": {
+                "language": {
+                    "encodinganalog": "546",
+                    "langcode": "eng",
+                    "value": "English"
                 }
-            ],
-            "profiledesc": [
-                {
-                    "creation": [
-                        {
-                            "date": [
-                                "2021-01-21 15:59:29 -0500"
-                            ],
-                            "value": "This finding aid was produced using ArchivesSpace on ."
-                        }
-                    ],
-                    "langusage": [
-                        {
-                            "value": "Description is in ."
-                        }
-                    ]
-                }
-            ]
+            }
         }
-    ]
+    }
 }
